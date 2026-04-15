@@ -1,4 +1,4 @@
-; 775/775 (100%)
+; 774/775 (99%)
 engine\shaders\ambient.inc.fx
 engine\shaders\artisticconstants.inc.fx
 engine\shaders\bits.inc.fx
@@ -22,7 +22,6 @@ engine\shaders\entrypoint.inc.fx
 engine\shaders\envsample.inc.fx
 engine\shaders\fastinitdata.bin
 engine\shaders\fastinitdata.bin.debug.xml
-engine\shaders\fastinitdata_editor.bin.debug.xml
 engine\shaders\fireuipixel.inc.fx
 engine\shaders\fireuivertex.inc.fx
 engine\shaders\floatingbodystate.inc.fx
