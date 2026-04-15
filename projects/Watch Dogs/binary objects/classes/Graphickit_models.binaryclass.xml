@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Graphickit_modelsParameters">
+	<inherit name="SharedParameters"/>
+	<field name="agerangeAgeRange" type="BinHex"/>
+	<field name="bAllowProceduralShadow" type="Boolean"/>
+	<field name="bOverrideModelInfo" type="Boolean"/>
+	<object name="ModelInfo">
+		<field name="selGender" type="Enum"/>
+		<field name="selSocialClass" type="Enum"/>
+	</object>
+	<object name="Parts">
+		<object name="Part">
+			<field name="hidVersion" type="BinHex"/>
+			<field name="graphickitpartPart" type="BinHex"/>
+			<field name="selPoseDefinitionId" type="BinHex"/>
+			<field name="selMaterialOverridesId" type="BinHex"/>
+			<object name="BoneAnchor">
+				<field name="text_BoneName" type="String"/>
+				<field name="BoneName" type="BinHex"/>
+				<field name="vectorTranslation" type="Vector3"/>
+				<field name="angvecRotation" type="Vector3"/>
+				<field name="vectorNonUniformScale" type="Vector3"/>
+			</object>
+		</object>
+	</object>
+	<object name="AgeRange">
+		<field name="agerangeAgeRangeOverride" type="BinHex"/>
+		<field name="Start" type="BinHex"/>
+		<field name="End" type="BinHex"/>
+	</object>
+	<object name="Tags">
+		<object name="Tag">
+			<field name="selTag" type="Enum"/>
+		</object>
+	</object>
+	<object name="PartsSet">
+		<object name="Part">
+			<field name="hidVersion" type="BinHex"/>
+			<field name="graphickitpartPart" type="BinHex"/>
+			<field name="selPoseDefinitionId" type="BinHex"/>
+			<field name="selMaterialOverridesId" type="BinHex"/>
+			<object name="BoneAnchor">
+				<field name="text_BoneName" type="String"/>
+				<field name="BoneName" type="BinHex"/>
+				<field name="vectorTranslation" type="Vector3"/>
+				<field name="angvecRotation" type="Vector3"/>
+				<field name="vectorNonUniformScale" type="Vector3"/>
+			</object>
+		</object>
+	</object>
+	<object name="Similarity">
+		<object name="Part">
+			<field name="hidVersion" type="BinHex"/>
+			<field name="graphickitpartPart" type="BinHex"/>
+			<field name="selPoseDefinitionId" type="BinHex"/>
+			<field name="selMaterialOverridesId" type="BinHex"/>
+			<object name="BoneAnchor">
+				<field name="text_BoneName" type="String"/>
+				<field name="BoneName" type="BinHex"/>
+				<field name="vectorTranslation" type="Vector3"/>
+				<field name="angvecRotation" type="Vector3"/>
+				<field name="vectorNonUniformScale" type="Vector3"/>
+			</object>
+			<field name="Part" type="BinHex"/>
+		</object>
+	</object>
+</class>

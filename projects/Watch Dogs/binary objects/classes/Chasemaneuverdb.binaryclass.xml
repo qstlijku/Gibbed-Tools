@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChasemaneuverdbParameters">
+	<inherit name="SharedParameters"/>
+	<field name="maneuverparamsdbManeuverParamsDb" type="BinHex"/>
+	<object name="Chaser">
+		<object name="SideRam">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+		<object name="HeadOnRam">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+		<object name="BrakeAhead">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+		<object name="FrontHandbrake">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+	</object>
+	<object name="Muscle">
+		<object name="SideRam">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+		<object name="HeadOnRam">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+		<object name="BrakeAhead">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+		<object name="FrontHandbrake">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+	</object>
+	<object name="SUV">
+		<object name="SideRam">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+		<object name="HeadOnRam">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+		<object name="BrakeAhead">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+		<object name="FrontHandbrake">
+			<field name="fAggressionLevel" type="Float"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChasemaneuverparamsdbParameters">
+	<inherit name="SharedParameters"/>
+	<object name="SideRam">
+		<object name="curvePrepareTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveActiveTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveAgentCooldownTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveGlobalCooldownTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+	</object>
+	<object name="HeadOnRam">
+		<object name="curvePrepareTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveActiveTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveAgentCooldownTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveGlobalCooldownTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+	</object>
+	<object name="BrakeAhead">
+		<object name="curvePrepareTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveActiveTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveAgentCooldownTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveGlobalCooldownTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+	</object>
+	<object name="FrontHandbrake">
+		<object name="curvePrepareTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveActiveTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveAgentCooldownTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveGlobalCooldownTime">
+			<inherit name="KnotsParameters"/>
+		</object>
+	</object>
+</class>

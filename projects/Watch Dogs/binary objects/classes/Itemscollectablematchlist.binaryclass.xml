@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemscollectablematchlistParameters">
+	<inherit name="SharedParameters"/>
+	<field name="selCollectibleType" type="Enum"/>
+	<field name="text_trackingdataTrackingDataToIncrement" type="String"/>
+	<field name="trackingdataTrackingDataToIncrement" type="BinHex"/>
+	<field name="sIconTextureName" type="String"/>
+	<field name="itemlistsOnCompleteCollectablesReward" type="BinHex"/>
+	<object name="CollectibleProgressProperties">
+		<field name="accessidAccessId" type="BinHex"/>
+	</object>
+	<object name="locstridName">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="OnAmountItemsAchievedList">
+		<object name="OnAmountItemsAchieved">
+			<field name="iAmountToAchieve" type="Int32"/>
+			<field name="bUseItemList" type="Boolean"/>
+			<field name="itemsItem" type="BinHex"/>
+			<field name="itemlistsRewardList" type="BinHex"/>
+		</object>
+	</object>
+  <object name="OnAmountFirstItemsAchievedList" />
+	<object name="CollectableMatchList">
+		<object name="CollectableMatchElement">
+			<field name="itemsItem" type="BinHex"/>
+			<field name="iAmountToAchieve" type="Int32"/>
+		</object>
+	</object>
+</class>

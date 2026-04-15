@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Civilianreaction_2ce33943Parameters">
+	<inherit name="SharedParameters"/>
+	<object name="GenericContexts">
+		<field name="civreactcontextDefault" type="BinHex"/>
+		<field name="civreactcontextWalker" type="BinHex"/>
+		<field name="civreactcontextEnticer" type="BinHex"/>
+		<field name="civreactcontextShopKeeper" type="BinHex"/>
+		<field name="civreactcontextDenunciator" type="BinHex"/>
+		<field name="civreactcontextDetector" type="BinHex"/>
+		<field name="civreactcontextInterior" type="BinHex"/>
+		<field name="civreactcontextDisabled" type="BinHex"/>
+		<field name="civreactcontextCarCrashAttractor" type="BinHex"/>
+		<field name="civreactcontextInTrain" type="BinHex"/>
+		<field name="civreactcontextDriverOutside" type="BinHex"/>
+	</object>
+	<object name="IncidentSettings">
+	    <object name="BlackoutStart">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="BlackoutStop">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="HitByProjectile">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="AimedByARGun">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="AimedByGun">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="ARGunShot">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="Arrest">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="BlackoutStart_Day">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="BlackoutStop_Day">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="BlackoutStart_Night">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="BlackoutStop_Night">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="BlumeAgentHacked">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="BulletImpact">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CivilianAnxiety">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CivilianPanic">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CivilianSpiderTankPanic">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CivilianHitByACarButNotDead_ReputationOnly">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CarCrash">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CarCrashBig">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CarCrashPileup">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CarHackedAlarm">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CarHonk">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CarHonkPlayer">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="Carjacking">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CarOnOpenBridge">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CarSiren">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CarTheft">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CommunicationDisrupted">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CopNonLethalShot">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CopNonLethalTakedown">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="CuriousBhv">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="KilledMobster">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="DeadBody">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="DenunciatorAttacked">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="ElectricSpark">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="Fire">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="FleeFromShop">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="GrenadeInEnvironment">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="GrenadeInHand">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="GunShot">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="GunShotAtPolice">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="GunShotInPanic">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="HackedEntityMalfunction">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="HitByVehicle">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="HoldUpShopkeeper">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="IncomingClimber">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="IncomingThreat">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="IncomingRunner">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="KilledCivilian">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="KilledCivilianByCar">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="KilledPolice">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="LargeBump">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="LargeCloseObjectBroken">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="LargeExplosion">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="MyCloseObjectBroken">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="MyCloseObjectBigBroken">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="MyCarJackingFinished">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="MyCarJackingFinishedRunAway">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="MyTakeDownFinished">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="OffRoadDriving">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="OnLeaderQuitCuriosity">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="OnLeaderQuitAnxiety">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="OnLeaderQuitPanic">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="OwnCarStolen">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="PanicInside">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="PeopleDie">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="PersonAttacked">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="PlayerPlayingARGame">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="PlayerProximity">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="ProlongedPlayerProximity">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="PuddleSplash">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="RainStart">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="RainStop">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="ReputationGood">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="ReputationBad">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="RunningPeopleProximity">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="ShutDownMediaBroadcast">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="SmallBump">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="SmallCloseObjectBroken">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="SmallExplosion">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="SpecialBroadcast">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="SteamPipe">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="SteamPipeExplosion">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="SECarAccident">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="ThreatProximity">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="UncommonAction">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="UnholsteredGun">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="XIngredientHack_Audio">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="XIngredientHack_MechanicalBig">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="XIngredientHack_MechanicalSmall">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+		<object name="XIngredientHack_Visual">
+			<inherit name="Civilianreaction_2ce33943_SharedParameters"/>
+		</object>
+	</object>
+	<object name="DefaultFacialAnimSettings">
+		<object name="CuriosityFacialAnims">
+			<object name="fileFacialAnim">
+				<field name="text_fileFacialAnim" type="String"/>
+				<field name="fileFacialAnim" type="BinHex"/>
+			</object>
+		</object>
+		<object name="AnxietyFacialAnims">
+			<object name="fileFacialAnim">
+				<field name="text_fileFacialAnim" type="String"/>
+				<field name="fileFacialAnim" type="BinHex"/>
+			</object>
+		</object>
+		<object name="PanicFacialAnims">
+			<object name="fileFacialAnim">
+				<field name="text_fileFacialAnim" type="String"/>
+				<field name="fileFacialAnim" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="ProximitySettings">
+		<object name="LookAtZone">
+			<field name="fMinReactionTime" type="Float"/>
+			<field name="fMaxReactionTime" type="Float"/>
+			<object name="InnerZone">
+				<field name="fRadius" type="Float"/>
+				<field name="fAngle" type="Float"/>
+			</object>
+			<object name="OuterZone">
+				<field name="fRadius" type="Float"/>
+				<field name="fAngle" type="Float"/>
+			</object>
+		</object>
+		<object name="ProlongedStayZone">
+			<field name="fMinReactionTime" type="Float"/>
+			<field name="fMaxReactionTime" type="Float"/>
+			<object name="Zone">
+				<field name="fRadius" type="Float"/>
+				<field name="fAngle" type="Float"/>
+			</object>
+			<object name="InnerZone">
+              <field name="fRadius" type="Float"/>
+              <field name="fAngle" type="Float"/>
+            </object>
+            <object name="OuterZone">
+              <field name="fRadius" type="Float"/>
+              <field name="fAngle" type="Float"/>
+            </object>
+		</object>
+		<object name="DenunciatorZone">
+          <field name="fMinReactionTime" type="Float"/>
+          <field name="fMaxReactionTime" type="Float"/>
+          <object name="InnerZone">
+            <field name="fRadius" type="Float"/>
+            <field name="fAngle" type="Float"/>
+          </object>
+          <object name="OuterZone">
+            <field name="fRadius" type="Float"/>
+            <field name="fAngle" type="Float"/>
+          </object>
+        </object>
+		<object name="ThreatCuriosityZone">
+			<field name="fMinReactionTime" type="Float"/>
+			<field name="fMaxReactionTime" type="Float"/>
+			<object name="InnerZone">
+				<field name="fRadius" type="Float"/>
+				<field name="fAngle" type="Float"/>
+			</object>
+			<object name="OuterZone">
+				<field name="fRadius" type="Float"/>
+				<field name="fAngle" type="Float"/>
+			</object>
+		</object>
+	    <object name="ThreatAnxietyFarZone">
+          <field name="fMinReactionTime" type="Float"/>
+          <field name="fMaxReactionTime" type="Float"/>
+          <object name="InnerZone">
+            <field name="fRadius" type="Float"/>
+            <field name="fAngle" type="Float"/>
+          </object>
+          <object name="OuterZone">
+            <field name="fRadius" type="Float"/>
+            <field name="fAngle" type="Float"/>
+          </object>
+        </object>
+		<object name="ThreatAnxietyNearZone">
+			<field name="fMinReactionTime" type="Float"/>
+			<field name="fMaxReactionTime" type="Float"/>
+			<object name="InnerZone">
+				<field name="fRadius" type="Float"/>
+				<field name="fAngle" type="Float"/>
+			</object>
+			<object name="OuterZone">
+				<field name="fRadius" type="Float"/>
+				<field name="fAngle" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="ReputationSettings">
+		<field name="fCoolDown" type="Float"/>
+		<field name="iGoodReputationThreshold" type="Int32"/>
+		<field name="iBadReputationThreshold" type="Int32"/>
+		<field name="dialactorlistDialogActorsList" type="BinHex"/>
+		<field name="text_sGoodReputationReactionbark" type="String"/>
+		<field name="sGoodReputationReactionbark" type="BinHex"/>
+		<object name="PMSValuesNeeded"/>
+		<object name="PMSValuesExcluded">
+			<object name="PMSValue">
+				<field name="text_pmsPMSName" type="String"/>
+				<field name="pmsPMSName" type="BinHex"/>
+				<field name="selEnumValue" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="CarDodgeSettings">
+		<field name="fDodgeReTriggerTime" type="Float"/>
+		<field name="fDdodgeFirstDelay" type="Float"/>
+		<field name="fDdodgeSecondDelay" type="Float"/>
+		<field name="fDoubleDodgeMinCollisionTime" type="Float"/>
+		<field name="fDoubleDodgeMinCollisionTimeDiff" type="Float"/>
+		<field name="fDoubleDodgeMinOppositeTime" type="Float"/>
+	</object>
+	<object name="LookAtSettings">
+		<field name="fMaxDown" type="Float"/>
+		<field name="fMaxUp" type="Float"/>
+		<field name="fMaxLeft" type="Float"/>
+		<field name="fMaxRight" type="Float"/>
+	</object>
+	<object name="Misc">
+		<field name="fAnxietyLevel" type="Float"/>
+		<field name="fPanicLevel" type="Float"/>
+		<field name="fGunshotInPanicMinSpeed" type="Float"/>
+		<field name="fReactionProbaToHiJack" type="Float"/>
+		<field name="fFakePanicSourceDistance" type="Float"/>
+		<field name="fBlackoutCheckFrequency" type="Float"/>
+		<field name="fMinLevelForLargeExplosion" type="Float"/>
+		<field name="fMinLevelForLargeBreakable" type="Float"/>
+		<field name="fMediaObserveDistance" type="Float"/>
+		<field name="iMediaObserveProbability" type="Int32"/>
+		<field name="fQuitEnticerWhenRainingLatency" type="Float"/>
+		<field name="fCheckWeatherChangeOnEnticerTime" type="Float"/>
+		<field name="fDodgeBoxSizeX" type="Float"/>
+		<field name="fDodgeBoxSizeY" type="Float"/>
+		<field name="fStopHoldUpDelay" type="Float"/>
+		<field name="fPanicBarkCoolDown" type="Float"/>
+		<field name="fMultiplierForMaxDenunciatorGunShotInPanic" type="Float"/>
+		<object name="OasisStateNames">
+			<field name="text_Curiosity" type="String"/>
+			<field name="Curiosity" type="BinHex"/>
+			<field name="text_Anxiety" type="String"/>
+			<field name="Anxiety" type="BinHex"/>
+			<field name="text_Panic" type="String"/>
+			<field name="Panic" type="BinHex"/>
+		</object>
+	</object>
+</class>

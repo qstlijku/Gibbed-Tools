@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CiviliandensityParameters">
+	<inherit name="SharedParameters"/>
+	<field name="bZeroDensity" type="Boolean"/>
+	<field name="fDistanceMin" type="Float"/>
+	<field name="fDistanceMax" type="Float"/>
+</class>

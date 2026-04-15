@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FloatingvehiclebhvsetupParameters">
+	<inherit name="SharedParameters"/>
+	<field name="selBhv" type="Enum"/>
+	<object name="Detection">
+		<field name="fLOSReaquisitionTime" type="Float"/>
+		<field name="fLOSFailTime" type="Float"/>
+		<field name="bUseGaugeDetection" type="Boolean"/>
+	</object>
+	<object name="RangeMonitoring">
+		<field name="fWarningDistanceThreshold" type="Float"/>
+		<field name="fMaxDistanceThreshold" type="Float"/>
+		<field name="fTimeOutsideMaxDistanceThreshold" type="Float"/>
+	</object>
+	<object name="Tailed">
+		<field name="fSpeedKmh" type="Float"/>
+	</object>
+	<object name="Rubberband">
+		<object name="curveCloseRangeSpeedModifierCurve">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveFarRangeSpeedModifierCurve">
+			<inherit name="KnotsParameters"/>
+		</object>
+	</object>
+</class>

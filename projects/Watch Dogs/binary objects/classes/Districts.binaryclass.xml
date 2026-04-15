@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DistrictsParameters">
+	<inherit name="SharedParameters"/>
+	<field name="selDistrictEnum" type="Enum"/>
+	<object name="locstridDistrictName">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="Composition">
+		<object name="Entry">
+			<field name="entcontContext" type="BinHex"/>
+			<field name="vehiclecompositionVehicles" type="BinHex"/>
+			<field name="civbankPeople" type="BinHex"/>
+			<object name="Vehicles">
+			    <field hash="DA599B1F" type="BinHex"/>
+			    <field hash="322AACFB" type="BinHex"/>
+			</object>
+			<object name="People">
+			    <field hash="5A101976" type="BinHex"/>
+			    <field hash="06C43C85" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="LivingCityComposition">
+		<object name="Normal">
+			<object name="VehicleCompositions">
+				<object name="VehicleComposition">
+					<field name="entcontContext" type="BinHex"/>
+					<field name="vehiclecompositionVehicles" type="BinHex"/>
+				</object>
+			</object>
+			<object name="CivilianBanks">
+				<object name="CiviliansBank">
+					<field name="entcontContext" type="BinHex"/>
+					<field name="civbankCiviliansBank" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="HighEnd">
+			<object name="VehicleCompositions">
+				<object name="VehicleComposition">
+					<field name="entcontContext" type="BinHex"/>
+					<field name="vehiclecompositionVehicles" type="BinHex"/>
+				</object>
+			</object>
+			<object name="CivilianBanks">
+				<object name="CiviliansBank">
+					<field name="entcontContext" type="BinHex"/>
+					<field name="civbankCiviliansBank" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Density">
+		<object name="Civilians">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="Vehicles">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="TrafficLaneDensityScale">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+	</object>
+	<object name="Monitoring">
+		<field name="monitoringdistrictMonitoringLevelProperties" type="BinHex"/>
+	</object>
+	<object name="EventsManagement">
+		<field name="districteventlimDistrictEventLimitations" type="BinHex"/>
+	</object>
+	<object name="Environment">
+		<field name="text_fileDayReflectionTexture" type="String"/>
+		<field name="fileDayReflectionTexture" type="BinHex"/>
+		<field name="text_fileNightReflectionTexture" type="String"/>
+		<field name="fileNightReflectionTexture" type="BinHex"/>
+	</object>
+</class>

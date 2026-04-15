@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CameraavatarpresetParameters">
+	<inherit name="SharedParameters"/>
+	<object name="AvatarNormal">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarNormalSprint">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarExtractFromPDA">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="Not_Used_05">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarAiming">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCover">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverAimingStraight">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverAimingLeft">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverAimingRight">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverLeft">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverRight">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverAimingStraightLeft">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverAimingStraightRight">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarShop">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarDead">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarHidingSpot">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarATMInteraction">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverPeekLeft">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverPeekRight">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarRagdoll">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarSwimming">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarSwimmingSprint">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarInteracting">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarInteractingSprint">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverPeekLeftOut">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverPeekRightOut">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverLeftTopOut">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverRightTopOut">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverLeftEntry">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverRightEntry">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarHidingSpotAiming">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarTakedown">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarHacking">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarInterior">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarARPhone">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarMultiDead">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarBounce">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="SpiderTank">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="SpiderTankAim">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarInTrain">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarThrowAiming">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarThrowCoverAimingStraightLeft">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarThrowCoverAimingStraightRight">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarThrowCoverAimingLeft">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarThrowCoverAimingRight">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverAimingLeftLow">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverAimingRightLow">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverAimingLeftOver">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverAimingRightOver">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarCoverToCover">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarDeathCam">
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+</class>

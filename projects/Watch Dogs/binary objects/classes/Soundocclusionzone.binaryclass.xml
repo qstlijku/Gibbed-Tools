@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SoundocclusionzoneParameters">
+	<inherit name="SharedParameters"/>
+	<field name="fOcclusionVolume" type="Float"/>
+	<field name="fOcclusionFilter" type="Float"/>
+	<field name="sndReverb" type="BinHex"/>
+	<field name="sndswvlRegionSwitchValue" type="BinHex"/>
+	<object name="Ambiance">
+		<field name="sndregRegionId" type="BinHex"/>
+		<field name="uiRegionIntensity" type="Int64"/>
+	</object>
+	<object name="EnterSounds">
+		<object name="Sound">
+			<field name="sndSoundId" type="BinHex"/>
+		</object>
+	</object>
+	<object name="ExitSounds">
+		<object name="Sound">
+			<field name="sndSoundId" type="BinHex"/>
+		</object>
+	</object>
+</class>

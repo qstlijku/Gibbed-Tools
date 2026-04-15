@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Graphickit_config_ec77689fParameters">
+	<inherit name="SharedParameters"/>
+	<field name="text_archDefaultArchetype" type="String"/>
+	<field name="archDefaultArchetype" type="BinHex"/>
+	<field name="selResourceSizePlatform" type="Enum"/>
+	<object name="ModelTags">
+		<object name="Tag">
+			<field name="text_Tag" type="String"/>
+			<field name="Tag" type="BinHex"/>
+		</object>
+	</object>
+</class>

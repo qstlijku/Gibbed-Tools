@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cityinfo.fcbParameters">
+	<object name="tunnels">
+		<object name="tunnel">
+			<object name="volume">
+				<field name="backLeft" type="Vector"/>
+				<field name="backRight" type="Vector"/>
+				<field name="frontLeft" type="Vector"/>
+				<field name="frontRight" type="Vector"/>
+				<field name="upVector" type="Vector"/>
+				<field name="height" type="Float"/>
+				<field name="translation" type="Vector"/>
+				<field name="rotation" type="Vector"/>
+				<field name="halfSize" type="Vector"/>
+				<object name="position">
+					<field name="position" type="Vector"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

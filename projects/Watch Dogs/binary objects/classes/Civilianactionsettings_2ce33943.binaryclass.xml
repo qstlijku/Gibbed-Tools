@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Civilianactionsettings_2ce33943Parameters">
+	<inherit name="SharedParameters"/>
+	<field name="selAngle" type="BinHex"/>
+	<field name="fDistance" type="Float"/>
+	<field name="fMinDistanceToPlayer" type="Float"/>
+	<field name="fCoolDownBetweenAction" type="Float"/>
+	<field name="text_fileDebugGPSTexture" type="String"/>
+	<field name="fileDebugGPSTexture" type="BinHex"/>
+	<object name="Actions">
+		<object name="Action">
+			<field name="entcontContext" type="BinHex"/>
+			<field name="selWalkType" type="Enum"/>
+			<field name="fCoolDown" type="Float"/>
+			<object name="PMSValuesNeeded">
+				<object name="PMSValue">
+					<field name="text_pmsPMSName" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="selEnumValue" type="Enum"/>
+				</object>
+			</object>
+			<object name="PMSValuesExcluded">
+				<object name="PMSValue">
+					<field name="text_pmsPMSName" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="bBoolValue" type="Boolean"/>
+					<field name="selEnumValue" type="Enum"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="fileDebugGPSTexture">
+		<field name="text_fileIconTexture" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+	<object name="PanicBarkSettings">
+		<field name="fMinCoolDown" type="Float"/>
+		<field name="fMaxCoolDown" type="Float"/>
+		<field name="fMinDistToPlayer" type="Float"/>
+		<field name="fMaxDistToPlayer" type="Float"/>
+		<field name="text_sBark" type="String"/>
+		<field name="sBark" type="BinHex"/>
+	</object>
+	<object name="WallaSettings">
+	    <object name="Close">
+			<field name="sndSoundDay" type="BinHex"/>
+			<field name="sndStopDay" type="BinHex"/>
+			<field name="sndSoundNight" type="BinHex"/>
+			<field name="sndStopNight" type="BinHex"/>
+			<field name="sndmlCrowdMultilayer" type="BinHex"/>
+			<field name="iPeopleMin" type="Int32"/>
+			<field name="iPeopleMax" type="Int32"/>
+			<field name="fRadius" type="Float"/>
+        </object>
+        <object name="Distant">
+			<field name="sndSoundDay" type="BinHex"/>
+			<field name="sndStopDay" type="BinHex"/>
+			<field name="sndSoundNight" type="BinHex"/>
+			<field name="sndStopNight" type="BinHex"/>
+			<field name="sndmlCrowdMultilayer" type="BinHex"/>
+			<field name="iPeopleMin" type="Int32"/>
+			<field name="iPeopleMax" type="Int32"/>
+			<field name="fRadius" type="Float"/>
+        </object>
+		<object name="Idle">
+			<field name="sndSoundDay" type="BinHex"/>
+			<field name="sndStopDay" type="BinHex"/>
+			<field name="sndSoundNight" type="BinHex"/>
+			<field name="sndStopNight" type="BinHex"/>
+			<field name="sndvarCrowdRTPC" type="BinHex"/>
+			<field name="iPeopleMin" type="Int32"/>
+			<field name="iPeopleMax" type="Int32"/>
+			<field name="fRadius" type="Float"/>
+		</object>
+		<object name="Panic">
+			<field name="sndCrowdPanic" type="BinHex"/>
+			<field name="sndCrowdPanicStop" type="BinHex"/>
+			<field name="sndvarCrowdPanicRTPC" type="BinHex"/>
+			<field name="fCrownPanicDuration" type="Float"/>
+			<field name="iPeopleMin" type="Int32"/>
+			<field name="iPeopleMax" type="Int32"/>
+			<field name="fRadius" type="Float"/>
+			<field name="sndmlCrowdPanicMultilayer" type="BinHex"/>
+		</object>
+		<object name="SoundObject">
+			<field name="sndmlMinCivDistMultilayer" type="BinHex"/>
+			<field name="sndmlAvgCivDistMultilayer" type="BinHex"/>
+			<field name="sndvarMinCivDistRtpc" type="BinHex"/>
+			<field name="sndvarAvgCivDistRtpc" type="BinHex"/>
+			<field name="fSoundObjectLag" type="Float"/>
+			<field name="fMinCivDistLag" type="Float"/>
+		</object>
+	</object>
+	<object name="DebugGPSTexture">
+		<field name="text_fileIconTexture" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+	<object name="DebugGPSTextureWalker">
+		<field name="text_fileIconTexture" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+	<object name="DebugGPSTextureEnticer">
+		<field name="text_fileIconTexture" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+	<object name="DebugGPSTextureAttracted">
+		<field name="text_fileIconTexture" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+	<object name="DebugGPSTextureInCar">
+		<field name="text_fileIconTexture" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
+	</object>
+</class>

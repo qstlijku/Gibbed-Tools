@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UlccontentdbParameters">
+	<inherit name="SharedParameters"/>
+	<field name="selUlcCode" type="Enum"/>
+	<object name="AccessIds">
+		<object name="accessidAccessIds">
+			<field name="accessidAccessIds" type="BinHex"/>
+		</object>
+	</object>
+</class>

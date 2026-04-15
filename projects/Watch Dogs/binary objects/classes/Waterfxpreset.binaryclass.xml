@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WaterfxpresetParameters">
+	<inherit name="SharedParameters"/>
+	<object name="Splash">
+		<field name="vectorSplashOffset" type="Vector3"/>
+		<field name="text_psSplashResource" type="String"/>
+		<field name="psSplashResource" type="BinHex"/>
+	</object>
+	<object name="ShallowWater">
+		<field name="fMidRangeWaterDepth" type="Float"/>
+		<field name="fMidRangeWaterMargin" type="Float"/>
+	</object>
+</class>

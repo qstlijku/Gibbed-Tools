@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CameravehiclepresetParameters">
+	<inherit name="SharedParameters"/>
+	<field name="cameracontexttriggersContextTransitionsTriggeringConditions" type="BinHex"/>
+	<object name="VehiculeNormal">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehiculeTopView">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehiculeCrash">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehiculeBumper">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleActionCam">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehiculeNormalLookback">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehiculeBumperLookback">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarPassengerShooting">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleClassic">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleHollywood">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleJump">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleWheelie">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleStoppie">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleWrecked">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarMultiLeftShooting">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehiculeInterior">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="AvatarMultiRightShooting">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleNormalPassenger">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleNormalMultiLeft">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+	<object name="VehicleNormalMultiRight">
+		<field name="vehiclefxVehicleFX" type="BinHex"/>
+		<field name="selPresetType" type="Enum"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<field name="fContextValue" type="Float"/>
+		<object name="Settings">
+			<field name="selMixerReference" type="Enum"/>
+		</object>
+		<inherit name="CameraMixerContextsParameters"/>
+		<inherit name="CameraContextBlendListParameters"/>
+		<inherit name="CameraModifierListParameters"/>
+	</object>
+</class>

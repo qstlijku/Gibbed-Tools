@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Graphickit_tagspecParameters">
+	<inherit name="SharedParameters"/>
+	<field name="graphickitmodelModel" type="BinHex"/>
+	<field name="graphickitcollectionCollection" type="BinHex"/>
+	<object name="IncludeTags">
+		<object name="Tag">
+			<field name="selTag" type="Enum"/>
+		</object>
+	</object>
+	<object name="ExcludeTags">
+		<object name="Tag">
+			<field name="selTag" type="Enum"/>
+		</object>
+    </object>
+	<object name="ValidModels">
+		<object name="Models">
+		    <object name="graphickitmodelModel">
+				<field name="graphickitmodelModel" type="BinHex"/>
+			</object>
+		</object>
+		<object name="graphickitmodelModel">
+			<field name="graphickitmodelModel" type="BinHex"/>
+		</object>
+	</object>
+</class>

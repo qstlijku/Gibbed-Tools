@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Debrisspawnermanagerconfig_a0521441Parameters">
+	<inherit name="SharedParameters"/>
+	<field name="MaxNbSpawnedEntitiesInGame" type="UInt16"/>
+	<field name="MaxNbSpawnedEntities" type="UInt16"/>
+	<field name="MaxNbEntitiesInFluidSimNormalPhysicLoad" type="UInt16"/>
+	<field name="MaxNbEntitiesInFluidSimHeavyPhysicLoad" type="UInt16"/>
+	<field hash="BE9E1B8E" type="UInt16"/>
+	<field name="fSpawnRadiusInGame" type="Float"/>
+	<field name="fUnspawnRadiusInGame" type="Float"/>
+	<field name="fSpawnRadius" type="Float"/>
+	<field name="fUnspawnRadius" type="Float"/>
+	<field name="fSpawnRatio" type="Float"/>
+	<field name="fStartSimulationRadius" type="Float"/>
+	<field name="fStopSimulationRadius" type="Float"/>
+</class>

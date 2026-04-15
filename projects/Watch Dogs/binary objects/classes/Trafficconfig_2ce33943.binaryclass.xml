@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Trafficconfig_2ce33943Parameters">
+	<inherit name="SharedParameters"/>
+	<field name="fRoadSegmentLengthToCheckForTraffic" type="Float"/>
+	<field name="fHonkReactionAngle" type="Float"/>
+	<object name="DodgeBoxes">
+		<field name="fDodgeBoxBaseScale" type="Float"/>
+		<field name="fDodgeBoxBaseBikeScale" type="Float"/>
+		<field name="fDodgeBoxCopsBaseScale" type="Float"/>
+		<field name="fDodgeBoxScaleFactor" type="Float"/>
+		<field name="fDodgeBoxCopsScaleFactor" type="Float"/>
+		<field name="fDodgeDangerTimeToEdge" type="Float"/>
+		<field name="fDodgeSidewalkIn" type="Float"/>
+		<object name="curveDodgeBoxesSpeedCurve">
+            <inherit name="KnotsParameters"/>
+      </object>
+	</object>
+	<object name="HackedCarParams">
+		<field name="fAlarmDuration" type="Float"/>
+		<field name="fHackCooldown" type="Float"/>
+		<field name="fParkedChance" type="Float"/>
+	</object>
+	<object name="TrafficLights">
+		<field name="fMaxWaitForOtherDirections" type="Float"/>
+		<field name="fGreenLightDuration" type="Float"/>
+		<field name="fYellowLightDuration" type="Float"/>
+		<field name="bEnableAlternateFourLights" type="Boolean"/>
+		<field name="bEnableAlternateThreeLights" type="Boolean"/>
+	</object>
+	<object name="TrafficSpeed">
+		<field name="fTurnAngleForCffMax" type="Float"/>
+		<field name="fAccelCffMaxTurnSeverity" type="Float"/>
+		<field name="vec2SpeedDifferenceLimit" type="Vector2"/>
+		<field name="fSpeedLag" type="Float"/>
+		<field name="fRealPhysicsAccelCff" type="Float"/>
+		<field name="fRealPhysicsBrakeCff" type="Float"/>
+		<field name="fRealPhysicsSteeringCff" type="Float"/>
+		<field name="fSpeedLimitSlow" type="Float"/>
+		<field name="fSpeedLimitNormal" type="Float"/>
+		<field name="fSpeedLimitFast" type="Float"/>
+		<field name="fSpeedLimitForceCrash" type="Float"/>
+		<field name="fSpeedTurnLimitSlow" type="Float"/>
+		<field name="fSpeedTurnLimitNormal" type="Float"/>
+		<field name="fSpeedTurnLimitFast" type="Float"/>
+		<field name="fSpeedTurnLimitForceCrash" type="Float"/>
+		<field name="fFollowReactionTime" type="Float"/>
+		<field name="fMinFollowSafeDistance" type="Float"/>
+		<field name="fMaxFollowSafeDistance" type="Float"/>
+		<field name="iMaximumStoppedVehiclesOnLane" type="Int32"/>
+		<field name="fStallDurationBehindPlayer" type="Float"/>
+		<field name="fStopWaitingTime" type="Float"/>
+		<field name="fStopTimeout" type="Float"/>
+		<field name="fMinDistToMainRoadTraffic" type="Float"/>
+		<field name="fTrafficAvoidanceTimePawns" type="Float"/>
+		<field name="fTrafficAvoidanceTimeVehicles" type="Float"/>
+		<object name="curveAcceleration">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveBrake">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveLagAcceleration">
+			<inherit name="KnotsParameters"/>
+		</object>
+		<object name="curveLagBrake">
+			<inherit name="KnotsParameters"/>
+		</object>
+	</object>
+	<object name="Spawning">
+		<field name="fSafeSpawnRadius" type="Float"/>
+		<field name="fSafeEntitySpawnRadius" type="Float"/>
+		<field name="fMaxZDistanceForSpawning" type="Float"/>
+		<field name="fInitialSpawnIncrement" type="Float"/>
+		<field name="fSpeedLimitForPatternsFactor" type="Float"/>
+		<field name="fMinLaneLengthForPatterns" type="Float"/>
+		<field name="vec2TrafficLightBlinkingTimeMinMax" type="Vector2"/>
+		<field name="vec2TrafficLightBlinkingHalfPeriodMinMax" type="Vector2"/>
+		<field name="vec2CivilianClusterDistanceReference" type="Vector2"/>
+		<field name="districtDefaultDistrict" type="BinHex"/>
+		<field name="fMinDistanceToCrossroad" type="Float"/>
+		<field name="fMinDistanceToCrossroadParked" type="Float"/>
+		<field name="fTrafficCarsInitialOffsetCff" type="Float"/>
+		<field name="fTrafficBoatsInitialOffsetCff" type="Float"/>
+		<field name="fVehiclePattternScaleWalk" type="Float"/>
+		<field name="fVehiclePattternScaleDrive" type="Float"/>
+		<field name="vec2VehiclePattternSpeeds" type="Vector2"/>
+		<object name="Sources">
+			<object name="Traffic">
+			    <inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="ParkedVehicles">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="TrainCarriages">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="Pedestrians">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="Enticers">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="ParkedEnticers">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="BoatsEnticers">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="Passengers">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="BoatPassengers">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="TrainPassengers">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="Boats">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="Activity">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="MadnessCivilians">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="BlobCivilians">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+			<object name="SpecialCivilians">
+				<inherit name="TrafficconfigSourcesParameters"/>
+			</object>
+		</object>
+		<object name="DefaultCivilianDensity">
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="bZeroDensity" type="Boolean"/>
+			<field name="fDistanceMin" type="Float"/>
+			<field name="fDistanceMax" type="Float"/>
+		</object>
+		<object name="DefaultParkedCarsDensity">
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="bZeroDensity" type="Boolean"/>
+			<field name="fDistanceMin" type="Float"/>
+			<field name="fDistanceMax" type="Float"/>
+			<field name="hidMigrated" type="BinHex"/>
+		</object>
+		<object name="VehicleDensitySelectorCustomScale">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="VehicleDensitySelectorMinValue">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="VehicleDensitySelectorMaxValue">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="TrafficOverlapCheckSpeed">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="ScaleTrafficBudgetWithDensityScale">
+			<field name="Normal" type="Int64"/>
+			<field name="HighEnd" type="Int64"/>
+		</object>
+		<object name="ParkedCarsRatio">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+		<object name="EnticersRatio">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+        <object name="EnablePreloading">
+			<field name="Normal" type="Int16"/>
+			<field name="HighEnd" type="Int16"/>
+        </object>
+        <object name="NumCLOsPreloaded">
+			<field name="Normal" type="Int16"/>
+			<field name="HighEnd" type="Int16"/>
+        </object>
+		<object name="fMinDistanceBetweenSameKits">
+			<field name="Normal" type="Float"/>
+			<field name="HighEnd" type="Float"/>
+		</object>
+	</object>
+	<object name="Budget">
+		<object name="Vehicles">
+			<object name="NbMaxResources">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="NbMaxVariety">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="MaxResModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="MaxResModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+		</object>
+		<object name="Civilians">
+			<object name="NbMaxResources">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="NbMaxVariety">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="MaxResModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="MaxResModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+		</object>
+		<object name="Activities">
+			<object name="NbMaxResources">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="NbMaxVariety">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="MaxResModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="MaxResModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+		</object>
+		<object name="LTrainCarriages">
+			<object name="NbMaxResources">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="NbMaxVariety">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="MaxResModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="MaxResModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+		</object>
+		<object name="LTrainDirt">
+			<object name="NbMaxResources">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="NbMaxVariety">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="MaxResModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="MaxResModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+		</object>
+		<object name="Boats">
+			<object name="NbMaxResources">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="NbMaxVariety">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+			<object name="MaxResModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="MaxResModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModOuter">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+			<object name="RadiusModInner">
+				<field name="Normal" type="Float"/>
+				<field name="HighEnd" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="DefaultGameplayContext">
+		<field name="gpctxspecNormal" type="BinHex"/>
+		<field name="gpctxspecHighEnd" type="BinHex"/>
+	</object>
+</class>

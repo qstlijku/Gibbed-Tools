@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Citylifeoptimizationsettings_2ce33943Parameters">
+	<inherit name="SharedParameters"/>
+	<object name="bSlicingActivated">
+		<field name="Normal" type="Boolean"/>
+		<field name="HighEnd" type="Boolean"/>
+	</object>
+	<object name="iSlicingMaxModulo">
+		<field name="Normal" type="BinHex"/>
+		<field name="HighEnd" type="BinHex"/>
+	</object>
+	<object name="fRetrySpawningDelay">
+		<field name="Normal" type="Float"/>
+		<field name="HighEnd" type="Float"/>
+	</object>
+	<object name="iRefreshAwakeObjectListModulo">
+		<field name="Normal" type="BinHex"/>
+		<field name="HighEnd" type="BinHex"/>
+	</object>
+	<object name="iCLOWakeUpCountPerFrame">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="iMinAwakeCloseCLOUpdateCountPerFrame">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="iMinAwakeFarCLOUpdateCountPerFrame">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+	<object name="iMinAwakeVigilanteCLOUpdateCountPerFrame">
+		<field name="Normal" type="Int64"/>
+		<field name="HighEnd" type="Int64"/>
+	</object>
+</class>

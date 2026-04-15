@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclecontexttriggersParameters">
+	<inherit name="SharedParameters"/>
+	<object name="CameraContextReverse">
+		<field name="bUseReverseCamLock" type="Boolean"/>
+		<field name="fReverseCamLockMinReverseAcc" type="Float"/>
+		<field name="fReverseCamLockHandBrakeTimeMult" type="Float"/>
+		<field name="fMinSpeedToUpdateValues" type="Float"/>
+		<field name="fReverseAngleBackToFronMult" type="Float"/>
+		<field name="fMinimumReverseDistanceForCameraLock" type="Float"/>
+		<object name="curveReverseCamLockTimeMult">
+            <inherit name="KnotsParameters"/>
+        </object>
+		<object name="curveReverseAngleValue">
+			<inherit name="KnotsParameters"/>
+		</object>
+	</object>
+	<object name="CameraContextJump">
+		<field name="fAirTimeToTrigger" type="Float"/>
+	</object>
+</class>

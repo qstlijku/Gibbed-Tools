@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Graphickit_spawnersParameters">
+	<inherit name="SharedParameters"/>
+	<field name="uiCount" type="Int64"/>
+	<object name="TagSpecification">
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="graphickitmodelModel" type="BinHex"/>
+		<field name="graphickitcollectionCollection" type="BinHex"/>
+        <object name="IncludeTags">
+            <object name="Tag">
+                <field name="selTag" type="Enum"/>
+            </object>
+        </object>
+        <object name="ExcludeTags">
+            <object name="Tag">
+                <field name="selTag" type="Enum"/>
+            </object>
+        </object>
+		<object name="ValidModels">
+		    <object name="Models">
+			    <object name="graphickitmodelModel">
+					<field name="graphickitmodelModel" type="BinHex"/>
+				</object>
+			</object>
+			<object name="graphickitmodelModel">
+				<field name="graphickitmodelModel" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

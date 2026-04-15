@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Menuconfig_87efe661Parameters">
+	<inherit name="SharedParameters"/>
+	<object name="StartMenu">
+		<field name="sndPressStartSound" type="BinHex"/>
+	</object>
+	<object name="MainMenu">
+		<field name="sndStartNewGameSound" type="BinHex"/>
+		<field name="sndContinueGameSound" type="BinHex"/>
+		<field name="sndViewProductDetailsSound" type="BinHex"/>
+	</object>
+	<object name="MessageBox">
+		<field name="sndDisplayMessageBoxSound" type="BinHex"/>
+		<field name="sndMessageBoxConfirmSound" type="BinHex"/>
+		<field name="sndMessageBoxCancelSound" type="BinHex"/>
+	</object>
+	<object name="Credits">
+		<field name="sndCreditsMusic" type="BinHex"/>
+		<field name="sndCreditsMusicStop" type="BinHex"/>
+	</object>
+</class>

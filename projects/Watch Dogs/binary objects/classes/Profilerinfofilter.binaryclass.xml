@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ProfilerinfofilterParameters">
+	<inherit name="SharedParameters"/>
+	<field name="criminalrecordarchetypedescCriminalRecordArchetypeDefault" type="BinHex"/>
+	<field name="websearcharchetypedescWebSearchArchetypeDefault" type="BinHex"/>
+	<field name="medicalrecordarchetypedescMedicalRecordArchetypeDefault" type="BinHex"/>
+	<field name="travelrecordarchetypedescTravelRecordArchetypeDefault" type="BinHex"/>
+	<field name="socialrecordarchetypedescSocialRecordArchetypeDefault" type="BinHex"/>
+	<object name="locsectionidOccupationType">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+	<object name="locsectionidNoveltyFactType">
+		<field name="LocalizationId" type="Int64"/>
+	</object>
+</class>

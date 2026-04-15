@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MissionvariablesParameters">
+	<inherit name="SharedParameters"/>
+	<field name="selValueType" type="Enum"/>
+	<object name="Float">
+		<field name="fFloat" type="Float"/>
+	</object>
+</class>

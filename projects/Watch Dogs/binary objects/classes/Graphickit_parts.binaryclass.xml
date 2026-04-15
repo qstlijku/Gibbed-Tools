@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Graphickit_partsParameters">
+	<inherit name="SharedParameters"/>
+	<field name="text_fileGeometry" type="String"/>
+	<field name="fileGeometry" type="BinHex"/>
+	<field name="bOverrideAttributes" type="Boolean"/>
+	<field name="text_Type" type="String"/>
+	<field name="Type" type="BinHex"/>
+	<field name="text_Gender" type="String"/>
+	<field name="Gender" type="BinHex"/>
+	<field name="text_SocialClass" type="String"/>
+	<field name="SocialClass" type="BinHex"/>
+	<field name="bAccessory" type="Boolean"/>
+	<field name="agerangeAgeRange" type="BinHex"/>
+	<object name="BoneAnchor">
+		<field name="text_BoneName" type="String"/>
+		<field name="BoneName" type="BinHex"/>
+		<field name="vectorTranslation" type="Vector3"/>
+		<field name="angvecRotation" type="Vector3"/>
+		<field name="vectorNonUniformScale" type="Vector3"/>
+	</object>
+	<object name="PoseDefinitionFiles">
+		<object name="filePoseDefinition">
+			<field name="text_filePoseDefinition" type="String"/>
+			<field name="filePoseDefinition" type="BinHex"/>
+		</object>
+	</object>
+	<object name="MaterialOverridesList">
+		<object name="MaterialOverridesEntry">
+			<field name="text_Name" type="String"/>
+			<field name="Name" type="BinHex"/>
+			<field name="agerangeAgeRange" type="BinHex"/>
+			<object name="MaterialOverrides">
+				<object name="MaterialSlots">
+					<object name="Material">
+						<field name="text_disSlotName" type="String"/>
+						<field name="disSlotName" type="BinHex"/>
+						<field name="text_matMaterial" type="String"/>
+						<field name="matMaterial" type="BinHex"/>
+						<field name="text_hidOriginalMaterial" type="String"/>
+						<field name="hidOriginalMaterial" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Tags">
+		<object name="Tag">
+			<field name="selTag" type="Enum"/>
+		</object>
+	</object>
+	<object name="weight">
+		<field name="Normal" type="Float"/>
+		<field name="HighEnd" type="Float"/>
+	</object>
+</class>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CiviliansbankParameters">
+	<inherit name="SharedParameters"/>
+	<field name="bMigrationDone" type="Boolean"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field name="peopleinfoSpawnInfo" type="BinHex"/>
+			<field name="uiMinRepresentativity" type="UInt32"/>
+			<field name="uiCoefficient" type="UInt32"/>
+			<object name="ValidModels">
+			    <object name="Model">
+					<field name="graphickitmodelModel" type="BinHex"/>
+                </object>
+				<object name="disgraphickitmodelModel">
+					<field name="disgraphickitmodelModel" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Coeff">
+				<field name="Normal" type="Enum"/>
+				<field name="HighEnd" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object name="AllModels">
+		<object name="Model">
+			<field name="graphickitmodelModel" type="BinHex"/>
+			<field name="peopleinfoSpawnInfo" type="BinHex"/>
+			<field name="fWeight" type="Float"/>
+		</object>
+	</object>
+</class>

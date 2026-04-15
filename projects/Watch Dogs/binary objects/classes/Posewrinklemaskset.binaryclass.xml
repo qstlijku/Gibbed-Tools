@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PosewrinklemasksetParameters">
+	<inherit name="SharedParameters"/>
+	<object name="WrinkleMaskSet">
+		<object name="WrinkleMask">
+			<field name="text_fileMaskTextureFileName" type="String"/>
+			<field name="fileMaskTextureFileName" type="BinHex"/>
+			<field name="selMaskType" type="Enum"/>
+			<object name="BoneIntensityInput">
+				<field name="sBoneName" type="String"/>
+				<field name="selIntensityInputMode" type="Enum"/>
+			</object>
+		</object>
+	</object>
+</class>

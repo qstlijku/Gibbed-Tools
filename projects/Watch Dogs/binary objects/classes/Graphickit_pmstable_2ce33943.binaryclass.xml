@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Graphickit_pmstable_2ce33943Parameters">
+	<inherit name="SharedParameters"/>
+	<object name="Table">
+		<object name="Entry">
+			<object name="Tag">
+				<field name="selTag" type="Enum"/>
+			</object>
+			<object name="PMSList">
+				<object name="PMS">
+					<field name="text_pmsPMSName" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="selEnumValue" type="Enum"/>
+					<field name="bBoolValue" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

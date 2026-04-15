@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WeaponParameters">
+	<inherit name="SharedParameters"/>
+	<field name="selShootingType" type="Enum"/>
+	<field name="selWeaponPerkType" type="Enum"/>
+	<field name="text_archGrenadeArchetype" type="String"/>
+	<field name="archGrenadeArchetype" type="BinHex"/>
+	<field name="text_sProjectileBoneToBind" type="String"/>
+	<field name="sProjectileBoneToBind" type="BinHex"/>
+	<field name="bManualEnableAutomatic" type="Boolean"/>
+	<field name="iManualAutomaticBulletsMax" type="Int32"/>
+	<field name="itemsBulletItem" type="BinHex"/>
+	<field name="fBulletsPerClip" type="Int32"/>
+	<field name="fRateOfFire" type="Float"/>
+	<field name="fRateOfFireVehicleMultiplier" type="Float"/>
+	<field name="iReloadAlertMinBullets" type="Int32"/>
+	<field name="fShootingRange" type="Float"/>
+	<field name="fPrecisionRange" type="Float"/>
+	<field name="fPrecisionSpreadAngle" type="Float"/>
+	<field name="bDestroysVehicleParts" type="Boolean"/>
+	<field name="iPierceStrength" type="Int32"/>
+	<field name="iMinPiercingStrengthToDamage" type="Int32"/>
+	<field name="nTracesRatio" type="Int32"/>
+	<field name="fAccuracyModifier" type="Float"/>
+	<field name="fBulletSpreadAngle" type="Float"/>
+	<field name="fbulletImpactDelay" type="BinHex"/>
+	<field name="bDisplayReticleBetweenRateOfFire" type="Boolean"/>
+	<field name="fLaserSightNoiseRangeX" type="Float"/>
+	<field name="fLaserSightNoiseRangeY" type="Float"/>
+	<field name="fLaserSightNoiseSpeedMultiplier" type="Float"/>
+	<field name="fPelletCount" type="BinHex"/>
+	<field name="fPelletSpreadAngle" type="BinHex"/>
+	<object name="curveBulletDamageDistance">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveImpactStrengthDistance">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveRecoilTranslationX">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveRecoilTranslationY">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveRecoilTranslationZ">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveRecoilRotationX">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveRecoilRotationY">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveRecoilRotationZ">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveShootingCurve">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveBodyRecoilCurve">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveBulletImpactDelayOverDistanceCurve">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveAdrenalineBulletImpactDelayOverDistanceCurve">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="curveBulletDamageModifierByAngleCurve">
+		<inherit name="KnotsParameters"/>
+	</object>
+	<object name="AdrenalineSettings">
+		<field name="fAdrenalineRateOfFire" type="Float"/>
+	</object>
+	<object name="AnimationInfo">
+		<field name="selWeaponGrip" type="Enum"/>
+		<field name="selWeaponType" type="Enum"/>
+		<field name="selWeaponSpecific" type="Enum"/>
+	</object>
+	<object name="PartsRecoil">
+		<object name="SlidePart">
+			<field name="selProceduralType" type="Enum"/>
+			<field name="vectorProceduralAxis" type="Vector3"/>
+			<object name="curveProceduralMovement">
+				<inherit name="KnotsParameters"/>
+			</object>
+		</object>
+	</object>
+	<object name="CameraAiming">
+		<field name="selAimingContext" type="Enum"/>
+		<field name="selCoverAimingLeft" type="Enum"/>
+		<field name="selCoverAimingRight" type="Enum"/>
+		<field name="selCoverAimingStraightLeft" type="Enum"/>
+		<field name="selCoverAimingStraightRight" type="Enum"/>
+	</object>
+	<object name="CameraRecoil">
+		<object name="InitialPhaseImpulses">
+			<field name="fDuration" type="Float"/>
+			<field name="vec2PitchLimits" type="Vector2"/>
+			<field name="vec2YawLimits" type="Vector2"/>
+			<field name="fReductionDuration" type="Float"/>
+			<field name="vec2ReductionCurve" type="Vector2"/>
+			<object name="Normal">
+				<object name="Pitch">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<inherit name="KnotsParameters"/>
+					</object>
+				</object>
+				<object name="Yaw">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<inherit name="KnotsParameters"/>
+					</object>
+				</object>
+			</object>
+			<object name="Adrenaline">
+				<object name="Pitch">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<inherit name="KnotsParameters"/>
+					</object>
+				</object>
+				<object name="Yaw">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<inherit name="KnotsParameters"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="ClampedPhaseImpulses">
+			<field name="fDuration" type="Float"/>
+			<field name="vec2PitchLimits" type="Vector2"/>
+			<field name="vec2YawLimits" type="Vector2"/>
+			<field name="fReductionDuration" type="Float"/>
+			<field name="vec2ReductionCurve" type="Vector2"/>
+			<object name="Normal">
+				<object name="Pitch">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<inherit name="KnotsParameters"/>
+					</object>
+				</object>
+				<object name="Yaw">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<inherit name="KnotsParameters"/>
+					</object>
+				</object>
+			</object>
+			<object name="Adrenaline">
+				<object name="Pitch">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<inherit name="KnotsParameters"/>
+					</object>
+				</object>
+				<object name="Yaw">
+					<field name="vec2ImpulsePeak" type="Vector2"/>
+					<field name="vec2ImpulseCurve" type="Vector2"/>
+					<field name="selImpulseDirection" type="Enum"/>
+					<object name="curveAccumulationMultiplierCurve">
+						<inherit name="KnotsParameters"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Sniper">
+		<field name="fCamShakeStrength" type="Float"/>
+		<field name="fCamShakeDuration" type="Float"/>
+		<field name="vec3CamShakeRotationRange" type="Vector3"/>
+		<field name="iScopeMaterialOverrideIndex" type="Int32"/>
+	</object>
+	<object name="FriendlyFireOptions">
+		<field name="bSkipCollisionsWithMobsterNPCs" type="Boolean"/>
+		<field name="bSkipCollisionsWithMobsterVehicles" type="Boolean"/>
+		<field name="bSkipCollisionsWithPoliceNPCs" type="Boolean"/>
+		<field name="bSkipCollisionsWithPoliceVehicles" type="Boolean"/>
+		<field name="bSkipCollisionsWithCivilians" type="Boolean"/>
+		<field name="bSkipCollisionsWithTraffics" type="Boolean"/>
+		<field name="bSkipCollisionsWithPlayers" type="Boolean"/>
+	</object>
+	<object name="DamageMultiplier">
+		<field name="fVehicleMultplier" type="Float"/>
+		<object name="LocationDamageMultiplier">
+			<object name="LocationMultiplier">
+				<field name="selLocation" type="Enum"/>
+				<object name="curveDamageMultOverDistance">
+					<inherit name="KnotsParameters"/>
+				</object>
+				<object name="curveAdrenalineDamageMultOverDistance">
+					<inherit name="KnotsParameters"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

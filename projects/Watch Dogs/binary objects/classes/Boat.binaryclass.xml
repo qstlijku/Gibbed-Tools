@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BoatParameters">
+	<inherit name="SharedParameters"/>
+	<field name="fMass" type="Float"/>
+	<field name="vectorChassisUnitInertia" type="Vector3"/>
+	<field name="vectorCenterOfMassOffset" type="Vector3"/>
+	<field name="fAngularDamping" type="Float"/>
+	<field name="fRollDamping" type="Float"/>
+	<field name="fPitchDamping" type="Float"/>
+	<field name="fYawDamping" type="Float"/>
+	<field name="fSideFriction" type="Float"/>
+	<field name="fForwardFriction" type="Float"/>
+	<field name="selMotorModelType" type="Enum"/>
+	<field name="fMotorMaxRPM" type="Float"/>
+	<field name="vectorMotorPos" type="Vector3"/>
+	<field name="bEngineMustBeInWater" type="Boolean"/>
+	<field name="fThrustCoefficient" type="Float"/>
+	<field name="fGearRatio" type="Float"/>
+	<field name="fPropellerTimeConstant" type="Float"/>
+	<field name="fSteerWeightToThrottle" type="Float"/>
+	<field name="fReverseEngineScale" type="Float"/>
+	<field name="fMaxSteerSpeed" type="Float"/>
+	<field name="fSteerAngleLowSpeed" type="Float"/>
+	<field name="fSteerAngleHighSpeed" type="Float"/>
+	<field name="fSteerMaxSpeed" type="Float"/>
+	<field name="fSteerSpeedAtStandstill" type="Float"/>
+	<field name="fVehicleSpeedForFullSteerSpeed" type="Float"/>
+	<field name="fSteerSpeedFullPotential" type="Float"/>
+	<field name="fWaterDragCoefficient" type="Float"/>
+	<field name="fWaterLiftCoefficient" type="Float"/>
+	<field name="fWaterFriction" type="Float"/>
+	<field name="fWaterOffset" type="Float"/>
+	<field name="fRudderArea" type="Float"/>
+	<field name="fHardSpeedLimit" type="Float"/>
+	<field name="fNominalPitchAtZeroSpeed" type="Float"/>
+	<field name="fNominalPitchMediumSpeed" type="Float"/>
+	<field name="fNominalPitchWave" type="Float"/>
+	<field name="fNominalComToWaterZDistZeroSpeed" type="Float"/>
+	<field name="fNominalComToWaterZDistMediumSpeed" type="Float"/>
+	<field name="fNominalMediumSpeed" type="Float"/>
+	<field name="fNominalRollWave" type="Float"/>
+	<object name="GpuSpecific">
+      <field name="vectorFrictionForcesScale" type="Vector"/>
+      <field name="fMaximumForce" type="Float"/>
+      <field name="fMassScale" type="Float"/>
+      <field name="iMinimumInWaterCellsForEngineForce" type="Int32"/>
+      <field name="vectorLinearDamping" type="Vector"/>
+      <field name="vectorAngularDamping" type="Vector"/>
+      <field name="bRemoveZTorque" type="Boolean"/>
+      <field name="fWaterViscousCoefficient" type="Float"/>
+      <field name="fAirViscousCoefficient" type="Float"/>
+      <field name="fMaximumYawAcc" type="Float"/>
+      <field name="vectorMotorPosGpu" type="Vector"/>
+      <field name="vectorCenterOfMassOffsetGpu" type="Vector"/>
+      <field name="vectorChassisUnitInertiaGpu" type="Vector"/>
+      <field name="fYawSpeedAtMaxSteer" type="Float"/>
+    </object>
+</class>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclesbankParameters">
+	<inherit name="SharedParameters"/>
+	<field name="text_GroupName" type="String"/>
+	<field name="GroupName" type="BinHex"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field name="vehicleinfoVehicleSpawnInfo" type="BinHex"/>
+			<field name="uiCoefficient" type="UInt32"/>
+			<object name="Coeff">
+				<field name="Normal" type="Int64"/>
+				<field name="HighEnd" type="Int64"/>
+			</object>
+		</object>
+	</object>
+</class>
