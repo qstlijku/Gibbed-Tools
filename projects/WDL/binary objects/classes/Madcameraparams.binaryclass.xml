@@ -9,58 +9,58 @@
 	<field name="selType" type="Enum"/>
 	<field name="text_fileAnimatedCamera" type="String"/>
 	<field name="fileAnimatedCamera" type="BinHex"/>
-	<field hash="37FAB626" type="BinHex"/>
-	<field hash="78B1A5E7" type="BinHex"/>
+	<field name="selRoleAttachTo" type="BinHex"/>
+	<field name="selRoleLookAt" type="BinHex"/>
 	<field name="fFOV" type="Float"/>
-	<field hash="9B874297" type="BinHex"/>
-	<field hash="6F43E233" type="BinHex"/>
-	<field hash="AF591900" type="BinHex"/>
-	<field hash="02ECAA2B" type="BinHex"/>
-	<field hash="4E098622" type="BinHex"/>
-	<field hash="4C566D3E" type="BinHex"/>
-	<field hash="4C21949A" type="BinHex"/>
-	<field hash="E1B83A46" type="BinHex"/>
-	<field hash="E2A55C92" type="BinHex"/>
-	<field hash="A25E4F46" type="BinHex"/>
-	<field hash="AF25C432" type="BinHex"/>
-	<field hash="350DB8BF" type="BinHex"/>
-	<field hash="6328BF3D" type="BinHex"/>
-	<field hash="090087E6" type="BinHex"/>
-	<field hash="C5BF7BB0" type="BinHex"/>
-	<field hash="55E0D0C9" type="BinHex"/>
-	<field hash="02A27151" type="BinHex"/>
-	<field hash="389B5098" type="BinHex"/>
-	<field hash="CACDEB9A" type="BinHex"/>
-	<field hash="15C99421" type="BinHex"/>
-	<field hash="938BD6F5" type="BinHex"/>
-	<field hash="B165519F" type="BinHex"/>
+	<field name="selRootTypePos" type="BinHex"/>
+	<field name="vec3OffsetPos" type="BinHex"/>
+	<field name="selSmoothingTypePos" type="BinHex"/>
+	<field name="fMovementTimePos" type="BinHex"/>
+	<field name="bReactToCollisions" type="BinHex"/>
+	<field name="bAllowCrossingTheLinePre" type="BinHex"/>
+	<field name="bAllowCrossingTheLinePost" type="BinHex"/>
+	<field name="bIsCloseUpCamera" type="BinHex"/>
+	<field name="selSmoothingTypeLookAt" type="BinHex"/>
+	<field name="fMovementTimeLookAt" type="BinHex"/>
+	<field name="fFramingMinDistance" type="BinHex"/>
+	<field name="vec3FramingAdjustmentAtMin" type="BinHex"/>
+	<field name="fFramingMaxDistance" type="BinHex"/>
+	<field name="vec3FramingAdjustmentAtMax" type="BinHex"/>
+	<field name="vec3DollySpeed" type="BinHex"/>
+	<field name="vec3DollyStart" type="BinHex"/>
+	<field name="bDollyUseTarget" type="BinHex"/>
+	<field name="bAdjustForHeight" type="BinHex"/>
+	<field name="fHigherHeightCap" type="BinHex"/>
+	<field name="fHigherHeightAdjustment" type="BinHex"/>
+	<field name="fLowerHeightCap" type="BinHex"/>
+	<field name="fLowerHeightAdjustment" type="BinHex"/>
 	<field name="bShakeEnabled" type="Boolean"/>
-	<field hash="9900EAAC" type="BinHex"/>
-	<field hash="A372F35C" type="BinHex"/>
-	<field hash="401485B0" type="BinHex"/>
-	<field hash="169630BC" type="BinHex"/>
-	<field hash="ED4ADAC6" type="BinHex"/>
-	<field hash="C8EF429C" type="BinHex"/>
-	<field hash="8855949F" type="BinHex"/>
-	<field hash="D89877B9" type="BinHex"/>
-	<field hash="E74693F6" type="BinHex"/>
-	<field hash="9D1A2775" type="BinHex"/>
-	<field hash="3C435848" type="BinHex"/>
-	<field hash="F3628CDE" type="BinHex"/>
-	<field hash="7508F4CB" type="BinHex"/>
-	<field hash="30AD2962" type="BinHex"/>
-	<field hash="D5EBDEFE" type="BinHex"/>
-	<object hash="AF431E13">
+	<field name="selShakeType" type="BinHex"/>
+	<field name="fShakeSpeed" type="BinHex"/>
+	<field name="fShakeAmplitude" type="BinHex"/>
+	<field name="bExposureOverride" type="BinHex"/>
+	<field name="fExposureValue" type="BinHex"/>
+	<field name="bDofOverride" type="BinHex"/>
+	<field name="fDofFstop" type="BinHex"/>
+	<field name="fDofNearPlanePercentage" type="BinHex"/>
+	<field name="fDofFarPlanePercentage" type="BinHex"/>
+	<field name="fDofFocusPointBlendSpeed" type="BinHex"/>
+	<field name="bDofStaticFocusPoint" type="BinHex"/>
+	<field name="fDofFocusPointDistance" type="BinHex"/>
+	<field name="selDofFocusPointReference" type="BinHex"/>
+	<field name="fDofFocusPointOffset" type="BinHex"/>
+	<field name="plasmalightrigLightRig" type="BinHex"/>
+	<object name="targets">
 		<object name="Target">
-			<field hash="9208EB25" type="BinHex"/>
+			<field name="selRole" type="BinHex"/>
 			<field name="fWeight" type="Float"/>
-			<field hash="22DD899F" type="BinHex"/>
-			<field hash="CEA2C697" type="BinHex"/>
+			<field name="selRootTypeLookAt" type="BinHex"/>
+			<field name="vec3OffsetLookAt" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="797EB77E">
-		<object hash="B438E2FD">
-			<field hash="46101A71" type="BinHex"/>
+	<object name="speakersToHide">
+		<object name="Speaker">
+			<field name="selSpeaker" type="BinHex"/>
 		</object>
 	</object>
 </class>

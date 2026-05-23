@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field name="colorLineColor" type="Vector3"/>
+	<field name="colorLineColor" type="Vector4"/>
 	<field name="fLineColorAlpha" type="Float"/>
 	<field name="fLineSize" type="Float"/>
 	<field name="bIsKeyLocation" type="BinHex"/>

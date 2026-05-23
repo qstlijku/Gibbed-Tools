@@ -7,13 +7,13 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="PGTConfig">
-		<field hash="64B6E507" type="BinHex"/>
+		<field name="bIsLongRange" type="BinHex"/>
 	</object>
 	<object name="Properties">
 		<field name="bIsBuddyAI" type="Boolean"/>
 		<field name="bIsPlayerAlly" type="Boolean"/>
 		<field name="selMindSet" type="Enum"/>
-		<field hash="3830264B" type="BinHex"/>
+		<field name="bIsFactionAffiliate" type="BinHex"/>
 		<field name="bForceRespawnAfterCheckpoint" type="Boolean"/>
 		<field name="stimtableStimEffectTable" type="BinHex"/>
 		<field name="navigationconfigNavigationConfig" type="BinHex"/>
@@ -32,7 +32,7 @@
 		<field name="robotpersonalitymoduleparametersPersonalityModuleParameters" type="BinHex"/>
 		<field name="robotnavigationparametersNavigationParameters" type="BinHex"/>
 		<field name="robotphysicsparametersPhysicsParameters" type="BinHex"/>
-		<field hash="5D20B173" type="BinHex"/>
+		<field name="hackingdefinitionHackingDefinition" type="BinHex"/>
 		<field name="selAffiliation" type="Enum"/>
 		<field name="personalityPersonalityConfig" type="BinHex"/>
 		<field name="accuracyconfigAccuracyConfig" type="BinHex"/>
@@ -42,11 +42,11 @@
 		<field name="bOverrideProfilerSettings" type="Boolean"/>
 		<object name="AIAgentConfig">
 			<field name="selSubcategory" type="Enum"/>
-			<field hash="95CED8F1" type="BinHex"/>
-			<field hash="A51CF583" type="BinHex"/>
-			<field hash="7BA77162" type="BinHex"/>
-			<field hash="A8E85511" type="BinHex"/>
-			<field hash="79025C1E" type="BinHex"/>
+			<field name="selDecorator" type="BinHex"/>
+			<field name="bMeleeOnly" type="BinHex"/>
+			<field name="bIsElite" type="BinHex"/>
+			<field name="bIsBoss" type="BinHex"/>
+			<field name="bIsUnique" type="BinHex"/>
 			<field hash="9E66B082" type="BinHex"/>
 			<field hash="806E5806" type="BinHex"/>
 			<object name="TagInfo">
@@ -60,17 +60,17 @@
 			<field name="fileProfilerThumbnailOverride" type="BinHex"/>
 			<field name="vectorProfilerSquareTargetOffset" type="BinHex"/>
 			<field name="vectorProfilerLineTargetOffset" type="BinHex"/>
-			<field hash="89EA3FD6" type="BinHex"/>
+			<field name="vectorProfilerSoftLockIconOffset" type="BinHex"/>
 			<field name="bIsProfilerSticky" type="Boolean"/>
 			<field hash="8B809CA7" type="BinHex"/>
-			<field hash="4FB156D7" type="BinHex"/>
-			<field hash="E73E3B16" type="BinHex"/>
-			<field hash="8E5E62F4" type="BinHex"/>
-			<field hash="EB37FCE6" type="BinHex"/>
-			<field hash="C6FA3B28" type="BinHex"/>
+			<field name="vectorProfilerScoringQuadSizeModifier" type="BinHex"/>
+			<field name="vectorProfilerScoringQuadCenterOffset" type="BinHex"/>
+			<field name="vectorProfilerScoringQuadSizeModifierVehicle" type="BinHex"/>
+			<field name="vectorProfilerScoringQuadCenterOffsetVehicle" type="BinHex"/>
+			<field name="bProfilerHighSpeedTargetable" type="BinHex"/>
 			<field hash="0F5CAA36" type="BinHex"/>
-			<field hash="44213BF4" type="BinHex"/>
-			<field hash="C266FD60" type="BinHex"/>
+			<field name="fProfilerAdditionalTargetScore" type="BinHex"/>
+			<field name="fProfilerAdditionalTargetScoreVehicle" type="BinHex"/>
 			<field name="selProfileColorTypeOverride" type="Enum"/>
 			<field hash="CC0C4505" type="BinHex"/>
 			<object name="locsectionidProfile">

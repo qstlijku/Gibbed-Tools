@@ -8,26 +8,26 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="bCanBeOccludedByMapGeometry" type="BinHex"/>
 	<field name="bUseFill" type="Boolean"/>
-	<field name="colorFillColor" type="Vector3"/>
+	<field name="colorFillColor" type="Vector4"/>
 	<field name="FillColorAlpha" type="BinHex"/>
 	<field name="bUseInnerFill" type="Boolean"/>
-	<field name="colorInnerColor" type="Vector3"/>
+	<field name="colorInnerColor" type="Vector4"/>
 	<field name="InnerColorAlpha" type="BinHex"/>
 	<field name="fInnerRadiusRatio" type="Float"/>
 	<field name="bUseBorder" type="Boolean"/>
 	<field name="fBorderThickness" type="BinHex"/>
-	<field name="colorBorderColor" type="Vector3"/>
+	<field name="colorBorderColor" type="Vector4"/>
 	<field name="BorderColorAlpha" type="BinHex"/>
 	<field name="bUseWalls" type="BinHex"/>
 	<field name="colorWallColor" type="BinHex"/>
 	<field name="WallColorAlpha" type="BinHex"/>
 	<field name="fWallHeight" type="BinHex"/>
 	<field name="bUseFx" type="Boolean"/>
-	<field name="colorFxColor" type="Vector3"/>
+	<field name="colorFxColor" type="Vector4"/>
 	<field name="FxColorAlpha" type="BinHex"/>
-	<field name="colorFxBorderColor" type="Vector3"/>
+	<field name="colorFxBorderColor" type="Vector4"/>
 	<field name="FxBorderColorAlpha" type="BinHex"/>
-	<field name="colorFxCenterColor" type="Vector3"/>
+	<field name="colorFxCenterColor" type="Vector4"/>
 	<field name="FxCenterColorAlpha" type="BinHex"/>
 	<field name="fScaleAnimationTime" type="Float"/>
 	<field name="fScaleAnimationDelay" type="Float"/>
@@ -56,9 +56,9 @@
 		<field name="bIsUsed" type="Boolean"/>
 		<field name="bIsLooping" type="Boolean"/>
 		<field name="bIsOneWay" type="Boolean"/>
-		<field name="colorStartColor" type="Vector3"/>
+		<field name="colorStartColor" type="Vector4"/>
 		<field name="fStartAlpha" type="Float"/>
-		<field name="colorEndColor" type="Vector3"/>
+		<field name="colorEndColor" type="Vector4"/>
 		<field name="fEndAlpha" type="Float"/>
 		<field name="fColorAnimDelay" type="Float"/>
 		<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -69,9 +69,9 @@
 		<field name="bIsUsed" type="Boolean"/>
 		<field name="bIsLooping" type="Boolean"/>
 		<field name="bIsOneWay" type="Boolean"/>
-		<field name="colorStartColor" type="Vector3"/>
+		<field name="colorStartColor" type="Vector4"/>
 		<field name="fStartAlpha" type="Float"/>
-		<field name="colorEndColor" type="Vector3"/>
+		<field name="colorEndColor" type="Vector4"/>
 		<field name="fEndAlpha" type="Float"/>
 		<field name="fColorAnimDelay" type="Float"/>
 		<field name="fColorAnimDelayBetweenLoop" type="Float"/>

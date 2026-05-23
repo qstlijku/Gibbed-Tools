@@ -10,32 +10,32 @@
 	<field name="bDisplayAtInit" type="Boolean"/>
 	<field name="bPlayRevealOnlyOnce" type="Boolean"/>
 	<field name="selOrientedMode" type="Enum"/>
-	<field hash="851FF4D3" type="BinHex"/>
+	<field name="selLayerLegacy" type="BinHex"/>
 	<field name="iZoomFilterVisibility" type="Int32"/>
 	<field name="itemsSurvivalGuideLink" type="BinHex"/>
-	<object hash="0DB8EEE9">
-		<field hash="109DD5E0" type="BinHex"/>
-		<field hash="9CFF5E76" type="BinHex"/>
-		<field hash="222FDAFE" type="BinHex"/>
-		<field hash="3BCF8E04" type="BinHex"/>
-		<object hash="E3E85072">
+	<object name="ZoomBehaviour">
+		<field name="selFullZoomInLayer" type="BinHex"/>
+		<field name="selMidZoomInLayer" type="BinHex"/>
+		<field name="selMidZoomOutLayer" type="BinHex"/>
+		<field name="selFullZoomOutLayer" type="BinHex"/>
+		<object name="FullZoomInHintTexture">
 			<field name="fileIconTexture" type="String"/>
 		</object>
-		<object hash="E1DF4869">
+		<object name="MidZoomInHintTexture">
 			<field name="text_fileIconTexture" type="String"/>
 			<field name="fileIconTexture" type="BinHex"/>
 		</object>
-		<object hash="C8F013A7">
+		<object name="MidZoomOutHintTexture">
 			<field name="fileIconTexture" type="String"/>
 		</object>
-		<object hash="4297ED53">
+		<object name="FullZoomOutHintTexture">
 			<field name="fileIconTexture" type="String"/>
 		</object>
 	</object>
-	<object hash="B27FDA35">
+	<object name="OverlayIcon">
 		<field name="sIconLinkageName" type="String"/>
-		<field hash="104F7EE2" type="BinHex"/>
-		<field hash="67484E74" type="BinHex"/>
+		<field name="fOffsetX" type="BinHex"/>
+		<field name="fOffsetY" type="BinHex"/>
 		<field name="colorIconColor" type="Vector3"/>
 		<field name="fIconAlpha" type="Float"/>
 		<object name="IconTexture">
@@ -142,10 +142,10 @@
 			</object>
 		</object>
 	</object>
-	<object hash="4CD405F4">
+	<object name="OverlayIcon2">
 		<field name="sIconLinkageName" type="String"/>
-		<field hash="104F7EE2" type="BinHex"/>
-		<field hash="67484E74" type="BinHex"/>
+		<field name="fOffsetX" type="BinHex"/>
+		<field name="fOffsetY" type="BinHex"/>
 		<field name="colorIconColor" type="Vector3"/>
 		<field name="fIconAlpha" type="Float"/>
 		<object name="IconTexture">
@@ -254,8 +254,8 @@
 	</object>
 	<object name="PrimaryIcon">
 		<field name="sIconLinkageName" type="String"/>
-		<field hash="104F7EE2" type="BinHex"/>
-		<field hash="67484E74" type="BinHex"/>
+		<field name="fOffsetX" type="BinHex"/>
+		<field name="fOffsetY" type="BinHex"/>
 		<field name="colorIconColor" type="Vector3"/>
 		<field name="fIconAlpha" type="Float"/>
 		<object name="IconTexture">
@@ -362,10 +362,10 @@
 			</object>
 		</object>
 	</object>
-	<object hash="3BB3328B">
+	<object name="OccludedIcon">
 		<field name="sIconLinkageName" type="String"/>
-		<field hash="104F7EE2" type="BinHex"/>
-		<field hash="67484E74" type="BinHex"/>
+		<field name="fOffsetX" type="BinHex"/>
+		<field name="fOffsetY" type="BinHex"/>
 		<field name="colorIconColor" type="Vector3"/>
 		<field name="fIconAlpha" type="Float"/>
 		<object name="IconTexture">
@@ -474,8 +474,8 @@
 	</object>
 	<object name="BackgroundIcon">
 		<field name="sIconLinkageName" type="String"/>
-		<field hash="104F7EE2" type="BinHex"/>
-		<field hash="67484E74" type="BinHex"/>
+		<field name="fOffsetX" type="BinHex"/>
+		<field name="fOffsetY" type="BinHex"/>
 		<field name="colorIconColor" type="Vector3"/>
 		<field name="fIconAlpha" type="Float"/>
 		<object name="IconTexture">
@@ -582,10 +582,10 @@
 			</object>
 		</object>
 	</object>
-	<object hash="5B0373EB">
+	<object name="BackgroundIconBottom">
 		<field name="sIconLinkageName" type="String"/>
-		<field hash="104F7EE2" type="BinHex"/>
-		<field hash="67484E74" type="BinHex"/>
+		<field name="fOffsetX" type="BinHex"/>
+		<field name="fOffsetY" type="BinHex"/>
 		<field name="colorIconColor" type="Vector3"/>
 		<field name="fIconAlpha" type="Float"/>
 		<object name="IconTexture">
@@ -700,16 +700,16 @@
 	</object>
 	<object name="IconModifiers">
 		<field name="fGpsScaleFactor" type="Float"/>
-		<field hash="33B6E8AC" type="BinHex"/>
+		<field name="fGpsScaleMiniMapFactor" type="BinHex"/>
 		<field name="fMaxDistanceFromPlayer" type="Float"/>
 		<field name="bUseUpOrDownSubIcon" type="Boolean"/>
 		<field name="bUseUpOrDownAlpha" type="Boolean"/>
 		<field name="bUseAboveBelowDistanceOverride" type="Boolean"/>
 		<field name="fMinHeightDiffForAboveBelowFeedback" type="Float"/>
-		<field hash="5AABD4AD" type="BinHex"/>
-		<field hash="2DACE43B" type="BinHex"/>
-		<field hash="D1C46AA1" type="BinHex"/>
-		<field hash="A6C35A37" type="BinHex"/>
+		<field name="fAboveOffsetX" type="BinHex"/>
+		<field name="fAboveOffsetY" type="BinHex"/>
+		<field name="fBelowOffsetX" type="BinHex"/>
+		<field name="fBelowOffsetY" type="BinHex"/>
 		<object name="ClampMode">
 			<field name="selEGpsClamp" type="Enum"/>
 			<field name="fClampCloseDistance" type="Float"/>

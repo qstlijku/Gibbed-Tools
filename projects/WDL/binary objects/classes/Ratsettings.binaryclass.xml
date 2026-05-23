@@ -50,7 +50,7 @@
 			<field name="text_fileMoveStateId" type="String"/>
 			<field name="fileMoveStateId" type="BinHex"/>
 		</object>
-		<object hash="38B17551">
+		<object name="End">
 			<field name="disNomadObjectId" type="BinHex"/>
 			<field name="hidSingleObject" type="Boolean"/>
 			<field name="hidKey" type="BinHex"/>

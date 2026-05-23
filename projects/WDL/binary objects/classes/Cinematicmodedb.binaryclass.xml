@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field name="colorremapset" type="Vector3"/>
+	<field name="colorremapset" type="BinHex"/>
 	<field name="cameralensconfigLensConfig" type="BinHex"/>
 	<field name="camerasensorconfigSensorConfig" type="BinHex"/>
 </class>

@@ -15,14 +15,14 @@
 		<field hash="54940D59" type="BinHex"/>
 		<field hash="651B1ED8" type="BinHex"/>
 	</object>
-	<object hash="658BDA66">
+	<object name="CameraParams">
 		<field name="text_fileAnimatedCamera" type="String"/>
 		<field name="fileAnimatedCamera" type="BinHex"/>
-		<field hash="6E9B1521" type="BinHex"/>
-		<field hash="E55E3EBA" type="BinHex"/>
-		<field hash="89A1D4BD" type="BinHex"/>
-		<field hash="58782B02" type="BinHex"/>
-		<field hash="80A88247" type="BinHex"/>
+		<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
+		<field name="fAnimatedCameraPreBlendPosOutTime" type="BinHex"/>
+		<field name="fCameraNearDistance" type="BinHex"/>
+		<field name="angvecCameraAngle" type="BinHex"/>
+		<field name="vecCameraOffset" type="BinHex"/>
 		<field hash="D82C9F24" type="BinHex"/>
 		<field hash="81694604" type="BinHex"/>
 		<field hash="1C4D586A" type="BinHex"/>
