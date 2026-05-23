@@ -17,7 +17,7 @@
 			<field name="fileMovePath" type="BinHex"/>
 		</object>
 		<object name="LayeredMoveWhenWaiting">
-			<field name="fileMovePath" type="String"/>
+			<field name="fileMovePath" type="BinHex"/>
 		</object>
 	</object>
 	<object name="AnimationsPerActors">
@@ -25,10 +25,10 @@
 			<field name="tmplDialogActor" type="BinHex"/>
 			<object name="Animations">
 				<object name="LayeredMoveWhenSpeaking">
-					<field name="fileMovePath" type="String"/>
+					<field name="fileMovePath" type="BinHex"/>
 				</object>
 				<object name="LayeredMoveWhenWaiting">
-					<field name="fileMovePath" type="String"/>
+					<field name="fileMovePath" type="BinHex"/>
 				</object>
 			</object>
 		</object>

@@ -32,7 +32,7 @@
 	<field name="fIconFramingMaxZoomDistance" type="BinHex"/>
 	<field name="uitweensettingFramingCameraTweenSettings" type="BinHex"/>
 	<object name="FogOfWar">
-		<field name="colorColor" type="Vector3"/>
+		<field name="colorColor" type="Vector4"/>
 		<field name="Alpha" type="BinHex"/>
 	</object>
 	<object name="MapFilterItems">

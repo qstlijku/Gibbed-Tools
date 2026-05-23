@@ -8,11 +8,11 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fAutoTakedownArmingRange" type="Float"/>
 	<field name="fAutoTakedownTriggerRange" type="Float"/>
-	<field name="colorDetectorLineColor" type="Vector3"/>
+	<field name="colorDetectorLineColor" type="Vector4"/>
 	<field name="fDetectorLineOpacity" type="Float"/>
 	<field name="fDetectorLineThickness" type="Float"/>
 	<field name="fDetectorLineThicknessNethack" type="Float"/>
-	<field name="colorDetectorLineFriendlyColor" type="Vector3"/>
+	<field name="colorDetectorLineFriendlyColor" type="Vector4"/>
 	<field name="text_fileDetectorLineTexture" type="String"/>
 	<field name="fileDetectorLineTexture" type="BinHex"/>
 	<field name="fDetectorMaskTextureScale" type="Float"/>

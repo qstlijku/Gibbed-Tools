@@ -36,7 +36,7 @@
 				<object name="Variable">
 					<field name="text_progressionmodvariablesVariable" type="String"/>
 					<field name="progressionmodvariablesVariable" type="BinHex"/>
-					<field name="Value" type="Vector4"/>
+					<field name="Value" type="Float"/>
 					<field name="progressionmodexportvariablesMultiplier" type="BinHex"/>
 				</object>
 			</object>

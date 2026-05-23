@@ -20,7 +20,7 @@
 				<field name="Name" type="BinHex"/>
 				<field name="text_progressionatomvariableVariable" type="String"/>
 				<field name="progressionatomvariableVariable" type="BinHex"/>
-				<field name="Value" type="Vector4"/>
+				<field name="Value" type="Float"/>
 				<object name="IsValid">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>

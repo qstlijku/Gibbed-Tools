@@ -58,7 +58,7 @@
 						<object name="Override">
 							<field name="text_progressionmodoverrideVariable" type="String"/>
 							<field name="progressionmodoverrideVariable" type="BinHex"/>
-							<field name="Value" type="Vector4"/>
+							<field name="Value" type="Float"/>
 						</object>
 					</object>
 				</object>
@@ -88,7 +88,7 @@
 						<object name="Override">
 							<field name="text_progressionmodoverrideVariable" type="String"/>
 							<field name="progressionmodoverrideVariable" type="BinHex"/>
-							<field name="Value" type="Vector4"/>
+							<field name="Value" type="Float"/>
 						</object>
 					</object>
 				</object>

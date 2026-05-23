@@ -645,8 +645,8 @@
 		</object>
 	</object>
 	<object name="GlobalConnectionLinksManagerSettings">
-		<field name="fMaxLinkedEntities" type="Float"/>
-		<field name="fMaxLinksPerEntity" type="Float"/>
+		<field name="fMaxLinkedEntities" type="Int32"/>
+		<field name="fMaxLinksPerEntity" type="Int32"/>
 		<field name="fMaxEntitiesDistanceToPlayer" type="Float"/>
 		<field name="fLineWidth" type="Float"/>
 		<field name="fProfilingPathShapeFillSpeed" type="Float"/>

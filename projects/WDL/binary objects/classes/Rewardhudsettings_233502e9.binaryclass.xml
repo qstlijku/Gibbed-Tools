@@ -52,7 +52,7 @@
 	</object>
 	<object name="RewardChannelFeed">
 		<field name="vec2Location" type="Vector2"/>
-		<field name="fEntryMargin" type="Float"/>
+		<field name="fEntryMargin" type="BinHex"/>
 		<field name="fHudChannelDurationTime" type="Float"/>
 		<field name="colorReputationPositiveIncidentColor" type="Vector3"/>
 		<field name="colorReputationNegativeIncidentColor" type="Vector3"/>

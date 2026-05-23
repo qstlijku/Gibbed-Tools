@@ -89,7 +89,7 @@
 		<field name="text_fileReticuleSingleShotVehicleFriendlyAR" type="String"/>
 		<field name="fileReticuleSingleShotVehicleFriendlyAR" type="BinHex"/>
 		<object name="NetHack">
-			<field name="fileNetHackReticle" type="String"/>
+			<field name="fileNetHackReticle" type="BinHex"/>
 		</object>
 		<object name="HitFeedback">
 			<field name="text_fileReticleHitFeedback" type="String"/>
@@ -99,10 +99,10 @@
 		<object name="BounceFeedback">
 			<field name="fReticleAimBounceFeedbackScale" type="Float"/>
 			<field name="fReticleAimBounceFeedbackDuration" type="Float"/>
-			<field name="fReticleAimBounceFeedbackCount" type="Float"/>
+			<field name="fReticleAimBounceFeedbackCount" type="Int32"/>
 			<field name="fReticleFocusBounceFeedbackScale" type="Float"/>
 			<field name="fReticleFocusBounceFeedbackDuration" type="Float"/>
-			<field name="fReticleFocusBounceFeedbackCount" type="Float"/>
+			<field name="fReticleFocusBounceFeedbackCount" type="Int32"/>
 		</object>
 	</object>
 	<object name="Input">

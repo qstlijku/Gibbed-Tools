@@ -29,11 +29,11 @@
 	<field name="uTotalFlashCount" type="UInt32"/>
 	<field name="fMissionTrackedScaleMultiplier" type="Float"/>
 	<field name="fOperativePortraitScaleMultiplier" type="BinHex"/>
-	<field name="colorDefaultFlashColor" type="Vector3"/>
-	<field name="colorCoopFlashColor" type="Vector3"/>
-	<field name="colorMissionTrackedIconColor" type="Vector3"/>
-	<field name="colorMissionTrackedSinglePlayerColor" type="Vector3"/>
-	<field name="colorMissionTrackedMultiPlayerColor" type="Vector3"/>
+	<field name="colorDefaultFlashColor" type="Vector4"/>
+	<field name="colorCoopFlashColor" type="Vector4"/>
+	<field name="colorMissionTrackedIconColor" type="Vector4"/>
+	<field name="colorMissionTrackedSinglePlayerColor" type="Vector4"/>
+	<field name="colorMissionTrackedMultiPlayerColor" type="Vector4"/>
 	<field hash="190A824D" type="BinHex"/>
 	<field hash="09EC6587" type="BinHex"/>
 	<field hash="10906449" type="BinHex"/>
@@ -189,7 +189,7 @@
 	</object>
 	<object name="GroundMaterialNames">
 		<object name="GroundMaterialName">
-			<field name="fileGroundMaterialName" type="String"/>
+			<field name="fileGroundMaterialName" type="BinHex"/>
 		</object>
 	</object>
 	<object name="locstridFullNameTemplate">
@@ -210,7 +210,7 @@
 		<field name="bIsUsed" type="Boolean"/>
 		<field name="bIsLooping" type="Boolean"/>
 		<field name="bIsAlphaOnly" type="Boolean"/>
-		<field name="colorColor" type="Vector3"/>
+		<field name="colorColor" type="Vector4"/>
 		<field name="fAlpha" type="Float"/>
 		<object name="curveColorCurve">
 			<field name="hidNumKnots" type="BinHex"/>
@@ -231,7 +231,7 @@
 		<field name="bIsUsed" type="Boolean"/>
 		<field name="bIsLooping" type="Boolean"/>
 		<field name="bIsAlphaOnly" type="Boolean"/>
-		<field name="colorColor" type="Vector3"/>
+		<field name="colorColor" type="Vector4"/>
 		<field name="fAlpha" type="Float"/>
 		<object name="curveColorCurve">
 			<field name="hidNumKnots" type="BinHex"/>
@@ -246,7 +246,7 @@
 		<field name="bIsUsed" type="Boolean"/>
 		<field name="bIsLooping" type="Boolean"/>
 		<field name="bIsAlphaOnly" type="Boolean"/>
-		<field name="colorColor" type="Vector3"/>
+		<field name="colorColor" type="Vector4"/>
 		<field name="fAlpha" type="Float"/>
 		<object name="curveColorCurve">
 			<field name="hidNumKnots" type="BinHex"/>
