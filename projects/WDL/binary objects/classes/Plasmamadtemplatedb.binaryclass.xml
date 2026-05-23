@@ -6,33 +6,33 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="E942AD8B" type="String"/>
-	<field name="fileAnimationPath" type="String"/>
-	<field name="plasmalookatLookatSettings" type="BinHex"/>
+	<field name="text_fileAnimationPath" type="String"/>
+	<field name="fileAnimationPath" type="BinHex"/>
+	<field hash="6E0F58DD" type="BinHex"/>
 	<field hash="C3FC89BF" type="String"/>
-	<field name="selLayerBlendSettingsID" type="BinHex"/>
+	<field hash="C09C014A" type="BinHex"/>
 	<field hash="765307C2" type="String"/>
-	<field name="selCloseUpLayerBlendSettingsID" type="BinHex"/>
-	<field name="bEnableFootIK" type="BinHex"/>
-	<object name="PlasmaResources">
+	<field hash="39715CAA" type="BinHex"/>
+	<field hash="EBA806F3" type="BinHex"/>
+	<object hash="512860DC">
 		<object name="Resource">
 			<field hash="D0B33F4B" type="String"/>
-			<field name="filePlasmaResource" type="BinHex"/>
-			<field name="selSpeakerSlot" type="BinHex"/>
-			<field name="selSpeakerSex" type="BinHex"/>
-			<field name="selSpeakerArchetype" type="BinHex"/>
-			<field name="selUseAnchor" type="BinHex"/>
+			<field hash="5B9422CF" type="BinHex"/>
+			<field hash="1B7398F2" type="BinHex"/>
+			<field hash="2F46C789" type="BinHex"/>
+			<field hash="D758B18A" type="BinHex"/>
+			<field hash="D0F20F0F" type="BinHex"/>
 		</object>
 	</object>
-	<object name="BaseIdleStartTimes">
-		<object name="BaseIdleStartTime">
-			<field name="fStartFrame" type="BinHex"/>
-			<field name="fEndFrame" type="BinHex"/>
+	<object hash="9435A01D">
+		<object hash="5EF1E9DC">
+			<field hash="69948821" type="BinHex"/>
+			<field hash="52FABE29" type="BinHex"/>
 		</object>
 	</object>
-	<object name="IncludedTemplates">
-		<object name="plasmatemplateTemplate">
-			<field name="plasmatemplateTemplate" type="BinHex"/>
+	<object hash="6767B735">
+		<object hash="C3A8F4B7">
+			<field hash="C3A8F4B7" type="BinHex"/>
 		</object>
 	</object>
 </class>

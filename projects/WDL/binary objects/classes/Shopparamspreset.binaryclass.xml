@@ -11,20 +11,20 @@
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -35,7 +35,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -53,17 +53,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -74,9 +74,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -88,7 +88,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -106,17 +106,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -127,9 +127,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -139,20 +139,20 @@
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -163,7 +163,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -181,17 +181,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -202,9 +202,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -216,7 +216,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -234,17 +234,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -255,9 +255,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -267,20 +267,20 @@
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -291,7 +291,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -309,17 +309,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -330,9 +330,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -344,7 +344,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -362,17 +362,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -383,9 +383,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -395,20 +395,20 @@
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -419,7 +419,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -437,17 +437,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -458,9 +458,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -472,7 +472,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -490,17 +490,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -511,32 +511,32 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object name="ShopParamsShirt">
+	<object hash="95640D73">
 		<field name="vectorCameraPositionOffset" type="BinHex"/>
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -547,7 +547,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -565,17 +565,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -586,9 +586,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -600,7 +600,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -618,17 +618,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -639,9 +639,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -651,20 +651,20 @@
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -675,7 +675,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -693,17 +693,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -714,9 +714,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -728,7 +728,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -746,17 +746,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -767,9 +767,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -779,20 +779,20 @@
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -803,7 +803,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -821,17 +821,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -842,9 +842,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -856,7 +856,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -874,17 +874,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -895,9 +895,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -907,20 +907,20 @@
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -931,7 +931,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -949,17 +949,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -970,9 +970,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -984,7 +984,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1002,17 +1002,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1023,9 +1023,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -1035,20 +1035,20 @@
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -1059,7 +1059,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1077,17 +1077,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1098,9 +1098,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -1112,7 +1112,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1130,17 +1130,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1151,9 +1151,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -1163,20 +1163,20 @@
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -1187,7 +1187,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1205,17 +1205,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1226,9 +1226,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -1240,7 +1240,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1258,17 +1258,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1279,32 +1279,32 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object name="ShopParamsHands">
+	<object hash="78EFD29B">
 		<field name="vectorCameraPositionOffset" type="BinHex"/>
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -1315,7 +1315,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1333,17 +1333,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1354,9 +1354,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -1368,7 +1368,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1386,17 +1386,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1407,32 +1407,32 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object name="ShopParamsOutfit">
+	<object hash="E6A76702">
 		<field name="vectorCameraPositionOffset" type="BinHex"/>
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -1443,7 +1443,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1461,17 +1461,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1482,9 +1482,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -1496,7 +1496,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1514,17 +1514,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1535,32 +1535,32 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object name="ShopParamsFabricColor">
+	<object hash="C345CDA6">
 		<field name="vectorCameraPositionOffset" type="BinHex"/>
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -1571,7 +1571,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1589,17 +1589,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1610,9 +1610,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -1624,7 +1624,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1642,17 +1642,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1663,32 +1663,32 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object name="ShopParamsEar">
+	<object hash="DAD7A550">
 		<field name="vectorCameraPositionOffset" type="BinHex"/>
 		<field name="vectorCameraOrientationOffset" type="BinHex"/>
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="AnimParams">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="BlendInParameters">
@@ -1699,7 +1699,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1717,17 +1717,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1738,9 +1738,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>
@@ -1752,7 +1752,7 @@
 			<field name="vec2BlendCurve" type="Vector2"/>
 			<field name="bReticleLock" type="Boolean"/>
 			<field name="fReticleLockMinDistance" type="Float"/>
-			<field name="bReticleLockIsPitchOnly" type="BinHex"/>
+			<field hash="4B2BE286" type="BinHex"/>
 			<field name="bFreezePivotXY" type="Boolean"/>
 			<field name="bFreezePivotZ" type="Boolean"/>
 			<field name="bFreezeRotation" type="Boolean"/>
@@ -1770,17 +1770,17 @@
 			<field name="fAlignMovementSpeedThreshold" type="Float"/>
 			<field name="fAlignPitchThreshold" type="Float"/>
 			<field name="bAllowInput" type="Boolean"/>
-			<field name="bDisableSecureBlend" type="BinHex"/>
-			<field name="bResetVelocityReference" type="BinHex"/>
-			<field name="bUseFormerCameraCollision" type="BinHex"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
 			<object name="MyModifierType">
 				<field name="bNormal" type="Boolean"/>
 				<field name="bAdrenaline" type="Boolean"/>
 				<field name="bProfiling" type="Boolean"/>
 				<field name="bSniperGun" type="Boolean"/>
-				<field name="bRcInTightSpace" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
@@ -1791,9 +1791,9 @@
 				<field name="bSniperGun" type="Boolean"/>
 				<field name="bProjectileDropable" type="Boolean"/>
 				<field name="bIsHidingInVehicle" type="Boolean"/>
-				<field name="bSameRcTransition" type="BinHex"/>
-				<field name="bThrowing" type="BinHex"/>
-				<field name="bActiveAccess" type="BinHex"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
 				<field hash="229C8DC6" type="BinHex"/>
 			</object>
 		</object>

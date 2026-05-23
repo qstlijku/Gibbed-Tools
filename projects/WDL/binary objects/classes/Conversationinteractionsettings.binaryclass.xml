@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="GeneralSettings">
-		<field name="bBlockConversationTeleportation" type="BinHex"/>
+		<field hash="43D50E42" type="BinHex"/>
 		<field name="vectorAutoNavPositionOffset" type="BinHex"/>
 		<field name="fAutoNavYawOffset" type="Float"/>
 		<field name="selAvailabilityType" type="Enum"/>
@@ -36,63 +36,63 @@
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="EntityAnimation">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
-		<object name="PlayerExitAnimation">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+		<object hash="4CE34821">
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
-		<object name="EntityExitAnimation">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+		<object hash="D386A137">
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 	</object>
@@ -103,9 +103,9 @@
 				<field name="conversationcameraConversationCameraSetting" type="BinHex"/>
 				<field name="bSkippable" type="Boolean"/>
 				<field name="bRepeatable" type="Boolean"/>
-				<object name="IsAvailable">
-					<field name="rulesmithidRule" type="BinHex"/>
-					<field name="rulesmithconstValue" type="BinHex"/>
+				<object hash="1A8B9A95">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -115,9 +115,9 @@
 				<field name="conversationcameraConversationCameraSetting" type="BinHex"/>
 				<field name="bSkippable" type="Boolean"/>
 				<field name="bRepeatable" type="Boolean"/>
-				<object name="IsAvailable">
-					<field name="rulesmithidRule" type="BinHex"/>
-					<field name="rulesmithconstValue" type="BinHex"/>
+				<object hash="1A8B9A95">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -125,15 +125,15 @@
 			<object name="FillerConversation">
 				<field name="conversationsettingConversation" type="BinHex"/>
 				<field name="conversationcameraConversationCameraSetting" type="BinHex"/>
-				<object name="IsAvailable">
-					<field name="rulesmithidRule" type="BinHex"/>
-					<field name="rulesmithconstValue" type="BinHex"/>
+				<object hash="1A8B9A95">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object name="AtlasProperties">
-		<field name="bExportToAtlas" type="BinHex"/>
-		<field name="atlastypeElementType" type="String"/>
+	<object hash="3C7AB27D">
+		<field hash="4DBCE0FB" type="BinHex"/>
+		<field hash="34870E16" type="String"/>
 	</object>
 </class>

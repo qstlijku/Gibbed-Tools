@@ -17,8 +17,8 @@
 	<field name="fTemperature" type="Float"/>
 	<field name="fTint" type="Float"/>
 	<field name="bUseLuminanceWeights" type="Boolean"/>
-	<field hash="77FCF734" type="String"/>
-	<field name="fileSensorLuminanceWeights" type="String"/>
+	<field name="text_fileSensorLuminanceWeights" type="String"/>
+	<field name="fileSensorLuminanceWeights" type="BinHex"/>
 	<field name="bUseFilmGrain" type="Boolean"/>
 	<field name="fFilmGrainIntensity" type="Float"/>
 	<field name="fFilmGrainVignetingRelation" type="Float"/>

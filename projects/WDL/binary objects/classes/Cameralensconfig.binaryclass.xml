@@ -7,11 +7,11 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fBloomIntensity" type="Float"/>
-	<field name="fBloomLuminanceOffsetStart" type="BinHex"/>
+	<field hash="F2928FDA" type="BinHex"/>
 	<field name="fBloomLuminanceOffsetEnd" type="Float"/>
-	<field name="fBloomVariance" type="BinHex"/>
-	<field name="fBloomMaxExposedLuminance" type="BinHex"/>
-	<field name="fileDirtTexture" type="String"/>
+	<field hash="C55A3CD8" type="BinHex"/>
+	<field hash="D0160F0D" type="BinHex"/>
+	<field name="fileDirtTexture" type="BinHex"/>
 	<field name="fDirtIntensity" type="Float"/>
 	<field name="fDirtGamma" type="Float"/>
 	<field name="fVignettingAmount" type="Float"/>

@@ -8,6 +8,6 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="bIsUsingData" type="Boolean"/>
 	<field name="bIsContainer" type="Boolean"/>
-	<field hash="7F1DCCF6" type="String"/>
-	<field name="fileContainerResource" type="String"/>
+	<field name="text_fileContainerResource" type="String"/>
+	<field name="fileContainerResource" type="BinHex"/>
 </class>

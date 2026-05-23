@@ -25,7 +25,7 @@
 			<field name="sBoneName" type="BinHex"/>
 		</object>
 		<object name="CameraShake">
-			<field name="fileShakePathId" type="String"/>
+			<field name="fileShakePathId" type="BinHex"/>
 			<field name="fShakeStrenght" type="Float"/>
 			<field name="fShakeAttenuationPower" type="Float"/>
 			<field name="fShakeDuration" type="Float"/>

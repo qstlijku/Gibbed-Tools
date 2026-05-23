@@ -17,10 +17,10 @@
 		</object>
 	</object>
 	<object name="HeadLightSettings">
-		<field hash="479D37D5" type="String"/>
-		<field name="fileLeftHeadlightTexture" type="String"/>
-		<field hash="15421626" type="String"/>
-		<field name="fileRightHeadlightTexture" type="String"/>
+		<field name="text_fileLeftHeadlightTexture" type="String"/>
+		<field name="fileLeftHeadlightTexture" type="BinHex"/>
+		<field name="text_fileRightHeadlightTexture" type="String"/>
+		<field name="fileRightHeadlightTexture" type="BinHex"/>
 		<field name="iLeftLightSlot" type="Int32"/>
 		<field name="iRightLightSlot" type="Int32"/>
 	</object>

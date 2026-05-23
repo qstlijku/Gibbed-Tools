@@ -8,8 +8,8 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="2E6F474E" type="String"/>
 	<field name="ingameMapID" type="BinHex"/>
-	<field hash="6EA6C704" type="String"/>
-	<field name="fileIngameMapPathID" type="String"/>
+	<field name="text_fileIngameMapPathID" type="String"/>
+	<field name="fileIngameMapPathID" type="BinHex"/>
 	<field name="bLoadOnStart" type="Boolean"/>
 	<field name="selMapContext" type="Enum"/>
 </class>

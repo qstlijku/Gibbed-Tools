@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="boatparamsBoatParams" type="BinHex"/>
-	<field hash="8BC0A74C" type="String"/>
-	<field name="fileDriveHandling" type="String"/>
-	<field hash="681360FB" type="String"/>
-	<field name="fileDriveCamera" type="String"/>
+	<field name="text_fileDriveHandling" type="String"/>
+	<field name="fileDriveHandling" type="BinHex"/>
+	<field name="text_fileDriveCamera" type="String"/>
+	<field name="fileDriveCamera" type="BinHex"/>
 </class>

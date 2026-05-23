@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="CC979B17" type="String"/>
-	<field name="filePoseDefinitionFileName" type="String"/>
-	<field name="fileBindposeDefinitionFileName" type="BinHex"/>
-	<field name="fileFacebuilderDefinitionFileName" type="BinHex"/>
+	<field name="text_filePoseDefinitionFileName" type="String"/>
+	<field name="filePoseDefinitionFileName" type="BinHex"/>
+	<field hash="5DE0C464" type="BinHex"/>
+	<field hash="46A28028" type="BinHex"/>
 	<field name="posewrinklemasksetPoseWrinkleMaskSet" type="BinHex"/>
 	<field name="poseblendshapessetPoseBlendShapesSet" type="BinHex"/>
 </class>

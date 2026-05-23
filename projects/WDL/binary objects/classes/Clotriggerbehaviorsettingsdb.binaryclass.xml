@@ -8,14 +8,14 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="TriggerBehaviors">
 		<field name="Name" type="String"/>
-		<field hash="7ADF8640" type="String"/>
-		<field name="fileActionMoveStateId" type="String"/>
-		<field hash="334A8ED1" type="String"/>
-		<field name="fileCycleMoveStateId" type="String"/>
+		<field name="text_fileActionMoveStateId" type="String"/>
+		<field name="fileActionMoveStateId" type="BinHex"/>
+		<field name="text_fileCycleMoveStateId" type="String"/>
+		<field name="fileCycleMoveStateId" type="BinHex"/>
 		<field name="selOnAnimEnd" type="Enum"/>
 		<field name="bUseAsAnchorForGoto" type="Boolean"/>
 		<field name="bOverrideQuitSettings" type="Boolean"/>
-		<field name="bSkipExitAnim" type="BinHex"/>
+		<field hash="FF140259" type="BinHex"/>
 		<object name="TriggerSettings">
 			<field name="selTriggerType" type="Enum"/>
 			<field name="bComputeAnchorFromDynamicCLOAnchor" type="Boolean"/>
@@ -35,14 +35,14 @@
 		</object>
 		<object name="TriggerBehaviors">
 			<field name="Name" type="String"/>
-			<field hash="7ADF8640" type="String"/>
-			<field name="fileActionMoveStateId" type="String"/>
-			<field hash="334A8ED1" type="String"/>
-			<field name="fileCycleMoveStateId" type="String"/>
+			<field name="text_fileActionMoveStateId" type="String"/>
+			<field name="fileActionMoveStateId" type="BinHex"/>
+			<field name="text_fileCycleMoveStateId" type="String"/>
+			<field name="fileCycleMoveStateId" type="BinHex"/>
 			<field name="selOnAnimEnd" type="Enum"/>
 			<field name="bUseAsAnchorForGoto" type="Boolean"/>
 			<field name="bOverrideQuitSettings" type="Boolean"/>
-			<field name="bSkipExitAnim" type="BinHex"/>
+			<field hash="FF140259" type="BinHex"/>
 			<object name="TriggerSettings">
 				<field name="selTriggerType" type="Enum"/>
 				<field name="bComputeAnchorFromDynamicCLOAnchor" type="Boolean"/>

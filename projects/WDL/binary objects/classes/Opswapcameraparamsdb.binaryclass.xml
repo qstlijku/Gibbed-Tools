@@ -6,14 +6,14 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object name="CameraParams">
-		<field hash="07F0EC09" type="String"/>
-		<field name="fileAnimatedCamera" type="String"/>
-		<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-		<field name="fAnimatedCameraPreBlendPosOutTime" type="BinHex"/>
-		<field name="fCameraNearDistance" type="BinHex"/>
-		<field name="angvecCameraAngle" type="BinHex"/>
-		<field name="vecCameraOffset" type="BinHex"/>
+	<object hash="658BDA66">
+		<field name="text_fileAnimatedCamera" type="String"/>
+		<field name="fileAnimatedCamera" type="BinHex"/>
+		<field hash="6E9B1521" type="BinHex"/>
+		<field hash="E55E3EBA" type="BinHex"/>
+		<field hash="89A1D4BD" type="BinHex"/>
+		<field hash="58782B02" type="BinHex"/>
+		<field hash="80A88247" type="BinHex"/>
 		<field hash="D82C9F24" type="BinHex"/>
 		<field hash="81694604" type="BinHex"/>
 		<field hash="1C4D586A" type="BinHex"/>

@@ -8,8 +8,8 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="WrinkleMaskSet">
 		<object name="WrinkleMask">
-			<field hash="A14DADC6" type="String"/>
-			<field name="fileMaskTextureFileName" type="String"/>
+			<field name="text_fileMaskTextureFileName" type="String"/>
+			<field name="fileMaskTextureFileName" type="BinHex"/>
 			<object name="BoneIntensityInputs">
 				<object name="BoneIntensityInput">
 					<field name="sBoneName" type="String"/>

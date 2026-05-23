@@ -40,8 +40,8 @@
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="F3464B91" type="String"/>
-			<field name="fileMoveStateId" type="String"/>
+			<field name="text_fileMoveStateId" type="String"/>
+			<field name="fileMoveStateId" type="BinHex"/>
 		</object>
 		<object name="IdleStanding">
 			<field name="disNomadObjectId" type="BinHex"/>
@@ -49,8 +49,8 @@
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="F3464B91" type="String"/>
-			<field name="fileMoveStateId" type="String"/>
+			<field name="text_fileMoveStateId" type="String"/>
+			<field name="fileMoveStateId" type="BinHex"/>
 		</object>
 		<object name="FleeTransition">
 			<field name="disNomadObjectId" type="BinHex"/>
@@ -58,8 +58,8 @@
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="F3464B91" type="String"/>
-			<field name="fileMoveStateId" type="String"/>
+			<field name="text_fileMoveStateId" type="String"/>
+			<field name="fileMoveStateId" type="BinHex"/>
 		</object>
 		<object name="Flee">
 			<field name="disNomadObjectId" type="BinHex"/>
@@ -67,8 +67,8 @@
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="F3464B91" type="String"/>
-			<field name="fileMoveStateId" type="String"/>
+			<field name="text_fileMoveStateId" type="String"/>
+			<field name="fileMoveStateId" type="BinHex"/>
 		</object>
 		<object name="Dive">
 			<field name="disNomadObjectId" type="BinHex"/>
@@ -76,17 +76,17 @@
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="F3464B91" type="String"/>
-			<field name="fileMoveStateId" type="String"/>
+			<field name="text_fileMoveStateId" type="String"/>
+			<field name="fileMoveStateId" type="BinHex"/>
 		</object>
-		<object name="End">
+		<object hash="38B17551">
 			<field name="disNomadObjectId" type="BinHex"/>
 			<field name="hidSingleObject" type="Boolean"/>
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="F3464B91" type="String"/>
-			<field name="fileMoveStateId" type="String"/>
+			<field name="text_fileMoveStateId" type="String"/>
+			<field name="fileMoveStateId" type="BinHex"/>
 		</object>
 	</object>
 	<object name="locstridScoutXTargetNameLocId">

@@ -52,8 +52,8 @@
 	</object>
 	<object name="RoadBumps">
 		<field name="bUseRoadBumps" type="Boolean"/>
-		<field hash="49153D13" type="String"/>
-		<field name="fileRoadBumpsShakeAnimation" type="String"/>
+		<field name="text_fileRoadBumpsShakeAnimation" type="String"/>
+		<field name="fileRoadBumpsShakeAnimation" type="BinHex"/>
 		<field name="fStrengthMin" type="Float"/>
 		<field name="fStrengthMax" type="Float"/>
 		<field name="fStrengthRndMax" type="Float"/>
@@ -64,8 +64,8 @@
 		<field name="fMinSpeed" type="Float"/>
 	</object>
 	<object name="LandingShake">
-		<field hash="DF47B71F" type="String"/>
-		<field name="fileLandingShakeAnimation" type="String"/>
+		<field name="text_fileLandingShakeAnimation" type="String"/>
+		<field name="fileLandingShakeAnimation" type="BinHex"/>
 		<object name="curveLandingShakeIntensity">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
@@ -78,8 +78,8 @@
 		</object>
 	</object>
 	<object name="RoadMaterialShake">
-		<field hash="9B3A1636" type="String"/>
-		<field name="fileRoadShakeAnimationPathID" type="String"/>
+		<field name="text_fileRoadShakeAnimationPathID" type="String"/>
+		<field name="fileRoadShakeAnimationPathID" type="BinHex"/>
 	</object>
 	<object name="TurningCameraEffect">
 		<field name="bUseTurningCamera" type="Boolean"/>

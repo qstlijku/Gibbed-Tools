@@ -8,8 +8,8 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="selReactionType" type="Enum"/>
 	<object name="AnimationParams">
-		<field hash="E942AD8B" type="String"/>
-		<field name="fileAnimationPath" type="String"/>
+		<field name="text_fileAnimationPath" type="String"/>
+		<field name="fileAnimationPath" type="BinHex"/>
 		<field name="selAnimationLayerType" type="Enum"/>
 		<object name="StateMachine">
 			<field name="bPlayAnimEntry" type="Boolean"/>

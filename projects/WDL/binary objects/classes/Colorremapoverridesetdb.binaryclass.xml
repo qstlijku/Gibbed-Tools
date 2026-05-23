@@ -10,8 +10,8 @@
 		<object name="SetItem">
 			<field name="fStartHour" type="Float"/>
 			<field name="fEndHour" type="Float"/>
-			<field hash="3DD815A1" type="String"/>
-			<field name="fileColorRemapTexturePath" type="String"/>
+			<field name="text_fileColorRemapTexturePath" type="String"/>
+			<field name="fileColorRemapTexturePath" type="BinHex"/>
 		</object>
 	</object>
 </class>

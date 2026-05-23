@@ -9,8 +9,8 @@
 	<field name="bLooping" type="Boolean"/>
 	<object name="CameraAnimations">
 		<object name="fileCameraAnimation">
-			<field hash="3E90CFD9" type="String"/>
-			<field name="fileCameraAnimation" type="String"/>
+			<field name="text_fileCameraAnimation" type="String"/>
+			<field name="fileCameraAnimation" type="BinHex"/>
 		</object>
 	</object>
 </class>

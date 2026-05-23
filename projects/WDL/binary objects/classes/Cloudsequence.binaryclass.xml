@@ -22,16 +22,16 @@
 				<field name="fVerticalScale" type="Float"/>
 				<field name="fVerticalOffset" type="Float"/>
 				<object name="LowerLayer">
-					<field hash="96EA533E" type="String"/>
-					<field name="fileAlbedo" type="String"/>
+					<field name="text_fileAlbedo" type="String"/>
+					<field name="fileAlbedo" type="BinHex"/>
 					<field name="fileNormal" type="String"/>
 					<field name="vector2Tiling" type="BinHex"/>
 					<field name="fSpeed" type="Float"/>
 					<field name="fIntensity" type="Float"/>
 				</object>
 				<object name="UpperLayer">
-					<field hash="96EA533E" type="String"/>
-					<field name="fileAlbedo" type="String"/>
+					<field name="text_fileAlbedo" type="String"/>
+					<field name="fileAlbedo" type="BinHex"/>
 					<field name="fileNormal" type="String"/>
 					<field name="vector2Tiling" type="BinHex"/>
 					<field name="fSpeed" type="Float"/>
@@ -44,16 +44,16 @@
 				<field name="fVerticalScale" type="Float"/>
 				<field name="fVerticalOffset" type="Float"/>
 				<object name="LowerLayer">
-					<field hash="96EA533E" type="String"/>
-					<field name="fileAlbedo" type="String"/>
+					<field name="text_fileAlbedo" type="String"/>
+					<field name="fileAlbedo" type="BinHex"/>
 					<field name="fileNormal" type="String"/>
 					<field name="vector2Tiling" type="BinHex"/>
 					<field name="fSpeed" type="Float"/>
 					<field name="fIntensity" type="Float"/>
 				</object>
 				<object name="UpperLayer">
-					<field hash="96EA533E" type="String"/>
-					<field name="fileAlbedo" type="String"/>
+					<field name="text_fileAlbedo" type="String"/>
+					<field name="fileAlbedo" type="BinHex"/>
 					<field name="fileNormal" type="String"/>
 					<field name="vector2Tiling" type="BinHex"/>
 					<field name="fSpeed" type="Float"/>

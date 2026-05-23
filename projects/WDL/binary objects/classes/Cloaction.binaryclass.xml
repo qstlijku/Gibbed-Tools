@@ -10,7 +10,7 @@
 	<field name="selShowcaseValue" type="Enum"/>
 	<field name="bCanBeTalker" type="Boolean"/>
 	<field name="bPlaySoundInAnim" type="Boolean"/>
-	<field name="bIsCensusActivity" type="BinHex"/>
+	<field hash="EBDB4BAF" type="BinHex"/>
 	<object name="ActionDescription">
 		<field name="selStanceOnStart" type="Enum"/>
 		<field name="selLocation" type="Enum"/>
@@ -21,32 +21,32 @@
 		<field name="selOverrideFeetIk" type="Enum"/>
 	</object>
 	<object name="CityLifeActionSettings">
-		<field hash="F3464B91" type="String"/>
-		<field name="fileMoveStateId" type="String"/>
+		<field name="text_fileMoveStateId" type="String"/>
+		<field name="fileMoveStateId" type="BinHex"/>
 		<field name="bHasEntryAnim" type="Boolean"/>
-		<field hash="FB34EBDB" type="String"/>
-		<field name="fileEntryMoveStateId" type="String"/>
+		<field name="text_fileEntryMoveStateId" type="String"/>
+		<field name="fileEntryMoveStateId" type="BinHex"/>
 		<field name="bHasExitAnim" type="Boolean"/>
-		<field hash="33301737" type="String"/>
-		<field name="fileExitMoveStateId" type="String"/>
+		<field name="text_fileExitMoveStateId" type="String"/>
+		<field name="fileExitMoveStateId" type="BinHex"/>
 		<field name="bLoopSpawnAnim" type="Boolean"/>
 		<field name="bLoopAttractAnim" type="Boolean"/>
 		<field hash="F41EFDC2" type="BinHex"/>
 		<field name="bProximityBehavior" type="Boolean"/>
 		<field name="selBhvPriority" type="Enum"/>
-		<field name="bDespawnOnUse" type="BinHex"/>
-		<field name="incidentlistIncidentIgnoreList" type="BinHex"/>
+		<field hash="CB775E97" type="BinHex"/>
+		<field hash="E3DC2A77" type="BinHex"/>
 		<object name="ProximitySettings">
 			<field name="Name" type="String"/>
-			<field hash="7ADF8640" type="String"/>
-			<field name="fileActionMoveStateId" type="String"/>
-			<field hash="334A8ED1" type="String"/>
-			<field name="fileCycleMoveStateId" type="String"/>
+			<field name="text_fileActionMoveStateId" type="String"/>
+			<field name="fileActionMoveStateId" type="BinHex"/>
+			<field name="text_fileCycleMoveStateId" type="String"/>
+			<field name="fileCycleMoveStateId" type="BinHex"/>
 			<field name="selOnAnimEnd" type="Enum"/>
 			<field name="bUseAsAnchorForGoto" type="Boolean"/>
 			<field name="fProximityRadius" type="Float"/>
 			<field name="bOverrideQuitSettings" type="Boolean"/>
-			<field name="bSkipExitAnim" type="BinHex"/>
+			<field hash="FF140259" type="BinHex"/>
 			<object name="TriggerSettings">
 				<field name="selTriggerType" type="Enum"/>
 				<field name="bComputeAnchorFromDynamicCLOAnchor" type="Boolean"/>
@@ -69,8 +69,8 @@
 					<field name="bUseTimer" type="Boolean"/>
 					<field name="bUseMaxAngles" type="Boolean"/>
 					<object name="LookAtMoveState">
-						<field hash="7193C71D" type="String"/>
-						<field name="fileMovePath" type="String"/>
+						<field name="text_fileMovePath" type="String"/>
+						<field name="fileMovePath" type="BinHex"/>
 					</object>
 				</object>
 			</object>
@@ -95,14 +95,14 @@
 		</object>
 		<object name="TriggerBehaviors">
 			<field name="Name" type="String"/>
-			<field hash="7ADF8640" type="String"/>
-			<field name="fileActionMoveStateId" type="String"/>
-			<field hash="334A8ED1" type="String"/>
-			<field name="fileCycleMoveStateId" type="String"/>
+			<field name="text_fileActionMoveStateId" type="String"/>
+			<field name="fileActionMoveStateId" type="BinHex"/>
+			<field name="text_fileCycleMoveStateId" type="String"/>
+			<field name="fileCycleMoveStateId" type="BinHex"/>
 			<field name="selOnAnimEnd" type="Enum"/>
 			<field name="bUseAsAnchorForGoto" type="Boolean"/>
 			<field name="bOverrideQuitSettings" type="Boolean"/>
-			<field name="bSkipExitAnim" type="BinHex"/>
+			<field hash="FF140259" type="BinHex"/>
 			<object name="TriggerSettings">
 				<field name="selTriggerType" type="Enum"/>
 				<field name="bComputeAnchorFromDynamicCLOAnchor" type="Boolean"/>
@@ -117,8 +117,8 @@
 					<field name="bUseTimer" type="Boolean"/>
 					<field name="bUseMaxAngles" type="Boolean"/>
 					<object name="LookAtMoveState">
-						<field hash="7193C71D" type="String"/>
-						<field name="fileMovePath" type="String"/>
+						<field name="text_fileMovePath" type="String"/>
+						<field name="fileMovePath" type="BinHex"/>
 					</object>
 				</object>
 				<field name="fTriggerDelay" type="Float"/>
@@ -168,22 +168,22 @@
 			</object>
 		</object>
 	</object>
-	<object name="AnimationTagInformation">
-		<object name="tagcategoryselectionblackboardActivityTags">
+	<object hash="245FD7E5">
+		<object hash="D038FD91">
 			<object name="TagCategorySelectionArray">
 				<object name="TagCategorySelection">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<field hash="BDB3B8D5" type="String"/>
-					<field name="UITagCategorySelectionClassID" type="BinHex"/>
-					<field name="tagcategoryUITagCategory" type="BinHex"/>
+					<field hash="401A8276" type="BinHex"/>
+					<field hash="F5391DFF" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
 					<object name="Tags">
 						<object name="Tag">
 							<object name="tagcategoryselectionTag">
 								<field hash="BDB3B8D5" type="String"/>
-								<field name="UITagCategorySelectionClassID" type="BinHex"/>
-								<field name="tagcategoryUITagCategory" type="BinHex"/>
+								<field hash="401A8276" type="BinHex"/>
+								<field hash="F5391DFF" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
 								<field name="tagTag" type="BinHex"/>
 							</object>
@@ -193,7 +193,7 @@
 					<field name="tagTag" type="BinHex"/>
 				</object>
 			</object>
-			<object name="TagDescriptorUI">
+			<object hash="D0C5DABB">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
@@ -204,21 +204,21 @@
 				</object>
 			</object>
 		</object>
-		<object name="tagcategoryselectionblackboardExclusionTags">
+		<object hash="413663B1">
 			<object name="TagCategorySelectionArray">
 				<object name="TagCategorySelection">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<field hash="BDB3B8D5" type="String"/>
-					<field name="UITagCategorySelectionClassID" type="BinHex"/>
-					<field name="tagcategoryUITagCategory" type="BinHex"/>
+					<field hash="401A8276" type="BinHex"/>
+					<field hash="F5391DFF" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
 					<object name="Tags">
 						<object name="Tag">
 							<object name="tagcategoryselectionTag">
 								<field hash="BDB3B8D5" type="String"/>
-								<field name="UITagCategorySelectionClassID" type="BinHex"/>
-								<field name="tagcategoryUITagCategory" type="BinHex"/>
+								<field hash="401A8276" type="BinHex"/>
+								<field hash="F5391DFF" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
 								<field name="tagTag" type="BinHex"/>
 							</object>
@@ -228,7 +228,7 @@
 					<field name="tagTag" type="BinHex"/>
 				</object>
 			</object>
-			<object name="TagDescriptorUI">
+			<object hash="D0C5DABB">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
@@ -255,8 +255,8 @@
 							<field name="tagTag" type="BinHex"/>
 							<object name="tagcategoryselectionTag">
 								<field hash="BDB3B8D5" type="String"/>
-								<field name="UITagCategorySelectionClassID" type="BinHex"/>
-								<field name="tagcategoryUITagCategory" type="BinHex"/>
+								<field hash="401A8276" type="BinHex"/>
+								<field hash="F5391DFF" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
 								<field name="tagTag" type="BinHex"/>
 							</object>
@@ -267,8 +267,8 @@
 							<field name="tagTag" type="BinHex"/>
 							<object name="tagcategoryselectionTag">
 								<field hash="BDB3B8D5" type="String"/>
-								<field name="UITagCategorySelectionClassID" type="BinHex"/>
-								<field name="tagcategoryUITagCategory" type="BinHex"/>
+								<field hash="401A8276" type="BinHex"/>
+								<field hash="F5391DFF" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
 								<field name="tagTag" type="BinHex"/>
 							</object>
@@ -280,8 +280,8 @@
 								<object name="Tag">
 									<object name="tagcategoryselectionTag">
 										<field hash="BDB3B8D5" type="String"/>
-										<field name="UITagCategorySelectionClassID" type="BinHex"/>
-										<field name="tagcategoryUITagCategory" type="BinHex"/>
+										<field hash="401A8276" type="BinHex"/>
+										<field hash="F5391DFF" type="BinHex"/>
 										<field name="tagcategoryTagCategory" type="BinHex"/>
 										<field name="tagTag" type="BinHex"/>
 									</object>
@@ -344,8 +344,8 @@
 					<object name="TagsExcluded">
 						<object name="tagcategoryselectionTag">
 							<field hash="BDB3B8D5" type="String"/>
-							<field name="UITagCategorySelectionClassID" type="BinHex"/>
-							<field name="tagcategoryUITagCategory" type="BinHex"/>
+							<field hash="401A8276" type="BinHex"/>
+							<field hash="F5391DFF" type="BinHex"/>
 							<field name="tagcategoryTagCategory" type="BinHex"/>
 							<field name="tagTag" type="BinHex"/>
 						</object>
@@ -354,9 +354,9 @@
 			</object>
 		</object>
 	</object>
-	<object name="AtlasProperties">
-		<field name="bExportToAtlas" type="BinHex"/>
-		<field name="atlastypeElementType" type="String"/>
+	<object hash="3C7AB27D">
+		<field hash="4DBCE0FB" type="BinHex"/>
+		<field hash="34870E16" type="String"/>
 	</object>
 	<object name="GoBackToCLOSettings">
 		<field name="cloactlistBackUpActionList" type="BinHex"/>
@@ -373,71 +373,71 @@
 		<field name="vectorAutoNavPositionOffset" type="BinHex"/>
 		<field name="fAutoNavYawOffset" type="Float"/>
 		<object name="PlayerAnimation">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 		<object name="EntityAnimation">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
-		<object name="PlayerExitAnimation">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+		<object hash="4CE34821">
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
-		<object name="EntityExitAnimation">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+		<object hash="D386A137">
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="sAnchorName" type="BinHex"/>
 			<field name="bUseForceDisplacement" type="Boolean"/>
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
 			<field name="fileAnimatedCamera" type="String"/>
-			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
-			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
-			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
-			<field name="bNoCollisionInteraction" type="BinHex"/>
-			<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
-			<field name="bAllowFaceMaskLayerState" type="BinHex"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
 			<object name="AnchorPartNames"/>
 		</object>
 	</object>
