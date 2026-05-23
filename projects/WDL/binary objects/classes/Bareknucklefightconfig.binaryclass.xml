@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BareknucklefightconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bareknucklearenaArenaConfig" type="BinHex"/>
+	<field name="bareknucklefightmodifiersModifierConfig" type="BinHex"/>
+	<field name="bareknucklecrowdsoundconfigCrowdSound" type="BinHex"/>
+	<field name="bareknucklereactionReactions" type="BinHex"/>
+	<field name="iDifficultyLevel" type="BinHex"/>
+	<field name="bCanUseStunCinematics" type="Boolean"/>
+	<field name="bCanUseGlobalIntroMadCinematic" type="Boolean"/>
+	<field name="bCanCountForProgression" type="Boolean"/>
+	<field name="bCanHaveChallenge" type="Boolean"/>
+	<field name="bCanShowIntroCinematicUI" type="Boolean"/>
+	<field name="fIntroCinematicTimeUITriggerEnter" type="Float"/>
+	<field name="fIntroCinematicTimeUITriggerEnterShort" type="Float"/>
+	<field name="fIntroCinematicTimeUITriggerExit" type="Float"/>
+	<object name="SpawnConfigPool">
+		<object name="SpawnConfig">
+			<field name="humanconfigHumanConfig" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="BA829EAF">
+		<field hash="94C08F9B" type="Boolean"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object name="Wolfskin">
+		<field name="disNomadObjectId" type="BinHex"/>
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="hidValidationFailed" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field name="wolfskinitemdbModel" type="BinHex"/>
+		<field name="wolfskincollectionCollection" type="BinHex"/>
+		<object name="Tags">
+			<object name="IncludeTags">
+				<object name="Tag">
+					<object name="tagcategoryselectionTag">
+						<field hash="BDB3B8D5" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
+						<field name="tagcategoryTagCategory" type="BinHex"/>
+						<field name="tagTag" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="ExcludeTags">
+				<object name="Tag">
+					<object name="tagcategoryselectionTag">
+						<field hash="BDB3B8D5" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
+						<field name="tagcategoryTagCategory" type="BinHex"/>
+						<field name="tagTag" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="TagConstraintsAny">
+			</object>
+		</object>
+		<object name="ValidModels">
+			<object name="wolfskinitemdbModel">
+				<field name="wolfskinitemdbModel" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="locstridTextToDisplayOnApp">
+		<field name="LocalizationId" type="BinHex"/>
+	</object>
+	<object name="IntroMadCinematic">
+		<field hash="F8C7825F" type="String"/>
+		<field name="fileFile" type="BinHex"/>
+		<field name="SceneTemplate" type="BinHex"/>
+		<field name="iDialogTemplate" type="Boolean"/>
+	</object>
+	<object name="OutroWinMadCinematic">
+		<field hash="F8C7825F" type="String"/>
+		<field name="fileFile" type="BinHex"/>
+		<field name="SceneTemplate" type="BinHex"/>
+		<field name="iDialogTemplate" type="Boolean"/>
+	</object>
+	<object name="RestartIntroCinematics">
+		<object name="RestartIntroCinematic">
+			<field hash="F8C7825F" type="String"/>
+			<field name="fileFile" type="BinHex"/>
+			<field name="SceneTemplate" type="BinHex"/>
+			<field name="iDialogTemplate" type="Boolean"/>
+		</object>
+	</object>
+	<object name="ExtraCreationOverrideVector">
+		<object name="ExtraCreation">
+			<field name="entPosition" type="BinHex"/>
+			<field name="sAnchorName" type="String"/>
+			<field name="selExtraCreationType" type="BinHex"/>
+			<field name="droneconfigDroneConfig" type="BinHex"/>
+			<field name="archProjectileArchetype" type="BinHex"/>
+			<field hash="CEFF26C0" type="BinHex"/>
+			<object name="SpawnConfig">
+				<field name="humanconfigHumanConfig" type="BinHex"/>
+			</object>
+			<object name="ExtraSpawnHumanConfigVector">
+				<object hash="A8202CE6">
+					<field name="humanconfigHumanConfig" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Targets">
+				<object name="Target">
+					<field name="entTarget" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="D1FED5F8">
+		<object hash="37A71640">
+			<field name="LocalizationId" type="BinHex"/>
+		</object>
+	</object>
+</class>

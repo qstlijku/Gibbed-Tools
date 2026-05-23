@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dg objective logicParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selNodeType" type="BinHex"/>
+	<field name="bIsFreeroamCompatible" type="Boolean"/>
+	<field name="brickflowBrickFlowConfigDB" type="BinHex"/>
+	<field name="selProductionState" type="BinHex"/>
+	<field name="bSupportMultipleObjective" type="Boolean"/>
+	<field name="bAdaptVehicleToPlayerCount" type="Boolean"/>
+	<object name="SettingsDescription">
+		<object name="Entries">
+			<object name="Entry">
+				<field name="BrickID" type="String"/>
+				<field hash="0C3FB1A7" type="String"/>
+				<field name="dgbrickselectionDGBrickSettingsClassNameId" type="BinHex"/>
+				<field name="dgbricksettingsfilterFilter" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="ScenesTargets">
+		<object name="Scene">
+			<object name="TargetsTags">
+				<object name="Tags">
+					<object name="tagcategoryselectionblackboardTags">
+						<object name="TagCategorySelectionArray">
+							<object name="TagCategorySelection">
+								<field hash="CF68E402" type="String"/>
+								<field name="hid_DTCTH_ClassName" type="BinHex"/>
+								<field hash="BDB3B8D5" type="String"/>
+								<field name="UITagCategorySelectionClassID" type="BinHex"/>
+								<field name="tagcategoryUITagCategory" type="BinHex"/>
+								<field name="tagcategoryTagCategory" type="BinHex"/>
+								<field name="tagTag" type="BinHex"/>
+								<object name="Tags">
+									<object name="Tag">
+										<field name="tagTag" type="BinHex"/>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object name="TagDescriptorUI">
+							<field hash="CF68E402" type="BinHex"/>
+							<field name="hid_DTCTH_ClassName" type="BinHex"/>
+							<object name="TagCategorySelectionDescriptors">
+								<object name="TagCategorySelectionDescriptor">
+									<field name="tagcategoryTagCategory" type="BinHex"/>
+									<field name="bMultiSelect" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="SceneLogics">
+		<object name="dgscenelogicDGSceneLogic">
+			<field name="dgscenelogicDGSceneLogic" type="BinHex"/>
+		</object>
+	</object>
+	<object name="EventsSettingsForNarrationAndStaging">
+		<object name="EventsSettings">
+			<object name="EventSettings">
+				<field name="Id" type="BinHex"/>
+				<field name="sPlaceholder" type="BinHex"/>
+				<field name="fPlaceholderDuration" type="Float"/>
+				<object name="EventSettings">
+					<field hash="6D1E1959" type="String"/>
+					<field name="selType" type="BinHex"/>
+					<object name="Object">
+						<field hash="92210DFC" type="String"/>
+						<field name="hidEventName" type="BinHex"/>
+						<field name="bCheckRemote" type="Boolean"/>
+						<field name="iOrderOfCompletionIndex" type="BinHex"/>
+						<field name="fDistance" type="Float"/>
+						<object name="Target">
+							<field name="TargetSceneID" type="BinHex"/>
+							<field name="TargetRole" type="BinHex"/>
+							<field hash="AA658794" type="String"/>
+							<field hash="A6871411" type="String"/>
+						</object>
+					</object>
+				</object>
+				<object name="NarrativeElementsSettings">
+					<object name="Entry">
+						<object name="NarrativeElement">
+							<field hash="6D1E1959" type="String"/>
+							<field name="selType" type="BinHex"/>
+							<object name="Object">
+								<field name="Id" type="BinHex"/>
+								<field name="fDelay" type="Float"/>
+								<field name="selPriority" type="BinHex"/>
+								<field name="selTriggerMode" type="BinHex"/>
+								<field name="phonecommunicationsettingsPhoneComSettings" type="BinHex"/>
+								<field name="phonecommunicationsettingsFAASoloFallbackPhoneComSettings" type="BinHex"/>
+								<field name="bDoNotPlayInSinglePlayerMode" type="Boolean"/>
+								<object name="locstridObjectiveTextOverrideLocID">
+									<field name="LocalizationId" type="BinHex"/>
+								</object>
+								<object name="locstridObjectiveDescriptionTextOverrideLocID">
+									<field name="LocalizationId" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="OpEditorDeletedIds">
+		</object>
+	</object>
+	<object name="tagcategoryselectionblackboardTags">
+		<object name="TagCategorySelectionArray">
+			<object name="TagCategorySelection">
+				<field hash="CF68E402" type="String"/>
+				<field name="hid_DTCTH_ClassName" type="BinHex"/>
+				<field hash="BDB3B8D5" type="String"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+				<field name="tagTag" type="BinHex"/>
+				<object name="Tags">
+					<object name="Tag">
+						<field name="tagTag" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="TagDescriptorUI">
+			<field hash="CF68E402" type="BinHex"/>
+			<field name="hid_DTCTH_ClassName" type="BinHex"/>
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

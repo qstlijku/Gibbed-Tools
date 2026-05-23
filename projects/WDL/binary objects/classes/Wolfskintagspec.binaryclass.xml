@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WolfskintagspecParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="wolfskinitemdbModel" type="BinHex"/>
+	<field name="wolfskincollectionCollection" type="BinHex"/>
+	<object name="Tags">
+		<object name="IncludeTags">
+			<object name="Tag">
+				<object name="tagcategoryselectionTag">
+					<field hash="BDB3B8D5" type="BinHex"/>
+					<field name="UITagCategorySelectionClassID" type="BinHex"/>
+					<field name="tagcategoryUITagCategory" type="BinHex"/>
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="tagTag" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="ExcludeTags">
+		</object>
+		<object name="TagConstraintsAny">
+		</object>
+	</object>
+	<object name="ValidModels">
+		<object name="wolfskinitemdbModel">
+			<field name="wolfskinitemdbModel" type="BinHex"/>
+		</object>
+	</object>
+</class>

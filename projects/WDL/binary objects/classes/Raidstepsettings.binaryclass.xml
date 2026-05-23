@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RaidstepsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="opslistRaidStepOpConfig" type="BinHex"/>
+	<field name="RaidStepConsoleCommands" type="BinHex"/>
+	<field hash="6500A300" type="BinHex"/>
+	<field hash="87B3D3EC" type="BinHex"/>
+	<field name="phonecommunicationsettingsIntroductionTeamSpeak" type="BinHex"/>
+	<field hash="DC4E7DF4" type="BinHex"/>
+	<object name="PlayerClasses">
+		<field name="Player1Commands" type="BinHex"/>
+		<field name="Player2Commands" type="BinHex"/>
+		<field name="Player3Commands" type="BinHex"/>
+		<field name="Player4Commands" type="BinHex"/>
+	</object>
+	<object name="RaidLobbySettings">
+		<field name="sLobbyLayerName" type="String"/>
+		<field hash="D2337D77" type="BinHex"/>
+		<field name="lobbyparamspresetLoobbyParamsPresetOverride" type="BinHex"/>
+		<field name="lobbyoutroparamspresetLobbyOutroParamsPresetOverride" type="BinHex"/>
+		<field name="bShouldOpenLobbyDoor" type="Boolean"/>
+		<field name="entLobbyDoorEntityId" type="BinHex"/>
+		<field name="fLobbyDoorOpenEventDelay" type="Float"/>
+	</object>
+	<object name="StepProperties">
+		<object name="PlayerSpawnPosition">
+			<field name="bForceSyncPosOnRaidLeader" type="Boolean"/>
+			<field name="sHMALayerName" type="String"/>
+			<object name="JoinInProgressSpawnPoints">
+				<object name="JoinInProgressSpawnPoints">
+					<field name="entSpawnCenterPosition" type="BinHex"/>
+					<object name="PlayersSpawnEntities">
+						<object name="PlayerSpawnEntity">
+							<field name="entPlayerSpawnEntity" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="PlayersSpawnEntities">
+				<object name="PlayerSpawnEntity">
+					<field name="entPlayerSpawnEntity" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="WorldProperties">
+			<object name="TimeOfDay">
+				<field name="bEnableTimeOfDay" type="Boolean"/>
+				<field name="uiHour" type="BinHex"/>
+				<field name="bDisableTimeScaling" type="Boolean"/>
+			</object>
+			<object name="Weather">
+				<field name="bEnableWeather" type="Boolean"/>
+				<field name="envweatherpresetWeatherPreset" type="BinHex"/>
+			</object>
+			<object name="Felony">
+				<field name="bDisableFelony" type="Boolean"/>
+			</object>
+			<object name="WorldSpawning">
+				<field name="bDisableWorldSpawning" type="Boolean"/>
+			</object>
+		</object>
+		<object name="LockingEntity">
+			<field name="bDisableLockingEntity" type="Boolean"/>
+			<object name="LockingEntityList">
+				<object name="LockingEntity">
+					<field name="LockingEntity" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="AccessCodeRewards">
+			<field name="bDisableAccessCodeRewardEntity" type="Boolean"/>
+			<object name="AccessCodeRewardEntityList">
+				<object name="AccessCodeRewardEntity">
+					<field name="AccessCodeRewardEntity" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="SecurityDetector">
+			<field name="bDisableSecurityDetectorEntity" type="Boolean"/>
+			<object name="SecurityDetectorEntityList">
+			</object>
+		</object>
+		<object name="DroneConfigToLoadResource">
+			<object name="droneconfigDroneConfig">
+				<field name="droneconfigDroneConfig" type="BinHex"/>
+			</object>
+		</object>
+		<object name="MixingState">
+			<field name="sndMixingStateStart" type="BinHex"/>
+			<field name="sndMixingStateStop" type="BinHex"/>
+			<field name="sndtpMixingStateStartType" type="BinHex"/>
+			<field name="sndtpMixingStateStopType" type="BinHex"/>
+			<field hash="D5C86B7B" type="String"/>
+			<field hash="D7CDA3D2" type="String"/>
+		</object>
+		<object name="UI">
+			<field name="bEnableKeyLocation" type="Boolean"/>
+			<field name="bEnableGameClock" type="Boolean"/>
+			<field name="bMindjackContextActive" type="Boolean"/>
+			<object name="locstridKeyLocationID">
+				<field name="LocalizationId" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="FailCriteria">
+		<field name="bFailOnPlayerDeath" type="Boolean"/>
+		<field name="fDelayFailAfterWipe" type="Float"/>
+		<field name="fDelayFailOnPlayerDie" type="Float"/>
+		<field name="fDelayFailOnAllPlayersDown" type="Float"/>
+		<object name="locstridFailLocIdDefault">
+			<field name="LocalizationId" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="2105DD39">
+		<field hash="462FD608" type="BinHex"/>
+		<field hash="BB255F80" type="BinHex"/>
+		<field hash="794232AA" type="BinHex"/>
+		<field hash="A78A963A" type="BinHex"/>
+		<object hash="507C5606">
+			<field name="LocalizationId" type="BinHex"/>
+		</object>
+	</object>
+	<object name="OverrideSpawnCategoryBudget">
+		<field name="bOverrideCategoryBudget" type="Boolean"/>
+		<object name="SpawnBudgetOverrideCategoryList">
+			<object name="SpawnBudgetOverrideCategory">
+				<field name="bOverrideSubcategory" type="Boolean"/>
+				<field name="selBudgetCategory" type="BinHex"/>
+				<field name="selBudgetSubcategory" type="BinHex"/>
+				<field name="iOverrideValue" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="ForbiddenZonesList">
+	</object>
+</class>

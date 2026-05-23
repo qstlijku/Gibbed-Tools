@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MeleeconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="emoteOverrideTauntEmote" type="BinHex"/>
+	<field hash="32F2E15B" type="BinHex"/>
+	<field hash="287FA58C" type="BinHex"/>
+	<field hash="884552BF" type="BinHex"/>
+	<field hash="602D69F9" type="BinHex"/>
+	<field hash="13DD4664" type="BinHex"/>
+	<field hash="61CEC113" type="BinHex"/>
+	<object name="BarkInfo">
+		<object name="Barks">
+			<object name="Bark">
+				<field hash="AC5CD011" type="String"/>
+				<field name="BarkId" type="BinHex"/>
+				<field name="bIsOneTimeUse" type="Boolean"/>
+				<object name="LocalTriggerCooldown">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
+				</object>
+				<object name="GlobalTriggerCooldown">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
+				</object>
+				<object name="Considerations">
+					<field name="bEnableDebug" type="Boolean"/>
+					<object name="Enabled">
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
+					</object>
+					<object name="Considerations">
+						<object name="Considerations">
+							<field name="bEnabled" type="Boolean"/>
+							<field hash="F96FAF0D" type="String"/>
+							<field name="Name" type="BinHex"/>
+							<field name="bIsBonus" type="Boolean"/>
+							<field name="fBonus" type="Float"/>
+							<object name="ConsiderationCurve">
+								<object name="curveConsiderationCurve">
+									<field name="hidNumKnots" type="BinHex"/>
+									<object name="Knots">
+										<object name="Knot">
+											<field name="Value" type="Vector4"/>
+											<field name="Info" type="Vector4"/>
+											<field name="Type" type="BinHex"/>
+										</object>
+									</object>
+								</object>
+								<object name="Range">
+									<object name="Min">
+										<field name="rulesmithidRule" type="BinHex"/>
+										<field name="rulesmithconstValue" type="BinHex"/>
+									</object>
+									<object name="Max">
+										<field name="rulesmithidRule" type="BinHex"/>
+										<field name="rulesmithconstValue" type="BinHex"/>
+									</object>
+								</object>
+								<object name="Value">
+									<field name="rulesmithidRule" type="BinHex"/>
+									<field name="rulesmithconstValue" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Damage">
+		<object name="BaseDamage">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="ComputeDamage">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="BlockDamage">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+	</object>
+	<object name="AttackIndicator">
+		<object name="AttackIndicatorTime">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Navigation">
+		<object name="NavigationParams">
+			<object name="Distance">
+				<object name="MinSeperationDistance">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
+				</object>
+				<object name="MaxSeperationDistance">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
+				</object>
+				<object name="ClosenessConsiderations">
+					<field name="bEnableDebug" type="Boolean"/>
+					<object name="Enabled">
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
+					</object>
+					<object name="Considerations">
+						<object name="Considerations">
+							<field name="bEnabled" type="Boolean"/>
+							<field hash="F96FAF0D" type="String"/>
+							<field name="Name" type="BinHex"/>
+							<field name="bIsBonus" type="Boolean"/>
+							<field name="fBonus" type="Float"/>
+							<object name="ConsiderationCurve">
+								<object name="curveConsiderationCurve">
+									<field name="hidNumKnots" type="BinHex"/>
+									<object name="Knots">
+										<object name="Knot">
+											<field name="Value" type="Vector4"/>
+											<field name="Info" type="Vector4"/>
+											<field name="Type" type="Boolean"/>
+										</object>
+									</object>
+								</object>
+								<object name="Range">
+									<object name="Min">
+										<field name="rulesmithidRule" type="BinHex"/>
+										<field name="rulesmithconstValue" type="BinHex"/>
+									</object>
+									<object name="Max">
+										<field name="rulesmithidRule" type="BinHex"/>
+										<field name="rulesmithconstValue" type="BinHex"/>
+									</object>
+								</object>
+								<object name="Value">
+									<field name="rulesmithidRule" type="BinHex"/>
+									<field name="rulesmithconstValue" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Angle">
+				<object name="MinFacingAngle">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
+				</object>
+				<object name="MaxFacingAngle">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
+				</object>
+				<object name="MinFacingAngleConsiderations">
+					<field name="bEnableDebug" type="Boolean"/>
+					<object name="Enabled">
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
+					</object>
+					<object name="Considerations">
+						<object name="Considerations">
+							<field name="bEnabled" type="Boolean"/>
+							<field hash="F96FAF0D" type="String"/>
+							<field name="Name" type="BinHex"/>
+							<field name="bIsBonus" type="Boolean"/>
+							<field name="fBonus" type="Float"/>
+							<object name="ConsiderationCurve">
+								<object name="curveConsiderationCurve">
+									<field name="hidNumKnots" type="BinHex"/>
+									<object name="Knots">
+										<object name="Knot">
+											<field name="Value" type="Vector4"/>
+											<field name="Info" type="Vector4"/>
+											<field name="Type" type="Boolean"/>
+										</object>
+									</object>
+								</object>
+								<object name="Range">
+									<object name="Min">
+										<field name="rulesmithidRule" type="BinHex"/>
+										<field name="rulesmithconstValue" type="BinHex"/>
+									</object>
+									<object name="Max">
+										<field name="rulesmithidRule" type="BinHex"/>
+										<field name="rulesmithconstValue" type="BinHex"/>
+									</object>
+								</object>
+								<object name="Value">
+									<field name="rulesmithidRule" type="BinHex"/>
+									<field name="rulesmithconstValue" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Speed">
+				<object name="MaxSpeed">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
+				</object>
+				<object name="SpeedConsiderations">
+					<field name="bEnableDebug" type="Boolean"/>
+					<object name="Enabled">
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
+					</object>
+					<object name="Considerations">
+						<object name="Considerations">
+							<field name="bEnabled" type="Boolean"/>
+							<field hash="F96FAF0D" type="String"/>
+							<field name="Name" type="BinHex"/>
+							<field name="bIsBonus" type="Boolean"/>
+							<field name="fBonus" type="Float"/>
+							<object name="ConsiderationCurve">
+								<object name="curveConsiderationCurve">
+									<field name="hidNumKnots" type="BinHex"/>
+									<object name="Knots">
+										<object name="Knot">
+											<field name="Value" type="Vector4"/>
+											<field name="Info" type="Vector4"/>
+											<field name="Type" type="Boolean"/>
+										</object>
+									</object>
+								</object>
+								<object name="Range">
+									<object name="Min">
+										<field name="rulesmithidRule" type="BinHex"/>
+										<field name="rulesmithconstValue" type="BinHex"/>
+									</object>
+									<object name="Max">
+										<field name="rulesmithidRule" type="BinHex"/>
+										<field name="rulesmithconstValue" type="BinHex"/>
+									</object>
+								</object>
+								<object name="Value">
+									<field name="rulesmithidRule" type="BinHex"/>
+									<field name="rulesmithconstValue" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Repulsion">
+				<object name="Radius">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
+				</object>
+				<object name="Strength">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="BlockDuration">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object hash="DE33A725">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object name="BlockRatio">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object name="AttackTrackingRotationSpeed">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object name="AttackTrackingTranslationSpeed">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object name="ChargeAttackTrackingRotationSpeed">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object name="ComboStrikePercentage">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object hash="C8B881A8">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object hash="74A41FD9">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object name="EngagementAverageTotalSampleTime">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object name="CounterAttacks">
+		<object name="Strike">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="UninterruptableStrike">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Push">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Dodge">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Grapple">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Block">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Idle">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="16817114">
+		<object hash="ED94B74B">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Strike">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Block">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Dodge">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="5616B620">
+		<object hash="ED94B74B">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Strike">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Block">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Dodge">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="B6D9E2E3">
+		<object hash="ED94B74B">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Strike">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Block">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Dodge">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Actions">
+		<object name="Single_Strike">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Combo_Strike">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Running_Strike">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Grapple">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Dodge">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="AvoidDash">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="AgileStep">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Takedown">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="BinHex"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Taunt">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="BinHex"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="DrawWeapon">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="CallBackup">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+			</object>
+		</object>
+		<object name="RemoveFromVehicle">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="SignalToFlanker">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+			</object>
+		</object>
+		<object name="Exit">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="PreemptiveDodge">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="GrabCounter">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="UpdateDestination">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Block">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="ChargeTarget">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="ChargeAttack">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="GiveUp">
+			<field name="bEnableDebug" type="Boolean"/>
+			<object name="Enabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="Considerations">
+				<object name="Considerations">
+					<field name="bEnabled" type="Boolean"/>
+					<field hash="F96FAF0D" type="String"/>
+					<field name="Name" type="BinHex"/>
+					<field name="bIsBonus" type="Boolean"/>
+					<field name="fBonus" type="Float"/>
+					<object name="ConsiderationCurve">
+						<object name="curveConsiderationCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+						<object name="Range">
+							<object name="Min">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+							<object name="Max">
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="Value">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="31938CDB">
+		<field name="rulesmithidRuleId" type="BinHex"/>
+	</object>
+</class>

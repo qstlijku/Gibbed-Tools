@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DgbricksettingsfilterdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Filter">
+		<field hash="6D1E1959" type="String"/>
+		<field name="selType" type="BinHex"/>
+		<object name="Object">
+			<object name="Members">
+				<object name="Member">
+					<field name="sName" type="String"/>
+					<field name="bEnable" type="Boolean"/>
+					<object name="Children">
+						<object name="Child">
+							<field name="sName" type="String"/>
+							<field name="bEnable" type="Boolean"/>
+							<object name="Children">
+								<object name="Child">
+									<field name="sName" type="String"/>
+									<field name="bEnable" type="Boolean"/>
+									<object name="Children">
+										<object name="Child">
+											<field name="sName" type="String"/>
+											<field name="bEnable" type="Boolean"/>
+											<object name="Children">
+												<object name="Child">
+													<field name="sName" type="String"/>
+													<field name="bEnable" type="Boolean"/>
+													<object name="Children">
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

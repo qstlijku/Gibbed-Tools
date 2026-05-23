@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UtilityactionParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selActionID" type="BinHex"/>
+	<object name="Considerations">
+		<field name="bEnableDebug" type="Boolean"/>
+		<object name="Enabled">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="Considerations">
+			<object name="Considerations">
+				<field name="bEnabled" type="Boolean"/>
+				<field hash="F96FAF0D" type="String"/>
+				<field name="Name" type="BinHex"/>
+				<field name="bIsBonus" type="Boolean"/>
+				<field name="fBonus" type="Float"/>
+				<object name="ConsiderationCurve">
+					<object name="curveConsiderationCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="Boolean"/>
+							</object>
+						</object>
+					</object>
+					<object name="Range">
+						<object name="Min">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+						<object name="Max">
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
+						</object>
+					</object>
+					<object name="Value">
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AlivebranchdatabaseParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="DynamicallyTypedBranches">
+		<object name="Branch">
+			<field hash="6D1E1959" type="String"/>
+			<field name="selType" type="BinHex"/>
+			<object name="Object">
+				<field name="sComment" type="String"/>
+				<field name="selEventType" type="BinHex"/>
+				<field name="EventSubType" type="BinHex"/>
+				<field hash="61646701" type="String"/>
+				<field name="fileBehaviorCategory" type="BinHex"/>
+				<field name="bIsBail" type="Boolean"/>
+				<field name="selBailPriority" type="BinHex"/>
+				<field name="fileSuggestedStrategyOnBail" type="BinHex"/>
+				<field name="selScope" type="BinHex"/>
+				<field name="selDoubleBranchResponse" type="BinHex"/>
+				<field name="bCanReturn" type="Boolean"/>
+				<field name="bCanBeDeferred" type="Boolean"/>
+				<field name="selBlockingEventMode" type="BinHex"/>
+				<field name="selMinimumIntensity" type="BinHex"/>
+				<field name="selIncidentType" type="BinHex"/>
+				<field hash="4E86673F" type="BinHex"/>
+				<field hash="5EC0E76C" type="String"/>
+				<object name="BlockingEvents">
+				</object>
+				<object name="GenericBlockingEvents">
+				</object>
+				<object name="BranchPreconditions">
+					<object name="Precondition">
+						<field hash="6D1E1959" type="String"/>
+						<field name="selType" type="BinHex"/>
+						<object name="Object">
+							<field hash="F1B1D97B" type="String"/>
+							<field name="sName" type="BinHex"/>
+							<field name="iShouldEqual" type="BinHex"/>
+							<field name="bShouldEqual" type="Boolean"/>
+							<field hash="5E144F40" type="BinHex"/>
+							<field name="sBlackboardKey" type="BinHex"/>
+							<field name="bSucceedIfTrue" type="Boolean"/>
+							<field hash="122C9A00" type="String"/>
+							<field name="sKey" type="BinHex"/>
+							<field name="iReferenceValue" type="BinHex"/>
+							<field name="selOperator" type="BinHex"/>
+							<field hash="9208EB25" type="BinHex"/>
+							<field hash="C44926F4" type="BinHex"/>
+							<field name="uiShouldEqual" type="Boolean"/>
+							<object hash="4AAD7D5D">
+								<field hash="94C08F9B" type="BinHex"/>
+								<field hash="1DF2E0ED" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object name="IncidentLists">
+					<object name="incidentlistIncidentList">
+						<field name="incidentlistIncidentList" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

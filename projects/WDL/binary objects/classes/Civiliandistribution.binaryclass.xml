@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CiviliandistributionParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="ContextualTagDistributions">
+		<object name="ContextualTagDistribution">
+			<field name="entcontContext" type="BinHex"/>
+			<field hash="D9C9390D" type="Boolean"/>
+			<field hash="56176307" type="Boolean"/>
+			<object name="Rules">
+				<object name="RuleNode">
+					<field name="selTagCategory" type="BinHex"/>
+					<object name="Tags">
+						<object name="Tag">
+							<field name="TagCategory" type="BinHex"/>
+							<field name="selTag" type="BinHex"/>
+							<field name="Percentage" type="BinHex"/>
+							<object name="Rules">
+								<object name="RuleNode">
+									<field name="selTagCategory" type="BinHex"/>
+									<object name="Tags">
+										<object name="Tag">
+											<field name="TagCategory" type="BinHex"/>
+											<field name="selTag" type="BinHex"/>
+											<field name="Percentage" type="BinHex"/>
+											<object name="Rules">
+												<object name="RuleNode">
+													<field name="selTagCategory" type="BinHex"/>
+													<object name="Tags">
+														<object name="Tag">
+															<field name="TagCategory" type="BinHex"/>
+															<field name="selTag" type="BinHex"/>
+															<field name="Percentage" type="BinHex"/>
+															<object name="Rules">
+																<object name="RuleNode">
+																	<field name="selTagCategory" type="BinHex"/>
+																	<object name="Tags">
+																		<object name="Tag">
+																			<field name="TagCategory" type="BinHex"/>
+																			<field name="selTag" type="BinHex"/>
+																			<field name="Percentage" type="BinHex"/>
+																			<object name="Rules">
+																			</object>
+																		</object>
+																	</object>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="HighValueCharacterOverrides">
+				<field name="GlobalPercentage" type="BinHex"/>
+				<object name="PeopleSpawnInfos">
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="OperativequirkconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bRunInForeground" type="Boolean"/>
+	<object name="HasQuirk">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
+	</object>
+	<object name="Effects">
+		<object name="Effects">
+			<field name="fChance" type="Float"/>
+			<object name="Condition">
+				<field hash="6D1E1959" type="String"/>
+				<field name="selType" type="BinHex"/>
+				<object name="Object">
+					<field name="fDelayMinTime" type="Float"/>
+					<field name="fDelayMaxTime" type="Float"/>
+					<field name="fActiveMinTime" type="Float"/>
+					<field name="fActiveMaxTime" type="Float"/>
+					<field name="fCooldownMinTime" type="Float"/>
+					<field name="fCooldownMaxTime" type="Float"/>
+					<field name="selOperation" type="BinHex"/>
+					<field name="bUseReset" type="Boolean"/>
+					<field name="sProgressionActionName" type="BinHex"/>
+					<field name="sPawnEventName" type="BinHex"/>
+					<field name="selConditionEventType" type="BinHex"/>
+					<field name="bIsFireAndForget" type="Boolean"/>
+					<field hash="E974FCF7" type="String"/>
+					<field hash="B90829B3" type="BinHex"/>
+					<field name="fMinReticleDistance" type="Float"/>
+					<field name="fMinCameraZAngle" type="Float"/>
+					<field name="fCooldown" type="Float"/>
+					<object name="ActiveTest">
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
+					</object>
+					<object name="Conditions">
+						<object name="Conditions">
+							<field hash="6D1E1959" type="BinHex"/>
+							<field name="selType" type="BinHex"/>
+							<object name="Object">
+								<field name="fDelayMinTime" type="Float"/>
+								<field name="fDelayMaxTime" type="Float"/>
+								<field name="fActiveMinTime" type="Float"/>
+								<field name="fActiveMaxTime" type="Float"/>
+								<field name="fCooldownMinTime" type="Float"/>
+								<field name="fCooldownMaxTime" type="Float"/>
+								<object name="ActiveTest">
+									<field name="rulesmithidRule" type="BinHex"/>
+									<field name="rulesmithconstValue" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Actions">
+				<object name="Actions">
+					<field hash="6D1E1959" type="String"/>
+					<field name="selType" type="BinHex"/>
+					<object name="Object">
+						<field name="fChance" type="Float"/>
+						<field name="fStimRadius" type="Float"/>
+						<field name="stimsStimToSend" type="BinHex"/>
+						<field name="fMoneyThreshold" type="Float"/>
+						<field name="fMaxPurchasePrice" type="Float"/>
+						<field name="bCanTriggerRewardItemNotification" type="Boolean"/>
+						<field name="psParticle" type="BinHex"/>
+						<field name="vectorParticlePositionOffset" type="Vector3"/>
+						<field name="vectorParticleRotationOffset" type="Vector3"/>
+						<field name="selBone" type="BinHex"/>
+						<field name="fLevelMin" type="Float"/>
+						<field name="fLevelMax" type="Float"/>
+						<field name="bIsLocked" type="Boolean"/>
+						<field name="selMotionSicknessType" type="BinHex"/>
+						<field name="fSpeedThreshold" type="Float"/>
+						<field name="fEventFrequencyTime" type="Float"/>
+						<field name="censusactormemorydefinitionMemoryToApply" type="BinHex"/>
+						<field name="iNrOfOperativesToHeal" type="Boolean"/>
+						<field name="iCryptoMin" type="BinHex"/>
+						<field name="iCryptoMax" type="BinHex"/>
+						<object name="locstridMessageToSendLocId">
+							<field name="LocalizationId" type="BinHex"/>
+						</object>
+						<object name="SoundEvents">
+							<object name="Sounds">
+								<field hash="463EA461" type="BinHex"/>
+								<field name="sndSound" type="BinHex"/>
+								<field hash="8FE662AD" type="Boolean"/>
+								<field name="bUseGenderBasedSounds" type="Boolean"/>
+								<field name="bIsMale" type="Boolean"/>
+							</object>
+						</object>
+						<object name="locstridMessageToSendWinLocId">
+							<field name="LocalizationId" type="BinHex"/>
+						</object>
+						<object name="locstridMessageToSendLoseLocId">
+							<field name="LocalizationId" type="BinHex"/>
+						</object>
+						<object name="GambleVector">
+							<object name="Values">
+								<field name="iValue" type="BinHex"/>
+							</object>
+						</object>
+						<object name="DrunkEffects">
+							<object name="DrunkEffectConfig">
+								<field name="drunkeffectconfigDrunkEffect" type="BinHex"/>
+							</object>
+						</object>
+						<object hash="260F17D4">
+							<field hash="C50F1A52" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

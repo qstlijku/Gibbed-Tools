@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="InteractivefloorconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bSoundOnlyForPlayers" type="Boolean"/>
+	<field name="sndEnterSound" type="BinHex"/>
+	<field hash="984C5378" type="Boolean"/>
+	<field name="sndExitSound" type="BinHex"/>
+	<field hash="0474141C" type="Boolean"/>
+	<object name="TileConfigs">
+		<object name="TileConfig">
+			<field name="archTileArchetype" type="BinHex"/>
+			<field hash="84EDC10E" type="BinHex"/>
+			<object name="MaterialList">
+				<object name="Material">
+					<object name="MaterialList">
+						<object name="MaterialList">
+							<field hash="9301DFBD" type="BinHex"/>
+							<field name="matMaterial" type="BinHex"/>
+							<field hash="E0ED5CFB" type="BinHex"/>
+							<field name="sMaterialSlot" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="SoundList">
+				<object name="Sound">
+					<object hash="0CB9782D">
+						<object hash="AA65A997">
+							<field hash="1B1A3141" type="BinHex"/>
+							<field hash="8FE662AD" type="Boolean"/>
+							<field hash="87E038DB" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Lights">
+		<object name="Light">
+			<object name="LightData">
+				<object name="Color">
+					<field name="clrColor" type="Vector3"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="sndvarSoundRTPC">
+		<field name="SoundId" type="Boolean"/>
+		<field name="SoundGuid" type="BinHex"/>
+	</object>
+</class>

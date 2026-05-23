@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AnimalconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field hash="9D8873F8" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="PGTConfig">
+		<field hash="64B6E507" type="Boolean"/>
+	</object>
+	<object name="Properties">
+		<field name="bIsBuddyAI" type="Boolean"/>
+		<field name="bIsPlayerAlly" type="Boolean"/>
+		<field name="selMindSet" type="BinHex"/>
+		<field hash="3830264B" type="Boolean"/>
+		<field name="bForceRespawnAfterCheckpoint" type="Boolean"/>
+		<field name="stimtableStimEffectTable" type="BinHex"/>
+		<field name="navigationconfigNavigationConfig" type="BinHex"/>
+		<field name="fleebehaviordescriptorFleeConfig" type="BinHex"/>
+		<field name="rewardconfigRewardConfig" type="BinHex"/>
+		<field name="selAgentSpecies" type="BinHex"/>
+		<field name="fHealth" type="Float"/>
+		<field name="locdmgconfigDamageLocationConfig" type="BinHex"/>
+		<field name="animalnavigationparametersNavigationParameters" type="BinHex"/>
+		<field name="animalfleeparametersFleeParameters" type="BinHex"/>
+		<field name="animalproximityparametersProximityParameters" type="BinHex"/>
+		<field name="animalanimationparametersAnimationParameters" type="BinHex"/>
+		<field name="selAffiliation" type="BinHex"/>
+		<field name="detectionlevelsettingsDetectionLevelSettings" type="BinHex"/>
+		<field name="animalcombatparametersCombatParameters" type="BinHex"/>
+		<field name="bSmellPerceptionEnabled" type="Boolean"/>
+		<field name="bTaggingEnabled" type="Boolean"/>
+		<field name="fHackableSpawnPercentage" type="Float"/>
+		<object name="sndswtpDogSoundSwitchType">
+			<field name="SoundId" type="BinHex"/>
+			<field name="SoundGuid" type="String"/>
+		</object>
+		<object name="sndswvlDogSoundSwitchValue">
+			<field name="SoundId" type="BinHex"/>
+			<field name="SoundGuid" type="String"/>
+		</object>
+		<object name="GraphicKit">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field name="wolfskinitemdbModel" type="BinHex"/>
+			<field name="wolfskincollectionCollection" type="BinHex"/>
+			<object name="ValidModels">
+				<object name="wolfskinitemdbModel">
+					<field name="wolfskinitemdbModel" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Tags">
+				<object name="IncludeTags">
+				</object>
+				<object name="ExcludeTags">
+				</object>
+				<object name="TagConstraintsAny">
+				</object>
+			</object>
+		</object>
+	</object>
+</class>
