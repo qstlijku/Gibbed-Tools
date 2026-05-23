@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="4890D8F3" type="BinHex"/>
-	<field hash="BB0ED401" type="BinHex"/>
-	<field hash="5BB6F188" type="BinHex"/>
+	<field name="uisoundCinematicSkipSound" type="BinHex"/>
+	<field name="uisoundCinematicPauseSound" type="BinHex"/>
+	<field name="uisoundCinematicResumeSound" type="BinHex"/>
 	<object name="sndvarLastGunShotOrExplosionTimeRTPC">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 </class>

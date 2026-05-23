@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="E9CFE129" type="BinHex"/>
-	<object hash="2C9495CF">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<field name="conversationinteractionConversationSettings" type="BinHex"/>
+	<object name="ActivationRule">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 </class>

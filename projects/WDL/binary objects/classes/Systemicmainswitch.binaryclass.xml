@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="13850D86" type="BinHex"/>
-	<field hash="2C876BF6" type="BinHex"/>
-	<field hash="1A1AE1BC" type="BinHex"/>
-	<field hash="43ABD2EF" type="BinHex"/>
-	<field hash="2CBF08B7" type="BinHex"/>
-	<object hash="3BE1533C">
+	<field name="selMainSwitchType" type="BinHex"/>
+	<field name="censusmetaintrigueresolutionbucketOnSwitchActionBucket" type="BinHex"/>
+	<field name="bRequiresSystemicNarrative" type="BinHex"/>
+	<field name="censusactormemorydefinitionPostHackMemory" type="BinHex"/>
+	<field name="phonecommunicationsettingsPostHackSMSMessage" type="BinHex"/>
+	<object name="locstridMainSwitchText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

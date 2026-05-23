@@ -7,52 +7,52 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="21D448F6" type="String"/>
-	<field hash="22B4C003" type="BinHex"/>
-	<object hash="70B371D0">
-		<object hash="40EDC17A">
-			<object hash="D6EF2F50">
+	<field name="teamNameDefaultTeamName" type="BinHex"/>
+	<object name="OperativeTeams">
+		<object name="NamedOperativeTeams">
+			<object name="OperativeTeam">
 				<field hash="A6DDAC22" type="String"/>
-				<field hash="109F2030" type="BinHex"/>
-				<field hash="406DB889" type="BinHex"/>
-				<field hash="F53663C2" type="BinHex"/>
-				<field hash="F268D632" type="BinHex"/>
-				<object hash="3E75E227"/>
-				<object hash="E3291B89">
-					<object hash="97A2545E">
-						<field hash="854AA40F" type="BinHex"/>
-						<field hash="F93CF3D4" type="BinHex"/>
-						<field hash="884A6230" type="BinHex"/>
-						<field hash="8A6FEBAB" type="BinHex"/>
-						<field hash="E571FB3E" type="BinHex"/>
-						<field hash="80879EFD" type="BinHex"/>
-						<field hash="19110FAC" type="BinHex"/>
-						<field hash="8F3B5855" type="BinHex"/>
-						<field hash="F8814F95" type="BinHex"/>
-						<field hash="0FBA2AD1" type="BinHex"/>
-						<field hash="B05286E4" type="BinHex"/>
-						<field hash="D03A2FA6" type="BinHex"/>
+				<field name="TeamName" type="BinHex"/>
+				<field name="iNumberOfOperativeSlots" type="BinHex"/>
+				<field name="bRandomiseSelection" type="BinHex"/>
+				<field name="bUsePoolSelectors" type="BinHex"/>
+				<object name="PoolSelectors"/>
+				<object name="CandidateOperatives">
+					<object name="Operative">
+						<field name="selSelectionPoolPriority" type="BinHex"/>
+						<field name="texturedbobjectPortraitTexture" type="BinHex"/>
+						<field name="uiDesiredSlotNumber" type="BinHex"/>
+						<field name="wolfskinitemdbOverrideWolfSkinItem" type="BinHex"/>
+						<field name="selWantedMask" type="BinHex"/>
+						<field name="propMaskPropDbName" type="BinHex"/>
+						<field name="itemlistDefaultInventoryItemList" type="BinHex"/>
+						<field name="sDialogPersona" type="BinHex"/>
+						<field name="prismPrismProfile" type="BinHex"/>
+						<field name="progressiongadgetwithemptyOverrideGadget" type="BinHex"/>
+						<field name="selOverrideOperativeSource" type="BinHex"/>
+						<field name="censuspredefinedactordescriptorCensusActorDesc" type="BinHex"/>
 						<field name="selItemULCIconType" type="Enum"/>
-						<object hash="A4000C90">
-							<field hash="7EB2A23E" type="BinHex"/>
-							<field hash="51A8C6D1" type="BinHex"/>
-							<field hash="56402577" type="BinHex"/>
-							<field hash="145DED47" type="BinHex"/>
+						<object name="SpawningOverrides">
+							<field name="bUseOverrideSpawnLoc" type="BinHex"/>
+							<field name="vectorSpawnPosition" type="BinHex"/>
+							<field name="angvecSpawnAngles" type="BinHex"/>
+							<field name="selSpawnPositionBehavior" type="BinHex"/>
 						</object>
-						<object hash="75E2D008">
-							<object hash="04170D84">
+						<object name="CensusBaseProfileTags">
+							<object name="tagcategoryselectionblackboardProfile">
 								<object name="TagCategorySelectionArray">
 									<object name="TagCategorySelection">
 										<field hash="CF68E402" type="String"/>
 										<field name="hid_DTCTH_ClassName" type="BinHex"/>
 										<field hash="BDB3B8D5" type="String"/>
-										<field hash="401A8276" type="BinHex"/>
-										<field hash="F5391DFF" type="BinHex"/>
+										<field name="UITagCategorySelectionClassID" type="BinHex"/>
+										<field name="tagcategoryUITagCategory" type="BinHex"/>
 										<field name="tagcategoryTagCategory" type="BinHex"/>
 										<field name="tagTag" type="BinHex"/>
 										<object name="Tags"/>
 									</object>
 								</object>
-								<object hash="D0C5DABB">
+								<object name="TagDescriptorUI">
 									<field hash="CF68E402" type="String"/>
 									<field name="hid_DTCTH_ClassName" type="BinHex"/>
 									<object name="TagCategorySelectionDescriptors">
@@ -64,10 +64,10 @@
 								</object>
 							</object>
 						</object>
-						<object hash="C82E429D">
-							<object hash="04170D84">
+						<object name="CensusExclusionProfileTags">
+							<object name="tagcategoryselectionblackboardProfile">
 								<object name="TagCategorySelectionArray"/>
-								<object hash="D0C5DABB">
+								<object name="TagDescriptorUI">
 									<field hash="CF68E402" type="String"/>
 									<field name="hid_DTCTH_ClassName" type="BinHex"/>
 									<object name="TagCategorySelectionDescriptors">
@@ -84,28 +84,28 @@
 			</object>
 		</object>
 	</object>
-	<object hash="FDB57FE2">
-		<object hash="E8C0A040">
-			<field hash="854AA40F" type="BinHex"/>
-			<field hash="F93CF3D4" type="BinHex"/>
-			<field hash="884A6230" type="BinHex"/>
-			<field hash="8A6FEBAB" type="BinHex"/>
-			<field hash="E571FB3E" type="BinHex"/>
-			<field hash="80879EFD" type="BinHex"/>
-			<field hash="19110FAC" type="BinHex"/>
-			<field hash="8F3B5855" type="BinHex"/>
-			<field hash="F8814F95" type="BinHex"/>
-			<field hash="0FBA2AD1" type="BinHex"/>
-			<field hash="B05286E4" type="BinHex"/>
-			<field hash="D03A2FA6" type="BinHex"/>
+	<object name="GeneralParams">
+		<object name="AutoUpressOperativeDesc">
+			<field name="selSelectionPoolPriority" type="BinHex"/>
+			<field name="texturedbobjectPortraitTexture" type="BinHex"/>
+			<field name="uiDesiredSlotNumber" type="BinHex"/>
+			<field name="wolfskinitemdbOverrideWolfSkinItem" type="BinHex"/>
+			<field name="selWantedMask" type="BinHex"/>
+			<field name="propMaskPropDbName" type="BinHex"/>
+			<field name="itemlistDefaultInventoryItemList" type="BinHex"/>
+			<field name="sDialogPersona" type="BinHex"/>
+			<field name="prismPrismProfile" type="BinHex"/>
+			<field name="progressiongadgetwithemptyOverrideGadget" type="BinHex"/>
+			<field name="selOverrideOperativeSource" type="BinHex"/>
+			<field name="censuspredefinedactordescriptorCensusActorDesc" type="BinHex"/>
 			<field name="selItemULCIconType" type="Enum"/>
-			<object hash="A4000C90">
-				<field hash="7EB2A23E" type="BinHex"/>
+			<object name="SpawningOverrides">
+				<field name="bUseOverrideSpawnLoc" type="BinHex"/>
 			</object>
-			<object hash="75E2D008">
-				<object hash="04170D84">
+			<object name="CensusBaseProfileTags">
+				<object name="tagcategoryselectionblackboardProfile">
 					<object name="TagCategorySelectionArray"/>
-					<object hash="D0C5DABB">
+					<object name="TagDescriptorUI">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<object name="TagCategorySelectionDescriptors">
@@ -117,20 +117,20 @@
 					</object>
 				</object>
 			</object>
-			<object hash="C82E429D">
-				<object hash="04170D84">
+			<object name="CensusExclusionProfileTags">
+				<object name="tagcategoryselectionblackboardProfile">
 					<object name="TagCategorySelectionArray">
 						<object name="TagCategorySelection">
 							<field hash="CF68E402" type="String"/>
 							<field name="hid_DTCTH_ClassName" type="BinHex"/>
 							<field hash="BDB3B8D5" type="String"/>
-							<field hash="401A8276" type="BinHex"/>
-							<field hash="F5391DFF" type="BinHex"/>
+							<field name="UITagCategorySelectionClassID" type="BinHex"/>
+							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<field name="tagcategoryTagCategory" type="BinHex"/>
 							<object name="Tags"/>
 						</object>
 					</object>
-					<object hash="D0C5DABB">
+					<object name="TagDescriptorUI">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<object name="TagCategorySelectionDescriptors">

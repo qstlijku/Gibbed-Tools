@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bIsPartOfAScenarioOnSpawn" type="Boolean"/>
-	<field hash="EBDB4BAF" type="BinHex"/>
-	<field hash="7DDF4A49" type="BinHex"/>
+	<field name="bIsCensusActivity" type="BinHex"/>
+	<field name="bChooseActionAfterSpawn" type="BinHex"/>
 	<object name="Bank">
 		<object name="Entry">
 			<field name="cloactAction" type="BinHex"/>

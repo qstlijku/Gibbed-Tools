@@ -37,8 +37,8 @@
 	<object name="MANDATORY_DEFAULT_TEXTURES">
 		<field hash="83626177" type="String"/>
 		<field name="matNoSignalMaterial" type="BinHex"/>
-		<object hash="343C4E82"/>
-		<object hash="D97D6A71"/>
-		<object hash="E0B79144"/>
+		<object name="GenericChannelMaterials"/>
+		<object name="ShopChannelMaterials"/>
+		<object name="BarChannelMaterials"/>
 	</object>
 </class>

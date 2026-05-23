@@ -6,79 +6,79 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="B4945DFB" type="BinHex"/>
-	<field hash="73486B0B" type="BinHex"/>
-	<field hash="CC277B21" type="BinHex"/>
-	<field hash="CCDAB15F" type="BinHex"/>
-	<field hash="45DBECFA" type="BinHex"/>
-	<field hash="6FE996A0" type="BinHex"/>
-	<field hash="B5BF5ABD" type="BinHex"/>
-	<field hash="EECD0408" type="BinHex"/>
-	<field hash="699B8620" type="BinHex"/>
-	<field hash="DA18A9C4" type="BinHex"/>
-	<object hash="DADF8182">
+	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
+	<field name="selTransferType" type="BinHex"/>
+	<field name="fRemoteHackTransferDuration" type="BinHex"/>
+	<field name="fPhysicalInteractTransferDuration" type="BinHex"/>
+	<field name="bEnteringVehicleUnitStartTransfer" type="BinHex"/>
+	<field name="bDownloadStartTriggersVehicleTargetFlee" type="BinHex"/>
+	<field name="bOnlyLastDownloadStartTriggersVehicleTargetFlee" type="BinHex"/>
+	<field name="vehiclebhvsetupVehicleFleeBhvConfig" type="BinHex"/>
+	<field name="downloadgameplaydescriptorDownloadGameplaySettings" type="BinHex"/>
+	<field name="iNeededCountOfTransferData" type="BinHex"/>
+	<object name="locstridShortLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3CFBA4A2">
+	<object name="locstridLongLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="14BBAE7D">
+	<object name="locstridSoloObjectiveLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FC293553">
+	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C0F12AD8">
-		<field hash="BEA4E141" type="BinHex"/>
-		<field hash="A568F5FA" type="BinHex"/>
-		<field hash="A7A600BC" type="BinHex"/>
+	<object name="TransferSettings">
+		<field name="fTransferRadius" type="BinHex"/>
+		<field name="bUseOverrideRadius" type="BinHex"/>
+		<field name="bAdaptCountOfRequiredPlayersToCountOfSessionPeers" type="BinHex"/>
 		<field hash="775E9397" type="BinHex"/>
 		<field hash="11D247E2" type="BinHex"/>
-		<field hash="7F2BC2A8" type="BinHex"/>
-		<field hash="F4CE5E2A" type="BinHex"/>
-		<field hash="4A0C596D" type="BinHex"/>
-		<field hash="3DDB37B8" type="BinHex"/>
-		<field hash="0077F792" type="BinHex"/>
-		<field hash="EAD11C98" type="BinHex"/>
-		<field hash="E4CBB8A6" type="BinHex"/>
+		<field name="selTransferRadiusShape" type="BinHex"/>
+		<field name="fCylinderShapeZOffsetTop" type="BinHex"/>
+		<field name="fCylinderShapeZOffsetBottom" type="BinHex"/>
+		<field name="fPauseWarningDuration" type="BinHex"/>
+		<field name="bActivateMultiplayerBoost" type="BinHex"/>
+		<field name="fBoostCoefByPlayer" type="BinHex"/>
+		<field name="bSendAttractStimOnDownloadStart" type="BinHex"/>
 		<field name="fAttractStimRadius" type="Float"/>
 		<object hash="F9528B4E"/>
-		<object hash="C799772D">
+		<object name="locstridPauseWarningLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="7DA67E02">
-			<object hash="56D9D0AF">
+		<object name="ProgressBarTextOverride">
+			<object name="locstridTextOnProgressBar">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="99E42227">
+			<object name="locstridTextOnProgressBarOnOutOfRange">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="4F644398">
+		<object name="locstridActionTargetText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B6620E79">
-			<object hash="3DA1977B">
-				<field hash="3DA1977B" type="BinHex"/>
+		<object name="TriggerEventsOnFollowingRatiosReached">
+			<object name="Ratio">
+				<field name="Ratio" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="03788A3F">
+	<object name="locstridHackingWheelHackTextLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4D91C3A2">
-		<object hash="F9F702F2">
-			<field hash="E035E191" type="BinHex"/>
+	<object name="TargetsTypesAllowed">
+		<object name="ValidType">
+			<field name="selTargetType" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="E8F9ADB0">
-		<object hash="7F774473">
-			<field hash="14958AD5" type="BinHex"/>
+	<object name="AffiliationFlags">
+		<object name="ValidAffiliationFlag">
+			<field name="selFlag" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="26F26887"/>
-	<object hash="18BA0431"/>
-	<object hash="B02478FE"/>
-	<object hash="5D7C10C3"/>
-	<object hash="6D636C8E"/>
+	<object name="VehicleTypeFlags"/>
+	<object name="DroneTypeFlags"/>
+	<object name="NPCDescriptionDescriptors"/>
+	<object name="VehicleDescriptionDescriptors"/>
+	<object name="DroneDescriptionDescriptors"/>
 </class>

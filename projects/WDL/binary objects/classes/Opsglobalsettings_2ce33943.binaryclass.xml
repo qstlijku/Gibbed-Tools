@@ -15,13 +15,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -33,13 +33,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -51,13 +51,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -69,13 +69,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -87,13 +87,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -105,13 +105,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -123,13 +123,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -141,13 +141,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -159,13 +159,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -177,13 +177,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -195,13 +195,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -213,13 +213,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -231,13 +231,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -249,13 +249,13 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -267,104 +267,104 @@
 			<field name="bShowOpUpdatedNotification" type="BinHex"/>
 			<field name="bIsClientExclusive" type="BinHex"/>
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
-			<field hash="47FF8AEF" type="BinHex"/>
-			<field hash="CD7EB730" type="BinHex"/>
+			<field name="selUIOpType" type="BinHex"/>
+			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
 			<field hash="77E35304" type="BinHex"/>
-			<object hash="9C8F9B03">
+			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DCFEA2C4">
+			<object name="locstridOpStartCelebrationTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="6B49D1C9">
-		<field hash="97FF70D6" type="BinHex"/>
-		<field hash="1FA15D9A" type="BinHex"/>
-		<field hash="08C60E4F" type="BinHex"/>
-		<field hash="BD107C66" type="BinHex"/>
+	<object name="NearbyOps">
+		<field name="fNearbyOpCheckingDistance" type="BinHex"/>
+		<field name="fNearbyOpUntrackTimeoutDuration" type="BinHex"/>
+		<field name="fNearbyOpInRangeTimerDuration" type="BinHex"/>
+		<field name="fNearbyOpSameObjectiveTimeoutDuration" type="BinHex"/>
 	</object>
 	<object hash="C429B966">
 		<field hash="1DF85377" type="BinHex"/>
 	</object>
-	<object hash="8BAF1BC2">
-		<object hash="646A338E">
+	<object name="X404OpsConfiguration">
+		<object name="locstridX404MainSwitchEntryText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A847A638">
+		<object name="RequiredX404MainSwitchTags">
 			<object name="Tag">
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="ED6DFA9E"/>
+		<object name="DisallowedX404MainSwitchTags"/>
 	</object>
-	<object hash="1FD9F15A">
-		<field hash="2D52F1A7" type="BinHex"/>
-		<field hash="69238354" type="BinHex"/>
-		<field hash="271C33DC" type="BinHex"/>
-		<field hash="8291D2A4" type="BinHex"/>
-		<field hash="EC4155D5" type="BinHex"/>
-		<object hash="10E716CE">
+	<object name="RevengeOpsConfiguration">
+		<field name="fRevengeOpGlobalCooldownDuration" type="BinHex"/>
+		<field name="fRevengeOpPerOpCooldownDuration" type="BinHex"/>
+		<field name="fRevengeOpErrorCooldownDuration" type="BinHex"/>
+		<field name="uMinNrAvailableOperatives" type="BinHex"/>
+		<field name="uNrOperativesPerMaxRunningRevengeOp" type="BinHex"/>
+		<object name="locstridFallbackMemoryDescriptionText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="B5D6E623">
-		<field hash="58271191" type="BinHex"/>
+	<object name="OpContracts">
+		<field name="censuscontractdefinitionDefaultOpContractDef" type="BinHex"/>
 	</object>
-	<object hash="24D2BFC5">
-		<field hash="459019F3" type="BinHex"/>
-		<field hash="3F5688CA" type="BinHex"/>
+	<object name="DGSceneAttendances">
+		<field name="censuscontractdefinitionDefaultDGSceneContractDef" type="BinHex"/>
+		<field name="censusattendancedefinitionDefaultDGSceneAttendanceDef" type="BinHex"/>
 	</object>
-	<object hash="7E0EAF02">
-		<field hash="6C033B97" type="BinHex"/>
-		<field hash="7D7E2A47" type="BinHex"/>
-		<field hash="B525662B" type="BinHex"/>
-		<field hash="519692DF" type="BinHex"/>
-		<field hash="6D9BAD86" type="BinHex"/>
-		<field hash="E92AF5BA" type="BinHex"/>
-		<field hash="D527CAE3" type="BinHex"/>
+	<object name="OpUI">
+		<field name="fFreeroamObjectiveRange" type="BinHex"/>
+		<field name="fVerticalTagIconOffset" type="BinHex"/>
+		<field name="fInitialObjectiveDelay" type="BinHex"/>
+		<field name="fObjectiveHighlightAreaXMin" type="BinHex"/>
+		<field name="fObjectiveHighlightAreaXMax" type="BinHex"/>
+		<field name="fObjectiveHighlightAreaYMin" type="BinHex"/>
+		<field name="fObjectiveHighlightAreaYMax" type="BinHex"/>
 		<field hash="7B8DEEA7" type="BinHex"/>
 		<object hash="3BCABA9A">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="2A00F930">
-		<field hash="42CD3E65" type="BinHex"/>
+	<object name="PlayerAttention">
+		<field name="fNearTrackedOpObjectiveDistance" type="BinHex"/>
 	</object>
-	<object hash="8EF32F7E">
-		<object hash="C8C8C9D4">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="GameCompleted">
+		<object name="IsGameCompletedRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="DC8E7B27">
-		<field hash="A8EA9C25" type="BinHex"/>
+	<object name="FlatlinedOp">
+		<field name="opglobaldynamicactorFlatlinedGlobalDynamicActor" type="BinHex"/>
 	</object>
-	<object hash="BEE75111">
-		<field hash="E1887F01" type="BinHex"/>
+	<object name="MissionSoftQuit">
+		<field name="missionsoftquitmanagerparametersMissionSoftQuitManagerDefaultData" type="BinHex"/>
 	</object>
 	<object hash="9C806D63">
 		<field hash="34B9A36D" type="BinHex"/>
 	</object>
 	<object hash="694893D2">
-		<field hash="E9CFE129" type="BinHex"/>
+		<field name="conversationinteractionConversationSettings" type="BinHex"/>
 	</object>
 	<object name="History">
-		<field hash="0EECAB7D" type="BinHex"/>
-		<field hash="27A740D0" type="BinHex"/>
-		<field hash="CF91D82E" type="BinHex"/>
-		<field hash="83A6F24A" type="BinHex"/>
-		<field hash="BC2DE119" type="BinHex"/>
-		<field hash="4D1F750B" type="BinHex"/>
-		<field hash="F4DBAAD2" type="BinHex"/>
-		<field hash="F218ABE5" type="BinHex"/>
-		<field hash="0E817B4E" type="BinHex"/>
-		<field hash="EF8207A1" type="BinHex"/>
-		<field hash="69411BE8" type="BinHex"/>
-		<field hash="92C18AAD" type="BinHex"/>
-		<field hash="8F9BECC5" type="BinHex"/>
-		<field hash="02A00BC0" type="BinHex"/>
-		<field hash="D0E7C6CE" type="BinHex"/>
+		<field name="nMaxLOPLocationHistorySize" type="BinHex"/>
+		<field name="nMaxOpLineOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxFAALocationHistorySize" type="BinHex"/>
+		<field name="nMaxPublicEventOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxRaidOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxX404OpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxStandAloneOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxRevengeOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxOnlineBreadcrumbingOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxDynamicEventOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxOnlineCoopOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxOnlineQuickOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxOnlineStoryOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxBoroughUprisingOpLocationHistorySize" type="BinHex"/>
+		<field name="nMaxBoroughUprisingActivityOpLocationHistorySize" type="BinHex"/>
 	</object>
 </class>

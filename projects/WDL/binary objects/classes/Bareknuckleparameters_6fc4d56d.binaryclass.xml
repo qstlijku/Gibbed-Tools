@@ -7,102 +7,102 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="ED538582" type="BinHex"/>
-	<field hash="68A5BC80" type="BinHex"/>
-	<field hash="6CEF3570" type="BinHex"/>
+	<field name="bareknucklefightFightIntrigueMale" type="BinHex"/>
+	<field name="bareknucklefightFightIntrigueFemale" type="BinHex"/>
 	<field hash="556CDF83" type="BinHex"/>
 	<field hash="49841DE3" type="BinHex"/>
 	<field hash="B3E28F8C" type="BinHex"/>
-	<field hash="C1D3081B" type="BinHex"/>
-	<field hash="0326CB3F" type="BinHex"/>
-	<field hash="0FD5F426" type="BinHex"/>
-	<field hash="9180F4D9" type="BinHex"/>
-	<field hash="B9963A15" type="BinHex"/>
-	<field hash="B54DA01D" type="BinHex"/>
-	<field hash="105D99C8" type="BinHex"/>
-	<field hash="068CAD71" type="BinHex"/>
-	<field hash="8A5206DC" type="BinHex"/>
+	<field name="humanconfigDebugFemale" type="BinHex"/>
+	<field name="humanconfigDebugMale" type="BinHex"/>
+	<field name="tagcategoryTagCategoryFirst" type="BinHex"/>
+	<field name="tagcategoryTagCategorySecond" type="BinHex"/>
+	<field name="tagcategoryTagCategoryThird" type="BinHex"/>
+	<field name="censusactormemorydefinitionMemoryToApplyOnWin" type="BinHex"/>
+	<field name="censusactormemorydefinitionMemoryToApplyOnFighterWin" type="BinHex"/>
+	<field name="censusactormemorydefinitionMemoryToApplyOnFighterLose" type="BinHex"/>
+	<field name="censusactormemorydefinitionMemoryToApplyOnCrowdOPCompleted" type="BinHex"/>
 	<field hash="BA74EA5C" type="String"/>
-	<field hash="062E80FC" type="BinHex"/>
+	<field name="IntercomBarkAvailable" type="BinHex"/>
 	<field hash="38BE3070" type="String"/>
-	<field hash="C5170AD3" type="BinHex"/>
+	<field name="IntercomBarkUnavailableFights" type="BinHex"/>
 	<field hash="87D5FB00" type="String"/>
-	<field hash="4C16221A" type="BinHex"/>
-	<field hash="74161B6B" type="BinHex"/>
+	<field name="IntercomBarkUnavailableMelee" type="BinHex"/>
+	<field name="ArenaFinishedBark" type="BinHex"/>
 	<field hash="244072AA" type="String"/>
-	<field hash="AF676F2E" type="BinHex"/>
+	<field name="LeagueFinishedBark" type="BinHex"/>
 	<field hash="F12B4C38" type="String"/>
-	<field hash="8D05D1C9" type="BinHex"/>
-	<field hash="984C5378" type="BinHex"/>
+	<field name="sndEnterSound" type="BinHex"/>
+	<field name="sndtpEnterSoundType" type="BinHex"/>
 	<field hash="9A9D5B80" type="String"/>
-	<field hash="68EF1D4E" type="BinHex"/>
-	<field hash="0474141C" type="BinHex"/>
+	<field name="sndExitSound" type="BinHex"/>
+	<field name="sndtpExitSoundType" type="BinHex"/>
 	<field hash="2CE214A5" type="String"/>
-	<field hash="DE90526B" type="BinHex"/>
-	<field hash="62FBF26D" type="BinHex"/>
-	<field hash="407E4E05" type="BinHex"/>
-	<field hash="0C5BD872" type="BinHex"/>
+	<field name="sndSkipSound" type="BinHex"/>
+	<field name="sndtpSkipSoundType" type="BinHex"/>
+	<field name="bLmaInteriorEnabled" type="BinHex"/>
+	<field name="iCrowdAnimateMaxRandom" type="BinHex"/>
 	<field hash="ECA5D037" type="BinHex"/>
 	<field hash="62102A5A" type="BinHex"/>
-	<object hash="B262C76B">
-		<object hash="0B7DB3A5">
-			<field hash="870E6FB7" type="String"/>
-			<object hash="C7E1DA02">
-				<object hash="3918C62E">
-					<field hash="CC8DFAB8" type="BinHex"/>
+	<object name="LeagueElementsVector">
+		<object name="LeagueElement">
+			<field name="sMapName" type="String"/>
+			<object name="Leagues">
+				<object name="League">
+					<field name="bareknuckleleagueconfigLeague" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="A5240CE0">
-		<object hash="EDBF320A">
-			<field hash="EDBF320A" type="BinHex"/>
+	<object name="ReactionsToLoad">
+		<object name="bareknucklereactionReaction">
+			<field name="bareknucklereactionReaction" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="DFABD901">
+	<object name="IntroMadCinematic">
 		<field hash="F8C7825F" type="String"/>
-		<field hash="4E850E4D" type="BinHex"/>
-		<field hash="1795CB2B" type="BinHex"/>
-		<field hash="C80FCC83" type="BinHex"/>
+		<field name="fileFile" type="BinHex"/>
+		<field name="SceneTemplate" type="BinHex"/>
+		<field name="iDialogTemplate" type="BinHex"/>
 	</object>
 	<object hash="8D234DA8">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="D4EA1302">
+	<object name="locstridArenaCompletedLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="930FD2FB">
+	<object name="locstridArenaSubtitleCompletedLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="88B18C83">
+	<object name="locstridArenaFailedLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="BD413259">
+	<object name="locstridArenaSubtitleFailedLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="61314DCA">
+	<object name="locstridArenaAbandonLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="070286BE">
+	<object name="locstridArenaSubtitleAbandonLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="59DFE467">
+	<object name="locstridPlayerWon">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4421EDC7">
+	<object name="locstridPlayerLose">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="446D8AD2">
+	<object name="locstridPlayerWonFullHealth">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="85FEB1D1">
-		<field hash="C50F1A52" type="BinHex"/>
+	<object name="CompletedTrigger">
+		<field name="rulesmithidRuleId" type="BinHex"/>
 	</object>
-	<object hash="F709ECF4">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="CompleteFightCryptoGetter">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="114E1BC6">
-		<object hash="FA72D7A0">
+		<object name="Ability">
 			<field hash="5FF686ED" type="BinHex"/>
 		</object>
 	</object>

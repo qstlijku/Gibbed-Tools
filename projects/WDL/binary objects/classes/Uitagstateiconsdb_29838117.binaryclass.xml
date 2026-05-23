@@ -19,5 +19,5 @@
 	<field name="texturedbobjectStateSearchEnforcer" type="BinHex"/>
 	<field name="texturedbobjectStateStunned_MediumDuration" type="BinHex"/>
 	<field name="texturedbobjectStateStunned_ShortDuration" type="BinHex"/>
-	<field hash="5E710101" type="BinHex"/>
+	<field name="texturedbobjectStateDetecting" type="BinHex"/>
 </class>

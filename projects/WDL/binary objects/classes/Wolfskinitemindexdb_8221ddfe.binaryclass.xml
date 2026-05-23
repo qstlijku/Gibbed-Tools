@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="C9E603AE">
+	<object name="IndexedItems">
 		<object name="Item">
-			<field hash="C0E7C267" type="String"/>
-			<field hash="36B3D2A3" type="BinHex"/>
+			<field name="libraryName" type="String"/>
+			<field name="itemHandle" type="BinHex"/>
 			<field hash="AB705E52" type="String"/>
-			<field hash="AC0E2067" type="BinHex"/>
+			<field name="slot" type="BinHex"/>
 		</object>
 	</object>
 </class>

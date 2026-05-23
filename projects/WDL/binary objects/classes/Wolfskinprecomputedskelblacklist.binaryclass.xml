@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="Description" type="BinHex"/>
-	<object hash="E9A71259">
-		<object hash="46159141">
+	<object name="SlotTags">
+		<object name="SlotSpec">
 			<field hash="6E7A746B" type="String"/>
 			<field name="SlotName" type="BinHex"/>
 			<object name="Tags">
@@ -16,8 +16,8 @@
 					<object name="Tag">
 						<object name="tagcategoryselectionTag">
 							<field hash="BDB3B8D5" type="String"/>
-							<field hash="401A8276" type="BinHex"/>
-							<field hash="F5391DFF" type="BinHex"/>
+							<field name="UITagCategorySelectionClassID" type="BinHex"/>
+							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<field name="tagcategoryTagCategory" type="BinHex"/>
 							<field name="tagTag" type="BinHex"/>
 						</object>
@@ -27,8 +27,8 @@
 					<object name="Tag">
 						<object name="tagcategoryselectionTag">
 							<field hash="BDB3B8D5" type="String"/>
-							<field hash="401A8276" type="BinHex"/>
-							<field hash="F5391DFF" type="BinHex"/>
+							<field name="UITagCategorySelectionClassID" type="BinHex"/>
+							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<field name="tagcategoryTagCategory" type="BinHex"/>
 							<field name="tagTag" type="BinHex"/>
 						</object>

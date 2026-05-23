@@ -6,35 +6,35 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="851E03D0" type="BinHex"/>
+	<field name="bIsInfinite" type="BinHex"/>
 	<field name="squadbhvparamsSquadBhvParams" type="BinHex"/>
-	<object hash="4E71DF26">
-		<object hash="7A3602B7">
-			<field hash="7F6A7A2F" type="BinHex"/>
-			<field hash="729E7F94" type="BinHex"/>
-			<field hash="1CC63DD7" type="BinHex"/>
+	<object name="Waves">
+		<object name="Wave">
+			<field name="waveagentcompositionconfigAgentCompositionConfig" type="BinHex"/>
+			<field name="bUseInitialSpawnDelay" type="BinHex"/>
+			<field name="fInitialSpawnDelay" type="BinHex"/>
 			<field hash="ACC5424B" type="BinHex"/>
-			<field hash="CA0173AC" type="BinHex"/>
-			<field hash="BC97D5B6" type="BinHex"/>
-			<field hash="34856913" type="BinHex"/>
-			<field hash="C06B32B8" type="BinHex"/>
-			<field hash="CBB63CB0" type="BinHex"/>
-			<field hash="5482155C" type="BinHex"/>
-			<field hash="FC604769" type="BinHex"/>
-			<field hash="44048696" type="BinHex"/>
-			<field hash="CE532E8D" type="BinHex"/>
-			<field hash="8ACE6EDB" type="BinHex"/>
-			<field hash="97DB844B" type="BinHex"/>
-			<field hash="1B8546C8" type="BinHex"/>
-			<field hash="A30CB6F9" type="BinHex"/>
-			<object hash="4072C001">
-				<object hash="FF137823">
-					<field hash="190AA117" type="BinHex"/>
-					<object hash="B6EC0CE9">
+			<field name="bUseTimeCondition" type="BinHex"/>
+			<field name="fTimeUntilNextWave" type="BinHex"/>
+			<field name="bUseRemainingRatioCondition" type="BinHex"/>
+			<field name="fRemainingRatioToForceNextWave" type="BinHex"/>
+			<field name="fRemainingRatioTimeUntilNextWave" type="BinHex"/>
+			<field name="bUseMaintainNPCCountCondition" type="BinHex"/>
+			<field name="fMinNPCMaintainCount" type="BinHex"/>
+			<field name="fMaintainCountSpawnDelay" type="BinHex"/>
+			<field name="bMaintainCountIncludeLayoutAI" type="BinHex"/>
+			<field name="bUseDeathTollCondition" type="BinHex"/>
+			<field name="uiDeathTollToForceNextWave" type="BinHex"/>
+			<field name="fDeathTollTimeUntilNextWave" type="BinHex"/>
+			<field name="bPauseUntilDominoEvent" type="BinHex"/>
+			<object name="UnitGroupList">
+				<object name="UnitGroup">
+					<field name="unitgroupUnitGroup" type="BinHex"/>
+					<object name="CanSpawnWhenTargetIs">
 						<field name="bOnFoot" type="Boolean"/>
-						<field hash="3957285E" type="BinHex"/>
-						<field hash="E851EAEC" type="BinHex"/>
-						<field hash="5731EA5A" type="BinHex"/>
+						<field name="bInAVehicle" type="BinHex"/>
+						<field name="bInWater" type="BinHex"/>
+						<field name="bNotInWater" type="BinHex"/>
 					</object>
 				</object>
 			</object>

@@ -6,20 +6,20 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="0B68A44F">
-		<object hash="922EE9D4">
-			<field hash="0EB885D8" type="BinHex"/>
-			<field hash="23DB4D2B" type="BinHex"/>
-			<field hash="024AC92E" type="BinHex"/>
-			<field hash="673CBE35" type="BinHex"/>
-			<object hash="758011F2">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="PositiveInitialMemories">
+		<object name="MemoryPair">
+			<field name="censusactormemorydefinitionMemory" type="BinHex"/>
+			<field name="fApplicationChance" type="BinHex"/>
+			<field name="bCanBeAppliedToPositive" type="BinHex"/>
+			<field name="bCanBeAppliedToNegative" type="BinHex"/>
+			<object name="UnlockRule">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="0853C601">
-				<object hash="04170D84">
+			<object name="IncludeFilter">
+				<object name="tagcategoryselectionblackboardProfile">
 					<object name="TagCategorySelectionArray"/>
-					<object hash="D0C5DABB">
+					<object name="TagDescriptorUI">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<object name="TagCategorySelectionDescriptors">
@@ -31,52 +31,10 @@
 					</object>
 				</object>
 			</object>
-			<object hash="71CC37E6">
-				<object hash="04170D84">
+			<object name="ExcludeFilter">
+				<object name="tagcategoryselectionblackboardProfile">
 					<object name="TagCategorySelectionArray"/>
-					<object hash="D0C5DABB">
-						<field hash="CF68E402" type="String"/>
-						<field name="hid_DTCTH_ClassName" type="BinHex"/>
-						<object name="TagCategorySelectionDescriptors">
-							<object name="TagCategorySelectionDescriptor">
-								<field name="tagcategoryTagCategory" type="BinHex"/>
-								<field name="bMultiSelect" type="Boolean"/>
-							</object>
-						</object>
-					</object>
-				</object>
-			</object>
-		</object>
-	</object>
-	<object hash="B4BC3C3A">
-		<object hash="922EE9D4">
-			<field hash="0EB885D8" type="BinHex"/>
-			<field hash="23DB4D2B" type="BinHex"/>
-			<field hash="024AC92E" type="BinHex"/>
-			<field hash="673CBE35" type="BinHex"/>
-			<object hash="758011F2">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
-			</object>
-			<object hash="0853C601">
-				<object hash="04170D84">
-					<object name="TagCategorySelectionArray"/>
-					<object hash="D0C5DABB">
-						<field hash="CF68E402" type="String"/>
-						<field name="hid_DTCTH_ClassName" type="BinHex"/>
-						<object name="TagCategorySelectionDescriptors">
-							<object name="TagCategorySelectionDescriptor">
-								<field name="tagcategoryTagCategory" type="BinHex"/>
-								<field name="bMultiSelect" type="Boolean"/>
-							</object>
-						</object>
-					</object>
-				</object>
-			</object>
-			<object hash="71CC37E6">
-				<object hash="04170D84">
-					<object name="TagCategorySelectionArray"/>
-					<object hash="D0C5DABB">
+					<object name="TagDescriptorUI">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<object name="TagCategorySelectionDescriptors">
@@ -90,20 +48,20 @@
 			</object>
 		</object>
 	</object>
-	<object hash="C4E68D28">
-		<object hash="922EE9D4">
-			<field hash="0EB885D8" type="BinHex"/>
-			<field hash="23DB4D2B" type="BinHex"/>
-			<field hash="024AC92E" type="BinHex"/>
-			<field hash="673CBE35" type="BinHex"/>
-			<object hash="758011F2">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="NegativeInitialMemories">
+		<object name="MemoryPair">
+			<field name="censusactormemorydefinitionMemory" type="BinHex"/>
+			<field name="fApplicationChance" type="BinHex"/>
+			<field name="bCanBeAppliedToPositive" type="BinHex"/>
+			<field name="bCanBeAppliedToNegative" type="BinHex"/>
+			<object name="UnlockRule">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="0853C601">
-				<object hash="04170D84">
+			<object name="IncludeFilter">
+				<object name="tagcategoryselectionblackboardProfile">
 					<object name="TagCategorySelectionArray"/>
-					<object hash="D0C5DABB">
+					<object name="TagDescriptorUI">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<object name="TagCategorySelectionDescriptors">
@@ -115,10 +73,52 @@
 					</object>
 				</object>
 			</object>
-			<object hash="71CC37E6">
-				<object hash="04170D84">
+			<object name="ExcludeFilter">
+				<object name="tagcategoryselectionblackboardProfile">
 					<object name="TagCategorySelectionArray"/>
-					<object hash="D0C5DABB">
+					<object name="TagDescriptorUI">
+						<field hash="CF68E402" type="String"/>
+						<field name="hid_DTCTH_ClassName" type="BinHex"/>
+						<object name="TagCategorySelectionDescriptors">
+							<object name="TagCategorySelectionDescriptor">
+								<field name="tagcategoryTagCategory" type="BinHex"/>
+								<field name="bMultiSelect" type="Boolean"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="GameplayConditionalMemories">
+		<object name="MemoryPair">
+			<field name="censusactormemorydefinitionMemory" type="BinHex"/>
+			<field name="fApplicationChance" type="BinHex"/>
+			<field name="bCanBeAppliedToPositive" type="BinHex"/>
+			<field name="bCanBeAppliedToNegative" type="BinHex"/>
+			<object name="UnlockRule">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
+			</object>
+			<object name="IncludeFilter">
+				<object name="tagcategoryselectionblackboardProfile">
+					<object name="TagCategorySelectionArray"/>
+					<object name="TagDescriptorUI">
+						<field hash="CF68E402" type="String"/>
+						<field name="hid_DTCTH_ClassName" type="BinHex"/>
+						<object name="TagCategorySelectionDescriptors">
+							<object name="TagCategorySelectionDescriptor">
+								<field name="tagcategoryTagCategory" type="BinHex"/>
+								<field name="bMultiSelect" type="Boolean"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="ExcludeFilter">
+				<object name="tagcategoryselectionblackboardProfile">
+					<object name="TagCategorySelectionArray"/>
+					<object name="TagDescriptorUI">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<object name="TagCategorySelectionDescriptors">

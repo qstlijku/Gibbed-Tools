@@ -19,7 +19,7 @@
 		<field name="sndDetectionStop" type="BinHex"/>
 		<field hash="DF4937BE" type="BinHex"/>
 		<field hash="DD485282" type="String"/>
-		<field hash="44ED3CD8" type="BinHex"/>
+		<field name="sndLKPBrokenSound" type="BinHex"/>
 		<field hash="DD995268" type="BinHex"/>
 	</object>
 	<object name="SoundStates">

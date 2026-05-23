@@ -10,7 +10,7 @@
 	<field name="fFadeOutDuration" type="Float"/>
 	<field name="fDebugDisplayUpdateRate" type="Float"/>
 	<field name="fRaycastHitMinDistance" type="Float"/>
-	<field hash="98283CC0" type="BinHex"/>
+	<field name="fRaycastHitMaxDistance" type="BinHex"/>
 	<field name="fOcclusionPerMeterOfThickness" type="Float"/>
 	<field name="fOcclusionPerMeterOfPathDifference" type="Float"/>
 	<field hash="F4807F7E" type="BinHex"/>

@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="BF44AD68" type="String"/>
-	<field hash="7582417F" type="BinHex"/>
+	<field name="fileConfigPath" type="BinHex"/>
 	<field name="graphickitmodeltypeGraphicKitModelType" type="BinHex"/>
-	<field hash="B1DCDCED" type="BinHex"/>
+	<field name="wolfskinitemdbDefaultDNA" type="BinHex"/>
 </class>

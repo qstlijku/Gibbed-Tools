@@ -7,6 +7,6 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="477708C0" type="String"/>
-	<field hash="98DD0C5C" type="BinHex"/>
-	<field hash="063D0685" type="BinHex"/>
+	<field name="archDataYInteractArchetypeResource" type="BinHex"/>
+	<field name="bForceDisableAfterCompleteOnce" type="BinHex"/>
 </class>

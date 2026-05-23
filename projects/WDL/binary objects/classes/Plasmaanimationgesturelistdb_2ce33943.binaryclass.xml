@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="5630C54C">
+	<object name="TalkingActions">
 		<object name="Actions">
 			<field name="Actions" type="String"/>
 		</object>
 	</object>
-	<object hash="3B5FD162">
+	<object name="ListeningActions">
 		<object name="Actions">
 			<field name="Actions" type="String"/>
 		</object>

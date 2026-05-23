@@ -8,33 +8,33 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="3AD85403" type="String"/>
 	<field name="matHighlightMaterial" type="BinHex"/>
-	<field hash="B7FB01C8" type="BinHex"/>
-	<field hash="07D1EE55" type="BinHex"/>
+	<field name="fOverlayHighlightStartDelay" type="BinHex"/>
+	<field name="fOverlayHighlightDuration" type="BinHex"/>
 	<field name="selFocusOutlineColor" type="Enum"/>
 	<field name="fFocusOutlineIntensity" type="Float"/>
-	<field hash="4A7DE095" type="BinHex"/>
+	<field name="selFocusOutlineVisibility" type="BinHex"/>
 	<field name="bTransparency" type="Boolean"/>
 	<field name="bDepthPass" type="Boolean"/>
-	<field hash="4EC9AE47" type="BinHex"/>
-	<field hash="C989980F" type="BinHex"/>
-	<field hash="59C9AC45" type="BinHex"/>
-	<field hash="A1AF8620" type="BinHex"/>
-	<field hash="7849B91A" type="BinHex"/>
-	<field hash="97FC2589" type="BinHex"/>
-	<field hash="D61F8DF4" type="BinHex"/>
+	<field name="fOutlineStartDelay" type="BinHex"/>
+	<field name="fOutlineDuration" type="BinHex"/>
+	<field name="bPingFeedbackEnabled" type="BinHex"/>
+	<field name="fPingOutlineFadeInFactor" type="BinHex"/>
+	<field name="fPingOutlineFadeOutFactor" type="BinHex"/>
+	<field name="colorLineStartColor" type="BinHex"/>
+	<field name="colorLineEndColor" type="BinHex"/>
 	<field hash="9A5F8F95" type="String"/>
-	<field hash="50996382" type="BinHex"/>
-	<field hash="D9705F46" type="BinHex"/>
-	<field hash="08CD7810" type="BinHex"/>
-	<field hash="7C43DC1A" type="BinHex"/>
-	<field hash="949D8321" type="BinHex"/>
-	<field hash="7366932D" type="BinHex"/>
-	<field hash="66046B0E" type="BinHex"/>
-	<field hash="D5F2DE0B" type="BinHex"/>
+	<field name="sLineStartBone" type="BinHex"/>
+	<field name="vectorLineStartOffset" type="BinHex"/>
+	<field name="fLineStartDelay" type="BinHex"/>
+	<field name="fLineDuration" type="BinHex"/>
+	<field name="vector2LineScale" type="BinHex"/>
+	<field name="fParticlesStartDelay" type="BinHex"/>
+	<field name="fParticlesDuration" type="BinHex"/>
+	<field name="sndOnPingedSound" type="BinHex"/>
 	<field hash="23537C6F" type="BinHex"/>
-	<field hash="1D5B6F70" type="BinHex"/>
-	<field hash="88C50B3F" type="BinHex"/>
-	<field hash="59B6EADC" type="BinHex"/>
+	<field name="fPingFeedbackMaxDistance" type="BinHex"/>
+	<field name="fPingFeedbackMaxOccludedDistance" type="BinHex"/>
+	<field name="bProfilableOccludable" type="BinHex"/>
 	<object name="ParticleEffects">
 		<object name="ParticleEffect">
 			<field hash="ECFF2FCC" type="String"/>

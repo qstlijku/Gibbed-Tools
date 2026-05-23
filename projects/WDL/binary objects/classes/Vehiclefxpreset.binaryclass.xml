@@ -24,7 +24,7 @@
 				<field name="fEngineScaleLevel" type="Float"/>
 				<field hash="52AEB63D" type="String"/>
 				<field name="sndDamageSound" type="BinHex"/>
-				<field hash="FE0A4A2B" type="BinHex"/>
+				<field name="sndtpDamageSoundType" type="BinHex"/>
 				<field name="fPartsCollsionDamageScale" type="Float"/>
 				<object name="StateParticlesSystems">
 					<object name="StateParticlesSystem">
@@ -35,7 +35,7 @@
 						<field hash="7617B9D5" type="String"/>
 						<field name="sBoneName" type="BinHex"/>
 						<field name="vectorBoneRotationOffset" type="BinHex"/>
-						<field hash="1024C168" type="BinHex"/>
+						<field name="vectorBonePositionOffset" type="BinHex"/>
 					</object>
 				</object>
 				<object name="ConditionnalParticlesSystems">
@@ -44,19 +44,19 @@
 					<field hash="7617B9D5" type="String"/>
 					<field name="sBoneName" type="BinHex"/>
 					<field name="vectorBoneRotationOffset" type="BinHex"/>
-					<field hash="1024C168" type="BinHex"/>
+					<field name="vectorBonePositionOffset" type="BinHex"/>
 					<field name="sndSound" type="BinHex"/>
-					<field hash="8FE662AD" type="BinHex"/>
+					<field name="sndtpSoundType" type="BinHex"/>
 					<field name="bScaleAlpha" type="Boolean"/>
 					<field name="bScaleLifeTime" type="Boolean"/>
 					<field name="bScaleSpeedRatio" type="Boolean"/>
 					<field name="bScaleEmitRate" type="Boolean"/>
 					<field name="fMinPlayTime" type="Float"/>
 					<field name="selScalingValueToUse" type="Enum"/>
-					<object hash="7A0E963D">
-						<field hash="73A2C21C" type="BinHex"/>
-						<field hash="04A5F28A" type="BinHex"/>
-						<field hash="9DACA330" type="BinHex"/>
+					<object name="ConstraintAxis">
+						<field name="bX" type="BinHex"/>
+						<field name="bY" type="BinHex"/>
+						<field name="bZ" type="BinHex"/>
 					</object>
 					<object name="AlphaScaling">
 						<field name="fAlphaMinValue" type="Float"/>
@@ -95,19 +95,19 @@
 						<field hash="7617B9D5" type="String"/>
 						<field name="sBoneName" type="BinHex"/>
 						<field name="vectorBoneRotationOffset" type="BinHex"/>
-						<field hash="1024C168" type="BinHex"/>
+						<field name="vectorBonePositionOffset" type="BinHex"/>
 						<field name="sndSound" type="BinHex"/>
-						<field hash="8FE662AD" type="BinHex"/>
+						<field name="sndtpSoundType" type="BinHex"/>
 						<field name="bScaleAlpha" type="Boolean"/>
 						<field name="bScaleLifeTime" type="Boolean"/>
 						<field name="bScaleSpeedRatio" type="Boolean"/>
 						<field name="bScaleEmitRate" type="Boolean"/>
 						<field name="fMinPlayTime" type="Float"/>
 						<field name="selScalingValueToUse" type="Enum"/>
-						<object hash="7A0E963D">
-							<field hash="73A2C21C" type="BinHex"/>
-							<field hash="04A5F28A" type="BinHex"/>
-							<field hash="9DACA330" type="BinHex"/>
+						<object name="ConstraintAxis">
+							<field name="bX" type="BinHex"/>
+							<field name="bY" type="BinHex"/>
+							<field name="bZ" type="BinHex"/>
 						</object>
 						<object name="AlphaScaling">
 							<field name="fAlphaMinValue" type="Float"/>
@@ -151,7 +151,7 @@
 				<field name="psVehicleDestroyedFx" type="BinHex"/>
 				<field hash="BBA93B4B" type="String"/>
 				<field name="sndVehicleDestroyedSound" type="BinHex"/>
-				<field hash="ACC0D430" type="BinHex"/>
+				<field name="sndtpVehicleDestroyedSoundType" type="BinHex"/>
 				<field name="fChainExplosionMaxTimeDelay" type="Float"/>
 				<field name="fBurningTime" type="Float"/>
 				<field name="fBurnStartTime" type="Float"/>
@@ -167,8 +167,8 @@
 				<field name="sndEngineFireSound" type="BinHex"/>
 				<field hash="1CAD2E8C" type="String"/>
 				<field name="sndEngineFireNoHoodSound" type="BinHex"/>
-				<field hash="56CD00A4" type="BinHex"/>
-				<field hash="7169905B" type="BinHex"/>
+				<field name="sndtpEngineFireSoundType" type="BinHex"/>
+				<field name="sndtpEngineFireNoHoodSoundType" type="BinHex"/>
 				<field name="bCanExplode" type="Boolean"/>
 				<field name="fExplosionTotalTime" type="Float"/>
 				<field name="fPreExplodeMinTime" type="Float"/>
@@ -182,28 +182,28 @@
 				<field name="sndExplosionSound" type="BinHex"/>
 				<field hash="0A074E6E" type="String"/>
 				<field name="sndExplosionNoHoodSound" type="BinHex"/>
-				<field hash="CC1A721D" type="BinHex"/>
-				<field hash="84B9DD4F" type="BinHex"/>
+				<field name="sndtpExplosionSoundType" type="BinHex"/>
+				<field name="sndtpExplosionNoHoodSoundType" type="BinHex"/>
 				<field hash="3A713497" type="String"/>
 				<field name="psDestroyByExplosionFx" type="BinHex"/>
 				<field hash="42EC7AED" type="String"/>
 				<field name="psDestroyByExplosionNoHoodFx" type="BinHex"/>
 				<field name="sndDestroyByExplosionSound" type="BinHex"/>
 				<field name="sndDestroyByExplosionNoHoodSound" type="BinHex"/>
-				<field hash="7EE686BF" type="BinHex"/>
-				<field hash="67B31856" type="BinHex"/>
+				<field name="sndtpDestroyByExplosionSoundType" type="BinHex"/>
+				<field name="sndtpDestroyByExplosionNoHoodSoundType" type="BinHex"/>
 				<field hash="4D6CF19D" type="String"/>
 				<field name="psPreExplosionFx" type="BinHex"/>
 				<field hash="EECFD411" type="String"/>
 				<field name="sndPreExplosionSound" type="BinHex"/>
-				<field hash="8C418F58" type="BinHex"/>
+				<field name="sndtpPreExplosionSoundType" type="BinHex"/>
 				<object name="ReactionStims">
 					<object name="FireStims">
 						<object name="GeneratedStims">
 							<object name="Stim">
 								<field name="stims" type="BinHex"/>
 								<field name="vectorLocalTranslationOffset" type="BinHex"/>
-								<field hash="0AA58CD7" type="BinHex"/>
+								<field name="vectorWorldTranslationOffset" type="BinHex"/>
 								<field name="bIsPersistent" type="Boolean"/>
 								<field name="fPersistenceDuration" type="Float"/>
 								<field name="fPersistenceInterval" type="Float"/>
@@ -217,7 +217,7 @@
 							<object name="Stim">
 								<field name="stims" type="BinHex"/>
 								<field name="vectorLocalTranslationOffset" type="BinHex"/>
-								<field hash="0AA58CD7" type="BinHex"/>
+								<field name="vectorWorldTranslationOffset" type="BinHex"/>
 								<field name="bIsPersistent" type="Boolean"/>
 								<field name="fPersistenceDuration" type="Float"/>
 								<field name="fPersistenceInterval" type="Float"/>
@@ -226,12 +226,12 @@
 							</object>
 						</object>
 					</object>
-					<object hash="628294FD">
+					<object name="VehicleDeadStims">
 						<object name="GeneratedStims">
 							<object name="Stim">
 								<field name="stims" type="BinHex"/>
 								<field name="vectorLocalTranslationOffset" type="BinHex"/>
-								<field hash="0AA58CD7" type="BinHex"/>
+								<field name="vectorWorldTranslationOffset" type="BinHex"/>
 								<field name="bIsPersistent" type="Boolean"/>
 								<field name="fPersistenceDuration" type="Float"/>
 								<field name="fPersistenceInterval" type="Float"/>
@@ -252,13 +252,13 @@
 		<field hash="D16247F2" type="String"/>
 		<field name="psFxNitroExhaust" type="BinHex"/>
 		<field name="fFxNitroFadeOutTime" type="Float"/>
-		<field hash="5E67ABFF" type="BinHex"/>
-		<field hash="4378BEEB" type="BinHex"/>
-		<field hash="AEFF9B8D" type="BinHex"/>
-		<field hash="E16116FD" type="BinHex"/>
+		<field name="sndNitroOptionalSound" type="BinHex"/>
+		<field name="sndtpNitroOptionalSoundType" type="BinHex"/>
+		<field name="sndNitroStopOptionalSound" type="BinHex"/>
+		<field name="sndtpNitroStopOptionalSoundType" type="BinHex"/>
 		<field hash="FF60F47B" type="String"/>
-		<field hash="0D12B2B5" type="BinHex"/>
-		<field hash="1BFD95C0" type="BinHex"/>
+		<field name="sndGearCrank" type="BinHex"/>
+		<field name="sndtpGearCrankType" type="BinHex"/>
 		<object name="ExhaustSizeControl">
 			<field name="fRPMMin" type="Float"/>
 			<field name="fRPMMax" type="Float"/>
@@ -280,7 +280,7 @@
 	</object>
 	<object name="Landing">
 		<object name="LandingParticlesSystem">
-			<field hash="0AD4BF7B" type="BinHex"/>
+			<field name="matimpMaterialImpactFx" type="BinHex"/>
 			<field hash="7617B9D5" type="String"/>
 			<field name="sBoneName" type="BinHex"/>
 		</object>
@@ -345,7 +345,7 @@
 		<field name="psFxWaterSplash" type="BinHex"/>
 		<field hash="D1D072EE" type="String"/>
 		<field name="sndWheelInWater" type="BinHex"/>
-		<field hash="28ABED87" type="BinHex"/>
+		<field name="sndtpWheelInWaterType" type="BinHex"/>
 		<field name="fWheelsEnterWaterFadeoutTime" type="Float"/>
 	</object>
 	<object name="Wheel">
@@ -363,12 +363,12 @@
 		</object>
 	</object>
 	<object name="RumbleSettings">
-		<field hash="2D7CCBFE" type="BinHex"/>
+		<field name="fBreakColVelocityMinRangeValue" type="BinHex"/>
 		<field name="fDynamicObjColVelocityMinRangeValue" type="Float"/>
 		<field name="fPawnColVelocityMinRangeValue" type="Float"/>
 		<field name="fStaticColVelocityMinRangeValue" type="Float"/>
 		<field name="fVehicleColVelocityMinRangeValue" type="Float"/>
-		<field hash="6D33B388" type="BinHex"/>
+		<field name="fBreakColVelocityMaxRangeValue" type="BinHex"/>
 		<field name="fDynamicObjColVelocityMaxRangeValue" type="Float"/>
 		<field name="fPawnColVelocityMaxRangeValue" type="Float"/>
 		<field name="fStaticColVelocityMaxRangeValue" type="Float"/>
@@ -381,20 +381,20 @@
 			<field hash="7617B9D5" type="String"/>
 			<field name="sBoneName" type="BinHex"/>
 			<field name="vectorBoneRotationOffset" type="BinHex"/>
-			<field hash="1024C168" type="BinHex"/>
+			<field name="vectorBonePositionOffset" type="BinHex"/>
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 			<field name="bScaleAlpha" type="Boolean"/>
 			<field name="bScaleLifeTime" type="Boolean"/>
 			<field name="bScaleSpeedRatio" type="Boolean"/>
 			<field name="bScaleEmitRate" type="Boolean"/>
 			<field name="fMinPlayTime" type="Float"/>
 			<field name="selScalingValueToUse" type="Enum"/>
-			<object hash="7A0E963D">
-				<field hash="73A2C21C" type="BinHex"/>
-				<field hash="04A5F28A" type="BinHex"/>
-				<field hash="9DACA330" type="BinHex"/>
+			<object name="ConstraintAxis">
+				<field name="bX" type="BinHex"/>
+				<field name="bY" type="BinHex"/>
+				<field name="bZ" type="BinHex"/>
 			</object>
 			<object name="LifeTimeScaling">
 					<field name="flifeTimeMinValue" type="BinHex"/>
@@ -434,20 +434,20 @@
 				<field hash="7617B9D5" type="String"/>
 				<field name="sBoneName" type="BinHex"/>
 				<field name="vectorBoneRotationOffset" type="BinHex"/>
-				<field hash="1024C168" type="BinHex"/>
+				<field name="vectorBonePositionOffset" type="BinHex"/>
 				<field hash="463EA461" type="String"/>
 				<field name="sndSound" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 				<field name="bScaleAlpha" type="Boolean"/>
 				<field name="bScaleLifeTime" type="Boolean"/>
 				<field name="bScaleSpeedRatio" type="Boolean"/>
 				<field name="bScaleEmitRate" type="Boolean"/>
 				<field name="fMinPlayTime" type="Float"/>
 				<field name="selScalingValueToUse" type="Enum"/>
-				<object hash="7A0E963D">
-					<field hash="73A2C21C" type="BinHex"/>
-					<field hash="04A5F28A" type="BinHex"/>
-					<field hash="9DACA330" type="BinHex"/>
+				<object name="ConstraintAxis">
+					<field name="bX" type="BinHex"/>
+					<field name="bY" type="BinHex"/>
+					<field name="bZ" type="BinHex"/>
 				</object>
 				<object name="LifeTimeScaling">
 					<field name="flifeTimeMinValue" type="BinHex"/>

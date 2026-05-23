@@ -17,7 +17,7 @@
 		<field name="fCover2EnemyWeight" type="Float"/>
 		<field name="fCover2FriendsWeight" type="Float"/>
 		<field name="fCover2AllyWeight" type="Float"/>
-		<field hash="E62E9E45" type="BinHex"/>
+		<field name="fCover2AIModifierWeight" type="BinHex"/>
 	</object>
 	<object name="CutoffParams">
 		<field name="fCoverAngleCutoff" type="Float"/>

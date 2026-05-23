@@ -32,18 +32,18 @@
 	<field name="tmplPlayerDialogActor" type="BinHex"/>
 	<object name="sndvarRadioBarkRTPC">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
-	<object hash="CD52B6C6">
+	<object name="sndswtpGenderTargetingSwitchType">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
-	<object hash="79A7B134">
+	<object name="sndswvlGenderTargetingDefaultSwitchValue">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
-	<object hash="6454FD50">
+	<object name="sndswvlGenderTargetingAlternateSwitchValue">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 </class>

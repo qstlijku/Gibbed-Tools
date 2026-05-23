@@ -10,7 +10,7 @@
 	<object name="BroadcastData">
 		<field name="fileBink" type="String"/>
 		<field hash="82948C4D" type="String"/>
-		<field hash="46E80E8B" type="BinHex"/>
+		<field name="bUsePerFrameLightData" type="BinHex"/>
 		<field name="fSubtitleDisplayTime" type="Float"/>
 		<field name="bIsBinkStreamed" type="Boolean"/>
 		<field name="bIsBinkInGameOnly" type="Boolean"/>
@@ -27,8 +27,8 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="IsEnabled">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -25,13 +25,13 @@
 	<field name="fDeceleration" type="Float"/>
 	<field name="fTurnOnSpotEnterAngleThreshold" type="Float"/>
 	<field name="fTurnOnSpotExitAngleThreshold" type="Float"/>
-	<object hash="C6FDD283">
-		<field hash="EFB589D9" type="BinHex"/>
-		<field hash="8BDE2119" type="BinHex"/>
-		<field hash="F56F5DA4" type="BinHex"/>
-		<field hash="F136D026" type="BinHex"/>
-		<field hash="955D78E6" type="BinHex"/>
-		<field hash="EBEC045B" type="BinHex"/>
+	<object name="DronePIDSettings">
+		<field name="fPathFollowP" type="BinHex"/>
+		<field name="fPathFollowI" type="BinHex"/>
+		<field name="fPathFollowD" type="BinHex"/>
+		<field name="fPathProximityP" type="BinHex"/>
+		<field name="fPathProximityI" type="BinHex"/>
+		<field name="fPathProximityD" type="BinHex"/>
 		<field name="fStopDistance" type="Float"/>
 	</object>
 </class>

@@ -9,9 +9,9 @@
 	<field name="fActivationDelayMin" type="Float"/>
 	<field name="fActivationDelayMax" type="Float"/>
 	<field hash="96D40CD5" type="String"/>
-	<field hash="AA3DB664" type="BinHex"/>
+	<field name="sndStandbyStartSound" type="BinHex"/>
 	<field hash="5E774171" type="String"/>
-	<field hash="B4292155" type="BinHex"/>
+	<field name="sndStandbyStopSound" type="BinHex"/>
 	<field hash="011CA015" type="BinHex"/>
 	<field hash="36646AA8" type="BinHex"/>
 </class>

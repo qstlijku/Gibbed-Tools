@@ -27,9 +27,9 @@
 			<field name="bScissorLift" type="Boolean"/>
 			<field name="bFlyingDrone" type="Boolean"/>
 			<field name="bArmoredCar" type="Boolean"/>
-			<field hash="4AA6FDAB" type="BinHex"/>
-			<field hash="043CCDF7" type="BinHex"/>
-			<field hash="E9983839" type="BinHex"/>
+			<field name="bMilitary" type="BinHex"/>
+			<field name="bVintage" type="BinHex"/>
+			<field name="bSport" type="BinHex"/>
 		</object>
 	</object>
 	<object name="ExcludedVehicles">
@@ -51,9 +51,9 @@
 			<field name="bScissorLift" type="Boolean"/>
 			<field name="bFlyingDrone" type="Boolean"/>
 			<field name="bArmoredCar" type="Boolean"/>
-			<field hash="4AA6FDAB" type="BinHex"/>
-			<field hash="043CCDF7" type="BinHex"/>
-			<field hash="E9983839" type="BinHex"/>
+			<field name="bMilitary" type="BinHex"/>
+			<field name="bVintage" type="BinHex"/>
+			<field name="bSport" type="BinHex"/>
 		</object>
 	</object>
 </class>

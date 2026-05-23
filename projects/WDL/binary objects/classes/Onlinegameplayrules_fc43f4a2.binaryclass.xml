@@ -6,20 +6,20 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="1279E9D9">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="OnlineDifficultyLevelOffset">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="CB5A6216">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="OnlineLocationDifficultyLevelOffset">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="E8AFD915">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="OnlineNormalisedPlayerLevel">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="14CA7A45">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="OnlineNormalisedAILevel">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 </class>

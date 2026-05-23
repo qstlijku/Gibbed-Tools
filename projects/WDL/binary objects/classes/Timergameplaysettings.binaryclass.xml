@@ -8,16 +8,16 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fLifeTime" type="Float"/>
 	<field hash="A4407A2C" type="BinHex"/>
-	<field hash="1978D849" type="BinHex"/>
-	<field hash="CC62ABE6" type="BinHex"/>
-	<object hash="C7601B74">
+	<field name="selTimerDisplayPosition" type="BinHex"/>
+	<field name="fPulseWhenRemainingTime" type="BinHex"/>
+	<object name="locstridTimerHeaderLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="ACC4F1A5">
+	<object name="locstridTimerExpiredWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C799772D">
+	<object name="locstridPauseWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="927BEA4F"/>
+	<object name="RemainingTimeWarnings"/>
 </class>

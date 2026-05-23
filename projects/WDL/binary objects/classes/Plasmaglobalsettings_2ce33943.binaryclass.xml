@@ -6,35 +6,35 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9134E3A8" type="BinHex"/>
-	<field hash="E5DF92F6" type="BinHex"/>
-	<field hash="23AB3D52" type="BinHex"/>
-	<field hash="DA0B6BD3" type="BinHex"/>
-	<field hash="5595373E" type="BinHex"/>
-	<field hash="E290B2DE" type="BinHex"/>
-	<field hash="FC536496" type="BinHex"/>
-	<field hash="5969C9C2" type="BinHex"/>
-	<field hash="DC63F2F8" type="BinHex"/>
-	<field hash="B3CDA315" type="BinHex"/>
-	<field hash="43691725" type="BinHex"/>
-	<field hash="D777CF0F" type="BinHex"/>
-	<field hash="2FE71B4C" type="BinHex"/>
-	<field hash="40FC275A" type="BinHex"/>
-	<field hash="CCA063D6" type="BinHex"/>
-	<field hash="26395DE2" type="BinHex"/>
-	<field hash="6E8BE2B2" type="BinHex"/>
-	<field hash="3A5B27B0" type="BinHex"/>
-	<field hash="76A480FC" type="BinHex"/>
-	<field hash="25CAA87C" type="BinHex"/>
-	<field hash="92EBDDD0" type="BinHex"/>
-	<field hash="2ABD0800" type="BinHex"/>
-	<field hash="3F114D5C" type="BinHex"/>
-	<field hash="CF5FBA7B" type="BinHex"/>
-	<field hash="4CA1D881" type="BinHex"/>
+	<field name="uiMinRequestLenFrames" type="BinHex"/>
+	<field name="iTalkRequestOffsetFrames" type="BinHex"/>
+	<field name="fUninterruptibleCostFactor" type="BinHex"/>
+	<field name="fSeenCostFactor" type="BinHex"/>
+	<field name="fFilterCutoffCost" type="BinHex"/>
+	<field name="fScoreCutoffCost" type="BinHex"/>
+	<field name="uiMaximumSelectionResults" type="BinHex"/>
+	<field name="fFocusMatchCostFactor" type="BinHex"/>
+	<field name="fEmotionMatchCostFactor" type="BinHex"/>
+	<field name="fEmotionFallbackCostFactor" type="BinHex"/>
+	<field name="fEmotionNeutralCostFactor" type="BinHex"/>
+	<field name="fIntensityMatchCostFactor" type="BinHex"/>
+	<field name="fIntensityHighToLowCostFactor" type="BinHex"/>
+	<field name="fIntensityNeutralCostFactor" type="BinHex"/>
+	<field name="fGestureSeenCostFactor" type="BinHex"/>
+	<field name="fGestureFilterCutoffCost" type="BinHex"/>
+	<field name="uiGestureMinGapFrames" type="BinHex"/>
+	<field name="uiblendFrames" type="BinHex"/>
+	<field name="uiCameraCutLayerblendFrames" type="BinHex"/>
+	<field name="uiStartFramesWithNoBlend" type="BinHex"/>
+	<field name="bUseVelocityBlend" type="BinHex"/>
+	<field name="fVelocityBlendMaxDist" type="BinHex"/>
+	<field name="fVelocityBlendAvgFactor" type="BinHex"/>
+	<field name="fVelocityBlendMinTimeFactor" type="BinHex"/>
+	<field name="uiLookatStartupFrames" type="BinHex"/>
 	<field hash="1E45EBF8" type="String"/>
-	<field hash="1D25630D" type="BinHex"/>
+	<field name="sndSetYTalkerStateEvent" type="BinHex"/>
 	<field hash="1BB40546" type="BinHex"/>
 	<field hash="D8379C95" type="String"/>
-	<field hash="D5D05EB6" type="BinHex"/>
+	<field name="sndRemoveYTalkerStateEvent" type="BinHex"/>
 	<field hash="E86F382B" type="BinHex"/>
 </class>

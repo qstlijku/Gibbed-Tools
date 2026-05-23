@@ -7,28 +7,28 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Filler">
-		<object hash="F39BEEDB">
-			<field hash="5C43F17E" type="String"/>
+		<object name="LinkedAtlasType">
+			<field name="atlastypeAtlasType" type="String"/>
 		</object>
 	</object>
-	<object hash="AAFAC1A8">
-		<object hash="F39BEEDB">
-			<field hash="5C43F17E" type="String"/>
+	<object name="Micro">
+		<object name="LinkedAtlasType">
+			<field name="atlastypeAtlasType" type="String"/>
 		</object>
 	</object>
 	<object name="Small">
-		<object hash="F39BEEDB">
-			<field hash="5C43F17E" type="String"/>
+		<object name="LinkedAtlasType">
+			<field name="atlastypeAtlasType" type="String"/>
 		</object>
 	</object>
 	<object name="Medium">
-		<object hash="F39BEEDB">
-			<field hash="5C43F17E" type="String"/>
+		<object name="LinkedAtlasType">
+			<field name="atlastypeAtlasType" type="String"/>
 		</object>
 	</object>
 	<object name="Large">
-		<object hash="F39BEEDB">
-			<field hash="5C43F17E" type="String"/>
+		<object name="LinkedAtlasType">
+			<field name="atlastypeAtlasType" type="String"/>
 		</object>
 	</object>
 </class>

@@ -10,8 +10,8 @@
 		<object hash="A853DEFA">
 			<field hash="D1287212" type="String"/>
 			<field hash="C2925E16" type="BinHex"/>
-			<field hash="6DD09D90" type="BinHex"/>
-			<field hash="99B426E3" type="BinHex"/>
+			<field name="texturedbobjectSmallImage" type="BinHex"/>
+			<field name="texturedbobjectBigImage" type="BinHex"/>
 			<object name="locstridName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>

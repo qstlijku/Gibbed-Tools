@@ -9,59 +9,59 @@
 	<field name="fSearchRadius" type="Float"/>
 	<object name="SoundSettings">
 		<field hash="65628D45" type="String"/>
-		<field hash="FCC7E31F" type="BinHex"/>
+		<field name="sndWallaPlaySound" type="BinHex"/>
 		<field hash="8481B18B" type="String"/>
-		<field hash="1D24DFD1" type="BinHex"/>
+		<field name="sndWallaStopSound" type="BinHex"/>
 		<field hash="1A07014C" type="BinHex"/>
 		<field hash="03BAF64C" type="BinHex"/>
-		<object hash="0259AFB7">
+		<object name="sndvarCellSizeRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="013AD302">
+		<object name="sndvarCellDistanceFromPlayerRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="910E121F">
+		<object name="sndvarNPCCountRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="D2B5A631">
+		<object name="sndswtpCellMoodSwitch">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="BE7B30E4">
+		<object name="sndswvlCellMoodRelaxed">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="C51F0FB9">
+		<object name="sndswvlCellMoodAngry">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="29B0BDFF">
+		<object name="sndswvlCellMoodAfraid">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="BB33AAE9">
+		<object name="sndswvlCellMoodHappy">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="28EA2CD0">
+		<object name="sndswvlCellMoodStressed">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="02815B03">
+		<object name="sndswvlCellMoodProtest">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="0385240F">
+		<object name="sndswvlCellMoodBareknuckle">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 	</object>
-	<object hash="153612A1">
-		<field hash="88750BC4" type="BinHex"/>
-		<field hash="417F16FB" type="BinHex"/>
-		<field hash="92144868" type="BinHex"/>
+	<object name="CellSettings">
+		<field name="fCellRadiusSquared" type="BinHex"/>
+		<field name="iMinCellSize" type="BinHex"/>
+		<field name="iMaxCellCount" type="BinHex"/>
 	</object>
 </class>

@@ -7,17 +7,17 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bEnabled" type="Boolean"/>
-	<object hash="74E5F223">
-		<object hash="CD211C25">
-			<field hash="E4F58863" type="BinHex"/>
+	<object name="QuickOpsSettings">
+		<object name="QuickOpSettings">
+			<field name="opslistOpConfig" type="BinHex"/>
 			<field hash="9275492E" type="BinHex"/>
 			<field name="bIsEnabled" type="Boolean"/>
 			<object hash="3DDB1C89">
 				<object hash="0CE32E30">
-					<object hash="2F3FA927">
+					<object name="locstridOpName">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
-					<object hash="7D86E3E3">
+					<object name="locstridOpDescription">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>

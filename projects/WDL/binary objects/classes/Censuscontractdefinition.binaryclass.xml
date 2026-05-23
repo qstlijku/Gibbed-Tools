@@ -6,17 +6,17 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="7AB99706" type="BinHex"/>
-	<field hash="534332CA" type="BinHex"/>
-	<field hash="F0086936" type="BinHex"/>
-	<field hash="E83C062C" type="BinHex"/>
-	<field hash="3E3D9E5C" type="BinHex"/>
-	<field hash="C52F53FF" type="BinHex"/>
-	<object hash="D3D99E8B">
-		<object hash="1E0664CB">
+	<field name="bIsSingleRole" type="BinHex"/>
+	<field name="bExclusive" type="BinHex"/>
+	<field name="bCanBeUsedForScheduleGeneration" type="BinHex"/>
+	<field name="bCanHaveAttendancesAddedByLivingCity" type="BinHex"/>
+	<field name="bIsSpecialCLOFallbackContract" type="BinHex"/>
+	<field name="uiRandomSelectionBias" type="BinHex"/>
+	<object name="A">
+		<object name="locstridNameMale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F76A8FFB">
+		<object name="locstridNameFemale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="5C8BAB15">
@@ -44,10 +44,10 @@
 			<field hash="99EF42B8" type="BinHex"/>
 			<field hash="2982BF16" type="BinHex"/>
 		</object>
-		<object hash="8E1EFFE8">
+		<object name="locstridFormerRivalNameMale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="2E1E224E">
+		<object name="locstridFormerRivalNameFemale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="386CF679">
@@ -76,14 +76,14 @@
 			<field hash="2982BF16" type="BinHex"/>
 		</object>
 		<object name="Constraints">
-			<object hash="04170D84">
+			<object name="tagcategoryselectionblackboardProfile">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 						<object name="Tags">
@@ -93,7 +93,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -106,11 +106,11 @@
 			</object>
 		</object>
 	</object>
-	<object hash="4AD0CF31">
-		<object hash="1E0664CB">
+	<object name="B">
+		<object name="locstridNameMale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F76A8FFB">
+		<object name="locstridNameFemale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="5C8BAB15">
@@ -138,10 +138,10 @@
 			<field hash="99EF42B8" type="BinHex"/>
 			<field hash="2982BF16" type="BinHex"/>
 		</object>
-		<object hash="8E1EFFE8">
+		<object name="locstridFormerRivalNameMale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="2E1E224E">
+		<object name="locstridFormerRivalNameFemale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="386CF679">
@@ -170,14 +170,14 @@
 			<field hash="2982BF16" type="BinHex"/>
 		</object>
 		<object name="Constraints">
-			<object hash="04170D84">
+			<object name="tagcategoryselectionblackboardProfile">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 						<object name="Tags">
@@ -187,7 +187,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -200,50 +200,50 @@
 			</object>
 		</object>
 	</object>
-	<object hash="E658A439">
-		<field hash="7FEA55F0" type="BinHex"/>
-		<field hash="0A538880" type="BinHex"/>
-		<field hash="99E35F9B" type="BinHex"/>
-		<field hash="4B3987C4" type="BinHex"/>
-		<field hash="D608296C" type="BinHex"/>
-		<field hash="01558B4A" type="BinHex"/>
-		<field hash="681AD670" type="BinHex"/>
-		<field hash="931C40CD" type="BinHex"/>
-		<field hash="0C706BD7" type="BinHex"/>
-		<field hash="F776FD6A" type="BinHex"/>
-		<field hash="83B79FD6" type="BinHex"/>
-		<field hash="000EA9CF" type="BinHex"/>
-		<field hash="3D72CC0B" type="BinHex"/>
-		<field hash="EA2F6E2D" type="BinHex"/>
-		<field hash="7EE4139C" type="BinHex"/>
-		<field hash="D6FC2AFB" type="BinHex"/>
-		<field hash="C2A1E4F0" type="BinHex"/>
-		<field hash="92D12C11" type="BinHex"/>
+	<object name="DynamicFilter">
+		<field name="bHasChanceForEqualGender" type="BinHex"/>
+		<field name="fChanceForEqualGender" type="BinHex"/>
+		<field name="bHasChanceForEqualEthnicity" type="BinHex"/>
+		<field name="fChanceForEqualEthnicity" type="BinHex"/>
+		<field name="bHasChanceForEqualAgeRange" type="BinHex"/>
+		<field name="fChanceForEqualAgeRange" type="BinHex"/>
+		<field name="bHasChanceForEqualBirthplace" type="BinHex"/>
+		<field name="fChanceForEqualBirthplace" type="BinHex"/>
+		<field name="bHasChanceForEqualOccupation" type="BinHex"/>
+		<field name="fChanceForEqualOccupation" type="BinHex"/>
+		<field name="bHasChanceForEqualOccupationGroup" type="BinHex"/>
+		<field name="fChanceForEqualOccupationGroup" type="BinHex"/>
+		<field name="bHasChanceForEqualReligion" type="BinHex"/>
+		<field name="fChanceForEqualReligion" type="BinHex"/>
+		<field name="bHasChanceForEqualName" type="BinHex"/>
+		<field name="fChanceForEqualName" type="BinHex"/>
+		<field name="bHasChanceForEqualSurname" type="BinHex"/>
+		<field name="fChanceForEqualSurname" type="BinHex"/>
 	</object>
-	<object hash="1AF70003">
-		<object hash="E8BFFB32">
-			<field hash="E8BFFB32" type="BinHex"/>
+	<object name="Attendances">
+		<object name="censusattendancedefinitionAttendance">
+			<field name="censusattendancedefinitionAttendance" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="E92BBEA9">
+	<object name="AlternativeAttendances">
 		<object name="Dead">
-			<object hash="E8BFFB32">
-				<field hash="E8BFFB32" type="BinHex"/>
+			<object name="censusattendancedefinitionAttendance">
+				<field name="censusattendancedefinitionAttendance" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F4423821">
-			<object hash="E8BFFB32">
-				<field hash="E8BFFB32" type="BinHex"/>
+		<object name="Injured">
+			<object name="censusattendancedefinitionAttendance">
+				<field name="censusattendancedefinitionAttendance" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="94FD7DB2">
-			<object hash="E8BFFB32">
-				<field hash="E8BFFB32" type="BinHex"/>
+		<object name="Arrested">
+			<object name="censusattendancedefinitionAttendance">
+				<field name="censusattendancedefinitionAttendance" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="23BED8FB">
-			<object hash="E8BFFB32">
-				<field hash="E8BFFB32" type="BinHex"/>
+		<object name="PendingDeportation">
+			<object name="censusattendancedefinitionAttendance">
+				<field name="censusattendancedefinitionAttendance" type="BinHex"/>
 			</object>
 		</object>
 	</object>

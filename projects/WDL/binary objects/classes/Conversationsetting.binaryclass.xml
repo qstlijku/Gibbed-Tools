@@ -13,7 +13,7 @@
 	<field name="bDisableDefaultLayeredAnimations" type="Boolean"/>
 	<object hash="9EAA2820">
 		<field hash="6BBB56DA" type="String"/>
-		<field hash="1795CB2B" type="BinHex"/>
+		<field name="SceneTemplate" type="BinHex"/>
 		<field hash="1588B4F3" type="BinHex"/>
 		<field hash="B8802CE5" type="BinHex"/>
 		<field hash="CB2113A0" type="BinHex"/>

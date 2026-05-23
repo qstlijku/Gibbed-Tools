@@ -6,18 +6,18 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="FD26EE6D" type="BinHex"/>
+	<field name="CityLocationId" type="BinHex"/>
 	<field hash="8F25C1A7" type="String"/>
 	<field name="objlayHackerSpaceLayer" type="BinHex"/>
 	<field name="entSpawnPointEntity" type="BinHex"/>
 	<field hash="BC566783" type="BinHex"/>
 	<field hash="922F922A" type="BinHex"/>
-	<object hash="321359D1">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="IsHackerpaceEnabled">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="A82113C3">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="IsHackerspaceAvailableForAssignment">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 </class>

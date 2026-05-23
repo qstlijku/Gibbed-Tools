@@ -8,20 +8,20 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="bEnabled" type="Boolean"/>
 	<field name="selType" type="Enum"/>
-	<field hash="59805842" type="BinHex"/>
-	<field hash="6ED27B56" type="BinHex"/>
-	<field hash="3C053D37" type="BinHex"/>
+	<field name="RaidRecommendedLevel" type="BinHex"/>
+	<field name="texturedbobjectRaidMainImage" type="BinHex"/>
+	<field name="texturedbobjectRaidDisplayImage" type="BinHex"/>
 	<field hash="DEF8F21C" type="BinHex"/>
-	<field hash="CD449C8B" type="BinHex"/>
-	<object hash="18664B6A">
-		<object hash="9C06B9AA">
-			<field hash="9C06B9AA" type="BinHex"/>
+	<field name="lobbyparamspresetLoobbyParamsPresetOverride" type="BinHex"/>
+	<object name="RaidSteps">
+		<object name="raidstepsettingsStepSettings">
+			<field name="raidstepsettingsStepSettings" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="984DB5A6">
+	<object name="locstridRaidName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="244405C9">
+	<object name="locstridRaidDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="CE7DA271">

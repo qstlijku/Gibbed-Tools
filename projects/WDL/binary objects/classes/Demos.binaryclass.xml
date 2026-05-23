@@ -18,44 +18,44 @@
 	<object name="AutoUnlockOpNames">
 		<object name="OpName">
 			<field hash="A02277CC" type="String"/>
-			<field hash="B064F79F" type="BinHex"/>
+			<field name="StringValue" type="BinHex"/>
 		</object>
 	</object>
 	<object name="AutoStartOpNames">
 		<object name="OpName">
 			<field hash="A02277CC" type="String"/>
-			<field hash="B064F79F" type="BinHex"/>
+			<field name="StringValue" type="BinHex"/>
 		</object>
 	</object>
 	<object name="AutoCompleteOpNames">
 		<object name="OpName">
 			<field hash="A02277CC" type="String"/>
-			<field hash="B064F79F" type="BinHex"/>
+			<field name="StringValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="3B8AAEDE">
+	<object name="ProgressionTagsMission">
 		<object name="progressiontagProgressionTag">
 			<field name="progressiontagProgressionTag" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="ED971982">
-		<object hash="0364FC95">
-			<field hash="C50F1A52" type="BinHex"/>
+	<object name="RulesmithTriggers">
+		<object name="OnStartGameModeTrigger">
+			<field name="rulesmithidRuleId" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="885E4641">
+	<object name="tagcategoryselectionWorldBoundaryTag">
 		<field hash="BDB3B8D5" type="String"/>
-		<field hash="401A8276" type="BinHex"/>
-		<field hash="F5391DFF" type="BinHex"/>
+		<field name="UITagCategorySelectionClassID" type="BinHex"/>
+		<field name="tagcategoryUITagCategory" type="BinHex"/>
 		<field name="tagcategoryTagCategory" type="BinHex"/>
 		<field name="tagTag" type="BinHex"/>
 	</object>
-	<object hash="16D91AAF">
-		<field hash="072D75FD" type="BinHex"/>
-		<field hash="1035175C" type="BinHex"/>
-		<field hash="2E7A750F" type="BinHex"/>
-		<field hash="6CCF0690" type="BinHex"/>
-		<field hash="C938401A" type="BinHex"/>
-		<field hash="9CC0215F" type="BinHex"/>
+	<object name="WorldActivities">
+		<field name="bLockAdvancedCameraMode" type="BinHex"/>
+		<field name="bLockPhotomode" type="BinHex"/>
+		<field name="bLockPhotobooth" type="BinHex"/>
+		<field name="bLockGalleryApp" type="BinHex"/>
+		<field name="bUnlockAllCourierMissions" type="BinHex"/>
+		<field name="bRestrictCourierLocations" type="BinHex"/>
 	</object>
 </class>

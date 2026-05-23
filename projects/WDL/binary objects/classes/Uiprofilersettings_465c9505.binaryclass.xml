@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="4D993F8B" type="BinHex"/>
-	<field hash="BADAC5F7" type="BinHex"/>
-	<field hash="F55F7591" type="BinHex"/>
+	<field name="uisoundHoldStarted" type="BinHex"/>
+	<field name="uisoundHoldFinished" type="BinHex"/>
+	<field name="uisoundHoldCancelled" type="BinHex"/>
 </class>

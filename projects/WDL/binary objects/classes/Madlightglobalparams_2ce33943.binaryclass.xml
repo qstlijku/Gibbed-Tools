@@ -7,14 +7,14 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="FDC22EB8" type="String"/>
-	<field hash="FEA2A64D" type="BinHex"/>
-	<field hash="F17251BF" type="BinHex"/>
-	<field hash="3F3B3538" type="BinHex"/>
-	<field hash="571A378C" type="BinHex"/>
-	<field hash="6BEB3B92" type="BinHex"/>
-	<field hash="368CD137" type="BinHex"/>
-	<field hash="DC5CA5AE" type="BinHex"/>
-	<object hash="0ABA81A5">
+	<field name="fileExposureMaskTexture" type="BinHex"/>
+	<field name="fExposureMaskSize" type="BinHex"/>
+	<field name="fEthnicityBlackExposureOffset" type="BinHex"/>
+	<field name="fEthnicityCaucasianExposureOffset" type="BinHex"/>
+	<field name="fEthnicityEastAsianExposureOffset" type="BinHex"/>
+	<field name="fEthnicityIndianSubContinentExposureOffset" type="BinHex"/>
+	<field name="fEthnicityMiddleEasternExposureOffset" type="BinHex"/>
+	<object name="curveGiIntensityMapping">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">

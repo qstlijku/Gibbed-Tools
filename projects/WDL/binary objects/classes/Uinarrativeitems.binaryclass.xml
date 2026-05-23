@@ -7,24 +7,24 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selType" type="Enum"/>
-	<field hash="43879CB9" type="BinHex"/>
-	<field hash="630D8F12" type="BinHex"/>
-	<object hash="1D41E66D">
+	<field name="texturedbobjectIconSource" type="BinHex"/>
+	<field name="iRelevantOp" type="BinHex"/>
+	<object name="locstridSubjectLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E57E520C">
+	<object name="locstridSenderLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="8EC4140E">
+	<object name="locstridRecipientLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="7BA72580">
+	<object name="locstridNameLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="327AD2E4">
+	<object name="locstridKeyLocationLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="42E98F73">
+	<object name="locstridContentLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

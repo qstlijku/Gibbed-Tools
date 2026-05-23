@@ -94,8 +94,8 @@
 			<field name="ThrottleAdjustedRpmCff" type="BinHex"/>
 			<field name="ZeroThrottleAddSpeed" type="BinHex"/>
 			<object name="SoundReverseGear">
-				<field hash="E206FBB0" type="BinHex"/>
-				<field hash="EEACA8D2" type="BinHex"/>
+				<field name="fDownshiftRPMFactor" type="BinHex"/>
+				<field name="fUpshiftRPMFactor" type="BinHex"/>
 			</object>
 			<object name="RpmThrottleInputRpmModifier">
 				<field name="bUseThrottleInpuRpmModifier" type="Boolean"/>

@@ -6,29 +6,29 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9FB97816" type="BinHex"/>
-	<field hash="B2A47238" type="BinHex"/>
+	<field name="selCharacterSex" type="BinHex"/>
+	<field name="selCharacterArchetype" type="BinHex"/>
 	<field hash="BBD46C7F" type="String"/>
-	<field hash="C7FAF18E" type="BinHex"/>
+	<field name="DialogPersona" type="BinHex"/>
 	<field hash="A3D7F66E" type="String"/>
-	<field hash="DFF96B9F" type="BinHex"/>
-	<field hash="AFA949F5" type="BinHex"/>
-	<field hash="19E57877" type="BinHex"/>
-	<field hash="D3CCDBA3" type="BinHex"/>
+	<field name="DialogMapping" type="BinHex"/>
+	<field name="tmplDialogActorOverride" type="BinHex"/>
+	<field name="prismPrismActor" type="BinHex"/>
+	<field name="sndExternalSource" type="BinHex"/>
 	<field name="humanconfigHumanConfig" type="BinHex"/>
-	<field hash="7D3CF2AB" type="BinHex"/>
-	<field hash="F93CF3D4" type="BinHex"/>
+	<field name="wolfskinitemdbOptionalWolfSkinItemDBOverride" type="BinHex"/>
+	<field name="texturedbobjectPortraitTexture" type="BinHex"/>
 	<field hash="00C26367" type="BinHex"/>
-	<object hash="41870E75">
+	<object name="locstridCharacterFirstName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="59A4E6D4">
+	<object name="locstridCharacterLastName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="8473A33B">
+	<object name="tagcategoryselectionCastedCharacterTag">
 		<field hash="BDB3B8D5" type="String"/>
-		<field hash="401A8276" type="BinHex"/>
-		<field hash="F5391DFF" type="BinHex"/>
+		<field name="UITagCategorySelectionClassID" type="BinHex"/>
+		<field name="tagcategoryUITagCategory" type="BinHex"/>
 		<field name="tagcategoryTagCategory" type="BinHex"/>
 		<field name="tagTag" type="BinHex"/>
 	</object>

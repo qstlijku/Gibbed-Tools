@@ -7,12 +7,12 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object hash="ECCC4B5F">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="E1B92E3B">
-		<object hash="B789ABB3">
-			<field hash="B789ABB3" type="BinHex"/>
+		<object name="opslistOpConfigDbObject">
+			<field name="opslistOpConfigDbObject" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="0F2036DC">

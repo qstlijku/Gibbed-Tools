@@ -49,8 +49,8 @@
 	<field name="HysteresisRaycastDistance" type="BinHex"/>
 	<field name="HysteresisRaycastCosineAngle" type="BinHex"/>
 	<field name="MaxFootHeightDifference" type="BinHex"/>
-	<field hash="7B45849E" type="BinHex"/>
-	<field hash="52E57DD4" type="BinHex"/>
+	<field name="MaxStanceForMaxHeightDiff" type="BinHex"/>
+	<field name="MaxStanceForAnyHeightDiff" type="BinHex"/>
 	<field name="MinFootHeightForLegModification" type="BinHex"/>
 	<field name="MaxFootHeightForLegModification" type="BinHex"/>
 	<field name="MinRaycastHeight" type="BinHex"/>

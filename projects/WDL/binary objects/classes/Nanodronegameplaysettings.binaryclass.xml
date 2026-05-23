@@ -6,38 +6,38 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="C9A22E99">
-		<field hash="25DD4CED" type="BinHex"/>
-		<field hash="F2795133" type="BinHex"/>
-		<field hash="77640111" type="BinHex"/>
-		<field hash="7D43CE0C" type="BinHex"/>
-		<field hash="E2A12D8A" type="BinHex"/>
-		<field hash="08EE7263" type="BinHex"/>
-		<field hash="6AEF4031" type="BinHex"/>
-		<field hash="1E9D4270" type="BinHex"/>
-		<field hash="9176D223" type="BinHex"/>
-		<field hash="FBECAC8A" type="BinHex"/>
+	<object name="OverrideValues">
+		<field name="droneconfigDroneConfig" type="BinHex"/>
+		<field name="entDroneSpawnEntityId" type="BinHex"/>
+		<field name="entInteractionEntityId" type="BinHex"/>
+		<field name="entInteractionFeedbackEntity" type="BinHex"/>
+		<field name="entInteractionRedLightEntity" type="BinHex"/>
+		<field name="sLMALayerName" type="BinHex"/>
+		<field name="bLoadOnInteract" type="BinHex"/>
+		<field name="bRespawnDroneWhenDestroyed" type="BinHex"/>
+		<field name="bFailOnDroneDestruction" type="BinHex"/>
+		<field name="bOnlyPlayIntroOnce" type="BinHex"/>
 		<field name="fWarningDuration" type="Float"/>
-		<object hash="71AC628D">
+		<object name="locstridRCWarningTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8BBDED89">
+		<object name="locstridRCLocalWarningBody">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="FB93D386">
+		<object name="locstridRCRemoteWarningBody">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="CFD71CBC">
-		<field hash="27CF6209" type="BinHex"/>
-		<field hash="A6398F84" type="BinHex"/>
-		<field hash="2D9E6018" type="BinHex"/>
+	<object name="BaseDBValues">
+		<field name="fDronePostIntroTeleportDelay" type="BinHex"/>
+		<field name="entDronePostIntroTeleportLocEntityId" type="BinHex"/>
+		<field name="entIntroSequenceCenterSceneEntityId" type="BinHex"/>
 		<field hash="FCF07F6E" type="String"/>
-		<field hash="015945CD" type="BinHex"/>
+		<field name="fileIntroSequenceResourcePath" type="BinHex"/>
 		<field hash="EB627FEC" type="String"/>
-		<field hash="5738154C" type="BinHex"/>
+		<field name="sndMuteExternalSounds" type="BinHex"/>
 		<field hash="543F4C8D" type="String"/>
-		<field hash="575FC478" type="BinHex"/>
+		<field name="sndUnmuteExternalSounds" type="BinHex"/>
 		<field hash="CE3502BF" type="String"/>
 		<field hash="45121F3B" type="BinHex"/>
 		<field hash="D4B87072" type="String"/>
@@ -49,12 +49,12 @@
 		<object hash="7C0A1024">
 			<field hash="87E038DB" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="F7E415F2">
 			<field hash="87E038DB" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 	</object>
 </class>

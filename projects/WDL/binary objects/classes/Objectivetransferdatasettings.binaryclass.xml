@@ -6,116 +6,116 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="B4945DFB" type="BinHex"/>
-	<field hash="73486B0B" type="BinHex"/>
-	<field hash="CC277B21" type="BinHex"/>
-	<field hash="CCDAB15F" type="BinHex"/>
-	<field hash="45DBECFA" type="BinHex"/>
-	<field hash="89B4A974" type="BinHex"/>
-	<field hash="26B3F052" type="BinHex"/>
-	<field hash="699B8620" type="BinHex"/>
-	<field hash="BCCCF960" type="BinHex"/>
-	<object hash="DADF8182">
+	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
+	<field name="selTransferType" type="BinHex"/>
+	<field name="fRemoteHackTransferDuration" type="BinHex"/>
+	<field name="fPhysicalInteractTransferDuration" type="BinHex"/>
+	<field name="bEnteringVehicleUnitStartTransfer" type="BinHex"/>
+	<field name="bDisableVehicleUsageAfterTransfer" type="BinHex"/>
+	<field name="bTriggerFailOnHumanTargetDeath" type="BinHex"/>
+	<field name="downloadgameplaydescriptorDownloadGameplaySettings" type="BinHex"/>
+	<field name="bInteractionTriggerTransfer" type="BinHex"/>
+	<object name="locstridShortLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3CFBA4A2">
+	<object name="locstridLongLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="14BBAE7D">
+	<object name="locstridSoloObjectiveLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FC293553">
+	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="Target">
 		<field hash="AA658794" type="String"/>
-		<field hash="D64B1A65" type="BinHex"/>
+		<field name="TargetSceneID" type="BinHex"/>
 		<field hash="A6871411" type="String"/>
-		<field hash="3A7D1D8B" type="BinHex"/>
+		<field name="TargetRole" type="BinHex"/>
 	</object>
 	<object name="Targets">
 		<object name="Entry">
 			<object name="Target">
 				<field hash="AA658794" type="String"/>
-				<field hash="D64B1A65" type="BinHex"/>
+				<field name="TargetSceneID" type="BinHex"/>
 				<field hash="A6871411" type="String"/>
-				<field hash="3A7D1D8B" type="BinHex"/>
+				<field name="TargetRole" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="C0F12AD8">
-		<field hash="BEA4E141" type="BinHex"/>
-		<field hash="A568F5FA" type="BinHex"/>
-		<field hash="A7A600BC" type="BinHex"/>
+	<object name="TransferSettings">
+		<field name="fTransferRadius" type="BinHex"/>
+		<field name="bUseOverrideRadius" type="BinHex"/>
+		<field name="bAdaptCountOfRequiredPlayersToCountOfSessionPeers" type="BinHex"/>
 		<field hash="775E9397" type="BinHex"/>
 		<field hash="11D247E2" type="BinHex"/>
-		<field hash="7F2BC2A8" type="BinHex"/>
-		<field hash="F4CE5E2A" type="BinHex"/>
-		<field hash="4A0C596D" type="BinHex"/>
-		<field hash="3DDB37B8" type="BinHex"/>
-		<field hash="0077F792" type="BinHex"/>
-		<field hash="EAD11C98" type="BinHex"/>
-		<field hash="E4CBB8A6" type="BinHex"/>
+		<field name="selTransferRadiusShape" type="BinHex"/>
+		<field name="fCylinderShapeZOffsetTop" type="BinHex"/>
+		<field name="fCylinderShapeZOffsetBottom" type="BinHex"/>
+		<field name="fPauseWarningDuration" type="BinHex"/>
+		<field name="bActivateMultiplayerBoost" type="BinHex"/>
+		<field name="fBoostCoefByPlayer" type="BinHex"/>
+		<field name="bSendAttractStimOnDownloadStart" type="BinHex"/>
 		<field name="fAttractStimRadius" type="Float"/>
 		<object hash="F9528B4E"/>
-		<object hash="C799772D">
+		<object name="locstridPauseWarningLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="7DA67E02">
-			<object hash="56D9D0AF">
+		<object name="ProgressBarTextOverride">
+			<object name="locstridTextOnProgressBar">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="99E42227">
+			<object name="locstridTextOnProgressBarOnOutOfRange">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="4F644398">
+		<object name="locstridActionTargetText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B6620E79">
-			<object hash="3DA1977B">
-				<field hash="3DA1977B" type="BinHex"/>
+		<object name="TriggerEventsOnFollowingRatiosReached">
+			<object name="Ratio">
+				<field name="Ratio" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="E4CB7105">
+	<object name="locstridCounterSubObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FD086716">
+	<object name="locstridCounterCompletedSubObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="03788A3F">
+	<object name="locstridHackingWheelHackTextLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="59744BDA">
+	<object name="DownloadStartedOnlineNotification">
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="7BDF1BAE">
-		<field hash="5B334899" type="BinHex"/>
-		<field hash="FE7DCB74" type="BinHex"/>
+	<object name="DownloadStartedCriticalMessage">
+		<field name="bIsActivated" type="BinHex"/>
+		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="4B95868D">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="BDD8F371">
-		<field hash="5B334899" type="BinHex"/>
-		<field hash="FE7DCB74" type="BinHex"/>
+	<object name="WaitingForOtherUnitHackCriticalMessage">
+		<field name="bIsActivated" type="BinHex"/>
+		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="4B95868D">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="0501135F">
+	<object name="locstridDataLostFailLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

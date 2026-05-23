@@ -6,27 +6,27 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="CA13A704">
-		<field hash="F2F9C8AE" type="BinHex"/>
-		<field hash="C6211711" type="BinHex"/>
-		<field hash="1DB53FDF" type="BinHex"/>
-		<field hash="743440BA" type="BinHex"/>
-		<field hash="4BF72E99" type="BinHex"/>
-		<field hash="96D08B70" type="BinHex"/>
-		<field hash="9EAD809E" type="BinHex"/>
-		<field hash="E631E5B2" type="BinHex"/>
-		<field hash="208FAFC0" type="BinHex"/>
-		<field hash="C0424C92" type="BinHex"/>
-		<field hash="FBE66442" type="BinHex"/>
-		<field hash="DE41574A" type="BinHex"/>
-		<field hash="C959B2F7" type="BinHex"/>
-		<field hash="3BFB458E" type="BinHex"/>
-		<field hash="F190898F" type="BinHex"/>
-		<field hash="41421EAD" type="BinHex"/>
+	<object name="OnFootTarget">
+		<field name="fMoveZOffset" type="BinHex"/>
+		<field name="fMoveSpeed" type="BinHex"/>
+		<field name="fMoveSpeedFar" type="BinHex"/>
+		<field name="fMoveLookAtMaxDistance" type="BinHex"/>
+		<field name="fMoveLookAtSpeedModifier" type="BinHex"/>
+		<field name="fMoveToPointAbandonTime" type="BinHex"/>
+		<field name="fPointVisibilityCheckMaxDistance" type="BinHex"/>
+		<field name="fOriginInspectionNearTolerance" type="BinHex"/>
+		<field name="fOriginInspectionTotalTime" type="BinHex"/>
+		<field name="fOriginInspectionRotationTime" type="BinHex"/>
+		<field name="fOriginInspectionRotationAngleDeg" type="BinHex"/>
+		<field name="fOriginInspectionRotationSpeedModifier" type="BinHex"/>
+		<field name="bOriginInspectionRotationLookLeftRight" type="BinHex"/>
+		<field name="fIdleLookAtTime" type="BinHex"/>
+		<field name="fIdleLookAtAngleDeg" type="BinHex"/>
+		<field name="fIdleLookAtSpeedModifier" type="BinHex"/>
 	</object>
-	<object hash="F9D0D51D">
-		<field hash="E0BC63CE" type="BinHex"/>
-		<field hash="3DE6D7A2" type="BinHex"/>
-		<field hash="4C081788" type="BinHex"/>
+	<object name="ConvergeToPosition">
+		<field name="fConvergeSpeed" type="BinHex"/>
+		<field name="fMaxDistanceToConvergeOnHunt" type="BinHex"/>
+		<field name="fConvergePositionHeightOffsetOnHunt" type="BinHex"/>
 	</object>
 </class>

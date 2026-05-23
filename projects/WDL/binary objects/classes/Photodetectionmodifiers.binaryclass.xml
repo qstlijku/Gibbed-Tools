@@ -6,22 +6,22 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="A3FA9B6A">
+	<object name="locstridModifierGroupLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E9D8D972">
+	<object name="ModifiersInfo">
 		<object name="Modifier">
 			<field hash="C4767326" type="String"/>
-			<field hash="D430F375" type="BinHex"/>
+			<field name="sModifierId" type="BinHex"/>
 			<field hash="41B292B5" type="BinHex"/>
-			<object hash="390F3628">
+			<object name="locstridDisplayName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="Modifier">
 				<field hash="C4767326" type="String"/>
-				<field hash="D430F375" type="BinHex"/>
+				<field name="sModifierId" type="BinHex"/>
 				<field hash="41B292B5" type="BinHex"/>
-				<object hash="390F3628">
+				<object name="locstridDisplayName">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<field hash="6D1E1959" type="String"/>
@@ -39,24 +39,24 @@
 						<field name="uiMinutes" type="UInt32"/>
 						<field name="uiSeconds" type="UInt32"/>
 					</object>
-					<field hash="488205DB" type="BinHex"/>
-					<field hash="82A094F2" type="BinHex"/>
+					<field name="selPhotoType" type="BinHex"/>
+					<field name="cinematicmodePhotoFilter" type="BinHex"/>
 					<field name="selTagType" type="Enum"/>
-					<field hash="BD70EEED" type="BinHex"/>
-					<object hash="7F6E1B41">
+					<field name="selPrevTagType" type="BinHex"/>
+					<object name="tagcategoryselectionblackboardRequiredTags">
 						<object name="TagCategorySelectionArray">
 							<object name="TagCategorySelection">
 								<field hash="CF68E402" type="String"/>
 								<field name="hid_DTCTH_ClassName" type="BinHex"/>
 								<field hash="BDB3B8D5" type="String"/>
-								<field hash="401A8276" type="BinHex"/>
-								<field hash="F5391DFF" type="BinHex"/>
+								<field name="UITagCategorySelectionClassID" type="BinHex"/>
+								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
 								<object name="Tags"/>
 								<field name="tagTag" type="BinHex"/>
 							</object>
 						</object>
-						<object hash="D0C5DABB">
+						<object name="TagDescriptorUI">
 							<field hash="CF68E402" type="String"/>
 							<field name="hid_DTCTH_ClassName" type="BinHex"/>
 							<object name="TagCategorySelectionDescriptors">
@@ -67,20 +67,20 @@
 							</object>
 						</object>
 					</object>
-					<object hash="15C61685">
+					<object name="tagcategoryselectionblackboardCLOActionTags">
 						<object name="TagCategorySelectionArray">
 							<object name="TagCategorySelection">
 								<field hash="CF68E402" type="String"/>
 								<field name="hid_DTCTH_ClassName" type="BinHex"/>
 								<field hash="BDB3B8D5" type="String"/>
-								<field hash="401A8276" type="BinHex"/>
-								<field hash="F5391DFF" type="BinHex"/>
+								<field name="UITagCategorySelectionClassID" type="BinHex"/>
+								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
 								<object name="Tags"/>
 								<field name="tagTag" type="BinHex"/>
 							</object>
 						</object>
-						<object hash="D0C5DABB">
+						<object name="TagDescriptorUI">
 							<field hash="CF68E402" type="String"/>
 							<field name="hid_DTCTH_ClassName" type="BinHex"/>
 							<object name="TagCategorySelectionDescriptors">
@@ -93,10 +93,10 @@
 					</object>
 					<field name="vectorPosition" type="BinHex"/>
 					<field name="fRadius" type="Float"/>
-					<field hash="E90ADCA7" type="BinHex"/>
-					<field hash="00B0F793" type="BinHex"/>
-					<field hash="76389865" type="BinHex"/>
-					<field hash="258EBB3A" type="BinHex"/>
+					<field name="bAddAngleRestriction" type="BinHex"/>
+					<field name="fYawAngles" type="BinHex"/>
+					<field name="fPitchAngles" type="BinHex"/>
+					<field name="fAngleInterval" type="BinHex"/>
 				</object>
 			</object>
 		</object>

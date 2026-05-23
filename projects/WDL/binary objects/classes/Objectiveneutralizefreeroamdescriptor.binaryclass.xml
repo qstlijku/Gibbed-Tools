@@ -6,33 +6,33 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="B4945DFB" type="BinHex"/>
-	<field hash="B0F3B395" type="BinHex"/>
-	<field hash="6D5DD14E" type="BinHex"/>
-	<field hash="6EFBB928" type="BinHex"/>
+	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
+	<field name="selHumanNeutralizationCondition" type="BinHex"/>
+	<field name="bNoCivilianVictim" type="BinHex"/>
+	<field name="bUseOnlineNotifications" type="BinHex"/>
 	<object name="locstridObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="42DDAFC5">
+	<object name="locstridDescriptionLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="14BBAE7D">
+	<object name="locstridSoloObjectiveLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FC293553">
+	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="BFF776AE">
+	<object name="TargetNeutralizedOnlineNotification">
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="EC302652">
-		<field hash="5B334899" type="BinHex"/>
-		<field hash="FE7DCB74" type="BinHex"/>
+	<object name="TargetNeutralizedCriticalMessage">
+		<field name="bIsActivated" type="BinHex"/>
+		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="4B95868D">

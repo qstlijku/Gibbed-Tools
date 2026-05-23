@@ -11,6 +11,6 @@
 	<field hash="1FD6FCBD" type="String"/>
 	<field name="fileToSkeletonUrl" type="String"/>
 	<field name="PelvisScalingFactor" type="BinHex"/>
-	<field hash="24AFB58A" type="BinHex"/>
+	<field name="AttachementTranslationScalingFactor" type="BinHex"/>
 	<field name="boneoffsetBoneOffsets" type="BinHex"/>
 </class>

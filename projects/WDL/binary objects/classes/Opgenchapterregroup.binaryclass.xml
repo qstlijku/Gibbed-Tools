@@ -7,42 +7,42 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Start">
-		<field hash="C7B490E0" type="BinHex"/>
-		<field hash="381F4C5E" type="BinHex"/>
-		<field hash="7A181712" type="BinHex"/>
-		<field hash="A4A86C31" type="BinHex"/>
-		<object hash="04E00B23">
+		<field name="opgenobjectivefamilyObjectiveLogicFamilyDb" type="BinHex"/>
+		<field name="phonecommunicationsettingsIntroBriefing" type="BinHex"/>
+		<field name="bAllowMultiplayerDistanceSkip" type="BinHex"/>
+		<field name="bAllowSoloSkip" type="BinHex"/>
+		<object name="LocationsDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="E915ADA6">
-				<object hash="BFECFEF4">
-					<field hash="BFECFEF4" type="BinHex"/>
+			<object name="LocationDefinitions">
+				<object name="opgenlocationdefinitionLocationDefinition">
+					<field name="opgenlocationdefinitionLocationDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="FD61052C">
+		<object name="locstridObjectiveText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="09D56C8A">
+		<object name="locstridObjectiveDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="38B17551">
-		<field hash="C7B490E0" type="BinHex"/>
-		<field hash="381F4C5E" type="BinHex"/>
-		<field hash="7A181712" type="BinHex"/>
-		<field hash="A4A86C31" type="BinHex"/>
-		<object hash="04E00B23">
+	<object name="End">
+		<field name="opgenobjectivefamilyObjectiveLogicFamilyDb" type="BinHex"/>
+		<field name="phonecommunicationsettingsIntroBriefing" type="BinHex"/>
+		<field name="bAllowMultiplayerDistanceSkip" type="BinHex"/>
+		<field name="bAllowSoloSkip" type="BinHex"/>
+		<object name="LocationsDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="E915ADA6">
-				<object hash="BFECFEF4">
-					<field hash="BFECFEF4" type="BinHex"/>
+			<object name="LocationDefinitions">
+				<object name="opgenlocationdefinitionLocationDefinition">
+					<field name="opgenlocationdefinitionLocationDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="FD61052C">
+		<object name="locstridObjectiveText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="09D56C8A">
+		<object name="locstridObjectiveDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

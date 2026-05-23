@@ -11,5 +11,5 @@
 	<field name="vehicleentityconfigVehicleConfig" type="BinHex"/>
 	<field name="animalconfigAnimalConfig" type="BinHex"/>
 	<field name="robotconfigRobotConfig" type="BinHex"/>
-	<field hash="25DD4CED" type="BinHex"/>
+	<field name="droneconfigDroneConfig" type="BinHex"/>
 </class>

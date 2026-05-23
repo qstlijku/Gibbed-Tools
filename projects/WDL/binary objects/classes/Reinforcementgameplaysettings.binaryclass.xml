@@ -8,20 +8,20 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="reinforcementconfigReinforcementConfig" type="BinHex"/>
 	<field name="selAffiliation" type="Enum"/>
-	<field hash="BE4A7A97" type="BinHex"/>
-	<field hash="9DBCF018" type="BinHex"/>
-	<field hash="BD266559" type="BinHex"/>
-	<field hash="89E6A2C4" type="BinHex"/>
-	<field hash="9FF746DB" type="BinHex"/>
-	<field hash="6972E194" type="BinHex"/>
-	<field hash="E1F8001E" type="BinHex"/>
-	<field hash="9755BED9" type="BinHex"/>
-	<field hash="78285E2C" type="BinHex"/>
+	<field name="bLocationBased" type="BinHex"/>
+	<field name="selSpawnBudget" type="BinHex"/>
+	<field name="bUseReinforcementZone" type="BinHex"/>
+	<field name="bDisableReinforcementCalling" type="BinHex"/>
+	<field name="bUseReinforcementSearchTarget" type="BinHex"/>
+	<field name="bDisableFelony" type="BinHex"/>
+	<field name="bForceCombatOnAllPlayers" type="BinHex"/>
+	<field name="fForceCombatDuration" type="BinHex"/>
+	<field name="bForceCombatDurationInfinite" type="BinHex"/>
 	<field hash="93765F12" type="BinHex"/>
 	<field hash="F3F00C6C" type="BinHex"/>
 	<field hash="2017DADA" type="BinHex"/>
-	<field hash="86AF5326" type="BinHex"/>
-	<field hash="7C5ED359" type="BinHex"/>
+	<field name="bReinforceOnAllPlayers" type="BinHex"/>
+	<field name="bUpdateTargetOnOperativeChange" type="BinHex"/>
 	<field hash="C12F359A" type="BinHex"/>
 	<field hash="5F74C9FF" type="BinHex"/>
 	<field name="bUseReinforcementFeedback" type="Boolean"/>

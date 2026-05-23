@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="168B8C47">
-		<object hash="9ECCC904">
+	<object name="Bosses">
+		<object name="Boss">
 			<field hash="EA4652DA" type="String"/>
-			<field hash="F9FC7EDE" type="BinHex"/>
-			<field hash="719936F4" type="BinHex"/>
+			<field name="sID" type="BinHex"/>
+			<field name="bossconfigBossConfig" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -7,33 +7,33 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="DiscoverySettings">
-		<field hash="4A3385ED" type="BinHex"/>
-		<field hash="DEB35D43" type="BinHex"/>
-		<field hash="70E04869" type="BinHex"/>
+		<field name="selInitialState" type="BinHex"/>
+		<field name="bHasPersistence" type="BinHex"/>
+		<field name="bRevealByProximity" type="BinHex"/>
 		<field name="fRevealByProximityRange" type="Float"/>
-		<field hash="4D1DB30F" type="BinHex"/>
-		<field hash="5D390DB5" type="BinHex"/>
-		<field hash="98A34C71" type="BinHex"/>
-		<field hash="000544F2" type="BinHex"/>
-		<field hash="024556E8" type="BinHex"/>
-		<field hash="3F1D04F8" type="BinHex"/>
-		<field hash="489BDD75" type="BinHex"/>
-		<field hash="05358C53" type="BinHex"/>
-		<field hash="934AA7EC" type="BinHex"/>
-		<field hash="401C6590" type="BinHex"/>
-		<field hash="F64A9252" type="BinHex"/>
-		<field hash="7CFC2107" type="BinHex"/>
-		<field hash="A15CC23C" type="BinHex"/>
-		<field hash="325ADD7C" type="BinHex"/>
-		<field hash="3E001F68" type="BinHex"/>
+		<field name="bRequireLOSForProximityReveal" type="BinHex"/>
+		<field name="bRevealByLOSFocus" type="BinHex"/>
+		<field name="fRevealByLOSFocusDuration" type="BinHex"/>
+		<field name="fRevealByLOSFocusRange" type="BinHex"/>
+		<field name="selDistrictState" type="BinHex"/>
+		<field name="bRevealByPing" type="BinHex"/>
+		<field name="fPingRevealRange" type="BinHex"/>
+		<field name="bIsLOSRequiredForPingReveal" type="BinHex"/>
+		<field name="bShouldPingBack" type="BinHex"/>
+		<field name="bShouldBeTrackedOp" type="BinHex"/>
+		<field name="bShouldPingOriginBeInSameLocation" type="BinHex"/>
+		<field name="fPingBackWaveDuration" type="BinHex"/>
+		<field name="fPingBackWaveRange" type="BinHex"/>
+		<field name="fPingBackWaveAngle" type="BinHex"/>
+		<field name="colorPingBackWaveColor" type="BinHex"/>
 		<field hash="A5BCE2B6" type="String"/>
-		<field hash="4FE28292" type="BinHex"/>
-		<field hash="1E590E8A" type="BinHex"/>
+		<field name="psPingBackParticles" type="BinHex"/>
+		<field name="fPingBackParticlesDuration" type="BinHex"/>
 		<field name="possyselementIconRevealed" type="BinHex"/>
-		<field hash="C1ADDCFE" type="BinHex"/>
-		<field hash="171774DD" type="BinHex"/>
-		<field hash="AC94DA2A" type="BinHex"/>
-		<field hash="397B7AEE" type="BinHex"/>
+		<field name="fIconRevealedShowRange" type="BinHex"/>
+		<field name="bIconRevealedShowOnlyInLOS" type="BinHex"/>
+		<field name="fIconRevealedShowOnlyInLOSCheckTime" type="BinHex"/>
+		<field name="fIconForceRevealedShowRange" type="BinHex"/>
 		<field hash="5F80AA23" type="BinHex"/>
 		<field name="nethackingconfigNetHackingConfigOverride" type="BinHex"/>
 		<field name="bIsIntel" type="Boolean"/>
@@ -45,7 +45,7 @@
 		<object name="locstridRevealMessage">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="7EAF0038">
+		<object name="curvePingBackWaveCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -55,13 +55,13 @@
 				</object>
 			</object>
 		</object>
-		<object hash="2C89F9B2">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="IconVisibilityRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="4F84D6E9">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="IconPreviewRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 </class>

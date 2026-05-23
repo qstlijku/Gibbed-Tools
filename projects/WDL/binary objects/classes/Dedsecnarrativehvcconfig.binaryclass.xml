@@ -11,7 +11,7 @@
 	<field hash="DCBF4CE7" type="BinHex"/>
 	<object hash="5C42F5EC">
 		<object hash="FEF598EE">
-			<field hash="27FECE4D" type="BinHex"/>
+			<field name="selTrigger" type="BinHex"/>
 			<object hash="FF04FCEA">
 				<object name="Tag">
 					<field name="tagTag" type="BinHex"/>

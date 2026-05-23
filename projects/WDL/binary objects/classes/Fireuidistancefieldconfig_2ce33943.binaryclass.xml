@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="08D9BE83" type="BinHex"/>
-	<field hash="34D481DA" type="BinHex"/>
-	<field hash="10BE3D20" type="BinHex"/>
-	<field hash="2CB30279" type="BinHex"/>
-	<field hash="42D0B5A5" type="BinHex"/>
-	<field hash="608FCCEC" type="BinHex"/>
-	<field hash="A8B45AAD" type="BinHex"/>
-	<field hash="78D526CE" type="BinHex"/>
+	<field name="SDFFontThicknessMin" type="BinHex"/>
+	<field name="SDFFontThicknessMax" type="BinHex"/>
+	<field name="SDFFontSmoothingMin" type="BinHex"/>
+	<field name="SDFFontSmoothingMax" type="BinHex"/>
+	<field name="SDFOutlineWidth" type="BinHex"/>
+	<field name="SDFShadowStrength" type="BinHex"/>
+	<field name="SDFShadowAlpha" type="BinHex"/>
+	<field name="SDFShadowAngle" type="BinHex"/>
 </class>

@@ -20,14 +20,14 @@
 	<object hash="40A0B956">
 		<field hash="67E000DC" type="BinHex"/>
 		<field hash="25067F29" type="BinHex"/>
-		<field hash="2D9E6018" type="BinHex"/>
+		<field name="entIntroSequenceCenterSceneEntityId" type="BinHex"/>
 		<field hash="FCF07F6E" type="String"/>
-		<field hash="015945CD" type="BinHex"/>
-		<field hash="A79DB041" type="String"/>
+		<field name="fileIntroSequenceResourcePath" type="BinHex"/>
+		<field name="sLayerName" type="String"/>
 		<field hash="EB627FEC" type="String"/>
-		<field hash="5738154C" type="BinHex"/>
+		<field name="sndMuteExternalSounds" type="BinHex"/>
 		<field hash="543F4C8D" type="String"/>
-		<field hash="575FC478" type="BinHex"/>
+		<field name="sndUnmuteExternalSounds" type="BinHex"/>
 		<field hash="C78075BA" type="BinHex"/>
 		<field hash="D8BB27FF" type="BinHex"/>
 		<field hash="3E96DF18" type="String"/>

@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="E7C5711D">
+	<object name="OperativeIdleAnimationInMenu">
 		<field hash="E942AD8B" type="String"/>
 		<field name="fileAnimationPath" type="String"/>
 		<field name="sAnchorName" type="BinHex"/>
@@ -15,12 +15,12 @@
 		<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 		<field name="bKillLayerAnimations" type="Boolean"/>
 		<field name="fileAnimatedCamera" type="String"/>
-		<field hash="D8266791" type="BinHex"/>
-		<field hash="6E9B1521" type="BinHex"/>
-		<field hash="967C4591" type="BinHex"/>
-		<field hash="FAB2056A" type="BinHex"/>
-		<field hash="98432A3B" type="BinHex"/>
-		<field hash="CD235301" type="BinHex"/>
+		<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
+		<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
+		<field name="bAnimatedCameraDisableCollision" type="BinHex"/>
+		<field name="bNoCollisionInteraction" type="BinHex"/>
+		<field name="bAllowSafeCutInBodyAnim" type="BinHex"/>
+		<field name="bAllowFaceMaskLayerState" type="BinHex"/>
 		<object name="AnchorPartNames"/>
 	</object>
 </class>

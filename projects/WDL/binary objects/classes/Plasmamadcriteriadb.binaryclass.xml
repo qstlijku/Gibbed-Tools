@@ -7,18 +7,18 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="PMSValues">
-		<object hash="4AD0BF04">
-			<field hash="4AD0BF04" type="BinHex"/>
+		<object name="plasmapmsPMSComparator">
+			<field name="plasmapmsPMSComparator" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Archetypes">
-		<object hash="47746101">
-			<field hash="47746101" type="BinHex"/>
+		<object name="selArchetype">
+			<field name="selArchetype" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="D7EF2F17">
-		<object hash="34F8984F">
-			<field hash="34F8984F" type="BinHex"/>
+	<object name="Sex">
+		<object name="selSex">
+			<field name="selSex" type="BinHex"/>
 		</object>
 	</object>
 </class>

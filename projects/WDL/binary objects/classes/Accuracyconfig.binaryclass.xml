@@ -22,19 +22,19 @@
 		<field name="vec2ShootingSequenceLength" type="Vector2"/>
 		<field name="vec2ShootingSequenceDelayLength" type="Vector2"/>
 	</object>
-	<object hash="EFD20F08">
-		<object hash="D35168FC">
-			<field hash="A7215330" type="BinHex"/>
-			<field hash="AA6A46E9" type="BinHex"/>
-			<field hash="4FF52A51" type="BinHex"/>
-			<field hash="4328F9B8" type="BinHex"/>
-			<field hash="AEB39AC8" type="BinHex"/>
-			<field hash="2F26BD6C" type="BinHex"/>
-			<field hash="3D5BC74C" type="BinHex"/>
-			<field hash="91972F0D" type="BinHex"/>
-			<field hash="C1508354" type="BinHex"/>
-			<field hash="FF820327" type="BinHex"/>
-			<object hash="3B169CD8">
+	<object name="AIAccuracy">
+		<object name="AITargetFactors">
+			<field name="fBaseHitThreshold" type="BinHex"/>
+			<field name="fMovingTowardMultiplier" type="BinHex"/>
+			<field name="fMovingAwayMultiplier" type="BinHex"/>
+			<field name="fCrouchingMultiplier" type="BinHex"/>
+			<field name="fInCoverMultiplier" type="BinHex"/>
+			<field name="fDodgingAndRollingMultiplier" type="BinHex"/>
+			<field name="fSpeedMultiplierWalk" type="BinHex"/>
+			<field name="fSpeedMultiplierJog" type="BinHex"/>
+			<field name="fSpeedMultiplierSprint" type="BinHex"/>
+			<field name="fOutOfFOVFactor" type="BinHex"/>
+			<object name="curveDistanceMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -44,39 +44,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="9CC29D7D">
-				<field name="hidNumKnots" type="BinHex"/>
-				<object name="Knots">
-					<object name="Knot">
-						<field name="Value" type="Vector4"/>
-						<field name="Info" type="Vector4"/>
-						<field name="Type" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-		</object>
-		<object hash="6BFBC122">
-			<field hash="A7215330" type="BinHex"/>
-			<field hash="AA6A46E9" type="BinHex"/>
-			<field hash="4FF52A51" type="BinHex"/>
-			<field hash="4328F9B8" type="BinHex"/>
-			<field hash="AEB39AC8" type="BinHex"/>
-			<field hash="2F26BD6C" type="BinHex"/>
-			<field hash="3D5BC74C" type="BinHex"/>
-			<field hash="91972F0D" type="BinHex"/>
-			<field hash="C1508354" type="BinHex"/>
-			<field hash="FF820327" type="BinHex"/>
-			<object hash="3B169CD8">
-				<field name="hidNumKnots" type="BinHex"/>
-				<object name="Knots">
-					<object name="Knot">
-						<field name="Value" type="Vector4"/>
-						<field name="Info" type="Vector4"/>
-						<field name="Type" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-			<object hash="9CC29D7D">
+			<object name="curveContinuousShootingMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -87,18 +55,18 @@
 				</object>
 			</object>
 		</object>
-		<object hash="54794751">
-			<field hash="A7215330" type="BinHex"/>
-			<field hash="AA6A46E9" type="BinHex"/>
-			<field hash="4FF52A51" type="BinHex"/>
-			<field hash="4328F9B8" type="BinHex"/>
-			<field hash="AEB39AC8" type="BinHex"/>
-			<field hash="2F26BD6C" type="BinHex"/>
-			<field hash="3D5BC74C" type="BinHex"/>
-			<field hash="91972F0D" type="BinHex"/>
-			<field hash="C1508354" type="BinHex"/>
-			<field hash="FF820327" type="BinHex"/>
-			<object hash="3B169CD8">
+		<object name="PlayerTargetFactors">
+			<field name="fBaseHitThreshold" type="BinHex"/>
+			<field name="fMovingTowardMultiplier" type="BinHex"/>
+			<field name="fMovingAwayMultiplier" type="BinHex"/>
+			<field name="fCrouchingMultiplier" type="BinHex"/>
+			<field name="fInCoverMultiplier" type="BinHex"/>
+			<field name="fDodgingAndRollingMultiplier" type="BinHex"/>
+			<field name="fSpeedMultiplierWalk" type="BinHex"/>
+			<field name="fSpeedMultiplierJog" type="BinHex"/>
+			<field name="fSpeedMultiplierSprint" type="BinHex"/>
+			<field name="fOutOfFOVFactor" type="BinHex"/>
+			<object name="curveDistanceMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -108,7 +76,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="9CC29D7D">
+			<object name="curveContinuousShootingMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -119,18 +87,18 @@
 				</object>
 			</object>
 		</object>
-		<object hash="EE43A3CF">
-			<field hash="A7215330" type="BinHex"/>
-			<field hash="AA6A46E9" type="BinHex"/>
-			<field hash="4FF52A51" type="BinHex"/>
-			<field hash="4328F9B8" type="BinHex"/>
-			<field hash="AEB39AC8" type="BinHex"/>
-			<field hash="2F26BD6C" type="BinHex"/>
-			<field hash="3D5BC74C" type="BinHex"/>
-			<field hash="91972F0D" type="BinHex"/>
-			<field hash="C1508354" type="BinHex"/>
-			<field hash="FF820327" type="BinHex"/>
-			<object hash="3B169CD8">
+		<object name="RCTargetFactors">
+			<field name="fBaseHitThreshold" type="BinHex"/>
+			<field name="fMovingTowardMultiplier" type="BinHex"/>
+			<field name="fMovingAwayMultiplier" type="BinHex"/>
+			<field name="fCrouchingMultiplier" type="BinHex"/>
+			<field name="fInCoverMultiplier" type="BinHex"/>
+			<field name="fDodgingAndRollingMultiplier" type="BinHex"/>
+			<field name="fSpeedMultiplierWalk" type="BinHex"/>
+			<field name="fSpeedMultiplierJog" type="BinHex"/>
+			<field name="fSpeedMultiplierSprint" type="BinHex"/>
+			<field name="fOutOfFOVFactor" type="BinHex"/>
+			<object name="curveDistanceMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -140,7 +108,39 @@
 					</object>
 				</object>
 			</object>
-			<object hash="9CC29D7D">
+			<object name="curveContinuousShootingMultiplier">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="DroneTargetFactors">
+			<field name="fBaseHitThreshold" type="BinHex"/>
+			<field name="fMovingTowardMultiplier" type="BinHex"/>
+			<field name="fMovingAwayMultiplier" type="BinHex"/>
+			<field name="fCrouchingMultiplier" type="BinHex"/>
+			<field name="fInCoverMultiplier" type="BinHex"/>
+			<field name="fDodgingAndRollingMultiplier" type="BinHex"/>
+			<field name="fSpeedMultiplierWalk" type="BinHex"/>
+			<field name="fSpeedMultiplierJog" type="BinHex"/>
+			<field name="fSpeedMultiplierSprint" type="BinHex"/>
+			<field name="fOutOfFOVFactor" type="BinHex"/>
+			<object name="curveDistanceMultiplier">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveContinuousShootingMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -152,17 +152,17 @@
 			</object>
 		</object>
 		<object hash="BADB150C">
-			<field hash="A7215330" type="BinHex"/>
-			<field hash="AA6A46E9" type="BinHex"/>
-			<field hash="4FF52A51" type="BinHex"/>
-			<field hash="4328F9B8" type="BinHex"/>
-			<field hash="AEB39AC8" type="BinHex"/>
-			<field hash="2F26BD6C" type="BinHex"/>
-			<field hash="3D5BC74C" type="BinHex"/>
-			<field hash="91972F0D" type="BinHex"/>
-			<field hash="C1508354" type="BinHex"/>
-			<field hash="FF820327" type="BinHex"/>
-			<object hash="3B169CD8">
+			<field name="fBaseHitThreshold" type="BinHex"/>
+			<field name="fMovingTowardMultiplier" type="BinHex"/>
+			<field name="fMovingAwayMultiplier" type="BinHex"/>
+			<field name="fCrouchingMultiplier" type="BinHex"/>
+			<field name="fInCoverMultiplier" type="BinHex"/>
+			<field name="fDodgingAndRollingMultiplier" type="BinHex"/>
+			<field name="fSpeedMultiplierWalk" type="BinHex"/>
+			<field name="fSpeedMultiplierJog" type="BinHex"/>
+			<field name="fSpeedMultiplierSprint" type="BinHex"/>
+			<field name="fOutOfFOVFactor" type="BinHex"/>
+			<object name="curveDistanceMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -172,7 +172,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="9CC29D7D">
+			<object name="curveContinuousShootingMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -184,17 +184,17 @@
 			</object>
 		</object>
 		<object hash="DA70A31D">
-			<field hash="A7215330" type="BinHex"/>
-			<field hash="AA6A46E9" type="BinHex"/>
-			<field hash="4FF52A51" type="BinHex"/>
-			<field hash="4328F9B8" type="BinHex"/>
-			<field hash="AEB39AC8" type="BinHex"/>
-			<field hash="2F26BD6C" type="BinHex"/>
-			<field hash="3D5BC74C" type="BinHex"/>
-			<field hash="91972F0D" type="BinHex"/>
-			<field hash="C1508354" type="BinHex"/>
-			<field hash="FF820327" type="BinHex"/>
-			<object hash="3B169CD8">
+			<field name="fBaseHitThreshold" type="BinHex"/>
+			<field name="fMovingTowardMultiplier" type="BinHex"/>
+			<field name="fMovingAwayMultiplier" type="BinHex"/>
+			<field name="fCrouchingMultiplier" type="BinHex"/>
+			<field name="fInCoverMultiplier" type="BinHex"/>
+			<field name="fDodgingAndRollingMultiplier" type="BinHex"/>
+			<field name="fSpeedMultiplierWalk" type="BinHex"/>
+			<field name="fSpeedMultiplierJog" type="BinHex"/>
+			<field name="fSpeedMultiplierSprint" type="BinHex"/>
+			<field name="fOutOfFOVFactor" type="BinHex"/>
+			<object name="curveDistanceMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -204,7 +204,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="9CC29D7D">
+			<object name="curveContinuousShootingMultiplier">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">

@@ -7,14 +7,14 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="B70517D9" type="String"/>
-	<field hash="BAE2D5FA" type="BinHex"/>
+	<field name="uicontexttypeUIContextType" type="BinHex"/>
 	<field hash="1B8CC9EA" type="String"/>
-	<field hash="54AE9282" type="BinHex"/>
-	<object hash="2C703970">
-		<object hash="AE08272C">
+	<field name="uicontexttypeBaseUIContextType" type="BinHex"/>
+	<object name="UIElementsWithLayout">
+		<object name="UIElementWithLayout">
 			<field name="uielementsettingsUIElementSetting" type="BinHex"/>
 			<field name="uilayoutdbobjectLayoutSetting" type="BinHex"/>
-			<field hash="6BC4255E" type="BinHex"/>
+			<field name="uitweensettingTweenSetting" type="BinHex"/>
 		</object>
 	</object>
 </class>

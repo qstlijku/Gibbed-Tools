@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="085C6F1E" type="BinHex"/>
-	<field hash="A9877480" type="BinHex"/>
-	<field hash="877846E0" type="BinHex"/>
-	<field hash="D2BA3E77" type="BinHex"/>
+	<field name="selPrisonerReactionOnRelease" type="BinHex"/>
+	<field name="fleebehaviordescriptorPrisonerReleaseFleeBhvDescriptor" type="BinHex"/>
+	<field name="bUsePGTArenaAsDefaultFleeThreat" type="BinHex"/>
 </class>

@@ -17,23 +17,23 @@
 	<field name="nethackingconfigPlayerNeutral" type="BinHex"/>
 	<field name="nethackingconfigNPC_Ally" type="BinHex"/>
 	<field name="nethackingconfigProfiledAggressivePeople" type="BinHex"/>
-	<field hash="1C21A75F" type="BinHex"/>
-	<field hash="880135E3" type="BinHex"/>
-	<field hash="30059E3C" type="BinHex"/>
-	<field hash="A07A56F2" type="BinHex"/>
-	<field hash="1CCC3EE6" type="BinHex"/>
+	<field name="nethackingconfigCivilian_Common" type="BinHex"/>
+	<field name="nethackingconfigCivilian_Uncommon" type="BinHex"/>
+	<field name="nethackingconfigCivilian_Rare" type="BinHex"/>
+	<field name="nethackingconfigCivilian_Epic" type="BinHex"/>
+	<field name="nethackingconfigCivilian_Legendary" type="BinHex"/>
 	<field name="nethackingconfigPlayerVehicle" type="BinHex"/>
 	<field name="nethackingconfigVehicleAlly" type="BinHex"/>
 	<field name="nethackingconfigEnemyVehicle" type="BinHex"/>
 	<field name="nethackingconfigCivilianVehicle" type="BinHex"/>
-	<field hash="8E563959" type="BinHex"/>
-	<field hash="F34D1B10" type="BinHex"/>
-	<field hash="8B84B27E" type="BinHex"/>
+	<field name="nethackingconfigRemoteControl" type="BinHex"/>
+	<field name="nethackingconfigRemoteControl_Self" type="BinHex"/>
+	<field name="nethackingconfigRemoteControl_Ally" type="BinHex"/>
 	<field hash="A4446261" type="BinHex"/>
-	<field hash="321B7C0D" type="BinHex"/>
-	<field hash="EB7BA912" type="BinHex"/>
+	<field name="nethackingconfigRemoteControl_Enemy" type="BinHex"/>
+	<field name="nethackingconfigRemoteControl_WasControlled" type="BinHex"/>
 	<field name="nethackingconfigSecurityCamera" type="BinHex"/>
-	<field hash="A7B59335" type="BinHex"/>
+	<field name="nethackingconfigHackableObject" type="BinHex"/>
 	<field name="nethackingconfigFirewallObject" type="BinHex"/>
 	<field name="nethackingconfigClosedCirtuitBoxInactive" type="BinHex"/>
 	<field name="nethackingconfigLockedObject" type="BinHex"/>
@@ -45,9 +45,9 @@
 	<field name="nethackingconfigCollectibleObject" type="BinHex"/>
 	<field name="nethackingconfigInteractiveDoor" type="BinHex"/>
 	<field name="nethackingconfigInteractiveObject" type="BinHex"/>
-	<field hash="94BB4819" type="BinHex"/>
-	<field hash="209AE70E" type="BinHex"/>
-	<field hash="C1F0CBFD" type="BinHex"/>
-	<field hash="1F7DE280" type="BinHex"/>
-	<field hash="A57DA7BF" type="BinHex"/>
+	<field name="nethackingconfigMainSwitch" type="BinHex"/>
+	<field name="nethackingconfigClosedCircuitBoxActiveInPing" type="BinHex"/>
+	<field name="nethackingconfigNPCWithTrackedTraitsActiveInPing" type="BinHex"/>
+	<field name="nethackingconfigNPCNoTrackedTraitsActiveInPing" type="BinHex"/>
+	<field name="nethackingconfigNPCBeingProfiled" type="BinHex"/>
 </class>

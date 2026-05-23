@@ -7,44 +7,44 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selShootingType" type="Enum"/>
-	<field hash="E5296C1D" type="BinHex"/>
-	<field hash="AA474EED" type="BinHex"/>
-	<field hash="02838BB6" type="BinHex"/>
-	<field hash="86724E58" type="BinHex"/>
-	<field hash="3DDC9F0E" type="BinHex"/>
-	<field hash="594B268D" type="BinHex"/>
+	<field name="bIsLessThanLethal" type="BinHex"/>
+	<field name="bIsInstantDBNO" type="BinHex"/>
+	<field name="bIsTranqDart" type="BinHex"/>
+	<field name="bIsConcussionShot" type="BinHex"/>
+	<field name="bIsGasGun" type="BinHex"/>
+	<field name="bIsPaintBallGun" type="BinHex"/>
 	<field hash="041C0444" type="BinHex"/>
 	<field hash="2BD1A142" type="BinHex"/>
-	<field hash="63D5D9EB" type="BinHex"/>
+	<field name="fWeaponLength" type="BinHex"/>
 	<field name="selWeaponPerkType" type="Enum"/>
 	<field name="bManualEnableAutomatic" type="Boolean"/>
 	<field name="iManualAutomaticBulletsMax" type="Int32"/>
-	<field hash="B01B8F42" type="BinHex"/>
+	<field name="fManualAutomaticTriggerFireRate" type="BinHex"/>
 	<field name="bIsSilencedWeapon" type="Boolean"/>
-	<field hash="968BC534" type="BinHex"/>
+	<field name="bEmitsGunshotStim" type="BinHex"/>
 	<field name="itemsBulletItem" type="BinHex"/>
 	<field name="fBulletsPerClip" type="Int16"/>
 	<field name="fRateOfFire" type="Float"/>
 	<field name="fRateOfFireVehicleMultiplier" type="Float"/>
-	<field hash="7A62F734" type="BinHex"/>
+	<field name="fReloadSpeedMultiplier" type="BinHex"/>
 	<field name="iReloadAlertMinBullets" type="Int32"/>
 	<field name="fShootingRange" type="Float"/>
 	<field name="fPrecisionRange" type="Float"/>
 	<field name="fPrecisionSpreadAngle" type="Float"/>
 	<field name="bDestroysVehicleParts" type="Boolean"/>
-	<field hash="1AE6DA0B" type="BinHex"/>
+	<field name="bSupportsDamageCurve" type="BinHex"/>
 	<field name="fBulletDamageDistanceStartDistance" type="Float"/>
 	<field name="fBulletDamageDistanceStartDamage" type="Float"/>
 	<field name="fBulletDamageDistanceEndDistance" type="Float"/>
 	<field name="fBulletDamageDistanceEndDamage" type="Float"/>
-	<field hash="95F0982B" type="BinHex"/>
+	<field name="bSupportsImpactStrengthCurve" type="BinHex"/>
 	<field name="fImpactStrengthDistanceStartDistance" type="Float"/>
 	<field name="fImpactStrengthDistanceStartStrength" type="Float"/>
 	<field name="fImpactStrengthDistanceEndDistance" type="Float"/>
 	<field name="fImpactStrengthDistanceEndStrength" type="Float"/>
-	<field hash="F1D29EA3" type="BinHex"/>
+	<field name="bBodyRecoilCurveSynchronizedMode" type="BinHex"/>
 	<field name="iPierceStrength" type="Int32"/>
-	<field hash="627CAF42" type="BinHex"/>
+	<field name="fBreakableDamageMultipier" type="BinHex"/>
 	<field name="iMinPiercingStrengthToDamage" type="Int32"/>
 	<field name="nTracesRatio" type="BinHex"/>
 	<field name="fAccuracyModifier" type="Float"/>
@@ -55,16 +55,16 @@
 	<field name="fLaserSightNoiseRangeX" type="Float"/>
 	<field name="fLaserSightNoiseRangeY" type="Float"/>
 	<field name="fLaserSightNoiseSpeedMultiplier" type="Float"/>
-	<field hash="69DE2D62" type="BinHex"/>
-	<field hash="7E886872" type="BinHex"/>
-	<field hash="D29C221B" type="BinHex"/>
-	<object hash="E2F77A14">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<field name="bIsRobotWeapon" type="BinHex"/>
+	<field name="fInstantShakeFovMultiplier" type="BinHex"/>
+	<field name="fZLockStrengthMultiplier" type="BinHex"/>
+	<object name="fReloadSpeedRule">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="610F93F5">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="RangeMultiplier">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object name="curveRecoilTranslationX">
 		<field name="hidNumKnots" type="BinHex"/>
@@ -156,9 +156,9 @@
 			</object>
 		</object>
 	</object>
-	<object hash="2E492C12">
-		<object hash="31816717">
-			<field hash="31816717" type="BinHex"/>
+	<object name="AdvancedWeaponParams">
+		<object name="weaponLvlWeaponParam">
+			<field name="weaponLvlWeaponParam" type="BinHex"/>
 		</object>
 	</object>
 	<object name="AnimationInfo">
@@ -210,7 +210,7 @@
 				<field name="vectorValue" type="BinHex"/>
 				<field name="selValueType" type="Enum"/>
 			</object>
-			<object hash="D0558B01">
+			<object name="Fov">
 				<field name="vectorValue" type="BinHex"/>
 				<field name="selValueType" type="Enum"/>
 			</object>
@@ -222,7 +222,7 @@
 				<field name="vectorValue" type="BinHex"/>
 				<field name="selValueType" type="Enum"/>
 			</object>
-			<object hash="72A45D8C">
+			<object name="BlendInTimeMultiplier">
 				<field name="fValue" type="Float"/>
 				<field name="selValueType" type="Enum"/>
 			</object>
@@ -258,12 +258,12 @@
 		<field name="fMovingPushingMediumIncPercMultiplier" type="Float"/>
 		<field name="fMovingPushingNoneDecPercMultiplier" type="Float"/>
 		<field name="fMovingPushingNoneIncPercMultiplier" type="Float"/>
-		<field hash="FBA34A3D" type="BinHex"/>
-		<field hash="18063B8D" type="BinHex"/>
+		<field name="fInVehicleMagnatismMultiplier" type="BinHex"/>
+		<field name="vec2AutoLockRangeMultiplier" type="BinHex"/>
 		<field name="fAssistanceDistanceThreshold" type="Float"/>
 	</object>
 	<object name="CameraRecoil">
-		<field hash="5D52F29D" type="BinHex"/>
+		<field name="fAccumulationMultiplierResetTime" type="BinHex"/>
 		<object name="InitialPhaseImpulses">
 			<field name="fDuration" type="Float"/>
 			<field name="vec2PitchLimits" type="Vector2"/>
@@ -286,7 +286,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="2EAB7254">
+				<object name="Yaw">
 					<field name="vec2ImpulsePeak" type="Vector2"/>
 					<field name="vec2ImpulseCurve" type="Vector2"/>
 					<field name="selImpulseDirection" type="Enum"/>
@@ -325,7 +325,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="2EAB7254">
+				<object name="Yaw">
 					<field name="vec2ImpulsePeak" type="Vector2"/>
 					<field name="vec2ImpulseCurve" type="Vector2"/>
 					<field name="selImpulseDirection" type="Enum"/>
@@ -343,15 +343,15 @@
 			</object>
 		</object>
 	</object>
-	<object hash="B2EB0735">
-		<field hash="EC64985E" type="BinHex"/>
-		<field hash="FE7B4EA8" type="BinHex"/>
-		<field hash="F478A085" type="BinHex"/>
-		<field hash="C8759FDC" type="BinHex"/>
-		<field hash="4AE0D062" type="BinHex"/>
-		<field hash="86EDAB6D" type="BinHex"/>
-		<field hash="EB17824A" type="BinHex"/>
-		<object hash="8F329258">
+	<object name="PlayerAccuracy">
+		<field name="fAccuracyGainDelay" type="BinHex"/>
+		<field name="fAccuracyShotCounterDelay" type="BinHex"/>
+		<field name="fAccuracyFactorMin" type="BinHex"/>
+		<field name="fAccuracyFactorMax" type="BinHex"/>
+		<field name="fAccuracyFactorMinCrouched" type="BinHex"/>
+		<field name="fAccuracyFactorMaxCrouched" type="BinHex"/>
+		<field name="bFirstShotAccurate" type="BinHex"/>
+		<object name="curveAccuracyLostPerShotCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -361,7 +361,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="276B49DB">
+		<object name="curveAccuracyGainPerSecondCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -371,7 +371,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="026D538A">
+		<object name="curveAccuracyLostPerSpeedCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -381,7 +381,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="EB0648D1">
+		<object name="curveAccuracyLostPerSpeedCrouchedCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -391,7 +391,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="82D949F8">
+		<object name="curveAccuracyDistributionCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -401,7 +401,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="79F7FD06">
+		<object name="curveAccuracyDistributionVertSignCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -412,16 +412,16 @@
 			</object>
 		</object>
 	</object>
-	<object hash="836AC9F2">
-		<field hash="73B35E7F" type="BinHex"/>
-		<field hash="7040BE30" type="BinHex"/>
-		<field hash="91050668" type="BinHex"/>
-		<field hash="C691BB7D" type="BinHex"/>
-		<field hash="20F1149C" type="BinHex"/>
-		<field hash="705CB62B" type="BinHex"/>
-		<field hash="4EE97EA3" type="BinHex"/>
-		<field hash="A072939D" type="BinHex"/>
-		<object hash="B08D51C9">
+	<object name="PlayerSway">
+		<field name="fSwayMinTime" type="BinHex"/>
+		<field name="fSwayMaxTime" type="BinHex"/>
+		<field name="fSwayVerticalTimeMultiplier" type="BinHex"/>
+		<field name="fSwayMinAngle" type="BinHex"/>
+		<field name="fSwayMaxAngle" type="BinHex"/>
+		<field name="fMinAngleChangeForNextSway" type="BinHex"/>
+		<field name="fMaxAngleChangeForNextSway" type="BinHex"/>
+		<field name="fSwayStartDelay" type="BinHex"/>
+		<object name="curveSwayAccelerationCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -450,9 +450,9 @@
 	<object name="DamageMultiplier">
 		<field name="fVehicleMultplier" type="Float"/>
 		<field name="fSmallElectronicsMultiplier" type="Float"/>
-		<object hash="16EF043E">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="BulletDamageMultiplier">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="LocationDamageMultiplier">
 			<object name="LocationMultiplier">
@@ -471,7 +471,7 @@
 		</object>
 	</object>
 	<object name="ShootingPatterns">
-		<field hash="90B93A58" type="BinHex"/>
+		<field name="choreographyshootingpatternsSuppressivePattern" type="BinHex"/>
 		<field hash="11854978" type="BinHex"/>
 		<object name="Patterns">
 			<object name="choreographyshootingpatternsShootingPattern">
@@ -479,13 +479,13 @@
 			</object>
 		</object>
 	</object>
-	<object hash="933BA3B7">
+	<object name="SoundParams">
 		<field hash="53336CFE" type="String"/>
-		<field hash="6FDAD64F" type="BinHex"/>
+		<field name="selPlayerWeaponModel" type="BinHex"/>
 		<field hash="C0440EA1" type="String"/>
-		<field hash="FCADB410" type="BinHex"/>
+		<field name="selNPCWeaponCategory" type="BinHex"/>
 	</object>
-	<object hash="DDADED7F">
+	<object name="CameraShakeParameters">
 		<field hash="92210DFC" type="String"/>
 		<field name="hidEventName" type="BinHex"/>
 		<field name="hidTargetEntityId" type="BinHex"/>
@@ -498,13 +498,13 @@
 		<field name="vectorRotationRange" type="BinHex"/>
 		<field name="entOrientationTargetId" type="BinHex"/>
 	</object>
-	<object hash="356522E1">
-		<object hash="9F52AC96">
-			<field hash="F18A4B0D" type="BinHex"/>
-			<field hash="65125A88" type="BinHex"/>
-			<field hash="1443F16A" type="BinHex"/>
-			<field hash="AFB54157" type="BinHex"/>
-			<field hash="773FAB57" type="BinHex"/>
+	<object name="ReticleAssistSettings">
+		<object name="ReticleAssistConfig">
+			<field name="selAssistMode" type="BinHex"/>
+			<field name="fMaxAssistRange" type="BinHex"/>
+			<field name="fAssistStartRange" type="BinHex"/>
+			<field name="fMaxAssistInputValue" type="BinHex"/>
+			<field name="fMaxAssistMovementSpeed" type="BinHex"/>
 		</object>
 	</object>
 </class>

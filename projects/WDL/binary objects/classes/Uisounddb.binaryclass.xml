@@ -10,5 +10,5 @@
 	<field name="sSoundId" type="BinHex"/>
 	<field hash="03810A2C" type="String"/>
 	<field name="sndSoundResource" type="BinHex"/>
-	<field hash="8FE662AD" type="BinHex"/>
+	<field name="sndtpSoundType" type="BinHex"/>
 </class>

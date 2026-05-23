@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="D2FD4172" type="BinHex"/>
-	<object hash="C0FCAF61">
-		<object hash="49A9BC2A">
-			<field hash="ED024EFD" type="BinHex"/>
+	<field name="hidNextTypeId" type="BinHex"/>
+	<object name="SoundTypes">
+		<object name="SoundType">
+			<field name="nID" type="BinHex"/>
 			<field name="text_Name" type="String"/>
 			<field name="Name" type="BinHex"/>
 		</object>

@@ -6,20 +6,20 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="C347C448" type="BinHex"/>
-	<object hash="10A56CD3">
-		<field hash="970D21F0" type="BinHex"/>
-		<object hash="10A56CD3">
-			<field hash="970D21F0" type="BinHex"/>
+	<field name="bosseffectsconfigEffects" type="BinHex"/>
+	<object name="Phases">
+		<field name="fHPRatioLowThreshold" type="BinHex"/>
+		<object name="Phases">
+			<field name="fHPRatioLowThreshold" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="3AC90F07">
-		<object hash="FA72D7A0">
-			<field hash="BB96D4A0" type="BinHex"/>
+	<object name="Abilities">
+		<object name="Ability">
+			<field name="selAbilityType" type="BinHex"/>
 			<object name="Progression">
 				<object name="Item">
-					<field hash="4D6ECE58" type="BinHex"/>
-					<object hash="B0B9BBA8">
+					<field name="bossabilityconfigAbilityConfig" type="BinHex"/>
+					<object name="PhaseRange">
 						<field name="fMin" type="BinHex"/>
 						<field name="fMax" type="BinHex"/>
 					</object>

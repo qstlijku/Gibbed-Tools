@@ -6,17 +6,17 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="01A6F60F" type="BinHex"/>
-	<field hash="86A44198" type="BinHex"/>
+	<field name="oplineuidataInitialUIData" type="BinHex"/>
+	<field name="selOpLineEnumId" type="BinHex"/>
 	<field hash="0C787D3F" type="BinHex"/>
-	<object hash="9C8F9B03">
+	<object name="locstridMissionsAppSubCategoryName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="5501FD91">
-		<object hash="95229249">
+	<object name="OpLineCompleteUI">
+		<object name="locstridCelebrationTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D407CA9A">
+		<object name="locstridCelebrationSubtitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

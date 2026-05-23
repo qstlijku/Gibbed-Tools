@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="districtDefaultDistrict" type="BinHex"/>
 	<field name="navigationconfigAffiliatedCivilianNavigationConfig" type="BinHex"/>
-	<field hash="BC453240" type="BinHex"/>
+	<field name="navigationconfigUpRezzedCivilianNavigationConfig" type="BinHex"/>
 	<field name="fleebehaviordescriptorFleeBhvDescriptor" type="BinHex"/>
 	<field name="fleebehaviordescriptorFleeBhvDescriptorNoVehicle" type="BinHex"/>
 	<field name="vehiclebhvsetupDefaultVehicleBehavior" type="BinHex"/>
@@ -26,7 +26,7 @@
 		<field name="humanconfigHeavy" type="BinHex"/>
 		<field name="humanconfigPolice" type="BinHex"/>
 		<field name="humanconfigSniper" type="BinHex"/>
-		<field hash="3A206BEF" type="BinHex"/>
+		<field name="humanconfigTaserPolice" type="BinHex"/>
 		<field name="humanconfigFemaleGrunt" type="BinHex"/>
 		<field name="humanconfigFemaleGruntTwoHandedWeapon" type="BinHex"/>
 		<field name="humanconfigFemaleSniper" type="BinHex"/>
@@ -57,8 +57,8 @@
 		<field name="singleclocreationsettingsSingleHumanSpawn" type="BinHex"/>
 		<field name="singleclocreationsettingsSingleHumanAttract" type="BinHex"/>
 		<field name="animalclocreationsettingsSingleAnimalSpawn" type="BinHex"/>
-		<field hash="277D2453" type="BinHex"/>
-		<field hash="097FE594" type="BinHex"/>
+		<field name="clorobotcreationsettingsSingleRobotSpawn" type="BinHex"/>
+		<field name="clodronecreationsettingsSingleDroneSpawn" type="BinHex"/>
 		<field name="clovehiclecreationsettingsSingleVehicleSpawn" type="BinHex"/>
 		<field name="cloobjectcreationsettingsSingleObjectSpawn" type="BinHex"/>
 		<field name="singleclocreationsettingslistList" type="BinHex"/>
@@ -183,99 +183,99 @@
 		<field name="archRobotCounterHackerArchetype" type="BinHex"/>
 		<field name="robotconfigDefault" type="BinHex"/>
 	</object>
-	<object hash="027B9A73">
-		<object hash="1D24B0D4">
+	<object name="DroneConfig">
+		<object name="TrafficDroneBank">
 			<object name="Bank">
 				<object name="Entry">
 					<field hash="A1295865" type="String"/>
-					<field hash="2A0E45E1" type="BinHex"/>
-					<field hash="25DD4CED" type="BinHex"/>
+					<field name="archDroneArchetype" type="BinHex"/>
+					<field name="droneconfigDroneConfig" type="BinHex"/>
 					<field hash="572F5755" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
 			</object>
-			<object hash="D4A66DBF"/>
+			<object name="TrafficDroneMaxInfos"/>
 		</object>
-		<object hash="EA5653B2">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="ScannerConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="04214F06">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="NewsConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="3AF6AC69">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="83E94E53">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="DeliveryConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="57BD4F4B">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="ConstructionConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="C5F707E5">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="ChaseConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="AD56AC8E">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="RiotConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="1542140B">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="CtConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="D5B11AF9">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="RaidBossConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="4DE26E22">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="NanoConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="F78C6F41">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="RaidWipeConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="6D29CB4C">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="RaidRepairConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="A1AC1693">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="CompanionConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="F4697436">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="KamikazeConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="3CB53BC9">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="RaidGhostConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="2B9628C6">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="RaidGorgonConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="51DFCA79">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="MachineGunTurretConfigSelector">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="C78BF0C2">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="ChaseKingMaker">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="C6A066C2">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="QueenBee">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="C2CDD182">
-			<object hash="09DD4EE4">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="AmbientWiflyDroneSettings">
+			<object name="MaxAmbientWiflyDrones">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 		</object>
 	</object>
@@ -284,17 +284,17 @@
 		<field name="archVehicleArcrtype" type="BinHex"/>
 		<field name="vehicleentityconfigDefault" type="BinHex"/>
 	</object>
-	<object hash="171A8293">
+	<object name="RCJumperConfig">
 		<field hash="D2DB0091" type="String"/>
-		<field hash="EE32BA20" type="BinHex"/>
+		<field name="archRCJumperArcrtype" type="BinHex"/>
 		<field hash="24D7C259" type="String"/>
-		<field hash="988DA8F9" type="BinHex"/>
+		<field name="archRCSpiderArchetype" type="BinHex"/>
 	</object>
 	<object name="OneGunInventoryConfig">
 		<field name="itemlistWeaponSelectorList" type="BinHex"/>
 		<field name="bSpawnWithEquippable" type="Boolean"/>
 		<field name="selInitWeaponType" type="Enum"/>
-		<field hash="D70FA7FE" type="BinHex"/>
+		<field name="selInitProjectileType" type="BinHex"/>
 		<object name="InventoryLoadoutItemLists">
 			<field name="itemlistNormal" type="BinHex"/>
 		</object>
@@ -309,19 +309,19 @@
 		<field name="fPedestrianWithDogSiteCreationPercentage" type="Float"/>
 		<field name="uiPedestrianLayerWeight" type="UInt32"/>
 		<field name="uiPedestrianWithDogLayerWeight" type="UInt32"/>
-		<field hash="C6E0277A" type="BinHex"/>
-		<field hash="938CF6CC" type="BinHex"/>
-		<field hash="5F1B0345" type="BinHex"/>
+		<field name="wolfskinitemdbFallbackNakedBodyItem" type="BinHex"/>
+		<field name="wolfskinitemdbFallbackClothingItem" type="BinHex"/>
+		<field name="wolfskinitemdbFallbackUniformItem" type="BinHex"/>
 		<object name="UniqueNpcGraphicKitTag">
 			<object name="tagcategoryselectionTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="491E05B0">
+		<object name="curveTimeOfDayCivilianSpawnDensity">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -334,17 +334,17 @@
 		<object name="Affiliations">
 			<object name="AffiliationSpawnInfos"/>
 		</object>
-		<object hash="CBA6B823">
-			<object hash="CBA6B823">
-				<field hash="699B0C29" type="BinHex"/>
-				<object hash="ED853948">
-					<object hash="B9A218C1">
-						<field hash="ED853948" type="BinHex"/>
+		<object name="RarityInfo">
+			<object name="RarityInfo">
+				<field name="FinalRatioFollowerCount" type="BinHex"/>
+				<object name="InitialRatios">
+					<object name="RarityInfos">
+						<field name="InitialRatios" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="D158F6F3">
-					<object hash="B9A218C1">
-						<field hash="D158F6F3" type="BinHex"/>
+				<object name="FinalRatios">
+					<object name="RarityInfos">
+						<field name="FinalRatios" type="BinHex"/>
 					</object>
 				</object>
 			</object>
@@ -358,6 +358,6 @@
 				</object>
 			</object>
 		</object>
-		<object hash="4EA1469E"/>
+		<object name="GlobalSpawnRules"/>
 	</object>
 </class>

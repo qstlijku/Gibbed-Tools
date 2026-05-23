@@ -8,6 +8,6 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
 		<field hash="50915156" type="String"/>
-		<field hash="364915DC" type="BinHex"/>
+		<field name="progressioncollectablecategoryCaptainKillCollectibleId" type="BinHex"/>
 	</object>
 </class>

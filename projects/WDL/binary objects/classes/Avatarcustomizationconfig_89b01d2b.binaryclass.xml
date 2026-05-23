@@ -16,19 +16,19 @@
 			<field name="tagStoreTag" type="BinHex"/>
 			<object name="tagcategoryselectionUITag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
 	</object>
 	<object name="PartsPairing">
 		<object name="Pairing">
-			<field hash="5C704523" type="BinHex"/>
+			<field name="wolfskinitemdbWolfskinCompletingPart" type="BinHex"/>
 			<object name="tagcategoryselectionTagSelection">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
@@ -92,8 +92,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -103,8 +103,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>

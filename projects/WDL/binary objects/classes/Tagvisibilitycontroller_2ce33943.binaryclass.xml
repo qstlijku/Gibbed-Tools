@@ -6,8 +6,8 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="DB4A7FFB">
-		<object hash="3C3F679F">
+	<object name="SpawningSystemTagCategories">
+		<object name="DemographicDistributionTagCategories">
 			<object name="TagCategories">
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 			</object>
@@ -17,53 +17,53 @@
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="B1453AE5"/>
-		<object hash="00248BD0">
+		<object name="AnimalItemSelectionTagCategories"/>
+		<object name="HumanItemSelectionTagCategories">
 			<object name="TagCategories">
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="9F0FB594">
+		<object name="HumanItemOptionalSelectionTagCategories">
 			<object name="TagCategories">
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="1EECD5F5">
+		<object name="HumanItemMandatorySelectionTags">
 			<object name="Tags">
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="1843B084">
+		<object name="NakedBodyItemSelectionTagCategories">
 			<object name="TagCategories">
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="A1665AA1">
+		<object name="NakedBodyItemOptionalSelectionTagCategories">
 			<object name="TagCategories">
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="068BEEA1">
+		<object name="NakedBodyItemMandatorySelectionTags">
 			<object name="Tags">
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="1BBFD266">
+		<object name="ClothingItemSelectionTagCategories">
 			<object name="TagCategories">
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="594A86C3"/>
-		<object hash="05778C43"/>
-		<object hash="42DC2EE1">
+		<object name="ClothingItemOptionalSelectionTagCategories"/>
+		<object name="ClothingItemMandatorySelectionTags"/>
+		<object name="UniformItemSelectionTagCategories">
 			<object name="TagCategories">
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="37C1187C"/>
+		<object name="DefaultSelectionTagCategories"/>
 	</object>
-	<object hash="91E10444">
-		<object hash="D837092E">
+	<object name="SelectionBlackboards">
+		<object name="LocationBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -71,7 +71,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="189670B8">
+		<object name="LocationSelectionBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -79,7 +79,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="70779BE8">
+		<object name="LocationComplexitySelectionBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -87,7 +87,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="DF6F9CDF">
+		<object name="LocationPlayerCountSelectionBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -95,7 +95,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="36BA6573">
+		<object name="CLOActionBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -103,10 +103,10 @@
 				</object>
 			</object>
 		</object>
-		<object hash="0C1DF2C6">
+		<object name="CensusAttendanceSelectionTagCategories">
 			<object name="TagCategorySelectionDescriptors"/>
 		</object>
-		<object hash="2DFD097F">
+		<object name="NPCBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -114,7 +114,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="13099775">
+		<object name="VehicleBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -122,7 +122,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="C7217D7C">
+		<object name="CensusProfileFieldsBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -130,7 +130,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="F130842E">
+		<object name="LCBrowserBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -138,7 +138,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="FBA2ED0B">
+		<object name="DGSceneActorFeatureBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -146,7 +146,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="3879698D">
+		<object name="DGSceneActorBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -154,7 +154,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="5B73C83B">
+		<object name="DGObjectiveLogicDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -162,7 +162,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="E01F8594">
+		<object name="CinematicBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -170,7 +170,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="7587E2DF">
+		<object name="PeopleSpawnInfoBlackboardDescriptor">
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
 					<field name="tagcategoryTagCategory" type="BinHex"/>

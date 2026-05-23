@@ -6,13 +6,13 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="C1D6DBC8" type="BinHex"/>
-	<object hash="5D87F641">
+	<field name="pcmenuitemDefaultSelection" type="BinHex"/>
+	<object name="locstridCategoryName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="451F87E0">
+	<object name="CategoryItems">
 		<object name="Item">
-			<field hash="1AFCAE56" type="BinHex"/>
+			<field name="pcmenuitemItem" type="BinHex"/>
 		</object>
 	</object>
 </class>

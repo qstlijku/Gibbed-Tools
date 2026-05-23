@@ -13,18 +13,18 @@
 			<field name="Offset" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="4A775D68">
-		<object hash="EF41CE2C">
+	<object name="BoneLinks">
+		<object name="SRetargetingBoneLinking">
 			<field hash="1EF6D0A0" type="String"/>
-			<field hash="EC84966E" type="BinHex"/>
+			<field name="BoneToAdjust" type="BinHex"/>
 			<field hash="F1EAED15" type="String"/>
-			<field hash="6D10E48F" type="BinHex"/>
+			<field name="BoneParent" type="BinHex"/>
 			<field hash="4F75FB9B" type="String"/>
-			<field hash="F32F913B" type="BinHex"/>
-			<field hash="A8813813" type="BinHex"/>
-			<field hash="6AD87BC4" type="BinHex"/>
-			<field hash="21B49842" type="BinHex"/>
-			<field hash="E6CE4FAC" type="BinHex"/>
+			<field name="BoneOffsetReferential" type="BinHex"/>
+			<field name="vecOffset" type="BinHex"/>
+			<field name="angvecRotOffset" type="BinHex"/>
+			<field name="bRotation" type="BinHex"/>
+			<field name="bTranslation" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -6,28 +6,28 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="82708799" type="BinHex"/>
-	<object hash="79D52936">
+	<field name="iEntriesToAssignOnUprez" type="BinHex"/>
+	<object name="ExtendedProfilerLibrary">
 		<object name="Category">
-			<field hash="FD162EC7" type="String"/>
-			<object hash="DB4D1DDC">
+			<field name="sCategoryName" type="String"/>
+			<object name="ProfilerEntries">
 				<object name="Entry">
-					<field hash="89BA62B3" type="String"/>
-					<object hash="8037A8C2">
-						<object hash="EB31FC0C">
-							<object hash="04170D84">
+					<field name="sDebugString" type="String"/>
+					<object name="Prerequisites">
+						<object name="CensusFilter">
+							<object name="tagcategoryselectionblackboardProfile">
 								<object name="TagCategorySelectionArray">
 									<object name="TagCategorySelection">
 										<field hash="CF68E402" type="String"/>
 										<field name="hid_DTCTH_ClassName" type="BinHex"/>
 										<field hash="BDB3B8D5" type="String"/>
-										<field hash="401A8276" type="BinHex"/>
-										<field hash="F5391DFF" type="BinHex"/>
+										<field name="UITagCategorySelectionClassID" type="BinHex"/>
+										<field name="tagcategoryUITagCategory" type="BinHex"/>
 										<field name="tagcategoryTagCategory" type="BinHex"/>
 										<object name="Tags"/>
 									</object>
 								</object>
-								<object hash="D0C5DABB">
+								<object name="TagDescriptorUI">
 									<field hash="CF68E402" type="String"/>
 									<field name="hid_DTCTH_ClassName" type="BinHex"/>
 									<object name="TagCategorySelectionDescriptors">
@@ -39,18 +39,18 @@
 								</object>
 							</object>
 						</object>
-						<object hash="10877FDD"/>
-						<object hash="21B15CE3"/>
-						<object hash="C35F7085"/>
-						<object hash="20FD2BBC"/>
-						<object hash="50D4E557"/>
-						<object hash="A2E90333"/>
-						<object hash="F010C187"/>
-						<object hash="A8BD1029"/>
+						<object name="RequiredContracts"/>
+						<object name="ExcludedContracts"/>
+						<object name="RequiredAttendances"/>
+						<object name="ExcludedAttendances"/>
+						<object name="RequiredMetaIntrigues"/>
+						<object name="ExcludedMetaIntrigues"/>
+						<object name="RequiredStatuses"/>
+						<object name="ExcludedStatuses"/>
 					</object>
-					<object hash="C0ACD8C0">
-						<object hash="CEFB5097">
-							<object hash="7F0AED3F">
+					<object name="ProfilerTextOptions">
+						<object name="TextOption">
+							<object name="locstridTextOption">
 								<field name="LocalizationId" type="UInt64"/>
 							</object>
 						</object>

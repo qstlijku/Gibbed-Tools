@@ -10,106 +10,106 @@
 		<field name="tagcategoryGenderTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionMaleTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionFemaleTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="984C33AF">
-		<field hash="5D768236" type="BinHex"/>
-		<object hash="CEFD08D7">
+	<object name="ActorRarity">
+		<field name="tagcategoryActorRarityTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionCommonTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="B499B123">
+		<object name="tagcategoryselectionUncommonTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="4C7C72D4">
+		<object name="tagcategoryselectionRareTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="14D4F8E5">
+		<object name="tagcategoryselectionEpicTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="2FFD27A5">
+		<object name="tagcategoryselectionLegendaryTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
 	<object name="PawnIdentity">
-		<field hash="3DD354D3" type="BinHex"/>
-		<field hash="1D72B1F4" type="BinHex"/>
-		<field hash="973AE2CD" type="BinHex"/>
-		<field hash="BACFC8D6" type="BinHex"/>
-		<field hash="D2E9784B" type="BinHex"/>
+		<field name="tagcategoryIsPlayerTagCategory" type="BinHex"/>
+		<field name="tagcategoryAnimArchetypeTagCategory" type="BinHex"/>
+		<field name="tagcategoryPersonaTagCategory" type="BinHex"/>
+		<field name="tagcategoryPersonalityTagCategory" type="BinHex"/>
+		<field name="tagcategoryNPCVoiceTagCategory" type="BinHex"/>
 		<field name="tagcategoryEthnicityTagCategory" type="BinHex"/>
 		<field name="tagcategoryVisualStereotypeTagCategory" type="BinHex"/>
-		<object hash="9B15EA7A">
+		<object name="tagcategoryselectionEthnicityBlackTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="481A82E6">
+		<object name="tagcategoryselectionEthnicityCaucasianTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="9BEE1AAF">
+		<object name="tagcategoryselectionEthnicityEastAsianTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="6511DBA3">
+		<object name="tagcategoryselectionEthnicityIndianSubContinentTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="186DDFFA">
+		<object name="tagcategoryselectionEthnicityMiddleEasternTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="025973C8">
-			<field hash="B051A18E" type="BinHex"/>
-			<object hash="71C2C0D9">
+		<object name="AgeRange">
+			<field name="tagcategoryCategory" type="BinHex"/>
+			<object name="tagcategoryselectionYoungTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
-			<object hash="E4F715AC">
+			<object name="tagcategoryselectionAdultTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
-			<object hash="4659CFF3">
+			<object name="tagcategoryselectionOldTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
@@ -121,23 +121,23 @@
 				</object>
 			</object>
 		</object>
-		<object hash="548ECCFC">
+		<object name="tagcategoryselectionIsPlayerTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="B788EEAB">
+		<object name="tagcategoryselectionIsClanKellyTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagcategoryTagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object hash="8D74724E">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagcategoryTagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
@@ -147,42 +147,42 @@
 	</object>
 	<object name="Cloth">
 		<field name="tagcategoryTagCategory" type="BinHex"/>
-		<field hash="A7D380FD" type="BinHex"/>
-		<field hash="26E4F177" type="BinHex"/>
+		<field name="tagcategoryFashionTagCategory" type="BinHex"/>
+		<field name="tagcategoryUniformTagCategory" type="BinHex"/>
 		<field name="tagcategoryHideMaskTagCategory" type="BinHex"/>
-		<field hash="622BAE2C" type="BinHex"/>
+		<field name="tagcategoryHighHeelsTagCategory" type="BinHex"/>
 		<field hash="5F64A9F6" type="BinHex"/>
 		<field name="tagcategoryStoreClothingStyleTagCategory" type="BinHex"/>
 		<field name="tagcategoryUIClothingStyleTagCategory" type="BinHex"/>
-		<field hash="67AC7FBA" type="BinHex"/>
+		<field name="tagcategoryPropTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionHighHeels">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object hash="67C8717A">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object hash="1FDCEDA0">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionMaskUpTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionMaskDownTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
@@ -191,359 +191,359 @@
 	</object>
 	<object name="VisualStereotype">
 		<field name="tagcategoryVisualStereotypeTagCategory" type="BinHex"/>
-		<object hash="4A27701C">
+		<object name="tagcategoryselectionRoyalGuardTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Occupation">
-		<field hash="E4C64B92" type="BinHex"/>
-		<field hash="5C37D609" type="BinHex"/>
-		<object hash="4A27701C">
+		<field name="tagcategoryOccupationTagCategory" type="BinHex"/>
+		<field name="tagcategoryOccupationGroupTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionRoyalGuardTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="D38DADB0">
+		<object name="tagcategoryselectionClanKelleyCaptainTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="DA40CB62">
+		<object name="tagcategoryselectionAlbionCaptainTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="392E333A">
+		<object name="tagcategoryselectionCrimeOrganizedTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="A1395C06">
+		<object name="tagcategoryselectionPoliceSpecializedTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Location">
-		<field hash="291647C2" type="BinHex"/>
-		<field hash="1C839C6A" type="BinHex"/>
-		<object hash="18A82318">
+		<field name="tagcategoryTubeStationTagCategory" type="BinHex"/>
+		<field name="tagcategoryDominantPlaystyleTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionTubeStationTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="CB0654A1">
+		<object name="tagcategoryselectionHackerspaceTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="7C3951FF">
+		<object name="tagcategoryselectionPoliceStationTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="0953F0FC">
+		<object name="tagcategoryselectionClanKelleyHideoutTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="50C0F03D">
+		<object name="tagcategoryselectionBlacksiteTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="E622F578">
+		<object name="tagcategoryselectionPrivateMilitaryAlbionTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="F2CD338D">
+		<object name="tagcategoryselectionHospitalTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="97F52B73">
+		<object name="tagcategoryselectionAssaultPlaystyleTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="322693D2">
+		<object name="tagcategoryselectionHackerPlaystyleTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="4C150ACD">
+		<object name="tagcategoryselectionInfiltratorPlaystyleTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="7FD6DA50">
+	<object name="Census">
 		<field name="tagcategoryGenderTagCategory" type="BinHex"/>
 		<field name="tagcategoryEthnicityTagCategory" type="BinHex"/>
-		<field hash="E4C64B92" type="BinHex"/>
-		<field hash="5C37D609" type="BinHex"/>
-		<field hash="A7D380FD" type="BinHex"/>
-		<field hash="80A21055" type="BinHex"/>
-		<field hash="E1EE7CD9" type="BinHex"/>
-		<field hash="D58D2D89" type="BinHex"/>
-		<field hash="F157A830" type="BinHex"/>
-		<field hash="B46E3567" type="BinHex"/>
-		<field hash="1C0676E8" type="BinHex"/>
-		<field hash="406B3E78" type="BinHex"/>
-		<field hash="FE57212E" type="BinHex"/>
-		<object hash="8BCEBC1B">
+		<field name="tagcategoryOccupationTagCategory" type="BinHex"/>
+		<field name="tagcategoryOccupationGroupTagCategory" type="BinHex"/>
+		<field name="tagcategoryFashionTagCategory" type="BinHex"/>
+		<field name="tagcategoryLeisureTagCategory" type="BinHex"/>
+		<field name="tagcategoryRestTagCategory" type="BinHex"/>
+		<field name="tagcategoryInteractionTagCategory" type="BinHex"/>
+		<field name="tagcategoryCensusMiscTagCategory" type="BinHex"/>
+		<field name="tagcategoryTraitGroupTagCategory" type="BinHex"/>
+		<field name="tagcategoryTeamTraitGroupTagCategory" type="BinHex"/>
+		<field name="tagcategoryTraitSpecializationTagCategory" type="BinHex"/>
+		<field name="tagcategoryPredefinedActorTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionSeanNameOverrideTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="B9836AED">
+		<object name="tagcategoryselectionVanessaNameOverrideTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="9BB0B07B">
+		<object name="tagcategoryselectionKenningtonOvalSpawnTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Flavor">
 		<field name="tagcategoryFlavorTagCategory" type="BinHex"/>
 	</object>
-	<object hash="02700276">
-		<field hash="E20D7C69" type="BinHex"/>
-		<field hash="69342741" type="BinHex"/>
-		<object hash="E6E357EE">
+	<object name="OpSwaps">
+		<field name="tagcategoryOPSwapLevelTagCategory" type="BinHex"/>
+		<field name="tagcategoryHackerspaceCLOTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionBronzeOpSwapTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="7D524998">
+		<object name="tagcategoryselectionSilverOpSwapTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="6F2AE2A0">
+		<object name="tagcategoryselectionGoldOpSwapTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="96CEA5DD">
+		<object name="tagcategoryselectionHackerspaceCLOTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="3732B683">
-		<object hash="605C4678">
+	<object name="CLO">
+		<object name="AttractionIgnoreCategories">
 			<object name="TagCategories">
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="4CB9B20C">
-		<field hash="406388C8" type="BinHex"/>
-		<object hash="B2E85DA8">
+	<object name="Faction">
+		<field name="tagcategoryFactionTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionCivilianTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="E8FBE368">
+		<object name="tagcategoryselectionAuthoritiesTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="616D64E7">
+		<object name="tagcategoryselectionCriminalsTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="759DEE8E">
+		<object name="tagcategoryselectionPMCTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="51A2388F">
+		<object name="tagcategoryselectionPrivateSecurityTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="15757642">
+		<object name="tagcategoryselectionSIRSTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="74A755C1">
+		<object name="tagcategoryselectionPoliceTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="32575CC4">
+		<object name="tagcategoryselectionFirmsTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="F3B6C87C">
+		<object name="tagcategoryselectionGangsTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="7525C61A">
+		<object name="tagcategoryselectionEPAFTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
-			<field name="tagTag" type="BinHex"/>
-		</object>
-	</object>
-	<object hash="E1EF8303">
-		<field hash="F21DDA17" type="BinHex"/>
-		<object hash="12A06A41">
-			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
-			<field name="tagTag" type="BinHex"/>
-		</object>
-		<object hash="C0C4C76E">
-			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
-			<field name="tagTag" type="BinHex"/>
-		</object>
-		<object hash="9831F05B">
-			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
-			<field name="tagTag" type="BinHex"/>
-		</object>
-		<object hash="A7E9BA72">
-			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="AC1EA054">
-		<field hash="DA4DABAB" type="BinHex"/>
+	<object name="DGScene">
+		<field name="tagcategoryActorTypeTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionHumanTag">
+			<field hash="BDB3B8D5" type="String"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object name="tagcategoryselectionVehicleTag">
+			<field hash="BDB3B8D5" type="String"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object name="tagcategoryselectionDroneTag">
+			<field hash="BDB3B8D5" type="String"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object name="tagcategoryselectionIngredientTag">
+			<field hash="BDB3B8D5" type="String"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object name="DGObjective">
+		<field name="tagcategoryGameplayTagCategory" type="BinHex"/>
 		<field hash="E0D63BF1" type="BinHex"/>
-		<field hash="7F03D332" type="BinHex"/>
-		<field hash="A524C837" type="BinHex"/>
-		<object hash="CC50F9A6">
+		<field name="tagcategoryPlayerCountTagCategory" type="BinHex"/>
+		<field name="tagcategoryTypeTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionTypeAnyTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="CD1CB9FB">
+		<object name="tagcategoryselectionTypeFreeroamTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="73D50C14">
+		<object name="tagcategoryselectionTypeSceneBasedTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="A53CB9F5">
+		<object name="tagcategoryselectionTypeLocationBasedTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="CC4391A7">
+		<object name="tagcategoryselectionPlayerCountSoloTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="F7E919C5">
+		<object name="tagcategoryselectionPlayerCountSoftCoopTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="26DD7133">
+		<object name="tagcategoryselectionPlayerCountHardcoopTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="3B9EDBFA">
-		<field hash="F21DDA17" type="BinHex"/>
-		<object hash="7F516C88">
+	<object name="AtlasType">
+		<field name="tagcategoryActorTypeTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionFillerTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="5FC879D8">
+		<object name="tagcategoryselectionMicroTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="421B59D4">
+		<object name="tagcategoryselectionSmallTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="A113E885">
+		<object name="tagcategoryselectionMediumTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="AFBA1E89">
+		<object name="tagcategoryselectionLargeTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Behavior">
-		<field hash="E2DD433D" type="BinHex"/>
-		<object hash="953B8855">
+		<field name="tagcategoryBehaviorTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionCelebrityTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>

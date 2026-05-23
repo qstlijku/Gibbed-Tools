@@ -13,7 +13,7 @@
 			<field name="sndrtpcRTPCType" type="BinHex"/>
 			<object name="sndvarRTPCId">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
 		</object>
 	</object>
@@ -24,8 +24,8 @@
 				<field name="dissndStart" type="BinHex"/>
 				<field hash="CE8F77EF" type="String"/>
 				<field name="dissndStop" type="BinHex"/>
-				<field hash="2952A26F" type="BinHex"/>
-				<field hash="E8739005" type="BinHex"/>
+				<field name="sndtpStartType" type="BinHex"/>
+				<field name="sndtpStopType" type="BinHex"/>
 			</object>
 			<object name="Conditions">
 				<object name="Condition">

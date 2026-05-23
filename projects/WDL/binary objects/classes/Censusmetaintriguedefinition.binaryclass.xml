@@ -6,31 +6,31 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="247D237A" type="BinHex"/>
-	<field hash="56095533" type="BinHex"/>
-	<field hash="A872D14D" type="BinHex"/>
-	<field hash="7616E090" type="BinHex"/>
-	<object hash="8037A8C2">
+	<field name="nGroupID" type="BinHex"/>
+	<field name="bReadyForProduction" type="BinHex"/>
+	<field name="bRequiresScheduledAppointment" type="BinHex"/>
+	<field name="selForcedAssociateStatus" type="BinHex"/>
+	<object name="Prerequisites">
 		<field hash="3F639403" type="BinHex"/>
-		<field hash="FDE4251A" type="BinHex"/>
-		<field hash="EBD86EB2" type="BinHex"/>
-		<field hash="A3DDE29A" type="BinHex"/>
-		<field hash="CA50851C" type="BinHex"/>
-		<object hash="EF337269">
-			<object hash="04170D84">
+		<field name="bApplicableIfActorArrested" type="BinHex"/>
+		<field name="bApplicableIfActorInjured" type="BinHex"/>
+		<field name="bApplicableIfActorHasNormalStatus" type="BinHex"/>
+		<field name="bApplicableIfActorIsPendingDeportation" type="BinHex"/>
+		<object name="RequiredCensusFilter">
+			<object name="tagcategoryselectionblackboardProfile">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 						<object name="Tags"/>
 					</object>
 				</object>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -42,21 +42,21 @@
 				</object>
 			</object>
 		</object>
-		<object hash="B0D5583A">
-			<object hash="04170D84">
+		<object name="ExcludedCensusFilter">
+			<object name="tagcategoryselectionblackboardProfile">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 						<object name="Tags"/>
 					</object>
 				</object>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -69,32 +69,32 @@
 			</object>
 		</object>
 	</object>
-	<object hash="8180E211">
-		<object hash="7715255B">
-			<field hash="6D14FAA0" type="BinHex"/>
-			<field hash="3CB00B18" type="BinHex"/>
-			<field hash="A5B95AA2" type="BinHex"/>
+	<object name="ContractSelection">
+		<object name="ContractSettings">
+			<field name="censuscontractdefinitionRequiredContract" type="BinHex"/>
+			<field name="bRelationCompatibleWithRoleA" type="BinHex"/>
+			<field name="bRelationCompatibleWithRoleB" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="9002F9ED">
+	<object name="Resolutions">
 		<object name="Resolution">
-			<field hash="C36B3F05" type="BinHex"/>
-			<field hash="BF7B7FBD" type="BinHex"/>
-			<field hash="EECBE16F" type="BinHex"/>
-			<field hash="CA05923B" type="BinHex"/>
-			<field hash="6843F4E7" type="BinHex"/>
+			<field name="censusintriguedefinitionIntrigue" type="BinHex"/>
+			<field name="bHiddenResolution" type="BinHex"/>
+			<field name="bImportantResolution" type="BinHex"/>
+			<field name="phonecommunicationsettingsProximityWaitTeamSpeak" type="BinHex"/>
+			<field name="phonecommunicationsettingsProximityLocatedTeamSpeak" type="BinHex"/>
 			<field hash="48B335F5" type="BinHex"/>
-			<object hash="1F9253A1">
-				<field hash="1FA107FC" type="BinHex"/>
-				<field hash="B13547A0" type="BinHex"/>
-				<field hash="5C08B483" type="BinHex"/>
-				<field hash="97CEB796" type="BinHex"/>
+			<object name="OnSuccess">
+				<field name="censusactormemorydefinitionMemoryToApply" type="BinHex"/>
+				<field name="censusactormemorydefinitionIntrigueTargetMemoryToApply" type="BinHex"/>
+				<field name="phonecommunicationsettingsWrapupTeamSpeak" type="BinHex"/>
+				<field name="censusmetaintrigueresolutionbucketNextBeatBucket" type="BinHex"/>
 			</object>
-			<object hash="6E9F8B5D">
-				<field hash="1FA107FC" type="BinHex"/>
-				<field hash="B13547A0" type="BinHex"/>
-				<field hash="5C08B483" type="BinHex"/>
-				<field hash="97CEB796" type="BinHex"/>
+			<object name="OnFail">
+				<field name="censusactormemorydefinitionMemoryToApply" type="BinHex"/>
+				<field name="censusactormemorydefinitionIntrigueTargetMemoryToApply" type="BinHex"/>
+				<field name="phonecommunicationsettingsWrapupTeamSpeak" type="BinHex"/>
+				<field name="censusmetaintrigueresolutionbucketNextBeatBucket" type="BinHex"/>
 			</object>
 		</object>
 	</object>

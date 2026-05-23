@@ -23,12 +23,12 @@
 	<field hash="2598B0AF" type="BinHex"/>
 	<field hash="36ACD634" type="BinHex"/>
 	<field name="uimenupagePauseMenuPage" type="BinHex"/>
-	<field hash="B60B6E1C" type="BinHex"/>
-	<field hash="27C47056" type="BinHex"/>
-	<field hash="1E63FBE3" type="BinHex"/>
+	<field name="uimenupagePremiumShopCategoriesMenuPage" type="BinHex"/>
+	<field name="uimenupagePremiumShopItemsMenuPage" type="BinHex"/>
+	<field name="uimenupagePremiumShopCurrencyMenuPage" type="BinHex"/>
 	<field name="uimenupageStartMenuPage" type="BinHex"/>
 	<field name="uimenupageUbisoftPresentsMenuPage" type="BinHex"/>
-	<field hash="6C5A2D0F" type="BinHex"/>
+	<field name="uimenupageDificultyMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsAudioLanguageMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsControlShemeMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsControlsMenuPage" type="BinHex"/>
@@ -38,93 +38,93 @@
 	<field name="uimenupageSettingsGraphicMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsHUDMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsMenuPage" type="BinHex"/>
-	<field hash="A4F0B9EF" type="BinHex"/>
-	<field hash="3E85FF10" type="BinHex"/>
+	<field name="uimenupageSettingsMenuPagePcSpecific" type="BinHex"/>
+	<field name="uimenupageSettingsMenuPageYetiSpecific" type="BinHex"/>
 	<field name="uimenupageSettingsOnFootShemeMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsOnVehicleMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsOnlineMenuPage" type="BinHex"/>
-	<field hash="A873701C" type="BinHex"/>
-	<field hash="C961138C" type="BinHex"/>
+	<field name="uimenupageWelcomeSettingsMenuPage" type="BinHex"/>
+	<field name="uimenupagePlayOnlineSettingsMenuPage" type="BinHex"/>
 	<field name="uimenupageAlarmClockPage" type="BinHex"/>
 	<field hash="BDF6E599" type="BinHex"/>
 	<field hash="139FABEC" type="BinHex"/>
 	<field hash="BC110CDC" type="BinHex"/>
-	<field hash="712D5792" type="BinHex"/>
-	<field hash="A1680E44" type="BinHex"/>
-	<field hash="A80FA9F1" type="BinHex"/>
-	<field hash="2430DBB5" type="BinHex"/>
-	<field hash="54983AE5" type="BinHex"/>
-	<field hash="5807D95E" type="BinHex"/>
-	<field hash="CB3AAA60" type="BinHex"/>
-	<field hash="C7A549DB" type="BinHex"/>
-	<field hash="4B883D3C" type="BinHex"/>
+	<field name="uimenupageARMultiplayerProfilePageLocalPlayer" type="BinHex"/>
+	<field name="uimenupageARMultiplayerProfilePageConnectedPlayer" type="BinHex"/>
+	<field name="uimenupageARMultiplayerChallengesPage" type="BinHex"/>
+	<field name="uimenupageARMultiplayerDSISelectorPage" type="BinHex"/>
+	<field name="uimenupageARMultiplayerRaidSelectorPage" type="BinHex"/>
+	<field name="uimenupageARMultiplayerRaidSettingsPage" type="BinHex"/>
+	<field name="uimenupageARMultiplayerDirectActionSelectorPage" type="BinHex"/>
+	<field name="uimenupageARMultiplayerDirectActionSettingsPage" type="BinHex"/>
+	<field name="uimenupageARMultiplayerDigitalTripSelectorPage" type="BinHex"/>
 	<field hash="4717DE87" type="BinHex"/>
 	<field name="uimenupageCarOnDemandVehicleSelect" type="BinHex"/>
-	<field hash="7905960E" type="BinHex"/>
+	<field name="uimenupageWeaponOnDemandPage" type="BinHex"/>
 	<field name="uimenupageClothingItemsPage" type="BinHex"/>
-	<field hash="6EBF3359" type="BinHex"/>
+	<field name="uimenupageClothingSubCategoriesPage" type="BinHex"/>
 	<field name="uimenupageClothingPremiumPage" type="BinHex"/>
-	<field hash="889A80BB" type="BinHex"/>
-	<field hash="A6A753D0" type="BinHex"/>
-	<field hash="3B52419F" type="BinHex"/>
-	<field hash="9245713C" type="BinHex"/>
-	<field hash="46754ADE" type="BinHex"/>
+	<field name="uimenupageCourierAppPage" type="BinHex"/>
+	<field name="uimenupageDataDriveAppPage" type="BinHex"/>
+	<field name="uimenupageDataDriveContentPage" type="BinHex"/>
+	<field name="uimenupageDebugAppItemSelectorPage" type="BinHex"/>
+	<field name="uimenupageDebugAppMessagePage" type="BinHex"/>
 	<field name="uimenupageDirectorCutPage" type="BinHex"/>
 	<field name="uimenupageGalleryAppPage" type="BinHex"/>
-	<field hash="F9A669C8" type="BinHex"/>
+	<field name="uimenupageFullscreenGalleryAppPage" type="BinHex"/>
 	<field name="uimenupageLeaderBoardPage" type="BinHex"/>
-	<field hash="B34379E0" type="BinHex"/>
-	<field hash="4FF70CE1" type="BinHex"/>
-	<field hash="5934D245" type="BinHex"/>
-	<field hash="445DE0C8" type="BinHex"/>
-	<field hash="9D1FE750" type="BinHex"/>
-	<field hash="A6C71BE1" type="BinHex"/>
-	<field hash="3233B4AF" type="BinHex"/>
-	<field hash="AFD8A43F" type="BinHex"/>
-	<field hash="05DB53E6" type="BinHex"/>
+	<field name="uimenupageOperativeContactListPage" type="BinHex"/>
+	<field name="uimenupageOperativeContactPage" type="BinHex"/>
+	<field name="uimenupageClassSelectPage" type="BinHex"/>
+	<field name="uimenupageOperativesAppPage" type="BinHex"/>
+	<field name="uimenupageOpsAppPage" type="BinHex"/>
+	<field name="uimenupagePostMissionAppPage" type="BinHex"/>
+	<field name="uimenupageRelicsPage" type="BinHex"/>
+	<field name="uimenupageNewsAppPage" type="BinHex"/>
+	<field name="uimenupageBareKnuckle" type="BinHex"/>
 	<field hash="CA3A8774" type="BinHex"/>
-	<field hash="2A6684A4" type="BinHex"/>
-	<field hash="AEB13143" type="BinHex"/>
+	<field name="uimenupageDarts" type="BinHex"/>
+	<field name="uimenupageKickUp" type="BinHex"/>
 	<field name="uimenupageSkillsTreePage" type="BinHex"/>
 	<field name="uimenupageSongSneakPage" type="BinHex"/>
-	<field hash="FBC4B55E" type="BinHex"/>
-	<field hash="B54B241C" type="BinHex"/>
+	<field name="uimenupageStreetArtGalleryPage" type="BinHex"/>
+	<field name="uimenupageTeamAppMainPage" type="BinHex"/>
 	<field hash="5F38DFC9" type="BinHex"/>
-	<field hash="4080DAAF" type="BinHex"/>
-	<field hash="5D715257" type="BinHex"/>
-	<field hash="B6FF1800" type="BinHex"/>
-	<field hash="39942827" type="BinHex"/>
-	<field hash="F5C0051B" type="BinHex"/>
-	<field hash="1E272136" type="BinHex"/>
+	<field name="uimenupageTeamAppOperativeDetailsPage" type="BinHex"/>
+	<field name="uimenupageTeamAppOperativeDetailsPageV3" type="BinHex"/>
+	<field name="uimenupageTeamAppOperativeLoadoutPage" type="BinHex"/>
+	<field name="uimenupageTeamAppRCCustomizationPage" type="BinHex"/>
+	<field name="uimenupageTeamAppGadgetCustomizationPage" type="BinHex"/>
+	<field name="uimenupageModsPage" type="BinHex"/>
 	<field name="uimenupageTutorialsListPage" type="BinHex"/>
 	<field name="uimenupageTutorialsCategoriesPage" type="BinHex"/>
 	<field name="uimenupageWardrobeItemsPage" type="BinHex"/>
-	<field hash="14CCBDAF" type="BinHex"/>
-	<field hash="44CC8910" type="BinHex"/>
+	<field name="uimenupageWardrobeCategoriesPage" type="BinHex"/>
+	<field name="uimenupageWardrobeVarietiesPage" type="BinHex"/>
 	<field name="uimenupageWeaponItemsPage" type="BinHex"/>
 	<field name="uimenupageWorldMapPage" type="BinHex"/>
-	<field hash="264303C4" type="BinHex"/>
-	<field hash="4FD34658" type="BinHex"/>
-	<field hash="3B62796A" type="BinHex"/>
-	<field hash="8E551956" type="BinHex"/>
-	<field hash="2453A95E" type="BinHex"/>
-	<field hash="FE2DA308" type="BinHex"/>
+	<field name="uimenupageBenchmarkReportPage" type="BinHex"/>
+	<field name="uimenupageGamepadRemappingPage" type="BinHex"/>
+	<field name="uimenupageOnlineVendorAppPage" type="BinHex"/>
+	<field name="uimenupageFullscreenTutorialPage" type="BinHex"/>
+	<field name="uimenupageMenuFullscreenTutorialPage" type="BinHex"/>
+	<field name="uimenupageMPSelectGameSavePage" type="BinHex"/>
 	<field hash="F31FF68F" type="BinHex"/>
 	<field hash="D9DA8A6F" type="BinHex"/>
 	<field hash="D1F27B64" type="BinHex"/>
-	<field hash="0A5CA690" type="BinHex"/>
-	<field hash="E35E1850" type="BinHex"/>
-	<field hash="7F132CDC" type="BinHex"/>
-	<field hash="1CD39249" type="BinHex"/>
-	<field hash="2C88D0F9" type="BinHex"/>
-	<field hash="F7ABF5CB" type="BinHex"/>
-	<field hash="66BAC4A5" type="BinHex"/>
-	<field hash="2CE6B40C" type="BinHex"/>
+	<field name="uimenupageUpgradesPage" type="BinHex"/>
+	<field name="uimenupageMainSwitchHomePage" type="BinHex"/>
+	<field name="uimenupageRaidFailScreenPage" type="BinHex"/>
+	<field name="uimenupageRaidLobbyPage" type="BinHex"/>
+	<field name="uimenupageDigitalTripsLobbyPage" type="BinHex"/>
+	<field name="uimenupageDigitalTripResultsPage" type="BinHex"/>
+	<field name="uimenupageDigitalTripLoadoutPage" type="BinHex"/>
+	<field name="uimenupageDeepProfileViewPage" type="BinHex"/>
 	<field name="texturedbobjectDefaultSmartphoneBackground" type="BinHex"/>
 	<field name="uisoundSmartphoneBackSound" type="BinHex"/>
 	<field name="uisoundSmartphoneNavigationSound" type="BinHex"/>
 	<field name="uisoundSmartphoneSelectSound" type="BinHex"/>
-	<field hash="741E0C23" type="BinHex"/>
+	<field name="uisoundSmartphoneInvalidActionSound" type="BinHex"/>
 	<field name="uisoundChangeBagsSound" type="BinHex"/>
 	<field name="uisoundChangeGadgetsSound" type="BinHex"/>
 	<field name="uisoundChangeGlassesSound" type="BinHex"/>
@@ -132,19 +132,19 @@
 	<field name="uisoundChangeMasksSound" type="BinHex"/>
 	<field name="uisoundChangePantsSound" type="BinHex"/>
 	<field name="uisoundChangeShirtsSound" type="BinHex"/>
-	<field hash="CA83997E" type="BinHex"/>
+	<field name="uisoundChangeJacketsSound" type="BinHex"/>
 	<field name="uisoundChangeShoesSound" type="BinHex"/>
-	<field hash="A7D651B3" type="BinHex"/>
-	<field hash="2F9D31AE" type="BinHex"/>
-	<field hash="B21D14C2" type="BinHex"/>
-	<field hash="D291ED57" type="BinHex"/>
-	<field hash="7D3C9D72" type="BinHex"/>
-	<field hash="91A76844" type="BinHex"/>
-	<field hash="D834DD5C" type="BinHex"/>
-	<field hash="888D50DC" type="BinHex"/>
-	<field hash="6C41CB93" type="BinHex"/>
-	<field hash="2C086FF6" type="BinHex"/>
-	<field hash="8003750B" type="BinHex"/>
+	<field name="uisoundChangeHandsSound" type="BinHex"/>
+	<field name="uisoundChangeOutfitsSound" type="BinHex"/>
+	<field name="uisoundChangeFabricColorSound" type="BinHex"/>
+	<field name="uisoundChangeEarsSound" type="BinHex"/>
+	<field name="uisoundSwitchToLeftTabSound" type="BinHex"/>
+	<field name="uisoundSwitchToRightTabSound" type="BinHex"/>
+	<field name="uisoundPremiumShopHoldStartedSound" type="BinHex"/>
+	<field name="uisoundPremiumShopHoldSuccededSound" type="BinHex"/>
+	<field name="uisoundPremiumShopHoldStoppedSound" type="BinHex"/>
+	<field name="fStickNavRepeatTime" type="BinHex"/>
+	<field name="fStickNavDelay" type="BinHex"/>
 	<field name="fOnFocusTileDistance3D" type="Float"/>
 	<field name="uitweensettingOnFocusTileTweenSetting" type="BinHex"/>
 	<field name="uitweensettingOnScrollTileTweenSetting" type="BinHex"/>
@@ -154,16 +154,16 @@
 				<field hash="9A5A85C9" type="String"/>
 				<field name="menuselectionname" type="BinHex"/>
 				<field name="uimenupageCalibrationMenuPage" type="BinHex"/>
-				<field hash="5E3C2CE8" type="BinHex"/>
+				<field name="uimenupageNvidiaLogoMenuPage" type="BinHex"/>
 				<field name="uimenupageEpilepsyWarningMenuPage" type="BinHex"/>
-				<field hash="B26874DC" type="BinHex"/>
+				<field name="uimenupageSaveNotificationPage" type="BinHex"/>
 				<field name="uimenupageStartMenuPage" type="BinHex"/>
 				<field name="uimenupagePauseMenuPage" type="BinHex"/>
 				<field name="uimenupageUbisoftPresentsMenuPage" type="BinHex"/>
 				<field name="uimenupageMainMenuPage" type="BinHex"/>
 				<field name="uimenupageShopMenuPage" type="BinHex"/>
 				<field name="uimenupageCreditsMenuPage" type="BinHex"/>
-				<field hash="C0091C25" type="BinHex"/>
+				<field name="uimenupageIdleMenuPage" type="BinHex"/>
 				<field name="uimenupageSettingsMenuPage" type="BinHex"/>
 				<field name="uimenupageSettingsControlsMenuPage" type="BinHex"/>
 				<field name="uimenupageSettingsControlSchemeMenuPage" type="BinHex"/>
@@ -175,48 +175,48 @@
 				<field name="uimenupageSettingsHUDMenuPage" type="BinHex"/>
 				<field name="uimenupageSettingsDisplayMenuPage" type="BinHex"/>
 				<field name="uimenupageSettingsGraphicMenuPage" type="BinHex"/>
-				<field hash="A873701C" type="BinHex"/>
-				<field hash="C961138C" type="BinHex"/>
-				<field hash="1BE82D97" type="BinHex"/>
+				<field name="uimenupageWelcomeSettingsMenuPage" type="BinHex"/>
+				<field name="uimenupagePlayOnlineSettingsMenuPage" type="BinHex"/>
+				<field name="uimenupageVisualMatchmakingMenuPage" type="BinHex"/>
 			</object>
 		</object>
 	</object>
 	<object name="MediaPlayerpages"/>
-	<object hash="52286A5E">
-		<object hash="4FE218E6">
-			<field hash="1BB32862" type="BinHex"/>
+	<object name="DataDriveAppCategoryPages">
+		<object name="DataDriveAppCategoryPage">
+			<field name="uimenupageDataDriveAppCategoryPages" type="BinHex"/>
 		</object>
 	</object>
 	<object name="MainAndPauseMenuSounds">
 		<field name="uisoundBackSound" type="BinHex"/>
 		<field name="uisoundNavigateSound" type="BinHex"/>
 		<field name="uisoundSelectSound" type="BinHex"/>
-		<field hash="BBFB59EC" type="BinHex"/>
+		<field name="uisoundSelectUnavailableSound" type="BinHex"/>
 	</object>
 	<object name="WorldMap">
 		<field name="fCameraDefaultAreaOfInterestZoomDistance" type="Float"/>
-		<field hash="48F3E7C4" type="BinHex"/>
-		<field hash="6E134C89" type="BinHex"/>
-		<field hash="E670E0D2" type="BinHex"/>
+		<field name="fCameraDefaultFOV" type="BinHex"/>
+		<field name="fCameraDefaultPitchInclineRatio" type="BinHex"/>
+		<field name="fCameraDefaultTransitionFactor" type="BinHex"/>
 		<field name="fCameraDefaultZoomDistance" type="Float"/>
 		<field name="fCameraMinZoomDistance" type="Float"/>
 		<field name="fCameraMaxZoomDistance" type="Float"/>
-		<field hash="72ED1EA9" type="BinHex"/>
-		<field hash="2314A5F4" type="BinHex"/>
+		<field name="fCameraMovementStickMinimumThreshold" type="BinHex"/>
+		<field name="fCameraMovementStickMaximumThreshold" type="BinHex"/>
 		<field name="fCameraMovementSpeed" type="Float"/>
-		<field hash="79923046" type="BinHex"/>
-		<field hash="CB471AFA" type="BinHex"/>
-		<field hash="ECFC7DCB" type="BinHex"/>
-		<field hash="FDBD1783" type="BinHex"/>
-		<field hash="7F9E282A" type="BinHex"/>
-		<field hash="F315BA7E" type="BinHex"/>
-		<field hash="E864602F" type="BinHex"/>
-		<field hash="1EEE3D48" type="BinHex"/>
-		<field hash="F346BA36" type="BinHex"/>
-		<field hash="40AAF5E0" type="BinHex"/>
-		<field hash="0E9849A5" type="BinHex"/>
-		<field hash="8E6322AE" type="BinHex"/>
-		<field hash="E8044682" type="BinHex"/>
+		<field name="fCameraMovementThreshold" type="BinHex"/>
+		<field name="fCameraMinYawInDegrees" type="BinHex"/>
+		<field name="fCameraMaxYawInDegrees" type="BinHex"/>
+		<field name="fCameraYawResetSpeed" type="BinHex"/>
+		<field name="fCameraPitchInDegreesAtFullZoomIn" type="BinHex"/>
+		<field name="fCameraPitchInDegreesAtFullZoomOut" type="BinHex"/>
+		<field name="selCameraPitchTweenType" type="BinHex"/>
+		<field name="fCursorSnapRangeWhenFocused" type="BinHex"/>
+		<field name="fCursorSnapRangeWhenUnfocused" type="BinHex"/>
+		<field name="fCursorSnapToMarkerSpeedFactor" type="BinHex"/>
+		<field name="fCameraZoomRatioMidZoomIn" type="BinHex"/>
+		<field name="fCameraZoomRatioMidZoomOut" type="BinHex"/>
+		<field name="fCameraZoomRatioFullZoomOut" type="BinHex"/>
 		<field name="fCameraZoomSpeed" type="Float"/>
 		<field name="sndMapEnterSound" type="BinHex"/>
 		<field name="sndMapExitSound" type="BinHex"/>
@@ -251,8 +251,8 @@
 		<field hash="527B1609" type="BinHex"/>
 	</object>
 	<object name="TeamSpeak">
-		<field hash="3590970C" type="BinHex"/>
-		<field hash="1414125C" type="BinHex"/>
+		<field name="uisoundTeamSpeakStartSkip" type="BinHex"/>
+		<field name="uisoundTeamSpeakCancelSkip" type="BinHex"/>
 	</object>
 	<object name="ProgressBar">
 		<field name="uibarsndprofileDefaultProgressBarSoundProfile" type="BinHex"/>

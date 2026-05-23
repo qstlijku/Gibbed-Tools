@@ -7,10 +7,10 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="logmatFleshSurfaceID" type="BinHex"/>
-	<field hash="7DD2F13E" type="BinHex"/>
+	<field name="logmatPuddleSurfaceID" type="BinHex"/>
 	<field name="logmatDefaultSurfaceID" type="BinHex"/>
 	<object name="sndswtpMaterialSoundSwitchType">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 </class>

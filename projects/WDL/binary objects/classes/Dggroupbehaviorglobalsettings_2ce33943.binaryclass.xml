@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="FE335759" type="BinHex"/>
+	<field name="fCooldownValue" type="BinHex"/>
 	<field hash="103301ED" type="BinHex"/>
 	<field name="fStartDelay" type="Float"/>
 </class>

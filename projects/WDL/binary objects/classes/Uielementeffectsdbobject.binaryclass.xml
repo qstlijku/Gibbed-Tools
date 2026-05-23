@@ -7,10 +7,10 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="19AD073D" type="String"/>
-	<field hash="EEF4779B" type="BinHex"/>
-	<object hash="BB69836E">
+	<field name="uielementeffectparamsEffectParametersType" type="BinHex"/>
+	<object name="EffectParamters">
 		<field name="fMovementDuration" type="Float"/>
 		<field name="fAlphaDuration" type="Float"/>
-		<field hash="AD4F7020" type="BinHex"/>
+		<field name="MaxOpacity" type="BinHex"/>
 	</object>
 </class>

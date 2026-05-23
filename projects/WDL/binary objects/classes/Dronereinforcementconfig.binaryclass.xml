@@ -6,18 +6,18 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="7C51D6F6" type="BinHex"/>
-	<object hash="AA5B97C9">
-		<object hash="19EF6456">
-			<field hash="C36F6B21" type="BinHex"/>
-			<field hash="48A25DE7" type="BinHex"/>
-			<field hash="195BE6BA" type="BinHex"/>
-			<field hash="31E07BFD" type="BinHex"/>
+	<field name="bIsDigitalFelonySpawner" type="BinHex"/>
+	<object name="DigitalFelonyDroneSpawn">
+		<object name="DroneSpawnInfos">
+			<field name="fSpawnDelay" type="BinHex"/>
+			<field name="fMinSpawnDistance" type="BinHex"/>
+			<field name="fMaxSpawnDistance" type="BinHex"/>
+			<field name="fUsefulDistance" type="BinHex"/>
 			<field name="fUnspawnDistance" type="Float"/>
-			<field hash="5139A400" type="BinHex"/>
-			<field hash="A5137B9E" type="BinHex"/>
+			<field name="uiSpawnBiasFront" type="BinHex"/>
+			<field name="uiSpawnBiasBack" type="BinHex"/>
 			<field name="fTakedownRespawnDelay" type="Float"/>
-			<field hash="F9E9DAC9" type="BinHex"/>
+			<field name="fEscapeRespawnDelay" type="BinHex"/>
 		</object>
 	</object>
 </class>

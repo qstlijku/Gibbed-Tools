@@ -38,15 +38,15 @@
 			</object>
 			<object name="UserSettings">
 				<field name="bCivilian" type="Boolean"/>
-				<field hash="5270412C" type="BinHex"/>
+				<field name="bAI" type="BinHex"/>
 				<field name="bPlayer" type="Boolean"/>
 				<field name="fDisableAttractorOnEntityDuration" type="Float"/>
-				<field hash="D19FD9EF" type="BinHex"/>
+				<field name="fDisableAttractorOnEntitySpawnedForDuration" type="BinHex"/>
 				<field name="bRestrictOnBehaviorStates" type="Boolean"/>
 				<field name="selAffiliation" type="Enum"/>
-				<field hash="808E0DAA" type="BinHex"/>
-				<field hash="F202E357" type="BinHex"/>
-				<field hash="15888F1E" type="BinHex"/>
+				<field name="fPlayerInteractionConeHorzAngle" type="BinHex"/>
+				<field name="fPlayerInteractionConeHorzAngleOffset" type="BinHex"/>
+				<field name="fPlayerInteractionConeRange" type="BinHex"/>
 			</object>
 		</object>
 		<object name="PatrolSettings">
@@ -76,9 +76,9 @@
 		<object name="SpawningSettings">
 			<field name="bSpawningMandatory" type="Boolean"/>
 			<field name="bCanSpawn" type="Boolean"/>
-			<field hash="6DB2A225" type="BinHex"/>
-			<field hash="920ED967" type="BinHex"/>
-			<field hash="738A6CA1" type="BinHex"/>
+			<field name="bCanSpawnCloseToCamera" type="BinHex"/>
+			<field name="bIsActiveInRaids" type="BinHex"/>
+			<field name="bForceDetachAfterSpawn" type="BinHex"/>
 			<field name="bIsScoutXTarget" type="Boolean"/>
 			<field name="ScoutXTargetNameLocId" type="BinHex"/>
 			<field name="peopleinfoPeopleSpawnInfoOverride" type="BinHex"/>
@@ -86,7 +86,7 @@
 			<field name="selActivity" type="Enum"/>
 			<field name="selSpecialDemoCharacter" type="Enum"/>
 			<field name="rewardconfigRewardConfig" type="BinHex"/>
-			<field hash="5D20B173" type="BinHex"/>
+			<field name="hackingdefinitionHackingDefinition" type="BinHex"/>
 			<field name="conversationinteractionConversationInteractionSettings" type="BinHex"/>
 			<field name="bSpawnBuddyDeconnected" type="Boolean"/>
 		</object>

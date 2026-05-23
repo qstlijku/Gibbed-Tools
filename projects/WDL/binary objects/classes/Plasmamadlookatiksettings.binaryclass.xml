@@ -6,17 +6,17 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="7FBA8B34" type="BinHex"/>
-	<field hash="930BFCBE" type="BinHex"/>
-	<field hash="350AE5F5" type="BinHex"/>
-	<field hash="B4FA725A" type="BinHex"/>
-	<field hash="9EF353E1" type="BinHex"/>
-	<object hash="6BAA7452">
-		<field hash="7B534167" type="BinHex"/>
+	<field name="selRootJointName" type="BinHex"/>
+	<field name="selEndJointName" type="BinHex"/>
+	<field name="AngleLimits" type="BinHex"/>
+	<field name="BlendOnTime" type="BinHex"/>
+	<field name="BlendOffTime" type="BinHex"/>
+	<object name="JointParams">
+		<field name="selJoint" type="BinHex"/>
 		<field name="Weight" type="BinHex"/>
 		<field name="Enabled" type="BinHex"/>
-		<object hash="6BAA7452">
-			<field hash="7B534167" type="BinHex"/>
+		<object name="JointParams">
+			<field name="selJoint" type="BinHex"/>
 			<field name="Weight" type="BinHex"/>
 			<field name="Enabled" type="BinHex"/>
 		</object>

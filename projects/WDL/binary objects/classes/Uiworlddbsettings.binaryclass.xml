@@ -6,14 +6,14 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="ABE0EC5B">
-		<object hash="2A5C466A">
-			<field hash="38E985FE" type="BinHex"/>
-			<field hash="3B1A65B1" type="BinHex"/>
+	<object name="Map">
+		<object name="CameraHorizontalBounds">
+			<field name="fMinimum" type="BinHex"/>
+			<field name="fMaximum" type="BinHex"/>
 		</object>
-		<object hash="C4D16834">
-			<field hash="38E985FE" type="BinHex"/>
-			<field hash="3B1A65B1" type="BinHex"/>
+		<object name="CameraVerticalBounds">
+			<field name="fMinimum" type="BinHex"/>
+			<field name="fMaximum" type="BinHex"/>
 		</object>
 	</object>
 </class>

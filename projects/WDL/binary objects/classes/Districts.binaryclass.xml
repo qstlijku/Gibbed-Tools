@@ -19,7 +19,7 @@
 	<field name="selDisplayNameBehavior" type="Enum"/>
 	<field name="entDistrictNameMapIconEntity" type="BinHex"/>
 	<field name="selPoliceAffiliation" type="Enum"/>
-	<field hash="F44A83F1" type="BinHex"/>
+	<field name="selWorldMoodZone" type="BinHex"/>
 	<object name="locstridDistrictName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
@@ -38,17 +38,17 @@
 		</object>
 		<object hash="8C10D036">
 			<field name="entcontContext" type="BinHex"/>
-			<field hash="6116A158" type="BinHex"/>
+			<field name="dronebankDronesBank" type="BinHex"/>
 			<object hash="B3B7E88D">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 			<object hash="8C10D036">
 				<field name="entcontContext" type="BinHex"/>
-				<field hash="6116A158" type="BinHex"/>
+				<field name="dronebankDronesBank" type="BinHex"/>
 				<object hash="B3B7E88D">
-					<field hash="94C08F9B" type="BinHex"/>
-					<field hash="1DF2E0ED" type="BinHex"/>
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -79,7 +79,7 @@
 	</object>
 	<object hash="778B34AE">
 		<object name="Trigger">
-			<field hash="C50F1A52" type="BinHex"/>
+			<field name="rulesmithidRuleId" type="BinHex"/>
 		</object>
 	</object>
 </class>

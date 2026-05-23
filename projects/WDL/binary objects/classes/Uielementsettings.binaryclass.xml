@@ -67,7 +67,7 @@
 		<field hash="6D9EA3BA" type="BinHex"/>
 		<field hash="EB22633A" type="BinHex"/>
 		<field hash="DAFF9FBF" type="BinHex"/>
-		<field hash="B2194DB4" type="BinHex"/>
+		<field name="texturedbobjectReward" type="BinHex"/>
 		<field hash="449BCA64" type="BinHex"/>
 		<field hash="32FCDD8E" type="BinHex"/>
 		<field hash="393334BB" type="BinHex"/>
@@ -130,7 +130,7 @@
 		<field hash="F824D6FE" type="BinHex"/>
 		<field hash="2222F91E" type="BinHex"/>
 		<field hash="2DBA7DE7" type="BinHex"/>
-		<field hash="DF46EABE" type="BinHex"/>
+		<field name="fNotificationDuration" type="BinHex"/>
 		<field hash="61ACB6B4" type="BinHex"/>
 		<field hash="8589C298" type="BinHex"/>
 		<field hash="5D9946FC" type="BinHex"/>
@@ -179,8 +179,8 @@
 		<field name="sContainerDpsName" type="String"/>
 		<field hash="5811B126" type="BinHex"/>
 		<field hash="3B561303" type="BinHex"/>
-		<field hash="6351621B" type="BinHex"/>
-		<field hash="C09AC4BE" type="BinHex"/>
+		<field name="fHealthBarDeltaDelayTweenTime" type="BinHex"/>
+		<field name="fHealthBarDeltaTweenTime" type="BinHex"/>
 		<field hash="ED41ACF6" type="BinHex"/>
 		<field hash="CC8F5335" type="BinHex"/>
 		<field hash="DD9F4E29" type="BinHex"/>
@@ -266,10 +266,10 @@
 		<object hash="661B0C07">
 			<field hash="830B954E" type="BinHex"/>
 			<object hash="012D0C68">
-				<field hash="CADAF72A" type="BinHex"/>
+				<field name="uiEmoticonUnicodeSymbol" type="BinHex"/>
 				<field hash="615826CF" type="BinHex"/>
 				<object hash="012D0C68">
-					<field hash="CADAF72A" type="BinHex"/>
+					<field name="uiEmoticonUnicodeSymbol" type="BinHex"/>
 					<field hash="615826CF" type="BinHex"/>
 				</object>
 			</object>
@@ -335,7 +335,7 @@
 		</object>
 		<object hash="53FD2616">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="A0CE7DB6">
 			<field name="LocalizationId" type="UInt64"/>
@@ -403,7 +403,7 @@
 		<object hash="1FE75BAB">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="05E01F14">
+		<object name="locstridExplosive">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="33239EAC">
@@ -459,7 +459,7 @@
 		</object>
 		<object hash="B959378D">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="63880E61">
 			<field name="LocalizationId" type="UInt64"/>
@@ -546,7 +546,7 @@
 		<object hash="A6973721">
 			<object hash="5619AE75">
 				<field hash="FFB19CEA" type="BinHex"/>
-				<object hash="04712EDB">
+				<object name="locstridLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
@@ -597,13 +597,13 @@
 		<object hash="E3103CA6">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1E31D195">
+		<object name="Rage">
 			<field name="texturedbobjectIcon" type="BinHex"/>
 		</object>
 		<object hash="091AD190">
 			<field name="texturedbobjectIcon" type="BinHex"/>
 		</object>
-		<object hash="84D46489">
+		<object name="ForceShield">
 			<field name="texturedbobjectIcon" type="BinHex"/>
 		</object>
 		<object hash="B5F80C46">

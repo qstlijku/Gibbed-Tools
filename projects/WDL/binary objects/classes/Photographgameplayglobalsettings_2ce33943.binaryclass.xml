@@ -6,32 +6,32 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="BCED7D95">
-		<object hash="B45C3B2C">
-			<field hash="A65C0EC6" type="BinHex"/>
-			<field hash="044B9513" type="BinHex"/>
-			<object hash="133FF243">
+	<object name="ObjOutcomesForCensusStates">
+		<object name="ObjOutcomeForRecruitedActor">
+			<field name="selObjectiveOutcome" type="BinHex"/>
+			<field name="phonecommunicationsettingsOutcomeTeamspeak" type="BinHex"/>
+			<object name="locstridFailLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="5F29CCA2">
-			<field hash="A65C0EC6" type="BinHex"/>
-			<field hash="044B9513" type="BinHex"/>
-			<object hash="133FF243">
+		<object name="ObjOutcomeForInjuredAndUnspawnedActor">
+			<field name="selObjectiveOutcome" type="BinHex"/>
+			<field name="phonecommunicationsettingsOutcomeTeamspeak" type="BinHex"/>
+			<object name="locstridFailLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="196E9BB6">
-			<field hash="A65C0EC6" type="BinHex"/>
-			<field hash="044B9513" type="BinHex"/>
-			<object hash="133FF243">
+		<object name="ObjOutcomeForArrestedAndUnspawnedActor">
+			<field name="selObjectiveOutcome" type="BinHex"/>
+			<field name="phonecommunicationsettingsOutcomeTeamspeak" type="BinHex"/>
+			<object name="locstridFailLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="24959C47">
-			<field hash="A65C0EC6" type="BinHex"/>
-			<field hash="044B9513" type="BinHex"/>
-			<object hash="133FF243">
+		<object name="ObjOutcomeForDeadAndUnspawnedActor">
+			<field name="selObjectiveOutcome" type="BinHex"/>
+			<field name="phonecommunicationsettingsOutcomeTeamspeak" type="BinHex"/>
+			<object name="locstridFailLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>

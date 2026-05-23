@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="C4B623C1">
+	<object name="locstridTutorialLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="B1427AEA">
-		<object hash="46F9BE6E">
-			<field hash="A067B1A1" type="BinHex"/>
+	<object name="TutorialItems">
+		<object name="TutorialItem">
+			<field name="itemsTutorialItem" type="BinHex"/>
 		</object>
 	</object>
 </class>

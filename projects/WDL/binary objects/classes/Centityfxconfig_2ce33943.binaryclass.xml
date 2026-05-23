@@ -6,8 +6,8 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="84D46489">
-		<object hash="2E7CA264">
+	<object name="ForceShield">
+		<object name="StartStage">
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
@@ -17,7 +17,7 @@
 					<field hash="795F32D4" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="bIsLooping" type="Boolean"/>
-					<field hash="43ED3C1A" type="BinHex"/>
+					<field name="bIsBoundToBone" type="BinHex"/>
 				</object>
 				<object name="Particles">
 					<object name="Particle">
@@ -26,12 +26,12 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="D4580BA0">
+		<object name="HitStage">
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
@@ -42,12 +42,12 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="B5F609DF">
+		<object name="BreakStage">
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
@@ -58,38 +58,12 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="892C2264">
-			<field hash="463EA461" type="String"/>
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles">
-				<object name="Particle">
-					<field hash="3030F2A0" type="String"/>
-					<field name="psParticles" type="BinHex"/>
-					<field hash="795F32D4" type="String"/>
-					<field name="BoneName" type="BinHex"/>
-					<field name="bIsLooping" type="Boolean"/>
-					<field hash="43ED3C1A" type="BinHex"/>
-				</object>
-				<object name="Particles">
-					<object name="Particle">
-						<field hash="3030F2A0" type="String"/>
-						<field name="psParticles" type="BinHex"/>
-						<field hash="795F32D4" type="String"/>
-						<field name="BoneName" type="BinHex"/>
-						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-		</object>
-	</object>
-	<object hash="1E31D195">
-		<object hash="2E7CA264">
+		<object name="EndStage">
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
@@ -99,7 +73,7 @@
 					<field hash="795F32D4" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="bIsLooping" type="Boolean"/>
-					<field hash="43ED3C1A" type="BinHex"/>
+					<field name="bIsBoundToBone" type="BinHex"/>
 				</object>
 				<object name="Particles">
 					<object name="Particle">
@@ -108,44 +82,14 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="D4580BA0">
-			<field hash="463EA461" type="String"/>
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles">
-				<object name="Particles">
-					<object name="Particle">
-						<field hash="3030F2A0" type="String"/>
-						<field name="psParticles" type="BinHex"/>
-						<field hash="795F32D4" type="String"/>
-						<field name="BoneName" type="BinHex"/>
-						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-		</object>
-		<object hash="B5F609DF">
-			<field hash="463EA461" type="String"/>
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles">
-				<object name="Particles">
-					<object name="Particle">
-						<field hash="3030F2A0" type="String"/>
-						<field name="psParticles" type="BinHex"/>
-						<field hash="795F32D4" type="String"/>
-						<field name="BoneName" type="BinHex"/>
-						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-		</object>
-		<object hash="892C2264">
+	</object>
+	<object name="Rage">
+		<object name="StartStage">
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
@@ -155,7 +99,7 @@
 					<field hash="795F32D4" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="bIsLooping" type="Boolean"/>
-					<field hash="43ED3C1A" type="BinHex"/>
+					<field name="bIsBoundToBone" type="BinHex"/>
 				</object>
 				<object name="Particles">
 					<object name="Particle">
@@ -164,14 +108,12 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-	</object>
-	<object hash="760757C7">
-		<object hash="2E7CA264">
+		<object name="HitStage">
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
@@ -182,12 +124,12 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="D4580BA0">
+		<object name="BreakStage">
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
@@ -198,12 +140,38 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="B5F609DF">
+		<object name="EndStage">
+			<field hash="463EA461" type="String"/>
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles">
+				<object name="Particle">
+					<field hash="3030F2A0" type="String"/>
+					<field name="psParticles" type="BinHex"/>
+					<field hash="795F32D4" type="String"/>
+					<field name="BoneName" type="BinHex"/>
+					<field name="bIsLooping" type="Boolean"/>
+					<field name="bIsBoundToBone" type="BinHex"/>
+				</object>
+				<object name="Particles">
+					<object name="Particle">
+						<field hash="3030F2A0" type="String"/>
+						<field name="psParticles" type="BinHex"/>
+						<field hash="795F32D4" type="String"/>
+						<field name="BoneName" type="BinHex"/>
+						<field name="bIsLooping" type="Boolean"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Taunt">
+		<object name="StartStage">
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
@@ -214,12 +182,12 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="892C2264">
+		<object name="HitStage">
 			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
@@ -230,69 +198,13 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-	</object>
-	<object hash="A7ACF685">
-		<object hash="2E7CA264">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles">
-				<object name="Particles">
-					<object name="Particle">
-						<field hash="3030F2A0" type="String"/>
-						<field name="psParticles" type="BinHex"/>
-						<field name="BoneName" type="BinHex"/>
-						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-		</object>
-		<object hash="D4580BA0">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-		<object hash="B5F609DF">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-		<object hash="892C2264">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-	</object>
-	<object hash="CEB1B501">
-		<object hash="2E7CA264">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles">
-				<object name="Particles">
-					<object name="Particle">
-						<field name="psParticles" type="BinHex"/>
-						<field name="BoneName" type="BinHex"/>
-						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-		</object>
-		<object hash="D4580BA0">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-		<object hash="B5F609DF">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-		<object hash="892C2264">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-	</object>
-	<object hash="553F2E79">
-		<object hash="2E7CA264">
+		<object name="BreakStage">
+			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
@@ -302,26 +214,13 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="D4580BA0">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-		<object hash="B5F609DF">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-		<object hash="892C2264">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-	</object>
-	<object hash="9C23ED9F">
-		<object hash="2E7CA264">
+		<object name="EndStage">
+			<field hash="463EA461" type="String"/>
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
@@ -331,60 +230,69 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-		</object>
-		<object hash="D4580BA0">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-		<object hash="B5F609DF">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-		<object hash="892C2264">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles">
-				<object name="Particles">
-					<object name="Particle">
-						<field hash="3030F2A0" type="String"/>
-						<field name="psParticles" type="BinHex"/>
-						<field hash="795F32D4" type="String"/>
-						<field name="BoneName" type="BinHex"/>
-						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="5208EB89">
-		<object hash="2E7CA264">
+	<object name="EMP">
+		<object name="StartStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
 					<object name="Particle">
 						<field hash="3030F2A0" type="String"/>
 						<field name="psParticles" type="BinHex"/>
-						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="D4580BA0">
+		<object name="HitStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
-		<object hash="B5F609DF">
+		<object name="BreakStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
-		<object hash="892C2264">
+		<object name="EndStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+	</object>
+	<object name="DroneSwarm">
+		<object name="StartStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles">
+				<object name="Particles">
+					<object name="Particle">
+						<field name="psParticles" type="BinHex"/>
+						<field name="BoneName" type="BinHex"/>
+						<field name="bIsLooping" type="Boolean"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="HitStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+		<object name="BreakStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+		<object name="EndStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+	</object>
+	<object name="Provoke">
+		<object name="StartStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
@@ -394,14 +302,106 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="HitStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+		<object name="BreakStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+		<object name="EndStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+	</object>
+	<object name="ExplosiveBot">
+		<object name="StartStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles">
+				<object name="Particles">
+					<object name="Particle">
+						<field hash="3030F2A0" type="String"/>
+						<field name="psParticles" type="BinHex"/>
+						<field hash="795F32D4" type="String"/>
+						<field name="BoneName" type="BinHex"/>
+						<field name="bIsLooping" type="Boolean"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="HitStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+		<object name="BreakStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+		<object name="EndStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles">
+				<object name="Particles">
+					<object name="Particle">
+						<field hash="3030F2A0" type="String"/>
+						<field name="psParticles" type="BinHex"/>
+						<field hash="795F32D4" type="String"/>
+						<field name="BoneName" type="BinHex"/>
+						<field name="bIsLooping" type="Boolean"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="E69707A1">
-		<object hash="2E7CA264">
+	<object name="ARCloakDamageBoost">
+		<object name="StartStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles">
+				<object name="Particles">
+					<object name="Particle">
+						<field hash="3030F2A0" type="String"/>
+						<field name="psParticles" type="BinHex"/>
+						<field hash="795F32D4" type="String"/>
+						<field name="BoneName" type="BinHex"/>
+						<field name="bIsLooping" type="Boolean"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="HitStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+		<object name="BreakStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+		<object name="EndStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles">
+				<object name="Particles">
+					<object name="Particle">
+						<field hash="3030F2A0" type="String"/>
+						<field name="psParticles" type="BinHex"/>
+						<field hash="795F32D4" type="String"/>
+						<field name="BoneName" type="BinHex"/>
+						<field name="bIsLooping" type="Boolean"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="SurviveGrenadeChargeUpTier1">
+		<object name="StartStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
@@ -410,26 +410,26 @@
 						<field name="psParticles" type="BinHex"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="D4580BA0">
+		<object name="HitStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
-		<object hash="B5F609DF">
+		<object name="BreakStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
-		<object hash="892C2264">
+		<object name="EndStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
 	</object>
-	<object hash="7F9E561B">
-		<object hash="2E7CA264">
+	<object name="SurviveGrenadeChargeUpTier2">
+		<object name="StartStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
@@ -438,94 +438,64 @@
 						<field name="psParticles" type="BinHex"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="D4580BA0">
+		<object name="HitStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
-		<object hash="B5F609DF">
+		<object name="BreakStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
-		<object hash="892C2264">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-	</object>
-	<object hash="0899668D">
-		<object hash="2E7CA264">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles">
-				<object name="Particles">
-					<object name="Particle">
-						<field hash="3030F2A0" type="String"/>
-						<field name="psParticles" type="BinHex"/>
-						<field name="BoneName" type="BinHex"/>
-						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-		</object>
-		<object hash="D4580BA0">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles">
-				<object name="Particles">
-					<object name="Particle">
-						<field hash="3030F2A0" type="String"/>
-						<field name="psParticles" type="BinHex"/>
-						<field name="BoneName" type="BinHex"/>
-						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
-					</object>
-				</object>
-			</object>
-		</object>
-		<object hash="B5F609DF">
-			<field name="sndSound" type="BinHex"/>
-			<object name="Particles"/>
-		</object>
-		<object hash="892C2264">
+		<object name="EndStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
 	</object>
-	<object hash="0B215813">
-		<object hash="2E7CA264">
+	<object name="SurviveGrenadeChargeUpTier3">
+		<object name="StartStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
 					<object name="Particle">
 						<field hash="3030F2A0" type="String"/>
 						<field name="psParticles" type="BinHex"/>
-						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="D4580BA0">
+		<object name="HitStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
 					<object name="Particle">
 						<field hash="3030F2A0" type="String"/>
 						<field name="psParticles" type="BinHex"/>
-						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="B5F609DF">
+		<object name="BreakStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+		<object name="EndStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles"/>
+		</object>
+	</object>
+	<object name="SurviveGrenadeImmortalityShield">
+		<object name="StartStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
@@ -535,12 +505,12 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="892C2264">
+		<object name="HitStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles">
 				<object name="Particles">
@@ -550,34 +520,64 @@
 						<field hash="795F32D4" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="bIsLooping" type="Boolean"/>
-						<field hash="43ED3C1A" type="BinHex"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="BreakStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles">
+				<object name="Particles">
+					<object name="Particle">
+						<field hash="3030F2A0" type="String"/>
+						<field name="psParticles" type="BinHex"/>
+						<field hash="795F32D4" type="String"/>
+						<field name="BoneName" type="BinHex"/>
+						<field name="bIsLooping" type="Boolean"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="EndStage">
+			<field name="sndSound" type="BinHex"/>
+			<object name="Particles">
+				<object name="Particles">
+					<object name="Particle">
+						<field hash="3030F2A0" type="String"/>
+						<field name="psParticles" type="BinHex"/>
+						<field hash="795F32D4" type="String"/>
+						<field name="BoneName" type="BinHex"/>
+						<field name="bIsLooping" type="Boolean"/>
+						<field name="bIsBoundToBone" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
 	</object>
 	<object hash="89B6D047">
-		<object hash="2E7CA264">
+		<object name="StartStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
-		<object hash="D4580BA0">
+		<object name="HitStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
-		<object hash="B5F609DF">
+		<object name="BreakStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
-		<object hash="892C2264">
+		<object name="EndStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>
 		</object>
 	</object>
-	<object hash="4AF8D438">
+	<object name="DebugParticles">
 		<object name="Particles">
 			<field hash="13800565" type="String"/>
-			<field hash="BFBFE566" type="BinHex"/>
+			<field name="psDebugParticles" type="BinHex"/>
 			<field name="sName" type="String"/>
 		</object>
 	</object>

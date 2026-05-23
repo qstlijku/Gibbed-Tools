@@ -6,34 +6,34 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9F75F432" type="BinHex"/>
+	<field name="fActivationDistance" type="BinHex"/>
 	<field name="fDeactivationDistance" type="Float"/>
-	<field hash="8B7D2062" type="BinHex"/>
-	<field hash="E4BAA0C8" type="BinHex"/>
-	<field hash="090C61F8" type="BinHex"/>
-	<field hash="321074B7" type="BinHex"/>
+	<field name="fActivationDistanceForArrest" type="BinHex"/>
+	<field name="fDeactivationDistanceForArrest" type="BinHex"/>
+	<field name="uiWantedLevelForTrigger" type="BinHex"/>
+	<field name="uiWantedLevelForTriggerArrest" type="BinHex"/>
 	<field hash="4021AFB8" type="BinHex"/>
-	<field hash="EA21CC1D" type="BinHex"/>
+	<field name="sndCheckpointActivationSound" type="BinHex"/>
 	<field hash="D45BB6B8" type="BinHex"/>
-	<field hash="AE0BC9C1" type="BinHex"/>
+	<field name="sndTargetDetectedSound" type="BinHex"/>
 	<field hash="23335519" type="BinHex"/>
 	<field hash="422A47D2" type="String"/>
-	<field hash="C90D5A56" type="BinHex"/>
-	<object hash="86F04A50">
-		<field hash="6315FC0F" type="BinHex"/>
-		<field hash="D0D318A3" type="BinHex"/>
-		<field hash="338EA679" type="BinHex"/>
-		<field hash="D8009882" type="BinHex"/>
+	<field name="TargetDetectedBark" type="BinHex"/>
+	<object name="RandomNPCFelony">
+		<field name="fNPCFelonyTriggerProbabilityPercentage" type="BinHex"/>
+		<field name="fMinRandomNPCFelonyInterval" type="BinHex"/>
+		<field name="fMaxRandomNPCFelonyInterval" type="BinHex"/>
+		<field name="fFelonyPlayerCamProximityVertical" type="BinHex"/>
 	</object>
 	<object name="Profiler">
 		<field hash="6446C6E2" type="String"/>
-		<field hash="B22C3F60" type="BinHex"/>
+		<field name="sndProfileGrantedSound" type="BinHex"/>
 		<field hash="A969CA31" type="BinHex"/>
 		<field hash="50B30B71" type="String"/>
-		<field hash="ECE961D1" type="BinHex"/>
+		<field name="sndProfileDeniedSound" type="BinHex"/>
 		<field hash="1FC21215" type="BinHex"/>
-		<field hash="2738586F" type="BinHex"/>
-		<field hash="80EB3BFC" type="BinHex"/>
+		<field name="fDisplayProfileDelay" type="BinHex"/>
+		<field name="fDisappearProfileDelay" type="BinHex"/>
 	</object>
 	<object hash="B0C20042">
 		<field hash="E302FBA4" type="BinHex"/>
@@ -44,17 +44,17 @@
 		<field hash="D1CAB116" type="String"/>
 		<field hash="1B21EEBA" type="BinHex"/>
 	</object>
-	<object hash="732599D2">
+	<object name="Propaganda">
 		<field hash="AC494C17" type="String"/>
-		<field hash="0076AC14" type="BinHex"/>
+		<field name="PropagandaDialog" type="BinHex"/>
 		<field hash="D6CD9B1E" type="String"/>
-		<field hash="1D0E4204" type="BinHex"/>
+		<field name="WarningStateActivationDialog" type="BinHex"/>
 		<field hash="1A928BF6" type="String"/>
-		<field hash="59B440C7" type="BinHex"/>
-		<field hash="39073945" type="BinHex"/>
-		<field hash="07B2F1CD" type="BinHex"/>
-		<field hash="C38FCF65" type="BinHex"/>
-		<field hash="9029D781" type="BinHex"/>
+		<field name="AggressiveStateActivationDialog" type="BinHex"/>
+		<field name="fMinInitialPropagandaDelay" type="BinHex"/>
+		<field name="fMaxInitialPropagandaDelay" type="BinHex"/>
+		<field name="fMinPropagandaDelay" type="BinHex"/>
+		<field name="fMaxPropagandaDelay" type="BinHex"/>
 	</object>
 	<object hash="076A0B0B">
 		<field hash="A420F543" type="BinHex"/>

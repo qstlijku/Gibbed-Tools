@@ -7,32 +7,32 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
-		<object hash="0A3CA065">
-			<object hash="68454E2E">
+		<object name="Switches">
+			<object name="Switch">
 				<field name="text_Name" type="String"/>
 				<field name="Name" type="BinHex"/>
-				<object hash="AD3F91B0">
+				<object name="sndswtpType">
 					<field name="SoundId" type="BinHex"/>
-					<field hash="EE1824B1" type="String"/>
+					<field name="SoundGuid" type="String"/>
 				</object>
-				<object hash="770E41DB">
+				<object name="sndswvlValue">
 					<field name="SoundId" type="BinHex"/>
-					<field hash="EE1824B1" type="String"/>
+					<field name="SoundGuid" type="String"/>
 				</object>
 			</object>
 		</object>
-		<object hash="B3812CCF"/>
+		<object name="Rtpcs"/>
 		<object name="States">
 			<object name="State">
 				<field name="text_Name" type="String"/>
 				<field name="Name" type="BinHex"/>
-				<object hash="7143AE58">
+				<object name="sndstgrGroup">
 					<field name="SoundId" type="BinHex"/>
-					<field hash="EE1824B1" type="String"/>
+					<field name="SoundGuid" type="String"/>
 				</object>
-				<object hash="F9814638">
+				<object name="sndstvlValue">
 					<field name="SoundId" type="BinHex"/>
-					<field hash="EE1824B1" type="String"/>
+					<field name="SoundGuid" type="String"/>
 				</object>
 			</object>
 		</object>

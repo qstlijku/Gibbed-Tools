@@ -13,9 +13,9 @@
 			<field name="uiCoefficient" type="UInt32"/>
 		</object>
 	</object>
-	<object hash="55C8C5FE">
+	<object name="AllItems">
 		<object name="Item">
-			<field hash="D0DDE0E4" type="BinHex"/>
+			<field name="wolfskinitemdbItem" type="BinHex"/>
 			<field name="peopleinfoSpawnInfo" type="BinHex"/>
 		</object>
 	</object>

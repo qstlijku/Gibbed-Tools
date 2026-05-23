@@ -11,12 +11,12 @@
 	<field name="fWarningsDuration" type="Float"/>
 	<field name="iAtDamagePercentage" type="Int32"/>
 	<field hash="F1FEA1E4" type="BinHex"/>
-	<field hash="D0BD6B64" type="BinHex"/>
-	<field hash="7E9373D0" type="BinHex"/>
-	<field hash="1EE527FD" type="BinHex"/>
-	<field hash="A62816C6" type="BinHex"/>
-	<field hash="5C9BCB27" type="BinHex"/>
-	<object hash="4D263510">
+	<field name="fPursuedTeammatesRadiusCheck" type="BinHex"/>
+	<field name="fTimeToGetBackInVehicleWhenPursued" type="BinHex"/>
+	<field name="fAbandonmentWarningDisplayedAtDistanceFromTarget" type="BinHex"/>
+	<field name="fMaxAllowedDistanceFromTarget" type="BinHex"/>
+	<field name="fParkingRadiusForVehicleDeliveryAnyMode" type="BinHex"/>
+	<object name="locstridDestinationObjectiveMarkerLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridVehicleMarkerLocId">
@@ -40,25 +40,25 @@
 	<object name="locstridEscapePursuersWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="DB15D536">
+	<object name="locstridTeamEscapePursuersWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="C78AA21D">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4B6F6F9D">
+	<object name="locstridGetBackInVehicleWhenPursuedLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="5380879B">
+	<object name="locstridAbandoningVehicleWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="46572EE8">
+	<object name="locstridVehicleLostLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="24166135">
+	<object name="locstridAbandoningBuddyWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="40C727D0">
+	<object name="locstridBuddyLostLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

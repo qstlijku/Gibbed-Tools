@@ -6,19 +6,19 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="433A2926" type="BinHex"/>
-	<field hash="0A7EE1F8" type="BinHex"/>
-	<object hash="288E0A81">
-		<object hash="83D86F6D">
+	<field name="bTriggerCLODataGeneration" type="BinHex"/>
+	<field name="bTriggerCLODataClean" type="BinHex"/>
+	<object name="CLOEvents">
+		<object name="CLOEvent">
 			<field hash="A5FBB8A1" type="String"/>
-			<field hash="A69B3054" type="BinHex"/>
-			<field hash="0825D3BC" type="BinHex"/>
-			<object hash="CC15815C">
-				<object hash="169CB9E1">
+			<field name="fileCloBehaviorStrategy" type="BinHex"/>
+			<field name="pdcfgPhotoTargetConfig" type="BinHex"/>
+			<object name="CLOPosDatas">
+				<object name="CLOPosData">
 					<field name="CloId" type="BinHex"/>
-					<field hash="851CFA3B" type="BinHex"/>
-					<field hash="5C52CAAC" type="BinHex"/>
-					<field hash="FD3C5404" type="BinHex"/>
+					<field name="vectorCloPos" type="BinHex"/>
+					<field name="bMarkedForDelete" type="BinHex"/>
+					<field name="bCanBeUsed" type="BinHex"/>
 				</object>
 			</object>
 		</object>

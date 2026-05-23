@@ -7,11 +7,11 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="TestValue" type="BinHex"/>
-	<object hash="5A9F3061">
-		<object hash="2C608665">
+	<object name="LimitedSoundList">
+		<object name="LimitedSound">
 			<field name="MaxValue" type="BinHex"/>
 			<field hash="9D52DA72" type="String"/>
-			<field hash="1E4B9959" type="BinHex"/>
+			<field name="sndLimitedSound" type="BinHex"/>
 		</object>
 	</object>
 </class>

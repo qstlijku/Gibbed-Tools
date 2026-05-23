@@ -7,28 +7,28 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="sTrackingName" type="String"/>
-	<object hash="33AFACCA">
-		<object hash="F553BCF5">
-			<field hash="F553BCF5" type="BinHex"/>
+	<object name="DedsecInternationals">
+		<object name="selDSI">
+			<field name="selDSI" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="3E572127">
-		<object hash="363C8CB2">
-			<field hash="4916912D" type="BinHex"/>
-			<object hash="4E156004">
-				<object hash="F2466D8E">
-					<field hash="F2466D8E" type="BinHex"/>
+	<object name="Chapters">
+		<object name="Chapter">
+			<field name="opgenchapterregroupRegroups" type="BinHex"/>
+			<object name="Plots">
+				<object name="opgenplotPlot">
+					<field name="opgenplotPlot" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="C751F0B0"/>
-			<object hash="D1F08DF9">
+			<object name="PreviousPlotsSettings"/>
+			<object name="tagcategoryselectionblackboardPreferedComplexityTags">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<object name="Tags">
 							<object name="Tag">
@@ -37,7 +37,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -50,61 +50,61 @@
 			</object>
 		</object>
 	</object>
-	<object hash="B8CB6171">
-		<object hash="04E00B23">
+	<object name="opgenprofilesdefinitionsProfilesDefinitions">
+		<object name="LocationsDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="E915ADA6">
-				<object hash="BFECFEF4">
-					<field hash="BFECFEF4" type="BinHex"/>
+			<object name="LocationDefinitions">
+				<object name="opgenlocationdefinitionLocationDefinition">
+					<field name="opgenlocationdefinitionLocationDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="9B94D601">
+		<object name="DeliveryLocationsDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="E915ADA6">
-				<object hash="BFECFEF4">
-					<field hash="BFECFEF4" type="BinHex"/>
+			<object name="LocationDefinitions">
+				<object name="opgenlocationdefinitionLocationDefinition">
+					<field name="opgenlocationdefinitionLocationDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="FAA9B2EC">
+		<object name="HumanAlliesDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="D3599E81">
-				<object hash="EB3177F2">
-					<field hash="EB3177F2" type="BinHex"/>
+			<object name="HumanDefinitions">
+				<object name="opgenhumandefinitionHumanDefinition">
+					<field name="opgenhumandefinitionHumanDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="EE0D46F5">
+		<object name="HumanEnnemiesDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="D3599E81">
-				<object hash="EB3177F2">
-					<field hash="EB3177F2" type="BinHex"/>
+			<object name="HumanDefinitions">
+				<object name="opgenhumandefinitionHumanDefinition">
+					<field name="opgenhumandefinitionHumanDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="A076B70E">
+		<object name="VehiclesDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="AE6DEDC0">
-				<object hash="A22C17CA">
-					<field hash="A22C17CA" type="BinHex"/>
+			<object name="VehicleDefinitions">
+				<object name="opgenvehicledefinitionVehicleDefinition">
+					<field name="opgenvehicledefinitionVehicleDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="D0EAD89B">
+		<object name="DronesDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="58F6F7C5">
-				<object hash="7531E846">
-					<field hash="7531E846" type="BinHex"/>
+			<object name="DroneDefinitions">
+				<object name="opgendronedefinitionDroneDefinition">
+					<field name="opgendronedefinitionDroneDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="32C9C169">
+		<object name="AnyTargetDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="32C9C169">
+			<object name="AnyTargetDefinitions">
 				<field name="selMode" type="Enum"/>
-				<object hash="29FC6C57">
-					<field hash="29FC6C57" type="BinHex"/>
+				<object name="opgenanytargetdefinitionAnyTargetDefinition">
+					<field name="opgenanytargetdefinitionAnyTargetDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>

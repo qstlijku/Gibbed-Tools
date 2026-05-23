@@ -6,16 +6,16 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="163CA2CF" type="BinHex"/>
-	<field hash="DC2758E3" type="BinHex"/>
-	<field hash="E02A67BA" type="BinHex"/>
-	<field hash="CB92FB34" type="BinHex"/>
-	<field hash="2C0D130F" type="BinHex"/>
-	<field hash="10002C56" type="BinHex"/>
-	<field hash="A4D7FA42" type="BinHex"/>
-	<field hash="98DAC51B" type="BinHex"/>
-	<field hash="6C6044F3" type="BinHex"/>
-	<field hash="506D7BAA" type="BinHex"/>
-	<field hash="162AE2B3" type="BinHex"/>
-	<field hash="AEC91DB8" type="BinHex"/>
+	<field name="fReachOriginSpeed" type="BinHex"/>
+	<field name="fLookForwardTimeMin" type="BinHex"/>
+	<field name="fLookForwardTimeMax" type="BinHex"/>
+	<field name="fLookForwardSpeedModifier" type="BinHex"/>
+	<field name="fLookAroundCountMin" type="BinHex"/>
+	<field name="fLookAroundCountMax" type="BinHex"/>
+	<field name="fLookAroundAngleDegMin" type="BinHex"/>
+	<field name="fLookAroundAngleDegMax" type="BinHex"/>
+	<field name="fLookAroundTimeMin" type="BinHex"/>
+	<field name="fLookAroundTimeMax" type="BinHex"/>
+	<field name="fLookAroundClearanceDistance" type="BinHex"/>
+	<field name="fLookAroundSpeedModifier" type="BinHex"/>
 </class>

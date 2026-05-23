@@ -6,32 +6,32 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="1584313B">
+	<object name="locstridActionText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0547C984">
-		<object hash="AE548864">
+	<object name="TutorialCategoriesLocId">
+		<object name="locstridMenus">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="69F05FA3">
+		<object name="locstridFactionsAndConflict">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1BCD04C2">
+		<object name="locstridHacking">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A876B2BF">
+		<object name="locstridMissionAndProgression">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="132928B7">
+		<object name="locstridNavigationAndDriving">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="DFEAE50A">
+		<object name="locstridOnline">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F24581C2">
+		<object name="locstridWeapons">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="FE301845">
+		<object name="locstridWorldAndActivities">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

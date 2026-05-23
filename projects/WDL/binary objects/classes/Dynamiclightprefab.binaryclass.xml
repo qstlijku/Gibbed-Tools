@@ -7,43 +7,43 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selType" type="Enum"/>
-	<field hash="26067E78" type="BinHex"/>
-	<field hash="A5A9C91D" type="BinHex"/>
-	<field hash="F4C0BA08" type="BinHex"/>
-	<field hash="D8AF0244" type="BinHex"/>
-	<field hash="D7D82299" type="BinHex"/>
-	<field hash="575EB40C" type="BinHex"/>
+	<field name="selAreaLightType" type="BinHex"/>
+	<field name="bAutomaticStartFadeDistance" type="BinHex"/>
+	<field name="fAreaLightStartFadeDistance" type="BinHex"/>
+	<field name="hidLuminousUnit" type="BinHex"/>
+	<field name="selLumenUnit" type="BinHex"/>
+	<field name="fLumenValue" type="BinHex"/>
 	<field name="bHasSpecular" type="Boolean"/>
 	<field name="lightcolorsettingLightColorSetting" type="BinHex"/>
 	<field name="selColorMode" type="Enum"/>
 	<field name="clrColor" type="BinHex"/>
-	<field hash="ACD13808" type="BinHex"/>
+	<field name="bNormalizeRGB" type="BinHex"/>
 	<field name="fColorTemperature" type="Float"/>
 	<field name="fTint" type="Float"/>
-	<field hash="22746ADB" type="BinHex"/>
-	<field hash="40FAA9EE" type="BinHex"/>
+	<field name="bUseLightColorTexture" type="BinHex"/>
+	<field name="uiLightColorTextureIndex" type="BinHex"/>
 	<field name="fSourceAreaRadius" type="Float"/>
 	<field name="fAngle" type="Float"/>
-	<field hash="C2B673FB" type="BinHex"/>
-	<field hash="9FDF7AE8" type="BinHex"/>
+	<field name="bAngleAffectsIntensity" type="BinHex"/>
+	<field name="bAutomaticRadius" type="BinHex"/>
 	<field name="fLightCutOffRadius" type="Float"/>
 	<field name="uiIESProfile" type="UInt32"/>
 	<field name="fTurnOffLength" type="Float"/>
 	<field name="fTurnOffFallOffRatio" type="Float"/>
 	<field name="bEnableDistantLight" type="Boolean"/>
-	<field hash="D4A57D05" type="BinHex"/>
+	<field name="selDistantLightType" type="BinHex"/>
 	<field name="bEnabledInEditor" type="Boolean"/>
 	<field name="bDisabledInCinematics" type="Boolean"/>
 	<field name="bNeedsElectricPower" type="Boolean"/>
 	<field name="bHasElectricBackup" type="Boolean"/>
 	<field name="bAffectedByTimeOfDay" type="Boolean"/>
 	<field name="bCastShadow" type="Boolean"/>
-	<field hash="220F9CAF" type="BinHex"/>
-	<field hash="24CF5CE9" type="BinHex"/>
-	<field hash="BF64C511" type="BinHex"/>
-	<field hash="C49D6823" type="BinHex"/>
-	<field hash="84D21055" type="BinHex"/>
-	<field hash="D5E90065" type="BinHex"/>
+	<field name="bCastColoredShadow" type="BinHex"/>
+	<field name="selSoftShadowQuality" type="BinHex"/>
+	<field name="fSoftShadowLightSize" type="BinHex"/>
+	<field name="fSoftShadowMinKernelSize" type="BinHex"/>
+	<field name="fSoftShadowMaxKernelSize" type="BinHex"/>
+	<field name="selVsmMode" type="BinHex"/>
 	<field name="selPriority" type="Enum"/>
 	<field name="uiShadowGroup" type="UInt32"/>
 	<field name="iShadowFadeFactorCurveIndex" type="Int32"/>
@@ -51,7 +51,7 @@
 	<field name="fShadowFadeOutRatio" type="Float"/>
 	<field name="fShadowDepthBiasScale" type="Float"/>
 	<field name="fShadowSlopeScaledDepthBiasScale" type="Float"/>
-	<field hash="67FE8E7C" type="BinHex"/>
+	<field name="bShowInReflections" type="BinHex"/>
 	<field name="angShadowInnerAngle" type="Float"/>
 	<field name="angShadowOuterAngle" type="Float"/>
 	<field name="fFlickeringFrequency" type="Float"/>
@@ -75,8 +75,8 @@
 		<field name="bBakedDirectLighting" type="Boolean"/>
 	</object>
 	<object name="ProjectedVideo">
-		<field hash="2DA613A5" type="BinHex"/>
-		<field hash="29FA48B6" type="BinHex"/>
+		<field name="bProjectVideoAverageColor" type="BinHex"/>
+		<field name="selVideoQuadrant" type="BinHex"/>
 		<field name="fileProjectedVideo" type="String"/>
 		<field name="bPlayOnLoad" type="Boolean"/>
 		<field name="iShareChannel" type="Int32"/>
@@ -88,14 +88,14 @@
 			<field name="fDistance" type="Float"/>
 			<field name="fFadeDistance" type="Float"/>
 			<field name="bShowInEditorIfSelected" type="Boolean"/>
-			<field hash="CC9D6D25" type="BinHex"/>
+			<field name="bIgnoreForGI" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="EDDAB8E7">
-		<field hash="5DBFDBF2" type="BinHex"/>
-		<field hash="6671B2D8" type="BinHex"/>
-		<field hash="27A97854" type="BinHex"/>
-		<field hash="4A12DEF9" type="BinHex"/>
+	<object name="GIGeneration">
+		<field name="bOverrideSpotAngle" type="BinHex"/>
+		<field name="fRadiusMultiplier" type="BinHex"/>
+		<field name="fFadeOutDistMultiplier" type="BinHex"/>
+		<field name="fIntensityMultiplierStops" type="BinHex"/>
 	</object>
 	<object name="curveReflectorIntensityOffset">
 		<field name="hidNumKnots" type="BinHex"/>

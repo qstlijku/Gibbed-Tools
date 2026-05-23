@@ -7,12 +7,12 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bIsEnabled" type="Boolean"/>
-	<field hash="A1E7816B" type="BinHex"/>
-	<field hash="C6211711" type="BinHex"/>
+	<field name="fMoveDistance" type="BinHex"/>
+	<field name="fMoveSpeed" type="BinHex"/>
 	<field name="fDuration" type="Float"/>
-	<field hash="D47239F6" type="BinHex"/>
-	<field hash="E87F06AF" type="BinHex"/>
-	<object hash="E0997FE0">
+	<field name="fAngleMin" type="BinHex"/>
+	<field name="fAngleMax" type="BinHex"/>
+	<object name="curveAllowedAngleCurve">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">

@@ -6,14 +6,14 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="3107F7F3" type="BinHex"/>
-	<field hash="7C89259C" type="BinHex"/>
-	<field hash="94C08F3E" type="BinHex"/>
-	<field hash="0DC9DE84" type="BinHex"/>
-	<field hash="7ACEEE12" type="BinHex"/>
-	<field hash="8FA2DFC5" type="BinHex"/>
-	<field hash="8E6DE354" type="BinHex"/>
-	<field hash="33068FA6" type="BinHex"/>
-	<field hash="DEDE42EA" type="BinHex"/>
-	<field hash="A9D9727C" type="BinHex"/>
+	<field name="vector4DebugDisplayScreenPositions" type="BinHex"/>
+	<field name="bForceDebugDisplay" type="BinHex"/>
+	<field name="selDebugDisplayPrimitiveFlag1" type="BinHex"/>
+	<field name="selDebugDisplayPrimitiveFlag2" type="BinHex"/>
+	<field name="selDebugDisplayPrimitiveFlag3" type="BinHex"/>
+	<field name="selDebugDisplayPrimitiveBlendMode" type="BinHex"/>
+	<field name="archDebugArchetypeToLoad" type="BinHex"/>
+	<field name="scenetotexturestudioobjectDebugStudioObject" type="BinHex"/>
+	<field name="iRenderResolutionSizeX" type="BinHex"/>
+	<field name="iRenderResolutionSizeY" type="BinHex"/>
 </class>

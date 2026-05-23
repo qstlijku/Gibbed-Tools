@@ -10,9 +10,9 @@
 		<field name="sndCardShowSFX" type="BinHex"/>
 		<field name="sndCardHideSFX" type="BinHex"/>
 		<field hash="18A0180C" type="String"/>
-		<field hash="08E6985F" type="BinHex"/>
+		<field name="sndStartSFX" type="BinHex"/>
 		<field hash="060A910E" type="String"/>
-		<field hash="F505A2CA" type="BinHex"/>
+		<field name="sndEndSFX" type="BinHex"/>
 		<field hash="478A35C2" type="BinHex"/>
 		<field hash="9954B5F8" type="BinHex"/>
 		<field hash="65F4749C" type="BinHex"/>
@@ -22,8 +22,8 @@
 	<object name="NarrativePhoneCall">
 		<field name="sndCardShowSFX" type="BinHex"/>
 		<field name="sndCardHideSFX" type="BinHex"/>
-		<field hash="08E6985F" type="BinHex"/>
-		<field hash="F505A2CA" type="BinHex"/>
+		<field name="sndStartSFX" type="BinHex"/>
+		<field name="sndEndSFX" type="BinHex"/>
 		<field hash="478A35C2" type="BinHex"/>
 		<field hash="9954B5F8" type="BinHex"/>
 		<field hash="65F4749C" type="BinHex"/>

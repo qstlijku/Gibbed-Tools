@@ -16,23 +16,23 @@
 	</object>
 	<object name="sndswtpRegionSwitchType">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 	<object name="sndvarMicroPitchSoundVar">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 	<object name="sndvarMicroHeightSoundVar">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 	<object name="sndvarRelativeMicroHeightRtpc">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 	<object name="sndvarTimeOfDay">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 	<object name="Wind">
 		<field name="fAltitudeMinForWindPad" type="Float"/>
@@ -40,23 +40,23 @@
 		<field name="fAltitudeWindPadMaxValue" type="Float"/>
 		<object name="sndvarWindRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndvarRainRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndvarWetnessRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndvarWindSpeedRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndvarWindDirectionRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="Gust">
 			<field name="fWindGustThreshold" type="Float"/>

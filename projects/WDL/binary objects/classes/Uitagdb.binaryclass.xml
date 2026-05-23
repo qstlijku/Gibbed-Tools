@@ -12,14 +12,14 @@
 		<field name="uitagdescriptoridTagType" type="BinHex"/>
 		<object name="Properties">
 			<field name="uitagimagesettingImage" type="BinHex"/>
-			<field hash="46C639D5" type="BinHex"/>
+			<field name="uitagfontsettingFont" type="BinHex"/>
 			<field name="uitagcolorsettingColor" type="BinHex"/>
 			<field name="actionmap" type="String"/>
 			<field name="signal" type="String"/>
-			<field hash="B14E29E1" type="String"/>
-			<field hash="8D943DB8" type="BinHex"/>
-			<field hash="6AD6D0AA" type="BinHex"/>
-			<field hash="890C8106" type="BinHex"/>
+			<field name="pcSignal" type="String"/>
+			<field name="bIsAnimatedUiTag" type="BinHex"/>
+			<field name="bSmallSet" type="BinHex"/>
+			<field name="pcKeyLimit" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -9,10 +9,10 @@
 	<object name="Unset">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="EAEA5AE7">
+	<object name="Clothing">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="BEAEBE62">
+	<object name="CryptoNegative">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object name="Emote">
@@ -21,58 +21,58 @@
 	<object name="Mask">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="2FB915A8">
+	<object name="Mod">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="456DC87A">
+	<object name="NewPerkSlot">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="29EEEDDE">
+	<object name="OnlineXP">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object hash="A4A5D470">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="D70ECE9F">
+	<object name="ProgressionBooster">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="514A7734">
+	<object name="RecruitAvailable">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object hash="1ABEBE30">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="A940BECF">
+	<object name="Relic">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="C67C91F4">
+	<object name="ResistanceXP">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="5E5825CA">
+	<object name="Revenge">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="F42A1263">
+	<object name="TeamTraitDiscovered">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object hash="BF035A79">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="89AAF80F">
+	<object name="TraitDiscovered">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object name="Vehicle">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="F3E888CB">
+	<object name="VehicleSkin">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object name="Weapon">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="02302D3D">
+	<object name="WeaponSkin">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="8A01EFD1">
+	<object name="RaidModeUnlocked">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object hash="F9AEA347">

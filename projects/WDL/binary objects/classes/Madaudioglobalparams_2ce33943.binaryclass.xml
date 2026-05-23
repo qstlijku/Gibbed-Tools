@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="8B828E0D" type="BinHex"/>
-	<field hash="A9BC4E60" type="BinHex"/>
-	<field hash="2456D9B0" type="BinHex"/>
-	<field hash="7616C01D" type="BinHex"/>
-	<field hash="B282CE6B" type="BinHex"/>
-	<field hash="C9917CA0" type="BinHex"/>
+	<field name="selCinematicDialogPriority" type="BinHex"/>
+	<field name="selCinematicDialogType" type="BinHex"/>
+	<field name="bCinematicDialogSuperseded" type="BinHex"/>
+	<field name="selTalkerDialogPriority" type="BinHex"/>
+	<field name="selTalkerDialogType" type="BinHex"/>
+	<field name="bTalkerDialogSuperseded" type="BinHex"/>
 </class>

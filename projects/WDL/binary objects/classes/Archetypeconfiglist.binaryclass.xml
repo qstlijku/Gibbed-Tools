@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bValid" type="Boolean"/>
-	<field hash="415ABA98" type="BinHex"/>
+	<field name="selValidAIType" type="BinHex"/>
 	<object name="Configs">
 		<field name="bValid" type="Boolean"/>
 		<field name="selAgentType" type="Enum"/>
@@ -15,7 +15,7 @@
 		<field name="vehicleentityconfigVehicleConfig" type="BinHex"/>
 		<field name="animalconfigAnimalConfig" type="BinHex"/>
 		<field name="robotconfigRobotConfig" type="BinHex"/>
-		<field hash="25DD4CED" type="BinHex"/>
+		<field name="droneconfigDroneConfig" type="BinHex"/>
 		<object name="Configs">
 			<field name="bValid" type="Boolean"/>
 			<field name="selAgentType" type="Enum"/>
@@ -23,7 +23,7 @@
 			<field name="vehicleentityconfigVehicleConfig" type="BinHex"/>
 			<field name="animalconfigAnimalConfig" type="BinHex"/>
 			<field name="robotconfigRobotConfig" type="BinHex"/>
-			<field hash="25DD4CED" type="BinHex"/>
+			<field name="droneconfigDroneConfig" type="BinHex"/>
 		</object>
 	</object>
 </class>

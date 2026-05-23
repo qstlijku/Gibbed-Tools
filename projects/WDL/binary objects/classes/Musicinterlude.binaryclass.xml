@@ -7,16 +7,16 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="1C069352" type="String"/>
-	<field hash="85A3FD08" type="BinHex"/>
+	<field name="sndInterludeEvent" type="BinHex"/>
 	<field hash="E939872B" type="BinHex"/>
-	<field hash="C32DD97A" type="BinHex"/>
-	<object hash="758011F2">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<field name="bIsGated" type="BinHex"/>
+	<object name="UnlockRule">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="C1C2D381">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="LockRule">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="17029A6D"/>
+	<object name="UnsupportedEvents"/>
 </class>

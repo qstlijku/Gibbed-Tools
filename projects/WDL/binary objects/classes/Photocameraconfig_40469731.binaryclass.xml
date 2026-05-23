@@ -11,148 +11,148 @@
 	<field name="fSearchDistanceToFocalLengthRatio" type="Float"/>
 	<field name="fMinEntitySearchRadius" type="Float"/>
 	<field name="fMaxEntitySearchRadius" type="Float"/>
-	<field hash="FBEF7CC0" type="BinHex"/>
-	<field hash="D8A6432B" type="BinHex"/>
-	<field hash="74757482" type="BinHex"/>
-	<field hash="FEF71A94" type="BinHex"/>
-	<field hash="A165784C" type="BinHex"/>
-	<field hash="1D03C354" type="BinHex"/>
-	<field hash="27CEF69B" type="BinHex"/>
-	<field hash="6CE33C74" type="BinHex"/>
-	<field hash="B8CB1300" type="BinHex"/>
-	<field hash="4A50A53D" type="BinHex"/>
-	<field hash="780F2464" type="BinHex"/>
-	<field hash="F798D4AF" type="BinHex"/>
-	<field hash="0A010FF0" type="BinHex"/>
-	<field hash="674F8D4F" type="BinHex"/>
-	<field hash="913D015C" type="BinHex"/>
+	<field name="selInitialPhotoCameraMode" type="BinHex"/>
+	<field name="bResetPhotoCameraModeOnReopen" type="BinHex"/>
+	<field name="fPhotoCameraUnavailableTimer" type="BinHex"/>
+	<field name="fPhotoModeUnavailableTimer" type="BinHex"/>
+	<field name="fUnavailableNotificationDuration" type="BinHex"/>
+	<field name="cameralensconfigDefaultLensConfig" type="BinHex"/>
+	<field name="camerasensorconfigDefaultSensorConfig" type="BinHex"/>
+	<field name="camerasensorconfigPhotoboothSensorConfig" type="BinHex"/>
+	<field name="fThumbnailDelayTimer" type="BinHex"/>
+	<field name="iMaxNumReportedPhotos" type="BinHex"/>
+	<field name="iFullscreenCommunityThreshold" type="BinHex"/>
+	<field name="iThumbnailCommunityThreshold" type="BinHex"/>
+	<field name="fMaxDistanceToKeyLocation" type="BinHex"/>
+	<field name="fMaxDistanceToLandmarkDetection" type="BinHex"/>
+	<field name="fSharingErrorMsgDuration" type="BinHex"/>
 	<object name="SoundEffects">
 		<object name="General">
 			<object hash="15049F68">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="C376C278">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object name="TakePicture">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object name="Exit">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object name="Navigation">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="A30165ED">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="59B0C04F">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="F6B5B709">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="6C3D83AC">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="4D762D91">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="16186DDC">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="4EB35402">
+		<object name="EditMode">
 			<object hash="5203AB45">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="F891BD9A">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="178D5299">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="6F9B3D2D">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="CBD968DB">
+		<object name="FreeModeCamera">
 			<object name="Enter">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object name="Exit">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="68CD2E7F">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="FAF24F11">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="78068764">
-		<field hash="913D015C" type="BinHex"/>
-		<object hash="F821DCD8">
-			<object hash="E27A2B35">
+	<object name="ErrorMessages">
+		<field name="fSharingErrorMsgDuration" type="BinHex"/>
+		<object name="LocalSaveErrors">
+			<object name="locstridPhotoLimitReachedLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="B75534E1">
+			<object name="locstridNotEnoughSpaceLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="58EBF16B">
+			<object name="locstridGenericErrorLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="BE37D98D">
-			<object hash="02A0AEEB">
+		<object name="ShareErrors">
+			<object name="locstridNotOnlineLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E27A2B35">
+			<object name="locstridPhotoLimitReachedLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="B75534E1">
+			<object name="locstridNotEnoughSpaceLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="58EBF16B">
+			<object name="locstridGenericErrorLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -160,57 +160,57 @@
 	<object name="SelfieConfigs">
 		<field name="fEmoteDuration" type="Float"/>
 		<field hash="672B297D" type="BinHex"/>
-		<object hash="B9F4C29C">
-			<field hash="0B15300E" type="BinHex"/>
-			<field hash="7808A15D" type="BinHex"/>
-			<field hash="63B8F7A5" type="BinHex"/>
-			<field hash="AC9B2CAC" type="BinHex"/>
-			<field hash="0ACE9883" type="BinHex"/>
-			<field hash="29663075" type="BinHex"/>
-			<field hash="1D0E73EF" type="BinHex"/>
-			<field hash="0F840582" type="BinHex"/>
-			<field hash="75A3B444" type="BinHex"/>
-			<field hash="BA806F4D" type="BinHex"/>
-			<field hash="A27E5C1F" type="BinHex"/>
-			<field hash="689B5B7A" type="BinHex"/>
+		<object name="EmotesCountByArchetype">
+			<field name="iMaleGeneric" type="BinHex"/>
+			<field name="iMaleStreet" type="BinHex"/>
+			<field name="iMaleRefined" type="BinHex"/>
+			<field name="iMaleTrained" type="BinHex"/>
+			<field name="iMaleEccentric" type="BinHex"/>
+			<field name="iMaleLowMobility" type="BinHex"/>
+			<field name="iFemaleGeneric" type="BinHex"/>
+			<field name="iFemaleStreet" type="BinHex"/>
+			<field name="iFemaleRefined" type="BinHex"/>
+			<field name="iFemaleTrained" type="BinHex"/>
+			<field name="iFemaleEccentric" type="BinHex"/>
+			<field name="iFemaleLowMobility" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="90992C01">
+	<object name="locstridPhotoCameraUnavailableLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C0529C52">
+	<object name="locstridPhotoModeUnavailableLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E4CDB78B">
+	<object name="locstridZoomLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="B47F11B9">
+	<object name="locstridResetCameraLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="15D4A8E0">
+	<object name="locstridResetSceneLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="52407087">
+	<object name="locstridResetSettingsLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="17424646">
+	<object name="locstridNavigateMenuLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F7A6CCB9">
+	<object name="locstridBackLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="97BF1DF2">
+	<object name="locstridHoldBackLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="EC16FB49">
-		<object hash="1B985CAC">
-			<field hash="32841C4B" type="BinHex"/>
+	<object name="MenuCategories">
+		<object name="MenuCategory">
+			<field name="pcmenucategMenuCategory" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="C400BC7E">
+	<object name="locstridSharingErrorMsgTitleLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4CEE6DEA">
+	<object name="locstridSharingErrorMsgTextLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

@@ -17,9 +17,9 @@
 		<field name="vec2BlendSCurve" type="Vector2"/>
 		<field hash="A20E0B6A" type="String"/>
 		<field name="sndStartSound" type="BinHex"/>
-		<field hash="960CDFBD" type="BinHex"/>
+		<field name="sndtpStartSoundType" type="BinHex"/>
 		<field hash="EAA90218" type="String"/>
 		<field name="sndStopSound" type="BinHex"/>
-		<field hash="F4C24AA3" type="BinHex"/>
+		<field name="sndtpStopSoundType" type="BinHex"/>
 	</object>
 </class>

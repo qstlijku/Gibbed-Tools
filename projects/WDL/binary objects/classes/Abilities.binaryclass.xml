@@ -6,33 +6,33 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="E6AC9823" type="BinHex"/>
+	<field name="selProductionState" type="BinHex"/>
 	<field hash="710CB40C" type="String"/>
-	<field hash="C317D9EA" type="BinHex"/>
+	<field name="characterabilitylogicmoduleLogicModule" type="BinHex"/>
 	<field hash="28453881" type="String"/>
-	<field hash="F2DCE624" type="BinHex"/>
+	<field name="characterabilityparametersParameters" type="BinHex"/>
 	<object name="Parameters">
 		<field name="selTriggerType" type="Enum"/>
 		<field hash="AF201CC7" type="BinHex"/>
 		<field hash="5653F8B5" type="String"/>
 		<field hash="461578E6" type="BinHex"/>
 		<field hash="A6604358" type="String"/>
-		<field hash="3A9A4AC2" type="BinHex"/>
-		<field hash="FBA79F5C" type="BinHex"/>
+		<field name="archWeapon" type="BinHex"/>
+		<field name="uiCharges" type="BinHex"/>
 		<field name="BoneName" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<field hash="E5C05A9B" type="BinHex"/>
-		<field hash="CEE26ACF" type="BinHex"/>
-		<field hash="35816279" type="BinHex"/>
-		<field hash="6B50A150" type="BinHex"/>
-		<field hash="575D9E09" type="BinHex"/>
-		<field hash="3DEA7A6D" type="BinHex"/>
+		<field name="fMuzzleLongitudinalOffset" type="BinHex"/>
+		<field name="fMuzzleVerticalOffset" type="BinHex"/>
+		<field name="fLockOnTime" type="BinHex"/>
+		<field name="fLockOnRangeMin" type="BinHex"/>
+		<field name="fLockOnRangeMax" type="BinHex"/>
+		<field name="fMaxFireAngle" type="BinHex"/>
 		<field hash="575FE76B" type="BinHex"/>
-		<field hash="A5DDFB45" type="BinHex"/>
-		<field hash="1EC4B5DC" type="BinHex"/>
+		<field name="fAbilityActiveDuration" type="BinHex"/>
+		<field name="scriptedhackareadbHackArea" type="BinHex"/>
 		<field hash="9FF411B7" type="BinHex"/>
 		<field hash="35406CAE" type="String"/>
-		<field hash="DF1E0C8A" type="BinHex"/>
+		<field name="sndPropagationSound" type="BinHex"/>
 		<field hash="32A10E30" type="BinHex"/>
 		<field hash="76DF8C37" type="BinHex"/>
 		<field hash="EFBAD9C1" type="BinHex"/>
@@ -70,13 +70,13 @@
 		<field hash="1BDBD3FE" type="String"/>
 		<field hash="0B9D53AD" type="BinHex"/>
 		<field hash="CC075402" type="BinHex"/>
-		<field hash="5AE1E2C1" type="BinHex"/>
-		<field hash="300EB8B4" type="BinHex"/>
+		<field name="fDrunkLevel" type="BinHex"/>
+		<field name="iNumDrinksIncrement" type="BinHex"/>
 		<field hash="5D68559F" type="BinHex"/>
 		<field hash="8A8EB5BB" type="String"/>
-		<field hash="28E4230B" type="BinHex"/>
+		<field name="sndRegenGrenadeUseFailSound" type="BinHex"/>
 		<field hash="247967B5" type="BinHex"/>
-		<field hash="AE401296" type="BinHex"/>
+		<field name="fMaxDropDistanceBeforeDespawn" type="BinHex"/>
 		<field hash="12D3F38D" type="BinHex"/>
 		<field hash="64BA38F2" type="BinHex"/>
 		<field name="selAnimationType" type="Enum"/>
@@ -88,25 +88,25 @@
 		<field hash="78E328F9" type="BinHex"/>
 		<field hash="4DFF3084" type="BinHex"/>
 		<field hash="ABA4466F" type="BinHex"/>
-		<field hash="25DD4CED" type="BinHex"/>
-		<field hash="0B55F7A9" type="BinHex"/>
+		<field name="droneconfigDroneConfig" type="BinHex"/>
+		<field name="bOwnsCalledDrone" type="BinHex"/>
 		<field hash="B4793232" type="BinHex"/>
 		<field hash="2C57C89A" type="BinHex"/>
 		<field hash="09FB7A42" type="BinHex"/>
 		<field hash="349BC85A" type="BinHex"/>
 		<field hash="9A2BF7EE" type="BinHex"/>
-		<field hash="D991D00E" type="BinHex"/>
+		<field name="nMaxTargetsCount" type="BinHex"/>
 		<field hash="0F355CB7" type="BinHex"/>
 		<field hash="3491A00C" type="BinHex"/>
 		<field hash="C6DA20C5" type="BinHex"/>
 		<field hash="E6655990" type="String"/>
 		<field name="archArchetype" type="BinHex"/>
 		<field hash="1E216B24" type="String"/>
-		<field hash="5D07A015" type="BinHex"/>
+		<field name="sndSpiderProjectileUseFailSound" type="BinHex"/>
 		<field hash="0453637C" type="BinHex"/>
-		<field hash="170C034B" type="BinHex"/>
-		<field hash="E8881B3E" type="BinHex"/>
-		<field hash="27DF9361" type="BinHex"/>
+		<field name="fEscapeTimerMultiplier" type="BinHex"/>
+		<field name="selEscapeTimerMultiplier" type="BinHex"/>
+		<field name="iDonationAmount" type="BinHex"/>
 		<field hash="B988B5DC" type="BinHex"/>
 		<field hash="0786FDD3" type="String"/>
 		<field hash="3CA10647" type="BinHex"/>
@@ -114,13 +114,13 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="119346EE">
-			<field hash="F8550BEE" type="BinHex"/>
-			<field hash="9B907424" type="BinHex"/>
+		<object name="LayeredAnimation">
+			<field name="bPlayLayeredAnimationOnUse" type="BinHex"/>
+			<field name="animationboundvalueAbilityAnimationBoundValue" type="BinHex"/>
 		</object>
-		<object hash="97275596">
-			<field hash="763C7D7C" type="BinHex"/>
-			<field hash="5CE244A8" type="BinHex"/>
+		<object name="EmoteAnimation">
+			<field name="bPlayEmoteOnUse" type="BinHex"/>
+			<field name="emoteEmote" type="BinHex"/>
 		</object>
 		<object hash="F189D7E8">
 			<field hash="17529DB5" type="BinHex"/>
@@ -141,31 +141,31 @@
 		<object hash="B28E240F">
 			<object hash="3C4557EC">
 				<field hash="66905A99" type="String"/>
-				<field hash="9B39603A" type="BinHex"/>
+				<field name="progressionplayeractionAction" type="BinHex"/>
 				<field hash="08BFA198" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="03BFF0C6">
+		<object name="MinCrypto">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="D4544287">
+		<object name="MaxCrypto">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="7418A098">
+		<object name="TriggerProbability">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="365F34FC">
-			<field hash="C50F1A52" type="BinHex"/>
+			<field name="rulesmithidRuleId" type="BinHex"/>
 		</object>
 		<object hash="A948B88B">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="61366DE0">
-			<object hash="FA72D7A0">
+			<object name="Ability">
 				<field hash="8EAEE8BA" type="BinHex"/>
 			</object>
 		</object>
@@ -201,28 +201,28 @@
 		</object>
 		<object hash="6D4A1B35">
 			<field hash="16B267BA" type="String"/>
-			<field hash="2A5BDD0B" type="BinHex"/>
+			<field name="psShockwaveParticles" type="BinHex"/>
 			<field hash="A3E72452" type="String"/>
-			<field hash="3A424A08" type="BinHex"/>
+			<field name="sndShockwaveSound" type="BinHex"/>
 			<field hash="3593030E" type="BinHex"/>
 		</object>
-		<object hash="932786C0">
+		<object name="ShockwaveRadius">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="990358FF">
+		<object name="ShockwaveSpreadDuration">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="F3C64159">
+		<object name="ShockwaveStrength">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="B993BCF6">
+		<object name="ShockwaveDamage">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="40C87021">
+		<object name="ShockwaveDisorientDuration">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -230,19 +230,19 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="2E1A5130">
+		<object name="TriggerShockwave">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="C96D6DA9">
+		<object name="ShockwaveCausesDisorient">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="46C94843">
+		<object name="MaxAffectedEntities">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="69203CAC">
+		<object name="PropagationRadius">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -250,21 +250,21 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="E0518567">
+		<object name="DelayDuration">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="F22430E5">
-			<field hash="759A6A89" type="BinHex"/>
-			<field hash="73A36962" type="BinHex"/>
+		<object name="HackEffect">
+			<field name="scriptedhackeffectdbHackEffect" type="BinHex"/>
+			<field name="fOverrideProbability" type="BinHex"/>
 		</object>
 		<object hash="0CA0FB2D">
-			<field hash="759A6A89" type="BinHex"/>
-			<field hash="73A36962" type="BinHex"/>
+			<field name="scriptedhackeffectdbHackEffect" type="BinHex"/>
+			<field name="fOverrideProbability" type="BinHex"/>
 		</object>
 		<object hash="9F41D9B7">
-			<field hash="759A6A89" type="BinHex"/>
-			<field hash="73A36962" type="BinHex"/>
+			<field name="scriptedhackeffectdbHackEffect" type="BinHex"/>
+			<field name="fOverrideProbability" type="BinHex"/>
 		</object>
 		<object hash="41F10355">
 			<field name="rulesmithidRule" type="BinHex"/>
@@ -274,39 +274,39 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="3BFCA4E7">
+		<object name="MaxSpiderBots">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="9BCF6AC2">
+		<object name="DestroyedSpiderCooldownTime">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="301AB727">
+		<object name="AutoConnectToSpiderProjectile">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="5A99F904">
+		<object name="ReturnSpiderCooldownTime">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="DF50B8D6">
+		<object name="RepairSpiderTime">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="20A84E42">
+		<object name="CanUseSpiderThrowTakedownRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="1C0DE75F">
+		<object name="CanUseManualARCloak">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="769D5F98">
+		<object name="ARCloakDuration">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="2EA1F381">
+		<object name="ARCloakCooldown">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -368,31 +368,31 @@
 				<field hash="CF27DC50" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="ED57E45A">
+		<object name="MaxRegenGrenadesCount">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="E1206939">
+		<object name="DestroyCooldownTime">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="41754D27">
+		<object name="RecallCooldownTime">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="1EFA9442">
 			<field hash="28AB67AA" type="String"/>
-			<field hash="E57F01B1" type="BinHex"/>
-			<field hash="2C22468A" type="BinHex"/>
+			<field name="AimingBeamOriginBoneName" type="BinHex"/>
+			<field name="fAimingBeamOpacity" type="BinHex"/>
 			<field hash="9952CDB4" type="String"/>
-			<field hash="9A324541" type="BinHex"/>
+			<field name="archAimingBeamArchetype" type="BinHex"/>
 			<field hash="C5299A93" type="String"/>
-			<field hash="C8CE58B0" type="BinHex"/>
+			<field name="archAimingBeamDotArchetype" type="BinHex"/>
 			<field hash="62DA964E" type="String"/>
-			<field hash="61BA1EBB" type="BinHex"/>
-			<field hash="BDBFB95A" type="BinHex"/>
-			<field hash="003C1252" type="BinHex"/>
-			<field hash="31805E5B" type="BinHex"/>
+			<field name="sAimingBeamMaterialName" type="BinHex"/>
+			<field name="colorAimingBeamColor" type="BinHex"/>
+			<field name="fAimingBeamScale" type="BinHex"/>
+			<field name="fAimingDotScaleHoming" type="BinHex"/>
 			<field hash="A7EBCFF2" type="BinHex"/>
 			<field hash="34ECEECC" type="BinHex"/>
 		</object>
@@ -407,26 +407,26 @@
 		<object hash="67C93126">
 			<field hash="24BA9E57" type="String"/>
 			<field hash="34FC1E04" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="0EEE75C8">
 			<field hash="24BA9E57" type="String"/>
 			<field hash="34FC1E04" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="9D970667">
 			<field hash="24BA9E57" type="String"/>
 			<field hash="34FC1E04" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="C7B91397">
 			<field hash="24BA9E57" type="String"/>
 			<field hash="34FC1E04" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="ECB9B42A">
 			<field hash="34FC1E04" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object name="Drone">
 			<field hash="E6655990" type="String"/>
@@ -444,28 +444,28 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="8058D161">
+		<object name="CanLockon">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="8294D123">
-			<field hash="322D674F" type="BinHex"/>
-			<field hash="80D11F0E" type="BinHex"/>
-			<field hash="BCDC2057" type="BinHex"/>
-			<field hash="6767E696" type="BinHex"/>
-			<field hash="07DDE034" type="BinHex"/>
-			<field hash="6FFFC46E" type="BinHex"/>
-			<field hash="F6FB41CB" type="BinHex"/>
-			<field hash="70C347A0" type="BinHex"/>
+		<object name="LockonParams">
+			<field name="fLockonTime" type="BinHex"/>
+			<field name="fRangeMin" type="BinHex"/>
+			<field name="fRangeMax" type="BinHex"/>
+			<field name="fMaxLockonAngleRad" type="BinHex"/>
+			<field name="bCanTargetNPCs" type="BinHex"/>
+			<field name="bCanTargetDrones" type="BinHex"/>
+			<field name="bCanTargetVehicles" type="BinHex"/>
+			<field name="bCanTargetPlayers" type="BinHex"/>
 			<field hash="46B56D17" type="String"/>
-			<field hash="DF10034D" type="BinHex"/>
+			<field name="sndLockingOnBegin" type="BinHex"/>
 			<field hash="BB5F5F68" type="String"/>
-			<field hash="87B6E5D9" type="BinHex"/>
+			<field name="sndLockingOnComplete" type="BinHex"/>
 			<field hash="B82494A6" type="String"/>
-			<field hash="33038922" type="BinHex"/>
-			<field hash="BEFF346F" type="BinHex"/>
-			<field hash="1D56BB4E" type="BinHex"/>
-			<field hash="AAD22E0C" type="BinHex"/>
+			<field name="sndLockingOnCancel" type="BinHex"/>
+			<field name="sndtpLockingOnBeginType" type="BinHex"/>
+			<field name="sndtpLockingOnCompleteType" type="BinHex"/>
+			<field name="sndtpLockingOnCancelType" type="BinHex"/>
 		</object>
 		<object hash="71B99564">
 			<field hash="726B84E8" type="BinHex"/>
@@ -530,12 +530,12 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="8E83BECF">
+		<object name="StimsFlashbangStims">
 			<object name="GeneratedStims">
 				<object name="Stim">
 					<field name="stims" type="BinHex"/>
 					<field name="vectorLocalTranslationOffset" type="BinHex"/>
-					<field hash="0AA58CD7" type="BinHex"/>
+					<field name="vectorWorldTranslationOffset" type="BinHex"/>
 					<field name="bIsPersistent" type="Boolean"/>
 				</object>
 			</object>
@@ -560,20 +560,20 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="C3D3E886">
+		<object name="tagcategoryselectionblackboardLocationTags">
 			<object name="TagCategorySelectionArray">
 				<object name="TagCategorySelection">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<field hash="BDB3B8D5" type="String"/>
-					<field hash="401A8276" type="BinHex"/>
-					<field hash="F5391DFF" type="BinHex"/>
+					<field name="UITagCategorySelectionClassID" type="BinHex"/>
+					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
 					<object name="Tags"/>
 					<field name="tagTag" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="D0C5DABB">
+			<object name="TagDescriptorUI">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
@@ -584,7 +584,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="891542DA">
+		<object name="UI">
 			<field hash="3B3AFA97" type="BinHex"/>
 			<object hash="2D962B6F">
 				<field name="LocalizationId" type="UInt64"/>

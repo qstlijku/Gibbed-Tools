@@ -18,17 +18,17 @@
 	<field name="fDefaultFadeSpeed" type="Float"/>
 	<field name="fWeaponWheelFadeSpeed" type="Float"/>
 	<field name="fUndergroundMeshAlphaModifier" type="Float"/>
-	<field hash="514EDD75" type="BinHex"/>
-	<field hash="FEC997C8" type="BinHex"/>
-	<field hash="F4A300CF" type="BinHex"/>
-	<field hash="25F2A63D" type="BinHex"/>
-	<field hash="F202FAD7" type="BinHex"/>
+	<field name="bEnableKeyLocationProjectionEffect" type="BinHex"/>
+	<field name="fGPSHeightOffsetOnMap" type="BinHex"/>
+	<field name="fKeyLocationProjectionBottomOffset" type="BinHex"/>
+	<field name="fKeyLocationProjectionTopOffset" type="BinHex"/>
+	<field name="fKeyLocationProjectionZScaleOnMinimap" type="BinHex"/>
 	<field hash="BE639010" type="BinHex"/>
 	<field name="fMinimapMeshZScale" type="Float"/>
 	<field name="fFlashTime" type="Float"/>
 	<field name="uTotalFlashCount" type="UInt32"/>
 	<field name="fMissionTrackedScaleMultiplier" type="Float"/>
-	<field hash="91567CAD" type="BinHex"/>
+	<field name="fOperativePortraitScaleMultiplier" type="BinHex"/>
 	<field name="colorDefaultFlashColor" type="Vector3"/>
 	<field name="colorCoopFlashColor" type="Vector3"/>
 	<field name="colorMissionTrackedIconColor" type="Vector3"/>
@@ -37,37 +37,37 @@
 	<field hash="190A824D" type="BinHex"/>
 	<field hash="09EC6587" type="BinHex"/>
 	<field hash="10906449" type="BinHex"/>
-	<field hash="E8FA2F70" type="BinHex"/>
-	<field hash="544D51C1" type="BinHex"/>
-	<field hash="ADE1D6B4" type="BinHex"/>
-	<field hash="62027620" type="BinHex"/>
-	<field hash="96C86863" type="BinHex"/>
-	<field hash="E9B57EE4" type="BinHex"/>
-	<field hash="014035F9" type="BinHex"/>
-	<field hash="3910A34B" type="BinHex"/>
+	<field name="uicolorpalettesettingsColorRCAggressive" type="BinHex"/>
+	<field name="uicolorpalettesettingsColorRCPassive" type="BinHex"/>
+	<field name="uicolorpalettesettingsColorRCHijacked" type="BinHex"/>
+	<field name="uicolorpalettesettingsColorRCPostHijack" type="BinHex"/>
+	<field name="uicolorpalettesettingsColorRCDormant" type="BinHex"/>
+	<field name="mapicondescCameraMapIconDescription" type="BinHex"/>
+	<field name="mapicondescControlledCameraMapIconDescription" type="BinHex"/>
+	<field name="mapicondescHighlightedCameraMapIconDescription" type="BinHex"/>
 	<field name="mapicondescLocalPlayerMapIconDescription" type="BinHex"/>
 	<field name="mapicondescNeutralPlayerMapIconDescription" type="BinHex"/>
 	<field name="mapicondescEnemyPlayerMapIconDescription" type="BinHex"/>
 	<field hash="AF69EC18" type="BinHex"/>
 	<field name="mapicondescCoopPlayerMapIconDescription" type="BinHex"/>
 	<field name="mapicondescDeadPlayerMapIconDescription" type="BinHex"/>
-	<field hash="EE786D32" type="BinHex"/>
-	<field hash="2F4961C8" type="BinHex"/>
-	<field hash="18B1AF85" type="BinHex"/>
+	<field name="mapicondescLocalPlayerMiniMapIconDescription" type="BinHex"/>
+	<field name="mapicondescNeutralPlayerMiniMapIconDescription" type="BinHex"/>
+	<field name="mapicondescEnemyPlayerMiniMapIconDescription" type="BinHex"/>
 	<field hash="794F5ECF" type="BinHex"/>
-	<field hash="FC72681F" type="BinHex"/>
-	<field hash="4E855645" type="BinHex"/>
-	<field hash="5F057191" type="BinHex"/>
-	<field hash="86A2A5AA" type="BinHex"/>
-	<field hash="B76B2264" type="BinHex"/>
-	<field hash="99D9268A" type="BinHex"/>
-	<field hash="6EF11BA6" type="BinHex"/>
+	<field name="mapicondescCoopPlayerMiniMapIconDescription" type="BinHex"/>
+	<field name="mapicondescDeadPlayerMiniMapIconDescription" type="BinHex"/>
+	<field name="mapicondescOperativeMapIconDescription" type="BinHex"/>
+	<field name="mapicondescOperativeFocusMapIconDescription" type="BinHex"/>
+	<field name="mapicondescHumanContactMapIconDescription" type="BinHex"/>
+	<field name="mapicondescTrackedHumanContactMapIconDescription" type="BinHex"/>
+	<field name="mapicondescHumanContactScheduleMapIconDescription" type="BinHex"/>
 	<field hash="90615C76" type="BinHex"/>
 	<field hash="99D083A6" type="BinHex"/>
-	<field hash="7AA1531F" type="BinHex"/>
+	<field name="mapicondescPersonalWaypointMapIconDescription" type="BinHex"/>
 	<field hash="94074567" type="BinHex"/>
 	<field hash="7100167D" type="BinHex"/>
-	<field hash="FA6EA7D2" type="BinHex"/>
+	<field name="mapicondescFastTravel" type="BinHex"/>
 	<field name="fMinHeightDiffForAboveBelowFeedback" type="Float"/>
 	<field name="fAboveBelowAlphaFactor" type="Float"/>
 	<field name="fClampArrowEllipsePercentage" type="Float"/>
@@ -101,22 +101,22 @@
 	<field name="mapicondescObjectiveType_J" type="BinHex"/>
 	<field name="mapicondescObjectiveType_K" type="BinHex"/>
 	<field name="mapicondescObjectiveType_L" type="BinHex"/>
-	<field hash="C095B047" type="BinHex"/>
-	<field hash="F348ED20" type="BinHex"/>
-	<field hash="1641DADD" type="BinHex"/>
-	<field hash="FF49FB52" type="BinHex"/>
-	<field hash="14EA9167" type="BinHex"/>
-	<field hash="56F92850" type="BinHex"/>
+	<field name="mapicondescObjectiveOpNodeEntry" type="BinHex"/>
+	<field name="mapicondescObjectiveOpNodeActive" type="BinHex"/>
+	<field name="mapicondescObjectiveOpNodeActiveSelected" type="BinHex"/>
+	<field name="mapicondescObjectiveTracked" type="BinHex"/>
+	<field name="mapicondescObjectiveUntracked" type="BinHex"/>
+	<field name="mapicondescObjectivePublicEvent" type="BinHex"/>
 	<field hash="3B9439A9" type="BinHex"/>
 	<field hash="36AC0E09" type="BinHex"/>
 	<field hash="F5B5B7D9" type="BinHex"/>
 	<field hash="73900575" type="BinHex"/>
 	<field hash="27BEE916" type="BinHex"/>
-	<field hash="1F2030F2" type="BinHex"/>
-	<field hash="D40C90B8" type="BinHex"/>
-	<field hash="4D6AE875" type="BinHex"/>
-	<field hash="AA7003F4" type="BinHex"/>
-	<field hash="A1B2B595" type="BinHex"/>
+	<field name="mapicondescCLOEventIcon" type="BinHex"/>
+	<field name="mapicondescLabelIconBorough" type="BinHex"/>
+	<field name="mapicondescLabelIconDistrict" type="BinHex"/>
+	<field name="mapicondescLabelIconLandmark" type="BinHex"/>
+	<field name="mapicondescLabelIconMisc" type="BinHex"/>
 	<field hash="67C6DEB0" type="String"/>
 	<field name="fileDefaultShapeZoneTexture" type="String"/>
 	<field hash="96EA1AF9" type="String"/>
@@ -148,8 +148,8 @@
 	<field name="uizonesettingsMPDownloadZoneSettings" type="BinHex"/>
 	<field name="uizonesettingsMPEscapeZoneSettings" type="BinHex"/>
 	<field name="uizonesettingsScoutXTargetZoneSettings" type="BinHex"/>
-	<field hash="AB7A0B0A" type="BinHex"/>
-	<field hash="A83CF45E" type="BinHex"/>
+	<field name="uizonesettingsDigitalSearchZoneSettings" type="BinHex"/>
+	<field name="uizonesettingsRegroupZoneSettings" type="BinHex"/>
 	<field hash="48375E0C" type="BinHex"/>
 	<field hash="F1DAC30E" type="BinHex"/>
 	<field hash="4E74F30C" type="BinHex"/>
@@ -158,21 +158,21 @@
 	<field name="uizonesettingsPlayerOutsideMissionZoneSettings" type="BinHex"/>
 	<field name="uizonesettingsAIAgentRestrictedZoneSettings" type="BinHex"/>
 	<field name="uizonesettingsAIAgentForbiddenZoneSettings" type="BinHex"/>
-	<field hash="82AECB30" type="BinHex"/>
+	<field name="uizonesettingsAIAgentForbiddenZoneWithAccessSettings" type="BinHex"/>
 	<field name="uizonesettingsAIAgentForbiddenFreeRoamZoneSettings" type="BinHex"/>
 	<field name="uizonesettingsAIAgentForbiddenEmptyZoneSettings" type="BinHex"/>
-	<field hash="E6DC0649" type="BinHex"/>
-	<field hash="EA992F8E" type="BinHex"/>
-	<field hash="6087896D" type="BinHex"/>
-	<field hash="C89D2F26" type="BinHex"/>
-	<field hash="046EEF21" type="BinHex"/>
-	<field hash="7F7DEE19" type="BinHex"/>
-	<field hash="0B3B3C9C" type="BinHex"/>
+	<field name="uizonesettingsKeyLocationDefaultZoneSettings" type="BinHex"/>
+	<field name="uizonesettingsKeyLocationTrackedOpZoneSettings" type="BinHex"/>
+	<field name="uizonesettingsKeyLocationSearchZoneSettings" type="BinHex"/>
+	<field name="uizonesettingsKeyLocationFilteredZoneSettings" type="BinHex"/>
+	<field name="uizonesettingsKeyLocationHighlightedZoneSettings" type="BinHex"/>
+	<field name="uizonesettingsKeyLocationEscapeZoneSettings" type="BinHex"/>
+	<field name="uizonesettingsKeyLocationRegroupZoneSettings" type="BinHex"/>
 	<field hash="4CB7F656" type="BinHex"/>
-	<object hash="740CAE3C">
-		<field hash="2B8AF856" type="BinHex"/>
-		<field hash="9A8D0098" type="BinHex"/>
-		<field hash="E3551124" type="BinHex"/>
+	<object name="MapEffectSettings">
+		<field name="fNearSSAOIntensity" type="BinHex"/>
+		<field name="fFarSSAOIntensity" type="BinHex"/>
+		<field name="vectorLightDirection" type="BinHex"/>
 		<object name="FogOfWar">
 			<field hash="25A4765F" type="BinHex"/>
 			<field hash="E26C3868" type="BinHex"/>
@@ -192,7 +192,7 @@
 			<field name="fileGroundMaterialName" type="String"/>
 		</object>
 	</object>
-	<object hash="0061B38F">
+	<object name="locstridFullNameTemplate">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="PlayerWorldMapAnim">
@@ -222,12 +222,12 @@
 				</object>
 			</object>
 		</object>
-		<object hash="B5D93B2D">
+		<object name="curveScaleCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots"/>
 		</object>
 	</object>
-	<object hash="8DA73E0E">
+	<object name="IconBackgroundTopRevealAnim">
 		<field name="bIsUsed" type="Boolean"/>
 		<field name="bIsLooping" type="Boolean"/>
 		<field name="bIsAlphaOnly" type="Boolean"/>
@@ -237,12 +237,12 @@
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots"/>
 		</object>
-		<object hash="B5D93B2D">
+		<object name="curveScaleCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots"/>
 		</object>
 	</object>
-	<object hash="33A4C027">
+	<object name="IconBackgroundBottomRevealAnim">
 		<field name="bIsUsed" type="Boolean"/>
 		<field name="bIsLooping" type="Boolean"/>
 		<field name="bIsAlphaOnly" type="Boolean"/>
@@ -252,30 +252,30 @@
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots"/>
 		</object>
-		<object hash="B5D93B2D">
+		<object name="curveScaleCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots"/>
 		</object>
 	</object>
-	<object hash="AB008114">
-		<field hash="C78C706F" type="BinHex"/>
-		<field hash="4032D814" type="BinHex"/>
+	<object name="SchedulingView">
+		<field name="mapicondescSchedule" type="BinHex"/>
+		<field name="mapicondescAssociateSchedule" type="BinHex"/>
 		<field hash="6201398B" type="BinHex"/>
 	</object>
-	<object hash="FD97B57E">
-		<field hash="1C5AD0FC" type="BinHex"/>
-		<field hash="98BD7FD6" type="BinHex"/>
-		<field hash="A3980269" type="BinHex"/>
+	<object name="KeyLocationUndiscoveredMapIcons">
+		<field name="mapicondescEasy" type="BinHex"/>
+		<field name="mapicondescDifficult" type="BinHex"/>
+		<field name="mapicondescVeryDifficult" type="BinHex"/>
 	</object>
-	<object hash="35F7AF5A">
-		<field hash="1C5AD0FC" type="BinHex"/>
-		<field hash="98BD7FD6" type="BinHex"/>
-		<field hash="A3980269" type="BinHex"/>
+	<object name="KeyLocationDiscoveredMapIcons">
+		<field name="mapicondescEasy" type="BinHex"/>
+		<field name="mapicondescDifficult" type="BinHex"/>
+		<field name="mapicondescVeryDifficult" type="BinHex"/>
 	</object>
-	<object hash="C08657BE">
-		<field hash="1C5AD0FC" type="BinHex"/>
-		<field hash="98BD7FD6" type="BinHex"/>
-		<field hash="A3980269" type="BinHex"/>
+	<object name="KeyLocationCompletedMapIcons">
+		<field name="mapicondescEasy" type="BinHex"/>
+		<field name="mapicondescDifficult" type="BinHex"/>
+		<field name="mapicondescVeryDifficult" type="BinHex"/>
 	</object>
 	<object name="IconAboveFireUiBlobTexture">
 		<field hash="33E4567C" type="String"/>
@@ -290,31 +290,31 @@
 		<field name="fileIconTexture" type="String"/>
 	</object>
 	<object name="Checkpoints">
-		<field hash="63DF4A50" type="BinHex"/>
-		<field hash="F4DE1F81" type="BinHex"/>
-		<field hash="4D7AF044" type="BinHex"/>
-		<field hash="FB820085" type="BinHex"/>
-		<field hash="EF6FF40B" type="BinHex"/>
-		<field hash="6B681980" type="BinHex"/>
+		<field name="uicolorpalettesettingsColorCheckpointInactive" type="BinHex"/>
+		<field name="uicolorpalettesettingsColorCheckpointWarning" type="BinHex"/>
+		<field name="uicolorpalettesettingsColorCheckpointAggressive" type="BinHex"/>
+		<field name="fCheckpointAlpha" type="BinHex"/>
+		<field name="fMediumCheckpointSizeThreshold" type="BinHex"/>
+		<field name="fLargeCheckpointSizeThreshold" type="BinHex"/>
 		<field hash="8A5C702A" type="String"/>
-		<field hash="87BBB209" type="BinHex"/>
+		<field name="fileSmallCheckpointTexture" type="BinHex"/>
 		<field hash="E6C53C66" type="String"/>
-		<field hash="44AFAAD6" type="BinHex"/>
+		<field name="fileMediumCheckpointTexture" type="BinHex"/>
 		<field hash="D5A14AC8" type="String"/>
-		<field hash="D84688EB" type="BinHex"/>
-		<field hash="0C29490E" type="BinHex"/>
+		<field name="fileLargeCheckpointTexture" type="BinHex"/>
+		<field name="fCheckpointGroundOffset" type="BinHex"/>
 	</object>
-	<object hash="6CE2ECEA">
-		<field hash="1366678B" type="BinHex"/>
+	<object name="Borough">
+		<field name="fFontSize" type="BinHex"/>
 	</object>
 	<object name="District">
-		<field hash="1366678B" type="BinHex"/>
+		<field name="fFontSize" type="BinHex"/>
 	</object>
 	<object name="Landmark">
-		<field hash="1366678B" type="BinHex"/>
+		<field name="fFontSize" type="BinHex"/>
 	</object>
 	<object name="Misc">
-		<field hash="1366678B" type="BinHex"/>
+		<field name="fFontSize" type="BinHex"/>
 	</object>
 	<object name="DetectionSettings">
 		<field name="mapicondescCameraDetectionIcon" type="BinHex"/>
@@ -374,10 +374,10 @@
 			<field name="uizonesettingsSetting" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="62B44A9F">
-		<field hash="D1A25786" type="BinHex"/>
-		<field hash="40898802" type="BinHex"/>
-		<field hash="DDB0770D" type="BinHex"/>
-		<field hash="5E2C3175" type="BinHex"/>
+	<object name="Ops">
+		<field name="colorTrackedOpColor" type="BinHex"/>
+		<field name="fTrackedOpColorAlpha" type="BinHex"/>
+		<field name="colorUntrackedOpColor" type="BinHex"/>
+		<field name="fUntrackedOpColorAlpha" type="BinHex"/>
 	</object>
 </class>

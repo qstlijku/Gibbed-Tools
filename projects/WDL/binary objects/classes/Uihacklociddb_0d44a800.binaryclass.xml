@@ -6,229 +6,229 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="FA111EC3">
+	<object name="locstridAccessId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="9094E260">
+	<object name="locstridAttrack">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C45CB63E">
+	<object name="locstridAudio">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="35FDF276">
+	<object name="locstridBankAccount">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="7065CE8D">
+	<object name="locstridBattery">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="97BD63E4">
+	<object name="locstridCallEnemyFaction">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="980E9509">
+	<object name="locstridCar">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E82F08BA">
+	<object name="locstridCashPile">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="92109684">
+	<object name="locstridChat">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="438626FF">
+	<object name="locstridDisableCallReinforcement">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4F598022">
+	<object name="locstridDisruptComm">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="9D153F77">
+	<object name="locstridDistract">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="DADDB838">
+	<object name="locstridDownload">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3BB3FCDF">
+	<object name="locstridEmail">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="858BC51A">
+	<object name="locstridEngineOverheat">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="05E01F14">
+	<object name="locstridExplosive">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="41C2C637">
+	<object name="locstridPhoneOverheat">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="5AAE90A7">
+	<object name="locstridIntel">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="55EED0C9">
+	<object name="locstridLockBrakes">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="604593AA">
+	<object name="locstridLockLeftWheel">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="920342AB">
+	<object name="locstridLockRightWheel">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C9E91683">
+	<object name="locstridMusicLibrary">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="68E55FD3">
+	<object name="locstridNarrative">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="370B7D52">
+	<object name="locstridNarrativeHook">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="D72D362E">
+	<object name="locstridPersonalCamera">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E9E3DE95">
+	<object name="locstridPoliceSearch">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="A7419F87">
+	<object name="locstridRobotReboot">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0F4BB260">
+	<object name="locstridRobotAttractor">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="7A71C747">
+	<object name="locstridRobotRepulsor">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="94CB0590">
+	<object name="locstridRobotLoveBull">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="2870E27F">
+	<object name="locstridRemoteControlDown">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4EE8952C">
+	<object name="locstridRemoteControlLeft">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C54F7FEF">
+	<object name="locstridRemoteControlRight">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E6B49F3B">
+	<object name="locstridRemoteControlUp">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridSystemKey">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E3FA4B48">
+	<object name="locstridVideoFile">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3BDAD890">
+	<object name="locstridVoice">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="ECB6EE49">
+	<object name="locstridIngredientTrigger">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="AAA9482B">
+	<object name="locstridIngredientArm">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4B0A34A2">
+	<object name="locstridIngredientAttract">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="8F8ED75E">
+	<object name="locstridIngredientShutdown">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="1F62224A">
+	<object name="locstridDogShockCollar">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0FF40315">
+	<object name="locstridRemoteControlToggle">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="60BF8707">
+	<object name="locstridRobotAlarm">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="1F998251">
+	<object name="locstridTBoneLeftWeapon">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="1A0BA2C7">
+	<object name="locstridTBoneRightWeapon">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="85CA01AD">
+	<object name="locstridTBoneBackWeapon">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="61286701">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F2211B49">
+	<object name="locstridHitman">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="302BD67B">
+	<object name="locstridIngredientTriggerAccessPoint">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="59B413C6">
+	<object name="locstridIngredientTriggerElectric">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="39FCB043">
+	<object name="locstridIngredientTriggerExplosive">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="AABA9AA6">
+	<object name="locstridIngredientTriggerHackable">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F52A141F">
+	<object name="locstridIngredientTriggerMovable">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="24EA66E4">
+	<object name="locstridIngredientTriggerRemoteControlled">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="781769AD">
+	<object name="locstridIngredientTriggerSecurity">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0AD73508">
+	<object name="locstridIngredientTriggerVRPuzzleLoader">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="53677CB3">
+	<object name="locstridIngredientTriggerVRPuzzleNode">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="6677DD5B">
+	<object name="locstridIngredientTriggerUnlockVRPuzzleNode">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="68C32DAE">
+	<object name="locstridActivateFlatbedPlatform">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="AF534915">
+	<object name="locstridProxy">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="04D94A58">
+	<object name="locstridUnproxy">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="2E6B1467">
+	<object name="locstridRobotHijack">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="2A4135E4">
+	<object name="locstridDroneScan">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="46346004">
+	<object name="locstridDroneHijack">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0C22E954">
+	<object name="locstridDroneDisable">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F7FF56BD">
+	<object name="locstridDroneMalfunction">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="BA267A36">
+	<object name="locstridPuppet">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="36D05091">
+	<object name="locstridEngineer">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="1878E0E4">
+	<object name="locstridCloneAccess">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="99359C93">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="08222944">
+	<object name="locstridGunLock">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="32C9AD27">
+	<object name="locstridExoSuitLock">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="66C4C75E">
+	<object name="locstridARGlasses">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="8AC184C1">
+	<object name="locstridLeverage">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="3AC92DC6">
@@ -240,109 +240,109 @@
 	<object hash="8DD83EEC">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="EA5FC300">
+	<object name="locstridRCJumperDockSpawn">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="70C9F5AB">
+	<object name="locstridDroneDockSpawnScanner">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="1C40E81E">
+	<object name="locstridDroneDockSpawnNews">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="52FD2DD8">
+	<object name="locstridDroneDockSpawnMedical">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="34122836">
+	<object name="locstridDroneDockSpawnDelivery">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0C0BA473">
+	<object name="locstridDroneDockSpawnConstruction">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0798C47F">
+	<object name="locstridDroneDockSpawnChase">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="13EAF4A7">
+	<object name="locstridDroneDockSpawnRiot">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="D171B5D1">
+	<object name="locstridDroneDockSpawnCT">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="A264B7D1">
+	<object name="locstridRCHijack">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="70B55342">
+	<object name="locstridSecurityCameraHijack">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FD8BC4FD">
+	<object name="locstridFight">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="64874562">
+	<object name="locstridPage1">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FD8E14D8">
+	<object name="locstridPage2">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="8A89244E">
+	<object name="locstridPage3">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="301B288D">
+	<object name="locstridRevealMainSwitch">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0F0929B3">
+	<object name="locstridReward">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="616CB4AC">
+	<object name="locstridStartOp">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="5AF036DC">
+	<object name="locstridRcOvercharge">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="02E3B4A4">
+	<object name="locstridBetray">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="6FF5A9DF">
+	<object name="locstridDroneSwitchAllegiance">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="373DAC26">
+	<object name="locstridDroneBroadcast">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="EFEE3C9D">
+	<object name="locstridDroneDropCargo">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="50B0A17B">
+	<object name="locstridRCReturnToOwner">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="51138B78">
+	<object name="locstridRCEngageTargets">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="64F98C9C">
+	<object name="locstridRCRepair">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="9A5602F0">
+	<object name="locstridDownloadAccessIDKey">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="CF022A65">
+	<object name="locstridDroneHijackReboot">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="B02707FE">
+	<object name="locstridProjectileReturnToOwner">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="EE047297">
+	<object name="locstridIncreaseCrimeDebt">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="A661FA38">
+	<object name="locstridDecreaseCrimeDebt">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="1D512C58">
+	<object name="locstridIncreaseWantedLevel">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="D7ADCF09">
+	<object name="locstridDecreaseWantedLevel">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="D5C85846">
+	<object name="locstridIssueRendition">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E89CA9D2">
+	<object name="locstridRevokeRendition">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

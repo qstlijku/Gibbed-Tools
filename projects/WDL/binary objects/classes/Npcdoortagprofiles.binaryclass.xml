@@ -6,15 +6,15 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="6DE36CBA" type="BinHex"/>
-	<object hash="82646F71">
+	<field name="bAllowedToHaveEmptyTagBlackboards" type="BinHex"/>
+	<object name="tagcategoryselectionblackboardWorkTags">
 		<object name="TagCategorySelectionArray">
 			<object name="TagCategorySelection">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<object name="Tags">
 					<object name="Tag">
@@ -24,7 +24,7 @@
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D0C5DABB">
+		<object name="TagDescriptorUI">
 			<field hash="CF68E402" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionDescriptors">
@@ -35,14 +35,14 @@
 			</object>
 		</object>
 	</object>
-	<object hash="18FED6A1">
+	<object name="tagcategoryselectionblackboardLeisureTags">
 		<object name="TagCategorySelectionArray">
 			<object name="TagCategorySelection">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<object name="Tags">
 					<object name="Tag">
@@ -52,7 +52,7 @@
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D0C5DABB">
+		<object name="TagDescriptorUI">
 			<field hash="CF68E402" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionDescriptors">
@@ -63,14 +63,14 @@
 			</object>
 		</object>
 	</object>
-	<object hash="4718EDAD">
+	<object name="tagcategoryselectionblackboardRestTags">
 		<object name="TagCategorySelectionArray">
 			<object name="TagCategorySelection">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<object name="Tags">
 					<object name="Tag">
@@ -80,7 +80,7 @@
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D0C5DABB">
+		<object name="TagDescriptorUI">
 			<field hash="CF68E402" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionDescriptors">
@@ -92,9 +92,9 @@
 		</object>
 	</object>
 	<object name="Spawning">
-		<field hash="E650A871" type="BinHex"/>
+		<field name="npcdoorspawningprofilesSpawnProfile" type="BinHex"/>
 	</object>
-	<object hash="168F5A7D">
+	<object name="locstridLocationDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

@@ -39,7 +39,7 @@
 		<field name="fAvoidanceWalkForce" type="Float"/>
 		<field name="fAvoidanceJogForce" type="Float"/>
 		<field name="fAvoidanceSprintForce" type="Float"/>
-		<field hash="68690570" type="BinHex"/>
+		<field name="fStaminaSprintConsumption" type="BinHex"/>
 		<field name="bBlockedByObstacleActivated" type="Boolean"/>
 		<field name="bBlockedByCliffsActivated" type="Boolean"/>
 		<field name="bEdgeSlideActivated" type="Boolean"/>
@@ -64,7 +64,7 @@
 			<field hash="D3A36E82" type="String"/>
 			<field name="archSniperScope" type="BinHex"/>
 			<field hash="6DEDC036" type="String"/>
-			<field hash="DBAF4C24" type="BinHex"/>
+			<field name="archMask" type="BinHex"/>
 			<field name="nExtractFromPDAOverrideMaterialIndex" type="BinHex"/>
 		</object>
 		<object name="IdleCycleBreakers">
@@ -72,13 +72,13 @@
 			<field name="fIdleBreakerJogInterruptDelay" type="Float"/>
 			<field name="fIdleBreakerSprintInterruptDelay" type="Float"/>
 			<field name="fIdleBreakerCoverInterruptDelay" type="Float"/>
-			<object hash="15128073">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<object name="IdleBreakerStartDelay">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="340F5AA1">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<object name="IdleBreakerStartRange">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 		</object>
 	</object>
@@ -131,24 +131,24 @@
 		<field name="fLadder5mEnterHeightHighSpeed" type="Float"/>
 		<field name="fLadder6mEnterHeightLowSpeed" type="Float"/>
 		<field name="fLadder6mEnterHeightHighSpeed" type="Float"/>
-		<field hash="5DBD8D00" type="BinHex"/>
+		<field name="fPipeClimbUpDistMax" type="BinHex"/>
 		<field hash="45DD6101" type="BinHex"/>
 		<field name="fSlideOverMinWidth" type="Float"/>
 		<field name="fSlideOverMaxWidth" type="Float"/>
 		<field name="fSlideOverInterruptDist" type="Float"/>
 		<field name="bClimbDownAnchorUseCurrentSight" type="Boolean"/>
 		<field name="fSwimMaxHeightClimbUpReach" type="Float"/>
-		<object hash="8EE69CED">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="LadderIsAllowed">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="8B211101">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="PipeIsAllowed">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="A835E76C">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="SlideOverIsAllowed">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="AnnotationScan">
 			<field name="fScanBoxAboveDist" type="Float"/>
@@ -159,21 +159,21 @@
 			<field name="fJumpOverGapIdealWidthJog" type="Float"/>
 			<field name="fJumpOverGapIdealWidthSprint" type="Float"/>
 			<field name="fChainedJumpOverGapIdealWidth" type="Float"/>
-			<object hash="83EFEBBA">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<object name="JumpOverGapMaxHorizDist">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="50D8E315">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<object name="JumpOverGapMaxElevation">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="374653BD">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<object name="JumpOverGapMaxDrop">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="2D62B18E">
-			<field hash="9CC0E87D" type="BinHex"/>
+		<object name="PhoneSwap">
+			<field name="bRequiredButtonHoldToSwapPhone" type="BinHex"/>
 		</object>
 		<object name="InteractionChaining">
 			<field name="fInteractionChainingMinTimeInterval" type="Float"/>

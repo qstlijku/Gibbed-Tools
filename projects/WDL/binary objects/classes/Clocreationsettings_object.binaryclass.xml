@@ -39,15 +39,15 @@
 			</object>
 			<object name="UserSettings">
 				<field name="bCivilian" type="Boolean"/>
-				<field hash="5270412C" type="BinHex"/>
+				<field name="bAI" type="BinHex"/>
 				<field name="bPlayer" type="Boolean"/>
 				<field name="fDisableAttractorOnEntityDuration" type="Float"/>
-				<field hash="D19FD9EF" type="BinHex"/>
+				<field name="fDisableAttractorOnEntitySpawnedForDuration" type="BinHex"/>
 				<field name="bRestrictOnBehaviorStates" type="Boolean"/>
 				<field name="selAffiliation" type="Enum"/>
-				<field hash="808E0DAA" type="BinHex"/>
-				<field hash="F202E357" type="BinHex"/>
-				<field hash="15888F1E" type="BinHex"/>
+				<field name="fPlayerInteractionConeHorzAngle" type="BinHex"/>
+				<field name="fPlayerInteractionConeHorzAngleOffset" type="BinHex"/>
+				<field name="fPlayerInteractionConeRange" type="BinHex"/>
 			</object>
 		</object>
 		<object name="PatrolSettings">

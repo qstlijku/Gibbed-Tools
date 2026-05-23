@@ -8,10 +8,10 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="E6655990" type="String"/>
 	<field name="archArchetype" type="BinHex"/>
-	<field hash="5CF95CDD" type="BinHex"/>
-	<field hash="FB1E109F" type="BinHex"/>
+	<field name="tagPropTag" type="BinHex"/>
+	<field name="selDisposeType" type="BinHex"/>
 	<field name="selPropSlot" type="Enum"/>
-	<field hash="6C09A6D9" type="BinHex"/>
+	<field name="wolfskinitemdbWolfskinItem" type="BinHex"/>
 	<field name="selDefaultActivityType" type="Enum"/>
 	<field name="bUseIncludeTags" type="Boolean"/>
 	<field name="bUseExcludeTags" type="Boolean"/>

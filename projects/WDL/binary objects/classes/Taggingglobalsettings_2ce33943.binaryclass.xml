@@ -25,7 +25,7 @@
 	<object name="AutoTagSpecialEffects">
 		<field hash="463EA461" type="String"/>
 		<field name="sndSound" type="BinHex"/>
-		<field hash="8FE662AD" type="BinHex"/>
+		<field name="sndtpSoundType" type="BinHex"/>
 		<field hash="93D2AFB5" type="String"/>
 		<field name="psParticleSystem" type="BinHex"/>
 		<field name="vectorParticleSystemRelativeLocation" type="BinHex"/>

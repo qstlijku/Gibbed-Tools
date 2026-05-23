@@ -27,7 +27,7 @@
 		<field name="PlayerThreat" type="BinHex"/>
 		<field name="ShootingTicketAvailableThreat" type="BinHex"/>
 		<field name="AnimalThreat" type="BinHex"/>
-		<field hash="D99736E7" type="BinHex"/>
+		<field name="PlayerControlledRCThreat" type="BinHex"/>
 		<field hash="3F2EE32F" type="BinHex"/>
 		<field hash="6D9CFF37" type="BinHex"/>
 		<object name="ChaseTargetThreat">
@@ -37,14 +37,14 @@
 			<field name="ForOthersOutOfLOS" type="BinHex"/>
 			<field name="Hitman" type="BinHex"/>
 		</object>
-		<object hash="C492F3BB">
-			<field hash="4143C442" type="BinHex"/>
-			<field hash="3708CDF9" type="BinHex"/>
-			<field hash="A4745CCE" type="BinHex"/>
-			<field hash="2FB27E2E" type="BinHex"/>
-			<field hash="28BFD138" type="BinHex"/>
-			<field hash="61E5FCCA" type="BinHex"/>
-			<object hash="E22B6F37">
+		<object name="DroneSwitchAllegiance">
+			<field name="fSwitchAllegianceRangeWeight" type="BinHex"/>
+			<field name="fSwitchAllegianceDetectedBonusRangeWeight" type="BinHex"/>
+			<field name="fSwitchAllegiancePlayerRangeWeight" type="BinHex"/>
+			<field name="fSwitchAllegiancePlayerCameraAngleWeight" type="BinHex"/>
+			<field name="fSwitchAllegianceTimeSinceDamageWeight" type="BinHex"/>
+			<field name="fSwitchAllegianceFOVAngleWeight" type="BinHex"/>
+			<object name="curveSwitchAllegianceRangeThreat">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -54,7 +54,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="19612B58">
+			<object name="curveSwitchAllegianceDetectedBonusRangeThreat">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -64,7 +64,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="A4678D0D">
+			<object name="curveSwitchAllegiancePlayerRangeThreat">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -74,7 +74,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="3750634F">
+			<object name="curveSwitchAllegiancePlayerCameraAngleThreat">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -84,7 +84,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="0180B62B">
+			<object name="curveSwitchAllegianceTimeSinceDamageThreat">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -95,8 +95,8 @@
 				</object>
 			</object>
 		</object>
-		<object hash="2D7FE08B">
-			<field hash="8DB58139" type="BinHex"/>
+		<object name="SpiderRC">
+			<field name="fSpiderRCExtraThreat" type="BinHex"/>
 		</object>
 	</object>
 </class>

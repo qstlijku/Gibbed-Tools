@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="8BD9B8B2" type="BinHex"/>
-	<field hash="E096D36B" type="BinHex"/>
-	<field hash="C01C86D8" type="BinHex"/>
-	<field hash="BEE50628" type="BinHex"/>
+	<field name="mapicondescEntityToUseToUnlockLockIcon" type="BinHex"/>
+	<field name="mapicondescEntityToUseToUnlockUnlockIcon" type="BinHex"/>
+	<field name="mapicondescLockedEntityLockIcon" type="BinHex"/>
+	<field name="mapicondescLockedEntityUnlockIcon" type="BinHex"/>
 	<field hash="A998FF6A" type="BinHex"/>
 </class>

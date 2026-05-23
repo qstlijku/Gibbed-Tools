@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="F84C3300" type="BinHex"/>
-	<object hash="FC2FDBC0">
+	<field name="TimeBetweenTips" type="BinHex"/>
+	<object name="locstridLoadingTipTitleLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="SinglePlayer">
-		<object hash="4777F50D">
+		<object name="CommonData">
 			<field hash="485A7ED0" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
@@ -20,22 +20,22 @@
 				</object>
 			</object>
 			<object name="Tips">
-				<object hash="B05A2FC6">
-					<field hash="9DCBE503" type="BinHex"/>
+				<object name="TipData">
+					<field name="bUseRule" type="BinHex"/>
 					<object name="locstridTip">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 					<object name="Available">
-						<field hash="94C08F9B" type="BinHex"/>
-						<field hash="1DF2E0ED" type="BinHex"/>
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="1368310C"/>
+		<object name="ContextualData"/>
 	</object>
-	<object hash="12FB0C96">
-		<object hash="4777F50D">
+	<object name="OpSwap">
+		<object name="CommonData">
 			<field hash="485A7ED0" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
@@ -44,22 +44,22 @@
 				</object>
 			</object>
 			<object name="Tips">
-				<object hash="B05A2FC6">
-					<field hash="9DCBE503" type="BinHex"/>
+				<object name="TipData">
+					<field name="bUseRule" type="BinHex"/>
 					<object name="locstridTip">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 					<object name="Available">
-						<field hash="94C08F9B" type="BinHex"/>
-						<field hash="1DF2E0ED" type="BinHex"/>
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="1368310C">
+		<object name="ContextualData">
 			<object name="Entry">
 				<field hash="485A7ED0" type="BinHex"/>
-				<field hash="E935A497" type="BinHex"/>
+				<field name="ContextualID" type="BinHex"/>
 				<field hash="6916815A" type="BinHex"/>
 				<object name="Backgrounds"/>
 				<object name="Videos">
@@ -72,7 +72,7 @@
 		</object>
 	</object>
 	<object name="FastTravel">
-		<object hash="4777F50D">
+		<object name="CommonData">
 			<field hash="485A7ED0" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
@@ -81,22 +81,22 @@
 				</object>
 			</object>
 			<object name="Tips">
-				<object hash="B05A2FC6">
-					<field hash="9DCBE503" type="BinHex"/>
+				<object name="TipData">
+					<field name="bUseRule" type="BinHex"/>
 					<object name="locstridTip">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 					<object name="Available">
-						<field hash="94C08F9B" type="BinHex"/>
-						<field hash="1DF2E0ED" type="BinHex"/>
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="1368310C"/>
+		<object name="ContextualData"/>
 	</object>
-	<object hash="476754F2">
-		<object hash="4777F50D">
+	<object name="MultiSandbox">
+		<object name="CommonData">
 			<field hash="485A7ED0" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
@@ -105,31 +105,31 @@
 				</object>
 			</object>
 			<object name="Tips">
-				<object hash="B05A2FC6">
-					<field hash="9DCBE503" type="BinHex"/>
+				<object name="TipData">
+					<field name="bUseRule" type="BinHex"/>
 					<object name="locstridTip">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 					<object name="Available">
-						<field hash="94C08F9B" type="BinHex"/>
-						<field hash="1DF2E0ED" type="BinHex"/>
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="1368310C"/>
+		<object name="ContextualData"/>
 	</object>
-	<object hash="4FD9E07B">
-		<object hash="4777F50D">
+	<object name="MultiInstanceMode">
+		<object name="CommonData">
 			<field hash="485A7ED0" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos"/>
 			<object name="Tips"/>
 		</object>
-		<object hash="1368310C">
+		<object name="ContextualData">
 			<object name="Entry">
 				<field hash="485A7ED0" type="BinHex"/>
-				<field hash="E935A497" type="String"/>
+				<field name="ContextualID" type="String"/>
 				<field hash="6916815A" type="BinHex"/>
 				<object name="Backgrounds"/>
 				<object name="Videos">
@@ -138,22 +138,22 @@
 					</object>
 				</object>
 				<object name="Tips">
-					<object hash="B05A2FC6">
-						<field hash="9DCBE503" type="BinHex"/>
+					<object name="TipData">
+						<field name="bUseRule" type="BinHex"/>
 						<object name="locstridTip">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
 						<object name="Available">
-							<field hash="94C08F9B" type="BinHex"/>
-							<field hash="1DF2E0ED" type="BinHex"/>
+							<field name="rulesmithidRule" type="BinHex"/>
+							<field name="rulesmithconstValue" type="BinHex"/>
 						</object>
 					</object>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="1B845B09">
-		<object hash="4777F50D">
+	<object name="MultiRaidBrief">
+		<object name="CommonData">
 			<field hash="485A7ED0" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
@@ -162,22 +162,22 @@
 				</object>
 			</object>
 			<object name="Tips">
-				<object hash="B05A2FC6">
-					<field hash="9DCBE503" type="BinHex"/>
+				<object name="TipData">
+					<field name="bUseRule" type="BinHex"/>
 					<object name="locstridTip">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 					<object name="Available">
-						<field hash="94C08F9B" type="BinHex"/>
-						<field hash="1DF2E0ED" type="BinHex"/>
+						<field name="rulesmithidRule" type="BinHex"/>
+						<field name="rulesmithconstValue" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="1368310C">
+		<object name="ContextualData">
 			<object name="Entry">
 				<field hash="485A7ED0" type="BinHex"/>
-				<field hash="E935A497" type="String"/>
+				<field name="ContextualID" type="String"/>
 				<field hash="6916815A" type="BinHex"/>
 				<object name="Backgrounds"/>
 				<object name="Videos">

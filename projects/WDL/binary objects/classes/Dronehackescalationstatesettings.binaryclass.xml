@@ -10,65 +10,65 @@
 		<object hash="B6319366">
 			<field hash="338CD79A" type="BinHex"/>
 			<field hash="61D71851" type="BinHex"/>
-			<field hash="BBE94E71" type="BinHex"/>
-			<field hash="87E47128" type="BinHex"/>
-			<field hash="8B592CE9" type="BinHex"/>
-			<field hash="B75413B0" type="BinHex"/>
-			<field hash="9A02592E" type="BinHex"/>
-			<field hash="A60F6677" type="BinHex"/>
-			<field hash="B0B5E613" type="BinHex"/>
-			<field hash="8CB8D94A" type="BinHex"/>
+			<field name="fWaitForAlertGuardsTimeMin" type="BinHex"/>
+			<field name="fWaitForAlertGuardsTimeMax" type="BinHex"/>
+			<field name="fWaitForCombatWarningNoAlertTimeMin" type="BinHex"/>
+			<field name="fWaitForCombatWarningNoAlertTimeMax" type="BinHex"/>
+			<field name="fWaitForCombatWarningAfterAlertTimeMin" type="BinHex"/>
+			<field name="fWaitForCombatWarningAfterAlertTimeMax" type="BinHex"/>
+			<field name="fWaitForCombatTimeMin" type="BinHex"/>
+			<field name="fWaitForCombatTimeMax" type="BinHex"/>
 			<field hash="9CDFA112" type="BinHex"/>
 			<field hash="A0D29E4B" type="BinHex"/>
 			<field hash="F66822B5" type="BinHex"/>
 			<field hash="CA651DEC" type="BinHex"/>
-			<field hash="D9A08B12" type="BinHex"/>
-			<field hash="E5ADB44B" type="BinHex"/>
-			<field hash="FCA46308" type="BinHex"/>
-			<field hash="C751850D" type="BinHex"/>
-			<field hash="6005C7B7" type="BinHex"/>
-			<field hash="29E5CFFE" type="BinHex"/>
-			<field hash="7FD03E8F" type="BinHex"/>
-			<field hash="2CA61826" type="BinHex"/>
-			<object hash="A43F5413">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="fAbandonTimeMin" type="BinHex"/>
+			<field name="fAbandonTimeMax" type="BinHex"/>
+			<field name="fFollowSpeed" type="BinHex"/>
+			<field name="fFollowVerticalOffset" type="BinHex"/>
+			<field name="fFollowRange" type="BinHex"/>
+			<field name="fGoToLKPSpeed" type="BinHex"/>
+			<field name="fGoToLKPVerticalOffset" type="BinHex"/>
+			<field name="fGoToLKPNearDistance" type="BinHex"/>
+			<object name="AlertGuardsBark">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="9B05403C">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<object name="CombatWarningBark">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 		</object>
 		<object hash="6FEC4DB5">
 			<field hash="338CD79A" type="BinHex"/>
 			<field hash="61D71851" type="BinHex"/>
-			<field hash="BBE94E71" type="BinHex"/>
-			<field hash="87E47128" type="BinHex"/>
-			<field hash="8B592CE9" type="BinHex"/>
-			<field hash="B75413B0" type="BinHex"/>
-			<field hash="9A02592E" type="BinHex"/>
-			<field hash="A60F6677" type="BinHex"/>
-			<field hash="B0B5E613" type="BinHex"/>
-			<field hash="8CB8D94A" type="BinHex"/>
+			<field name="fWaitForAlertGuardsTimeMin" type="BinHex"/>
+			<field name="fWaitForAlertGuardsTimeMax" type="BinHex"/>
+			<field name="fWaitForCombatWarningNoAlertTimeMin" type="BinHex"/>
+			<field name="fWaitForCombatWarningNoAlertTimeMax" type="BinHex"/>
+			<field name="fWaitForCombatWarningAfterAlertTimeMin" type="BinHex"/>
+			<field name="fWaitForCombatWarningAfterAlertTimeMax" type="BinHex"/>
+			<field name="fWaitForCombatTimeMin" type="BinHex"/>
+			<field name="fWaitForCombatTimeMax" type="BinHex"/>
 			<field hash="9CDFA112" type="BinHex"/>
 			<field hash="A0D29E4B" type="BinHex"/>
 			<field hash="F66822B5" type="BinHex"/>
 			<field hash="CA651DEC" type="BinHex"/>
-			<field hash="D9A08B12" type="BinHex"/>
-			<field hash="E5ADB44B" type="BinHex"/>
-			<field hash="FCA46308" type="BinHex"/>
-			<field hash="C751850D" type="BinHex"/>
-			<field hash="6005C7B7" type="BinHex"/>
-			<field hash="29E5CFFE" type="BinHex"/>
-			<field hash="7FD03E8F" type="BinHex"/>
-			<field hash="2CA61826" type="BinHex"/>
-			<object hash="A43F5413">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="fAbandonTimeMin" type="BinHex"/>
+			<field name="fAbandonTimeMax" type="BinHex"/>
+			<field name="fFollowSpeed" type="BinHex"/>
+			<field name="fFollowVerticalOffset" type="BinHex"/>
+			<field name="fFollowRange" type="BinHex"/>
+			<field name="fGoToLKPSpeed" type="BinHex"/>
+			<field name="fGoToLKPVerticalOffset" type="BinHex"/>
+			<field name="fGoToLKPNearDistance" type="BinHex"/>
+			<object name="AlertGuardsBark">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="9B05403C">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<object name="CombatWarningBark">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 		</object>
 	</object>

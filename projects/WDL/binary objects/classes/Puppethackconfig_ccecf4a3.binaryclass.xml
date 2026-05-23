@@ -6,77 +6,77 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="77FCA088">
-		<field hash="FA3202D5" type="BinHex"/>
-		<field hash="3E3FA1F3" type="BinHex"/>
-		<field hash="D381C6DF" type="BinHex"/>
-		<field hash="13A35E4F" type="BinHex"/>
-		<field hash="0F64BB73" type="BinHex"/>
+	<object name="PuppetHack">
+		<field name="fLinkWidth" type="BinHex"/>
+		<field name="colorPuppetLinkColor" type="BinHex"/>
+		<field name="colorTargetLinkColor" type="BinHex"/>
+		<field name="fPuppetHackRange" type="BinHex"/>
+		<field name="fPuppetHackWeakRange" type="BinHex"/>
 	</object>
-	<object hash="608E6215">
-		<field hash="2C9067E8" type="BinHex"/>
-		<field hash="2F919A0F" type="BinHex"/>
-		<field hash="EAA2CFDE" type="BinHex"/>
+	<object name="TargetSelectionMode">
+		<field name="MaxTargetIconOnScreen" type="BinHex"/>
+		<field name="bUsePuppetAsSearchOrigin" type="BinHex"/>
+		<field name="fTargetSearchRange" type="BinHex"/>
 		<field hash="19B49F03" type="String"/>
-		<field hash="255D25B2" type="BinHex"/>
-		<field hash="6183B1B8" type="BinHex"/>
+		<field name="PuppetModePostFXName" type="BinHex"/>
+		<field name="fPathPreviewRepathThreshold" type="BinHex"/>
 	</object>
-	<object hash="99D2AC4E">
-		<field hash="677678FE" type="BinHex"/>
-		<field hash="A0BEF577" type="BinHex"/>
-		<object hash="4D426894">
-			<field hash="1CFAC445" type="BinHex"/>
-			<object hash="4D426894">
-				<field hash="1CFAC445" type="BinHex"/>
+	<object name="AISettings">
+		<field name="fSMSDuration" type="BinHex"/>
+		<field name="fAIDistractedGiveUpDelay" type="BinHex"/>
+		<object name="HackSuccessOdds">
+			<field name="fHackSuccessOdds" type="BinHex"/>
+			<object name="HackSuccessOdds">
+				<field name="fHackSuccessOdds" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="218780AD">
+	<object name="PuppetContexts">
 		<object name="Context">
-			<field hash="A8FEEB76" type="String"/>
-			<field hash="F1682801" type="BinHex"/>
-			<field hash="BB552FA7" type="BinHex"/>
-			<field hash="995CF1B8" type="BinHex"/>
-			<field hash="E035E191" type="BinHex"/>
-			<field hash="6FEEFD5E" type="BinHex"/>
-			<field hash="43D33C6E" type="BinHex"/>
-			<field hash="1A2EC7AE" type="BinHex"/>
-			<object hash="88F829D2">
+			<field name="sDescription" type="String"/>
+			<field name="selPuppetAffiliation" type="BinHex"/>
+			<field name="selPuppetAIMindSet" type="BinHex"/>
+			<field name="selPuppetArchetypeNavStyle" type="BinHex"/>
+			<field name="selTargetType" type="BinHex"/>
+			<field name="selHumanTargetAffiliation" type="BinHex"/>
+			<field name="selHumanTargetAIMindSet" type="BinHex"/>
+			<field name="selHumanTargetArchetypeNavStyle" type="BinHex"/>
+			<object name="InteractionTypeA">
 				<field name="selInteractionType" type="Enum"/>
-				<field hash="50A5DCC3" type="BinHex"/>
-				<field hash="CA84062B" type="String"/>
-				<object hash="E6EFC469">
-					<object hash="83F2181A">
+				<field name="sTextMessage" type="BinHex"/>
+				<field name="sInteractionMenuDebugText" type="String"/>
+				<object name="OasisTextMessages">
+					<object name="OasisTextMessage">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="7432F5D8">
+				<object name="OasisInteractionMenuOasisText">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="EC938112">
+			<object name="InteractionTypeX">
 				<field name="selInteractionType" type="Enum"/>
-				<field hash="50A5DCC3" type="BinHex"/>
-				<field hash="CA84062B" type="String"/>
-				<object hash="E6EFC469">
-					<object hash="83F2181A">
+				<field name="sTextMessage" type="BinHex"/>
+				<field name="sInteractionMenuDebugText" type="String"/>
+				<object name="OasisTextMessages">
+					<object name="OasisTextMessage">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="7432F5D8">
+				<object name="OasisInteractionMenuOasisText">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="9B94B184">
+			<object name="InteractionTypeY">
 				<field name="selInteractionType" type="Enum"/>
-				<field hash="50A5DCC3" type="BinHex"/>
-				<field hash="CA84062B" type="String"/>
-				<object hash="E6EFC469">
-					<object hash="83F2181A">
+				<field name="sTextMessage" type="BinHex"/>
+				<field name="sInteractionMenuDebugText" type="String"/>
+				<object name="OasisTextMessages">
+					<object name="OasisTextMessage">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="7432F5D8">
+				<object name="OasisInteractionMenuOasisText">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
@@ -84,10 +84,10 @@
 	</object>
 	<object name="Sounds">
 		<field hash="D013EC65" type="String"/>
-		<field hash="5ABBF1EF" type="BinHex"/>
+		<field name="sndTargetHighlightedSound" type="BinHex"/>
 		<field hash="81C09B00" type="String"/>
-		<field hash="3D9AF1A0" type="BinHex"/>
+		<field name="sndHackActivatedSound" type="BinHex"/>
 		<field hash="53E892D3" type="String"/>
-		<field hash="6F012862" type="BinHex"/>
+		<field name="sndHackCanceledSound" type="BinHex"/>
 	</object>
 </class>

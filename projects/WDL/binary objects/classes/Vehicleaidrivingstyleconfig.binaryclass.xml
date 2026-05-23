@@ -7,40 +7,40 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Behavior">
-		<field hash="C4CF1D79" type="BinHex"/>
-		<field hash="478D6943" type="BinHex"/>
-		<field hash="9CE35598" type="BinHex"/>
-		<field hash="E08676A4" type="BinHex"/>
-		<field hash="04A3084B" type="BinHex"/>
-		<field hash="2443DF61" type="BinHex"/>
-		<field hash="B726365B" type="BinHex"/>
-		<field hash="9443AAFD" type="BinHex"/>
-		<field hash="E825D71F" type="BinHex"/>
-		<field hash="928BABA3" type="BinHex"/>
-		<object hash="787C1551">
-			<field hash="D3ABBA75" type="BinHex"/>
-			<field hash="222EE8DD" type="BinHex"/>
-			<field hash="3071FFAB" type="BinHex"/>
-			<field hash="136C811B" type="BinHex"/>
-			<field hash="F9794AC1" type="BinHex"/>
-			<field hash="5AABC8D5" type="BinHex"/>
-			<field hash="A50BA8DC" type="BinHex"/>
+		<field name="bIgnoreTrafficLights" type="BinHex"/>
+		<field name="bIgnorePedestrians" type="BinHex"/>
+		<field name="bIgnorePolice" type="BinHex"/>
+		<field name="bIgnorePlayer" type="BinHex"/>
+		<field name="bIgnoreSpiderBot" type="BinHex"/>
+		<field name="bUseStuckMonitor" type="BinHex"/>
+		<field name="bComputeAllObstaclePOIs" type="BinHex"/>
+		<field name="bIsReckless" type="BinHex"/>
+		<field name="bCanOvertake" type="BinHex"/>
+		<field name="dWanderHistoryOverride" type="BinHex"/>
+		<object name="PathFlags">
+			<field name="bUseRegularTraffic" type="BinHex"/>
+			<field name="bStartOnShortcut" type="BinHex"/>
+			<field name="bNarrowRoadPenalty" type="BinHex"/>
+			<field name="bUseShortcuts" type="BinHex"/>
+			<field name="bStartOncoming" type="BinHex"/>
+			<field name="bInhibitDirectionChange" type="BinHex"/>
+			<field name="bUseOncoming" type="BinHex"/>
 			<field name="bUsePartialBlockedLanes" type="Boolean"/>
-			<field hash="E7D47FA6" type="BinHex"/>
-			<field hash="B84A513C" type="BinHex"/>
+			<field name="bUseGates" type="BinHex"/>
+			<field name="bUseOncomingOnShortcuts" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Navigation">
-		<field hash="4EC4AAEE" type="BinHex"/>
-		<field hash="21CACA12" type="BinHex"/>
-		<field hash="3D5AD8E5" type="BinHex"/>
-		<field hash="29C6B737" type="BinHex"/>
-		<field hash="2F4EB0B5" type="BinHex"/>
+		<field name="fDesiredThrottleAcceleration" type="BinHex"/>
+		<field name="fDesiredBrakingDeceleration" type="BinHex"/>
+		<field name="fCornerEntranceSpeedModifier" type="BinHex"/>
+		<field name="fSteeringSpeedModifier" type="BinHex"/>
+		<field name="fSpeedLimitModifier" type="BinHex"/>
 	</object>
-	<object hash="992DAA53">
-		<field hash="A26B88C5" type="BinHex"/>
-		<field hash="4DFC4E88" type="BinHex"/>
-		<field hash="0DA4FF54" type="BinHex"/>
+	<object name="EngineHacks">
+		<field name="fEngineHeatFactor" type="BinHex"/>
+		<field name="fTransmissionRatioHeatFactor" type="BinHex"/>
+		<field name="fGlobalTyreFrictionScale" type="BinHex"/>
 	</object>
 	<object hash="8D601631">
 		<field hash="D2474DF2" type="BinHex"/>

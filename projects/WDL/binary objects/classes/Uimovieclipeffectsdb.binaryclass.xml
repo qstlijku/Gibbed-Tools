@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="105C53A1" type="BinHex"/>
+	<field name="vectorDisplacement" type="BinHex"/>
 	<field name="vectorRotation" type="BinHex"/>
-	<field hash="A9ED4DE0" type="BinHex"/>
+	<field name="bUseGlassEffect" type="BinHex"/>
 </class>

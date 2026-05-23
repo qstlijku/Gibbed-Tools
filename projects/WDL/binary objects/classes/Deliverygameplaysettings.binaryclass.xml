@@ -6,48 +6,48 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="D631AE28" type="BinHex"/>
-	<field hash="2C92A040" type="BinHex"/>
-	<field hash="CBD99C4B" type="BinHex"/>
+	<field name="bIsBuddyDelivery" type="BinHex"/>
+	<field name="bUseEscapeRadius" type="BinHex"/>
+	<field name="bNeedsToEscapePursuersToCompleteDelivery" type="BinHex"/>
 	<field name="bDisplayArea" type="Boolean"/>
 	<field name="fAreaRadius" type="Float"/>
-	<field hash="2E303E2B" type="BinHex"/>
+	<field name="bDeactivateDestinationUIOnEscapePursuersPhase" type="BinHex"/>
 	<field name="buddyaisettingsBuddyAISettings" type="BinHex"/>
-	<field hash="F5FC97F6" type="BinHex"/>
-	<field hash="78CDDE47" type="BinHex"/>
-	<field hash="777A7524" type="BinHex"/>
+	<field name="bUseMeetingAtDestination" type="BinHex"/>
+	<field name="bShouldLeaveInWanderUponDelivery" type="BinHex"/>
+	<field name="bShouldLeaveInFleeUponDelivery" type="BinHex"/>
 	<field hash="D4AE10FE" type="BinHex"/>
-	<field hash="15881DFE" type="BinHex"/>
-	<field hash="059D277C" type="BinHex"/>
-	<field hash="CE675A56" type="BinHex"/>
-	<field hash="09365C2B" type="BinHex"/>
+	<field name="bUsePGTArenaAsFleeThreat" type="BinHex"/>
+	<field name="fleebehaviordescriptorBuddyFleeBhvDescriptor" type="BinHex"/>
+	<field name="sBuddyDeliverBarkTriggerName" type="BinHex"/>
+	<field name="locategameplaydescriptorEntityToDeliverLocateDescriptor" type="BinHex"/>
 	<field name="bIsTimed" type="Boolean"/>
 	<field name="fTimeToDeliver" type="Float"/>
-	<field hash="04934CD7" type="BinHex"/>
-	<field hash="36BEB326" type="BinHex"/>
-	<field hash="6EFBB928" type="BinHex"/>
-	<object hash="2093D27D">
-		<field hash="AB9B9080" type="BinHex"/>
+	<field name="bStartTimerOnVehicleEnteredInsteadOfDeliveryStart" type="BinHex"/>
+	<field name="selVehicleHealthBarDisplayMode" type="BinHex"/>
+	<field name="bUseOnlineNotifications" type="BinHex"/>
+	<object name="DestinationAnySettings">
+		<field name="LocationDescriptionID" type="BinHex"/>
 	</object>
-	<object hash="8293A3A8">
+	<object name="locstridVehicleHealthBarHeader">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="BF01AF08">
-		<field hash="5B334899" type="BinHex"/>
-		<field hash="FE7DCB74" type="BinHex"/>
+	<object name="VehicleStolenCriticalMessage">
+		<field name="bIsActivated" type="BinHex"/>
+		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="4B95868D">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="F19DAF53">
-		<field hash="5B334899" type="BinHex"/>
-		<field hash="FE7DCB74" type="BinHex"/>
+	<object name="DeliveredCriticalMessage">
+		<field name="bIsActivated" type="BinHex"/>
+		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="4B95868D">

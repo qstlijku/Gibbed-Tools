@@ -7,5 +7,5 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selType" type="Enum"/>
-	<field hash="9860AD16" type="BinHex"/>
+	<field name="arcloakbossabilityconfigARCloakAbilityConfig" type="BinHex"/>
 </class>

@@ -6,37 +6,37 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="E035E191" type="BinHex"/>
-	<field hash="EF595791" type="BinHex"/>
-	<field hash="1EF609DE" type="BinHex"/>
+	<field name="selTargetType" type="BinHex"/>
+	<field name="bIsOpSpecific" type="BinHex"/>
+	<field name="entLandmarkLocateEntity" type="BinHex"/>
 	<field name="bIsHidden" type="Boolean"/>
-	<field hash="8C90FA25" type="BinHex"/>
-	<field hash="329322C9" type="BinHex"/>
-	<field hash="72DC5ABF" type="BinHex"/>
-	<field hash="32359AAE" type="BinHex"/>
-	<field hash="EC14353B" type="BinHex"/>
-	<field hash="78259A69" type="BinHex"/>
+	<field name="bCanExpire" type="BinHex"/>
+	<field name="iMinTimeToLive" type="BinHex"/>
+	<field name="iMaxTimeToLive" type="BinHex"/>
+	<field name="entProgression" type="BinHex"/>
+	<field name="bUseAllModifiers" type="BinHex"/>
+	<field name="bAddTrackingInfo" type="BinHex"/>
 	<field name="vectorPosition" type="BinHex"/>
 	<field name="fRadius" type="Float"/>
-	<field hash="D1C4E289" type="BinHex"/>
+	<field name="bDisplayMapMarker" type="BinHex"/>
 	<object name="locstridTargetName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="D750861D">
+	<object name="locstridTargetDesc">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="CBA8D4FA">
-		<object hash="D871E5C6">
-			<field hash="6065F6F0" type="BinHex"/>
-			<field hash="6A909358" type="BinHex"/>
+	<object name="RulesConfigs">
+		<object name="RuleConfig">
+			<field name="pdruleRuleConfig" type="BinHex"/>
+			<field name="iNumberOfEntitiesToValidate" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="29224056">
+	<object name="PossibleModifiers">
 		<object name="Modifier">
-			<field hash="828AC6CC" type="BinHex"/>
+			<field name="pdmodifModifier" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="AAC6AF60">
+	<object name="locstridOverrideObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

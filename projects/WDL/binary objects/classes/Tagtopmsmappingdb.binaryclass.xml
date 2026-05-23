@@ -6,28 +6,28 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="DF2A6D08">
+	<object name="tagcategoryselectionCensusTag">
 		<field hash="BDB3B8D5" type="String"/>
-		<field hash="401A8276" type="BinHex"/>
-		<field hash="F5391DFF" type="BinHex"/>
+		<field name="UITagCategorySelectionClassID" type="BinHex"/>
+		<field name="tagcategoryUITagCategory" type="BinHex"/>
 		<field name="tagcategoryTagCategory" type="BinHex"/>
 		<field name="tagTag" type="BinHex"/>
 	</object>
-	<object hash="22AD2134">
-		<field hash="2611DB4E" type="BinHex"/>
-		<field hash="1945D45A" type="BinHex"/>
-		<field hash="A3D2406F" type="BinHex"/>
-		<field hash="294146C1" type="BinHex"/>
-		<field hash="7329CA74" type="BinHex"/>
-		<field hash="6BAEBBA5" type="BinHex"/>
-		<field hash="CD22347D" type="BinHex"/>
-		<field hash="8B1DE698" type="BinHex"/>
-		<field hash="4FC4C0A9" type="BinHex"/>
-		<field hash="26152596" type="BinHex"/>
-		<field hash="8D1AB8A6" type="BinHex"/>
-		<field hash="94BF5B84" type="BinHex"/>
-		<field hash="98C4BBA9" type="BinHex"/>
-		<field hash="FD51EC2F" type="BinHex"/>
-		<field hash="F058FAFA" type="BinHex"/>
+	<object name="ArchetypeStylePmsValues">
+		<field name="uiMappingPriority" type="BinHex"/>
+		<field name="selIdle" type="BinHex"/>
+		<field name="selNav" type="BinHex"/>
+		<field name="selMelee" type="BinHex"/>
+		<field name="selTakedown" type="BinHex"/>
+		<field name="selCover" type="BinHex"/>
+		<field name="selCrouch" type="BinHex"/>
+		<field name="selShooting" type="BinHex"/>
+		<field name="selParkour" type="BinHex"/>
+		<field name="selVehicle" type="BinHex"/>
+		<field name="selEmote" type="BinHex"/>
+		<field name="selSelfie" type="BinHex"/>
+		<field name="selStores" type="BinHex"/>
+		<field name="selInteracts" type="BinHex"/>
+		<field name="selOpSwaps" type="BinHex"/>
 	</object>
 </class>

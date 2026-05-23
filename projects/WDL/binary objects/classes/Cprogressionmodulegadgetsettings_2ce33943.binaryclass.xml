@@ -7,23 +7,23 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
-		<field hash="0EADEF82" type="BinHex"/>
+		<field name="scenetotexturestudioobjectDetailsViewStudioObject" type="BinHex"/>
 		<object name="Gadgets">
-			<object hash="B1F352BC">
+			<object name="Gadget">
 				<field name="text_Name" type="String"/>
 				<field name="Name" type="BinHex"/>
-				<field hash="922A0B72" type="BinHex"/>
-				<field hash="03C6F1A9" type="BinHex"/>
+				<field name="bDisplayInApp" type="BinHex"/>
+				<field name="bOnlineOnly" type="BinHex"/>
 				<field hash="E6655990" type="String"/>
 				<field name="archArchetype" type="BinHex"/>
 				<field hash="E7BEE37F" type="String"/>
 				<field hash="2D780F68" type="BinHex"/>
-				<field hash="DB1BDD2E" type="BinHex"/>
+				<field name="texturedbobjectThumbnailIcon" type="BinHex"/>
 				<field hash="7F0A68CE" type="BinHex"/>
-				<object hash="1D38085E">
-					<object hash="80724A45">
+				<object name="Atoms">
+					<object name="Atom">
 						<field hash="AD6C934B" type="String"/>
-						<field hash="1136F9EB" type="BinHex"/>
+						<field name="progressionatomAtomId" type="BinHex"/>
 					</object>
 				</object>
 				<object name="Items">
@@ -31,14 +31,14 @@
 						<field name="itemsItem" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="D5541824">
-					<field hash="94C08F9B" type="BinHex"/>
-					<field hash="1DF2E0ED" type="BinHex"/>
+				<object name="IsUnlocked">
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
-				<object hash="7BA72580">
+				<object name="locstridNameLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="42DDAFC5">
+				<object name="locstridDescriptionLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>

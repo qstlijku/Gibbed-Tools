@@ -6,22 +6,22 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="0B5B64C7">
-		<object hash="8FD1969A">
-			<object hash="4AAD7D5D">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="AgentCompositions">
+		<object name="AgentComposition">
+			<object name="IsValid">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="636DA6F1">
-				<object hash="D92DE83E">
+			<object name="AgentCompositionEntries">
+				<object name="AgentCompositionEntry">
 					<field hash="C48C6356" type="BinHex"/>
 					<field hash="1568085B" type="BinHex"/>
-					<object hash="797001A0">
-						<object hash="C565FAFF">
-							<field hash="869542D8" type="BinHex"/>
+					<object name="AgentSubcategorySettings">
+						<object name="AgentSubcategoryData">
+							<field name="selAgentSubcategory" type="BinHex"/>
 							<field name="selVehicleType" type="Enum"/>
-							<field hash="7CD044E7" type="BinHex"/>
-							<field hash="A2295D66" type="BinHex"/>
+							<field name="fRandomWeight" type="BinHex"/>
+							<field name="DesiredCount" type="BinHex"/>
 							<field name="selVehicleSettings" type="Enum"/>
 							<field hash="76AA17E6" type="BinHex"/>
 						</object>

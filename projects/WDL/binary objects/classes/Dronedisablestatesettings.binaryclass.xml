@@ -6,6 +6,6 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="011AB757" type="BinHex"/>
-	<field hash="77AF9D30" type="BinHex"/>
+	<field name="bVulnerableOnlyWhenDisable" type="BinHex"/>
+	<field name="bUseParticle" type="BinHex"/>
 </class>

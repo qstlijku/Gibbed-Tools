@@ -67,8 +67,8 @@
 		<field hash="172B55EA" type="BinHex"/>
 		<object name="NpcGears">
 			<object name="m_npcSoundGears">
-				<field hash="E206FBB0" type="BinHex"/>
-				<field hash="EEACA8D2" type="BinHex"/>
+				<field name="fDownshiftRPMFactor" type="BinHex"/>
+				<field name="fUpshiftRPMFactor" type="BinHex"/>
 			</object>
 		</object>
 	</object>

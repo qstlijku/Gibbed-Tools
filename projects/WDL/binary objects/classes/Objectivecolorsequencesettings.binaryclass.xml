@@ -6,60 +6,60 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="B4945DFB" type="BinHex"/>
-	<object hash="DADF8182">
+	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
+	<object name="locstridShortLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3CFBA4A2">
+	<object name="locstridLongLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="14BBAE7D">
+	<object name="locstridSoloObjectiveLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FC293553">
+	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="85401542">
-		<object hash="0EDE7E32">
-			<field hash="7F099870" type="BinHex"/>
-			<field hash="08258E75" type="BinHex"/>
-			<field hash="D2A4CA33" type="BinHex"/>
-			<field hash="6AB090C9" type="BinHex"/>
-			<field hash="E2B1EEEF" type="BinHex"/>
-			<field hash="67164D9F" type="BinHex"/>
-			<field hash="99C305F5" type="BinHex"/>
-			<field hash="86593E3A" type="BinHex"/>
-			<field hash="58ECE0F8" type="BinHex"/>
+		<object name="ColorSequenceData">
+			<field name="fDisplayColorTime" type="BinHex"/>
+			<field name="iSequenceLength" type="BinHex"/>
+			<field name="fCompleteSequenceInputMaxDelay" type="BinHex"/>
+			<field name="fSequenceInputMaxDelay" type="BinHex"/>
+			<field name="fRestartSequenceDisplayDelay" type="BinHex"/>
+			<field name="fDroneForceExitDelay" type="BinHex"/>
+			<field name="fGameplayCompletedDelay" type="BinHex"/>
+			<field name="entResetEntityID" type="BinHex"/>
+			<field name="entSequenceDisplayEntityId" type="BinHex"/>
 			<field name="fWarningDuration" type="Float"/>
 			<field hash="D0161FAB" type="BinHex"/>
-			<object hash="F9C2FBF4">
+			<object name="SequenceColors">
 				<object name="Color">
 					<field name="colorColor" type="Vector3"/>
 				</object>
 			</object>
-			<object hash="A83431CE"/>
+			<object name="SequenceEntitieIDs"/>
 			<object hash="CA169828"/>
-			<object hash="B6582A20">
+			<object name="locstridSequenceSuccessLogTitleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="4560D5E5">
+			<object name="locstridSequenceSuccessLogMessageLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="87CACBC6">
+			<object name="locstridSequenceSuccessDisplay1LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="015EB968">
+			<object name="locstridSequenceSuccessDisplay2LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="CFB6B345">
+			<object name="locstridSequenceBadInputTitleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="10EB4962">
+			<object name="locstridSequenceBadInputMsgLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object hash="C7B2E6A7">
 				<object name="EntityId">
-					<field hash="79779987" type="BinHex"/>
+					<field name="entEntityID" type="BinHex"/>
 				</object>
 			</object>
 		</object>

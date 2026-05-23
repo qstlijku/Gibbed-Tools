@@ -6,19 +6,19 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="03582C88">
+	<object name="DefaultStage">
 		<field name="text_Name" type="String"/>
 		<field name="Name" type="BinHex"/>
-		<field hash="32953CBA" type="BinHex"/>
-		<object hash="D918668A">
-			<object hash="AC0E2067">
-				<field hash="696F4128" type="BinHex"/>
-				<object hash="EDD9FF2D">
-					<object hash="6F287D8E">
-						<field hash="DA7E0089" type="BinHex"/>
-						<object hash="EDD9FF2D">
-							<object hash="C3A8F4B7">
-								<field hash="C3A8F4B7" type="BinHex"/>
+		<field name="plasmabucketDefaultCameraBucket" type="BinHex"/>
+		<object name="StageSlots">
+			<object name="slot">
+				<field name="selSlot" type="BinHex"/>
+				<object name="Templates">
+					<object name="templates">
+						<field name="plasmacriteriaCriteria" type="BinHex"/>
+						<object name="Templates">
+							<object name="plasmatemplateTemplate">
+								<field name="plasmatemplateTemplate" type="BinHex"/>
 							</object>
 						</object>
 					</object>
@@ -26,20 +26,20 @@
 			</object>
 		</object>
 	</object>
-	<object hash="280E6F52">
+	<object name="Stages">
 		<object name="Stage">
 			<field name="text_Name" type="String"/>
 			<field name="Name" type="BinHex"/>
-			<field hash="32953CBA" type="BinHex"/>
-			<object hash="D918668A">
-				<object hash="AC0E2067">
-					<field hash="696F4128" type="BinHex"/>
-					<object hash="EDD9FF2D">
-						<object hash="6F287D8E">
-							<field hash="DA7E0089" type="BinHex"/>
-							<object hash="EDD9FF2D">
-								<object hash="C3A8F4B7">
-									<field hash="C3A8F4B7" type="BinHex"/>
+			<field name="plasmabucketDefaultCameraBucket" type="BinHex"/>
+			<object name="StageSlots">
+				<object name="slot">
+					<field name="selSlot" type="BinHex"/>
+					<object name="Templates">
+						<object name="templates">
+							<field name="plasmacriteriaCriteria" type="BinHex"/>
+							<object name="Templates">
+								<object name="plasmatemplateTemplate">
+									<field name="plasmatemplateTemplate" type="BinHex"/>
 								</object>
 							</object>
 						</object>

@@ -7,19 +7,19 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="F6B8680F" type="BinHex"/>
-	<object hash="40B3BE3B">
+	<object name="TeleportEntities">
 		<object name="TeleportEntity">
-			<field hash="C160F121" type="BinHex"/>
+			<field name="entTeleportEntity" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="C073C27A">
-		<object hash="5F5D8E7C">
+	<object name="RiftOpenedPhases">
+		<object name="SMindjackRiftOpenedState">
 			<field hash="C8E3E78D" type="String"/>
-			<field hash="CB836F78" type="BinHex"/>
-			<field hash="262F4797" type="BinHex"/>
-			<field hash="09E4C41D" type="BinHex"/>
-			<field hash="03E7B890" type="BinHex"/>
-			<object hash="2A39AF5E">
+			<field name="archWeakPointsArchetype" type="BinHex"/>
+			<field name="entTeleportOverideEntity" type="BinHex"/>
+			<field name="bRequestReinforcement" type="BinHex"/>
+			<field name="reinforcementgameplaydescriptorRiftOpenedReinforcement" type="BinHex"/>
+			<object name="WeakpointsOffSetList">
 				<object name="ndVec3">
 					<field name="ndVec3" type="BinHex"/>
 				</object>
@@ -29,101 +29,101 @@
 	<object hash="F7833824">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="BF73655F">
+	<object name="StateArchetype">
 		<field hash="217EFFE3" type="String"/>
-		<field hash="221E7716" type="BinHex"/>
+		<field name="archOpenedRiftArchetype" type="BinHex"/>
 		<field hash="1E28095D" type="String"/>
-		<field hash="948014D7" type="BinHex"/>
+		<field name="archUnlockedRiftArchetype" type="BinHex"/>
 	</object>
-	<object hash="DA17978D">
+	<object name="Particules">
 		<field hash="FA1F4CDB" type="String"/>
-		<field hash="37CB2AC0" type="BinHex"/>
+		<field name="psRiftCubeSpawnParticles" type="BinHex"/>
 		<object name="States">
 			<field hash="0993BF82" type="String"/>
-			<field hash="B5C9D522" type="BinHex"/>
+			<field name="psRiftClosedParticles" type="BinHex"/>
 			<field hash="A8C93113" type="String"/>
-			<field hash="14935BB3" type="BinHex"/>
+			<field name="psRiftOpenedParticles" type="BinHex"/>
 			<field hash="DC090BD8" type="String"/>
-			<field hash="DF69832D" type="BinHex"/>
-			<field hash="352EF348" type="BinHex"/>
+			<field name="psRiftUnlockedParticles" type="BinHex"/>
+			<field name="psRiftTeleportedParticles" type="BinHex"/>
 		</object>
 		<object name="Transitions">
-			<field hash="B52D8BF7" type="BinHex"/>
+			<field name="psRiftClosingParticles" type="BinHex"/>
 			<field hash="E4EE8B29" type="String"/>
-			<field hash="328472AB" type="BinHex"/>
+			<field name="psRiftOpeningParticles" type="BinHex"/>
 			<field hash="E82C502B" type="String"/>
-			<field hash="25F83630" type="BinHex"/>
+			<field name="psRiftUnlockingParticles" type="BinHex"/>
 			<field hash="152D26B4" type="String"/>
-			<field hash="18CAE497" type="BinHex"/>
+			<field name="psRiftTeleportingParticles" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="C0DB2FB7">
-		<field hash="A2D4C088" type="BinHex"/>
-		<field hash="77CF630F" type="BinHex"/>
-		<field hash="092A0AAE" type="BinHex"/>
-		<field hash="F4ADA5B5" type="BinHex"/>
+	<object name="TransitionTimer">
+		<field name="fClosedToOpenedTransitionDuration" type="BinHex"/>
+		<field name="fOpenedToTeleportTransitionDuration" type="BinHex"/>
+		<field name="fTeleportToClosedTransitionDuration" type="BinHex"/>
+		<field name="fOpenedToUnlockedTransitionDuration" type="BinHex"/>
 	</object>
-	<object hash="10752CED">
+	<object name="SoundFX">
 		<field hash="1B66ADC2" type="String"/>
-		<field hash="278F1773" type="BinHex"/>
+		<field name="sndAmbientSoundStart" type="BinHex"/>
 		<field hash="18EF85A5" type="String"/>
-		<field hash="F2B1E581" type="BinHex"/>
-		<field hash="5192CBC3" type="BinHex"/>
-		<field hash="2FD39E4D" type="BinHex"/>
+		<field name="sndAmbientSoundStop" type="BinHex"/>
+		<field name="sndtpAmbientSoundStartType" type="BinHex"/>
+		<field name="sndtpAmbientSoundStopType" type="BinHex"/>
 		<field hash="B0349D5A" type="BinHex"/>
 		<field hash="BFE60BB1" type="BinHex"/>
 		<field hash="07A4A601" type="BinHex"/>
 		<field hash="DE3904CE" type="String"/>
-		<field hash="479C6A94" type="BinHex"/>
+		<field name="sndRiftOpensSound" type="BinHex"/>
 		<field hash="138C2B1F" type="String"/>
-		<field hash="98AB369B" type="BinHex"/>
-		<field hash="1A2967D6" type="BinHex"/>
+		<field name="sndRiftClosesSound" type="BinHex"/>
+		<field name="sndEscapeTransitionBeginSound" type="BinHex"/>
 		<field hash="CEA10C3D" type="String"/>
-		<field hash="458611B9" type="BinHex"/>
-		<field hash="4ED33F92" type="BinHex"/>
+		<field name="sndGhostPurgeSound" type="BinHex"/>
+		<field name="sndBulletHitSound" type="BinHex"/>
 		<field hash="5ED57307" type="String"/>
-		<field hash="E28F19A7" type="BinHex"/>
+		<field name="sndRiftDestroyedSound" type="BinHex"/>
 		<field hash="CB47FEE2" type="BinHex"/>
 		<field hash="2370DAB0" type="BinHex"/>
 		<field hash="A40B996D" type="BinHex"/>
 		<field hash="CC0119E6" type="BinHex"/>
-		<field hash="8A66A60B" type="BinHex"/>
+		<field name="sndtpBulletHitSoundType" type="BinHex"/>
 		<field hash="DF6B359B" type="BinHex"/>
-		<object hash="0A099B54">
+		<object name="sndvarAmbientSoundRtpc">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 	</object>
-	<object hash="94F4AC6D">
+	<object name="Hint">
 		<field hash="3A508D38" type="String"/>
-		<field hash="A3F5E362" type="BinHex"/>
-		<field hash="4EEB0067" type="BinHex"/>
-		<field hash="78DB708F" type="BinHex"/>
-		<field hash="F8191A90" type="BinHex"/>
-		<object hash="80EA4630">
-			<object hash="35FADC0F">
-				<field hash="1D932081" type="BinHex"/>
+		<field name="archHintArchetype" type="BinHex"/>
+		<field name="fHintInitialDelay" type="BinHex"/>
+		<field name="bHintShouldLoop" type="BinHex"/>
+		<field name="fHintLoopDelay" type="BinHex"/>
+		<object name="HintPathList">
+			<object name="HintPath">
+				<field name="entPatrolPath" type="BinHex"/>
 			</object>
 		</object>
 	</object>
 	<object name="Barks">
-		<field hash="B11001ED" type="BinHex"/>
+		<field name="entBarksEntityId" type="BinHex"/>
 		<field name="selBarkPriority" type="Enum"/>
-		<field hash="B074D6F3" type="BinHex"/>
+		<field name="fReachDistance" type="BinHex"/>
 		<field hash="1EB444C5" type="String"/>
-		<field hash="629AD934" type="BinHex"/>
-		<field hash="96E0E524" type="BinHex"/>
-		<field hash="1D8C97A8" type="BinHex"/>
-		<field hash="E8715C33" type="BinHex"/>
+		<field name="BarkReachRift" type="BinHex"/>
+		<field name="fPlayCombatBarksMinTime" type="BinHex"/>
+		<field name="fplayCombatBarksMaxTime" type="BinHex"/>
+		<field name="fCombatCoolDownDuration" type="BinHex"/>
 		<field hash="07AC4032" type="String"/>
-		<field hash="9E092E68" type="BinHex"/>
-		<object hash="C22D74C2">
+		<field name="BarkRiftDestroyed" type="BinHex"/>
+		<object name="PlayerShootAtRiftBarks">
 			<object name="BarkId">
 				<field hash="AC5CD011" type="String"/>
 				<field name="BarkId" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="9FCE745D">
+		<object name="RiftTeleportBarks">
 			<object name="BarkId">
 				<field hash="AC5CD011" type="String"/>
 				<field name="BarkId" type="BinHex"/>

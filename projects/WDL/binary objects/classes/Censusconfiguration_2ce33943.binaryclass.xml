@@ -9,31 +9,31 @@
 	<field hash="DD9592DF" type="BinHex"/>
 	<field hash="666FFDDA" type="BinHex"/>
 	<field hash="2D66C3DD" type="BinHex"/>
-	<object hash="2605793B">
-		<field hash="AB7B4AD0" type="BinHex"/>
-		<field hash="0DAB746B" type="BinHex"/>
-		<field hash="5D01D7DE" type="BinHex"/>
-		<field hash="2C9F1943" type="BinHex"/>
-		<field hash="40440D5C" type="BinHex"/>
-		<field hash="F8776722" type="BinHex"/>
-		<field hash="7A7CB89F" type="BinHex"/>
-		<field hash="4E391E40" type="BinHex"/>
-		<field hash="B206BB39" type="BinHex"/>
-		<field hash="D4167C29" type="BinHex"/>
-		<field hash="53EE0F11" type="BinHex"/>
-		<field hash="D4B82E14" type="BinHex"/>
+	<object name="LeverageAndIntrigueConfiguration">
+		<field name="censusmetaintrigueresolutionbucketInitialIntrigueAndLeverageBucket" type="BinHex"/>
+		<field name="censusmetaintrigueresolutionbucketOnFailureBucket" type="BinHex"/>
+		<field name="censusmetaintrigueresolutionbucketInPrisonBucket" type="BinHex"/>
+		<field name="censusmetaintrigueresolutionbucketPlayerCausedInPrisonBucket" type="BinHex"/>
+		<field name="censusmetaintrigueresolutionbucketInHospitalBucket" type="BinHex"/>
+		<field name="censusmetaintrigueresolutionbucketPlayerCausedInHospitalBucket" type="BinHex"/>
+		<field name="censusmetaintrigueresolutionbucketPendingDeportationBucket" type="BinHex"/>
+		<field name="censusmetaintrigueresolutionbucketPlayerCausedPendingDeportationBucket" type="BinHex"/>
+		<field name="censusmetaintrigueresolutionbucketUpreWithFelonyBucket" type="BinHex"/>
+		<field name="censusactormemorydefinitionMemoryToApplyOnLeverageFailure" type="BinHex"/>
+		<field name="fPhoneCommunicationDelay" type="BinHex"/>
+		<field name="fPostPhoneCommunicationDelay" type="BinHex"/>
 		<field hash="D10F3912" type="BinHex"/>
 		<field hash="9A85F6F5" type="BinHex"/>
-		<field hash="B4CFAE97" type="BinHex"/>
+		<field name="phonecommunicationsettingsContactRecruitableWithoutLeverageTS" type="BinHex"/>
 		<field hash="CC8A5D08" type="BinHex"/>
 		<field hash="C1F92DF0" type="BinHex"/>
 		<field hash="1816CD2D" type="BinHex"/>
-		<object hash="2423272E">
-			<object hash="0F3BA16F">
-				<field hash="F28136E8" type="BinHex"/>
-				<field hash="398A2541" type="BinHex"/>
-				<field hash="94F3F482" type="BinHex"/>
-				<field hash="A872D14D" type="BinHex"/>
+		<object name="LeverageOpCompatibilityData">
+			<object name="CompatibilityData">
+				<field name="opslistOp" type="BinHex"/>
+				<field name="conversationinteractionKickoffConversationInteractionSettings" type="BinHex"/>
+				<field name="phonecommunicationsettingsKickoffBark" type="BinHex"/>
+				<field name="bRequiresScheduledAppointment" type="BinHex"/>
 				<field hash="3A743018" type="BinHex"/>
 			</object>
 		</object>
@@ -79,561 +79,561 @@
 		<object hash="462634CD">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="CF6EE8AC">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="DeepProfilerUnlocked">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="849FD1C7">
-		<field hash="EE04D8B8" type="BinHex"/>
-		<field hash="C0FBEBB1" type="BinHex"/>
-		<field hash="A1D04004" type="BinHex"/>
-		<field hash="679982A3" type="BinHex"/>
-		<field hash="06B22916" type="BinHex"/>
+	<object name="SchedulingConfig">
+		<field name="vehiclebhvsetupTravelByVehicleBhvSetup" type="BinHex"/>
+		<field name="censuscontractdefinitionContractDefinitionForActorInjury" type="BinHex"/>
+		<field name="censusattendancedefinitionAttendanceDefinitionForActorInjury" type="BinHex"/>
+		<field name="censuscontractdefinitionContractDefinitionForActorArrest" type="BinHex"/>
+		<field name="censusattendancedefinitionAttendanceDefinitionForActorArrest" type="BinHex"/>
 		<field hash="3A42018A" type="BinHex"/>
 		<field hash="F8F67FB2" type="BinHex"/>
-		<object hash="FEB4A937">
+		<object name="DelayTimerConfigForWalkers">
 			<field name="fMinTime" type="Float"/>
 			<field name="fMaxTime" type="Float"/>
 		</object>
-		<object hash="1FFF44A8">
+		<object name="DelayTimerConfigForCLOUsers">
 			<field name="fMinTime" type="Float"/>
 			<field name="fMaxTime" type="Float"/>
 		</object>
-		<object hash="38118EEC">
-			<object hash="4EAC35EA">
+		<object name="FakeScheduleStrings">
+			<object name="locstridOnABoat">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="3A6D38BA">
+			<object name="locstridInADgScene">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="3612E3C8">
+			<object name="locstridInACloEvent">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="5FEA3C8F">
+			<object name="locstridInAHackerspace">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="43FA0202">
+			<object name="locstridInAConversation">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="9518EFBE">
+			<object name="locstridInAnHMA">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="BD72019D">
+			<object name="locstridInAIgnoreScheduleZone">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="76BF1762">
+			<object name="locstridIopActive">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DC8E0592">
-				<object hash="8F7BE0CD">
+			<object name="IsFleeing">
+				<object name="locstridNoTarget">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="2B5F5155">
+				<object name="locstridHasTargetNoTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="403C7DD0">
-					<field name="LocalizationId" type="UInt64"/>
-				</object>
-			</object>
-			<object hash="7B8AAD20">
-				<object hash="8F7BE0CD">
-					<field name="LocalizationId" type="UInt64"/>
-				</object>
-				<object hash="2B5F5155">
-					<field name="LocalizationId" type="UInt64"/>
-				</object>
-				<object hash="403C7DD0">
+				<object name="locstridHasTargetHasTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="9E6F127F">
-				<object hash="8F7BE0CD">
+			<object name="IsCowering">
+				<object name="locstridNoTarget">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="2B5F5155">
+				<object name="locstridHasTargetNoTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="403C7DD0">
-					<field name="LocalizationId" type="UInt64"/>
-				</object>
-			</object>
-			<object hash="A7CE2A40">
-				<object hash="8F7BE0CD">
-					<field name="LocalizationId" type="UInt64"/>
-				</object>
-				<object hash="2B5F5155">
-					<field name="LocalizationId" type="UInt64"/>
-				</object>
-				<object hash="403C7DD0">
+				<object name="locstridHasTargetHasTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="4719F2E5">
-				<object hash="8F7BE0CD">
+			<object name="IsInCombat">
+				<object name="locstridNoTarget">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="2B5F5155">
+				<object name="locstridHasTargetNoTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="403C7DD0">
-					<field name="LocalizationId" type="UInt64"/>
-				</object>
-			</object>
-			<object hash="4A04ECF1">
-				<object hash="8F7BE0CD">
-					<field name="LocalizationId" type="UInt64"/>
-				</object>
-				<object hash="2B5F5155">
-					<field name="LocalizationId" type="UInt64"/>
-				</object>
-				<object hash="403C7DD0">
+				<object name="locstridHasTargetHasTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="9527E919">
+			<object name="IsInSearch">
+				<object name="locstridNoTarget">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object name="locstridHasTargetNoTitle">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object name="locstridHasTargetHasTitle">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+			<object name="IsInGoodSamaritan">
+				<object name="locstridNoTarget">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object name="locstridHasTargetNoTitle">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object name="locstridHasTargetHasTitle">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+			<object name="IsPlayingDartsWithPlayer">
+				<object name="locstridNoTarget">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object name="locstridHasTargetNoTitle">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object name="locstridHasTargetHasTitle">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+			<object name="locstridWalkingMyDog">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="EB0C463E">
+			<object name="locstridAssignedToForbiddenZone">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A20B5BF6">
+			<object name="locstridIsOpenWorldPolice">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="09182DCF">
+			<object name="locstridIsOpenWorldClanKelleyIntimidator">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="59DFE8FB">
+			<object name="locstridIsInBuddyAI">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="C59D23CB">
+			<object name="locstridIsReinforcement_Authorities">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E9C56345">
+			<object name="locstridIsReinforcement_Criminals">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object hash="1DC38757">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="1A1E31A9">
-			<object hash="A1677CDB">
-				<object hash="E106AF9B">
-					<object hash="04712EDB">
+		<object name="ScheduleProfileCardTemplateStrings">
+			<object name="CurrentlyHappening">
+				<object name="AvailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="91043BA3">
-					<object hash="04712EDB">
+				<object name="AvailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="9B425FB5">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="40E8825D">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="6F4FF006">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasDistrict_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="9275313C">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasDistrict_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="80F34E83">
-					<object hash="04712EDB">
+				<object name="NoAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="FFF7BA72">
-					<object hash="04712EDB">
+				<object name="NoAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="2DF46EC6">
-					<object hash="04712EDB">
+				<object name="UnavailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="8C561D0F">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-			</object>
-			<object hash="ED897AB4">
-				<object hash="E106AF9B">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="91043BA3">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="9B425FB5">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="40E8825D">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="6F4FF006">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="9275313C">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="80F34E83">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="FFF7BA72">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="2DF46EC6">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="8C561D0F">
-					<object hash="04712EDB">
+				<object name="UnavailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
 			</object>
-			<object hash="455C7DB9">
-				<object hash="E106AF9B">
-					<object hash="04712EDB">
+			<object name="CurrentlyTravellingTo">
+				<object name="AvailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="91043BA3">
-					<object hash="04712EDB">
+				<object name="AvailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="9B425FB5">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="40E8825D">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="6F4FF006">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasDistrict_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="9275313C">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasDistrict_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="80F34E83">
-					<object hash="04712EDB">
+				<object name="NoAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="FFF7BA72">
-					<object hash="04712EDB">
+				<object name="NoAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="2DF46EC6">
-					<object hash="04712EDB">
+				<object name="UnavailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="8C561D0F">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-			</object>
-			<object hash="4A943848">
-				<object hash="E106AF9B">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="91043BA3">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="9B425FB5">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="40E8825D">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="6F4FF006">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="9275313C">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="80F34E83">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="FFF7BA72">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="2DF46EC6">
-					<object hash="04712EDB">
-						<field name="LocalizationId" type="UInt64"/>
-					</object>
-				</object>
-				<object hash="8C561D0F">
-					<object hash="04712EDB">
+				<object name="UnavailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
 			</object>
-			<object hash="39D5CDF3">
-				<object hash="E106AF9B">
-					<object hash="04712EDB">
+			<object name="CurrentlyTravellingToDelayed">
+				<object name="AvailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="91043BA3">
-					<object hash="04712EDB">
+				<object name="AvailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="9B425FB5">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="40E8825D">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="6F4FF006">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasDistrict_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="9275313C">
-					<object hash="04712EDB">
+				<object name="NoAssociate_HasDistrict_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="80F34E83">
-					<object hash="04712EDB">
+				<object name="NoAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="FFF7BA72">
-					<object hash="04712EDB">
+				<object name="NoAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="2DF46EC6">
-					<object hash="04712EDB">
+				<object name="UnavailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="8C561D0F">
-					<object hash="04712EDB">
+				<object name="UnavailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+			</object>
+			<object name="CurrentlyTravellingToArrivedEarly">
+				<object name="AvailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="AvailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_HasLocation_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_HasLocation_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_HasDistrict_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_HasDistrict_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="UnavailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="UnavailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+			</object>
+			<object name="HappeningInTheFuture">
+				<object name="AvailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="AvailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_HasLocation_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_HasLocation_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_HasDistrict_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_HasDistrict_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="NoAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="UnavailableAssociate_NoLocation_AllDay">
+					<object name="locstridLocId">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object name="UnavailableAssociate_NoLocation_HasEndTime">
+					<object name="locstridLocId">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="9BE1C1FB">
-			<object hash="93D4820E">
+		<object name="ScheduleMapCardTemplateStrings">
+			<object name="locstridAvailableAssociate_NoTitle_NoLocation">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E752A858">
+			<object name="locstridAvailableAssociate_HasTitle_NoLocation">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="873B56CE">
+			<object name="locstridNoAssociate_HasLocation">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E8648B82">
+			<object name="locstridNoAssociate_HasDistrict">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="049D3659">
+			<object name="locstridNoAssociate_NoLocation">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D7BFD0A5">
+			<object name="locstridUnavailableAssociate_NoTitle_NoLocation">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A612B96A">
+			<object name="locstridUnavailableAssociate_HasTitle_NoLocation">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="6D4B35A4">
+			<object name="locstridUnscheduledKnownAssociate_NoTitle_NormalStatus">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="AE8FA673">
+			<object name="locstridUnscheduledKnownAssociate_HasTitle_NormalStatus">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="EE165145">
+			<object name="locstridUnscheduledKnownAssociate_NoTitle_NonNormalStatus">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A0B5AD43">
+			<object name="locstridUnscheduledKnownAssociate_HasTitle_NonNormalStatus">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="CB939988">
-		<object hash="574586A5">
+	<object name="UIConfig">
+		<object name="ActorStatuses">
 			<object name="Normal">
-				<object hash="2292094B">
+				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object hash="4E0D143E">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="6BEE0110">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="8FB2C855">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="CD2999FF">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="A8809AC7">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="C643AC88">
+				<object name="locstridNoScheduleDescription_WithoutRelation">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 			<object name="Dead">
-				<object hash="2292094B">
+				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object hash="4E0D143E">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="6BEE0110">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="8FB2C855">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="CD2999FF">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="A8809AC7">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="C643AC88">
+				<object name="locstridNoScheduleDescription_WithoutRelation">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="F4423821">
-				<object hash="2292094B">
+			<object name="Injured">
+				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object hash="4E0D143E">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="6BEE0110">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="8FB2C855">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="CD2999FF">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="A8809AC7">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="C643AC88">
+				<object name="locstridNoScheduleDescription_WithoutRelation">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="94FD7DB2">
-				<object hash="2292094B">
+			<object name="Arrested">
+				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object hash="4E0D143E">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="6BEE0110">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="8FB2C855">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="CD2999FF">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="A8809AC7">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="C643AC88">
+				<object name="locstridNoScheduleDescription_WithoutRelation">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="23BED8FB">
-				<object hash="2292094B">
+			<object name="PendingDeportation">
+				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object hash="4E0D143E">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="6BEE0110">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="8FB2C855">
+				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="CD2999FF">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_NoStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="A8809AC7">
+				<object name="locstridNoScheduleDescription_WithRelation_Operative_WithStatus">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="C643AC88">
+				<object name="locstridNoScheduleDescription_WithoutRelation">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 		</object>
-		<object hash="038A816C">
-			<object hash="6E64EA56">
+		<object name="HudPopupData">
+			<object name="locstridRecruitAvailableHeader">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object hash="46F47EB4">
@@ -646,74 +646,74 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="635D4C9B">
-			<object hash="8AAFBD41">
+		<object name="TimeData">
+			<object name="locstridAllDayTimeRangeLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="C625D378">
+			<object name="locstridPartialDayTimeRangeLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="869E9AC9">
+			<object name="locstridConciseTimeLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A6442485">
+			<object name="locstridUppercaseAMLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="67EDB3FF">
+			<object name="locstridUppercasePMLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E83FE2D7">
+			<object name="locstridLowercaseAMLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="299675AD">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-		</object>
-		<object hash="7F04FEF5">
-			<object hash="CD536505">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="A88F7620">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="9F7BA3B0">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="4F77F8B3">
+			<object name="locstridLowercasePMLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="BDC92F1F">
-			<object hash="14A0BD12">
+		<object name="RelationshipData">
+			<object name="locstridRelationDescription_NonOperative_NormalStatus">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridRelationDescription_Operative_NormalStatus">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridRelationDescription_NonOperative_NonNormalStatus">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridRelationDescription_Operative_NonNormalStatus">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object name="NameData">
+			<object name="locstridFullNameLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object hash="8EB5E3DA">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="456842D4">
+			<object name="locstridRelationFullNameRoleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0B47343D">
+			<object name="locstridOperativeTitleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0012D769">
+			<object name="locstridExDedSecTitleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="54ED15C2">
+			<object name="locstridNemesisTitleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="194C66D0">
-			<object hash="005B3D58">
+		<object name="HighlightData">
+			<object name="locstridIsOperativeLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="CD3F48F0">
+			<object name="locstridIsLocalContactLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="693AED8F">
+			<object name="locstridIsNemesisLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="3B4911FF">
+			<object name="locstridIsExDedSecsLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object hash="7922F2DA">
@@ -776,14 +776,14 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="6701B70A">
+	<object name="PredefinedFilters">
 		<object name="Filter">
 			<field hash="F1B1D97B" type="BinHex"/>
 			<field name="sName" type="BinHex"/>
 			<object name="Filter">
-				<object hash="04170D84">
+				<object name="tagcategoryselectionblackboardProfile">
 					<object name="TagCategorySelectionArray"/>
-					<object hash="D0C5DABB">
+					<object name="TagDescriptorUI">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<object name="TagCategorySelectionDescriptors">
@@ -797,71 +797,71 @@
 			</object>
 		</object>
 	</object>
-	<object hash="CEC23B89">
-		<object hash="EC569DEF">
-			<field hash="4A9EE83D" type="BinHex"/>
-			<field hash="6D258F0C" type="BinHex"/>
+	<object name="DeferredActorStatusChangeConfiguration">
+		<object name="CapturedByPolice">
+			<field name="fMinimumWaitTime" type="BinHex"/>
+			<field name="fMaximumWaitTime" type="BinHex"/>
 		</object>
-		<object hash="FFE6AC19">
-			<field hash="4A9EE83D" type="BinHex"/>
-			<field hash="6D258F0C" type="BinHex"/>
+		<object name="ReleaseFromPoliceStation">
+			<field name="fMinimumWaitTime" type="BinHex"/>
+			<field name="fMaximumWaitTime" type="BinHex"/>
 		</object>
-		<object hash="02330A55">
-			<field hash="4A9EE83D" type="BinHex"/>
-			<field hash="6D258F0C" type="BinHex"/>
+		<object name="ReleaseFromHospital">
+			<field name="fMinimumWaitTime" type="BinHex"/>
+			<field name="fMaximumWaitTime" type="BinHex"/>
 		</object>
-		<object hash="5AC59FE6">
-			<field hash="4A9EE83D" type="BinHex"/>
-			<field hash="6D258F0C" type="BinHex"/>
+		<object name="CaptureBySIRS">
+			<field name="fMinimumWaitTime" type="BinHex"/>
+			<field name="fMaximumWaitTime" type="BinHex"/>
 		</object>
-		<object hash="97C351B5">
-			<field hash="4A9EE83D" type="BinHex"/>
-			<field hash="6D258F0C" type="BinHex"/>
+		<object name="ReleaseFromSIRS">
+			<field name="fMinimumWaitTime" type="BinHex"/>
+			<field name="fMaximumWaitTime" type="BinHex"/>
 		</object>
-		<object hash="6EB16ACC">
-			<field hash="4A9EE83D" type="BinHex"/>
-			<field hash="6D258F0C" type="BinHex"/>
+		<object name="ActorScheduleFillIn">
+			<field name="fMinimumWaitTime" type="BinHex"/>
+			<field name="fMaximumWaitTime" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="45FEB08E">
-		<field hash="EFDE970D" type="BinHex"/>
-		<field hash="39B7BFD5" type="BinHex"/>
-		<field hash="2EE0BE30" type="BinHex"/>
-		<field hash="7BBDCCDB" type="BinHex"/>
-		<field hash="69425BF9" type="BinHex"/>
-		<field hash="A367E233" type="BinHex"/>
-		<field hash="3E680345" type="BinHex"/>
-		<field hash="CD9D8AB4" type="BinHex"/>
-		<field hash="FE51D0DE" type="BinHex"/>
-		<field hash="F3921B48" type="BinHex"/>
+	<object name="UpresProbabilities">
+		<field name="fChanceOfBeingDead" type="BinHex"/>
+		<field name="fChanceOfBeingInjured" type="BinHex"/>
+		<field name="fChanceOfBeingArrested" type="BinHex"/>
+		<field name="fChanceOfBeingDeported" type="BinHex"/>
+		<field name="fChanceToHave1Relationship" type="BinHex"/>
+		<field name="fChanceToHave2Relationships" type="BinHex"/>
+		<field name="fChanceToHave3Relationships" type="BinHex"/>
+		<field name="fChanceOfScheduledInArea" type="BinHex"/>
+		<field name="iMaxNumRelationshipContractsPerActor" type="BinHex"/>
+		<field name="iMaxNumPersonalContractsPerActor" type="BinHex"/>
 		<field hash="1AFB3C23" type="BinHex"/>
 		<object hash="D49D8F63">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="F872A302">
-		<object hash="F872A302">
+	<object name="NameOverrides">
+		<object name="NameOverrides">
 			<object name="Override">
-				<field hash="ECF1E27E" type="BinHex"/>
+				<field name="tagNameOverrideTag" type="BinHex"/>
 				<field hash="782FDA60" type="BinHex"/>
-				<field hash="3B091151" type="BinHex"/>
+				<field name="sCensusProfileFieldNameOverride" type="BinHex"/>
 				<field hash="8DC73186" type="BinHex"/>
-				<field hash="526D351A" type="BinHex"/>
-				<field hash="85B88B16" type="BinHex"/>
-				<field hash="097746A8" type="BinHex"/>
+				<field name="sCensusProfileFieldSurnameOverride" type="BinHex"/>
+				<field name="uiNameCensusFieldId" type="BinHex"/>
+				<field name="uiSurnameCensusFieldId" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="636019E8">
-		<object hash="7F76B01D">
-			<field hash="7F76B01D" type="BinHex"/>
+	<object name="InitialPredefinedActorDescriptors">
+		<object name="censuspredefinedactordescriptorPredefinedActorDescriptor">
+			<field name="censuspredefinedactordescriptorPredefinedActorDescriptor" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="D941280C">
-		<field hash="437E8877" type="BinHex"/>
-		<field hash="5AA4910A" type="BinHex"/>
-		<field hash="6FE3785F" type="BinHex"/>
+	<object name="OperativeRetirementMemories">
+		<field name="censusactormemorydefinitionOperativeDeathMemory" type="BinHex"/>
+		<field name="censusactormemorydefinitionPositiveOperativeRetirementMemory" type="BinHex"/>
+		<field name="censusactormemorydefinitionNegativeOperativeRetirementMemory" type="BinHex"/>
 	</object>
 	<object hash="8DD9FA72">
 		<object hash="9B090AB1">

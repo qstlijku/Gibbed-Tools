@@ -6,14 +6,14 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="5866C412">
-		<object hash="512C23F5">
-			<field hash="845FDA67" type="BinHex"/>
+	<object name="IndividualFightsVector">
+		<object name="IndividualFights">
+			<field name="bareknucklefightFight" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="E0EBA065">
-		<object hash="68B4B753">
-			<field hash="845FDA67" type="BinHex"/>
+	<object name="ExtraFightsVector">
+		<object name="ExtraFights">
+			<field name="bareknucklefightFight" type="BinHex"/>
 		</object>
 	</object>
 </class>

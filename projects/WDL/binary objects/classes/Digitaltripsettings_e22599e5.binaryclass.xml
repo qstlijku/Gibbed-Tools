@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="3D1DDFCD" type="BinHex"/>
+	<field name="fInvitePopupDuration" type="BinHex"/>
 	<field hash="6E9F5187" type="BinHex"/>
-	<field hash="0984E316" type="BinHex"/>
-	<field hash="E00B93FD" type="BinHex"/>
+	<field name="fMaxNoTeleportDistance" type="BinHex"/>
+	<field name="selVmcOverrideMode" type="BinHex"/>
 	<object name="Modes">
 		<object name="Mode">
 			<field name="selModeType" type="BinHex"/>
@@ -35,25 +35,25 @@
 			<object name="locstridDescription">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="72442709">
+			<object name="locstridLobbySubtitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="F1C6B34E">
+			<object name="locstridInviteTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E7503603">
+			<object name="locstridMissionStartLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8C0DB88A">
+			<object name="locstridMissionStartSubLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E943436B">
+			<object name="locstridMissionSuccessLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="3EED8BF0">
+			<object name="locstridMissionFailedLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="1A802186">
+			<object name="locstridInviteContent">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object hash="D75EEE4E">
@@ -68,14 +68,14 @@
 			<object hash="9675B0B4">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="739FB386">
+			<object name="Descriptors">
 				<object name="Descriptor">
-					<field hash="D3754904" type="BinHex"/>
+					<field name="digitaltripmodeDescriptor" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="3918F457">
+	<object name="ModesQuickPlay">
 			<field name="selModeType" type="BinHex"/>
 			<field name="texturedbobjectModeImage" type="BinHex"/>
 			<field hash="3DDE7265" type="BinHex"/>
@@ -99,25 +99,25 @@
 		<object name="locstridDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="72442709">
+		<object name="locstridLobbySubtitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F1C6B34E">
+		<object name="locstridInviteTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E7503603">
+		<object name="locstridMissionStartLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8C0DB88A">
+		<object name="locstridMissionStartSubLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E943436B">
+		<object name="locstridMissionSuccessLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="3EED8BF0">
+		<object name="locstridMissionFailedLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1A802186">
+		<object name="locstridInviteContent">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="D75EEE4E">
@@ -132,6 +132,6 @@
 		<object hash="9675B0B4">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="739FB386"/>
+		<object name="Descriptors"/>
 	</object>
 </class>

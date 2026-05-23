@@ -13,8 +13,8 @@
 			<field name="tmplDescription" type="String"/>
 		</object>
 	</object>
-	<object hash="19673E91">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="SquadConfigType">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 </class>

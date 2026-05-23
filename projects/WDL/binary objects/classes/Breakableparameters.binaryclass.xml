@@ -12,7 +12,7 @@
 	<field name="bSmashable" type="Boolean"/>
 	<object name="DamageScaleMadeBy">
 		<field name="fVehicleCollision" type="Float"/>
-		<field hash="65351713" type="BinHex"/>
+		<field name="fDroneCollision" type="BinHex"/>
 		<field name="fDynamicCollision" type="Float"/>
 		<field name="fStaticCollision" type="Float"/>
 		<field name="fBullet" type="Float"/>
@@ -88,7 +88,7 @@
 		<object name="VehicleCollision">
 			<field name="selConnectivity" type="Enum"/>
 		</object>
-		<object hash="0399FC22">
+		<object name="DroneCollision">
 			<field name="selConnectivity" type="Enum"/>
 		</object>
 		<object name="DynamicCollision">
@@ -154,7 +154,7 @@
 				<object name="Stim">
 					<field name="stims" type="BinHex"/>
 					<field name="vectorLocalTranslationOffset" type="BinHex"/>
-					<field hash="0AA58CD7" type="BinHex"/>
+					<field name="vectorWorldTranslationOffset" type="BinHex"/>
 					<field name="bIsPersistent" type="Boolean"/>
 					<field hash="92210DFC" type="String"/>
 					<field name="hidEventName" type="BinHex"/>
@@ -214,7 +214,7 @@
 					</object>
 					<field name="stims" type="BinHex"/>
 					<field name="vectorLocalTranslationOffset" type="BinHex"/>
-					<field hash="0AA58CD7" type="BinHex"/>
+					<field name="vectorWorldTranslationOffset" type="BinHex"/>
 					<field name="bIsPersistent" type="Boolean"/>
 				</object>
 			</object>

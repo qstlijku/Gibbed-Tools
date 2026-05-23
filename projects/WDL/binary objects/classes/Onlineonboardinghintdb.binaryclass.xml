@@ -7,11 +7,11 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="F1A7621C" type="BinHex"/>
-	<field hash="A067B1A1" type="BinHex"/>
+	<field name="itemsTutorialItem" type="BinHex"/>
 	<field hash="6301134D" type="BinHex"/>
 	<field name="selType" type="Enum"/>
 	<object hash="66B4F2F3">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 </class>

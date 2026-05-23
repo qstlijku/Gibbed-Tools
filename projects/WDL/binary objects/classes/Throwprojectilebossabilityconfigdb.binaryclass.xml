@@ -7,11 +7,11 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selProjectileType" type="Enum"/>
-	<object hash="B4671278">
+	<object name="ChooseTargetStrategyParams">
 		<field name="selType" type="Enum"/>
 		<field name="fRadius" type="Float"/>
-		<object hash="4F69F9D7">
-			<object hash="FE73A0D2">
+		<object name="Criteria">
+			<object name="Criterion">
 				<field name="selType" type="Enum"/>
 				<object name="curveCurve">
 					<field name="hidNumKnots" type="BinHex"/>
@@ -26,10 +26,10 @@
 			</object>
 		</object>
 	</object>
-	<object hash="8FC6247F">
-		<field hash="D4B3A630" type="BinHex"/>
-		<field hash="14C1F836" type="BinHex"/>
-		<field hash="8A1391DC" type="BinHex"/>
-		<field hash="F51DBDD7" type="BinHex"/>
+	<object name="ThrowActionParams">
+		<field name="bDrop" type="BinHex"/>
+		<field name="bDropIfNotThrown" type="BinHex"/>
+		<field name="bRoll" type="BinHex"/>
+		<field name="bOverrideThrowSpeed" type="BinHex"/>
 	</object>
 </class>

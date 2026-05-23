@@ -7,12 +7,12 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="reinforcementconfigDefaultReinforcementConfig" type="BinHex"/>
-	<object hash="5060F35A">
-		<field hash="479F79FA" type="BinHex"/>
-		<field hash="4A3385ED" type="BinHex"/>
-		<object hash="5060F35A">
-			<field hash="479F79FA" type="BinHex"/>
-			<field hash="4A3385ED" type="BinHex"/>
+	<object name="InitialDroneStateConfigs">
+		<field name="aispawningtypeDroneArchetype" type="BinHex"/>
+		<field name="selInitialState" type="BinHex"/>
+		<object name="InitialDroneStateConfigs">
+			<field name="aispawningtypeDroneArchetype" type="BinHex"/>
+			<field name="selInitialState" type="BinHex"/>
 		</object>
 	</object>
 </class>

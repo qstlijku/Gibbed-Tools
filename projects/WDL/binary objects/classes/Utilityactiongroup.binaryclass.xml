@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Actions">
-		<object hash="51AF7B16">
-			<field hash="51AF7B16" type="BinHex"/>
+		<object name="utilityactionActions">
+			<field name="utilityactionActions" type="BinHex"/>
 		</object>
 	</object>
 </class>

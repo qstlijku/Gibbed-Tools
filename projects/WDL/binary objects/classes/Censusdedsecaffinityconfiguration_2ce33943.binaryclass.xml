@@ -6,25 +6,25 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="2608BD55">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="ChanceForPositiveAffinityInOppressedBorough">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="EA525D5D">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="ChanceForPositiveAffinityInDefiantBorough">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="C65CAFBE">
+	<object name="MemoriesToApplyOnBoroughUprising">
 		<object name="Entry">
-			<field hash="2AAE2CD8" type="BinHex"/>
-			<field hash="0EB885D8" type="BinHex"/>
+			<field name="districtBorough" type="BinHex"/>
+			<field name="censusactormemorydefinitionMemory" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="A52D5834">
 		<object name="tagcategoryselectionTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagcategoryTagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
@@ -33,8 +33,8 @@
 	<object hash="D7943110">
 		<object name="tagcategoryselectionTag">
 			<field hash="BDB3B8D5" type="String"/>
-			<field hash="401A8276" type="BinHex"/>
-			<field hash="F5391DFF" type="BinHex"/>
+			<field name="UITagCategorySelectionClassID" type="BinHex"/>
+			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagcategoryTagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>

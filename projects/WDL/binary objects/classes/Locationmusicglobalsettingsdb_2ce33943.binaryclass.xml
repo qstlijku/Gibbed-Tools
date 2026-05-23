@@ -7,28 +7,28 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="97CF5129" type="String"/>
-	<field hash="1CE84CAD" type="BinHex"/>
-	<field hash="9ED7CBB4" type="BinHex"/>
-	<field hash="9CD87657" type="BinHex"/>
-	<field hash="919B97C6" type="BinHex"/>
-	<field hash="515D6339" type="BinHex"/>
-	<field hash="369F1C73" type="BinHex"/>
-	<field hash="AE0F8D4A" type="BinHex"/>
-	<object hash="969F75DB">
-		<object hash="ACA9C524">
-			<object hash="8CE04FFB">
+	<field name="sndGlobalQuickStop" type="BinHex"/>
+	<field name="sndtpGlobalQuickStopType" type="BinHex"/>
+	<field name="fNoMoreInConflictWithAiTimeoutDuration" type="BinHex"/>
+	<field name="fEndMusicMinimumSafetyDuration" type="BinHex"/>
+	<field name="fVolumeExtrudeFadeDistance" type="BinHex"/>
+	<field name="bIsManagerEnabled" type="BinHex"/>
+	<field name="selEnterTriggerVolumeType" type="BinHex"/>
+	<object name="MusicEntries">
+		<object name="MusicEntry">
+			<object name="tagcategoryselectionblackboardTags">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<object name="Tags"/>
 					</object>
 				</object>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -39,25 +39,25 @@
 					</object>
 				</object>
 			</object>
-			<object hash="02FC35CC">
-				<object hash="9ECCB696">
+			<object name="LocationMusicSoundIds">
+				<object name="LocationMusicSoundId">
 					<field hash="C77C85E5" type="String"/>
-					<field hash="D73A05B6" type="BinHex"/>
+					<field name="sndEndEvent" type="BinHex"/>
 					<field hash="00A914DB" type="BinHex"/>
-					<object hash="ABF82B30">
+					<object name="sndpairPlayStopEvents">
 						<field hash="8DB965BE" type="String"/>
 						<field name="dissndStart" type="BinHex"/>
 						<field hash="CE8F77EF" type="String"/>
 						<field name="dissndStop" type="BinHex"/>
-						<field hash="2952A26F" type="BinHex"/>
-						<field hash="E8739005" type="BinHex"/>
+						<field name="sndtpStartType" type="BinHex"/>
+						<field name="sndtpStopType" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="51ACF4C2">
+	<object name="sndvarFadingRTPCVarId">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 </class>

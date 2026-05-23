@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="7F76B01D" type="BinHex"/>
+	<field name="censuspredefinedactordescriptorPredefinedActorDescriptor" type="BinHex"/>
 	<field hash="B82DDB11" type="BinHex"/>
 	<field hash="4DD49886" type="BinHex"/>
 	<field hash="7C2D66C8" type="BinHex"/>
@@ -24,9 +24,9 @@
 	<field hash="B44BC7ED" type="BinHex"/>
 	<field hash="D9FF567A" type="BinHex"/>
 	<field hash="819351BA" type="BinHex"/>
-	<object hash="2C9495CF">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="ActivationRule">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object name="locstridTitle">
 		<field name="LocalizationId" type="UInt64"/>
@@ -35,8 +35,8 @@
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="7B6786F7">
-		<object hash="E8BFFB32">
-			<field hash="E8BFFB32" type="BinHex"/>
+		<object name="censusattendancedefinitionAttendance">
+			<field name="censusattendancedefinitionAttendance" type="BinHex"/>
 		</object>
 	</object>
 </class>

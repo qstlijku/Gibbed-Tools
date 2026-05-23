@@ -6,19 +6,19 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="F0333F6A" type="BinHex"/>
-	<object hash="03DE799D">
+	<field name="fUnlockDuration" type="BinHex"/>
+	<object name="YInteractGameplayDescriptor">
 		<field hash="477708C0" type="String"/>
-		<field hash="98DD0C5C" type="BinHex"/>
-		<field hash="063D0685" type="BinHex"/>
+		<field name="archDataYInteractArchetypeResource" type="BinHex"/>
+		<field name="bForceDisableAfterCompleteOnce" type="BinHex"/>
 	</object>
-	<object hash="15E35FEA">
-		<field hash="56A56AE7" type="BinHex"/>
+	<object name="LocateGameplayDescriptor">
+		<field name="bDisplayMarkerAndText" type="BinHex"/>
 		<field name="bIsLocatedOnStart" type="Boolean"/>
 		<field name="possyselementMarker" type="BinHex"/>
 		<field name="vecMarkerOffset" type="BinHex"/>
-		<field hash="5172A733" type="BinHex"/>
-		<field hash="3D2D4C42" type="BinHex"/>
+		<field name="bDeactivateOnDeath" type="BinHex"/>
+		<field name="bDeactivateOnDestroy" type="BinHex"/>
 		<field hash="8BCC7361" type="BinHex"/>
 		<object name="locstridOverrideText">
 			<field name="LocalizationId" type="UInt64"/>
@@ -27,13 +27,13 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="14E6423D">
+	<object name="locstridUnlockMessageHeaderLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F1FB7414">
+	<object name="locstridUnlockMessageLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C7A0BE8E">
+	<object name="locstridSoloSessionDisableLockObjectiveOverrideLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

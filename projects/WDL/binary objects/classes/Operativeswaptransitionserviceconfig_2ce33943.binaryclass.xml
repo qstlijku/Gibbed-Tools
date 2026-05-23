@@ -6,86 +6,86 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="92B57998">
-		<object hash="A5B67E64">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="GlobalRules">
+		<object name="AnyOpSwapsEnabled">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="CAA9BE99">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
-		</object>
-	</object>
-	<object hash="7C5EB2E4">
-		<object hash="6A1EECDE">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
-		</object>
-		<object hash="6699BDED">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
-		</object>
-		<object hash="EA8C4D2A">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
-		</object>
-		<object hash="EA11D786">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
-		</object>
-		<object hash="534128B2">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
-		</object>
-		<object hash="D43ACFA7">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
-		</object>
-		<object hash="B78F309C">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="SilverOpSwapsEnabled">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="87F26714">
-		<field hash="BAA6634E" type="BinHex"/>
+	<object name="SpecificRules">
+		<object name="MinOperativesBeforeSilverOpSwaps">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="MaxOperativesInAnySilverOpSwaps">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="DurationOfOpSwapAssignmentMinutes">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="SameOperativeInSilverOpSwapCooldownMinutes">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="AnyOperativeInSilverOpSwapCooldownMinutes">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="WeatherBasedFilteringEnabled">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="TimeOfDayFilteringEnabled">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
 	</object>
-	<object hash="133ADFF5">
-		<object hash="AD24BD7F">
-			<object hash="179AAF0E">
-				<object hash="CD82D550">
-					<field hash="16723227" type="BinHex"/>
+	<object name="WorldSearchParams">
+		<field name="fVerticalSearchOffset" type="BinHex"/>
+	</object>
+	<object name="RespawnConfig">
+		<object name="ScheduleLocationOPSwap">
+			<object name="ScheduledRespawnConfig">
+				<object name="VolumeBasedSearchParam">
+					<field name="vectorSearchAABBExtents" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="57FD374D">
+		<object name="TacticalOPSwap">
 			<field hash="D5FE76B2" type="String"/>
-			<field hash="5ED96B36" type="BinHex"/>
-			<object hash="16978A6A">
+			<field name="archSpawnPointType" type="BinHex"/>
+			<object name="CapturedDelay">
 				<field name="uiHours" type="UInt32"/>
 				<field name="uiMinutes" type="UInt32"/>
 				<field name="uiSeconds" type="UInt32"/>
 			</object>
-			<object hash="37978AEF">
+			<object name="DeathDelay">
 				<field name="uiHours" type="UInt32"/>
 				<field name="uiMinutes" type="UInt32"/>
 				<field name="uiSeconds" type="UInt32"/>
 			</object>
-			<object hash="0ECCF512">
-				<object hash="7AF9FDBD">
+			<object name="CapturedRespawnConfig">
+				<object name="RingBasedSearchParam">
 					<field name="fMinDistance" type="Float"/>
 					<field name="fMaxDistance" type="Float"/>
 				</object>
 			</object>
-			<object hash="E9B67818">
-				<object hash="7AF9FDBD">
+			<object name="DeathRespawnConfig">
+				<object name="RingBasedSearchParam">
 					<field name="fMinDistance" type="Float"/>
 					<field name="fMaxDistance" type="Float"/>
 				</object>
 			</object>
 			<object name="Online">
 				<object hash="EE578B76">
-					<field hash="94C08F9B" type="BinHex"/>
-					<field hash="1DF2E0ED" type="BinHex"/>
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
 			</object>
 		</object>

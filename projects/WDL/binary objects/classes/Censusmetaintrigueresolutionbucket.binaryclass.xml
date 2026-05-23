@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="Entries">
 		<object name="Entry">
-			<field hash="C2464367" type="BinHex"/>
+			<field name="censusmetaintriguedefinitionMetaIntrigue" type="BinHex"/>
 		</object>
 	</object>
 </class>

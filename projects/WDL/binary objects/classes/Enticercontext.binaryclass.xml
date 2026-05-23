@@ -6,8 +6,8 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="F80B5EAF" type="BinHex"/>
-	<field hash="9541F786" type="BinHex"/>
+	<field name="selTimeOfDaySpawning" type="BinHex"/>
+	<field name="selBoroughUprisingCategory" type="BinHex"/>
 	<object name="Time">
 		<object name="TimeOfDay">
 			<field name="selTimeOfDay" type="Enum"/>
@@ -20,8 +20,8 @@
 	</object>
 	<object hash="83515D32">
 		<object hash="0FBD30B4">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 </class>

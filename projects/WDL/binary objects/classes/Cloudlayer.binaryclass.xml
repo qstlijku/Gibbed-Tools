@@ -15,7 +15,7 @@
 	<field name="bEnableAlphaBlend" type="Boolean"/>
 	<field name="fEarthRadius" type="Float"/>
 	<field name="fLayerHeight" type="Float"/>
-	<field hash="8E306B76" type="BinHex"/>
+	<field name="fTileHeight" type="BinHex"/>
 	<field name="bCylindricProjectionEnabled" type="Boolean"/>
 	<field name="fCylindricProjectionOffset" type="Float"/>
 	<field name="fCylindricDistributionRandomFactor" type="Float"/>
@@ -30,9 +30,9 @@
 	<field name="fDensity" type="Float"/>
 	<field name="fAmbientIntensity" type="Float"/>
 	<field name="fSelfShadowCoef" type="Float"/>
-	<field hash="2FFFD293" type="BinHex"/>
-	<field hash="092AB940" type="BinHex"/>
-	<field hash="7E2D89D6" type="BinHex"/>
+	<field name="selSampleStrategy" type="BinHex"/>
+	<field name="fMaxRemapX" type="BinHex"/>
+	<field name="fMaxRemapY" type="BinHex"/>
 	<object name="Materials">
 		<object name="Material">
 			<field hash="9301DFBD" type="String"/>

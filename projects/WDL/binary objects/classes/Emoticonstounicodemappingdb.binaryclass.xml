@@ -7,11 +7,11 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="175C4DEB" type="BinHex"/>
-	<object hash="97D9746A">
-		<object hash="EA1EFF03">
-			<field hash="151B0755" type="BinHex"/>
-			<field hash="CADAF72A" type="BinHex"/>
-			<field hash="DB242752" type="BinHex"/>
+	<object name="EmoticonsToUnicodeMappingDB">
+		<object name="EmoticonToUnicodeMapping">
+			<field name="sEmoticon" type="BinHex"/>
+			<field name="uiEmoticonUnicodeSymbol" type="BinHex"/>
+			<field name="texturedbobjectEmojiTexturePath" type="BinHex"/>
 		</object>
 	</object>
 </class>

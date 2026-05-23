@@ -9,9 +9,9 @@
 	<object name="AimedByGun">
 		<field name="fCooldownMin" type="Float"/>
 		<field name="fCooldownMax" type="Float"/>
-		<field hash="160DBF3D" type="BinHex"/>
+		<field name="fDelayMin" type="BinHex"/>
 		<field name="fDelayMax" type="Float"/>
-		<field hash="16CA90E7" type="BinHex"/>
+		<field name="fEventWindow" type="BinHex"/>
 	</object>
 	<object name="BulletMiss">
 		<field name="fCooldownMin" type="Float"/>

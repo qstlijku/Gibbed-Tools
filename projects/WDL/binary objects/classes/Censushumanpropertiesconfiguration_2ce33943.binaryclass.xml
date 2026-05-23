@@ -6,125 +6,125 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="8EB3DCFA">
-		<object hash="EAF6A59B">
-			<field hash="26E05EE1" type="String"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+	<object name="AgeRanges">
+		<object name="Young">
+			<field name="sValue" type="String"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
 		<object name="Adult">
-			<field hash="26E05EE1" type="String"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+			<field name="sValue" type="String"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
-		<object hash="DCEA7CE9">
-			<field hash="26E05EE1" type="String"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+		<object name="MiddleAge">
+			<field name="sValue" type="String"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
-		<object hash="07109205">
-			<field hash="26E05EE1" type="BinHex"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+		<object name="Old">
+			<field name="sValue" type="BinHex"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="5D24C4EE">
+	<object name="IncomeRanges">
 		<object name="None">
-			<field hash="26E05EE1" type="String"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+			<field name="sValue" type="String"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
-		<object hash="F5AC3BDB">
-			<field hash="26E05EE1" type="String"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+		<object name="Poor">
+			<field name="sValue" type="String"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
-		<object hash="AAC53E41">
-			<field hash="26E05EE1" type="BinHex"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+		<object name="Low">
+			<field name="sValue" type="BinHex"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
 		<object name="Medium">
-			<field hash="26E05EE1" type="String"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+			<field name="sValue" type="String"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
 		<object name="High">
-			<field hash="26E05EE1" type="String"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+			<field name="sValue" type="String"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
-		<object hash="0AFF3994">
-			<field hash="26E05EE1" type="String"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+		<object name="Rich">
+			<field name="sValue" type="String"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
-		<object hash="8C832509">
-			<field hash="26E05EE1" type="String"/>
-			<field hash="3EB9524C" type="BinHex"/>
-			<field hash="02B46D15" type="BinHex"/>
+		<object name="Executive">
+			<field name="sValue" type="String"/>
+			<field name="sMin" type="BinHex"/>
+			<field name="sMax" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="BAEE6A15">
-		<object hash="052A676D">
-			<field hash="6DBFC299" type="BinHex"/>
-			<field hash="3C4679C4" type="BinHex"/>
-			<object hash="256C3A0D">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="StatsAndPerks">
+		<object name="GlobalConfig">
+			<field name="uiMinPointsPerStat" type="BinHex"/>
+			<field name="uiMaxPointsPerStat" type="BinHex"/>
+			<object name="PerkRefinementEnabled">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 		</object>
 		<object name="Common">
-			<field hash="9AC9092C" type="BinHex"/>
-			<field hash="67F5CDF2" type="BinHex"/>
-			<field hash="67A42DF1" type="BinHex"/>
-			<field hash="78255D3D" type="BinHex"/>
+			<field name="uiTotalStatPoints" type="BinHex"/>
+			<field name="uiStatPointsSpecialism" type="BinHex"/>
+			<field name="uiStatPointsMastery" type="BinHex"/>
+			<field name="uiNumPerkSlots" type="BinHex"/>
 		</object>
-		<object hash="F743C481">
-			<field hash="9AC9092C" type="BinHex"/>
-			<field hash="67F5CDF2" type="BinHex"/>
-			<field hash="67A42DF1" type="BinHex"/>
-			<field hash="78255D3D" type="BinHex"/>
+		<object name="Uncommon">
+			<field name="uiTotalStatPoints" type="BinHex"/>
+			<field name="uiStatPointsSpecialism" type="BinHex"/>
+			<field name="uiStatPointsMastery" type="BinHex"/>
+			<field name="uiNumPerkSlots" type="BinHex"/>
 		</object>
 		<object name="Rare">
-			<field hash="9AC9092C" type="BinHex"/>
-			<field hash="67F5CDF2" type="BinHex"/>
-			<field hash="67A42DF1" type="BinHex"/>
-			<field hash="78255D3D" type="BinHex"/>
+			<field name="uiTotalStatPoints" type="BinHex"/>
+			<field name="uiStatPointsSpecialism" type="BinHex"/>
+			<field name="uiStatPointsMastery" type="BinHex"/>
+			<field name="uiNumPerkSlots" type="BinHex"/>
 		</object>
-		<object hash="B9FBFF4F">
-			<field hash="9AC9092C" type="BinHex"/>
-			<field hash="67F5CDF2" type="BinHex"/>
-			<field hash="67A42DF1" type="BinHex"/>
-			<field hash="78255D3D" type="BinHex"/>
+		<object name="Epic">
+			<field name="uiTotalStatPoints" type="BinHex"/>
+			<field name="uiStatPointsSpecialism" type="BinHex"/>
+			<field name="uiStatPointsMastery" type="BinHex"/>
+			<field name="uiNumPerkSlots" type="BinHex"/>
 		</object>
-		<object hash="BF0F7C63">
-			<field hash="9AC9092C" type="BinHex"/>
-			<field hash="67F5CDF2" type="BinHex"/>
-			<field hash="67A42DF1" type="BinHex"/>
-			<field hash="78255D3D" type="BinHex"/>
+		<object name="Legendary">
+			<field name="uiTotalStatPoints" type="BinHex"/>
+			<field name="uiStatPointsSpecialism" type="BinHex"/>
+			<field name="uiStatPointsMastery" type="BinHex"/>
+			<field name="uiNumPerkSlots" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="4B0AB934">
 		<object hash="4B0AB934">
 			<field hash="C30C0A5F" type="String"/>
-			<field hash="1995D4FA" type="BinHex"/>
+			<field name="progressionelementProgressionElement" type="BinHex"/>
 			<object name="Filter">
-				<object hash="CB5EABB7">
-					<object hash="04170D84">
+				<object name="InclusionFilter">
+					<object name="tagcategoryselectionblackboardProfile">
 						<object name="TagCategorySelectionArray">
 							<object name="TagCategorySelection">
 								<field hash="CF68E402" type="String"/>
 								<field name="hid_DTCTH_ClassName" type="BinHex"/>
 								<field hash="BDB3B8D5" type="String"/>
-								<field hash="401A8276" type="BinHex"/>
-								<field hash="F5391DFF" type="BinHex"/>
+								<field name="UITagCategorySelectionClassID" type="BinHex"/>
+								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
 								<field name="tagTag" type="BinHex"/>
 								<object name="Tags"/>
 							</object>
 						</object>
-						<object hash="D0C5DABB">
+						<object name="TagDescriptorUI">
 							<field hash="CF68E402" type="String"/>
 							<field name="hid_DTCTH_ClassName" type="BinHex"/>
 							<object name="TagCategorySelectionDescriptors">
@@ -136,10 +136,10 @@
 						</object>
 					</object>
 				</object>
-				<object hash="10DB7589">
-					<object hash="04170D84">
+				<object name="ExclusionFilter">
+					<object name="tagcategoryselectionblackboardProfile">
 						<object name="TagCategorySelectionArray"/>
-						<object hash="D0C5DABB">
+						<object name="TagDescriptorUI">
 							<field hash="CF68E402" type="String"/>
 							<field name="hid_DTCTH_ClassName" type="BinHex"/>
 							<object name="TagCategorySelectionDescriptors">

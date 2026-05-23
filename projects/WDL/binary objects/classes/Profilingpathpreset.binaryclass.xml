@@ -9,10 +9,10 @@
 	<field name="colorLineColor" type="Vector3"/>
 	<field name="fLineColorAlpha" type="Float"/>
 	<field name="fLineSize" type="Float"/>
-	<field hash="89A9EAE1" type="BinHex"/>
-	<field hash="29718740" type="BinHex"/>
-	<field hash="5219EF55" type="BinHex"/>
-	<field hash="2C805B24" type="BinHex"/>
-	<field hash="9B6DAAFA" type="BinHex"/>
+	<field name="bIsKeyLocation" type="BinHex"/>
+	<field name="fLineZOffset" type="BinHex"/>
+	<field name="nMultiZLineNumber" type="BinHex"/>
+	<field name="fZOffsetPerMultiLine" type="BinHex"/>
+	<field name="bEnclosed" type="BinHex"/>
 	<field name="selOrientation" type="Enum"/>
 </class>

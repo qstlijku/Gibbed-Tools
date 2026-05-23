@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="sndSwitchSound" type="BinHex"/>
-	<field hash="AE3CA5EC" type="BinHex"/>
+	<field name="sndtpSwitchSoundType" type="BinHex"/>
 	<field name="bUseObjectDirectionForParticles" type="Boolean"/>
 	<object name="ParticlesSystems">
 		<object name="ParticlesSystem">
@@ -45,13 +45,13 @@
 			</object>
 		</object>
 	</object>
-	<object hash="4F72FA0E">
-		<object hash="A2622CF6">
+	<object name="SoundEvents">
+		<object name="SoundEvent">
 			<field name="disName" type="String"/>
 			<field name="disMatId" type="BinHex"/>
 			<field hash="991E2A5F" type="String"/>
-			<field hash="4F74D3DD" type="BinHex"/>
-			<field hash="57E72C4F" type="BinHex"/>
+			<field name="sndMaterialImpactSound" type="BinHex"/>
+			<field name="sndtpMaterialImpactSoundType" type="BinHex"/>
 		</object>
 	</object>
 </class>

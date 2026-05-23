@@ -6,68 +6,68 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="10CC7F6C">
+	<object name="MindjackData">
 		<field hash="6F8CE949" type="String"/>
-		<field hash="CDE67FF9" type="BinHex"/>
-		<field hash="6266502E" type="BinHex"/>
+		<field name="fileVisionLossPostFxTexture" type="BinHex"/>
+		<field name="fVisionLossDelay" type="BinHex"/>
 		<field hash="4F8638C6" type="BinHex"/>
 		<field hash="3E219F6A" type="BinHex"/>
 		<field hash="D169EFBA" type="BinHex"/>
-		<field hash="34E37069" type="BinHex"/>
-		<field hash="B866482E" type="BinHex"/>
+		<field name="fVisionGainSpeed" type="BinHex"/>
+		<field name="fVisionLossCriticalratio" type="BinHex"/>
 		<field hash="227E800D" type="String"/>
-		<field hash="F414798F" type="BinHex"/>
-		<field hash="14F8147C" type="BinHex"/>
+		<field name="psCriticalVisionLossFX" type="BinHex"/>
+		<field name="psPlayerVisionLossFX" type="BinHex"/>
 		<field hash="C634AB0C" type="String"/>
 		<field hash="0CF2471B" type="BinHex"/>
-		<field hash="B0287AE1" type="BinHex"/>
-		<field hash="9460AD32" type="BinHex"/>
-		<field hash="A95A5E92" type="BinHex"/>
-		<field hash="548DDFCA" type="BinHex"/>
-		<field hash="5745EC64" type="BinHex"/>
-		<field hash="5921FB2C" type="BinHex"/>
+		<field name="fVisionLossStartAlpha" type="BinHex"/>
+		<field name="fVisionLossEndAlpha" type="BinHex"/>
+		<field name="fVisionLossRatioOnGhostExplosion" type="BinHex"/>
+		<field name="bGhostExplosionVisionLossProportionalToDistance" type="BinHex"/>
+		<field name="fRelicLifeTimeRatioLossOnGhostExplosion" type="BinHex"/>
+		<field name="bGhostExplosionRelicLifeTimeLossProportionalToDistance" type="BinHex"/>
 		<field hash="99ED28AA" type="String"/>
-		<field hash="A504921B" type="BinHex"/>
-		<field hash="933F6EC8" type="BinHex"/>
+		<field name="sndMindjackFailSound" type="BinHex"/>
+		<field name="sndtpMindjackFailSoundType" type="BinHex"/>
 		<field hash="1B66ADC2" type="String"/>
-		<field hash="278F1773" type="BinHex"/>
-		<field hash="5192CBC3" type="BinHex"/>
+		<field name="sndAmbientSoundStart" type="BinHex"/>
+		<field name="sndtpAmbientSoundStartType" type="BinHex"/>
 		<field hash="18EF85A5" type="String"/>
-		<field hash="F2B1E581" type="BinHex"/>
-		<field hash="2FD39E4D" type="BinHex"/>
+		<field name="sndAmbientSoundStop" type="BinHex"/>
+		<field name="sndtpAmbientSoundStopType" type="BinHex"/>
 		<field hash="12B79C25" type="String"/>
 		<field hash="EF1EA686" type="BinHex"/>
 		<field hash="A2BBCC1F" type="BinHex"/>
 		<field hash="7F9249A9" type="String"/>
 		<field hash="B45190B3" type="BinHex"/>
 		<field hash="BFA50A5F" type="BinHex"/>
-		<field hash="8CE7BC26" type="BinHex"/>
+		<field name="fBoundingWall3DSoundGroundOffset" type="BinHex"/>
 		<field hash="558A22C2" type="String"/>
-		<field hash="DF223F48" type="BinHex"/>
-		<field hash="AA878EBD" type="BinHex"/>
+		<field name="sndBoundingWallSoundStart" type="BinHex"/>
+		<field name="sndtpBoundingWallStartType" type="BinHex"/>
 		<field hash="AE63D3FE" type="String"/>
-		<field hash="443DB3DA" type="BinHex"/>
-		<field hash="EEDA8512" type="BinHex"/>
-		<field hash="B11001ED" type="BinHex"/>
-		<field hash="FA225610" type="BinHex"/>
-		<field hash="E45E4009" type="BinHex"/>
-		<field hash="023EEFE8" type="BinHex"/>
+		<field name="sndBoundingWallStop" type="BinHex"/>
+		<field name="sndtpBoundingWallStopType" type="BinHex"/>
+		<field name="entBarksEntityId" type="BinHex"/>
+		<field name="selDefaultBarkPriority" type="BinHex"/>
+		<field name="fPlayDefaultBarkMinDelay" type="BinHex"/>
+		<field name="fPlayDefaultBarkMaxDelay" type="BinHex"/>
 		<field name="selBarkPriority" type="Enum"/>
 		<field hash="6FB74245" type="String"/>
-		<field hash="A571AE52" type="BinHex"/>
+		<field name="BarkPlayerDied" type="BinHex"/>
 		<field hash="DB548A7B" type="String"/>
-		<field hash="584DC950" type="BinHex"/>
+		<field name="BarkRelicPicked" type="BinHex"/>
 		<field hash="1B53C66D" type="String"/>
-		<field hash="984A8546" type="BinHex"/>
-		<field hash="AAFADD27" type="BinHex"/>
+		<field name="BarkGhostCombat" type="BinHex"/>
+		<field name="fLowVisionRatio" type="BinHex"/>
 		<field hash="B2815DDC" type="String"/>
-		<field hash="CEAFC02D" type="BinHex"/>
-		<field hash="A8FF328E" type="BinHex"/>
+		<field name="BarkLowVision" type="BinHex"/>
+		<field name="fFinalFadeToBlackExtraDuration" type="BinHex"/>
 		<field hash="112891F3" type="BinHex"/>
 		<field hash="575A7387" type="BinHex"/>
-		<field hash="4D04288C" type="BinHex"/>
+		<field name="bClearWorldSpawningOnStart" type="BinHex"/>
 		<field hash="7D092087" type="BinHex"/>
-		<object hash="02A338DB">
+		<object name="curveBlurredVision">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -77,7 +77,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="AFD94F85">
+		<object name="curveMindBroken">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -87,55 +87,55 @@
 				</object>
 			</object>
 		</object>
-		<object hash="0A099B54">
+		<object name="sndvarAmbientSoundRtpc">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="7F1ED263">
+		<object name="DefaultBarks">
 			<object name="BarkId">
 				<field hash="AC5CD011" type="String"/>
 				<field name="BarkId" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="588F1D5B">
-			<object hash="222FB847">
+		<object name="PostDeathEntities">
+			<object name="EntitiesData">
 				<field hash="E6655990" type="String"/>
 				<field name="archArchetype" type="BinHex"/>
-				<field hash="868644A1" type="BinHex"/>
+				<field name="entSpawnPoint" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="24EB848D">
+		<object name="WorldProperties">
 			<object name="TimeOfDay">
-				<field hash="226C0F6A" type="BinHex"/>
+				<field name="bEnableTimeOfDay" type="BinHex"/>
 				<field name="uiHour" type="UInt32"/>
-				<field hash="D4C5181B" type="BinHex"/>
+				<field name="bDisableTimeScaling" type="BinHex"/>
 			</object>
 			<object name="Weather">
-				<field hash="A5DCDBBB" type="BinHex"/>
+				<field name="bEnableWeather" type="BinHex"/>
 				<field name="envweatherpresetWeatherPreset" type="BinHex"/>
 			</object>
 			<object name="Felony">
-				<field hash="6972E194" type="BinHex"/>
+				<field name="bDisableFelony" type="BinHex"/>
 			</object>
-			<object hash="469D5DD5">
-				<field hash="27238BE6" type="BinHex"/>
+			<object name="WorldSpawning">
+				<field name="bDisableWorldSpawning" type="BinHex"/>
 			</object>
 		</object>
 		<object hash="9D8F399E">
 			<object name="TimeOfDay">
-				<field hash="226C0F6A" type="BinHex"/>
+				<field name="bEnableTimeOfDay" type="BinHex"/>
 				<field name="uiHour" type="UInt32"/>
-				<field hash="D4C5181B" type="BinHex"/>
+				<field name="bDisableTimeScaling" type="BinHex"/>
 			</object>
 			<object name="Weather">
-				<field hash="A5DCDBBB" type="BinHex"/>
+				<field name="bEnableWeather" type="BinHex"/>
 				<field name="envweatherpresetWeatherPreset" type="BinHex"/>
 			</object>
 			<object name="Felony">
-				<field hash="6972E194" type="BinHex"/>
+				<field name="bDisableFelony" type="BinHex"/>
 			</object>
-			<object hash="469D5DD5">
-				<field hash="27238BE6" type="BinHex"/>
+			<object name="WorldSpawning">
+				<field name="bDisableWorldSpawning" type="BinHex"/>
 			</object>
 		</object>
 	</object>

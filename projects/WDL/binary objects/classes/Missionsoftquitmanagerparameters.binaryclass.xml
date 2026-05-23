@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fWarningDuration" type="Float"/>
-	<field hash="A78A963A" type="BinHex"/>
+	<field name="bHideMissionAreaOnEnter" type="BinHex"/>
 	<object name="locstridWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>

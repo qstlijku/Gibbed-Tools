@@ -6,26 +6,26 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="21C7A9C7" type="BinHex"/>
+	<field name="selBooleanOperator" type="BinHex"/>
 	<object name="PMSList">
-		<field hash="205A4440" type="BinHex"/>
-		<object hash="4D47FEC8">
+		<field name="selCompareType" type="BinHex"/>
+		<object name="PmsValue">
 			<field hash="363F5FCE" type="String"/>
 			<field name="pmsPMSName" type="BinHex"/>
 			<field name="selEnumValue" type="Enum"/>
 		</object>
 		<object name="PMSList">
-			<field hash="205A4440" type="BinHex"/>
-			<object hash="4D47FEC8">
+			<field name="selCompareType" type="BinHex"/>
+			<object name="PmsValue">
 				<field hash="363F5FCE" type="String"/>
 				<field name="pmsPMSName" type="BinHex"/>
 				<field name="selEnumValue" type="Enum"/>
 			</object>
 		</object>
 	</object>
-	<object hash="ABB8F20F">
-		<object hash="2ACC689B">
-			<field hash="2ACC689B" type="BinHex"/>
+	<object name="PMSDatabases">
+		<object name="plasmapmsPMS_DB">
+			<field name="plasmapmsPMS_DB" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -6,24 +6,24 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="FE52F526" type="BinHex"/>
-	<field hash="D26DB3CC" type="BinHex"/>
-	<field hash="3482F3A1" type="BinHex"/>
-	<field hash="5A275E24" type="BinHex"/>
-	<object hash="DDB3CDA2">
-		<object hash="CC06C3E9">
+	<field name="opgenhumandescriptiondefinitionHumanDescription" type="BinHex"/>
+	<field name="opgenvehicledescriptiondefinitionVehicleDescription" type="BinHex"/>
+	<field name="opgendronedescriptiondefinitionDroneDescription" type="BinHex"/>
+	<field name="opgenlocationdescriptiondefinitionLocationDescription" type="BinHex"/>
+	<object name="ObjectiveTexts">
+		<object name="locstridText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="2DA2C8D4">
-			<object hash="AF4D29AA">
-				<field hash="C7B490E0" type="BinHex"/>
-				<object hash="452967EC">
-					<object hash="8D9DF881">
-						<field hash="9D6EDFC9" type="BinHex"/>
-						<object hash="CC06C3E9">
+		<object name="FamilyOverrides">
+			<object name="FamilyOverride">
+				<field name="opgenobjectivefamilyObjectiveLogicFamilyDb" type="BinHex"/>
+				<object name="ObjectivesOverrides">
+					<object name="ObjectiveOverride">
+						<field name="dgobjectivelogicObjectiveLogic" type="BinHex"/>
+						<object name="locstridText">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
 						<object name="locstridDescription">

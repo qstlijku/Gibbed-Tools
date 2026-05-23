@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Archetypes">
-		<object hash="15B6414A">
-			<field hash="15B6414A" type="BinHex"/>
+		<object name="aispawningtypeArchetype">
+			<field name="aispawningtypeArchetype" type="BinHex"/>
 		</object>
 	</object>
 </class>

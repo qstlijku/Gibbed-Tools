@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="59A0C191" type="BinHex"/>
-	<field hash="2BB5F96F" type="BinHex"/>
-	<field hash="EF67F825" type="BinHex"/>
+	<field name="selRestrictionType" type="BinHex"/>
+	<field name="vehiclegroupVehicleGroup" type="BinHex"/>
+	<field name="colorDebugColor" type="BinHex"/>
 </class>

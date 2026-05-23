@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="805EEBFB" type="BinHex"/>
-	<field hash="4C5390F4" type="BinHex"/>
-	<field hash="609940F3" type="BinHex"/>
-	<field hash="AC943BFC" type="BinHex"/>
-	<field hash="9CF6BD8D" type="BinHex"/>
-	<field hash="42DB6CD5" type="BinHex"/>
+	<field name="fOppressedMinCooldown" type="BinHex"/>
+	<field name="fOppressedMaxCooldown" type="BinHex"/>
+	<field name="fDefiantMinCooldown" type="BinHex"/>
+	<field name="fDefiantMaxCooldown" type="BinHex"/>
+	<field name="fPlayerSpeedThreashold" type="BinHex"/>
+	<field name="bShowMapIcon" type="BinHex"/>
 	<field hash="28ADB7C0" type="BinHex"/>
 </class>

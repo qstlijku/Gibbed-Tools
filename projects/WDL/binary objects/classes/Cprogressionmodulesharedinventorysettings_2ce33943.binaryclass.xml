@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
-		<field hash="61E44A67" type="BinHex"/>
-		<object hash="FA77A91E">
+		<field name="itemlistDefaultTeamInventoryItemList" type="BinHex"/>
+		<object name="RewardItems">
 			<object name="Item">
 				<field name="text_Name" type="String"/>
 				<field name="Name" type="BinHex"/>

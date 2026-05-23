@@ -6,23 +6,23 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="58AEED7C" type="BinHex"/>
+	<field name="fRangeToReachTarget" type="BinHex"/>
 	<field hash="30FFCE83" type="BinHex"/>
-	<field hash="9244601C" type="BinHex"/>
-	<field hash="2C221974" type="BinHex"/>
+	<field name="bIsLineOfSightMandatory" type="BinHex"/>
+	<field name="bPlayerMustInteractWithTargetToCompleteReach" type="BinHex"/>
 	<field hash="ED683422" type="BinHex"/>
 	<field hash="44D77825" type="BinHex"/>
-	<field hash="DE09BEA3" type="BinHex"/>
+	<field name="sDebugAnnotationText" type="BinHex"/>
 	<field hash="1B31E2CF" type="BinHex"/>
 	<field hash="C02E7DED" type="BinHex"/>
 	<field hash="2F0161DC" type="BinHex"/>
 	<field name="iFelonyLevel" type="Int32"/>
-	<field hash="7C883BF9" type="BinHex"/>
+	<field name="bTriggerSearch" type="BinHex"/>
 	<field name="fSearchRadius" type="Float"/>
-	<field hash="C113446C" type="BinHex"/>
-	<field hash="9EFDF306" type="BinHex"/>
-	<field hash="28987AF8" type="BinHex"/>
-	<field hash="AA43596B" type="BinHex"/>
+	<field name="yinteractgameplaydescriptorInteractDescriptor" type="BinHex"/>
+	<field name="locategameplaydescriptorLocateDescriptor" type="BinHex"/>
+	<field name="fRequiredPlayersPercentage" type="BinHex"/>
+	<field name="bDisableNeededPlayerCountJIPRuleForRaids" type="BinHex"/>
 	<object name="locstridEscapePursuersLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
@@ -32,12 +32,12 @@
 	<object hash="7C130BF7">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4F1D53EF"/>
-	<object hash="9B603416">
-		<field hash="5B334899" type="BinHex"/>
-		<field hash="FE7DCB74" type="BinHex"/>
+	<object name="ReachLocationActivities"/>
+	<object name="WaitingForOtherPartyReachCriticalMessage">
+		<field name="bIsActivated" type="BinHex"/>
+		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="4B95868D">
@@ -45,10 +45,10 @@
 		</object>
 	</object>
 	<object hash="6309E902">
-		<field hash="5B334899" type="BinHex"/>
-		<field hash="FE7DCB74" type="BinHex"/>
+		<field name="bIsActivated" type="BinHex"/>
+		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="4B95868D">

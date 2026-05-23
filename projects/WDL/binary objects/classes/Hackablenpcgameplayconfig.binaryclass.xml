@@ -56,77 +56,77 @@
 				</object>
 			</object>
 		</object>
-		<object hash="67D42AFB">
+		<object name="GunLock">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="FC5224E0">
+		<object name="Puppet">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="EA757740">
+		<object name="ExoSuitLock">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="9C904B65">
+		<object name="ARGlasses">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="E06B6B52">
+		<object name="Fight">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="1C413E67">
+		<object name="IncreaseWantedLevel">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="D6BDDD36">
+		<object name="DecreaseWantedLevel">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="EC8EBF27">
+		<object name="IncreaseCrimeDebt">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="A4EB3788">
+		<object name="DecreaseCrimeDebt">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="21505709">
+		<object name="IssueRendition">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="0E0B6DDC">
+		<object name="RevokeRendition">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>

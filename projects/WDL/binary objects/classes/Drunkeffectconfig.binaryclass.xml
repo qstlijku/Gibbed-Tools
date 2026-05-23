@@ -6,41 +6,41 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="4E1CE5C6" type="BinHex"/>
-	<field hash="82493459" type="BinHex"/>
-	<field hash="BE440B00" type="BinHex"/>
-	<field hash="EE841791" type="BinHex"/>
-	<field hash="C40ACFBD" type="BinHex"/>
-	<field hash="C15C47BF" type="BinHex"/>
-	<field hash="9F1CD7E8" type="BinHex"/>
-	<field hash="86F5D470" type="BinHex"/>
-	<field hash="EB011BD1" type="BinHex"/>
-	<field hash="F2E81849" type="BinHex"/>
-	<field hash="48C04378" type="BinHex"/>
-	<field hash="512940E0" type="BinHex"/>
-	<field hash="D0AB015B" type="BinHex"/>
-	<field hash="07342DDB" type="BinHex"/>
-	<field hash="7F588371" type="BinHex"/>
-	<field hash="5B205B4C" type="BinHex"/>
-	<field hash="8F4A4646" type="BinHex"/>
-	<field hash="6151817F" type="BinHex"/>
-	<field hash="37EF5ED9" type="BinHex"/>
-	<field hash="5953AC65" type="BinHex"/>
+	<field name="fDoubleVisionFactor" type="BinHex"/>
+	<field name="fDoubleVisionRollTimeMin" type="BinHex"/>
+	<field name="fDoubleVisionRollTimeMax" type="BinHex"/>
+	<field name="fEyeDistanceFactor" type="BinHex"/>
+	<field name="fEyeDeviationFactor" type="BinHex"/>
+	<field name="vectorColourControl" type="BinHex"/>
+	<field name="vectorTintInner" type="BinHex"/>
+	<field name="vectorTintOuter" type="BinHex"/>
+	<field name="vectorSaturationInner" type="BinHex"/>
+	<field name="vectorSaturationOuter" type="BinHex"/>
+	<field name="vectorContrastInner" type="BinHex"/>
+	<field name="vectorContrastOuter" type="BinHex"/>
+	<field name="fDistortionSpeed" type="BinHex"/>
+	<field name="fDistortionStrength" type="BinHex"/>
+	<field name="fBlurDrunkness" type="BinHex"/>
+	<field name="fBlurDefocusRate" type="BinHex"/>
+	<field name="fBlurCentreSpotSize" type="BinHex"/>
+	<field name="fBlurRadialFalloff" type="BinHex"/>
+	<field name="fBlurFactor" type="BinHex"/>
+	<field name="fSoundEffectStrength" type="BinHex"/>
 	<field name="vectorShakeTranslationAmplitude" type="BinHex"/>
-	<field hash="36D217A8" type="BinHex"/>
+	<field name="vectorShakeTranslationSpeed" type="BinHex"/>
 	<field name="vectorShakeRotationAmplitude" type="BinHex"/>
-	<field hash="B8C16D95" type="BinHex"/>
-	<field hash="A2E94226" type="BinHex"/>
-	<field hash="0491C7D3" type="BinHex"/>
-	<field hash="42C130EB" type="BinHex"/>
-	<field hash="7ECC0FB2" type="BinHex"/>
-	<field hash="4280DD1D" type="BinHex"/>
+	<field name="vectorShakeRotationSpeed" type="BinHex"/>
+	<field name="uDrinkCountToStartTintOuterAnim" type="BinHex"/>
+	<field name="fTintOuterAnimaitionTime" type="BinHex"/>
+	<field name="vectorTintOuterAnimaitionMin" type="BinHex"/>
+	<field name="vectorTintOuterAnimaitionMax" type="BinHex"/>
+	<field name="bUseRandomAdjustmentFactor" type="BinHex"/>
 	<field name="fFOVFactor" type="Float"/>
-	<field hash="1D0A295C" type="BinHex"/>
-	<field hash="1F5F057D" type="BinHex"/>
-	<field hash="4331D3A2" type="BinHex"/>
-	<field hash="5822639F" type="BinHex"/>
-	<object hash="2F2C8CD5">
+	<field name="fTranInTimeScaleFactor" type="BinHex"/>
+	<field name="selTranOutBehavior" type="BinHex"/>
+	<field name="fTranOutTimeScaleFactor" type="BinHex"/>
+	<field name="fHalvingPeriod" type="BinHex"/>
+	<object name="curveTintOuterAnimationCurve">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">

@@ -16,7 +16,7 @@
 			<field name="fUIStartUpDelay" type="Float"/>
 			<field name="bPlayCommunicationIntro" type="Boolean"/>
 			<field hash="5EF7E537" type="BinHex"/>
-			<field hash="D0528801" type="BinHex"/>
+			<field name="texturedbobjectImageSource" type="BinHex"/>
 			<field name="videosVideo" type="BinHex"/>
 			<field name="conversationsettingConversation" type="BinHex"/>
 			<field name="bUseEarBudsActivate" type="Boolean"/>
@@ -42,7 +42,7 @@
 				<object name="Events">
 					<field hash="87E038DB" type="String"/>
 					<field name="sndSoundId" type="BinHex"/>
-					<field hash="8FE662AD" type="BinHex"/>
+					<field name="sndtpSoundType" type="BinHex"/>
 				</object>
 			</object>
 			<object hash="36706EE5">

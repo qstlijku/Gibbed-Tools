@@ -9,8 +9,8 @@
 	<field name="uiShopCashMin" type="UInt32"/>
 	<field name="uiShopCashMax" type="UInt32"/>
 	<field name="itemsReward" type="BinHex"/>
-	<field hash="43C02807" type="BinHex"/>
-	<field hash="2BE873FC" type="BinHex"/>
+	<field name="bIsVendingMachine" type="BinHex"/>
+	<field name="bCanAutoBuyItems" type="BinHex"/>
 	<object name="locstridInteractionText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>

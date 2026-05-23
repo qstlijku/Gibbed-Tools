@@ -10,7 +10,7 @@
 	<field name="fVelocityLag" type="Float"/>
 	<field name="fCollisionVisibleRadius" type="Float"/>
 	<field name="fCollisionRadius" type="Float"/>
-	<field hash="C78A8C8F" type="BinHex"/>
+	<field name="fCollisionFrustumRadius" type="BinHex"/>
 	<field name="fCollisionLagDecompress" type="Float"/>
 	<field name="vectorIdealMin" type="BinHex"/>
 	<field name="vectorIdealMid" type="BinHex"/>
@@ -19,7 +19,7 @@
 	<field name="vectorIdealSpeedCoef" type="BinHex"/>
 	<field name="fReticleDisplay" type="Float"/>
 	<field name="vec2ReticleLocation" type="Vector2"/>
-	<object hash="7EBF8F6B">
+	<object name="FOV">
 		<field name="vectorFov" type="BinHex"/>
 		<field name="vectorFovSpeedRange" type="BinHex"/>
 		<field name="fFovInterpSpeed" type="Float"/>
@@ -38,7 +38,7 @@
 		<field name="vectorFovPitchCoeff" type="BinHex"/>
 		<field name="fFovMaxVertical" type="Float"/>
 		<field name="fFovMaxHorizontal" type="Float"/>
-		<field hash="0C1BD35F" type="BinHex"/>
+		<field name="fFovAtSecurePosition" type="BinHex"/>
 	</object>
 	<object name="Input">
 		<field name="bUseRefRelativeInput" type="Boolean"/>
@@ -89,7 +89,7 @@
 		<field name="selFollowPYReference" type="Enum"/>
 		<field name="vec2FollowPYRefOffset" type="Vector2"/>
 		<field name="fFollowPYLag" type="Float"/>
-		<field hash="FB784269" type="BinHex"/>
+		<field name="fFollowPYCoeff" type="BinHex"/>
 		<field name="vec2FollowPYLagSpeedRange" type="Vector2"/>
 		<field name="vec2FollowPYLagSpeedCoef" type="Vector2"/>
 		<field name="vec2FollowPYEnterTimeSpeedRange" type="Vector2"/>
@@ -119,11 +119,11 @@
 		<field name="selPivotXYReference" type="Enum"/>
 		<field name="selPivotZReference" type="Enum"/>
 		<field name="vec2PivotLag" type="Vector2"/>
-		<field hash="2F1B4D02" type="BinHex"/>
-		<field hash="D0AAE07C" type="BinHex"/>
+		<field name="fPivotLagDownward" type="BinHex"/>
+		<field name="bBasePivotLagOnVel" type="BinHex"/>
 		<field name="vectorPivotOffset" type="BinHex"/>
-		<field hash="FAB93A10" type="BinHex"/>
-		<field hash="5420FD0C" type="BinHex"/>
+		<field name="bUseFemalePivotOffset" type="BinHex"/>
+		<field name="vectorPivotOffsetFemale" type="BinHex"/>
 		<field name="selPivotReference" type="Enum"/>
 		<field name="selSecureReference" type="Enum"/>
 		<field name="selSecureXYZReference" type="Enum"/>
@@ -161,7 +161,7 @@
 		<field name="vec2IdealSlopeUpAngles" type="Vector2"/>
 		<field name="vectorIdealSlopeZOffset" type="BinHex"/>
 	</object>
-	<object hash="F390740B">
+	<object name="PoV">
 		<field name="vec2TargetMidOffset" type="Vector2"/>
 		<field name="vec2TargetPitchAngles" type="Vector2"/>
 		<field name="fTargetMinPitchAngleMidZOffset" type="Float"/>
@@ -185,7 +185,7 @@
 	<object name="Sensor">
 		<field name="camerasensorconfigSensorConfig" type="BinHex"/>
 	</object>
-	<object hash="0E882620">
-		<field hash="ABA9C263" type="BinHex"/>
+	<object name="BlendOverride">
+		<field name="fBlendInTimeMultiplier" type="BinHex"/>
 	</object>
 </class>

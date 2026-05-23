@@ -6,136 +6,136 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="70314475">
-		<field hash="675C9BC1" type="BinHex"/>
-		<field hash="EEA7718F" type="BinHex"/>
-		<field hash="7B3B164D" type="BinHex"/>
-		<object hash="15FA948F">
+	<object name="SubtitleSettings">
+		<field name="iBarkDistance" type="BinHex"/>
+		<field name="castedcharactersAiSpeakerPersona" type="BinHex"/>
+		<field name="iSubtitleLineBordersWidth" type="BinHex"/>
+		<object name="locstridPoliceRadioDisplayName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D96F8012">
+		<object name="locstridDefaultBarkMaleName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="AE9D9CD9">
+		<object name="locstridDefaultBarkFemaleName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F3C219BB">
+		<object name="locstridOccupationTemplateLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="DB898FC7">
-			<field hash="6C3B4AE9" type="BinHex"/>
-			<field hash="4545B7F1" type="BinHex"/>
-			<field hash="77A4BE04" type="BinHex"/>
+		<object name="LanguageSettings">
+			<field name="iMaxCharactersPerLine" type="BinHex"/>
+			<field name="iMinCharactersPerLine" type="BinHex"/>
+			<field name="fWidthPerCharacter" type="BinHex"/>
 		</object>
-		<object hash="F2F10F4C">
-			<field hash="7BCA5CAD" type="BinHex"/>
-			<field hash="457F9425" type="BinHex"/>
-			<field hash="FDF3EA64" type="BinHex"/>
+		<object name="AsianLanguageSettings">
+			<field name="iMaxCharactersPerLineAsian" type="BinHex"/>
+			<field name="iMinCharactersPerLineAsian" type="BinHex"/>
+			<field name="fWidthPerCharacterAsian" type="BinHex"/>
 			<field hash="F948A005" type="BinHex"/>
-			<object hash="08CB533F">
-				<object hash="FF3E57E8">
-					<field hash="C951F410" type="BinHex"/>
+			<object name="AsianLanguagesLineWrapping">
+				<object name="AsianLanguageLineWrapping">
+					<field name="selLanguage" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="3936561C">
-				<field hash="C951F410" type="BinHex"/>
-				<object hash="3936561C">
-					<field hash="C951F410" type="BinHex"/>
+			<object name="AsianLanguagesNumberChars">
+				<field name="selLanguage" type="BinHex"/>
+				<object name="AsianLanguagesNumberChars">
+					<field name="selLanguage" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="0C51DF13">
+			<object name="locstridLineBreakLeadingChars">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="7953162C">
+			<object name="locstridLineBreakTrailingChars">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="7B981634">
+		<object name="PunctuationSettings">
 			<object name="Languages">
-				<field hash="C951F410" type="BinHex"/>
+				<field name="selLanguage" type="BinHex"/>
 				<object name="Languages">
-					<field hash="C951F410" type="BinHex"/>
+					<field name="selLanguage" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="826643BD">
+			<object name="locstridPunctuationMarks">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DF12A2F1">
+			<object name="locstridEndPunctuationMarks">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="7B981634">
+			<object name="PunctuationSettings">
 				<object name="Languages">
 					<object name="Languages">
-						<field hash="C951F410" type="BinHex"/>
+						<field name="selLanguage" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="826643BD">
+				<object name="locstridPunctuationMarks">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="DF12A2F1">
+				<object name="locstridEndPunctuationMarks">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="7CD70D61">
+	<object name="FontSettings">
 		<object name="DefaultSettings">
-			<field hash="0C6AA90F" type="BinHex"/>
-			<field hash="E5610606" type="BinHex"/>
+			<field name="uicolorpalettesettingsNarrativeFontColor" type="BinHex"/>
+			<field name="uicolorpalettesettingsBarkFontColor" type="BinHex"/>
 		</object>
-		<object hash="D146B64A">
-			<field hash="94A25D28" type="BinHex"/>
-			<field hash="57FA0744" type="BinHex"/>
-			<field hash="8DAE1768" type="BinHex"/>
-			<field hash="C88F96F3" type="BinHex"/>
-			<field hash="9D9B2DB8" type="BinHex"/>
+		<object name="DifferentSpeakerSettings">
+			<field name="bUseDifferentColorsForSpeakers" type="BinHex"/>
+			<field name="uicolorpalettesettingsPlayerFontColor" type="BinHex"/>
+			<field name="uicolorpalettesettingsAISpeakerFontColor" type="BinHex"/>
+			<field name="uicolorpalettesettingsTeamFontColor" type="BinHex"/>
+			<field name="uicolorpalettesettingsOtherFontColor" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="E226F1ED">
-		<field hash="21698549" type="BinHex"/>
-		<field hash="0702C453" type="BinHex"/>
-		<field hash="6F613155" type="BinHex"/>
-		<field hash="1ACB6D86" type="BinHex"/>
+	<object name="ClosedCaptionSettings">
+		<field name="fClosedCaptionsHistoryPeriod" type="BinHex"/>
+		<field name="fClosedCaptionsShowPeriod" type="BinHex"/>
+		<field name="fDirectionNearbyDistance" type="BinHex"/>
+		<field name="fActiveCombatCooldown" type="BinHex"/>
 	</object>
-	<object hash="634CF1DE">
-		<field hash="E3C41F18" type="BinHex"/>
-		<field hash="82DDF8AC" type="BinHex"/>
-		<field hash="996B5478" type="BinHex"/>
-		<field hash="DD869977" type="BinHex"/>
-		<field hash="29EBECDF" type="BinHex"/>
+	<object name="BarkSettings">
+		<field name="fLowPriorityBarkCooldown" type="BinHex"/>
+		<field name="fBarkCooldown" type="BinHex"/>
+		<field name="fBarkShowPeriod" type="BinHex"/>
+		<field name="fHighPriorityBarkMaxDistance" type="BinHex"/>
+		<field name="fLowPriorityBarkMaxDistance" type="BinHex"/>
 	</object>
-	<object hash="DAAE1DC1">
-		<object hash="5F251EBF">
-			<field hash="C5DEC9DA" type="BinHex"/>
-			<field hash="A186B04C" type="BinHex"/>
-			<field hash="BB91709F" type="BinHex"/>
-			<field hash="B774740C" type="BinHex"/>
+	<object name="SubtitleSelectionSettings">
+		<object name="SubtitlesTrackSettings">
+			<field name="fUnskippableMaxDuration" type="BinHex"/>
+			<field name="fUnskippableMaxDelay" type="BinHex"/>
+			<field name="fSkippableMinRemainTime" type="BinHex"/>
+			<field name="fSkippableMinSkipTime" type="BinHex"/>
 		</object>
-		<object hash="114F9F9A">
-			<field hash="4DBD9548" type="BinHex"/>
-			<field hash="B7E5731A" type="BinHex"/>
-			<field hash="B57A0C49" type="BinHex"/>
-			<field hash="9D1A10D2" type="BinHex"/>
+		<object name="PlasmaShowSettings">
+			<field name="fShowInSightDistanceFactor" type="BinHex"/>
+			<field name="fShowOutSightDistanceFactor" type="BinHex"/>
+			<field name="fHideDistanceFactor" type="BinHex"/>
+			<field name="fOcclusionFactor" type="BinHex"/>
 		</object>
-		<object hash="6640C231">
-			<field hash="ECC8C5AD" type="BinHex"/>
-			<field hash="7965AC05" type="BinHex"/>
-			<field hash="06648BE4" type="BinHex"/>
-			<field hash="2F9310A4" type="BinHex"/>
-			<field hash="F8E1C36D" type="BinHex"/>
+		<object name="PlasmaSwitchSettings">
+			<field name="fVisibilityEpsilon" type="BinHex"/>
+			<field name="fOldInSightMultiplier" type="BinHex"/>
+			<field name="fNewInSightMultiplier" type="BinHex"/>
+			<field name="fOldOutSightMultiplier" type="BinHex"/>
+			<field name="fNewOutSightMultiplier" type="BinHex"/>
 		</object>
-		<object hash="D170C4B1">
-			<field hash="4DBD9548" type="BinHex"/>
-			<field hash="B7E5731A" type="BinHex"/>
-			<field hash="B57A0C49" type="BinHex"/>
-			<field hash="9D1A10D2" type="BinHex"/>
+		<object name="BarksShowSettings">
+			<field name="fShowInSightDistanceFactor" type="BinHex"/>
+			<field name="fShowOutSightDistanceFactor" type="BinHex"/>
+			<field name="fHideDistanceFactor" type="BinHex"/>
+			<field name="fOcclusionFactor" type="BinHex"/>
 		</object>
-		<object hash="EC89771B">
-			<field hash="ECC8C5AD" type="BinHex"/>
-			<field hash="7965AC05" type="BinHex"/>
-			<field hash="06648BE4" type="BinHex"/>
-			<field hash="2F9310A4" type="BinHex"/>
-			<field hash="F8E1C36D" type="BinHex"/>
+		<object name="BarksSwitchSettings">
+			<field name="fVisibilityEpsilon" type="BinHex"/>
+			<field name="fOldInSightMultiplier" type="BinHex"/>
+			<field name="fNewInSightMultiplier" type="BinHex"/>
+			<field name="fOldOutSightMultiplier" type="BinHex"/>
+			<field name="fNewOutSightMultiplier" type="BinHex"/>
 		</object>
 	</object>
 </class>

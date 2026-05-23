@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fMargin" type="Float"/>
-	<object hash="6FD7795D">
+	<object name="GPSServiceSettings">
 		<field hash="0A50A924" type="String"/>
 		<field name="filePathTexture" type="String"/>
 		<field hash="BCC9D3DF" type="String"/>
@@ -19,13 +19,13 @@
 		<field hash="EC48F079" type="String"/>
 		<field name="fileOnlinePathTexture" type="String"/>
 		<field name="fWaypointMinimumDistance" type="Float"/>
-		<field hash="0E733909" type="BinHex"/>
-		<field hash="0011746E" type="BinHex"/>
-		<field hash="B552C8DA" type="BinHex"/>
-		<object hash="FF1D88FC">
-			<field hash="A28F8328" type="BinHex"/>
-			<field hash="A1492C31" type="BinHex"/>
-			<field hash="A9A017AD" type="BinHex"/>
+		<field name="fTimeToConsiderBeforeRecomputeNewRoute" type="BinHex"/>
+		<field name="fArrowWidthInGame" type="BinHex"/>
+		<field name="fArrowWidthInMinimap" type="BinHex"/>
+		<object name="GPSLineBanking">
+			<field name="MaxRaise" type="BinHex"/>
+			<field name="SmoothingPasses" type="BinHex"/>
+			<field name="SmoothingSelfWeight" type="BinHex"/>
 		</object>
 	</object>
 	<object name="NormalAvatar">

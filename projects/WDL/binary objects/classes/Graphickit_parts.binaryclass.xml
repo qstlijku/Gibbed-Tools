@@ -21,8 +21,8 @@
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<object name="Tags">
 					<object name="Tag">
@@ -32,7 +32,7 @@
 				<field name="tagTag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D0C5DABB">
+		<object name="TagDescriptorUI">
 			<field hash="CF68E402" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionDescriptors">

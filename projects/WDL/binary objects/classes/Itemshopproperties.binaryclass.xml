@@ -8,8 +8,8 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="itemsItem" type="BinHex"/>
 	<field name="uiItemPrice" type="UInt32"/>
-	<field hash="2D6BE765" type="BinHex"/>
+	<field name="uiUnlockLevel" type="BinHex"/>
 	<field name="itemcategoryItemCategory" type="BinHex"/>
-	<field hash="D7392EE2" type="BinHex"/>
+	<field name="itemvarietyItemVariety" type="BinHex"/>
 	<field name="bPromotionalItem" type="Boolean"/>
 </class>

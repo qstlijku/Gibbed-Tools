@@ -107,7 +107,7 @@
 		<field hash="04919CA1" type="BinHex"/>
 		<field hash="B6B140B1" type="BinHex"/>
 	</object>
-	<object hash="1745EEC7">
+	<object name="Rim">
 		<field hash="71B2C602" type="String"/>
 		<field name="sndRimSound_1" type="BinHex"/>
 		<field hash="E8BB97B8" type="String"/>

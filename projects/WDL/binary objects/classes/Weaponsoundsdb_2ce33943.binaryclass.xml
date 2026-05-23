@@ -6,39 +6,39 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="04D66F15">
+	<object name="sndvarWeaponDistanceRtpc">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="BinHex"/>
+		<field name="SoundGuid" type="BinHex"/>
 	</object>
-	<object hash="C028DC8A">
+	<object name="sndvarASRLoopCountRtpc">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
-	<object hash="990E469A">
-		<object hash="5CC9F23E">
+	<object name="PlayerWeaponsModels">
+		<object name="WeaponModels">
 			<field hash="AD82B088" type="String"/>
-			<field hash="67445C9F" type="BinHex"/>
+			<field name="selWeaponModel" type="BinHex"/>
 			<field name="fDistantSoundDistance" type="Float"/>
-			<object hash="C6E70B99">
-				<field hash="54DCF191" type="BinHex"/>
-				<field hash="6EE22A91" type="BinHex"/>
+			<object name="WeaponSoundObject">
+				<field name="fASRStartRtpcValue" type="BinHex"/>
+				<field name="fASRStopRtpcValue" type="BinHex"/>
 				<field hash="E3A9FCBD" type="String"/>
-				<field hash="C708D382" type="BinHex"/>
-				<field hash="F8665DF4" type="BinHex"/>
-				<field hash="BD4C91AB" type="BinHex"/>
-				<field hash="8E848B00" type="BinHex"/>
-				<field hash="474E2785" type="BinHex"/>
-				<field hash="643E9AB3" type="BinHex"/>
+				<field name="sndFire" type="BinHex"/>
+				<field name="sndDistantFire" type="BinHex"/>
+				<field name="sndPreBakedReverbStart" type="BinHex"/>
+				<field name="sndPreBakedReverbStop" type="BinHex"/>
+				<field name="sndPressTrigger" type="BinHex"/>
+				<field name="sndMovingPart" type="BinHex"/>
 				<field hash="726668C5" type="String"/>
-				<field hash="81695B01" type="BinHex"/>
+				<field name="sndReload" type="BinHex"/>
 				<field hash="2F558250" type="String"/>
-				<field hash="537B1FA1" type="BinHex"/>
+				<field name="sndNoAmmoFire" type="BinHex"/>
 				<field hash="CB85487D" type="String"/>
-				<field hash="EF246742" type="BinHex"/>
+				<field name="sndDraw" type="BinHex"/>
 				<field hash="FC79F7D1" type="String"/>
-				<field hash="6083FE4B" type="BinHex"/>
+				<field name="sndHolster" type="BinHex"/>
 				<field hash="9E9445FB" type="String"/>
-				<field hash="E2BAD80A" type="BinHex"/>
+				<field name="sndBulletWizz" type="BinHex"/>
 				<field hash="CD695BF3" type="BinHex"/>
 				<field hash="EEFFDED2" type="BinHex"/>
 				<field hash="2E81A56A" type="BinHex"/>
@@ -53,29 +53,29 @@
 			</object>
 		</object>
 	</object>
-	<object hash="0CA75E80">
-		<object hash="CDC4F17E">
+	<object name="NPCWeaponsCategories">
+		<object name="WeaponCategories">
 			<field hash="112D6D37" type="String"/>
-			<field hash="8888036D" type="BinHex"/>
+			<field name="selWeaponCategory" type="BinHex"/>
 			<field name="fDistantSoundDistance" type="Float"/>
-			<object hash="921B03E0">
-				<object hash="C6E70B99">
-					<field hash="54DCF191" type="BinHex"/>
-					<field hash="6EE22A91" type="BinHex"/>
+			<object name="WeaponSoundObjects">
+				<object name="WeaponSoundObject">
+					<field name="fASRStartRtpcValue" type="BinHex"/>
+					<field name="fASRStopRtpcValue" type="BinHex"/>
 					<field hash="E3A9FCBD" type="String"/>
-					<field hash="C708D382" type="BinHex"/>
-					<field hash="F8665DF4" type="BinHex"/>
-					<field hash="BD4C91AB" type="BinHex"/>
-					<field hash="8E848B00" type="BinHex"/>
-					<field hash="474E2785" type="BinHex"/>
-					<field hash="643E9AB3" type="BinHex"/>
-					<field hash="81695B01" type="BinHex"/>
-					<field hash="537B1FA1" type="BinHex"/>
+					<field name="sndFire" type="BinHex"/>
+					<field name="sndDistantFire" type="BinHex"/>
+					<field name="sndPreBakedReverbStart" type="BinHex"/>
+					<field name="sndPreBakedReverbStop" type="BinHex"/>
+					<field name="sndPressTrigger" type="BinHex"/>
+					<field name="sndMovingPart" type="BinHex"/>
+					<field name="sndReload" type="BinHex"/>
+					<field name="sndNoAmmoFire" type="BinHex"/>
 					<field hash="CB85487D" type="String"/>
-					<field hash="EF246742" type="BinHex"/>
+					<field name="sndDraw" type="BinHex"/>
 					<field hash="FC79F7D1" type="String"/>
-					<field hash="6083FE4B" type="BinHex"/>
-					<field hash="E2BAD80A" type="BinHex"/>
+					<field name="sndHolster" type="BinHex"/>
+					<field name="sndBulletWizz" type="BinHex"/>
 					<field hash="CD695BF3" type="BinHex"/>
 					<field hash="EEFFDED2" type="BinHex"/>
 					<field hash="2E81A56A" type="BinHex"/>

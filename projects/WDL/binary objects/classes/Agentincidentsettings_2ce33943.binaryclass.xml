@@ -9,819 +9,819 @@
 	<object name="IncidentSettings">
 		<object name="ARGunShot">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="AimingWithGun">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="AlertNearbyGuards">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="AlertNearbyGuards_CivilianCallout">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="AlertNearbyGuards_CivilianPanic">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="AlertNearbyGuards_Download">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="344753E3">
+		<object name="AlertNearbyGuards_HackEscalation">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object hash="DB7B75D5">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="AlertNearbyGuards_UnholsteredGun">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="AnimalCuteness">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Arrest">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Arrest_ForcedOutcomeCombat">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Arrest_ForcedOutcomeFlee">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="24525DA4">
+		<object name="Arrest_OnFoot_Occurring">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Arrest_OnGoing">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="C42ED785">
+		<object name="BareKnuckleChampion">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="1CE40550">
+		<object name="BareKnuckleLose">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="65E0D48F">
+		<object name="BareKnuckleParticipation">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="A221C5DC">
+		<object name="BareKnuckleWin">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object hash="992ABA8B">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object hash="112D3294">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="BlackoutStart_Day">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="BlackoutStart_Night">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="BlackoutStop_Day">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="BlackoutStop_Night">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="B3343BED">
+		<object name="BlindingFlash">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="48BF9E6C">
+		<object name="BulletImpactLTL">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="DD684EE2">
+		<object name="BulletImpactLethal">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="D455110F">
+		<object name="BulletMissLTL">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="6B3DB4E5">
+		<object name="BulletMissLethal">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="12E41AC8">
+		<object name="CaptureMeInNews">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="F03B9369">
+		<object name="CaptureMeInNewsWithSpotlight">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="7262D9D5">
+		<object name="CapturingNews">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="6A99A481">
+		<object name="CapturingNewsWithSpotlight">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarBreak">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarCrash">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarCrashBig">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarCrashBigPersistant">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarCrashPileup">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarHackedAlarm">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarHonk">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarLight">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarOnOpenBridge">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarSiren">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarTakedownBollard">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarTheft">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CarTyreDeflate">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Carjacking">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="8A7AF434">
+		<object name="Celebrity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="3CCB09A0">
+		<object name="CensusEncounter">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Cheer">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CivilianAnxiety">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CivilianHitByACarButNotDead_ReputationOnly">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CivilianPanic">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CollisionStumble">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="85EC6D32">
+		<object name="CombatPropagation">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CommunicationDisrupt">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CommunicationDisrupted">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CopNonLethalShot">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CopNonLethalTakedown">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CrimeOnGoing">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="CuriousBhv">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="829736F6">
+		<object name="DartHighValue">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="4CEAC416">
+		<object name="DartMiss">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="DeadBody">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="DedSecBroadcast">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="B186A826">
+		<object name="DedSecNegative">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="D4F0DF3D">
+		<object name="DedSecPositive">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="DestroyedRCToy">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="A778E74D">
+		<object name="DisabledIngredient">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="2210154B">
+		<object name="DownloadInitiated">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="DrivingVehicleHacked">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="B86227A9">
+		<object name="DroneCombatEscalation">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="F56B4E0A">
+		<object name="DroneCombatMalfunction">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="90937005">
+		<object name="DroneCombatSwitchAllegiance">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="BC2C956E">
+		<object name="DroneCommandFollow">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="60E80AB9">
+		<object name="DroneCommandSearch">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="03F594FE">
+		<object name="DroneCommandStay">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="A319C5BF">
+		<object name="DroneCommandWaitForCommand">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="C4EE41A1">
+		<object name="DroneLargeBump">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="93492836">
+		<object name="DroneNonCombatMalfunction">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="A6774584">
+		<object name="DronePickableDestroyed">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="78003767">
+		<object name="DronePickableDestroyedSound">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="E697CF54">
+		<object name="DronePickableFallImpact">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="2A8A81C4">
+		<object name="DronePickableFallImpactSound">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="DC7A9CE8">
+		<object name="DronePickableInteresting">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="37F6B4A5">
+		<object name="DronePickableOutOfContext">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="6E118F73">
+		<object name="DroneRiding">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="CBFDE16A">
+		<object name="DroneSearching">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="A93153FF">
+		<object name="DroneShutdown">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="FCEE861E">
+		<object name="DroneShutdownAlarm">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="D1D9CDAF">
+		<object name="DroneSmallBump">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="DD828CFB">
+		<object name="DroneTargetStress">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="98ACA61F">
+		<object name="DrunkPersonDrunk">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="84CFAAE4">
+		<object name="DrunkPersonSmashed">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="754A3EBC">
+		<object name="DrunkPersonTipsy">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="ElectricSpark">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="EmergencyAlarmActive">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="EmergencyAlarmNoise">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="EmergencyAlarmStart">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="EmergencyAlarmStop">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="2F983D82">
+		<object name="EmergencyResponse">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="EmergentHoldupInterruption">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="EnticedInterruption">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="EscalationAttract">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="65430C86">
+		<object name="ExoSuitMalfunction">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="336BD964">
+		<object name="ExplosiveNearby">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="9C602D96">
+		<object name="FelonyForceCombat">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Fire">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="10729118">
+		<object name="FlashSound">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="FleeFromShop">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Flirt">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="FlyingDroneProximity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="91E207AE">
+		<object name="FlyingDroneProximityTooClose">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="9E2E407D">
+		<object name="FollowMe">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 					<field hash="2244E418" type="BinHex"/>
 					<field hash="8C1790DB" type="BinHex"/>
@@ -830,21 +830,21 @@
 		</object>
 		<object hash="2F9E2A77">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 					<field hash="2244E418" type="BinHex"/>
 					<field hash="8C1790DB" type="BinHex"/>
@@ -853,1761 +853,1761 @@
 		</object>
 		<object name="FoundDeadBody">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="FoundWoundedBody">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="780DD536">
+		<object name="FullHeatFoundByDrone">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="GenericHard">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="GenericSoft">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Greet">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="GrenadeInEnvironment">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="GrenadeInHand">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="83EB3C62">
+		<object name="GroupBehavior">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="GuardSearching">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="GunShotAtPolice">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="GunShotInPanic">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="FE9C3125">
+		<object name="GunshotLTL">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="29DB294F">
+		<object name="GunshotLethal">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="AE4F822D">
+		<object name="HackEscalation">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HackedEntityMalfunction">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="HackedEntityMoving">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HackedSquadVehicleMalfunction">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="FD41B815">
+		<object name="HackEscalationOutcomeCombat">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="7804614F">
+		<object name="HazardousVehicle">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="8AB67D7F">
+		<object name="HealthCritical">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="08155C2F">
+		<object name="HealthMedium">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HearBreakable">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HearGrenadeLanding">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HearStickyProjectileLanding">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="DE8CE4D6">
+		<object name="HearTakeDown">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="F59A1F01">
+		<object name="HearTakedownStealth">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HitByGrenade">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HitByProjectile">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HitByRCCrane">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HitByRCForkLift">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HitByRCScissorLift">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HitByRCToyCar">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HitByVehicle">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="HoldUpShopkeeper">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="7060AE9C">
+		<object name="HorrificDeath">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object hash="8465F47B">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HumanNoiseDisgusting">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="HumanNoiseLoud">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="D67677B9">
+		<object name="HVCProximity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="0F431C86">
+		<object name="ImportantObjectAlert">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object hash="909045EB">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="IncomingClimber">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="IncomingRCCrane">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="IncomingRCForkLift">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="IncomingRCScissorLift">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="IncomingRCToyCar">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="IncomingRunner">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="IncomingThreat">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Insult">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="352EDC7B">
+		<object name="IntenseRainStart">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Intuition">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="593EC925">
+		<object name="IsBeingBlinded">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="KeypadDestroyed">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="20D710EB">
+		<object name="KickupGoalCompleted">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="3112823B">
+		<object name="KickupTrick">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="KilledCivilian">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="KilledCivilianByCar">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="KilledMobster">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="KilledPolice">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="BD290903">
+		<object name="LTLChokeFireExtinguisherExplosion">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="9CFBAE17">
+		<object name="LTLChokeProximityMine">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="LargeBump">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="LargeCloseObjectBroken">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="LargeExplosion">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Laugh">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="LayoutBeingHacked">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="B7F8E4DC">
+		<object name="LeverageComplete">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="DA2DF67D">
+		<object name="LeverageCompleteBuddy">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="2800D010">
+		<object name="LeverageRuin">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="C48F28EC">
+		<object name="LeverageRuinBuddy">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Look">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="LostTarget">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="659A6501">
+		<object name="LtlChoke">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Lure">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="MakeFunOf">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="4EE93AAC">
+		<object name="MeleeCombatOccuringPersistent">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="MoodInitiatorProximityAngry">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="MyCarJackingFinished">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="MyCarJackingFinishedRunAway">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="MyCloseObjectBigBroken">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="MyCloseObjectBroken">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="NPCHacked">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="NPCHackedAttract">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="NPCHackedExposed">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="NPCHackedTraitor">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="NewTarget">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="ObjectCollisionNoise">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="3949B1C0">
+		<object name="ObserveSideComment">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="OffRoadDriving">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="27AB70DD">
+		<object name="OffRoadStationaryCar">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="OnBeingHacked">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="OnCLOInterrupted">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="OnLeaderQuitAnxiety">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="OnLeaderQuitCuriosity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="OnLeaderQuitPanic">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="OutrageousAction">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="EF23EA9C">
+		<object name="PMCBrutality">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="51B5AF34">
+		<object name="PMCProximity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PacifiedCalmDown">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Pacify">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PeopleDie">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PeopleDown">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PersonAttacked">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PersonAttackedMiss">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PersonCrushed">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PersonHit">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PersonPushed">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PersonWarned">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PetAttacked">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PetBusy">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="PetDisturbed">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PhoneOverheat">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Photobomb">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PlayerIEDExplosion">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PlayerPlayingARGame">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PlayerProximity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PlayerStaysInWarningZone">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PoliceVehicleHighHeat">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="Projectile">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Protect">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PublicDisturbance">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="PuddleSplash">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="C1D18352">
+		<object name="RCBroadcast">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object hash="F86FD10D">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object hash="431BCDA5">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="27806594">
+		<object name="RCDestroyed_Default">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="7752A8A9">
+		<object name="RCDestroyed_LargeDrone">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="08E94A7C">
+		<object name="RCHijacked_Connected">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="00F8E5DD">
+		<object name="RCHijacked_Disconnected">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="RCMalfunction">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="RCMoveOutOfContext">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="E9EEB158">
+		<object name="RCToyCarProximity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="RainStart">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="RainStop">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="5291BCF2">
+		<object name="RecordTarget">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="A2893FFC">
+		<object name="ReinforceAgainstTarget">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="D678D624">
+		<object name="ReinforcementForceCombat">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="RemoteControlAttract">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="3C32632C">
+		<object name="RestrainFree">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="EEA20C7E">
+		<object name="RestrainOccurring">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="CC33EC92">
+		<object name="Restrainable">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="FFAEB816">
+		<object name="RestrainableNotSurrendering">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="C6ED0E94">
+		<object name="Restrained">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="E2518BF2">
+		<object name="RestrainedCallout">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="933D42BD">
+		<object name="RestrainedCalloutSafe">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="E006B5B0">
+		<object name="RingOfSteelActivation">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="0FA731A7">
+		<object name="RingOfSteelActivationTarget">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="99944987">
+		<object name="RingOfSteelActivePersistent">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="EFF42790">
+		<object name="RingOfSteelProfilerActivation">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="RobotAttract">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="RobotFakeAlarm">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="RobotRepulse">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="RunningPeopleProximity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SECarAccident">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="514C355C">
+		<object name="SamaritanCallout">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="7493D1EE">
+		<object name="ScanID">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="B75FAF35">
+		<object name="ScanIDComplete">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="E891F7DA">
+		<object name="ScannedByDroneActive">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="C32FFCA4">
+		<object name="SearchOccurring">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="4C970D56">
+		<object name="SeeARCloakActivate">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="70A2A970">
+		<object name="SeeARCloakDeactivate">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object hash="AA523E05">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object hash="7F174590">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeeDeadBody">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeeGrenade">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="FAB81F4D">
+		<object name="SeeHackedDistract">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeeIntruderIllegal">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="SeeIntruderSuspicious">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="SeePlayerInWarningZone">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeePlayerInWarningZoneInCar">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeeRCToyCar">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="SeeStickyProjectile">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeeSuspectActivity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="F9245CC6">
+		<object name="SeeTakeDown">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="196F5107">
+		<object name="SeeTakedownStealth">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeeTarget">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeeWoundedBody">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeekAttention">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SeekAttentionEmote">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="SeekAttentionMusic">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="6433043F">
+		<object name="SeekAttentionNegative">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Sexy">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="ShopTheft">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="5E5DE1C8">
+		<object name="ShroudedBody">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="ShutDownMediaBroadcast">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Silly">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SmallBump">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="SmallCloseObjectBroken">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SmallExplosion">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SpecialBroadcast">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="92ADACF8">
+		<object name="SpeedingCar">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="2E955ADF">
+		<object name="SpiderDroneJumped">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SteamPipe">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="SteamPipeExplosion">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="Stumble">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SurpriseFunny">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="SurprisedByTarget">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="SwitchTarget">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="TakeInterest">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="TakePicture">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="TakePictureObstruction">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="ThreatProximity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="Threaten">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="TrafficBlocked">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="TrafficUnblocked">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<field name="selState" type="Enum"/>
 				<field name="fMinDuration" type="Float"/>
 				<field name="fMaxDuration" type="Float"/>
-				<field hash="C6211711" type="BinHex"/>
-				<field hash="C880F38A" type="BinHex"/>
-				<field hash="FCF7D75E" type="BinHex"/>
-				<field hash="FF043711" type="BinHex"/>
-				<field hash="950F42EB" type="BinHex"/>
+				<field name="fMoveSpeed" type="BinHex"/>
+				<field name="fMaxDistanceFromComfort" type="BinHex"/>
+				<field name="fCycleBreakerMinTime" type="BinHex"/>
+				<field name="fCycleBreakerMaxTime" type="BinHex"/>
+				<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
-				<field hash="C11F124C" type="BinHex"/>
+				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 				<field hash="C6EFEA0B" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="TraitorThreatenExposed">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="0F484DBE">
+		<object name="TurretProximity">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="UncommonAction">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="UnholsteredGun">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="VehicleDisabledBroken">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="D1F5F4DB">
+		<object name="VehicleDisabledBroken_Persistent">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="VehicleDisabledHacked">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="VehicleEntered">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="VehicleStunt">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="VehicleUnderwater">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="D476F01B">
+		<object name="VehicleUnderwater_Persistent">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="ViolenceFear">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="WakeUp">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="8147B3B1">
+		<object name="WarnOfIntruder">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="D1311FF6">
+		<object name="WasMalfunctioning">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="WaterPipe">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="FD36FB41">
+		<object name="WorldActivityActive">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
-		<object hash="C007AE6F">
+		<object name="WorldActivityScaryHead">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings"/>
 		</object>
 		<object name="WoundedBody">
 			<field name="selEntityOfInterest" type="Enum"/>
-			<field hash="EAB75500" type="BinHex"/>
-			<field hash="48128212" type="BinHex"/>
+			<field name="bSpecifyStateEntityOfInterest" type="BinHex"/>
+			<field name="selStateEntityOfInterest" type="BinHex"/>
 			<object name="StatesSettings">
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
 					<field name="fMaxDuration" type="Float"/>
-					<field hash="C6211711" type="BinHex"/>
-					<field hash="C880F38A" type="BinHex"/>
-					<field hash="FCF7D75E" type="BinHex"/>
-					<field hash="FF043711" type="BinHex"/>
-					<field hash="950F42EB" type="BinHex"/>
+					<field name="fMoveSpeed" type="BinHex"/>
+					<field name="fMaxDistanceFromComfort" type="BinHex"/>
+					<field name="fCycleBreakerMinTime" type="BinHex"/>
+					<field name="fCycleBreakerMaxTime" type="BinHex"/>
+					<field name="bShouldAlwaysFollowFurther" type="BinHex"/>
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
-					<field hash="C11F124C" type="BinHex"/>
+					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
 					<field hash="C6EFEA0B" type="BinHex"/>
 				</object>
 			</object>

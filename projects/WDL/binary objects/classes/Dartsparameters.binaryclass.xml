@@ -7,36 +7,36 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fSpeed" type="Float"/>
-	<field hash="FCF79DEC" type="BinHex"/>
+	<field name="fSpeedVariance" type="BinHex"/>
 	<field name="fGravity" type="Float"/>
-	<field hash="FF07E32D" type="BinHex"/>
-	<field hash="CCFB0796" type="BinHex"/>
-	<field hash="8EAFA1CC" type="BinHex"/>
-	<field hash="DD428DA1" type="BinHex"/>
-	<field hash="989A95F8" type="BinHex"/>
-	<field hash="C8D763A4" type="BinHex"/>
-	<field hash="5E8C0111" type="BinHex"/>
-	<field hash="3D24C602" type="BinHex"/>
-	<field hash="EBDD095A" type="BinHex"/>
-	<field hash="1BF5BFE0" type="BinHex"/>
-	<field hash="080D7AF2" type="BinHex"/>
-	<field hash="67D041FC" type="BinHex"/>
-	<field hash="76DCFD25" type="BinHex"/>
+	<field name="fOrientationRandomness" type="BinHex"/>
+	<field name="fWobbleFrequency" type="BinHex"/>
+	<field name="fWobbleOrientationMagnitude" type="BinHex"/>
+	<field name="fWobbleOffsetMagnitude" type="BinHex"/>
+	<field name="fWobbleOffsetDelay" type="BinHex"/>
+	<field name="fCollisionLimit" type="BinHex"/>
+	<field name="fCollisionCorrection" type="BinHex"/>
+	<field name="fCollisionCorrectionTime" type="BinHex"/>
+	<field name="fCollisionReaction" type="BinHex"/>
+	<field name="fPostHitOscillationFrequency" type="BinHex"/>
+	<field name="fPostHitOscillationMagnitude" type="BinHex"/>
+	<field name="fPostHitOscillationFade" type="BinHex"/>
+	<field name="fCenterOfMassOffset" type="BinHex"/>
 	<field hash="9F412B91" type="String"/>
-	<field hash="52954D8A" type="BinHex"/>
-	<field hash="945FFBEE" type="BinHex"/>
-	<field hash="7084005F" type="BinHex"/>
-	<field hash="8EE88741" type="BinHex"/>
+	<field name="sSoundTriggerDialogEvent" type="BinHex"/>
+	<field name="bCanPlayBark2D" type="BinHex"/>
+	<field name="fPlayerUIRotation" type="BinHex"/>
+	<field name="fOpponentUIRotation" type="BinHex"/>
 	<field hash="3F0C449D" type="BinHex"/>
-	<object hash="AFD18CFF">
-		<field hash="99B8F6FB" type="BinHex"/>
-		<field hash="4AE4532E" type="BinHex"/>
-		<field hash="525AF691" type="BinHex"/>
-		<field hash="FD8355FC" type="BinHex"/>
-		<field hash="2F7CCB65" type="BinHex"/>
-		<field hash="0F001B10" type="BinHex"/>
-		<field hash="90B6B704" type="BinHex"/>
-		<object hash="FFA10658">
+	<object name="ReticleParameters">
+		<field name="fTargetDiameter" type="BinHex"/>
+		<field name="fTargetVisibleTimer" type="BinHex"/>
+		<field name="fTargetSwayRadius" type="BinHex"/>
+		<field name="fTargetSwayMacroSpeed" type="BinHex"/>
+		<field name="fTargetSwaySpeed" type="BinHex"/>
+		<field name="fDrunkLevelThreshold" type="BinHex"/>
+		<field name="fArrowInaccuracyThreshold" type="BinHex"/>
+		<object name="curveTargetScaleCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -46,7 +46,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="DD9966DA">
+		<object name="curveTargetUserForce">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -56,7 +56,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="584279B8">
+		<object name="curveTargetSpeedMin">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -66,7 +66,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="644F46E1">
+		<object name="curveTargetSpeedMax">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -76,7 +76,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="F1F6DCDC">
+		<object name="curveTargetInertia">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -86,7 +86,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="08D1E4A6">
+		<object name="curveTargetSway">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -96,15 +96,15 @@
 				</object>
 			</object>
 		</object>
-		<object hash="AFD18CFF">
-			<field hash="99B8F6FB" type="BinHex"/>
-			<field hash="4AE4532E" type="BinHex"/>
-			<field hash="525AF691" type="BinHex"/>
-			<field hash="FD8355FC" type="BinHex"/>
-			<field hash="2F7CCB65" type="BinHex"/>
-			<field hash="0F001B10" type="BinHex"/>
-			<field hash="90B6B704" type="BinHex"/>
-			<object hash="FFA10658">
+		<object name="ReticleParameters">
+			<field name="fTargetDiameter" type="BinHex"/>
+			<field name="fTargetVisibleTimer" type="BinHex"/>
+			<field name="fTargetSwayRadius" type="BinHex"/>
+			<field name="fTargetSwayMacroSpeed" type="BinHex"/>
+			<field name="fTargetSwaySpeed" type="BinHex"/>
+			<field name="fDrunkLevelThreshold" type="BinHex"/>
+			<field name="fArrowInaccuracyThreshold" type="BinHex"/>
+			<object name="curveTargetScaleCurve">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -114,7 +114,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="DD9966DA">
+			<object name="curveTargetUserForce">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -124,7 +124,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="584279B8">
+			<object name="curveTargetSpeedMin">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -134,7 +134,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="644F46E1">
+			<object name="curveTargetSpeedMax">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -144,7 +144,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="F1F6DCDC">
+			<object name="curveTargetInertia">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -154,7 +154,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="08D1E4A6">
+			<object name="curveTargetSway">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">
@@ -166,39 +166,39 @@
 			</object>
 		</object>
 	</object>
-	<object hash="6D887B74">
+	<object name="StimsReactionDartsHighValue">
 		<object name="GeneratedStims">
 			<object name="Stim">
 				<field name="stims" type="BinHex"/>
 				<field name="vectorLocalTranslationOffset" type="BinHex"/>
-				<field hash="0AA58CD7" type="BinHex"/>
+				<field name="vectorWorldTranslationOffset" type="BinHex"/>
 				<field name="bIsPersistent" type="Boolean"/>
 			</object>
 		</object>
 	</object>
-	<object hash="5CBCD710">
+	<object name="StimsReactionDartsMiss">
 		<object name="GeneratedStims">
 			<object name="Stim">
 				<field name="stims" type="BinHex"/>
 				<field name="vectorLocalTranslationOffset" type="BinHex"/>
-				<field hash="0AA58CD7" type="BinHex"/>
+				<field name="vectorWorldTranslationOffset" type="BinHex"/>
 				<field name="bIsPersistent" type="Boolean"/>
 			</object>
 		</object>
 	</object>
-	<object hash="72EC7B1F">
-		<object hash="2E494526">
+	<object name="AnimatedCameraTrackCollectionResource">
+		<object name="AnimatedCamera">
 			<field hash="270ED8B1" type="String"/>
-			<field hash="F1642133" type="BinHex"/>
+			<field name="fileTrackColectionPath" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="A9E1BE40">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="WinRewardRulesmith">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="457BFEF5">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="BonusWinRewardRulesmith">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="296DE179">
 		<object name="HumanConfigs">

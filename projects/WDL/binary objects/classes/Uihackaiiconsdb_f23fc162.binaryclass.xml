@@ -17,8 +17,8 @@
 	<field name="texturedbobjectChat" type="BinHex"/>
 	<field name="texturedbobjectDisableCallReinforcement" type="BinHex"/>
 	<field name="texturedbobjectDisruptComm" type="BinHex"/>
-	<field hash="A410A801" type="BinHex"/>
-	<field hash="87F8EB5A" type="BinHex"/>
+	<field name="texturedbobjectProvoke" type="BinHex"/>
+	<field name="texturedbobjectBite" type="BinHex"/>
 	<field name="texturedbobjectDistract" type="BinHex"/>
 	<field name="texturedbobjectDownload" type="BinHex"/>
 	<field name="texturedbobjectEmail" type="BinHex"/>
@@ -66,65 +66,65 @@
 	<field name="texturedbobjectIngredientTriggerSecurity" type="BinHex"/>
 	<field name="texturedbobjectIngredientTriggerVRPuzzleLoader" type="BinHex"/>
 	<field name="texturedbobjectIngredientTriggerVRPuzzleNode" type="BinHex"/>
-	<field hash="7890511C" type="BinHex"/>
+	<field name="texturedbobjectIngredientTriggerUnlockVRPuzzleNode" type="BinHex"/>
 	<field name="texturedbobjectActivateFlatbedPlatform" type="BinHex"/>
-	<field hash="02C552E5" type="BinHex"/>
-	<field hash="9A00CF9F" type="BinHex"/>
-	<field hash="6542DBA6" type="BinHex"/>
-	<field hash="33289D1B" type="BinHex"/>
-	<field hash="0D1DAFC5" type="BinHex"/>
-	<field hash="E00A32BD" type="BinHex"/>
-	<field hash="29B58227" type="BinHex"/>
-	<field hash="07361E31" type="BinHex"/>
-	<field hash="334EDE07" type="BinHex"/>
-	<field hash="53512F25" type="BinHex"/>
+	<field name="texturedbobjectProxy" type="BinHex"/>
+	<field name="texturedbobjectUnproxy" type="BinHex"/>
+	<field name="texturedbobjectRobotHijack" type="BinHex"/>
+	<field name="texturedbobjectDroneScan" type="BinHex"/>
+	<field name="texturedbobjectDroneHijack" type="BinHex"/>
+	<field name="texturedbobjectDroneDisable" type="BinHex"/>
+	<field name="texturedbobjectDroneMalfunction" type="BinHex"/>
+	<field name="texturedbobjectPuppet" type="BinHex"/>
+	<field name="texturedbobjectEngineer" type="BinHex"/>
+	<field name="texturedbobjectCloneAccess" type="BinHex"/>
 	<field hash="07EC1954" type="BinHex"/>
-	<field hash="96FBAC83" type="BinHex"/>
-	<field hash="79E062E6" type="BinHex"/>
-	<field hash="7FAD6FA1" type="BinHex"/>
-	<field hash="8F5F0A57" type="BinHex"/>
-	<field hash="FA5BF38E" type="BinHex"/>
-	<field hash="20FF0453" type="BinHex"/>
-	<field hash="16504209" type="BinHex"/>
-	<field hash="02CBDC20" type="BinHex"/>
-	<field hash="872464E9" type="BinHex"/>
-	<field hash="D0C80A5B" type="BinHex"/>
-	<field hash="84415112" type="BinHex"/>
-	<field hash="19FA5EB0" type="BinHex"/>
-	<field hash="0F3B614B" type="BinHex"/>
-	<field hash="A7FA3947" type="BinHex"/>
-	<field hash="43359732" type="BinHex"/>
-	<field hash="501DDF0D" type="BinHex"/>
-	<field hash="C9115E92" type="BinHex"/>
-	<field hash="50180F28" type="BinHex"/>
-	<field hash="271F3FBE" type="BinHex"/>
-	<field hash="EE51FC17" type="BinHex"/>
-	<field hash="B2194DB4" type="BinHex"/>
-	<field hash="FFB5316B" type="BinHex"/>
-	<field hash="B6D8ED35" type="BinHex"/>
-	<field hash="BFF3D0A3" type="BinHex"/>
-	<field hash="3FC35827" type="BinHex"/>
-	<field hash="A98003F7" type="BinHex"/>
-	<field hash="7153934C" type="BinHex"/>
-	<field hash="A1FAFE96" type="BinHex"/>
-	<field hash="A059D495" type="BinHex"/>
-	<field hash="6167020A" type="BinHex"/>
-	<field hash="B9BD38A3" type="BinHex"/>
-	<field hash="DF061AEB" type="BinHex"/>
-	<field hash="A6F8FEF7" type="BinHex"/>
-	<field hash="9E88B935" type="BinHex"/>
-	<field hash="54745A64" type="BinHex"/>
-	<field hash="FE004219" type="BinHex"/>
-	<field hash="B665CAB6" type="BinHex"/>
-	<field hash="4B75F797" type="BinHex"/>
-	<field hash="19D6F63F" type="BinHex"/>
-	<field hash="A99C9CCB" type="BinHex"/>
-	<field hash="492D537D" type="BinHex"/>
-	<field hash="4D5A70B1" type="BinHex"/>
-	<field hash="B77FE212" type="BinHex"/>
+	<field name="texturedbobjectGunLock" type="BinHex"/>
+	<field name="texturedbobjectExoSuitLock" type="BinHex"/>
+	<field name="texturedbobjectARGlasses" type="BinHex"/>
+	<field name="texturedbobjectLeverage" type="BinHex"/>
+	<field name="texturedbobjectRCJumperDockSpawn" type="BinHex"/>
+	<field name="texturedbobjectDroneDockSpawnScanner" type="BinHex"/>
+	<field name="texturedbobjectDroneDockSpawnNews" type="BinHex"/>
+	<field name="texturedbobjectDroneDockSpawnMedical" type="BinHex"/>
+	<field name="texturedbobjectDroneDockSpawnDelivery" type="BinHex"/>
+	<field name="texturedbobjectDroneDockSpawnConstruction" type="BinHex"/>
+	<field name="texturedbobjectDroneDockSpawnChase" type="BinHex"/>
+	<field name="texturedbobjectDroneDockSpawnRiot" type="BinHex"/>
+	<field name="texturedbobjectDroneDockSpawnCT" type="BinHex"/>
+	<field name="texturedbobjectRCHijack" type="BinHex"/>
+	<field name="texturedbobjectSecurityCameraHijack" type="BinHex"/>
+	<field name="texturedbobjectFight" type="BinHex"/>
+	<field name="texturedbobjectPage1" type="BinHex"/>
+	<field name="texturedbobjectPage2" type="BinHex"/>
+	<field name="texturedbobjectPage3" type="BinHex"/>
+	<field name="texturedbobjectRevealMainSwitch" type="BinHex"/>
+	<field name="texturedbobjectReward" type="BinHex"/>
+	<field name="texturedbobjectStartOp" type="BinHex"/>
+	<field name="texturedbobjectRcOvercharge" type="BinHex"/>
+	<field name="texturedbobjectBetray" type="BinHex"/>
+	<field name="texturedbobjectDroneSwitchAllegiance" type="BinHex"/>
+	<field name="texturedbobjectDroneBroadcast" type="BinHex"/>
+	<field name="texturedbobjectDroneDropCargo" type="BinHex"/>
+	<field name="texturedbobjectRCReturnToOwner" type="BinHex"/>
+	<field name="texturedbobjectRCEngageTargets" type="BinHex"/>
+	<field name="texturedbobjectRCRepair" type="BinHex"/>
+	<field name="texturedbobjectDownloadAccessIdKey" type="BinHex"/>
+	<field name="texturedbobjectDroneHijackReboot" type="BinHex"/>
+	<field name="texturedbobjectProjectileReturnToOwner" type="BinHex"/>
+	<field name="texturedbobjectIncreaseWantedLevel" type="BinHex"/>
+	<field name="texturedbobjectDecreaseWantedLevel" type="BinHex"/>
+	<field name="texturedbobjectIncreaseCrimeDebt" type="BinHex"/>
+	<field name="texturedbobjectDecreaseCrimeDebt" type="BinHex"/>
+	<field name="texturedbobjectIssueRendition" type="BinHex"/>
+	<field name="texturedbobjectRevokeRendition" type="BinHex"/>
+	<field name="texturedbobjectIngredientDisable" type="BinHex"/>
+	<field name="texturedbobjectIngredientEnable" type="BinHex"/>
+	<field name="texturedbobjectNoDamageEngineOverheat" type="BinHex"/>
+	<field name="texturedbobjectHitThePlayerHack" type="BinHex"/>
 	<field hash="B6DB01E8" type="BinHex"/>
-	<field hash="5F2B2A0A" type="BinHex"/>
-	<field hash="9F2578DD" type="BinHex"/>
-	<field hash="2134CDEB" type="BinHex"/>
+	<field name="texturedbobjectForceCloseHack" type="BinHex"/>
+	<field name="texturedbobjectARBetray" type="BinHex"/>
+	<field name="texturedbobjectRCDeactivationTakedown" type="BinHex"/>
 	<field hash="204E251C" type="BinHex"/>
 </class>

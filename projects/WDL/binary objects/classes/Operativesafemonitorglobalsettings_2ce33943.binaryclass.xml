@@ -6,39 +6,39 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="0C15EF03" type="BinHex"/>
-	<field hash="0129A7EB" type="BinHex"/>
-	<field hash="8ED37376" type="BinHex"/>
-	<field hash="167A27A8" type="BinHex"/>
-	<field hash="7CAAB90F" type="BinHex"/>
-	<field hash="0945B2BE" type="BinHex"/>
-	<field hash="77BED4B7" type="BinHex"/>
-	<field hash="B8CB7453" type="BinHex"/>
-	<object hash="EF9D85AB">
+	<field name="bShouldMonitorPlayerIsInForbiddenZone" type="BinHex"/>
+	<field name="bShouldMonitorPlayerIsInConflict" type="BinHex"/>
+	<field name="bShouldMonitorPlayerIsInChased" type="BinHex"/>
+	<field name="bShouldMonitorSafeTimerCheck" type="BinHex"/>
+	<field name="fSafeTimerDuration" type="BinHex"/>
+	<field name="bFAAShouldMonitorPlayerIsInForbiddenZone" type="BinHex"/>
+	<field name="bFAAShouldMonitorPlayerIsInConflict" type="BinHex"/>
+	<field name="bFAAShouldMonitorPlayerIsInChased" type="BinHex"/>
+	<object name="locstridLeaveForbiddenZoneObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="617291EE">
+	<object name="locstridEscapePursuersObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="319641C2">
+	<object name="locstridWaitForEveryoneSafeObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0054DE4E">
+	<object name="locstridLeaveForbiddenZoneFaaSpObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C6F1167B">
+	<object name="locstridLeaveForbiddenZoneFaaMpObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4882EBE7">
+	<object name="locstridEscapePursuersFaaSpObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="8E2723D2">
+	<object name="locstridEscapePursuersFaaMpObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="7EB7B553">
+	<object name="locstridWaitForEveryoneSafeFaaSpObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="B8127D66">
+	<object name="locstridWaitForEveryoneSafeFaaMpObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

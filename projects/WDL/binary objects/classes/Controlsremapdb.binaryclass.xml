@@ -6,180 +6,180 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="C3746167" type="BinHex"/>
+	<field name="selInputType" type="BinHex"/>
 	<object name="Common">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="9BFDA96E"/>
+	<object name="RcCommon"/>
 	<object name="Hacking">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
 	<object name="OnFoot">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
 	<object name="Driving">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
 	<object name="Drone">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="CE4E7A13">
+	<object name="Turret">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
 	<object name="SecurityCamera">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
 	<object name="Crane">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="359C4BDC">
+	<object name="VentDoctor">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="6172D06E">
+	<object name="Kick-Up">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
 	<object name="Menu">
 		<object name="Control">
-			<field hash="591AA06D" type="String"/>
+			<field name="strDebugText" type="String"/>
 			<field hash="9DBAB5ED" type="String"/>
-			<field hash="B91B9AD2" type="BinHex"/>
-			<field hash="018CA23F" type="String"/>
-			<field hash="D01449A0" type="BinHex"/>
-			<field hash="6ECDD8B1" type="BinHex"/>
+			<field name="csKeyId" type="BinHex"/>
+			<field name="strCsKeyText" type="String"/>
+			<field name="selGroupId" type="BinHex"/>
+			<field name="bIsPlatformWindowsOnly" type="BinHex"/>
 			<object name="locstridTitleText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82F31087">
+			<object name="locstridParagraphText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>

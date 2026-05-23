@@ -157,7 +157,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="344753E3">
+		<object name="AlertNearbyGuards_HackEscalation">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -332,7 +332,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="24525DA4">
+		<object name="Arrest_OnFoot_Occurring">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -382,7 +382,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="C42ED785">
+		<object name="BareKnuckleChampion">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -407,7 +407,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="1CE40550">
+		<object name="BareKnuckleLose">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -432,7 +432,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="65E0D48F">
+		<object name="BareKnuckleParticipation">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -457,7 +457,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="A221C5DC">
+		<object name="BareKnuckleWin">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -639,7 +639,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="B3343BED">
+		<object name="BlindingFlash">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -664,7 +664,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="48BF9E6C">
+		<object name="BulletImpactLTL">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -689,7 +689,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="DD684EE2">
+		<object name="BulletImpactLethal">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -714,7 +714,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D455110F">
+		<object name="BulletMissLTL">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -739,7 +739,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="6B3DB4E5">
+		<object name="BulletMissLethal">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -764,7 +764,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="12E41AC8">
+		<object name="CaptureMeInNews">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -789,7 +789,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F03B9369">
+		<object name="CaptureMeInNewsWithSpotlight">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -814,7 +814,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="7262D9D5">
+		<object name="CapturingNews">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -839,7 +839,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="6A99A481">
+		<object name="CapturingNewsWithSpotlight">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1233,7 +1233,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8A7AF434">
+		<object name="Celebrity">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1258,7 +1258,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="3CCB09A0">
+		<object name="CensusEncounter">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1411,7 +1411,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="85EC6D32">
+		<object name="CombatPropagation">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1588,7 +1588,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="829736F6">
+		<object name="DartHighValue">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1613,7 +1613,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="4CEAC416">
+		<object name="DartMiss">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1691,7 +1691,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="B186A826">
+		<object name="DedSecNegative">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1716,7 +1716,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D4F0DF3D">
+		<object name="DedSecPositive">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1766,7 +1766,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="A778E74D">
+		<object name="DisabledIngredient">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1791,7 +1791,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="2210154B">
+		<object name="DownloadInitiated">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1841,7 +1841,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="B86227A9">
+		<object name="DroneCombatEscalation">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1866,7 +1866,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F56B4E0A">
+		<object name="DroneCombatMalfunction">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1891,7 +1891,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="90937005">
+		<object name="DroneCombatSwitchAllegiance">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1916,7 +1916,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="BC2C956E">
+		<object name="DroneCommandFollow">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1941,7 +1941,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="60E80AB9">
+		<object name="DroneCommandSearch">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1966,7 +1966,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="03F594FE">
+		<object name="DroneCommandStay">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -1991,7 +1991,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="A319C5BF">
+		<object name="DroneCommandWaitForCommand">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2016,310 +2016,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="C4EE41A1">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="93492836">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="A6774584">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="78003767">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="E697CF54">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="2A8A81C4">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="DC7A9CE8">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="37F6B4A5">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="6E118F73">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="CBFDE16A">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="A93153FF">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="FCEE861E">
-			<field name="iGoodReputationReactionProba" type="Int32"/>
-			<field name="bUseEmitterAsInstigator" type="Boolean"/>
-			<field name="bAlwaysHandle" type="Boolean"/>
-			<object name="RecurrenceSettings">
-				<field name="bIsRecurrent" type="Boolean"/>
-				<field name="fResetSettingsDelay" type="Float"/>
-			</object>
-			<object name="FacialAnimation">
-				<field name="fileCuriosityFacialAnim" type="String"/>
-				<field name="fileAnxietyFacialAnim" type="String"/>
-				<field name="filePanicFacialAnim" type="String"/>
-				<field name="fileBarkCuriosityFacialAnim" type="String"/>
-				<field name="fileBarkAnxietyFacialAnim" type="String"/>
-				<field name="fileBarkPanicFacialAnim" type="String"/>
-			</object>
-			<object name="OnLeaderQuitSettings">
-				<field name="bSendOnleaderQuitStim" type="Boolean"/>
-			</object>
-			<object name="Barks">
-				<field name="sCuriosityBark" type="BinHex"/>
-				<field name="sAnxietyBark" type="BinHex"/>
-				<field name="sPanicBark" type="BinHex"/>
-			</object>
-		</object>
-		<object hash="D1D9CDAF">
+		<object name="DroneLargeBump">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2347,7 +2044,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="DD828CFB">
+		<object name="DroneNonCombatMalfunction">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2372,7 +2069,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="98ACA61F">
+		<object name="DronePickableDestroyed">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2397,7 +2094,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="84CFAAE4">
+		<object name="DronePickableDestroyedSound">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2422,7 +2119,310 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="754A3EBC">
+		<object name="DronePickableFallImpact">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DronePickableFallImpactSound">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DronePickableInteresting">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DronePickableOutOfContext">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DroneRiding">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DroneSearching">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DroneShutdown">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DroneShutdownAlarm">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DroneSmallBump">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field hash="DE5A421B" type="String"/>
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field hash="84DAC73A" type="String"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field hash="999C4896" type="String"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DroneTargetStress">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DrunkPersonDrunk">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DrunkPersonSmashed">
+			<field name="iGoodReputationReactionProba" type="Int32"/>
+			<field name="bUseEmitterAsInstigator" type="Boolean"/>
+			<field name="bAlwaysHandle" type="Boolean"/>
+			<object name="RecurrenceSettings">
+				<field name="bIsRecurrent" type="Boolean"/>
+				<field name="fResetSettingsDelay" type="Float"/>
+			</object>
+			<object name="FacialAnimation">
+				<field name="fileCuriosityFacialAnim" type="String"/>
+				<field name="fileAnxietyFacialAnim" type="String"/>
+				<field name="filePanicFacialAnim" type="String"/>
+				<field name="fileBarkCuriosityFacialAnim" type="String"/>
+				<field name="fileBarkAnxietyFacialAnim" type="String"/>
+				<field name="fileBarkPanicFacialAnim" type="String"/>
+			</object>
+			<object name="OnLeaderQuitSettings">
+				<field name="bSendOnleaderQuitStim" type="Boolean"/>
+			</object>
+			<object name="Barks">
+				<field name="sCuriosityBark" type="BinHex"/>
+				<field name="sAnxietyBark" type="BinHex"/>
+				<field name="sPanicBark" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DrunkPersonTipsy">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2575,7 +2575,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="2F983D82">
+		<object name="EmergencyResponse">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2675,7 +2675,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="65430C86">
+		<object name="ExoSuitMalfunction">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2700,7 +2700,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="336BD964">
+		<object name="ExplosiveNearby">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2725,7 +2725,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="9C602D96">
+		<object name="FelonyForceCombat">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2778,7 +2778,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="10729118">
+		<object name="FlashSound">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2878,7 +2878,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="91E207AE">
+		<object name="FlyingDroneProximityTooClose">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2903,7 +2903,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="9E2E407D">
+		<object name="FollowMe">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3003,7 +3003,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="780DD536">
+		<object name="FullHeatFoundByDrone">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3159,7 +3159,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="83EB3C62">
+		<object name="GroupBehavior">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3261,7 +3261,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="FE9C3125">
+		<object name="GunshotLTL">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3286,7 +3286,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="29DB294F">
+		<object name="GunshotLethal">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3311,7 +3311,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="AE4F822D">
+		<object name="HackEscalation">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3411,7 +3411,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="FD41B815">
+		<object name="HackEscalationOutcomeCombat">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3436,7 +3436,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="7804614F">
+		<object name="HazardousVehicle">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3461,7 +3461,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8AB67D7F">
+		<object name="HealthCritical">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3486,7 +3486,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="08155C2F">
+		<object name="HealthMedium">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3586,7 +3586,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="DE8CE4D6">
+		<object name="HearTakeDown">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3611,7 +3611,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F59A1F01">
+		<object name="HearTakedownStealth">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3844,7 +3844,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="7060AE9C">
+		<object name="HorrificDeath">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3944,7 +3944,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D67677B9">
+		<object name="HVCProximity">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3969,7 +3969,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="0F431C86">
+		<object name="ImportantObjectAlert">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4232,7 +4232,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="352EDC7B">
+		<object name="IntenseRainStart">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4282,7 +4282,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="593EC925">
+		<object name="IsBeingBlinded">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4335,7 +4335,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="20D710EB">
+		<object name="KickupGoalCompleted">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4360,7 +4360,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="3112823B">
+		<object name="KickupTrick">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4485,7 +4485,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="BD290903">
+		<object name="LTLChokeFireExtinguisherExplosion">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4510,7 +4510,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="9CFBAE17">
+		<object name="LTLChokeProximityMine">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4669,7 +4669,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="B7F8E4DC">
+		<object name="LeverageComplete">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4694,7 +4694,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="DA2DF67D">
+		<object name="LeverageCompleteBuddy">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4719,7 +4719,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="2800D010">
+		<object name="LeverageRuin">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4744,7 +4744,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="C48F28EC">
+		<object name="LeverageRuinBuddy">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4819,7 +4819,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="659A6501">
+		<object name="LtlChoke">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -4895,7 +4895,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="4EE93AAC">
+		<object name="MeleeCombatOccuringPersistent">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -5204,7 +5204,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="3949B1C0">
+		<object name="ObserveSideComment">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -5257,7 +5257,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="27AB70DD">
+		<object name="OffRoadStationaryCar">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -5429,7 +5429,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="EF23EA9C">
+		<object name="PMCBrutality">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -5454,7 +5454,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="51B5AF34">
+		<object name="PMCProximity">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6093,7 +6093,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="C1D18352">
+		<object name="RCBroadcast">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6168,7 +6168,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="27806594">
+		<object name="RCDestroyed_Default">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6193,7 +6193,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="7752A8A9">
+		<object name="RCDestroyed_LargeDrone">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6218,7 +6218,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="08E94A7C">
+		<object name="RCHijacked_Connected">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6243,7 +6243,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="00F8E5DD">
+		<object name="RCHijacked_Disconnected">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6318,7 +6318,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="E9EEB158">
+		<object name="RCToyCarProximity">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6395,7 +6395,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="5291BCF2">
+		<object name="RecordTarget">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6420,7 +6420,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="A2893FFC">
+		<object name="ReinforceAgainstTarget">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6445,7 +6445,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D678D624">
+		<object name="ReinforcementForceCombat">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6495,7 +6495,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="3C32632C">
+		<object name="RestrainFree">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6520,7 +6520,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="EEA20C7E">
+		<object name="RestrainOccurring">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6545,7 +6545,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="CC33EC92">
+		<object name="Restrainable">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6570,7 +6570,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="FFAEB816">
+		<object name="RestrainableNotSurrendering">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6595,7 +6595,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="C6ED0E94">
+		<object name="Restrained">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6620,7 +6620,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="E2518BF2">
+		<object name="RestrainedCallout">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6645,7 +6645,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="933D42BD">
+		<object name="RestrainedCalloutSafe">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6670,7 +6670,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="E006B5B0">
+		<object name="RingOfSteelActivation">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6695,7 +6695,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="0FA731A7">
+		<object name="RingOfSteelActivationTarget">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6720,7 +6720,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="99944987">
+		<object name="RingOfSteelActivePersistent">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6745,7 +6745,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="EFF42790">
+		<object name="RingOfSteelProfilerActivation">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6895,7 +6895,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="514C355C">
+		<object name="SamaritanCallout">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6920,7 +6920,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="7493D1EE">
+		<object name="ScanID">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6945,7 +6945,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="B75FAF35">
+		<object name="ScanIDComplete">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6970,7 +6970,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="E891F7DA">
+		<object name="ScannedByDroneActive">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6995,7 +6995,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="C32FFCA4">
+		<object name="SearchOccurring">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7020,7 +7020,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="4C970D56">
+		<object name="SeeARCloakActivate">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7045,7 +7045,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="70A2A970">
+		<object name="SeeARCloakDeactivate">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7170,7 +7170,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="FAB81F4D">
+		<object name="SeeHackedDistract">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7372,7 +7372,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F9245CC6">
+		<object name="SeeTakeDown">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7397,7 +7397,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="196F5107">
+		<object name="SeeTakedownStealth">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7547,7 +7547,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="6433043F">
+		<object name="SeekAttentionNegative">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7622,7 +7622,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="5E5DE1C8">
+		<object name="ShroudedBody">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7808,7 +7808,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="92ADACF8">
+		<object name="SpeedingCar">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7833,7 +7833,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="2E955ADF">
+		<object name="SpiderDroneJumped">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -8220,7 +8220,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="0F484DBE">
+		<object name="TurretProximity">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -8326,7 +8326,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D1F5F4DB">
+		<object name="VehicleDisabledBroken_Persistent">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -8451,7 +8451,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D476F01B">
+		<object name="VehicleUnderwater_Persistent">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -8526,7 +8526,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8147B3B1">
+		<object name="WarnOfIntruder">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -8551,7 +8551,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D1311FF6">
+		<object name="WasMalfunctioning">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -8601,7 +8601,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="FD36FB41">
+		<object name="WorldActivityActive">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -8626,7 +8626,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="C007AE6F">
+		<object name="WorldActivityScaryHead">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -8685,9 +8685,9 @@
 		<field name="emotionAngryEmotion" type="BinHex"/>
 		<field name="emotionAfraidEmotion" type="BinHex"/>
 		<field name="emotionHappyEmotion" type="BinHex"/>
-		<field hash="7742A868" type="BinHex"/>
+		<field name="emotionStressedEmotion" type="BinHex"/>
 		<field hash="2A0899E0" type="BinHex"/>
-		<field hash="BB56D2F2" type="BinHex"/>
+		<field name="emotionProtestEmotion" type="BinHex"/>
 		<field name="emotionDeadEmotion" type="BinHex"/>
 		<field name="emotionUnconsciousEmotion" type="BinHex"/>
 	</object>

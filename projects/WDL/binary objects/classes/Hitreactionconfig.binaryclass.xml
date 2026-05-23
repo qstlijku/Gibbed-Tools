@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="F3DDA08D">
+	<object name="curveFullBodyTriggerFactorOverTime">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">
@@ -16,7 +16,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="98F4A2FD">
+	<object name="curveFullBodyTriggerFactorOverTimeLTL">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">
@@ -26,7 +26,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="C64DFF02">
+	<object name="curveFullBodyTriggerFactorOverTimeConcussion">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">
@@ -36,7 +36,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="56B92617">
+	<object name="curveFullBodyTriggerFactorOverTimeTranquilizer">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">
@@ -46,15 +46,15 @@
 			</object>
 		</object>
 	</object>
-	<object hash="280E61B2">
-		<field hash="F4358027" type="BinHex"/>
-		<field hash="394DCDB0" type="BinHex"/>
-		<field hash="8B76C584" type="BinHex"/>
-		<field hash="774E34A4" type="BinHex"/>
-		<field hash="CEAB7C88" type="BinHex"/>
-		<field hash="6F54E7E3" type="BinHex"/>
-		<field hash="040C75B5" type="BinHex"/>
-		<field hash="02B0D5F5" type="BinHex"/>
-		<field hash="F050B617" type="BinHex"/>
+	<object name="ForcedFullBodyReaction">
+		<field name="fForceFullBodyOnHeadShotsFactor" type="BinHex"/>
+		<field name="fForceFullBodyOnExplosionsFactor" type="BinHex"/>
+		<field name="fForceFullBodyOnFirstTimeFactor" type="BinHex"/>
+		<field name="fForceFullBodyOnHeadShotsFactorLTL" type="BinHex"/>
+		<field name="fForceFullBodyOnFirstTimeFactorLTL" type="BinHex"/>
+		<field name="fForceFullBodyOnHeadShotsFactorConcussion" type="BinHex"/>
+		<field name="fForceFullBodyOnFirstTimeFactorConcussion" type="BinHex"/>
+		<field name="fForceFullBodyOnHeadShotsFactorTranquilizer" type="BinHex"/>
+		<field name="fForceFullBodyOnFirstTimeFactorTranquilizer" type="BinHex"/>
 	</object>
 </class>

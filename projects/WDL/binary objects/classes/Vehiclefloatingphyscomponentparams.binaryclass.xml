@@ -12,13 +12,13 @@
 	<field name="vectorInertiaScale" type="BinHex"/>
 	<field name="fLinearDamping" type="Float"/>
 	<field name="fAngularDamping" type="Float"/>
-	<field hash="7F7FDD41" type="BinHex"/>
-	<field hash="D547B7DF" type="BinHex"/>
-	<field hash="5634DF04" type="BinHex"/>
-	<field hash="3978661E" type="BinHex"/>
-	<field hash="704D5429" type="BinHex"/>
-	<field hash="BADDB8C1" type="BinHex"/>
-	<field hash="EBC49605" type="BinHex"/>
+	<field name="bUseRelativeSpeedForCollisionDamage" type="BinHex"/>
+	<field name="fCollDamageFromOurSpeedPerMs" type="BinHex"/>
+	<field name="fCollDamageFromBoatsPerKgMs" type="BinHex"/>
+	<field name="fCollDamageFromVehiclesPerKgMs" type="BinHex"/>
+	<field name="fCollDamageFromDynamicPerKgMs" type="BinHex"/>
+	<field name="fRelativeSpeedDamageReduction" type="BinHex"/>
+	<field name="fRelativeSpeedDamageIgnored" type="BinHex"/>
 	<field name="selUserType" type="Enum"/>
 	<field name="fDeactivationDistance" type="Float"/>
 	<field name="fRudderAngleScale" type="Float"/>
@@ -30,23 +30,23 @@
 		<field name="fMaximumHealth" type="Float"/>
 		<object name="sndswtpReliabilitySoundSwitchType">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object name="sndswvlNoDamageSoundSwitchValue">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object name="sndswvlMinorDamageSoundSwitchValue">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object name="sndswvlMajorDamageSoundSwitchValue">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object name="sndswvlBrokenSoundSwitchValue">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 	</object>
 	<object name="FakeAccRotation">
@@ -75,7 +75,7 @@
 	</object>
 	<object name="DamageScale">
 		<field name="fVehicleCollision" type="Float"/>
-		<field hash="65351713" type="BinHex"/>
+		<field name="fDroneCollision" type="BinHex"/>
 		<field name="fDynamicCollision" type="Float"/>
 		<field name="fStaticCollision" type="Float"/>
 		<field name="fBullet" type="Float"/>

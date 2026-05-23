@@ -6,42 +6,42 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="055B330D" type="BinHex"/>
-	<object hash="DACD34DD">
-		<field hash="52B36A7B" type="BinHex"/>
-		<field hash="C2C07A91" type="BinHex"/>
-		<field hash="E72E4DFE" type="BinHex"/>
-		<field hash="5E08D68F" type="BinHex"/>
+	<field name="fMaxWeaponRotationSpeed" type="BinHex"/>
+	<object name="WeaponAngles">
+		<field name="fMinWeaponYaw" type="BinHex"/>
+		<field name="fMaxWeaponYaw" type="BinHex"/>
+		<field name="fMinWeaponPitch" type="BinHex"/>
+		<field name="fMaxWeaponPitch" type="BinHex"/>
 	</object>
 	<object name="Idle">
-		<field hash="F027075B" type="BinHex"/>
-		<field hash="CC2A3802" type="BinHex"/>
-		<field hash="9C3FDCFF" type="BinHex"/>
-		<field hash="A032E3A6" type="BinHex"/>
-		<field hash="B3B8DFDD" type="BinHex"/>
-		<field hash="8FB5E084" type="BinHex"/>
-		<field hash="0FBECA68" type="BinHex"/>
-		<field hash="4ABC89EA" type="BinHex"/>
-		<field hash="072FB6FC" type="BinHex"/>
+		<field name="fReturnToStandByTimeMin" type="BinHex"/>
+		<field name="fReturnToStandByTimeMax" type="BinHex"/>
+		<field name="fWakeUpLookAtPosTimeMin" type="BinHex"/>
+		<field name="fWakeUpLookAtPosTimeMax" type="BinHex"/>
+		<field name="fWakeUpLookNearPlayerTimeMin" type="BinHex"/>
+		<field name="fWakeUpLookNearPlayerTimeMax" type="BinHex"/>
+		<field name="fWakeUpLookNearPlayerAngleMinDeg" type="BinHex"/>
+		<field name="fWakeUpLookNearPlayerAngleMaxDeg" type="BinHex"/>
+		<field name="turretidlemovementsettingsMovementSettings" type="BinHex"/>
 	</object>
 	<object name="Combat">
-		<field hash="D9A08B12" type="BinHex"/>
-		<field hash="E5ADB44B" type="BinHex"/>
-		<field hash="29BB81A0" type="BinHex"/>
+		<field name="fAbandonTimeMin" type="BinHex"/>
+		<field name="fAbandonTimeMax" type="BinHex"/>
+		<field name="fOverchargeRocketFireRateModifier" type="BinHex"/>
 	</object>
-	<object hash="68FA25E3">
-		<field hash="641919D8" type="BinHex"/>
-		<field hash="DB43B68C" type="BinHex"/>
-		<field hash="7129DB1E" type="BinHex"/>
-		<field hash="38679295" type="BinHex"/>
-		<field hash="6ED0BEC8" type="BinHex"/>
-		<field hash="1FC2183A" type="BinHex"/>
-		<field hash="23CF2763" type="BinHex"/>
-		<field hash="2D5E73D6" type="BinHex"/>
-		<field hash="11534C8F" type="BinHex"/>
-		<field hash="34044A2C" type="BinHex"/>
-		<field hash="08097575" type="BinHex"/>
-		<object hash="AD0031A1">
+	<object name="TargetSelection">
+		<field name="fPlayerCandidateWeight" type="BinHex"/>
+		<field name="fPlayerCandidateControllingRCWeight" type="BinHex"/>
+		<field name="fDamageFromCandidateWeight" type="BinHex"/>
+		<field name="fDamageMemoryTimeMultiplier" type="BinHex"/>
+		<field name="fTargetChangeHysteresis" type="BinHex"/>
+		<field name="fTargetChangedDelayMin" type="BinHex"/>
+		<field name="fTargetChangedDelayMax" type="BinHex"/>
+		<field name="fTargetLostDelayMin" type="BinHex"/>
+		<field name="fTargetLostDelayMax" type="BinHex"/>
+		<field name="fTargetFoundDelayMin" type="BinHex"/>
+		<field name="fTargetFoundDelayMax" type="BinHex"/>
+		<object name="curveDistanceWeightCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -52,8 +52,8 @@
 			</object>
 		</object>
 	</object>
-	<object hash="E4699F0A">
-		<field hash="6FC46AFF" type="BinHex"/>
-		<field hash="9F69A849" type="BinHex"/>
+	<object name="PerceptionThreat">
+		<field name="fLastDamageThreatTime" type="BinHex"/>
+		<field name="fLastFiredGunThreatTime" type="BinHex"/>
 	</object>
 </class>

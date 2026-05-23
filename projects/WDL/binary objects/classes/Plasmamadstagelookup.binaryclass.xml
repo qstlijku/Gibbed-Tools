@@ -7,5 +7,5 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="C0744B19" type="String"/>
-	<field hash="337B78DD" type="BinHex"/>
+	<field name="StageName" type="BinHex"/>
 </class>

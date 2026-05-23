@@ -14,8 +14,8 @@
 					<field name="bUseAllTagsFromCategory" type="Boolean"/>
 					<object name="tagcategoryselectionTagCategorySelection">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<object name="Tags"/>
 					</object>
 				</object>

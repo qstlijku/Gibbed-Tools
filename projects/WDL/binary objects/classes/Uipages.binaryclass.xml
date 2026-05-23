@@ -169,7 +169,7 @@
 		<field name="selDedSecCommunicationChannelVisibilityTileId" type="Enum"/>
 		<field name="selWarningMessagesVisibilityTileId" type="Enum"/>
 		<field hash="D1F754F1" type="BinHex"/>
-		<field hash="55278C24" type="BinHex"/>
+		<field name="selNavigationBarTileId" type="BinHex"/>
 		<field name="selPerformanceBarTileId" type="Enum"/>
 		<field hash="CF488D72" type="BinHex"/>
 		<field hash="89D17600" type="BinHex"/>
@@ -288,7 +288,7 @@
 		<field hash="3E68363A" type="BinHex"/>
 		<field hash="A1F5F3CB" type="BinHex"/>
 		<field hash="8850F139" type="BinHex"/>
-		<field hash="F14BFA0E" type="BinHex"/>
+		<field name="selPersonCardTileId" type="BinHex"/>
 		<field hash="D13DFFFC" type="BinHex"/>
 		<field hash="88958333" type="BinHex"/>
 		<field hash="66140698" type="BinHex"/>
@@ -324,7 +324,7 @@
 		<field hash="8D77E227" type="BinHex"/>
 		<field hash="01807D29" type="BinHex"/>
 		<field hash="DB9E3E52" type="BinHex"/>
-		<field hash="B11EAF46" type="BinHex"/>
+		<field name="fullscreentutorialFullscreenTutorial" type="BinHex"/>
 		<field hash="AB609565" type="BinHex"/>
 		<field hash="8C02B278" type="BinHex"/>
 		<field hash="33031DC6" type="BinHex"/>
@@ -412,7 +412,7 @@
 		<field hash="793FA779" type="BinHex"/>
 		<field hash="FEDFBF28" type="BinHex"/>
 		<field hash="63B1979D" type="BinHex"/>
-		<field hash="0EADEF82" type="BinHex"/>
+		<field name="scenetotexturestudioobjectDetailsViewStudioObject" type="BinHex"/>
 		<field hash="20C92D37" type="BinHex"/>
 		<field hash="5E721ED6" type="BinHex"/>
 		<field hash="716211C7" type="BinHex"/>
@@ -447,7 +447,7 @@
 		<field hash="6939210D" type="BinHex"/>
 		<field hash="00031B62" type="BinHex"/>
 		<field hash="F4941A34" type="BinHex"/>
-		<field hash="795DAC64" type="BinHex"/>
+		<field name="selFooterTileId" type="BinHex"/>
 		<field hash="0A72617B" type="BinHex"/>
 		<field hash="10F87B6A" type="BinHex"/>
 		<field hash="45A4F356" type="BinHex"/>
@@ -476,7 +476,7 @@
 		<field hash="3E4290E2" type="BinHex"/>
 		<field hash="7822386E" type="BinHex"/>
 		<field hash="406EB2E7" type="BinHex"/>
-		<field hash="2457EDD9" type="BinHex"/>
+		<field name="fMinRotationInputThreshold" type="BinHex"/>
 		<field hash="FB1873D0" type="BinHex"/>
 		<field hash="E94061D0" type="BinHex"/>
 		<field hash="D0E8C7C9" type="BinHex"/>
@@ -504,7 +504,7 @@
 		<field hash="7EAACC8F" type="BinHex"/>
 		<field hash="6BF32395" type="BinHex"/>
 		<field hash="7766635A" type="BinHex"/>
-		<field hash="BBFB59EC" type="BinHex"/>
+		<field name="uisoundSelectUnavailableSound" type="BinHex"/>
 		<field name="uisoundUnselectSound" type="BinHex"/>
 		<field name="uisoundBackSound" type="BinHex"/>
 		<field hash="F0BA3A4D" type="BinHex"/>
@@ -544,8 +544,8 @@
 		<field hash="1561F88E" type="BinHex"/>
 		<field hash="3D1720E2" type="BinHex"/>
 		<field hash="97A171A2" type="BinHex"/>
-		<field hash="32C911BD" type="BinHex"/>
-		<field hash="D12FC4AC" type="BinHex"/>
+		<field name="sndReadySound" type="BinHex"/>
+		<field name="sndtpReadySoundType" type="BinHex"/>
 		<field name="uisoundNavigateSound" type="BinHex"/>
 		<field hash="84571A7B" type="BinHex"/>
 		<field hash="5BC7D82D" type="BinHex"/>
@@ -736,11 +736,11 @@
 		</object>
 		<object hash="8510DFA7">
 			<object hash="CD504759">
-				<field hash="F9CB2B3F" type="BinHex"/>
+				<field name="texturedbobjectIconTexture" type="BinHex"/>
 				<object hash="D55C1629">
 					<field hash="BDB3B8D5" type="String"/>
-					<field hash="401A8276" type="BinHex"/>
-					<field hash="F5391DFF" type="BinHex"/>
+					<field name="UITagCategorySelectionClassID" type="BinHex"/>
+					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagTag" type="BinHex"/>
 				</object>
 				<object name="locstridName">
@@ -911,8 +911,8 @@
 			<field hash="611F3C14" type="BinHex"/>
 			<field hash="48B6D306" type="BinHex"/>
 			<field hash="37D1BB1B" type="BinHex"/>
-			<field hash="1A23DCFE" type="BinHex"/>
-			<field hash="6D24EC68" type="BinHex"/>
+			<field name="fBorderSizeX" type="BinHex"/>
+			<field name="fBorderSizeY" type="BinHex"/>
 		</object>
 		<object hash="661B8991">
 			<field hash="ECDB5101" type="BinHex"/>
@@ -983,7 +983,7 @@
 		<object hash="717A5C4F">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F7A6CCB9">
+		<object name="locstridBackLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="11AAF164">
@@ -1007,7 +1007,7 @@
 		<object hash="60D64B43">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="02A0AEEB">
+		<object name="locstridNotOnlineLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="E557857E">
@@ -1076,7 +1076,7 @@
 		<object hash="342BD465">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="42DDAFC5">
+		<object name="locstridDescriptionLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="DE29808C">
@@ -1118,12 +1118,12 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="B588201E">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="8C4ACF4D">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="C3845E0D">
 			<field name="LocalizationId" type="UInt64"/>
@@ -1146,8 +1146,8 @@
 			</object>
 		</object>
 		<object hash="08E64A06">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="B2154D3B">
 			<field name="LocalizationId" type="UInt64"/>
@@ -1306,8 +1306,8 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="BED8E87A">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="9A8D4FA8">
 			<object hash="3D966ED4">
@@ -1336,13 +1336,13 @@
 		</object>
 		<object hash="19A7572A">
 			<field hash="F14E1C8D" type="BinHex"/>
-			<field hash="BCF4B296" type="BinHex"/>
+			<field name="texturedbobjectTexture" type="BinHex"/>
 			<object name="locstridName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object hash="19A7572A">
 				<field hash="F14E1C8D" type="BinHex"/>
-				<field hash="BCF4B296" type="BinHex"/>
+				<field name="texturedbobjectTexture" type="BinHex"/>
 				<object name="locstridName">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -1358,8 +1358,8 @@
 		</object>
 		<object hash="4259C963">
 			<object name="Rewards">
-				<field hash="E5C45E25" type="BinHex"/>
-				<field hash="F9CB2B3F" type="BinHex"/>
+				<field name="selRewardType" type="BinHex"/>
+				<field name="texturedbobjectIconTexture" type="BinHex"/>
 				<object hash="4B441F65">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -1395,7 +1395,7 @@
 		<object name="locstridBack">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="0AC2780D">
+		<object name="locstridTrack">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="A1487B40">
@@ -1412,13 +1412,13 @@
 		</object>
 		<object hash="1DC436FB">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object hash="57E03EBF">
 			<field hash="21301645" type="BinHex"/>
 			<field hash="EBD06E25" type="BinHex"/>
 			<field hash="13283096" type="BinHex"/>
-			<object hash="CC06C3E9">
+			<object name="locstridText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -1459,7 +1459,7 @@
 				<field hash="C4A178C4" type="BinHex"/>
 				<field hash="BA2EFF26" type="String"/>
 				<field hash="71ED263C" type="BinHex"/>
-				<field hash="F553BCF5" type="BinHex"/>
+				<field name="selDSI" type="BinHex"/>
 				<field hash="A4DE6BD2" type="BinHex"/>
 				<object name="locstridOptionName">
 					<field name="LocalizationId" type="UInt64"/>
@@ -1472,7 +1472,7 @@
 		<object hash="FDBFFF8B">
 			<field hash="BA2EFF26" type="String"/>
 			<field hash="71ED263C" type="BinHex"/>
-			<field hash="F553BCF5" type="BinHex"/>
+			<field name="selDSI" type="BinHex"/>
 			<field hash="A4DE6BD2" type="BinHex"/>
 			<object name="locstridOptionName">
 				<field name="LocalizationId" type="UInt64"/>
@@ -1571,7 +1571,7 @@
 				<field hash="58801DA7" type="BinHex"/>
 				<field hash="BA2EFF26" type="String"/>
 				<field hash="71ED263C" type="BinHex"/>
-				<field hash="F553BCF5" type="BinHex"/>
+				<field name="selDSI" type="BinHex"/>
 				<field hash="A4DE6BD2" type="BinHex"/>
 				<field hash="39084267" type="String"/>
 				<field hash="C4A178C4" type="BinHex"/>
@@ -1739,37 +1739,37 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="62D399CD">
-			<field hash="43879CB9" type="BinHex"/>
+			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object hash="0D0DC282">
-			<field hash="43879CB9" type="BinHex"/>
+			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object hash="618784B9">
-			<field hash="43879CB9" type="BinHex"/>
+			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object hash="E174CD02">
-			<field hash="43879CB9" type="BinHex"/>
+			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object hash="0032855C">
-			<field hash="43879CB9" type="BinHex"/>
+			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object hash="2BD0358F">
-			<field hash="43879CB9" type="BinHex"/>
+			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -1969,7 +1969,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="C4B623C1">
+		<object name="locstridTutorialLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="302513A6">
@@ -2062,9 +2062,9 @@
 		<object hash="46779039">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B1427AEA">
-			<object hash="46F9BE6E">
-				<field hash="A067B1A1" type="BinHex"/>
+		<object name="TutorialItems">
+			<object name="TutorialItem">
+				<field name="itemsTutorialItem" type="BinHex"/>
 			</object>
 		</object>
 	</object>

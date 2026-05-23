@@ -6,41 +6,41 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="B4945DFB" type="BinHex"/>
-	<field hash="654E0DE0" type="BinHex"/>
-	<field hash="8DC58589" type="BinHex"/>
-	<field hash="5FC5CCE4" type="BinHex"/>
-	<field hash="9F796514" type="BinHex"/>
-	<field hash="B36E5993" type="BinHex"/>
-	<field hash="3340BAE4" type="BinHex"/>
-	<field hash="85777837" type="BinHex"/>
+	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
+	<field name="pdcfgPhotoTarget" type="BinHex"/>
+	<field name="bUseSpecificRole" type="BinHex"/>
+	<field name="bDisplayTargetNameInObjective" type="BinHex"/>
+	<field name="bFailOnTargetNeutralized" type="BinHex"/>
+	<field name="bTakeMultiplePhotos" type="BinHex"/>
+	<field name="iPhotosToTake" type="BinHex"/>
+	<field name="bCloseCameraOnCompletion" type="BinHex"/>
 	<field name="bIsTimed" type="Boolean"/>
-	<field hash="53735950" type="BinHex"/>
-	<object hash="DADF8182">
+	<field name="timergameplaydescriptorEntityToPhotographTimerDescriptor" type="BinHex"/>
+	<object name="locstridShortLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3CFBA4A2">
+	<object name="locstridLongLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="14BBAE7D">
+	<object name="locstridSoloObjectiveLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FC293553">
+	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="Target">
 		<field hash="AA658794" type="BinHex"/>
-		<field hash="D64B1A65" type="BinHex"/>
+		<field name="TargetSceneID" type="BinHex"/>
 		<field hash="A6871411" type="String"/>
-		<field hash="3A7D1D8B" type="BinHex"/>
+		<field name="TargetRole" type="BinHex"/>
 	</object>
 	<object hash="46446E05">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="A88CCF1B">
+	<object name="locstridTargetDestroyedFailLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F8428A57">
+	<object name="locstridTimerFailLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

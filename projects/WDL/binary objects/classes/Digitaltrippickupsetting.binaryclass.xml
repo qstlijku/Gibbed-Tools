@@ -7,10 +7,10 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="8ECDDD43" type="String"/>
-	<field hash="1237D4D9" type="BinHex"/>
+	<field name="archPickup" type="BinHex"/>
 	<field hash="556C21B8" type="String"/>
-	<field hash="9FAACDAF" type="BinHex"/>
+	<field name="archPickupCone" type="BinHex"/>
 	<field hash="0865A8FF" type="String"/>
-	<field hash="E23BC8DB" type="BinHex"/>
+	<field name="matMaterialResource" type="BinHex"/>
 	<field hash="534E8533" type="BinHex"/>
 </class>

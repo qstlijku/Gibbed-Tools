@@ -29,7 +29,7 @@
 		<field name="uiPageIndex" type="UInt32"/>
 		<field hash="60FA6429" type="String"/>
 		<field name="fIconSpacing" type="Float"/>
-		<field hash="C8F142B6" type="BinHex"/>
+		<field name="selFilterType" type="BinHex"/>
 		<field hash="55E5B292" type="BinHex"/>
 		<field hash="793E69AB" type="BinHex"/>
 		<field hash="E9B5337C" type="BinHex"/>
@@ -254,13 +254,13 @@
 			<field hash="90CF6735" type="BinHex"/>
 			<field hash="21429238" type="BinHex"/>
 			<field hash="74B311CA" type="BinHex"/>
-			<field hash="C2299068" type="BinHex"/>
+			<field name="fDefault" type="BinHex"/>
 		</object>
 		<object hash="3EC1E5FF">
 			<field hash="90CF6735" type="BinHex"/>
 			<field hash="74B311CA" type="BinHex"/>
 			<field hash="21429238" type="BinHex"/>
-			<field hash="C2299068" type="BinHex"/>
+			<field name="fDefault" type="BinHex"/>
 			<field hash="C8558E80" type="BinHex"/>
 			<field hash="99D4F681" type="BinHex"/>
 			<field hash="0EDCB619" type="BinHex"/>
@@ -269,7 +269,7 @@
 		<object hash="A27B5342">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="CCC9FBAE">
+		<object name="locstridLocalizationId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="9A25EB1F">
@@ -450,14 +450,14 @@
 		<object hash="B5803577">
 			<object hash="7FE4F889">
 				<field hash="6D7625CD" type="String"/>
-				<object hash="04712EDB">
+				<object name="locstridLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 		</object>
 		<object hash="FDE88856">
 			<object hash="53FCDD25">
-				<object hash="04712EDB">
+				<object name="locstridLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
@@ -511,7 +511,7 @@
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<field hash="C7EB07DD" type="String"/>
-				<object hash="04712EDB">
+				<object name="locstridLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
@@ -534,7 +534,7 @@
 		<object hash="A9D49F4C">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="0AC2780D">
+		<object name="locstridTrack">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="A1487B40">
@@ -811,7 +811,7 @@
 				<object name="locstridTitleLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="42DDAFC5">
+				<object name="locstridDescriptionLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
@@ -957,7 +957,7 @@
 			<object name="locstridTitleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="42DDAFC5">
+			<object name="locstridDescriptionLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -1306,7 +1306,7 @@
 		<object hash="9F73BAF0">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="42DDAFC5">
+		<object name="locstridDescriptionLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="EC4DC2D9">

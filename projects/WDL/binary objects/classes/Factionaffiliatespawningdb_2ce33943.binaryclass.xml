@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="3F19617E">
-		<object hash="A30EE745">
+	<object name="SpawningEntries">
+		<object name="SpawningEntry">
 			<field name="selAffiliation" type="Enum"/>
-			<field hash="85A32091" type="BinHex"/>
+			<field name="selSubAffiliation" type="BinHex"/>
 			<field name="humanconfigHumanConfig" type="BinHex"/>
 		</object>
 	</object>

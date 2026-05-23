@@ -7,13 +7,13 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Weights">
-		<field hash="BAA6F81D" type="BinHex"/>
-		<field hash="5D2A3A33" type="BinHex"/>
-		<field hash="9CB17AFA" type="BinHex"/>
-		<field hash="7114A8FE" type="BinHex"/>
-		<field hash="BB822AA9" type="BinHex"/>
-		<field hash="13BE0886" type="BinHex"/>
-		<object hash="BE869EBA">
+		<field name="fGrunt" type="BinHex"/>
+		<field name="fOverwatch" type="BinHex"/>
+		<field name="fRusher" type="BinHex"/>
+		<field name="fGrenadier" type="BinHex"/>
+		<field name="fAlreadyAssigned" type="BinHex"/>
+		<field name="fAlreadyInside" type="BinHex"/>
+		<object name="curveCaptain">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -23,7 +23,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="CB8FFB4E">
+		<object name="curveDistance">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">

@@ -6,27 +6,27 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="EA28E3C0">
-		<object hash="6F9A952C">
+	<object name="DynamicAvoidancePriority">
+		<object name="TypeAvoidancePriority">
 			<field name="Invalid" type="BinHex"/>
-			<field hash="9A52E6B5" type="BinHex"/>
+			<field name="Scanner" type="BinHex"/>
 			<field name="News" type="BinHex"/>
-			<field hash="08FC0FD2" type="BinHex"/>
-			<field hash="CEF78E46" type="BinHex"/>
-			<field hash="C4A03996" type="BinHex"/>
-			<field hash="CE4E7A13" type="BinHex"/>
+			<field name="Personal" type="BinHex"/>
+			<field name="Delivery" type="BinHex"/>
+			<field name="Construction" type="BinHex"/>
+			<field name="Turret" type="BinHex"/>
 			<field name="Chase" type="BinHex"/>
-			<field hash="B24B2AD7" type="BinHex"/>
-			<field hash="CDE5BB1C" type="BinHex"/>
-			<field hash="EF2EB13E" type="BinHex"/>
-			<field hash="A321F584" type="BinHex"/>
+			<field name="Riot" type="BinHex"/>
+			<field name="Ct" type="BinHex"/>
+			<field name="ScriptedWorldActivity" type="BinHex"/>
+			<field name="RaidBoss" type="BinHex"/>
 		</object>
-		<object hash="BB17A6EA">
-			<field hash="42B0DDB6" type="BinHex"/>
-			<field hash="6597B749" type="BinHex"/>
-			<field hash="F70B7814" type="BinHex"/>
-			<field hash="3483554B" type="BinHex"/>
-			<field hash="9C6E8C6A" type="BinHex"/>
+		<object name="SpecificStatePriority">
+			<field name="ChaseOnFootTarget" type="BinHex"/>
+			<field name="ChaseInVehicleTarget" type="BinHex"/>
+			<field name="ChaseFlyingTarget" type="BinHex"/>
+			<field name="CombatBallistic" type="BinHex"/>
+			<field name="CombatCheckLKP" type="BinHex"/>
 		</object>
 	</object>
 </class>

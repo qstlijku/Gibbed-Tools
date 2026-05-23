@@ -10,84 +10,84 @@
 		<object name="Category">
 			<field name="text_Name" type="String"/>
 			<field name="Name" type="BinHex"/>
-			<field hash="17BE4E5F" type="BinHex"/>
-			<field hash="F9CB2B3F" type="BinHex"/>
-			<object hash="2143522D">
+			<field name="SlotsNumber" type="BinHex"/>
+			<field name="texturedbobjectIconTexture" type="BinHex"/>
+			<object name="locstridUIName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A2F788A2">
+			<object name="locstridUIEmptySlot">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D36E0C4C">
+			<object name="locstridUISlot">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="34BFEAEF">
-		<object hash="DE59633C">
+	<object name="Sets">
+		<object name="Set">
 			<field name="text_Name" type="String"/>
 			<field name="Name" type="BinHex"/>
 			<field hash="705E184C" type="String"/>
-			<field hash="BB9DC156" type="BinHex"/>
-			<field hash="F9CB2B3F" type="BinHex"/>
-			<object hash="2143522D">
+			<field name="operativeclasswithemptyClass" type="BinHex"/>
+			<field name="texturedbobjectIconTexture" type="BinHex"/>
+			<object name="locstridUIName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="C32C5DC4">
-		<object hash="2FB915A8">
+	<object name="Mods">
+		<object name="Mod">
 			<field name="text_Name" type="String"/>
 			<field name="Name" type="BinHex"/>
 			<field hash="7FCF48FB" type="String"/>
-			<field hash="C395225B" type="BinHex"/>
+			<field name="progressionmodsetsSet" type="BinHex"/>
 			<field hash="4D4C5D51" type="String"/>
-			<field hash="1CD17BA0" type="BinHex"/>
+			<field name="progressionmodcategoriesCategory" type="BinHex"/>
 			<field name="Tier" type="BinHex"/>
 			<field name="Quality" type="BinHex"/>
-			<field hash="82EF1DAE" type="BinHex"/>
-			<field hash="8A5325E3" type="BinHex"/>
-			<field hash="F9CB2B3F" type="BinHex"/>
+			<field name="DisassemblePrice" type="BinHex"/>
+			<field name="AssemblePrice" type="BinHex"/>
+			<field name="texturedbobjectIconTexture" type="BinHex"/>
 			<object name="Modifiers">
 				<object name="Modifier">
 					<field hash="F9B62FE0" type="String"/>
-					<field hash="BA90E4D1" type="BinHex"/>
-					<field hash="6271B625" type="BinHex"/>
-					<field hash="5FAD1D82" type="BinHex"/>
-					<object hash="491D5859">
+					<field name="progressionmodmodifiersModifier" type="BinHex"/>
+					<field name="IsTeam" type="BinHex"/>
+					<field name="IsCoop" type="BinHex"/>
+					<object name="Overrides">
 						<object name="Override">
 							<field hash="120FA6D9" type="String"/>
-							<field hash="5D2DFDB1" type="BinHex"/>
+							<field name="progressionmodoverrideVariable" type="BinHex"/>
 							<field name="Value" type="Vector4"/>
 						</object>
 					</object>
 				</object>
 			</object>
-			<object hash="2143522D">
+			<object name="locstridUIName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="58A3278C">
-		<object hash="6FCDA0BA">
+	<object name="SetBonuses">
+		<object name="SetBonus">
 			<field name="text_Name" type="String"/>
 			<field name="Name" type="BinHex"/>
 			<field hash="7FCF48FB" type="String"/>
-			<field hash="C395225B" type="BinHex"/>
-			<field hash="D7536A6F" type="BinHex"/>
+			<field name="progressionmodsetsSet" type="BinHex"/>
+			<field name="NumberRequired" type="BinHex"/>
 			<field hash="C41AB23D" type="String"/>
-			<field hash="3668F4F3" type="BinHex"/>
-			<field hash="18743876" type="BinHex"/>
+			<field name="PerkRequired" type="BinHex"/>
+			<field name="videosBinkVideoTutorial" type="BinHex"/>
 			<object name="Modifiers">
 				<object name="Modifier">
 					<field hash="F9B62FE0" type="String"/>
-					<field hash="BA90E4D1" type="BinHex"/>
-					<field hash="6271B625" type="BinHex"/>
-					<field hash="5FAD1D82" type="BinHex"/>
-					<object hash="491D5859">
+					<field name="progressionmodmodifiersModifier" type="BinHex"/>
+					<field name="IsTeam" type="BinHex"/>
+					<field name="IsCoop" type="BinHex"/>
+					<object name="Overrides">
 						<object name="Override">
 							<field hash="120FA6D9" type="String"/>
-							<field hash="5D2DFDB1" type="BinHex"/>
+							<field name="progressionmodoverrideVariable" type="BinHex"/>
 							<field name="Value" type="Vector4"/>
 						</object>
 					</object>

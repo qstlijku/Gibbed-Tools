@@ -6,16 +6,16 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="B8E8D28C" type="BinHex"/>
-	<field hash="8EB5D3D5" type="BinHex"/>
-	<field hash="4A27EEFA" type="BinHex"/>
-	<field hash="03A8F798" type="BinHex"/>
-	<field hash="52514CC5" type="BinHex"/>
+	<field name="selEscalationSeverity" type="BinHex"/>
+	<field name="fCallTime" type="BinHex"/>
+	<field name="fShutdownTime" type="BinHex"/>
+	<field name="fMinConnectRadius" type="BinHex"/>
+	<field name="fMaxConnectRadius" type="BinHex"/>
 	<field hash="7E4E0629" type="String"/>
-	<field hash="A824FFAB" type="BinHex"/>
-	<field hash="B134FC42" type="BinHex"/>
-	<field hash="0E3CD532" type="BinHex"/>
-	<field hash="7968937E" type="BinHex"/>
-	<field hash="803B200C" type="BinHex"/>
+	<field name="sHackEscalationGroupID" type="BinHex"/>
+	<field name="uiShutdownEscalationHackNumber" type="BinHex"/>
+	<field name="uiDestroyEscalationHackNumber" type="BinHex"/>
+	<field name="uiSearchEscalationHackNumber" type="BinHex"/>
+	<field name="uiEnableEscalationHackNumber" type="BinHex"/>
 	<field hash="5CA78053" type="BinHex"/>
 </class>

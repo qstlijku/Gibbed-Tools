@@ -28,28 +28,28 @@
 		<object name="ArrestForcedOutcomeFlee">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="2D60E252">
+		<object name="ArrestOnFootOccurring">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="ArrestOnGoing">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="C42ED785">
+		<object name="BareKnuckleChampion">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="1CE40550">
+		<object name="BareKnuckleLose">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="65E0D48F">
+		<object name="BareKnuckleParticipation">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="A221C5DC">
+		<object name="BareKnuckleWin">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object hash="112D3294">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="B3343BED">
+		<object name="BlindingFlash">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="BulletImpact">
@@ -58,13 +58,13 @@
 		<object name="BulletWhiz">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="7262D9D5">
+		<object name="CapturingNews">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="6A99A481">
+		<object name="CapturingNewsWithSpotlight">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="DA676F38">
+		<object name="CarAlarm">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="CarBreak">
@@ -103,10 +103,10 @@
 		<object name="Carjacking">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="8A7AF434">
+		<object name="Celebrity">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="3CCB09A0">
+		<object name="CensusEncounter">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="Cheer">
@@ -115,7 +115,7 @@
 		<object name="CivilianPanic">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="85EC6D32">
+		<object name="CombatPropagation">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="CrimeOnGoing">
@@ -124,109 +124,109 @@
 		<object name="CuriousBhv">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="829736F6">
+		<object name="DartHighValue">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="4CEAC416">
+		<object name="DartMiss">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="DeadBody">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="C46058CB">
+		<object name="DeadBodyRestrictedToDrones">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="B186A826">
+		<object name="DedSecNegative">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="D4F0DF3D">
+		<object name="DedSecPositive">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="10B307AE">
+		<object name="DemandInfo">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="64F393F8">
+		<object name="DigitalSearchStarted">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="A778E74D">
+		<object name="DisabledIngredient">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="2210154B">
+		<object name="DownloadInitiated">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="DrivingVehicleHacked">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="1EA306F0">
+		<object name="DroneCommand">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="10A1EC7E">
+		<object name="DroneMalfunction">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="A6774584">
+		<object name="DronePickableDestroyed">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="E697CF54">
+		<object name="DronePickableFallImpact">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="DC7A9CE8">
+		<object name="DronePickableInteresting">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="37F6B4A5">
+		<object name="DronePickableOutOfContext">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="6E118F73">
+		<object name="DroneRiding">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="CBFDE16A">
+		<object name="DroneSearching">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="A93153FF">
+		<object name="DroneShutdown">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="FCEE861E">
+		<object name="DroneShutdownAlarm">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="C492F3BB">
+		<object name="DroneSwitchAllegiance">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="98ACA61F">
+		<object name="DrunkPersonDrunk">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="84CFAAE4">
+		<object name="DrunkPersonSmashed">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="754A3EBC">
+		<object name="DrunkPersonTipsy">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="EscalationAttract">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="65430C86">
+		<object name="ExoSuitMalfunction">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="336BD964">
+		<object name="ExplosiveNearby">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="9C602D96">
+		<object name="FelonyForceCombat">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="10729118">
+		<object name="FlashSound">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="Flirt">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="9E2E407D">
+		<object name="FollowMe">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object hash="2F9E2A77">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="8A8D9D26">
+		<object name="ForceCombatNoLKPUpdate">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="780DD536">
+		<object name="FullHeatFoundByDrone">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="Greet">
@@ -238,25 +238,25 @@
 		<object name="GunShot">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="AE4F822D">
+		<object name="HackEscalation">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="HackedEntityMalfunction">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="7804614F">
+		<object name="HazardousVehicle">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="40A33A4C">
+		<object name="HazardousVehicleRestrictedToDrones">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="8AB67D7F">
+		<object name="HealthCritical">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="08155C2F">
+		<object name="HealthMedium">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="DE8CE4D6">
+		<object name="HearTakeDown">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="HitByGrenade">
@@ -268,7 +268,7 @@
 		<object name="HitByVehicle">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="7060AE9C">
+		<object name="HorrificDeath">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object hash="8465F47B">
@@ -277,10 +277,10 @@
 		<object name="HumanNoiseDisgusting">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="D67677B9">
+		<object name="HVCProximity">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="0F431C86">
+		<object name="ImportantObjectAlert">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object hash="909045EB">
@@ -295,16 +295,16 @@
 		<object name="KeypadDestroyed">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="20D710EB">
+		<object name="KickupGoalCompleted">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="3112823B">
+		<object name="KickupTrick">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="BD290903">
+		<object name="LTLChokeFireExtinguisherExplosion">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="9CFBAE17">
+		<object name="LTLChokeProximityMine">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="Laugh">
@@ -313,28 +313,28 @@
 		<object name="LayoutBeingHacked">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="B7F8E4DC">
+		<object name="LeverageComplete">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="DA2DF67D">
+		<object name="LeverageCompleteBuddy">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="2800D010">
+		<object name="LeverageRuin">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="C48F28EC">
+		<object name="LeverageRuinBuddy">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="Look">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="659A6501">
+		<object name="LtlChoke">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="MakeFunOf">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="151B54B8">
+		<object name="MeleeCombatOccuring">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="MyCarAccident">
@@ -355,13 +355,13 @@
 		<object name="ObjectCollisionNoise">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="3949B1C0">
+		<object name="ObserveSideComment">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="OffRoadDriving">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="27AB70DD">
+		<object name="OffRoadStationaryCar">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="OnCLOInterrupted">
@@ -373,10 +373,10 @@
 		<object name="OutrageousAction">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="EF23EA9C">
+		<object name="PMCBrutality">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="51B5AF34">
+		<object name="PMCProximity">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="PacifiedCalmDown">
@@ -436,7 +436,7 @@
 		<object name="PuddleSplash">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="C1D18352">
+		<object name="RCBroadcast">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object hash="F86FD10D">
@@ -445,10 +445,10 @@
 		<object hash="431BCDA5">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="81BC2D99">
+		<object name="RCDestroyed">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="6F5BE5E1">
+		<object name="RCHijacked">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="RCMalfunction">
@@ -457,49 +457,49 @@
 		<object name="RCMoveOutOfContext">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="4092B2B6">
+		<object name="RCProximity">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="5291BCF2">
+		<object name="RecordTarget">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="D678D624">
+		<object name="ReinforcementForceCombat">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="RemoteControlAttract">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="3C32632C">
+		<object name="RestrainFree">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="EEA20C7E">
+		<object name="RestrainOccurring">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="CC33EC92">
+		<object name="Restrainable">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="C6ED0E94">
+		<object name="Restrained">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="E2518BF2">
+		<object name="RestrainedCallout">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="933D42BD">
+		<object name="RestrainedCalloutSafe">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object hash="59C539AD">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="E006B5B0">
+		<object name="RingOfSteelActivation">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="0FA731A7">
+		<object name="RingOfSteelActivationTarget">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="99944987">
+		<object name="RingOfSteelActivePersistent">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="EFF42790">
+		<object name="RingOfSteelProfilerActivation">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="RobotAttack">
@@ -514,19 +514,19 @@
 		<object name="RunningPeopleProximity">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="514C355C">
+		<object name="SamaritanCallout">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="7493D1EE">
+		<object name="ScanID">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="B75FAF35">
+		<object name="ScanIDComplete">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="E891F7DA">
+		<object name="ScannedByDroneActive">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="C32FFCA4">
+		<object name="SearchOccurring">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="SecurityAlarm">
@@ -541,22 +541,22 @@
 		<object hash="7F174590">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="FAB81F4D">
+		<object name="SeeHackedDistract">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="C1822963">
+		<object name="SeeHitReact">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="4C970D56">
+		<object name="SeeARCloakActivate">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="70A2A970">
+		<object name="SeeARCloakDeactivate">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="SeeIntruder">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="F9245CC6">
+		<object name="SeeTakeDown">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="SeekAttention">
@@ -568,7 +568,7 @@
 		<object name="SeekAttentionMusic">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="6433043F">
+		<object name="SeekAttentionNegative">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="Sexy">
@@ -577,7 +577,7 @@
 		<object name="ShopTheft">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="5E5DE1C8">
+		<object name="ShroudedBody">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="ShutDownMediaBroadcast">
@@ -589,10 +589,10 @@
 		<object name="SpecialBroadcast">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="92ADACF8">
+		<object name="SpeedingCar">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="2E955ADF">
+		<object name="SpiderDroneJumped">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="SquadVehicleHacked">
@@ -634,7 +634,7 @@
 		<object name="VehicleDisabled">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="07F89856">
+		<object name="VehicleDisabledPersistent">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="VehicleEntered">
@@ -646,16 +646,16 @@
 		<object name="WakeUp">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="8147B3B1">
+		<object name="WarnOfIntruder">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="WaterPipe">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="FD36FB41">
+		<object name="WorldActivityActive">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="C007AE6F">
+		<object name="WorldActivityScaryHead">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object hash="992ABA8B">

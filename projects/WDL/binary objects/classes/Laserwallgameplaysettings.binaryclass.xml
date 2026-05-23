@@ -6,38 +6,38 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="68BC3582">
-		<field hash="E88162DD" type="BinHex"/>
+	<object name="LaserWallData">
+		<field name="uRoomIndex" type="BinHex"/>
 		<field hash="6D2D52CA" type="BinHex"/>
-		<object hash="98163ECF">
-			<object hash="CB740317">
-				<field hash="486ECA6E" type="BinHex"/>
-				<object hash="8E990802">
-					<field hash="7A7F60B0" type="BinHex"/>
+		<object name="LaserPatterns">
+			<object name="LaserPattern">
+				<field name="fPatternStartDelay" type="BinHex"/>
+				<object name="Lasers">
+					<field name="entLaserEntity" type="BinHex"/>
 					<field name="fStartDelay" type="Float"/>
 				</object>
-				<object hash="4D415415">
-					<field hash="EB3467DE" type="BinHex"/>
-					<field hash="A0DDA34F" type="BinHex"/>
+				<object name="PatternReinforcementData">
+					<field name="reinforcementgameplaydescriptorHuman" type="BinHex"/>
+					<field name="reinforcementgameplaydescriptorDrone" type="BinHex"/>
 				</object>
-				<object hash="D70707FB">
-					<field hash="D4B5DB07" type="BinHex"/>
-					<field hash="D9137401" type="BinHex"/>
-					<field hash="1E62A324" type="BinHex"/>
+				<object name="NextPatternTriggerConditions">
+					<field name="bNextPatternTriggersOnAllDestroyed" type="BinHex"/>
+					<field name="bNextPatternTriggersAfterDelay" type="BinHex"/>
+					<field name="fNextPatternTriggerDelay" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="B17611D6">
-			<field hash="EB3467DE" type="BinHex"/>
-			<field hash="A0DDA34F" type="BinHex"/>
+		<object name="GlobalReinforcementsData">
+			<field name="reinforcementgameplaydescriptorHuman" type="BinHex"/>
+			<field name="reinforcementgameplaydescriptorDrone" type="BinHex"/>
 		</object>
 		<object hash="C584F191">
 			<field name="sndSoundId" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="CB530087">
 			<field name="sndSoundId" type="BinHex"/>
-			<field hash="8FE662AD" type="BinHex"/>
+			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 	</object>
 </class>

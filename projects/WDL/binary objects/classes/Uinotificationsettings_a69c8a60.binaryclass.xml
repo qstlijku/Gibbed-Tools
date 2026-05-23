@@ -9,7 +9,7 @@
 	<object name="locstridOpenAppText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="ABE0EC5B">
+	<object name="Map">
 		<field name="selNotificationDisplayType" type="Enum"/>
 		<field hash="DCB816C4" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
@@ -266,7 +266,7 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="9DAE8406">
+	<object name="DataDriveAppFiles">
 		<field name="selNotificationDisplayType" type="Enum"/>
 		<field hash="DCB816C4" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>

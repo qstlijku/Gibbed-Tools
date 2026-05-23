@@ -8,13 +8,13 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="selReactionType" type="Enum"/>
 	<object name="LookAtParams">
-		<field hash="D2008E80" type="BinHex"/>
+		<field name="selLookAtPosType" type="BinHex"/>
 		<field name="fMinDuration" type="Float"/>
 		<field name="fMaxDuration" type="Float"/>
 	</object>
 	<object name="BarkParams">
-		<field hash="1F973AF7" type="BinHex"/>
-		<field hash="239A05AE" type="BinHex"/>
+		<field name="fBarkDelayMin" type="BinHex"/>
+		<field name="fBarkDelayMax" type="BinHex"/>
 	</object>
 	<object name="DelayParams">
 		<field name="fAsynchroReactionDelayMin" type="Float"/>

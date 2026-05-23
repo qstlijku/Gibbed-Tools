@@ -6,47 +6,47 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="25E89B15" type="BinHex"/>
-	<field hash="B1218A45" type="BinHex"/>
-	<field hash="86567520" type="BinHex"/>
-	<field hash="F4C67D97" type="BinHex"/>
-	<object hash="2FF933FA">
-		<field hash="320E8186" type="BinHex"/>
-		<object hash="47530ADA">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+	<field name="fMaxStressLevel" type="BinHex"/>
+	<field name="fSearchStressThreshold" type="BinHex"/>
+	<field name="fReactionStressThreshold" type="BinHex"/>
+	<field name="fStressDecreaseDefaultSpeed" type="BinHex"/>
+	<object name="HijackStoppedStressRules">
+		<field name="bReactOnlyForSearch" type="BinHex"/>
+		<object name="StressLevelRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="AB061DE1">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
-		</object>
-	</object>
-	<object hash="359384D3">
-		<field hash="320E8186" type="BinHex"/>
-		<object hash="47530ADA">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
-		</object>
-		<object hash="AB061DE1">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="StressBonusRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="A4FC5746">
-		<field hash="320E8186" type="BinHex"/>
-		<object hash="47530ADA">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="SwitchAllegianceStoppedStressRules">
+		<field name="bReactOnlyForSearch" type="BinHex"/>
+		<object name="StressLevelRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="AB061DE1">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="StressBonusRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="954A0346">
-		<object hash="954A0346">
-			<field hash="CFE5C8C6" type="BinHex"/>
-			<field hash="98179F29" type="BinHex"/>
+	<object name="RCBroadcastAttractEndedStressRules">
+		<field name="bReactOnlyForSearch" type="BinHex"/>
+		<object name="StressLevelRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="StressBonusRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+	</object>
+	<object name="StateOverrides">
+		<object name="StateOverrides">
+			<field name="selCurrentState" type="BinHex"/>
+			<field name="fStressDecreaseSpeed" type="BinHex"/>
 		</object>
 	</object>
 </class>

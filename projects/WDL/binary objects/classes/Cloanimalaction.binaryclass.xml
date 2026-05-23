@@ -31,8 +31,8 @@
 		<field hash="F41EFDC2" type="BinHex"/>
 		<field name="bProximityBehavior" type="Boolean"/>
 		<field name="selBhvPriority" type="Enum"/>
-		<field hash="CB775E97" type="BinHex"/>
-		<field hash="E3DC2A77" type="BinHex"/>
+		<field name="bDespawnOnUse" type="BinHex"/>
+		<field name="incidentlistIncidentIgnoreList" type="BinHex"/>
 		<object name="ProximitySettings">
 			<field name="Name" type="BinHex"/>
 			<field hash="7ADF8640" type="String"/>
@@ -42,7 +42,7 @@
 			<field name="selOnAnimEnd" type="Enum"/>
 			<field name="bUseAsAnchorForGoto" type="Boolean"/>
 			<field name="bOverrideQuitSettings" type="Boolean"/>
-			<field hash="FF140259" type="BinHex"/>
+			<field name="bSkipExitAnim" type="BinHex"/>
 			<field name="fProximityRadius" type="Float"/>
 			<object name="TriggerSettings">
 				<field name="selTriggerType" type="Enum"/>
@@ -59,21 +59,21 @@
 			</object>
 		</object>
 	</object>
-	<object hash="245FD7E5">
-		<object hash="D038FD91">
+	<object name="AnimationTagInformation">
+		<object name="tagcategoryselectionblackboardActivityTags">
 			<object name="TagCategorySelectionArray">
 				<object name="TagCategorySelection">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<field hash="BDB3B8D5" type="String"/>
-					<field hash="401A8276" type="BinHex"/>
-					<field hash="F5391DFF" type="BinHex"/>
+					<field name="UITagCategorySelectionClassID" type="BinHex"/>
+					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
 					<object name="Tags"/>
 					<field name="tagTag" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="D0C5DABB">
+			<object name="TagDescriptorUI">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
@@ -84,20 +84,20 @@
 				</object>
 			</object>
 		</object>
-		<object hash="413663B1">
+		<object name="tagcategoryselectionblackboardExclusionTags">
 			<object name="TagCategorySelectionArray">
 				<object name="TagCategorySelection">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<field hash="BDB3B8D5" type="String"/>
-					<field hash="401A8276" type="BinHex"/>
-					<field hash="F5391DFF" type="BinHex"/>
+					<field name="UITagCategorySelectionClassID" type="BinHex"/>
+					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
 					<object name="Tags"/>
 					<field name="tagTag" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="D0C5DABB">
+			<object name="TagDescriptorUI">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
@@ -162,8 +162,8 @@
 			</object>
 		</object>
 	</object>
-	<object hash="3C7AB27D">
-		<field hash="4DBCE0FB" type="BinHex"/>
-		<field hash="34870E16" type="BinHex"/>
+	<object name="AtlasProperties">
+		<field name="bExportToAtlas" type="BinHex"/>
+		<field name="atlastypeElementType" type="BinHex"/>
 	</object>
 </class>

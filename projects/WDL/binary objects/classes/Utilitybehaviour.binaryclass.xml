@@ -6,6 +6,6 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="AB40995C" type="BinHex"/>
-	<field hash="03B086A1" type="BinHex"/>
+	<field name="utilityactiongroupNavigationActions" type="BinHex"/>
+	<field name="utilityactiongroupGameplayActions" type="BinHex"/>
 </class>

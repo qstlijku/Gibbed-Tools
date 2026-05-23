@@ -26,7 +26,7 @@
 		<field hash="EA2DA53F" type="BinHex"/>
 		<field hash="F303571C" type="BinHex"/>
 		<field hash="8F55D1B7" type="BinHex"/>
-		<field hash="A067B1A1" type="BinHex"/>
+		<field name="itemsTutorialItem" type="BinHex"/>
 		<field hash="16383833" type="BinHex"/>
 		<field hash="E5BE9B9C" type="BinHex"/>
 		<field hash="393D18D2" type="String"/>
@@ -38,19 +38,19 @@
 		<field name="selWeaponGrip" type="Enum"/>
 		<field name="fHealth" type="Float"/>
 		<field name="fAlcohol" type="Float"/>
-		<field hash="5CE244A8" type="BinHex"/>
+		<field name="emoteEmote" type="BinHex"/>
 		<field hash="247060C0" type="BinHex"/>
 		<field hash="95D67F3E" type="BinHex"/>
 		<field name="sBoneName" type="String"/>
 		<field hash="95BFFF8E" type="String"/>
-		<field hash="1E98E20A" type="BinHex"/>
+		<field name="archArchetypeSmall" type="BinHex"/>
 		<field hash="40046F75" type="String"/>
-		<field hash="EC3B8F76" type="BinHex"/>
+		<field name="archArchetypeBig" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<field hash="9033CC82" type="BinHex"/>
+		<field name="fileAnimation" type="BinHex"/>
 		<field name="selActivityType" type="Enum"/>
 		<field name="progressiontagProgressionTag" type="BinHex"/>
-		<field hash="6C09A6D9" type="BinHex"/>
+		<field name="wolfskinitemdbWolfskinItem" type="BinHex"/>
 		<field name="fTopSpeed" type="Float"/>
 		<field name="fAcceleration" type="Float"/>
 		<field name="fToughness" type="Float"/>
@@ -62,7 +62,7 @@
 		<field name="texturedbobjectDefaultImage" type="BinHex"/>
 		<field name="texturedbobjectSelectedImage" type="BinHex"/>
 		<field name="itemsItem" type="BinHex"/>
-		<field hash="0EADEF82" type="BinHex"/>
+		<field name="scenetotexturestudioobjectDetailsViewStudioObject" type="BinHex"/>
 		<field name="bHasUniquePaintJob" type="Boolean"/>
 		<field hash="BBDE2D28" type="BinHex"/>
 		<field hash="6E60D4BB" type="String"/>
@@ -136,23 +136,23 @@
 			<field name="iCooldownTime" type="Int32"/>
 		</object>
 		<object hash="310B8EB4">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="4EDFA179">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="FB48BE42">
 			<object hash="2C08A2DD">
 				<field name="itemsItemInBox" type="BinHex"/>
 				<object hash="2B9AE7C5">
-					<field hash="94C08F9B" type="BinHex"/>
-					<field hash="1DF2E0ED" type="BinHex"/>
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
 				<object hash="F1F012D5">
-					<field hash="94C08F9B" type="BinHex"/>
-					<field hash="1DF2E0ED" type="BinHex"/>
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -191,8 +191,8 @@
 			</object>
 		</object>
 		<object hash="7E952C2F">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="97013718">
 			<field name="LocalizationId" type="UInt64"/>
@@ -223,8 +223,8 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="22889001">
-			<object hash="85ECC8E3">
+		<object name="SkinElements">
+			<object name="SkinElement">
 				<field hash="E0ED5CFB" type="String"/>
 				<field name="sMaterialSlot" type="BinHex"/>
 				<field hash="9301DFBD" type="String"/>
@@ -247,8 +247,8 @@
 			</object>
 		</object>
 		<object hash="D727F2B8">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="ModelPart">
 			<field name="hidVersion" type="BinHex"/>
@@ -307,32 +307,32 @@
 			<field name="texturedbobjectUniquePaintJobImage" type="BinHex"/>
 		</object>
 		<object hash="AFA12BA6">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="0848AF53">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="4908959D">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="95016C96">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="EE5E115B">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="0AD0BFC4">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="794F71E7">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="LockedEntities">
 			<object name="LockedEntityId">
@@ -340,7 +340,7 @@
 			</object>
 		</object>
 		<object hash="A47A8ECB">
-			<field hash="BCF4B296" type="BinHex"/>
+			<field name="texturedbobjectTexture" type="BinHex"/>
 		</object>
 	</object>
 </class>

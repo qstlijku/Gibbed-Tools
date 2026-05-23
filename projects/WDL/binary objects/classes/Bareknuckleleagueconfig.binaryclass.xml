@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="9E8B94B8">
-		<object hash="E06B6B52">
-			<field hash="845FDA67" type="BinHex"/>
+	<object name="Fights">
+		<object name="Fight">
+			<field name="bareknucklefightFight" type="BinHex"/>
 		</object>
 	</object>
 </class>

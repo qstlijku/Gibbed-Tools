@@ -30,6 +30,6 @@
 	</object>
 	<object name="sndvarVehicleSpeedLocalSoundRtpcVariable">
 		<field name="SoundId" type="BinHex"/>
-		<field hash="EE1824B1" type="String"/>
+		<field name="SoundGuid" type="String"/>
 	</object>
 </class>

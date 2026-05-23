@@ -11,13 +11,13 @@
 	<field hash="4300FDF5" type="String"/>
 	<field name="sndConfirmPositiveSound" type="BinHex"/>
 	<field hash="1C9F81EB" type="String"/>
-	<field hash="97B89C6F" type="BinHex"/>
+	<field name="sndNavigationSound" type="BinHex"/>
 	<field hash="D7D7E9DC" type="String"/>
-	<field hash="4E728786" type="BinHex"/>
+	<field name="sndHoldStartSound" type="BinHex"/>
 	<field hash="FE050C20" type="String"/>
-	<field hash="752211A4" type="BinHex"/>
+	<field name="sndHoldFinishSound" type="BinHex"/>
 	<field hash="92DA17BC" type="String"/>
-	<field hash="19FD0A38" type="BinHex"/>
+	<field name="sndHoldCancelSound" type="BinHex"/>
 	<field hash="4603F635" type="String"/>
 	<field name="sndDisplaySound" type="BinHex"/>
 	<field hash="3620AB8D" type="BinHex"/>

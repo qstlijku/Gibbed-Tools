@@ -13,6 +13,6 @@
 		<field name="uiNPCMaxAgentBudget" type="UInt32"/>
 		<field name="uiChopperMaxAgentBudget" type="UInt32"/>
 		<field name="uiBoatMaxAgentBudget" type="UInt32"/>
-		<field hash="AB20A4F5" type="BinHex"/>
+		<field name="uiDroneMaxAgentBudget" type="BinHex"/>
 	</object>
 </class>

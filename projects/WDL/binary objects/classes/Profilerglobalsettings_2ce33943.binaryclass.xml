@@ -23,44 +23,44 @@
 	<field name="fMaxDataCloudDensity" type="Float"/>
 	<field hash="7BABEDA9" type="String"/>
 	<field name="sndTypingTextSoundStart" type="BinHex"/>
-	<field hash="91AD5A86" type="BinHex"/>
+	<field name="sndtpTypingTextSoundStartType" type="BinHex"/>
 	<field name="sndTypingTextSoundStop" type="BinHex"/>
-	<field hash="AA2E7632" type="BinHex"/>
+	<field name="sndtpTypingTextSoundStopType" type="BinHex"/>
 	<field hash="EED14B50" type="String"/>
 	<field name="sndTurnOnSound" type="BinHex"/>
-	<field hash="E02A1FE8" type="BinHex"/>
+	<field name="sndtpTurnOnSoundType" type="BinHex"/>
 	<field hash="25E9546D" type="String"/>
 	<field name="sndTurnOffSound" type="BinHex"/>
-	<field hash="5FD375BF" type="BinHex"/>
+	<field name="sndtpTurnOffSoundType" type="BinHex"/>
 	<field hash="393327A9" type="String"/>
 	<field name="sndLockOnSound" type="BinHex"/>
-	<field hash="2E76A298" type="BinHex"/>
+	<field name="sndtpLockOnSoundType" type="BinHex"/>
 	<field hash="E15FFCB9" type="String"/>
 	<field name="sndLockOffSound" type="BinHex"/>
-	<field hash="0F18583E" type="BinHex"/>
+	<field name="sndtpLockOffSoundType" type="BinHex"/>
 	<field name="sndStartGainingFocusSound" type="BinHex"/>
-	<field hash="A8C64BEA" type="BinHex"/>
+	<field name="sndtpStartGainingFocusSoundType" type="BinHex"/>
 	<field name="sndGainedFocusSound" type="BinHex"/>
-	<field hash="912BF0A2" type="BinHex"/>
+	<field name="sndtpGainedFocusSoundType" type="BinHex"/>
 	<field name="sndStartLosingFocusSound" type="BinHex"/>
-	<field hash="79243C63" type="BinHex"/>
+	<field name="sndtpStartLosingFocusSoundType" type="BinHex"/>
 	<field name="sndLostFocusSound" type="BinHex"/>
-	<field hash="98488E33" type="BinHex"/>
+	<field name="sndtpLostFocusSoundType" type="BinHex"/>
 	<field hash="F8EF77D9" type="String"/>
 	<field name="sndShowCallRecordSound" type="BinHex"/>
-	<field hash="CCA3F979" type="BinHex"/>
+	<field name="sndtpShowCallRecordSoundType" type="BinHex"/>
 	<field hash="E6BBE1CC" type="String"/>
 	<field name="sndShowWantedRecordSound" type="BinHex"/>
-	<field hash="317EB7CE" type="BinHex"/>
+	<field name="sndtpShowWantedRecordSoundType" type="BinHex"/>
 	<field name="sndShowRobberyRecordSound" type="BinHex"/>
-	<field hash="EA7CA3B9" type="BinHex"/>
+	<field name="sndtpShowRobberyRecordSoundType" type="BinHex"/>
 	<field name="fDelayBeforeSendingDominoEvent" type="Float"/>
 	<field name="sndHackingFeedbackTargetEnterRangeSound" type="BinHex"/>
-	<field hash="D04C0598" type="BinHex"/>
+	<field name="sndtpHackingFeedbackTargetEnterRangeSoundType" type="BinHex"/>
 	<field hash="6296328F" type="String"/>
 	<field name="sCinemaPostFx" type="BinHex"/>
 	<field name="sLockCinemaPostFx" type="BinHex"/>
-	<field hash="060FF46C" type="BinHex"/>
+	<field name="propHUDPropDbName" type="BinHex"/>
 	<field name="fRewardPanelTextEffectDuration" type="Float"/>
 	<field name="fOthersLinesTextEffectDelay" type="Float"/>
 	<field name="fWebSearchWheelSpeed" type="Float"/>
@@ -87,141 +87,141 @@
 	<field name="uMaxExposePoliceHackAtSameTime" type="UInt32"/>
 	<field name="uMaxExposeHitmanHackAtSameTime" type="UInt32"/>
 	<field name="fExplosionHackRadiusModifier" type="Float"/>
-	<field hash="7151A83A" type="BinHex"/>
+	<field name="globalcooldownsconfigDefaultGlobalCooldownConfg" type="BinHex"/>
 	<field hash="C1814A07" type="BinHex"/>
 	<field name="fAutoTakedownBatteryCost" type="Float"/>
 	<field name="fVrNodeTriggerBatteryCost" type="Float"/>
 	<field name="fActivateFlatbedPlatformBatteryCost" type="Float"/>
 	<field name="fEnemyVehicleHackCostMultiplier" type="Float"/>
 	<field name="fIngredientShutdownDuration" type="Float"/>
-	<field hash="F0D36CA4" type="BinHex"/>
-	<field hash="B08CDDFE" type="BinHex"/>
-	<field hash="186CEEE5" type="BinHex"/>
-	<field hash="8245EED1" type="BinHex"/>
-	<field hash="06846DF2" type="BinHex"/>
-	<field hash="F1981A8D" type="BinHex"/>
+	<field name="fProfileHackFullUnlockDuration" type="BinHex"/>
+	<field name="fDroneShutdownDisconnectDelay" type="BinHex"/>
+	<field name="fDroneSwitchAllegianceRebootStartTime" type="BinHex"/>
+	<field name="fLeverageDuration" type="BinHex"/>
+	<field name="fLineDisplayDurationOnHardLock" type="BinHex"/>
+	<field name="fLineDisplayDurationOnUnlock" type="BinHex"/>
 	<field name="mapicondescPoliceIcon" type="BinHex"/>
 	<field name="mapicondescMobIcon" type="BinHex"/>
 	<field name="mapicondescCivilianIcon" type="BinHex"/>
 	<field name="mapicondescLockIcon" type="BinHex"/>
 	<field name="mapicondescAccessCodeLockIcon" type="BinHex"/>
-	<field hash="EC4DFEC2" type="BinHex"/>
-	<field hash="F0F5A435" type="BinHex"/>
-	<field hash="72D6FF18" type="BinHex"/>
+	<field name="mapicondescVRLockIcon" type="BinHex"/>
+	<field name="mapicondescLockBoxLockIcon" type="BinHex"/>
+	<field name="mapicondescMicroDroneLockIcon" type="BinHex"/>
 	<field hash="16F564B4" type="BinHex"/>
 	<field name="mapicondescBreachLockIcon" type="BinHex"/>
-	<field hash="F61D05F5" type="BinHex"/>
-	<field hash="A9604BFA" type="BinHex"/>
-	<field hash="792398D2" type="BinHex"/>
+	<field name="mapicondescAccessCodeUnLockIcon" type="BinHex"/>
+	<field name="mapicondescVRUnLockIcon" type="BinHex"/>
+	<field name="mapicondescLockBoxUnLockIcon" type="BinHex"/>
 	<field hash="C0DF1568" type="BinHex"/>
 	<field name="sndHackingContextualSoundId" type="BinHex"/>
-	<field hash="24D9D80C" type="BinHex"/>
+	<field name="sndtpHackingContextualSoundType" type="BinHex"/>
 	<field hash="2D41207D" type="String"/>
 	<field name="sndHackingDistractSoundId" type="BinHex"/>
-	<field hash="E27031F6" type="BinHex"/>
+	<field name="sndtpHackingDistractSoundType" type="BinHex"/>
 	<field hash="37E9A373" type="String"/>
 	<field name="sndHackingPoliceSearchSoundId" type="BinHex"/>
-	<field hash="07601B08" type="BinHex"/>
+	<field name="sndtpHackingPoliceSearchSoundType" type="BinHex"/>
 	<field name="sndHackingHitmanSoundId" type="BinHex"/>
-	<field hash="CDA8D62A" type="BinHex"/>
+	<field name="sndtpHackingHitmanSoundType" type="BinHex"/>
 	<field hash="8F993DD2" type="String"/>
 	<field name="sndHackingAttractSoundId" type="BinHex"/>
-	<field hash="8EF8390F" type="BinHex"/>
+	<field name="sndtpHackingAttractSoundType" type="BinHex"/>
 	<field name="sndHackingDisruptCommSoundId" type="BinHex"/>
-	<field hash="1A7AFFE5" type="BinHex"/>
+	<field name="sndtpHackingDisruptCommSoundType" type="BinHex"/>
 	<field hash="2D299653" type="String"/>
 	<field name="sndHackingLockLeftWheelSoundId" type="BinHex"/>
-	<field hash="32E5C2CD" type="BinHex"/>
+	<field name="sndtpHackingLockLeftWheelSoundType" type="BinHex"/>
 	<field hash="9816B42D" type="String"/>
 	<field name="sndHackingLockRightWheelSoundId" type="BinHex"/>
-	<field hash="BC1A9774" type="BinHex"/>
+	<field name="sndtpHackingLockRightWheelSoundType" type="BinHex"/>
 	<field name="sndHackingTBoneLeftWeaponSoundId" type="BinHex"/>
-	<field hash="6E6C9D90" type="BinHex"/>
+	<field name="sndtpHackingTBoneLeftWeaponSoundType" type="BinHex"/>
 	<field name="sndHackingTBoneRightWeaponSoundId" type="BinHex"/>
-	<field hash="49925EAC" type="BinHex"/>
+	<field name="sndtpHackingTBoneRightWeaponSoundType" type="BinHex"/>
 	<field name="sndHackingTBoneBackWeaponSoundId" type="BinHex"/>
-	<field hash="6DDAE928" type="BinHex"/>
+	<field name="sndtpHackingTBoneBackWeaponSoundType" type="BinHex"/>
 	<field hash="1CB23F31" type="String"/>
 	<field name="sndHackingLockBrackesSoundId" type="BinHex"/>
-	<field hash="37931D6E" type="BinHex"/>
+	<field name="sndtpHackingLockBrackesSoundType" type="BinHex"/>
 	<field hash="51F9402C" type="String"/>
 	<field name="sndHackingEngineOverheatSoundId" type="BinHex"/>
-	<field hash="1FD159DF" type="BinHex"/>
+	<field name="sndtpHackingEngineOverheatSoundType" type="BinHex"/>
 	<field name="sndHackingRobotRebootSoundId" type="BinHex"/>
-	<field hash="BFF45087" type="BinHex"/>
+	<field name="sndtpHackingRobotRebootSoundType" type="BinHex"/>
 	<field name="sndHackingRobotAttractorSoundId" type="BinHex"/>
-	<field hash="AFFF2028" type="BinHex"/>
+	<field name="sndtpHackingRobotAttractorSoundType" type="BinHex"/>
 	<field name="sndHackingRobotRepulsorSoundId" type="BinHex"/>
-	<field hash="D691F9F1" type="BinHex"/>
+	<field name="sndtpHackingRobotRepulsorSoundType" type="BinHex"/>
 	<field name="sndHackingRobotLoveBullSoundId" type="BinHex"/>
-	<field hash="363FFF57" type="BinHex"/>
+	<field name="sndtpHackingRobotLoveBullSoundType" type="BinHex"/>
 	<field name="sndHackingRobotAlarmSoundId" type="BinHex"/>
-	<field hash="08488BBF" type="BinHex"/>
+	<field name="sndtpHackingRobotAlarmSoundType" type="BinHex"/>
 	<field name="sndHackingRemoteControlSoundId" type="BinHex"/>
-	<field hash="4350975E" type="BinHex"/>
+	<field name="sndtpHackingRemoteControlSoundType" type="BinHex"/>
 	<field name="sndHackingDogShockCollarSoundId" type="BinHex"/>
-	<field hash="CE53E230" type="BinHex"/>
+	<field name="sndtpHackingDogShockCollarSoundType" type="BinHex"/>
 	<field hash="62DDC065" type="String"/>
 	<field name="sndHackingIngredientAttractSoundId" type="BinHex"/>
-	<field hash="89BD93B5" type="BinHex"/>
+	<field name="sndtpHackingIngredientAttractSoundType" type="BinHex"/>
 	<field hash="8F65BF45" type="String"/>
 	<field name="sndHackingIngredientArmSoundId" type="BinHex"/>
-	<field hash="6CCF4D3A" type="BinHex"/>
+	<field name="sndtpHackingIngredientArmSoundType" type="BinHex"/>
 	<field name="sndHackingIngredientDisarmSoundId" type="BinHex"/>
-	<field hash="04698EDA" type="BinHex"/>
+	<field name="sndtpHackingIngredientDisarmSoundType" type="BinHex"/>
 	<field name="sndHackingIngredientTriggerSoundId" type="BinHex"/>
-	<field hash="45CFE2D5" type="BinHex"/>
+	<field name="sndtpHackingIngredientTriggerSoundType" type="BinHex"/>
 	<field hash="DEFDECF4" type="String"/>
 	<field name="sndHackingIngredientShutdownSoundId" type="BinHex"/>
-	<field hash="A1E282EA" type="BinHex"/>
+	<field name="sndtpHackingIngredientShutdownSoundType" type="BinHex"/>
 	<field hash="85A36848" type="String"/>
 	<field name="sndHackingIngredientTurnOnSoundId" type="BinHex"/>
-	<field hash="AB874738" type="BinHex"/>
+	<field name="sndtpHackingIngredientTurnOnSoundType" type="BinHex"/>
 	<field name="sndHackingChopperSoundId" type="BinHex"/>
-	<field hash="330F839A" type="BinHex"/>
+	<field name="sndtpHackingChopperSoundType" type="BinHex"/>
 	<field name="sndHackingActivateFlatbedPlatformSoundId" type="BinHex"/>
-	<field hash="588B11FA" type="BinHex"/>
-	<field hash="C3747FD9" type="BinHex"/>
-	<field hash="717F288C" type="BinHex"/>
-	<field hash="1B54EAF3" type="BinHex"/>
-	<field hash="17373D75" type="BinHex"/>
+	<field name="sndtpHackingActivateFlatbedPlatformSoundType" type="BinHex"/>
+	<field name="sndHackingProxySoundId" type="BinHex"/>
+	<field name="sndtpHackingProxySoundType" type="BinHex"/>
+	<field name="sndHackingUnproxySoundId" type="BinHex"/>
+	<field name="sndtpHackingUnproxySoundType" type="BinHex"/>
 	<field hash="CB1B7F3E" type="String"/>
-	<field hash="06CF1925" type="BinHex"/>
-	<field hash="E4E1E1D1" type="BinHex"/>
-	<field hash="B68F000E" type="BinHex"/>
-	<field hash="7782976A" type="BinHex"/>
+	<field name="sndHackingProfileSoundId" type="BinHex"/>
+	<field name="sndtpHackingProfileSoundType" type="BinHex"/>
+	<field name="sndHackingDroneScanSoundId" type="BinHex"/>
+	<field name="sndtpHackingDroneScanSoundType" type="BinHex"/>
 	<field hash="B90114A6" type="String"/>
-	<field hash="72C2CDBC" type="BinHex"/>
-	<field hash="A52F5D40" type="BinHex"/>
+	<field name="sndHackingDroneHijackSoundId" type="BinHex"/>
+	<field name="sndtpHackingDroneHijackSoundType" type="BinHex"/>
 	<field hash="71287038" type="String"/>
-	<field hash="8C814A9B" type="BinHex"/>
-	<field hash="0B374869" type="BinHex"/>
+	<field name="sndHackingDroneDisableSoundId" type="BinHex"/>
+	<field name="sndtpHackingDroneDisableSoundType" type="BinHex"/>
 	<field hash="DE115C30" type="String"/>
-	<field hash="14FA039C" type="BinHex"/>
-	<field hash="6DD51BC1" type="BinHex"/>
+	<field name="sndHackingDroneMalfunctionSoundId" type="BinHex"/>
+	<field name="sndtpHackingDroneMalfunctionSoundType" type="BinHex"/>
 	<field hash="393DAA3D" type="String"/>
-	<field hash="7A1B610C" type="BinHex"/>
-	<field hash="0CD7196D" type="BinHex"/>
-	<field hash="3DE82965" type="BinHex"/>
-	<field hash="03095E9E" type="BinHex"/>
+	<field name="sndHackingDroneBroadcastSoundId" type="BinHex"/>
+	<field name="sndtpHackingDroneBroadcastSoundType" type="BinHex"/>
+	<field name="sndHackingDroneDropCargoSelectedSound" type="BinHex"/>
+	<field name="sndtpHackingDroneDropCargoSelectedSoundType" type="BinHex"/>
 	<field hash="043E600C" type="String"/>
 	<field hash="706FCF27" type="BinHex"/>
 	<field hash="E2E632B2" type="BinHex"/>
 	<field hash="AF520FEE" type="String"/>
-	<field hash="25FA1264" type="BinHex"/>
-	<field hash="13CD5765" type="BinHex"/>
+	<field name="sndHackingLeverageSoundId" type="BinHex"/>
+	<field name="sndtpHackingLeverageSoundType" type="BinHex"/>
 	<field hash="82C6DCD8" type="String"/>
 	<field name="sndHackingIngredientLockedSoundId" type="BinHex"/>
-	<field hash="16CABDD2" type="BinHex"/>
+	<field name="sndtpHackingIngredientLockedSoundType" type="BinHex"/>
 	<field hash="787CEA7F" type="String"/>
 	<field name="sndHackingHackDisabledSoundId" type="BinHex"/>
-	<field hash="A4D5E2A5" type="BinHex"/>
+	<field name="sndtpHackingHackDisabledSoundType" type="BinHex"/>
 	<field name="sndHackingIngredientShutdownExpiringSoundId" type="BinHex"/>
-	<field hash="E60E843A" type="BinHex"/>
+	<field name="sndtpHackingIngredientShutdownExpiringSoundType" type="BinHex"/>
 	<field name="sndHackingContextualRewardSoundId" type="BinHex"/>
 	<field hash="BDE53B68" type="String"/>
 	<field name="sndHackingContextualPersonalCameraSoundId" type="BinHex"/>
-	<field hash="2F2C14A9" type="BinHex"/>
+	<field name="sndHackingContextualPersonalCameraExitSoundId" type="BinHex"/>
 	<field name="sndHackingContextualCallEnemyFactionSoundId" type="BinHex"/>
 	<field name="sndHackingContextualHackExplosiveSoundId" type="BinHex"/>
 	<field hash="A8067099" type="String"/>
@@ -231,24 +231,24 @@
 	<field name="sndHackingContextualBankAccountSoundId" type="BinHex"/>
 	<field hash="4460130A" type="String"/>
 	<field name="sndHackingDefaultSoundId" type="BinHex"/>
-	<field hash="1BCFB02E" type="BinHex"/>
+	<field name="sndtpHackingDefaultSoundType" type="BinHex"/>
 	<field hash="0EC3DEF3" type="String"/>
 	<field name="sndLockedByPlayerStartSound" type="BinHex"/>
-	<field hash="915945D7" type="BinHex"/>
+	<field name="sndtpLockedByPlayerStartSoundType" type="BinHex"/>
 	<field hash="9B85DB33" type="String"/>
 	<field name="sndLockedByPlayerStopSound" type="BinHex"/>
-	<field hash="CC9C39A7" type="BinHex"/>
+	<field name="sndtpLockedByPlayerStopSoundType" type="BinHex"/>
 	<field name="sndHackedByPlayerSound" type="BinHex"/>
-	<field hash="95927A88" type="BinHex"/>
+	<field name="sndtpHackedByPlayerSoundType" type="BinHex"/>
 	<field hash="E8F42E56" type="String"/>
-	<field hash="4A9EB8E6" type="BinHex"/>
-	<field hash="87463849" type="BinHex"/>
+	<field name="sndInvalidHackSelectedSound" type="BinHex"/>
+	<field name="sndtpInvalidHackSelectedSoundType" type="BinHex"/>
 	<field hash="78790608" type="BinHex"/>
 	<field hash="816D4DD3" type="BinHex"/>
-	<field hash="FBD0B989" type="BinHex"/>
-	<field hash="50AFF434" type="BinHex"/>
-	<field hash="47038D6C" type="BinHex"/>
-	<field hash="73325344" type="BinHex"/>
+	<field name="sndRewardSelectedSound" type="BinHex"/>
+	<field name="sndtpRewardSelectedSoundType" type="BinHex"/>
+	<field name="sndStartOpSelectedSound" type="BinHex"/>
+	<field name="sndtpStartOpSelectedSoundType" type="BinHex"/>
 	<field name="fReticleInTargetingQuadWeight" type="Float"/>
 	<field name="fDistanceFromReticleWeight" type="Float"/>
 	<field name="fSizeOfTargetingQuadOnScreenWeight" type="Float"/>
@@ -267,7 +267,7 @@
 	<field name="fTimeToBreachProtectedEntity" type="Float"/>
 	<field name="sndBreachingHackableStartSoundId" type="BinHex"/>
 	<field name="sndBreachingHackablePauseSoundId" type="BinHex"/>
-	<field hash="DFBEFD09" type="BinHex"/>
+	<field name="sndBreachingHackableCompletedSoundId" type="BinHex"/>
 	<field name="fMassHackNPCRadius" type="Float"/>
 	<field name="fMassHackVehicleRadius" type="Float"/>
 	<field name="fMassHackIngredientRadius" type="Float"/>
@@ -310,15 +310,15 @@
 	<field name="fTargetingPulseRotationFadeSpeedMultiplier" type="Float"/>
 	<field name="fTargetingPulseRotationMultiplierDuration" type="Float"/>
 	<field name="fTargetingPulseRotationMultiplierFadeSpeed" type="Float"/>
-	<field hash="A7BBBB17" type="BinHex"/>
-	<field hash="373C557E" type="BinHex"/>
-	<field hash="982917F5" type="BinHex"/>
-	<field hash="08AEF99C" type="BinHex"/>
-	<field hash="A081B889" type="BinHex"/>
-	<field hash="9F13146B" type="BinHex"/>
-	<field hash="9B50CA30" type="BinHex"/>
-	<field hash="4E72DC9C" type="BinHex"/>
-	<field hash="CF9A525A" type="BinHex"/>
+	<field name="fMinTimeForBagleyHackAfterMinorEvent" type="BinHex"/>
+	<field name="fMaxTimeForBagleyHackAfterMinorEvent" type="BinHex"/>
+	<field name="fMinTimeForBagleyHackAfterMajorEvent" type="BinHex"/>
+	<field name="fMaxTimeForBagleyHackAfterMajorEvent" type="BinHex"/>
+	<field name="iBagleyAffectedEntitiesMinorEvent" type="BinHex"/>
+	<field name="iBagleyAffectedEntitiesMajorEvent" type="BinHex"/>
+	<field name="fBagleyHackRadius" type="BinHex"/>
+	<field name="selBagleyLineColor" type="BinHex"/>
+	<field name="fBagleyConnectionLineWidth" type="BinHex"/>
 	<object name="DataCloudsSettings">
 		<field name="iNumberOfPlanes" type="Int32"/>
 		<object name="InitialDisposition">
@@ -357,16 +357,16 @@
 			</object>
 		</object>
 	</object>
-	<object hash="430557D2">
+	<object name="ProfilePortrait">
 		<object name="Settings">
-			<field hash="03005914" type="BinHex"/>
-			<field hash="BA43B496" type="BinHex"/>
-			<field hash="47C6B7D6" type="BinHex"/>
-			<field hash="21E7FD57" type="BinHex"/>
-			<field hash="D3B53263" type="BinHex"/>
-			<field hash="8A7847C3" type="BinHex"/>
+			<field name="fOverrideTextureSize" type="BinHex"/>
+			<field name="PortraitSaveSizeWidth" type="BinHex"/>
+			<field name="PortraitSaveSizeHeight" type="BinHex"/>
+			<field name="fHighResOverrideTextureSize" type="BinHex"/>
+			<field name="HighResPortraitSaveSizeWidth" type="BinHex"/>
+			<field name="HighResPortraitSaveSizeHeight" type="BinHex"/>
 			<field name="PictureWithPoseProbability" type="BinHex"/>
-			<field hash="95B764D3" type="BinHex"/>
+			<field name="CustomEnvironmentMapIndex" type="BinHex"/>
 			<field hash="FD914198" type="BinHex"/>
 			<object name="ZoomPresets">
 				<object name="ZoomPreset">
@@ -394,21 +394,21 @@
 				</object>
 			</object>
 			<object name="Lighting">
-				<object hash="A80A504E">
+				<object name="LightingSetup">
 					<field name="fExposure" type="Float"/>
-					<field hash="7096DCCB" type="BinHex"/>
-					<field hash="B7A8ED29" type="BinHex"/>
+					<field name="fExposureBias" type="BinHex"/>
+					<field name="bEnableShadows" type="BinHex"/>
 					<object name="Lights">
 						<object name="Light">
 							<field name="bEnabled" type="Boolean"/>
 							<field name="selType" type="Enum"/>
 							<field name="colorColor" type="Vector3"/>
-							<field hash="575EB40C" type="BinHex"/>
-							<field hash="23226F47" type="BinHex"/>
+							<field name="fLumenValue" type="BinHex"/>
+							<field name="bKiloLumen" type="BinHex"/>
 							<field name="vectorPosition" type="BinHex"/>
-							<field hash="2B1BFA99" type="BinHex"/>
-							<field hash="0C3CE552" type="BinHex"/>
-							<field hash="32D31EA9" type="BinHex"/>
+							<field name="fUserRadius" type="BinHex"/>
+							<field name="bCastShadowEnabled" type="BinHex"/>
+							<field name="fSpotAngle" type="BinHex"/>
 							<field name="fShadowDepthBiasScale" type="Float"/>
 							<field name="fShadowSlopeScaledDepthBiasScale" type="Float"/>
 						</object>
@@ -450,16 +450,16 @@
 			</object>
 		</object>
 	</object>
-	<object hash="0482DE1C">
+	<object name="FullBodyPortrait">
 		<object name="Settings">
-			<field hash="03005914" type="BinHex"/>
-			<field hash="BA43B496" type="BinHex"/>
-			<field hash="47C6B7D6" type="BinHex"/>
-			<field hash="21E7FD57" type="BinHex"/>
-			<field hash="D3B53263" type="BinHex"/>
-			<field hash="8A7847C3" type="BinHex"/>
+			<field name="fOverrideTextureSize" type="BinHex"/>
+			<field name="PortraitSaveSizeWidth" type="BinHex"/>
+			<field name="PortraitSaveSizeHeight" type="BinHex"/>
+			<field name="fHighResOverrideTextureSize" type="BinHex"/>
+			<field name="HighResPortraitSaveSizeWidth" type="BinHex"/>
+			<field name="HighResPortraitSaveSizeHeight" type="BinHex"/>
 			<field name="PictureWithPoseProbability" type="BinHex"/>
-			<field hash="95B764D3" type="BinHex"/>
+			<field name="CustomEnvironmentMapIndex" type="BinHex"/>
 			<field hash="FD914198" type="BinHex"/>
 			<object name="ZoomPresets">
 				<object name="ZoomPreset">
@@ -487,21 +487,21 @@
 				</object>
 			</object>
 			<object name="Lighting">
-				<object hash="A80A504E">
+				<object name="LightingSetup">
 					<field name="fExposure" type="Float"/>
-					<field hash="7096DCCB" type="BinHex"/>
-					<field hash="B7A8ED29" type="BinHex"/>
+					<field name="fExposureBias" type="BinHex"/>
+					<field name="bEnableShadows" type="BinHex"/>
 					<object name="Lights">
 						<object name="Light">
 							<field name="bEnabled" type="Boolean"/>
 							<field name="selType" type="Enum"/>
 							<field name="colorColor" type="Vector3"/>
-							<field hash="575EB40C" type="BinHex"/>
-							<field hash="23226F47" type="BinHex"/>
+							<field name="fLumenValue" type="BinHex"/>
+							<field name="bKiloLumen" type="BinHex"/>
 							<field name="vectorPosition" type="BinHex"/>
-							<field hash="2B1BFA99" type="BinHex"/>
-							<field hash="0C3CE552" type="BinHex"/>
-							<field hash="32D31EA9" type="BinHex"/>
+							<field name="fUserRadius" type="BinHex"/>
+							<field name="bCastShadowEnabled" type="BinHex"/>
+							<field name="fSpotAngle" type="BinHex"/>
 							<field name="fShadowDepthBiasScale" type="Float"/>
 							<field name="fShadowSlopeScaledDepthBiasScale" type="Float"/>
 						</object>
@@ -580,7 +580,7 @@
 		</object>
 		<object name="sndvarProfilerAmbienceRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object name="locsectionidSpecificHubLockedProfilerInfoId">
 			<field name="LocalizationId" type="UInt64"/>
@@ -786,7 +786,7 @@
 			<field name="fTextureIndexSpeed" type="Float"/>
 			<field name="fTextureUVSpeed" type="Float"/>
 		</object>
-		<object hash="022416CB">
+		<object name="KeyLocationLineSettings">
 			<field hash="69960ED2" type="String"/>
 			<field name="fileFlipbookTexture" type="String"/>
 			<field name="iTextureFlipbookCountY" type="Int32"/>
@@ -794,7 +794,7 @@
 			<field name="fTextureIndexSpeed" type="Float"/>
 			<field name="fTextureUVSpeed" type="Float"/>
 		</object>
-		<object hash="314BB4E7">
+		<object name="VRPuzzleLineSettings">
 			<field hash="69960ED2" type="String"/>
 			<field name="fileFlipbookTexture" type="String"/>
 			<field name="iTextureFlipbookCountY" type="Int32"/>
@@ -911,10 +911,10 @@
 		<field name="fDistanceBeforeProfilingVehicleOccupant" type="Float"/>
 		<field name="fProfilingRange" type="Float"/>
 		<field name="fCameraProfilingRange" type="Float"/>
-		<field hash="4FA6D24C" type="BinHex"/>
+		<field name="fMaxHardLockRange" type="BinHex"/>
 		<field hash="4E3E1A86" type="BinHex"/>
-		<field hash="22F8265F" type="BinHex"/>
-		<field hash="445DBD87" type="BinHex"/>
+		<field name="fMaxCameraHardLockRange" type="BinHex"/>
+		<field name="fMaxCameraHackingDistance" type="BinHex"/>
 	</object>
 	<object name="ChatReadSpeedSettings">
 		<field name="fWordPerSecond" type="Float"/>
@@ -957,49 +957,49 @@
 		<field hash="5B5B2C23" type="String"/>
 		<field name="matDefaultMaterial" type="BinHex"/>
 	</object>
-	<object hash="5F840A11">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="HackGlobalAvailability">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="D01DA8FB">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="HackCooldownModifier">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="D6AF664C">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="CensusHackCooldown">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="2CCCF06F">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="SlowEscapeTimerMultiplier">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="F94E3EB5">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="DroneShutdownDuration">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="B053F89E">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="DroneMalfunctionDuration">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="5375E185">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="SwitchAllegianceDurationChase">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="AEE75195">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="SwitchAllegianceDurationCT">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="20982751">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="SwitchAllegianceDurationRiot">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="DD26ABB0">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="SwitchAllegianceDurationTurret">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="0095550A">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="00A2E917">
 		<field name="LocalizationId" type="UInt64"/>
@@ -1019,33 +1019,33 @@
 	<object hash="BAA23DED">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="2196C131">
+	<object name="HackingDroneDockChaseDroneSoundId">
 		<field name="sndSoundId" type="BinHex"/>
-		<field hash="8FE662AD" type="BinHex"/>
+		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
-	<object hash="2B2A1822">
+	<object name="HackingDroneDockConstructionDroneSoundId">
 		<field name="sndSoundId" type="BinHex"/>
-		<field hash="8FE662AD" type="BinHex"/>
+		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
-	<object hash="566CCE43">
+	<object name="HackingDroneDockCtDroneSoundId">
 		<field name="sndSoundId" type="BinHex"/>
-		<field hash="8FE662AD" type="BinHex"/>
+		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
-	<object hash="1B8E39D8">
+	<object name="HackingDroneDockDeliveryDroneSoundId">
 		<field name="sndSoundId" type="BinHex"/>
-		<field hash="8FE662AD" type="BinHex"/>
+		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
-	<object hash="E0402C33">
+	<object name="HackingDroneDockNewsDroneSoundId">
 		<field name="sndSoundId" type="BinHex"/>
-		<field hash="8FE662AD" type="BinHex"/>
+		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
-	<object hash="CC284C83">
+	<object name="HackingDroneDockRiotDroneSoundId">
 		<field name="sndSoundId" type="BinHex"/>
-		<field hash="8FE662AD" type="BinHex"/>
+		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
-	<object hash="1C63E8CB">
+	<object name="HackingDroneDockScannerDroneSoundId">
 		<field name="sndSoundId" type="BinHex"/>
-		<field hash="8FE662AD" type="BinHex"/>
+		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="locstridBreachingProgressBarRunningInfo">
 		<field name="LocalizationId" type="UInt64"/>
@@ -1079,7 +1079,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="3FF05E9E">
+	<object name="curveBagleyIntesityPerMinuteCurve">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">
@@ -1089,8 +1089,8 @@
 			</object>
 		</object>
 	</object>
-	<object hash="39A081EE">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="BagleyHackActivationRule">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 </class>

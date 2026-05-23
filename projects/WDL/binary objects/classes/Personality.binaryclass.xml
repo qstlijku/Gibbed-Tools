@@ -88,13 +88,13 @@
 			<field name="bApproachEnabled" type="Boolean"/>
 			<field name="fApproachBehaviorProbability" type="Float"/>
 		</object>
-		<object hash="891B86AB">
-			<field hash="A550FE8E" type="BinHex"/>
-			<field hash="1411AB72" type="BinHex"/>
+		<object name="SuppressiveFire">
+			<field name="bSuppressiveFireEnabled" type="BinHex"/>
+			<field name="fSuppressiveFireProbability" type="BinHex"/>
 		</object>
-		<object hash="1E87C6D3">
-			<field hash="C2A25E86" type="BinHex"/>
-			<field hash="9768157A" type="BinHex"/>
+		<object name="Pincer">
+			<field name="bPincerEnabled" type="BinHex"/>
+			<field name="fPincerProbability" type="BinHex"/>
 		</object>
 		<object name="OutOfRange">
 			<field name="fTargetIsOutOfRangeDistanceMin" type="Float"/>
@@ -333,8 +333,8 @@
 	<object name="MeleePushBack">
 		<field name="bMeleePushBackEnabled" type="Boolean"/>
 	</object>
-	<object hash="A2BF33D7">
-		<field hash="21A2186B" type="BinHex"/>
+	<object name="AIModifiers">
+		<field name="bCanBeAssignedToAIModifiers" type="BinHex"/>
 	</object>
 	<object name="Barks2">
 		<object name="BarkAwareStayAlert">

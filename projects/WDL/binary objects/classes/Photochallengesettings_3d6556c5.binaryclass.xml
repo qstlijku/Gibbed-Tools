@@ -6,47 +6,47 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="591BBC41" type="BinHex"/>
-	<field hash="CB46FBDA" type="BinHex"/>
-	<field hash="0825D3BC" type="BinHex"/>
-	<object hash="090D7075">
-		<object hash="654E0DE0">
-			<field hash="654E0DE0" type="BinHex"/>
+	<field name="bResetTrackingData" type="BinHex"/>
+	<field name="bClearTrackingData" type="BinHex"/>
+	<field name="pdcfgPhotoTargetConfig" type="BinHex"/>
+	<object name="PhotoTargetsToValidate">
+		<object name="pdcfgPhotoTarget">
+			<field name="pdcfgPhotoTarget" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="1FEB6DEC">
-		<field hash="FBE89548" type="BinHex"/>
-		<field hash="830523E1" type="String"/>
+	<object name="TrackingData">
+		<field name="selDataLinkType" type="BinHex"/>
+		<field name="sDataTrackElement" type="String"/>
 		<field name="selTagType" type="Enum"/>
-		<field hash="BD70EEED" type="BinHex"/>
-		<field hash="828AC6CC" type="BinHex"/>
-		<field hash="4B53C67A" type="BinHex"/>
-		<field hash="39636A25" type="BinHex"/>
-		<object hash="8CE04FFB">
+		<field name="selPrevTagType" type="BinHex"/>
+		<field name="pdmodifModifier" type="BinHex"/>
+		<field name="bAddVisibilityRule" type="BinHex"/>
+		<field name="fVisibilityPercentage" type="BinHex"/>
+		<object name="tagcategoryselectionblackboardTags">
 			<object name="TagCategorySelectionArray"/>
-			<object hash="D0C5DABB">
+			<object name="TagDescriptorUI">
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D871E5C6">
-			<field hash="6065F6F0" type="BinHex"/>
-			<field hash="6A909358" type="BinHex"/>
+		<object name="RuleConfig">
+			<field name="pdruleRuleConfig" type="BinHex"/>
+			<field name="iNumberOfEntitiesToValidate" type="BinHex"/>
 		</object>
-		<object hash="1FEB6DEC">
-			<field hash="FBE89548" type="BinHex"/>
-			<field hash="830523E1" type="String"/>
+		<object name="TrackingData">
+			<field name="selDataLinkType" type="BinHex"/>
+			<field name="sDataTrackElement" type="String"/>
 			<field name="selTagType" type="Enum"/>
-			<field hash="BD70EEED" type="BinHex"/>
-			<field hash="828AC6CC" type="BinHex"/>
-			<object hash="8CE04FFB">
+			<field name="selPrevTagType" type="BinHex"/>
+			<field name="pdmodifModifier" type="BinHex"/>
+			<object name="tagcategoryselectionblackboardTags">
 				<object name="TagCategorySelectionArray"/>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="D871E5C6">
-				<field hash="6065F6F0" type="BinHex"/>
-				<field hash="6A909358" type="BinHex"/>
+			<object name="RuleConfig">
+				<field name="pdruleRuleConfig" type="BinHex"/>
+				<field name="iNumberOfEntitiesToValidate" type="BinHex"/>
 			</object>
 		</object>
 	</object>

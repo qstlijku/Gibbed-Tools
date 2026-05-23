@@ -7,80 +7,80 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="E6E847F3" type="String"/>
-	<field hash="11B13755" type="BinHex"/>
-	<object hash="C43A8FB2">
-		<field hash="18BA547A" type="String"/>
+	<field name="uirendertotexturedescriptorDescriptorType" type="BinHex"/>
+	<object name="UIRenderToTextureDescriptor">
+		<field name="fileFeuPath" type="String"/>
 		<field name="sMainContainerName" type="String"/>
 		<field name="Width" type="BinHex"/>
 		<field name="Height" type="BinHex"/>
-		<field hash="3458BF5D" type="BinHex"/>
-		<field hash="72C2983D" type="BinHex"/>
-		<field hash="B081E933" type="BinHex"/>
-		<field hash="1FDBEFB3" type="BinHex"/>
-		<field hash="6D39D1BA" type="BinHex"/>
-		<field hash="C960877E" type="BinHex"/>
-		<object hash="59DF4935">
+		<field name="uInvalidRoomFrame" type="BinHex"/>
+		<field name="uInvalidSequenceFrame" type="BinHex"/>
+		<field name="uisoundTerminalActivatedSound" type="BinHex"/>
+		<field name="uisoundTerminalDeactivedSound" type="BinHex"/>
+		<field name="uisoundTerminalUpdatedSound" type="BinHex"/>
+		<field name="uisoundTerminalWrongInputSound" type="BinHex"/>
+		<object name="locstridInputWaiting">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="3852BA81">
+		<object name="locstridRoom1">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A15BEB3B">
+		<object name="locstridRoom2">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E55B2841">
+		<object name="locstridError1">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="7C5279FB">
+		<object name="locstridError2">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="81D039E2">
+		<object name="locstridFailure">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<field hash="32FE0577" type="BinHex"/>
-		<object hash="4CB3A729">
+		<object name="locstridScreenOff">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="10A85614">
+		<object name="locstridSequenceScreen">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="516F9453">
+		<object name="locstridSequenceFailed">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="2DE2CC82">
+		<object name="locstridBossVulnerable">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="66F9C6B2">
+		<object name="locstridWipeDronesAttack">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="EE208BDD">
+		<object name="locstridStep1Name">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A980F10D">
+		<object name="locstridStep2Name">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="94E0D8BD">
+		<object name="locstridStep3Name">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="26C004AD">
+		<object name="locstridStep4Name">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8694744F">
+		<object name="locstridStepStateOff">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="7DE53005">
+		<object name="locstridStepStateOngoing">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="35CD9882">
+		<object name="locstridStepStateCompleted">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="FE0E57E5">
+		<object name="locstridStepFailedSubtext">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="EB677341">
+		<object name="locstridWipeScreenMainText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="528E80F3">
+		<object name="locstridWipeScreenSubtext">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

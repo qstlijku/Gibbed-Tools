@@ -10,13 +10,13 @@
 	<field name="possysdescriptorDescriptorType" type="BinHex"/>
 	<object name="PosSysDescriptor">
 		<field name="vectorPositionOffset" type="BinHex"/>
-		<field hash="B8F8832A" type="BinHex"/>
+		<field name="bIsOccludable" type="BinHex"/>
 		<field hash="26D5EB4A" type="BinHex"/>
 		<field hash="8590B02D" type="BinHex"/>
 		<field name="bDisplayInWorld" type="Boolean"/>
 		<field name="bDisplayInMiniMap" type="Boolean"/>
 		<field name="bDisplayInWorldMap" type="Boolean"/>
-		<field hash="DF8D895B" type="BinHex"/>
+		<field name="bDisplayInRaids" type="BinHex"/>
 		<field name="fRadius" type="Float"/>
 		<field name="selZoneType" type="Enum"/>
 		<field name="selActivityTyp" type="Enum"/>
@@ -39,9 +39,9 @@
 		<field name="mapicondescMapIconDescription" type="BinHex"/>
 		<field name="selPosSysLayer" type="Enum"/>
 		<field name="bCanBind" type="Boolean"/>
-		<field hash="DAE524F7" type="BinHex"/>
-		<field hash="AB0F25F9" type="BinHex"/>
-		<field hash="DCB3AEDF" type="BinHex"/>
+		<field name="bDisplayDescription" type="BinHex"/>
+		<field name="bDisplayDistance" type="BinHex"/>
+		<field name="bDefaultMapOnly" type="BinHex"/>
 		<field name="fNearScale" type="Float"/>
 		<field name="fNearScaleDistance" type="Float"/>
 		<field name="fFarScale" type="Float"/>
@@ -49,7 +49,7 @@
 		<field name="selOnlineActivityType" type="Enum"/>
 		<field hash="C26617A1" type="BinHex"/>
 		<field hash="1F8279E1" type="BinHex"/>
-		<field hash="8B57C178" type="BinHex"/>
+		<field name="uiIndex" type="BinHex"/>
 		<field hash="5D8BAD1D" type="BinHex"/>
 		<field hash="B43A138E" type="BinHex"/>
 		<field hash="E70A0ED8" type="BinHex"/>

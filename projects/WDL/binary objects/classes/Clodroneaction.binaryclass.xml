@@ -20,8 +20,8 @@
 	<object name="CityLifeActionSettings">
 		<field name="bProximityBehavior" type="Boolean"/>
 		<field name="selBhvPriority" type="Enum"/>
-		<field hash="CB775E97" type="BinHex"/>
-		<field hash="E3DC2A77" type="BinHex"/>
+		<field name="bDespawnOnUse" type="BinHex"/>
+		<field name="incidentlistIncidentIgnoreList" type="BinHex"/>
 		<object name="TriggerBehaviors"/>
 		<object name="QuitSettings">
 			<field name="bSpecifyQuitState" type="Boolean"/>
@@ -32,10 +32,10 @@
 			</object>
 		</object>
 	</object>
-	<object hash="245FD7E5">
-		<object hash="D038FD91">
+	<object name="AnimationTagInformation">
+		<object name="tagcategoryselectionblackboardActivityTags">
 			<object name="TagCategorySelectionArray"/>
-			<object hash="D0C5DABB">
+			<object name="TagDescriptorUI">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
@@ -46,9 +46,9 @@
 				</object>
 			</object>
 		</object>
-		<object hash="413663B1">
+		<object name="tagcategoryselectionblackboardExclusionTags">
 			<object name="TagCategorySelectionArray"/>
-			<object hash="D0C5DABB">
+			<object name="TagDescriptorUI">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
@@ -93,19 +93,19 @@
 			</object>
 		</object>
 	</object>
-	<object hash="3C7AB27D">
-		<field hash="4DBCE0FB" type="BinHex"/>
-		<field hash="34870E16" type="BinHex"/>
+	<object name="AtlasProperties">
+		<field name="bExportToAtlas" type="BinHex"/>
+		<field name="atlastypeElementType" type="BinHex"/>
 	</object>
-	<object hash="397BED65">
-		<field hash="F6F7024B" type="BinHex"/>
-		<object hash="1D4F5B05">
-			<object hash="6E357AFD">
-				<field hash="6A46BB64" type="BinHex"/>
-				<field hash="564B843D" type="BinHex"/>
-				<field hash="15872637" type="BinHex"/>
-				<field hash="996F2864" type="BinHex"/>
-				<field hash="A562173D" type="BinHex"/>
+	<object name="ActionDroneSettings">
+		<field name="bLoopLookAtsSequence" type="BinHex"/>
+		<object name="LookAtsSequence">
+			<object name="LookAtStep">
+				<field name="fYawMin" type="BinHex"/>
+				<field name="fYawMax" type="BinHex"/>
+				<field name="fSpeedModifier" type="BinHex"/>
+				<field name="fDurationMin" type="BinHex"/>
+				<field name="fDurationMax" type="BinHex"/>
 			</object>
 		</object>
 	</object>

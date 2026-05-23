@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="84438D99" type="BinHex"/>
-	<field hash="08B5E674" type="BinHex"/>
-	<field hash="10F8DF87" type="BinHex"/>
+	<field name="fOppressedStateNPCDoorSpawnScale" type="BinHex"/>
+	<field name="fOppressedStateCivilianDensityScale" type="BinHex"/>
+	<field name="fOppressedStateTrafficDensityScale" type="BinHex"/>
 </class>

@@ -7,15 +7,15 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Lights">
-		<field hash="26A22F90" type="BinHex"/>
-		<field hash="39C7CABC" type="BinHex"/>
-		<field hash="87B0EBFA" type="BinHex"/>
-		<field hash="D74C9ED8" type="BinHex"/>
+		<field name="vec3Offset" type="BinHex"/>
+		<field name="vec3Target" type="BinHex"/>
+		<field name="fIntensityMultiplier" type="BinHex"/>
+		<field name="dynamiclightprefabSettings" type="BinHex"/>
 		<object name="Lights">
-			<field hash="26A22F90" type="BinHex"/>
-			<field hash="39C7CABC" type="BinHex"/>
-			<field hash="87B0EBFA" type="BinHex"/>
-			<field hash="D74C9ED8" type="BinHex"/>
+			<field name="vec3Offset" type="BinHex"/>
+			<field name="vec3Target" type="BinHex"/>
+			<field name="fIntensityMultiplier" type="BinHex"/>
+			<field name="dynamiclightprefabSettings" type="BinHex"/>
 		</object>
 	</object>
 </class>

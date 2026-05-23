@@ -7,10 +7,10 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="3AF28808" type="String"/>
-	<field hash="C394FD63" type="BinHex"/>
+	<field name="scriptedhackeffectselHackEffectType" type="BinHex"/>
 	<field hash="EDD87BE7" type="BinHex"/>
-	<object hash="F22430E5">
-		<field hash="68C36137" type="BinHex"/>
+	<object name="HackEffect">
+		<field name="fLifetime" type="BinHex"/>
 		<field name="fProbability" type="Float"/>
 		<field name="selType" type="Enum"/>
 		<field hash="185C9CB7" type="BinHex"/>
@@ -24,39 +24,39 @@
 		<field hash="BD6ADAAC" type="BinHex"/>
 		<field hash="07FB0F0E" type="BinHex"/>
 		<field hash="F5DB21AB" type="BinHex"/>
-		<field hash="81CE6015" type="BinHex"/>
-		<field hash="A0CBD2C4" type="BinHex"/>
-		<field hash="C52D4B4C" type="BinHex"/>
-		<field hash="E3CD7F45" type="BinHex"/>
+		<field name="bLoopEffect" type="BinHex"/>
+		<field name="EffectTeamSpeak" type="BinHex"/>
+		<field name="bReverseLogic" type="BinHex"/>
+		<field name="selRepelType" type="BinHex"/>
 		<field hash="F20C73E5" type="BinHex"/>
 		<field name="bLooping" type="Boolean"/>
-		<object hash="A1270AF0">
-			<object hash="141FE54C">
-				<field hash="7A982358" type="BinHex"/>
+		<object name="RequiredFlags">
+			<object name="RequiredFlagsList">
+				<field name="selEntityCategoryFlag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="1EC03FE1">
-			<object hash="94FB39FB">
-				<field hash="7A982358" type="BinHex"/>
+		<object name="ForbiddenFlags">
+			<object name="ForbiddenFlagsList">
+				<field name="selEntityCategoryFlag" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="9BE373BC">
-			<field hash="844E14C1" type="BinHex"/>
+		<object name="VisChainList">
+			<field name="selVisualEffectType" type="BinHex"/>
 			<field name="bEnable" type="Boolean"/>
-			<field hash="3D26EE5E" type="BinHex"/>
-			<field hash="FFBA59D7" type="BinHex"/>
-			<object hash="9BE373BC">
-				<field hash="844E14C1" type="BinHex"/>
+			<field name="fNextEffectDelay" type="BinHex"/>
+			<field name="fEnableTime" type="BinHex"/>
+			<object name="VisChainList">
+				<field name="selVisualEffectType" type="BinHex"/>
 				<field name="bEnable" type="Boolean"/>
-				<field hash="3D26EE5E" type="BinHex"/>
-				<field hash="FFBA59D7" type="BinHex"/>
+				<field name="fNextEffectDelay" type="BinHex"/>
+				<field name="fEnableTime" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F18E7CA6">
-			<object hash="BEABF784">
+		<object name="HackChain">
+			<object name="HackChainList">
 				<field name="selCategory" type="Enum"/>
-				<field hash="B1987022" type="BinHex"/>
-				<field hash="350A8F46" type="BinHex"/>
+				<field name="fDelayTime" type="BinHex"/>
+				<field name="fDelayTimeRandMax" type="BinHex"/>
 				<field hash="F20C73E5" type="BinHex"/>
 				<field hash="B76535CC" type="BinHex"/>
 			</object>

@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="selColorMode" type="Enum"/>
 	<field name="clrColor" type="BinHex"/>
-	<field hash="ACD13808" type="BinHex"/>
+	<field name="bNormalizeRGB" type="BinHex"/>
 	<field name="fColorTemperature" type="Float"/>
 	<field name="fTint" type="Float"/>
 </class>

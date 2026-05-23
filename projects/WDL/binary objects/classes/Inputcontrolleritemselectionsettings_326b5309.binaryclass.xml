@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="11AC1967" type="BinHex"/>
+	<field name="fPopupDisplayTime" type="BinHex"/>
 	<object name="Sounds">
-		<field hash="DA59391C" type="BinHex"/>
-		<field hash="8176556B" type="BinHex"/>
-		<field hash="FDD7DE2B" type="BinHex"/>
-		<field hash="7BF6EA2B" type="BinHex"/>
+		<field name="uisoundPopupSelectionSound" type="BinHex"/>
+		<field name="uisoundPopupAlreadySelectedSound" type="BinHex"/>
+		<field name="uisoundPopupUnavailableSelectionSound" type="BinHex"/>
+		<field name="uisoundPopupCloseSound" type="BinHex"/>
 	</object>
 </class>

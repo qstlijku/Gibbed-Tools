@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="6751311B">
-		<field hash="A31D3B67" type="BinHex"/>
+	<object name="CoversGroups">
+		<field name="vectorGroupSize" type="BinHex"/>
 		<field hash="DBC1384F" type="BinHex"/>
 	</object>
-	<object hash="6595E9AE">
-		<object hash="57069BC5">
+	<object name="PointSelection">
+		<object name="curveDistanceXYWeightFactorCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -21,7 +21,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="00026D2B">
+		<object name="curveDistanceZWeightFactorCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -31,7 +31,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="857D80A4">
+		<object name="curveAngleDiffWeightFactorCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">

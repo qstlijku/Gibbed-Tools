@@ -6,59 +6,59 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="0635CB7B"/>
-	<object hash="A7F9AAD2">
-		<field hash="9AC48891" type="BinHex"/>
-		<field hash="8282BBDB" type="BinHex"/>
-		<field hash="4E8FC0D4" type="BinHex"/>
-		<object hash="12EE37E8">
-			<object hash="CC47CE69">
-				<field hash="CC47CE69" type="BinHex"/>
+	<object name="FAAMissionsDataList"/>
+	<object name="opgeneratorsettingsGenerator">
+		<field name="RegroupNeededDistance" type="BinHex"/>
+		<field name="fDeliveryDestinationSearchMinDistance" type="BinHex"/>
+		<field name="fDeliveryDestinationSearchMaxDistance" type="BinHex"/>
+		<object name="Themes">
+			<object name="opgenthemeOpGenTheme">
+				<field name="opgenthemeOpGenTheme" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="22B468B7">
+		<object name="WeightedPatterns">
 			<object name="Pattern">
-				<field hash="FC4412B3" type="BinHex"/>
+				<field name="fPickWeight" type="BinHex"/>
 				<object name="Pattern">
-					<field hash="B789ABB3" type="BinHex"/>
+					<field name="opslistOpConfigDbObject" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="218BB3BC">
-			<object hash="12EE37E8">
-				<object hash="56B4C80C">
-					<field hash="480568A0" type="BinHex"/>
-					<field hash="A3241B6F" type="BinHex"/>
-					<field hash="EFAF264A" type="BinHex"/>
-					<field hash="3CEE103B" type="BinHex"/>
-					<object hash="4588A390">
-						<object hash="58959578">
+		<object name="OpNarrationSettings">
+			<object name="Themes">
+				<object name="Theme">
+					<field name="opgenthemeTheme" type="BinHex"/>
+					<field name="phonecommunicationsettingsOpTransitionBriefing" type="BinHex"/>
+					<field name="phonecommunicationsettingsOpFailBriefing" type="BinHex"/>
+					<field name="phonecommunicationsettingsRestartVoteBriefing" type="BinHex"/>
+					<object name="Combinations">
+						<object name="Combination">
 							<field name="Name" type="BinHex"/>
-							<field hash="B1F59781" type="BinHex"/>
-							<field hash="F7176E6A" type="BinHex"/>
-							<object hash="4E156004">
-								<object hash="1E8920B7">
-									<field hash="F2466D8E" type="BinHex"/>
-									<field hash="034F68BC" type="BinHex"/>
-									<field hash="B2216602" type="BinHex"/>
-									<object hash="7D86E3E3">
+							<field name="phonecommunicationsettingsOpIntroBriefing" type="BinHex"/>
+							<field name="phonecommunicationsettingsOpWrapUpBriefing" type="BinHex"/>
+							<object name="Plots">
+								<object name="Plot">
+									<field name="opgenplotPlot" type="BinHex"/>
+									<field name="phonecommunicationsettingsChapterIntroBriefing" type="BinHex"/>
+									<field name="phonecommunicationsettingsChapterEndBriefing" type="BinHex"/>
+									<object name="locstridOpDescription">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
-									<object hash="96C1C1A8">
-										<object hash="C623CB5C">
-											<field hash="C7B490E0" type="BinHex"/>
-											<object hash="D07843EE">
-												<object hash="173F69B0">
-													<field hash="7A24A6A6" type="BinHex"/>
-													<object hash="04F405F9">
+									<object name="ObjectiveFamilies">
+										<object name="ObjectiveFamily">
+											<field name="opgenobjectivefamilyObjectiveLogicFamilyDb" type="BinHex"/>
+											<object name="ObjectiveLogics">
+												<object name="ObjectiveLogic">
+													<field name="dgobjectivelogicObjectiveLogicDb" type="BinHex"/>
+													<object name="locstridFriendlyName">
 														<field name="LocalizationId" type="UInt64"/>
 													</object>
-													<object hash="B4AA061A">
-														<object hash="38B9885A">
-															<object hash="DADF8182">
+													<object name="ObjectiveTextsSettings">
+														<object name="ObjectiveTextSettings">
+															<object name="locstridShortLocId">
 																<field name="LocalizationId" type="UInt64"/>
 															</object>
-															<object hash="14BBAE7D">
+															<object name="locstridSoloObjectiveLocIdFallback">
 																<field name="LocalizationId" type="UInt64"/>
 															</object>
 														</object>
@@ -69,9 +69,9 @@
 									</object>
 								</object>
 							</object>
-							<object hash="D1DD4676">
-								<object hash="694BF7F1">
-									<object hash="2F3FA927">
+							<object name="OpNames">
+								<object name="OpName">
+									<object name="locstridOpName">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
 								</object>
@@ -81,93 +81,93 @@
 				</object>
 			</object>
 		</object>
-		<object hash="D460DF30">
-			<object hash="2D0D6E59">
+		<object name="OpRewardSettings">
+			<object name="RewardsForHouston">
 				<object name="RewardSettings">
-					<field hash="9FE1D5B4" type="BinHex"/>
-					<field hash="61AEA1EC" type="BinHex"/>
-					<field hash="A2C29B7F" type="BinHex"/>
+					<field name="onlinedifficultiesDifficulty" type="BinHex"/>
+					<field name="nDifficultyIndex" type="BinHex"/>
+					<field name="oprewardsettingsRewardSettings" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="C8C498C8">
+			<object name="RewardsForSeoul">
 				<object name="RewardSettings">
-					<field hash="9FE1D5B4" type="BinHex"/>
-					<field hash="61AEA1EC" type="BinHex"/>
-					<field hash="A2C29B7F" type="BinHex"/>
+					<field name="onlinedifficultiesDifficulty" type="BinHex"/>
+					<field name="nDifficultyIndex" type="BinHex"/>
+					<field name="oprewardsettingsRewardSettings" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="F58323D2">
+			<object name="RewardsForCairo">
 				<object name="RewardSettings">
-					<field hash="9FE1D5B4" type="BinHex"/>
-					<field hash="61AEA1EC" type="BinHex"/>
-					<field hash="A2C29B7F" type="BinHex"/>
+					<field name="onlinedifficultiesDifficulty" type="BinHex"/>
+					<field name="nDifficultyIndex" type="BinHex"/>
+					<field name="oprewardsettingsRewardSettings" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="DD0CA255">
+			<object name="RewardsForSydney">
 				<object name="RewardSettings">
-					<field hash="9FE1D5B4" type="BinHex"/>
-					<field hash="61AEA1EC" type="BinHex"/>
-					<field hash="A2C29B7F" type="BinHex"/>
+					<field name="onlinedifficultiesDifficulty" type="BinHex"/>
+					<field name="nDifficultyIndex" type="BinHex"/>
+					<field name="oprewardsettingsRewardSettings" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="B9DCEC75">
+			<object name="RewardsForCaracas">
 				<object name="RewardSettings">
-					<field hash="9FE1D5B4" type="BinHex"/>
-					<field hash="61AEA1EC" type="BinHex"/>
-					<field hash="A2C29B7F" type="BinHex"/>
+					<field name="onlinedifficultiesDifficulty" type="BinHex"/>
+					<field name="nDifficultyIndex" type="BinHex"/>
+					<field name="oprewardsettingsRewardSettings" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="83D6F728">
-			<field hash="4A01EDA2" type="BinHex"/>
-			<object hash="3E6955F2">
-				<field hash="2E5CEE34" type="BinHex"/>
+		<object name="ObjectiveLogicPickerSettings">
+			<field name="PickingThresholdPercent" type="BinHex"/>
+			<object name="IntensitySettings">
+				<field name="fFactor" type="BinHex"/>
 				<object name="Curve">
-					<field hash="5D368621" type="BinHex"/>
-					<field hash="4D8FF95F" type="BinHex"/>
+					<field name="fWeightPercentForSameIntensity" type="BinHex"/>
+					<field name="fWeightPercentForDifferentIntensity" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="33F1410C">
-				<field hash="2E5CEE34" type="BinHex"/>
+			<object name="GameplayRepetitionSettings">
+				<field name="fFactor" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<object name="Curve">
-					<field hash="2D57F24A" type="BinHex"/>
-					<field hash="02B04245" type="BinHex"/>
-					<field hash="347B90B3" type="BinHex"/>
+					<field name="fWeightPercentAtHistoryBegin" type="BinHex"/>
+					<field name="fWeightPercentAtHistoryEnd" type="BinHex"/>
+					<field name="fWeightPercentOutsideHistory" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="B244E619">
-				<field hash="2E5CEE34" type="BinHex"/>
+			<object name="GameplayCategoryRepetitionSettings">
+				<field name="fFactor" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<object name="Curve">
-					<field hash="2D57F24A" type="BinHex"/>
-					<field hash="02B04245" type="BinHex"/>
-					<field hash="347B90B3" type="BinHex"/>
+					<field name="fWeightPercentAtHistoryBegin" type="BinHex"/>
+					<field name="fWeightPercentAtHistoryEnd" type="BinHex"/>
+					<field name="fWeightPercentOutsideHistory" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="A6E00CD5">
-				<field hash="2E5CEE34" type="BinHex"/>
-				<field hash="96ACE5EB" type="BinHex"/>
-				<object hash="66B7611F">
-					<object hash="BE30A58F">
-						<field hash="85B73CCB" type="BinHex"/>
-						<object hash="648DB17B">
-							<object hash="E973CB4C">
-								<field hash="85C8FAD0" type="BinHex"/>
-								<object hash="8CE04FFB">
+			<object name="OpPatternTropeTypeSettings">
+				<field name="fFactor" type="BinHex"/>
+				<field name="fDefaultWeightPercent" type="BinHex"/>
+				<object name="OPPatternSettings">
+					<object name="OPPatternSetting">
+						<field name="opslistPattern" type="BinHex"/>
+						<object name="TropeTypeSettings">
+							<object name="TropeTypeSetting">
+								<field name="fWeightPercent" type="BinHex"/>
+								<object name="tagcategoryselectionblackboardTags">
 									<object name="TagCategorySelectionArray">
 										<object name="TagCategorySelection">
 											<field hash="CF68E402" type="String"/>
 											<field name="hid_DTCTH_ClassName" type="BinHex"/>
 											<field hash="BDB3B8D5" type="String"/>
-											<field hash="401A8276" type="BinHex"/>
-											<field hash="F5391DFF" type="BinHex"/>
+											<field name="UITagCategorySelectionClassID" type="BinHex"/>
+											<field name="tagcategoryUITagCategory" type="BinHex"/>
 											<field name="tagcategoryTagCategory" type="BinHex"/>
 											<field name="tagTag" type="BinHex"/>
 											<object name="Tags"/>
 										</object>
 									</object>
-									<object hash="D0C5DABB">
+									<object name="TagDescriptorUI">
 										<field hash="CF68E402" type="String"/>
 										<field name="hid_DTCTH_ClassName" type="BinHex"/>
 										<object name="TagCategorySelectionDescriptors">
@@ -183,44 +183,44 @@
 					</object>
 				</object>
 			</object>
-			<object hash="9D4A2185">
-				<field hash="2E5CEE34" type="BinHex"/>
-				<field hash="9677948E" type="BinHex"/>
-				<field hash="9BD054CD" type="BinHex"/>
+			<object name="TagAnySettings">
+				<field name="fFactor" type="BinHex"/>
+				<field name="fNonMatchingTagWeight" type="BinHex"/>
+				<field name="fInitialWeight" type="BinHex"/>
 				<object name="Curve">
-					<field hash="10F08220" type="BinHex"/>
-					<field hash="B87A2475" type="BinHex"/>
-					<field hash="249E5BDC" type="BinHex"/>
-					<field hash="3F8FE0A9" type="BinHex"/>
+					<field name="fWeightPercentAtPick1" type="BinHex"/>
+					<field name="fPickX" type="BinHex"/>
+					<field name="fWeightPercentAtPickX" type="BinHex"/>
+					<field name="fOutOfCurveBoundariesWeight" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="1F1653A3">
-				<field hash="2E5CEE34" type="BinHex"/>
-				<field hash="9677948E" type="BinHex"/>
-				<field hash="9BD054CD" type="BinHex"/>
+			<object name="TagFreeroamSettings">
+				<field name="fFactor" type="BinHex"/>
+				<field name="fNonMatchingTagWeight" type="BinHex"/>
+				<field name="fInitialWeight" type="BinHex"/>
 				<object name="Curve">
-					<field hash="10F08220" type="BinHex"/>
-					<field hash="B87A2475" type="BinHex"/>
-					<field hash="249E5BDC" type="BinHex"/>
-					<field hash="3F8FE0A9" type="BinHex"/>
+					<field name="fWeightPercentAtPick1" type="BinHex"/>
+					<field name="fPickX" type="BinHex"/>
+					<field name="fWeightPercentAtPickX" type="BinHex"/>
+					<field name="fOutOfCurveBoundariesWeight" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="9CEBB6C3">
-				<field hash="2E5CEE34" type="BinHex"/>
-				<field hash="9677948E" type="BinHex"/>
-				<field hash="9BD054CD" type="BinHex"/>
+			<object name="TagCoopSettings">
+				<field name="fFactor" type="BinHex"/>
+				<field name="fNonMatchingTagWeight" type="BinHex"/>
+				<field name="fInitialWeight" type="BinHex"/>
 				<object name="Curve">
-					<field hash="10F08220" type="BinHex"/>
-					<field hash="B87A2475" type="BinHex"/>
-					<field hash="249E5BDC" type="BinHex"/>
-					<field hash="3F8FE0A9" type="BinHex"/>
+					<field name="fWeightPercentAtPick1" type="BinHex"/>
+					<field name="fPickX" type="BinHex"/>
+					<field name="fWeightPercentAtPickX" type="BinHex"/>
+					<field name="fOutOfCurveBoundariesWeight" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="A4523016">
-		<field hash="D5ACD925" type="BinHex"/>
+	<object name="GeneratorHistory">
+		<field name="uiGameplayHistoryMaxSize" type="BinHex"/>
 		<field hash="DF1E42B6" type="BinHex"/>
-		<field hash="474C0821" type="BinHex"/>
+		<field name="uiFirstChapterPlotHistoryMaxSize" type="BinHex"/>
 	</object>
 </class>

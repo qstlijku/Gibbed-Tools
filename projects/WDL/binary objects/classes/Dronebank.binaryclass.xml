@@ -11,8 +11,8 @@
 	<object name="Bank">
 		<object name="Entry">
 			<field hash="A1295865" type="String"/>
-			<field hash="2A0E45E1" type="BinHex"/>
-			<field hash="25DD4CED" type="BinHex"/>
+			<field name="archDroneArchetype" type="BinHex"/>
+			<field name="droneconfigDroneConfig" type="BinHex"/>
 			<field hash="572F5755" type="BinHex"/>
 			<field name="uiCoefficient" type="UInt32"/>
 		</object>

@@ -6,36 +6,36 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="6C2540C4">
-		<field hash="4E35E859" type="BinHex"/>
-		<field hash="15A38AEE" type="BinHex"/>
-		<field hash="A0080146" type="BinHex"/>
-		<field hash="8FA8D4AC" type="BinHex"/>
-		<field hash="B717DE62" type="BinHex"/>
-		<field hash="6AE4E75D" type="BinHex"/>
-		<field hash="DBC8348D" type="BinHex"/>
-		<field hash="5B93BBA7" type="BinHex"/>
+	<object name="BossData">
+		<field name="fTerminalActivationDelay" type="BinHex"/>
+		<field name="fStageBootDuration" type="BinHex"/>
+		<field name="fLobbyCinematicBossVisibilityDuration" type="BinHex"/>
+		<field name="fStageCompleteDuration" type="BinHex"/>
+		<field name="fWipeDroneStartDelay" type="BinHex"/>
+		<field name="fScreenStartupDelay" type="BinHex"/>
+		<field name="fMicrodroneHintDelay" type="BinHex"/>
+		<field name="fFirstRoomMessageDelay" type="BinHex"/>
 		<field hash="32129942" type="BinHex"/>
-		<field hash="A3605336" type="BinHex"/>
-		<field hash="DBB08A45" type="BinHex"/>
+		<field name="sndRoomActivationSound" type="BinHex"/>
+		<field name="sndRoomFailSound" type="BinHex"/>
 		<field hash="30CF16FE" type="String"/>
-		<field hash="DA9176DA" type="BinHex"/>
+		<field name="sndBossScreenUpdate" type="BinHex"/>
 		<field hash="E8535859" type="String"/>
-		<field hash="25873E42" type="BinHex"/>
+		<field name="sndRoomWipeAttackStarted" type="BinHex"/>
 		<field hash="72AD8A59" type="String"/>
-		<field hash="BF79EC42" type="BinHex"/>
+		<field name="sndRoomWipeAttackAborted" type="BinHex"/>
 		<field hash="482E79DA" type="String"/>
-		<field hash="A27019FE" type="BinHex"/>
+		<field name="sndRoomWeakspotOpen" type="BinHex"/>
 		<field hash="419A85AE" type="String"/>
-		<field hash="EDA565AD" type="BinHex"/>
+		<field name="sndDPSStageStart" type="BinHex"/>
 		<field hash="E118F25B" type="String"/>
-		<field hash="6201B170" type="BinHex"/>
+		<field name="sndDPSStageStop" type="BinHex"/>
 		<field hash="A61367CA" type="String"/>
-		<field hash="2D347A4E" type="BinHex"/>
+		<field name="sndMuteSoundEvents" type="BinHex"/>
 		<field hash="D90A6334" type="String"/>
-		<field hash="E5E3D985" type="BinHex"/>
-		<field hash="CAAAE68A" type="BinHex"/>
-		<field hash="7C905114" type="BinHex"/>
+		<field name="sndUnmuteSoundEvents" type="BinHex"/>
+		<field name="sndBulletAttenuationStartEvent" type="BinHex"/>
+		<field name="sndBulletAttenuationStopEvent" type="BinHex"/>
 		<field hash="30BE88F0" type="BinHex"/>
 		<field hash="16DAD58D" type="BinHex"/>
 		<field hash="6CBB9C1F" type="BinHex"/>
@@ -51,106 +51,106 @@
 		<field hash="81DF76C4" type="BinHex"/>
 		<field hash="1B21A4C4" type="BinHex"/>
 		<field hash="7FEE1232" type="BinHex"/>
-		<field hash="524834DB" type="BinHex"/>
-		<field hash="52F4F752" type="BinHex"/>
+		<field name="fReinforcementLightsDuration" type="BinHex"/>
+		<field name="entGameplayResetterId" type="BinHex"/>
 		<field name="fWarningDuration" type="Float"/>
-		<field hash="6CF700B6" type="BinHex"/>
-		<field hash="0B67F797" type="BinHex"/>
-		<field hash="B48DF37B" type="BinHex"/>
+		<field name="fWipeDroneWipeChargeDuration" type="BinHex"/>
+		<field name="fWipeLowHealthWipeChargeDuration" type="BinHex"/>
+		<field name="fWipeNoRoomsWipeChargeDuration" type="BinHex"/>
 		<field hash="23AE2FA8" type="BinHex"/>
-		<field hash="32EBA3EE" type="BinHex"/>
-		<field hash="F44D83E6" type="BinHex"/>
-		<field hash="B9876AA6" type="BinHex"/>
-		<field hash="595F2F7F" type="BinHex"/>
-		<object hash="E805F69F">
-			<object hash="BB5A9AEC">
-				<field hash="E92E5210" type="BinHex"/>
-				<field hash="A930DE01" type="BinHex"/>
-				<object hash="0EDE7E32">
-					<object hash="0EDE7E32">
-						<field hash="7F099870" type="BinHex"/>
-						<field hash="08258E75" type="BinHex"/>
-						<field hash="D2A4CA33" type="BinHex"/>
-						<field hash="6AB090C9" type="BinHex"/>
-						<field hash="E2B1EEEF" type="BinHex"/>
-						<field hash="67164D9F" type="BinHex"/>
-						<field hash="99C305F5" type="BinHex"/>
-						<field hash="86593E3A" type="BinHex"/>
-						<field hash="58ECE0F8" type="BinHex"/>
+		<field name="fDPSDuration" type="BinHex"/>
+		<field name="fDPSMaxDamageRatio" type="BinHex"/>
+		<field name="fGameplayReadyStartDelay" type="BinHex"/>
+		<field name="entBossCarcassArchetypeSpawnPoint" type="BinHex"/>
+		<object name="RoomsData">
+			<object name="RoomData">
+				<field name="entPathIndicatorLightEntity" type="BinHex"/>
+				<field name="entPathIndicatorMaterialEntity" type="BinHex"/>
+				<object name="ColorSequenceData">
+					<object name="ColorSequenceData">
+						<field name="fDisplayColorTime" type="BinHex"/>
+						<field name="iSequenceLength" type="BinHex"/>
+						<field name="fCompleteSequenceInputMaxDelay" type="BinHex"/>
+						<field name="fSequenceInputMaxDelay" type="BinHex"/>
+						<field name="fRestartSequenceDisplayDelay" type="BinHex"/>
+						<field name="fDroneForceExitDelay" type="BinHex"/>
+						<field name="fGameplayCompletedDelay" type="BinHex"/>
+						<field name="entResetEntityID" type="BinHex"/>
+						<field name="entSequenceDisplayEntityId" type="BinHex"/>
 						<field name="fWarningDuration" type="Float"/>
 						<field hash="D0161FAB" type="BinHex"/>
-						<object hash="F9C2FBF4">
+						<object name="SequenceColors">
 							<object name="Color">
 								<field name="colorColor" type="Vector3"/>
 							</object>
 						</object>
-						<object hash="A83431CE">
+						<object name="SequenceEntitieIDs">
 							<object name="EntityId">
-								<field hash="79779987" type="BinHex"/>
+								<field name="entEntityID" type="BinHex"/>
 							</object>
 						</object>
 						<object hash="CA169828"/>
-						<object hash="B6582A20">
+						<object name="locstridSequenceSuccessLogTitleLocId">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
-						<object hash="4560D5E5">
+						<object name="locstridSequenceSuccessLogMessageLocId">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
-						<object hash="87CACBC6">
+						<object name="locstridSequenceSuccessDisplay1LocId">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
-						<object hash="015EB968">
+						<object name="locstridSequenceSuccessDisplay2LocId">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
-						<object hash="CFB6B345">
+						<object name="locstridSequenceBadInputTitleLocId">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
-						<object hash="10EB4962">
+						<object name="locstridSequenceBadInputMsgLocId">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
 						<object hash="C7B2E6A7">
 							<object name="EntityId">
-								<field hash="79779987" type="BinHex"/>
+								<field name="entEntityID" type="BinHex"/>
 							</object>
 						</object>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="17597A15">
-			<object hash="E1AE26CB">
-				<object hash="C9A22E99">
-					<field hash="25DD4CED" type="BinHex"/>
-					<field hash="F2795133" type="BinHex"/>
-					<field hash="77640111" type="BinHex"/>
-					<field hash="7D43CE0C" type="BinHex"/>
-					<field hash="E2A12D8A" type="BinHex"/>
-					<field hash="08EE7263" type="BinHex"/>
-					<field hash="6AEF4031" type="BinHex"/>
-					<field hash="1E9D4270" type="BinHex"/>
-					<field hash="9176D223" type="BinHex"/>
-					<field hash="FBECAC8A" type="BinHex"/>
+		<object name="DroneGameplayDatas">
+			<object name="DroneGameplayData">
+				<object name="OverrideValues">
+					<field name="droneconfigDroneConfig" type="BinHex"/>
+					<field name="entDroneSpawnEntityId" type="BinHex"/>
+					<field name="entInteractionEntityId" type="BinHex"/>
+					<field name="entInteractionFeedbackEntity" type="BinHex"/>
+					<field name="entInteractionRedLightEntity" type="BinHex"/>
+					<field name="sLMALayerName" type="BinHex"/>
+					<field name="bLoadOnInteract" type="BinHex"/>
+					<field name="bRespawnDroneWhenDestroyed" type="BinHex"/>
+					<field name="bFailOnDroneDestruction" type="BinHex"/>
+					<field name="bOnlyPlayIntroOnce" type="BinHex"/>
 					<field name="fWarningDuration" type="Float"/>
-					<object hash="71AC628D">
+					<object name="locstridRCWarningTitle">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
-					<object hash="8BBDED89">
+					<object name="locstridRCLocalWarningBody">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
-					<object hash="FB93D386">
+					<object name="locstridRCRemoteWarningBody">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>
-				<object hash="CFD71CBC">
-					<field hash="27CF6209" type="BinHex"/>
-					<field hash="A6398F84" type="BinHex"/>
-					<field hash="2D9E6018" type="BinHex"/>
+				<object name="BaseDBValues">
+					<field name="fDronePostIntroTeleportDelay" type="BinHex"/>
+					<field name="entDronePostIntroTeleportLocEntityId" type="BinHex"/>
+					<field name="entIntroSequenceCenterSceneEntityId" type="BinHex"/>
 					<field hash="FCF07F6E" type="String"/>
-					<field hash="015945CD" type="BinHex"/>
+					<field name="fileIntroSequenceResourcePath" type="BinHex"/>
 					<field hash="EB627FEC" type="String"/>
-					<field hash="5738154C" type="BinHex"/>
+					<field name="sndMuteExternalSounds" type="BinHex"/>
 					<field hash="543F4C8D" type="String"/>
-					<field hash="575FC478" type="BinHex"/>
+					<field name="sndUnmuteExternalSounds" type="BinHex"/>
 					<field hash="45121F3B" type="BinHex"/>
 					<field hash="4D1D1E28" type="BinHex"/>
 					<field hash="C78075BA" type="BinHex"/>
@@ -160,88 +160,88 @@
 					<object hash="7C0A1024">
 						<field hash="87E038DB" type="String"/>
 						<field name="sndSoundId" type="BinHex"/>
-						<field hash="8FE662AD" type="BinHex"/>
+						<field name="sndtpSoundType" type="BinHex"/>
 					</object>
 					<object hash="F7E415F2">
 						<field hash="87E038DB" type="String"/>
 						<field name="sndSoundId" type="BinHex"/>
-						<field hash="8FE662AD" type="BinHex"/>
+						<field name="sndtpSoundType" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="536CF3BA">
-			<object hash="1912B1B9">
-				<field hash="9672A8C8" type="BinHex"/>
-				<field hash="E35E0424" type="BinHex"/>
-				<field hash="2C3A1299" type="BinHex"/>
-				<field hash="3447C4AE" type="BinHex"/>
-				<object hash="4167D871">
-					<object hash="2F103527">
-						<field hash="2F103527" type="BinHex"/>
+		<object name="Rotations">
+			<object name="RotationData">
+				<field name="uiSequenceLength" type="BinHex"/>
+				<field name="reinforcementgameplaydescriptorSequence1" type="BinHex"/>
+				<field name="reinforcementgameplaydescriptorWipeDrone" type="BinHex"/>
+				<field name="reinforcementgameplaydescriptorRepairDrone" type="BinHex"/>
+				<object name="ReinforcementTerminalsData">
+					<object name="reinforcementgameplaydescriptorReinforcementGameplayDescriptor">
+						<field name="reinforcementgameplaydescriptorReinforcementGameplayDescriptor" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="F9555E15">
-			<object hash="190905C1">
-				<field hash="13F5F2DA" type="BinHex"/>
+		<object name="BossScreenIds">
+			<object name="ScreenEntityId">
+				<field name="entScreenEntityId" type="BinHex"/>
 			</object>
 		</object>
 		<object hash="42CA6C21">
-			<object hash="EAD3AFB1">
+			<object name="BarkStageTransistion">
 				<field hash="87E038DB" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="8FE662AD" type="BinHex"/>
+				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8744E590">
+		<object name="ReinforcementLights">
 			<object name="EntityId">
-				<field hash="79779987" type="BinHex"/>
+				<field name="entEntityID" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="275A04C5">
-			<object hash="F314948C">
-				<field hash="F9B10F20" type="BinHex"/>
+		<object name="BossStaticBase">
+			<object name="StaticBaseData">
+				<field name="entStaticBaseID" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="85D8F0C5">
+		<object name="locstridwarningInactiveTerminalHeader">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="6457A3D4">
+		<object name="locstridwarningInactiveTerminalBody">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E06DD714">
+		<object name="locstridwarningRoomSuccessHeader">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9A17E813">
+		<object name="locstridwarningRoomSuccessBody">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="319BFC4C">
+		<object name="locstridwarningRoomFailureHeader">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="64DF1473">
+		<object name="locstridwarningRoomFailureBody">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1DB8A6B0">
+		<object name="locstridwarningAllRoomInactiveHeader">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="AF95C96D">
+		<object name="locstridwarningAllRoomInactiveBody">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="7B7834EB">
+		<object name="locstridwarningTerminalActiveHeader">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8D6D2915">
+		<object name="locstridwarningTerminalActiveHeaderSingular">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="0ADDA157">
+		<object name="locstridwarningTerminalActiveBody">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="BCE9DA07">
-			<object hash="E279F901">
+		<object name="BossCarcassArchetypesToSpawn">
+			<object name="BossCarcassArchetypeData">
 				<field hash="2A49EBEB" type="String"/>
-				<field hash="E79D8DF0" type="BinHex"/>
+				<field name="archBossCarcassArchetype" type="BinHex"/>
 			</object>
 		</object>
 	</object>

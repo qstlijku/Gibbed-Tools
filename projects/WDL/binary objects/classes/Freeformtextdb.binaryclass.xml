@@ -7,23 +7,23 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="sLinkageName" type="String"/>
-	<field hash="2950B5DA" type="BinHex"/>
+	<field name="bIsTextureObject" type="BinHex"/>
 	<field name="fDelayBeforeDisplay" type="Float"/>
 	<field name="fDisplayTime" type="Float"/>
 	<field name="fXPositionRatio" type="Float"/>
 	<field name="fYPositionRatio" type="Float"/>
 	<field hash="D52EE75C" type="BinHex"/>
 	<field hash="AB066769" type="BinHex"/>
-	<object hash="079B94D7">
+	<object name="locstridTextToDisplay1">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="9E92C56D">
+	<object name="locstridTextToDisplay2">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E995F5FB">
+	<object name="locstridTextToDisplay3">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="B0B8396E">
+	<object name="locstridImageId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

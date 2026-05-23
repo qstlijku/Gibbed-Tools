@@ -6,24 +6,24 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="71CAF5A0" type="BinHex"/>
-	<field hash="E81E3CD1" type="BinHex"/>
-	<field hash="A3F6107D" type="BinHex"/>
-	<field hash="A9098823" type="BinHex"/>
-	<field hash="F883F2AC" type="BinHex"/>
-	<object hash="629DA025">
+	<field name="bIsEnabledImmediateRechargeOnDamagePerTimeLapse" type="BinHex"/>
+	<field name="fImmediateRechargeRequiredDamageRatio" type="BinHex"/>
+	<field name="fImmediateRechargeObservedTimeLapse" type="BinHex"/>
+	<field name="bIsUsingARCloakBarks" type="BinHex"/>
+	<field name="ARCloakAbility" type="BinHex"/>
+	<object name="ARCloakParameters">
 		<field name="fDuration" type="Float"/>
-		<field hash="40BD6FB8" type="BinHex"/>
-		<field hash="58FB86A2" type="BinHex"/>
-		<field hash="F8010FCF" type="BinHex"/>
-		<field hash="569ACFCB" type="BinHex"/>
-		<field hash="3A8C7298" type="BinHex"/>
-		<object hash="8F95B07A">
+		<field name="fRechargeTime" type="BinHex"/>
+		<field name="fUnbreakableCloakTime" type="BinHex"/>
+		<field name="fEnemyProximityRadius" type="BinHex"/>
+		<field name="bFlashbangEnabled" type="BinHex"/>
+		<field name="fFlashbangRadius" type="BinHex"/>
+		<object name="FlashbangStims">
 			<object name="GeneratedStims">
 				<object name="Stim">
 					<field name="stims" type="BinHex"/>
 					<field name="vectorLocalTranslationOffset" type="BinHex"/>
-					<field hash="0AA58CD7" type="BinHex"/>
+					<field name="vectorWorldTranslationOffset" type="BinHex"/>
 					<field name="bIsPersistent" type="Boolean"/>
 				</object>
 			</object>

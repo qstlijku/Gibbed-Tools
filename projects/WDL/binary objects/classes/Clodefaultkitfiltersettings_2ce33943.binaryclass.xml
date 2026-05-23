@@ -17,8 +17,8 @@
 		<object name="Tag">
 			<object name="tagcategoryselectionTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
@@ -28,8 +28,8 @@
 		<object name="Tag">
 			<object name="tagcategoryselectionTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
@@ -39,8 +39,8 @@
 		<object name="Tag">
 			<object name="tagcategoryselectionTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
@@ -50,8 +50,8 @@
 		<object name="Tag">
 			<object name="tagcategoryselectionTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
@@ -61,8 +61,8 @@
 		<object name="Tag">
 			<object name="tagcategoryselectionTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
@@ -119,8 +119,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -132,8 +132,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -145,8 +145,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -158,8 +158,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -171,8 +171,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -184,8 +184,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -197,8 +197,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -210,8 +210,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -223,8 +223,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -236,8 +236,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -249,8 +249,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -262,8 +262,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -278,8 +278,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -291,8 +291,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -304,8 +304,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>
@@ -334,8 +334,8 @@
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<field name="tagTag" type="BinHex"/>
 					</object>

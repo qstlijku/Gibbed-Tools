@@ -9,7 +9,7 @@
 	<field hash="E6655990" type="String"/>
 	<field name="archArchetype" type="BinHex"/>
 	<field name="bIsTraffic" type="Boolean"/>
-	<field hash="23DCA39A" type="BinHex"/>
+	<field name="bIsUniqueDriver" type="BinHex"/>
 	<field name="bIsParking" type="Boolean"/>
 	<field name="bIsParkingEnticer" type="Boolean"/>
 	<field name="bIsBoat" type="Boolean"/>
@@ -20,7 +20,7 @@
 	<field name="fMaxInitialScratches" type="Float"/>
 	<field name="bOverrideDirtValues" type="Boolean"/>
 	<field hash="CDCBF296" type="BinHex"/>
-	<field hash="5600CEFE" type="String"/>
+	<field name="sDebugName" type="String"/>
 	<object name="TrafficSpawningContexts">
 		<object name="SpawningContext">
 			<field name="entcontContext" type="BinHex"/>
@@ -37,19 +37,19 @@
 	</object>
 	<object name="Passenger">
 		<object name="PassengerSpec">
-			<field hash="E4C8C438" type="BinHex"/>
-			<field hash="971E88CF" type="BinHex"/>
+			<field name="graphickittagspecNormal" type="BinHex"/>
+			<field name="graphickittagspecHighEnd" type="BinHex"/>
 		</object>
 		<object name="PeopleSpawnInfo">
-			<field hash="6BC07341" type="BinHex"/>
-			<field hash="BE4849E0" type="BinHex"/>
+			<field name="peopleinfoNormal" type="BinHex"/>
+			<field name="peopleinfoHighEnd" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="CEF4E738">
-		<field hash="39585085" type="BinHex"/>
-		<object hash="D7D008D9">
+	<object name="LaneRestrictions">
+		<field name="bNeedLanePermissionToSpawn" type="BinHex"/>
+		<object name="VehicleGroupLane">
 			<object name="Flags">
-				<field hash="DB36A3DD" type="BinHex"/>
+				<field name="bNone" type="BinHex"/>
 				<field name="bBike" type="Boolean"/>
 				<field name="bTruck" type="Boolean"/>
 				<field name="bBus" type="Boolean"/>

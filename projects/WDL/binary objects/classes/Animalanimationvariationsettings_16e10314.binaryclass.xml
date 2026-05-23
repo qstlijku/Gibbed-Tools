@@ -11,7 +11,7 @@
 		<field name="fCooldownMax" type="Float"/>
 		<field name="bIsRandomized" type="Boolean"/>
 	</object>
-	<object hash="B9617F9D">
+	<object name="Dog">
 		<field name="fCooldownMin" type="Float"/>
 		<field name="fCooldownMax" type="Float"/>
 		<field name="bIsRandomized" type="Boolean"/>

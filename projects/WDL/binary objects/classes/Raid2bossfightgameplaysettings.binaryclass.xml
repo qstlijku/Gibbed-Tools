@@ -6,66 +6,66 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="1A90607D">
-		<field hash="CB6A45FD" type="BinHex"/>
-		<field hash="A0080146" type="BinHex"/>
-		<field hash="3E6CDFF6" type="BinHex"/>
-		<field hash="8DE75BE4" type="BinHex"/>
-		<field hash="F416245C" type="BinHex"/>
+	<object name="BossFightData">
+		<field name="fDamageZonePeriod" type="BinHex"/>
+		<field name="fLobbyCinematicBossVisibilityDuration" type="BinHex"/>
+		<field name="fPostDeathCinematicDuration" type="BinHex"/>
+		<field name="fBatteryFlashActivationTime" type="BinHex"/>
+		<field name="selPressurePlatePuzzleOrder" type="BinHex"/>
 		<object name="Reinforcements">
-			<field hash="E8527F53" type="BinHex"/>
+			<field name="fReinforcementStartDelay" type="BinHex"/>
 			<object name="Reinforcements">
-				<object hash="99255E5B">
-					<field hash="EB3467DE" type="BinHex"/>
-					<field hash="A0DDA34F" type="BinHex"/>
+				<object name="ReinforcementData">
+					<field name="reinforcementgameplaydescriptorHuman" type="BinHex"/>
+					<field name="reinforcementgameplaydescriptorDrone" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="B78EC99A">
-			<object hash="0B633B98">
-				<object hash="84097E8B">
-					<field hash="3AE8ED5C" type="BinHex"/>
+		<object name="PressurePlatePuzzle">
+			<object name="PressurePlatePuzzles">
+				<object name="PressurePlatePuzzlesData">
+					<field name="objectivepressureplatepuzzleDescriptor" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="GodRays">
 			<object name="GodRays">
-				<object hash="318FC468">
-					<field hash="B49BA169" type="BinHex"/>
+				<object name="GodRaysData">
+					<field name="laserwallgameplaydescriptorDescriptor" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="9ECCC904">
-			<object hash="F37FB54C">
-				<object hash="F37FB54C">
-					<field hash="C8C3B356" type="BinHex"/>
+		<object name="Boss">
+			<object name="WeakpointsId">
+				<object name="WeakpointsId">
+					<field name="entWeakpointId" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="E3CD18F3">
-			<object hash="E3CD18F3">
-				<object hash="7A02BE1F">
-					<field hash="5555DA69" type="BinHex"/>
-					<field hash="EAFA92E5" type="BinHex"/>
-					<field hash="FD443474" type="BinHex"/>
-					<field hash="C0535FA3" type="BinHex"/>
+		<object name="HealthThresholdLinks">
+			<object name="HealthThresholdLinks">
+				<object name="HealthThresholdLinkData">
+					<field name="fHealthTreshold" type="BinHex"/>
+					<field name="iGodRaysIndex" type="BinHex"/>
+					<field name="entDoorId" type="BinHex"/>
+					<field name="entDamageZoneCenterId" type="BinHex"/>
 					<field hash="8A6739BA" type="String"/>
 					<field name="psParticle" type="BinHex"/>
 					<field hash="A20E0B6A" type="String"/>
 					<field name="sndStartSound" type="BinHex"/>
 					<field hash="EAA90218" type="String"/>
 					<field name="sndStopSound" type="BinHex"/>
-					<field hash="960CDFBD" type="BinHex"/>
-					<field hash="F4C24AA3" type="BinHex"/>
-					<object hash="6497BD05">
-						<object hash="834678B0">
-							<field hash="C8C3B356" type="BinHex"/>
+					<field name="sndtpStartSoundType" type="BinHex"/>
+					<field name="sndtpStopSoundType" type="BinHex"/>
+					<object name="WeakpointsIds">
+						<object name="WeakpointsIdsData">
+							<field name="entWeakpointId" type="BinHex"/>
 						</object>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="8FEB15D4">
+		<object name="DamageZoneStim">
 			<field hash="92210DFC" type="String"/>
 			<field name="hidEventName" type="BinHex"/>
 			<field name="hidTargetEntityId" type="BinHex"/>
@@ -94,17 +94,17 @@
 				<field name="bRestrictToAnimal" type="Boolean"/>
 				<field name="bRestrictToSimpleAnimal" type="Boolean"/>
 				<field name="bRestrictToRobot" type="Boolean"/>
-				<field hash="7E2CBCA2" type="BinHex"/>
-				<field hash="BD020C6A" type="BinHex"/>
-				<field hash="1B5C206B" type="BinHex"/>
+				<field name="bRestrictToActivatedDrone" type="BinHex"/>
+				<field name="bRestrictToStandbyDrone" type="BinHex"/>
+				<field name="bRestrictToTurret" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="84DCFB04">
-			<object hash="FC6A9A11">
-				<field hash="F235E718" type="BinHex"/>
+		<object name="Batteries">
+			<object name="BatteriesData">
+				<field name="entBatteryId" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F6DC69DB">
+		<object name="curveBatteryFlashCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -114,54 +114,54 @@
 				</object>
 			</object>
 		</object>
-		<object hash="30076F99">
-			<object hash="0F1A4383">
-				<object hash="222FB847">
-					<field hash="01C2FF0E" type="BinHex"/>
+		<object name="PostDeath">
+			<object name="EntitiesToHide">
+				<object name="EntitiesData">
+					<field name="entEntityData" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="FE7F32B8">
-			<field hash="C9013AA0" type="BinHex"/>
-			<field hash="78FAD5A7" type="BinHex"/>
-			<field hash="64F0C527" type="BinHex"/>
-			<field hash="D36B5E65" type="BinHex"/>
+		<object name="StateDuration">
+			<field name="fBooting" type="BinHex"/>
+			<field name="fGodRays" type="BinHex"/>
+			<field name="fBreak" type="BinHex"/>
+			<field name="fWipe" type="BinHex"/>
 		</object>
-		<object hash="522878BE">
-			<field hash="BF43B6CC" type="BinHex"/>
+		<object name="SFX">
+			<field name="BossIntroBark" type="BinHex"/>
 			<field hash="68D9C928" type="String"/>
-			<field hash="14F754D9" type="BinHex"/>
+			<field name="sndWipeCharge" type="BinHex"/>
 			<field hash="F10F04AA" type="String"/>
-			<field hash="68AA6AF0" type="BinHex"/>
+			<field name="sndWipeChargeStop" type="BinHex"/>
 			<field hash="7A724027" type="String"/>
-			<field hash="065CDDD6" type="BinHex"/>
+			<field name="sndWipeAttack" type="BinHex"/>
 			<field hash="0D1FFC70" type="String"/>
-			<field hash="0E7F7485" type="BinHex"/>
+			<field name="sndBatteryStartCharging" type="BinHex"/>
 			<field hash="54FA09A2" type="String"/>
-			<field hash="8290F020" type="BinHex"/>
+			<field name="sndBatteryStopCharging" type="BinHex"/>
 			<field hash="1D896722" type="String"/>
-			<field hash="842C0978" type="BinHex"/>
+			<field name="sndBatteryCharged" type="BinHex"/>
 			<field hash="E8C27DBF" type="String"/>
 			<field hash="44FD9DBC" type="BinHex"/>
-			<field hash="80F27553" type="BinHex"/>
-			<field hash="5DCE329A" type="BinHex"/>
-			<field hash="883F5160" type="BinHex"/>
-			<field hash="EEDADA67" type="BinHex"/>
-			<field hash="C6279269" type="BinHex"/>
-			<field hash="FBD748A9" type="BinHex"/>
+			<field name="sndtpWipeChargeType" type="BinHex"/>
+			<field name="sndtpWipeChargeStopType" type="BinHex"/>
+			<field name="sndtpWipeAttackType" type="BinHex"/>
+			<field name="sndtpBatteryStartChargingType" type="BinHex"/>
+			<field name="sndtpBatteryStopChargingType" type="BinHex"/>
+			<field name="sndtpBatteryChargedType" type="BinHex"/>
 			<field hash="D1BA86C8" type="BinHex"/>
-			<object hash="7E1B4CF9">
-				<object hash="91A4E675">
+			<object name="StepTransitionBarks">
+				<object name="StepTransitionBarksData">
 					<field hash="995B332C" type="String"/>
 					<field name="Bark" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="54E3BA55">
+		<object name="VFX">
 			<field hash="F7FE6D1A" type="String"/>
-			<field hash="058C2BD4" type="BinHex"/>
+			<field name="psWipeCharge" type="BinHex"/>
 			<field hash="E555E415" type="String"/>
-			<field hash="1727A2DB" type="BinHex"/>
+			<field name="psWipeAttack" type="BinHex"/>
 			<field hash="48985698" type="String"/>
 			<field hash="E4A7B69B" type="BinHex"/>
 			<field hash="2477F0A0" type="BinHex"/>
@@ -181,21 +181,21 @@
 				</object>
 			</object>
 		</object>
-		<object hash="89D0338F">
+		<object name="UIMessages">
 			<field name="fWarningDuration" type="Float"/>
-			<object hash="C0AA540C">
+			<object name="locstridWeakspotOpening">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="828BBC22">
+			<object name="locstridwarningAttemptsLeftHeader">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="855F8807">
+			<object name="locstridwarningAttemptsLeftHeaderSingular">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="AC625CCA">
+			<object name="locstridwarningAttemptsSuccesful">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D6E68AF9">
+			<object name="locstridwarningTimeHasRunOut">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>

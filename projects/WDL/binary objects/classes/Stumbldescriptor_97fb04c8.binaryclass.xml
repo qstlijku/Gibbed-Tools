@@ -6,36 +6,36 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="E6908EFB" type="BinHex"/>
-	<field hash="36FE4BFD" type="BinHex"/>
-	<field hash="700D57DE" type="BinHex"/>
-	<field hash="CA4141E7" type="BinHex"/>
-	<field hash="04530328" type="BinHex"/>
-	<field hash="5FD6362F" type="BinHex"/>
-	<field hash="846965C8" type="BinHex"/>
-	<field hash="5D818E11" type="BinHex"/>
-	<field hash="E4171459" type="BinHex"/>
-	<object hash="91266C0A">
+	<field name="uiAppRowsCount" type="BinHex"/>
+	<field name="possyselementTrackedTargetMarker" type="BinHex"/>
+	<field name="fAddModifierProbability" type="BinHex"/>
+	<field name="fSingleShotProbability" type="BinHex"/>
+	<field name="fMultiShotProbability" type="BinHex"/>
+	<field name="uiMinNumberOfPossibleShots" type="BinHex"/>
+	<field name="uiMaxNumberOfPossibleShots" type="BinHex"/>
+	<field name="fSameModifierValueProbability" type="BinHex"/>
+	<field name="fDifferentModifierValueProbability" type="BinHex"/>
+	<object name="locstridStumblAppLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="605D3432">
-		<field hash="C50F1A52" type="BinHex"/>
+	<object name="RulesmithReward">
+		<field name="rulesmithidRuleId" type="BinHex"/>
 	</object>
-	<object hash="8FF64FCD">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="RulesmithFollowersCount">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="7BA57C73">
+	<object name="locstridTrackedTargetObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0FB0D74C">
-		<object hash="34DB9C65">
-			<object hash="9F8D9BC0">
+	<object name="DedsecPropagandaInfo">
+		<object name="PropagandaInfo">
+			<object name="locstridTopText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="9058A8A2">
-				<object hash="E8DF435A">
-					<object hash="592EFEF2">
+			<object name="BottomTexts">
+				<object name="BottomText">
+					<object name="locstridBottomText">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 				</object>

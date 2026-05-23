@@ -27,8 +27,8 @@
 		<field hash="F41EFDC2" type="BinHex"/>
 		<field name="bProximityBehavior" type="Boolean"/>
 		<field name="selBhvPriority" type="Enum"/>
-		<field hash="CB775E97" type="BinHex"/>
-		<field hash="E3DC2A77" type="BinHex"/>
+		<field name="bDespawnOnUse" type="BinHex"/>
+		<field name="incidentlistIncidentIgnoreList" type="BinHex"/>
 		<object name="TriggerBehaviors"/>
 		<object name="QuitSettings">
 			<field name="bSpecifyQuitState" type="Boolean"/>
@@ -39,10 +39,10 @@
 			</object>
 		</object>
 	</object>
-	<object hash="245FD7E5">
-		<object hash="D038FD91">
+	<object name="AnimationTagInformation">
+		<object name="tagcategoryselectionblackboardActivityTags">
 			<object name="TagCategorySelectionArray"/>
-			<object hash="D0C5DABB">
+			<object name="TagDescriptorUI">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
@@ -53,9 +53,9 @@
 				</object>
 			</object>
 		</object>
-		<object hash="413663B1">
+		<object name="tagcategoryselectionblackboardExclusionTags">
 			<object name="TagCategorySelectionArray"/>
-			<object hash="D0C5DABB">
+			<object name="TagDescriptorUI">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
@@ -94,8 +94,8 @@
 			</object>
 		</object>
 	</object>
-	<object hash="3C7AB27D">
-		<field hash="4DBCE0FB" type="BinHex"/>
-		<field hash="34870E16" type="BinHex"/>
+	<object name="AtlasProperties">
+		<field name="bExportToAtlas" type="BinHex"/>
+		<field name="atlastypeElementType" type="BinHex"/>
 	</object>
 </class>

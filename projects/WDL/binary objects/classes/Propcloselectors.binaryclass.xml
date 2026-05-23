@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="8CB3F203">
-		<object hash="8CB3F203">
+	<object name="Selectors">
+		<object name="Selectors">
 			<field hash="624EEA9D" type="String"/>
-			<field hash="1E60776C" type="BinHex"/>
+			<field name="selSelectorID" type="BinHex"/>
 			<field name="propPropDbName" type="BinHex"/>
 		</object>
 	</object>

@@ -6,14 +6,14 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="C709FBF0">
-		<object hash="D139342E">
+	<object name="ExternalSourceTemplates">
+		<object name="ExternalSourceTemplate">
 			<field hash="595D0033" type="String"/>
 			<field name="name" type="BinHex"/>
 			<field hash="4A69B5F9" type="String"/>
-			<field hash="D3CCDBA3" type="BinHex"/>
-			<field hash="8C480F5E" type="BinHex"/>
-			<field hash="AD1C6064" type="BinHex"/>
+			<field name="sndExternalSource" type="BinHex"/>
+			<field name="useFacial" type="BinHex"/>
+			<field name="is2D" type="BinHex"/>
 		</object>
 	</object>
 </class>

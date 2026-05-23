@@ -6,14 +6,14 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="07051165">
-		<object hash="5CC9F23E">
-			<field hash="75F24AEE" type="String"/>
+	<object name="PlayerWeaponModels">
+		<object name="WeaponModels">
+			<field name="WeaponModel" type="String"/>
 		</object>
 	</object>
-	<object hash="B8F09BF2">
-		<object hash="CDC4F17E">
-			<field hash="E321A276" type="String"/>
+	<object name="NPCWeaponCategories">
+		<object name="WeaponCategories">
+			<field name="WeaponCategory" type="String"/>
 		</object>
 	</object>
 </class>

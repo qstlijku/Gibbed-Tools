@@ -7,31 +7,31 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fUiLimitRadius" type="Float"/>
-	<field hash="74A7F72F" type="BinHex"/>
-	<field hash="8522248E" type="BinHex"/>
-	<field hash="0E2A009D" type="BinHex"/>
-	<field hash="27A78250" type="BinHex"/>
-	<field hash="CDE9B733" type="BinHex"/>
-	<field hash="3AB0653E" type="BinHex"/>
+	<field name="fSmallRadius" type="BinHex"/>
+	<field name="fMediumRadius" type="BinHex"/>
+	<field name="fLargeRadius" type="BinHex"/>
+	<field name="fHumanRadius" type="BinHex"/>
+	<field name="fVehicleRadius" type="BinHex"/>
+	<field name="fDroneRadius" type="BinHex"/>
 	<object name="locstridDownloadDisplayString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="D45D04DC">
+	<object name="locstridDownloadPausedDisplayString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="6ED4B2F3">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="6481B927">
+	<object name="locstridEraseDisplayString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="22D29E30">
+	<object name="locstridErasePausedDisplayString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E32213C4">
+	<object name="locstridUploadDisplayString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3331CBC5">
+	<object name="locstridUploadPausedDisplayString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="1E6D49C1">

@@ -7,18 +7,18 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
-		<object hash="B415B001">
+		<object name="CustomActions">
 			<object name="Action">
 				<field name="text_Name" type="String"/>
 				<field name="Name" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F7B8EB1B">
+		<object name="Triggers">
 			<object name="Action">
 				<field hash="66905A99" type="String"/>
-				<field hash="9B39603A" type="BinHex"/>
+				<field name="progressionplayeractionAction" type="BinHex"/>
 				<object name="Trigger">
-					<field hash="C50F1A52" type="BinHex"/>
+					<field name="rulesmithidRuleId" type="BinHex"/>
 				</object>
 			</object>
 		</object>

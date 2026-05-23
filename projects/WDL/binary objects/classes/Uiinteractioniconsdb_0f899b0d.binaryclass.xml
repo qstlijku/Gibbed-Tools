@@ -23,17 +23,17 @@
 	<field name="mapicondescCoffeeShop" type="BinHex"/>
 	<field name="mapicondescBar" type="BinHex"/>
 	<field name="mapicondescRestaurant" type="BinHex"/>
-	<field hash="26151626" type="BinHex"/>
-	<field hash="8DF56453" type="BinHex"/>
-	<field hash="74E4F916" type="BinHex"/>
-	<field hash="5DBA4E53" type="BinHex"/>
-	<field hash="AD0BA0DD" type="BinHex"/>
-	<field hash="A90577F9" type="BinHex"/>
+	<field name="mapicondescDarts" type="BinHex"/>
+	<field name="mapicondescBareKnuckle" type="BinHex"/>
+	<field name="mapicondescGetDrunk" type="BinHex"/>
+	<field name="mapicondescStreetArt" type="BinHex"/>
+	<field name="mapicondescKickUp" type="BinHex"/>
+	<field name="mapicondescCourier" type="BinHex"/>
 	<field hash="3F69836F" type="BinHex"/>
-	<field hash="2D924185" type="BinHex"/>
-	<field hash="49FA5C7B" type="BinHex"/>
-	<field hash="0ECFAF7B" type="BinHex"/>
-	<field hash="E98EB7F3" type="BinHex"/>
+	<field name="mapicondescMicroDrone" type="BinHex"/>
+	<field name="mapicondescInteractionButton" type="BinHex"/>
+	<field name="mapicondescInteractionLock" type="BinHex"/>
+	<field name="mapicondescDroneDeliveryPackage" type="BinHex"/>
 	<field hash="A51229A1" type="BinHex"/>
 	<field hash="C06FFEAF" type="BinHex"/>
 	<field hash="D83A7547" type="BinHex"/>

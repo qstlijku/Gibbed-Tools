@@ -18,7 +18,7 @@
 	<field hash="7BC3FFD8" type="BinHex"/>
 	<field hash="9A4E48BF" type="BinHex"/>
 	<field hash="0F8D93C9" type="BinHex"/>
-	<object hash="AD0031A1">
+	<object name="curveDistanceWeightCurve">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">

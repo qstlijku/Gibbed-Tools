@@ -6,137 +6,137 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="12FB9486">
-		<field hash="948E8D2E" type="BinHex"/>
-		<field hash="A883B277" type="BinHex"/>
-		<field hash="755571D2" type="BinHex"/>
-		<field hash="49584E8B" type="BinHex"/>
+	<object name="FelonyTraitData">
+		<field name="fEffectDurationMin" type="BinHex"/>
+		<field name="fEffectDurationMax" type="BinHex"/>
+		<field name="fRampUpTimeMin" type="BinHex"/>
+		<field name="fRampUpTimeMax" type="BinHex"/>
 		<field name="fCoolDown" type="Float"/>
-		<field hash="D5476809" type="BinHex"/>
-		<field hash="F1C943D4" type="BinHex"/>
-		<field hash="A108636C" type="BinHex"/>
+		<field name="InitialTeamSpeak" type="BinHex"/>
+		<field name="EndingTeamSpeak" type="BinHex"/>
+		<field name="bOnlyInRedZone" type="BinHex"/>
 		<field hash="2215F870" type="String"/>
-		<field hash="193203E4" type="BinHex"/>
-		<field hash="21AFFBE6" type="BinHex"/>
-		<object hash="1A8B9A95">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="progressionteamtraitOperativeTeamTraitId" type="BinHex"/>
+		<field name="nMinWantedLvlToActivate" type="BinHex"/>
+		<object name="IsAvailable">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="137B1DAA">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="CanBeActivated">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="5F00E02D">
-			<field hash="5868881F" type="BinHex"/>
-			<field hash="B88D77F8" type="BinHex"/>
-			<field hash="704FC186" type="BinHex"/>
-			<field hash="40C9913E" type="BinHex"/>
-			<field hash="11302A63" type="BinHex"/>
-			<field hash="81845E8C" type="BinHex"/>
-			<field hash="C1CB26FA" type="BinHex"/>
-			<field hash="B1C80B14" type="BinHex"/>
-			<field hash="F1877362" type="BinHex"/>
-			<field hash="E3A51F75" type="BinHex"/>
-			<field hash="D8A04152" type="BinHex"/>
-			<field hash="38782A1B" type="BinHex"/>
-			<field hash="1F7C42DB" type="BinHex"/>
-			<field hash="C0A21E8F" type="BinHex"/>
-			<field hash="7AF141D5" type="BinHex"/>
-			<field hash="68CA98A5" type="BinHex"/>
+		<object name="CarParams">
+			<field name="fMaxSpeedHeadingScore" type="BinHex"/>
+			<field name="fSpeedForMaxHeadingScore" type="BinHex"/>
+			<field name="fHeadingTowardsScore" type="BinHex"/>
+			<field name="fMinDistanceScore" type="BinHex"/>
+			<field name="fMaxDistanceScore" type="BinHex"/>
+			<field name="fMinDistanceSq" type="BinHex"/>
+			<field name="fMaxDistanceSq" type="BinHex"/>
+			<field name="fMinCarDefense" type="BinHex"/>
+			<field name="fMaxCarDefense" type="BinHex"/>
+			<field name="fVisbilityScore" type="BinHex"/>
+			<field name="fInvisbilityScore" type="BinHex"/>
+			<field name="fHighRelativeSpeedScore" type="BinHex"/>
+			<field name="fSpeedForHighRelativeScore" type="BinHex"/>
+			<field name="fBackAppraochCloseDistance" type="BinHex"/>
+			<field name="fBackAppraochCloseScore" type="BinHex"/>
+			<field name="fMinDistanceForBackDirectionHackSq" type="BinHex"/>
 		</object>
-		<object hash="593FBBFC">
-			<field hash="5619DFFE" type="BinHex"/>
-			<field hash="71A2B8CF" type="BinHex"/>
-			<field hash="F48C1B3B" type="BinHex"/>
-			<field hash="E7C9FD90" type="BinHex"/>
-			<field hash="85D35563" type="BinHex"/>
-			<field hash="D6754D87" type="BinHex"/>
-			<field hash="DCA30D78" type="BinHex"/>
-			<field hash="03B5F825" type="BinHex"/>
+		<object name="DroneParams">
+			<field name="fMinDroneDefense" type="BinHex"/>
+			<field name="fMaxDroneDefense" type="BinHex"/>
+			<field name="fMinDroneDistanceScore" type="BinHex"/>
+			<field name="fMaxDroneDistanceScore" type="BinHex"/>
+			<field name="fMinDroneDistanceSq" type="BinHex"/>
+			<field name="fMaxDroneDistanceSq" type="BinHex"/>
+			<field name="fDroneChargeScore" type="BinHex"/>
+			<field name="fDroneInFrustrumScore" type="BinHex"/>
 		</object>
-		<object hash="618DF453">
-			<field hash="B4EC5D0E" type="BinHex"/>
-			<field hash="78E12601" type="BinHex"/>
-			<field hash="9F108A4E" type="BinHex"/>
+		<object name="ROSParams">
+			<field name="fROSDisableMinDistance" type="BinHex"/>
+			<field name="fROSDisableMaxDistance" type="BinHex"/>
+			<field name="fROSDisableSpeedForDistance" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="918F7008">
-		<field hash="948E8D2E" type="BinHex"/>
-		<field hash="A883B277" type="BinHex"/>
-		<field hash="755571D2" type="BinHex"/>
-		<field hash="49584E8B" type="BinHex"/>
+	<object name="DroneBetrayData">
+		<field name="fEffectDurationMin" type="BinHex"/>
+		<field name="fEffectDurationMax" type="BinHex"/>
+		<field name="fRampUpTimeMin" type="BinHex"/>
+		<field name="fRampUpTimeMax" type="BinHex"/>
 		<field name="fCoolDown" type="Float"/>
-		<field hash="D5476809" type="BinHex"/>
-		<field hash="F1C943D4" type="BinHex"/>
-		<field hash="A108636C" type="BinHex"/>
+		<field name="InitialTeamSpeak" type="BinHex"/>
+		<field name="EndingTeamSpeak" type="BinHex"/>
+		<field name="bOnlyInRedZone" type="BinHex"/>
 		<field hash="2215F870" type="String"/>
-		<field hash="193203E4" type="BinHex"/>
-		<object hash="1A8B9A95">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="progressionteamtraitOperativeTeamTraitId" type="BinHex"/>
+		<object name="IsAvailable">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="137B1DAA">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="CanBeActivated">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="005A0D63">
-		<field hash="948E8D2E" type="BinHex"/>
-		<field hash="A883B277" type="BinHex"/>
-		<field hash="755571D2" type="BinHex"/>
-		<field hash="49584E8B" type="BinHex"/>
+	<object name="DiscoveryHelpData">
+		<field name="fEffectDurationMin" type="BinHex"/>
+		<field name="fEffectDurationMax" type="BinHex"/>
+		<field name="fRampUpTimeMin" type="BinHex"/>
+		<field name="fRampUpTimeMax" type="BinHex"/>
 		<field name="fCoolDown" type="Float"/>
-		<field hash="D5476809" type="BinHex"/>
-		<field hash="F1C943D4" type="BinHex"/>
-		<field hash="A108636C" type="BinHex"/>
+		<field name="InitialTeamSpeak" type="BinHex"/>
+		<field name="EndingTeamSpeak" type="BinHex"/>
+		<field name="bOnlyInRedZone" type="BinHex"/>
 		<field hash="2215F870" type="String"/>
-		<field hash="193203E4" type="BinHex"/>
-		<field hash="20376975" type="BinHex"/>
-		<field hash="73917191" type="BinHex"/>
-		<field hash="2D090A4E" type="BinHex"/>
-		<field hash="8A3D8A37" type="BinHex"/>
-		<field hash="C81F9688" type="BinHex"/>
-		<field hash="6F334E7D" type="BinHex"/>
-		<object hash="1A8B9A95">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="progressionteamtraitOperativeTeamTraitId" type="BinHex"/>
+		<field name="fMinTimeForEnemyTag" type="BinHex"/>
+		<field name="fMaxTimeForEnemyTag" type="BinHex"/>
+		<field name="fMinTimeForDiscovery" type="BinHex"/>
+		<field name="fMaxTimeForDiscovery" type="BinHex"/>
+		<field name="TaggedAITeamSpeak" type="BinHex"/>
+		<field name="DiscoveryTeamSpeak" type="BinHex"/>
+		<object name="IsAvailable">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="137B1DAA">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="CanBeActivated">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="E062E2B5">
+		<object name="ProgressionCategories">
 			<field hash="DA9884B9" type="String"/>
-			<field hash="8B476FEB" type="BinHex"/>
-			<field hash="6F334E7D" type="BinHex"/>
-			<object hash="E062E2B5">
+			<field name="progressioncollectablecategoryCollectibleCategory" type="BinHex"/>
+			<field name="DiscoveryTeamSpeak" type="BinHex"/>
+			<object name="ProgressionCategories">
 				<field hash="DA9884B9" type="String"/>
-				<field hash="8B476FEB" type="BinHex"/>
-				<field hash="6F334E7D" type="BinHex"/>
+				<field name="progressioncollectablecategoryCollectibleCategory" type="BinHex"/>
+				<field name="DiscoveryTeamSpeak" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="5FFEFA2D">
-		<field hash="948E8D2E" type="BinHex"/>
-		<field hash="A883B277" type="BinHex"/>
-		<field hash="755571D2" type="BinHex"/>
-		<field hash="49584E8B" type="BinHex"/>
+	<object name="GunLockData">
+		<field name="fEffectDurationMin" type="BinHex"/>
+		<field name="fEffectDurationMax" type="BinHex"/>
+		<field name="fRampUpTimeMin" type="BinHex"/>
+		<field name="fRampUpTimeMax" type="BinHex"/>
 		<field name="fCoolDown" type="Float"/>
-		<field hash="D5476809" type="BinHex"/>
-		<field hash="F1C943D4" type="BinHex"/>
-		<field hash="A108636C" type="BinHex"/>
+		<field name="InitialTeamSpeak" type="BinHex"/>
+		<field name="EndingTeamSpeak" type="BinHex"/>
+		<field name="bOnlyInRedZone" type="BinHex"/>
 		<field hash="2215F870" type="String"/>
-		<field hash="193203E4" type="BinHex"/>
-		<field hash="060865C8" type="BinHex"/>
-		<field hash="87708469" type="BinHex"/>
-		<field hash="A0CBE358" type="BinHex"/>
-		<object hash="1A8B9A95">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="progressionteamtraitOperativeTeamTraitId" type="BinHex"/>
+		<field name="iMinHostileAIsToActivate" type="BinHex"/>
+		<field name="iMinGunLockCount" type="BinHex"/>
+		<field name="iMaxGunLockCount" type="BinHex"/>
+		<object name="IsAvailable">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="137B1DAA">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="CanBeActivated">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 </class>

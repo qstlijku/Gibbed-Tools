@@ -18,14 +18,14 @@
 	<field name="bIsVisible" type="Boolean"/>
 	<field name="bIsInvincible" type="Boolean"/>
 	<field name="fMaxDelayBetweenBuddyGunshot" type="Float"/>
-	<field hash="3922F6A0" type="BinHex"/>
-	<field hash="630D8787" type="BinHex"/>
+	<field name="bAutoDetectPlayerToFollow" type="BinHex"/>
+	<field name="fAutoDetectPlayerToFollowSearchDistance" type="BinHex"/>
 	<object name="StopAndGoFollowEntitySettings">
 		<field name="fDistanceToFollowBarking" type="Float"/>
 		<field name="fDistanceToRestoreNormalFollow" type="Float"/>
 		<field name="TimeBetweenBark" type="BinHex"/>
 		<field name="fDistanceToIdle" type="Float"/>
-		<field hash="11D6055F" type="BinHex"/>
+		<field name="bUseDistanceToUnspawn" type="BinHex"/>
 		<field name="fDistanceToUnspawn" type="Float"/>
 	</object>
 	<object name="StopAndGoFollowEntityStealthSettings">
@@ -33,7 +33,7 @@
 		<field name="fDistanceToRestoreNormalFollow" type="Float"/>
 		<field name="TimeBetweenBark" type="BinHex"/>
 		<field name="fDistanceToIdle" type="Float"/>
-		<field hash="11D6055F" type="BinHex"/>
+		<field name="bUseDistanceToUnspawn" type="BinHex"/>
 		<field name="fDistanceToUnspawn" type="Float"/>
 	</object>
 	<object name="StopAndGoFollowPathSettings">
@@ -41,7 +41,7 @@
 		<field name="fDistanceToRestoreNormalFollow" type="Float"/>
 		<field name="TimeBetweenBark" type="BinHex"/>
 		<field name="fDistanceToIdle" type="Float"/>
-		<field hash="11D6055F" type="BinHex"/>
+		<field name="bUseDistanceToUnspawn" type="BinHex"/>
 		<field name="fDistanceToUnspawn" type="Float"/>
 	</object>
 	<object name="FollowEntitySettings">
@@ -52,17 +52,17 @@
 		<field name="fDistanceToTargetReached" type="Float"/>
 		<field name="fMinDistanceToStart" type="Float"/>
 	</object>
-	<object hash="F6BCFC10">
-		<object hash="7382BB40">
+	<object name="WarningOverrides">
+		<object name="locstridTooFarWarningLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D3380D37">
+		<object name="locstridTooFarUnspawnWarningLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="20C33FC6">
+		<object name="locstridNoSeatWarningLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="AB8463CF">
+		<object name="locstridUnreachableWarningLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

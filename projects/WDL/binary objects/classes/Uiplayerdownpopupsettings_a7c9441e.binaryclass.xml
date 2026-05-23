@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9EAB361C" type="BinHex"/>
-	<field hash="D462F119" type="BinHex"/>
-	<field hash="322DA1C8" type="BinHex"/>
-	<field hash="55706143" type="BinHex"/>
-	<field hash="F55F7591" type="BinHex"/>
+	<field name="uisoundGetUpHoldStarted" type="BinHex"/>
+	<field name="uisoundGetUpHoldFinished" type="BinHex"/>
+	<field name="uisoundSurrenderHoldStarted" type="BinHex"/>
+	<field name="uisoundSurrenderHoldFinished" type="BinHex"/>
+	<field name="uisoundHoldCancelled" type="BinHex"/>
 </class>

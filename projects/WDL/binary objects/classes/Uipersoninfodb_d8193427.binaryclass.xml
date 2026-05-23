@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="47317235">
-		<object hash="8CD73ABB">
+	<object name="PersonElementInfos">
+		<object name="PersonElementInfo">
 			<field hash="CF73F172" type="String"/>
-			<field hash="6D1967C2" type="BinHex"/>
-			<field hash="F9CB2B3F" type="BinHex"/>
+			<field name="progressionelementElementId" type="BinHex"/>
+			<field name="texturedbobjectIconTexture" type="BinHex"/>
 			<object name="locstridTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -22,40 +22,40 @@
 			</object>
 		</object>
 	</object>
-	<object hash="E3F459A6">
-		<object hash="A9905764">
-			<object hash="239347B9">
+	<object name="OperativeStateInfos">
+		<object name="StateInfos">
+			<object name="StateInfo">
 				<field hash="2D2A1CD0" type="String"/>
-				<field hash="C7747CF4" type="BinHex"/>
-				<object hash="2EFBC6D1">
+				<field name="operativestateState" type="BinHex"/>
+				<object name="locstridStateLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="44166DDE">
+				<object name="locstridStateEntryHUDLogLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="F998CC23">
+				<object name="locstridStateExitHUDLogLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 		</object>
-		<object hash="6FDD0D89">
+		<object name="locstridDefaultStateLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="5FC8AB48">
-		<object hash="7CA25B01">
+	<object name="AffinityLevelInfo">
+		<object name="locstridResent">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8D4FD936">
+		<object name="locstridNegative">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="046FDFD3">
+		<object name="locstridNeutral">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E839AE2D">
+		<object name="locstridPositive">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8E1C3293">
+		<object name="locstridRecruitable">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

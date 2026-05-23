@@ -6,8 +6,8 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="528AE5C6" type="BinHex"/>
-	<field hash="E5A96590" type="BinHex"/>
+	<field name="fMaximumDistance" type="BinHex"/>
+	<field name="fCountdownTime" type="BinHex"/>
 	<field name="reinforcementconfigReinforcementConfig" type="BinHex"/>
 	<field hash="BDC9CB8F" type="BinHex"/>
 	<field hash="B88985AE" type="String"/>

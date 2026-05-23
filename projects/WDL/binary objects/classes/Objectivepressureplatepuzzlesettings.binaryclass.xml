@@ -6,68 +6,68 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="B4945DFB" type="BinHex"/>
-	<object hash="DADF8182">
+	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
+	<object name="locstridShortLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3CFBA4A2">
+	<object name="locstridLongLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="14BBAE7D">
+	<object name="locstridSoloObjectiveLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FC293553">
+	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="B14763B8">
-		<field hash="A318A2C8" type="BinHex"/>
-		<field hash="A831E93F" type="BinHex"/>
-		<field hash="9428677B" type="BinHex"/>
-		<field hash="7C200B6C" type="BinHex"/>
-		<field hash="F662A211" type="BinHex"/>
+	<object name="PressurePlatePuzzleData">
+		<field name="fPuzzleCompletionTime" type="BinHex"/>
+		<field name="fNextPlateDelay" type="BinHex"/>
+		<field name="fActivationFailureFeedbackDuration" type="BinHex"/>
+		<field name="fDelayedStartEventDuration" type="BinHex"/>
+		<field name="bNeedToStayOnPreviousPlate" type="BinHex"/>
 		<field name="fWarningDuration" type="Float"/>
 		<field hash="A20E0B6A" type="String"/>
 		<field name="sndStartSound" type="BinHex"/>
-		<field hash="960CDFBD" type="BinHex"/>
-		<field hash="9FB555A0" type="BinHex"/>
-		<object hash="A43E0EB1">
-			<object hash="B13ABC3E">
+		<field name="sndtpStartSoundType" type="BinHex"/>
+		<field name="fMaxWarningProximity" type="BinHex"/>
+		<object name="StartWarning">
+			<object name="locstridWarningContent">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="7550CAA4">
-			<object hash="B13ABC3E">
+		<object name="SuccessWarning">
+			<object name="locstridWarningContent">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="BB1927B8">
-			<object hash="B13ABC3E">
+		<object name="ResetWarning">
+			<object name="locstridWarningContent">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="1031E549">
-			<object hash="B13ABC3E">
+		<object name="FailureWarning">
+			<object name="locstridWarningContent">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="6C584291">
+		<object name="locstridNewPodActiveLogId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="3D520FAB">
+		<object name="locstridPodExpiredLogId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="3511323F">
-			<field hash="207CF03C" type="BinHex"/>
-			<object hash="3A3064E4">
-				<object hash="8FF2B2C5">
-					<field hash="00C50E68" type="BinHex"/>
+		<object name="Sequences">
+			<field name="bUseDesignedSequences" type="BinHex"/>
+			<object name="PressurePlates">
+				<object name="PressurePlateEntityId">
+					<field name="entPressurePlateEntityId" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="0967F85A">
+			<object name="DesignedSequences">
 				<object name="Sequence">
 					<object name="Sequence">
-						<object hash="3B06E962">
-							<field hash="C58F50C6" type="BinHex"/>
+						<object name="PlateIndex">
+							<field name="entPlateEntityId" type="BinHex"/>
 						</object>
 					</object>
 				</object>

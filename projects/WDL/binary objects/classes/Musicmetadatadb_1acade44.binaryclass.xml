@@ -6,17 +6,17 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="B5A06EB1">
-		<object hash="DF79FF53">
+	<object name="MusicMetadata">
+		<object name="MetadataEntry">
 			<field hash="0020DA50" type="String"/>
 			<field name="Metadata" type="BinHex"/>
-			<object hash="E5B9EEE8">
+			<object name="locstridAlbum">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="4081CD67">
+			<object name="locstridArtist">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0AC2780D">
+			<object name="locstridTrack">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>

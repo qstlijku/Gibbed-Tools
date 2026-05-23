@@ -22,10 +22,10 @@
 			</object>
 		</object>
 	</object>
-	<object hash="561E3C29">
-		<object hash="80724A45">
+	<object name="ReactionExposedAtoms">
+		<object name="Atom">
 			<field hash="A5314DE9" type="String"/>
-			<field hash="4F6F2DCD" type="BinHex"/>
+			<field name="progressionatomAtom" type="BinHex"/>
 		</object>
 	</object>
 </class>

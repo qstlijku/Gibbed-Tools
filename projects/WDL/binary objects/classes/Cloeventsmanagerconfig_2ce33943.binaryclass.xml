@@ -9,7 +9,7 @@
 	<object hash="9AFDAF92">
 		<field hash="87E038DB" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
-		<field hash="8FE662AD" type="BinHex"/>
+		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object hash="D5FCA943">
 		<field hash="4E0644CB" type="BinHex"/>

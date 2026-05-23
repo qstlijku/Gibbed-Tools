@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="DC26C9B9">
-		<object hash="FFAE067B">
-			<field hash="A771EA50" type="BinHex"/>
+	<object name="SearchPatterns">
+		<object name="SearchPattern">
+			<field name="dronesearchpattern" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -42,7 +42,7 @@
 		<field hash="DF0DD3BF" type="BinHex"/>
 		<field hash="9707D121" type="BinHex"/>
 	</object>
-	<object hash="22AF43B5">
+	<object name="RPM">
 		<field name="fLagRPMdecreasing" type="Float"/>
 		<field name="fLagRPMincreasing" type="Float"/>
 		<field name="vec2RpCffmStartupRange" type="Vector2"/>

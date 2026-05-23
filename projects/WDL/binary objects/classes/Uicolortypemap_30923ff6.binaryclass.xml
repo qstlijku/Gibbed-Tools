@@ -20,6 +20,6 @@
 	<field name="uicolorpalettesettingsAlly" type="BinHex"/>
 	<field name="uicolorpalettesettingsObjective" type="BinHex"/>
 	<field name="uicolorpalettesettingsObjectiveFailed" type="BinHex"/>
-	<field hash="6F5BC5B8" type="BinHex"/>
+	<field name="uicolorpalettesettingsGlassTheme" type="BinHex"/>
 	<field hash="EBE63DCC" type="BinHex"/>
 </class>

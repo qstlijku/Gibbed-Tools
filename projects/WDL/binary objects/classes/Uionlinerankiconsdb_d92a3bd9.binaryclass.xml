@@ -6,18 +6,18 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="12DF9D3D">
+	<object name="RankIcons">
 		<object name="RankIcon">
-			<field hash="A4B85B5D" type="BinHex"/>
-			<field hash="A74BBB12" type="BinHex"/>
-			<field hash="EE82EBF2" type="BinHex"/>
+			<field name="uMinRank" type="BinHex"/>
+			<field name="uMaxRank" type="BinHex"/>
+			<field name="texturedbobjectOnlineRankUpIcon" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="5D1343A9">
-		<object hash="C5236852">
-			<field hash="A4B85B5D" type="BinHex"/>
-			<field hash="A74BBB12" type="BinHex"/>
-			<field hash="EE82EBF2" type="BinHex"/>
+	<object name="RankIconsBlurred">
+		<object name="RankIconBlurred">
+			<field name="uMinRank" type="BinHex"/>
+			<field name="uMaxRank" type="BinHex"/>
+			<field name="texturedbobjectOnlineRankUpIcon" type="BinHex"/>
 		</object>
 	</object>
 </class>

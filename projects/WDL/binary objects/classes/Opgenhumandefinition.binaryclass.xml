@@ -6,25 +6,25 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="75E4A0B1">
+	<object name="PeopleSpawnInfos">
 		<object name="peopleinfoSpawnInfo">
 			<field name="peopleinfoSpawnInfo" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="7F6E1B41">
+	<object name="tagcategoryselectionblackboardRequiredTags">
 		<object name="TagCategorySelectionArray">
 			<object name="TagCategorySelection">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 				<object name="Tags"/>
 			</object>
 		</object>
-		<object hash="D0C5DABB">
+		<object name="TagDescriptorUI">
 			<field hash="CF68E402" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionDescriptors">
@@ -35,20 +35,20 @@
 			</object>
 		</object>
 	</object>
-	<object hash="8897533D">
+	<object name="tagcategoryselectionblackboardDisallowedTags">
 		<object name="TagCategorySelectionArray">
 			<object name="TagCategorySelection">
 				<field hash="CF68E402" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 				<object name="Tags"/>
 			</object>
 		</object>
-		<object hash="D0C5DABB">
+		<object name="TagDescriptorUI">
 			<field hash="CF68E402" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionDescriptors">

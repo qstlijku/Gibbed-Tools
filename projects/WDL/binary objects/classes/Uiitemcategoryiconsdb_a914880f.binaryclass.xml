@@ -6,38 +6,38 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="0B663334">
-		<field hash="14C74242" type="BinHex"/>
-		<field hash="38E981EF" type="BinHex"/>
-		<object hash="7BA72580">
+	<object name="IconDefault">
+		<field name="texturedbobjectIconSmall" type="BinHex"/>
+		<field name="texturedbobjectIconLarge" type="BinHex"/>
+		<object name="locstridNameLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="D34632D2">
-		<field hash="14C74242" type="BinHex"/>
-		<field hash="38E981EF" type="BinHex"/>
-		<object hash="7BA72580">
+	<object name="IconShock">
+		<field name="texturedbobjectIconSmall" type="BinHex"/>
+		<field name="texturedbobjectIconLarge" type="BinHex"/>
+		<object name="locstridNameLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="CF1F5D01">
-		<field hash="14C74242" type="BinHex"/>
-		<field hash="38E981EF" type="BinHex"/>
-		<object hash="7BA72580">
+	<object name="IconConcussion">
+		<field name="texturedbobjectIconSmall" type="BinHex"/>
+		<field name="texturedbobjectIconLarge" type="BinHex"/>
+		<object name="locstridNameLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="454CBE42">
-		<field hash="14C74242" type="BinHex"/>
-		<field hash="38E981EF" type="BinHex"/>
-		<object hash="7BA72580">
+	<object name="IconTranquilizer">
+		<field name="texturedbobjectIconSmall" type="BinHex"/>
+		<field name="texturedbobjectIconLarge" type="BinHex"/>
+		<object name="locstridNameLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="C23B13A9">
-		<field hash="14C74242" type="BinHex"/>
-		<field hash="38E981EF" type="BinHex"/>
-		<object hash="7BA72580">
+	<object name="IconGas">
+		<field name="texturedbobjectIconSmall" type="BinHex"/>
+		<field name="texturedbobjectIconLarge" type="BinHex"/>
+		<object name="locstridNameLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

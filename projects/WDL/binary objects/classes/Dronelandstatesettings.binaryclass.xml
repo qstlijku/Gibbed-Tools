@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="7F238CA1">
-		<field hash="CDC890C2" type="BinHex"/>
-		<field hash="F2F9C8AE" type="BinHex"/>
-		<object hash="67A8323A">
+	<object name="MoveSubState">
+		<field name="fMoveNearTolerance" type="BinHex"/>
+		<field name="fMoveZOffset" type="BinHex"/>
+		<object name="curveMoveSpeedCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -20,20 +20,20 @@
 			</object>
 		</object>
 	</object>
-	<object hash="58A9C409">
-		<field hash="6D389B51" type="BinHex"/>
-		<field hash="7D039EDC" type="BinHex"/>
-		<field hash="410EA185" type="BinHex"/>
+	<object name="PositioningSubState">
+		<field name="fPositioningSpeed" type="BinHex"/>
+		<field name="fPositioningTimeMin" type="BinHex"/>
+		<field name="fPositioningTimeMax" type="BinHex"/>
 	</object>
-	<object hash="28806D8A">
-		<field hash="BDDBAE0C" type="BinHex"/>
+	<object name="MoveDownSubState">
+		<field name="fMoveDownSpeed" type="BinHex"/>
 	</object>
-	<object hash="95F23E97">
-		<field hash="5BBD106C" type="BinHex"/>
-		<field hash="2A2D2BB3" type="BinHex"/>
+	<object name="LandSubState">
+		<field name="fLandSpeed" type="BinHex"/>
+		<field name="fLandTime" type="BinHex"/>
 	</object>
-	<object hash="FA08F6EA">
-		<field hash="72D685F8" type="BinHex"/>
-		<field hash="4EDBBAA1" type="BinHex"/>
+	<object name="LandedSubState">
+		<field name="fReturnToStandbyTimeMin" type="BinHex"/>
+		<field name="fReturnToStandbyTimeMax" type="BinHex"/>
 	</object>
 </class>

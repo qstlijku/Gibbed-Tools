@@ -22,7 +22,7 @@
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="88BDD21D">
+	<object name="Cut">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
 			<field hash="2A3E82DB" type="String"/>
@@ -75,14 +75,14 @@
 		</object>
 	</object>
 	<object name="Train"/>
-	<object hash="0A6B22F6">
+	<object name="Strike">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
 			<field hash="2A3E82DB" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="48E4A722"/>
+	<object name="Shockwave"/>
 	<object hash="24E76898"/>
-	<object hash="14040505"/>
+	<object name="InstantDBNO"/>
 </class>

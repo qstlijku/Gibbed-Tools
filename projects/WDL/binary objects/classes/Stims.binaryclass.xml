@@ -18,15 +18,15 @@
 		<field name="selType" type="Enum"/>
 		<field name="bShowCone" type="Boolean"/>
 		<field name="selReactionType" type="Enum"/>
-		<field hash="76241FA7" type="BinHex"/>
+		<field name="fPerceiveInAngle" type="BinHex"/>
 		<field hash="1794B82F" type="String"/>
-		<field hash="2B7D029E" type="BinHex"/>
-		<field hash="8061E657" type="BinHex"/>
-		<field hash="3B823CD2" type="BinHex"/>
-		<field hash="8D2888B5" type="BinHex"/>
-		<field hash="37FE1653" type="BinHex"/>
-		<field hash="BC43B3D5" type="BinHex"/>
-		<field hash="01FE1754" type="BinHex"/>
+		<field name="fileStrategyCategory" type="BinHex"/>
+		<field name="uiMaxReactionCount" type="BinHex"/>
+		<field name="selTargetRole" type="BinHex"/>
+		<field name="bIncludeEmitter" type="BinHex"/>
+		<field name="selEmitterRole" type="BinHex"/>
+		<field name="bIncludeInstigator" type="BinHex"/>
+		<field name="selInstigatorRole" type="BinHex"/>
 		<field name="selIntensity" type="Enum"/>
 		<field name="bUseOcclusion" type="Boolean"/>
 		<field name="fDamage" type="Float"/>
@@ -41,7 +41,7 @@
 		<field name="fWindTime" type="Float"/>
 		<field name="fConeAngle" type="Float"/>
 		<field name="vectorLimitsExtraRotations" type="BinHex"/>
-		<field hash="3D0F487C" type="BinHex"/>
+		<field name="bPlaySound" type="BinHex"/>
 		<object name="RadiusSettings">
 			<field name="fRadius" type="Float"/>
 		</object>
@@ -64,45 +64,45 @@
 			<field name="bRestrictToAnimal" type="Boolean"/>
 			<field name="bRestrictToSimpleAnimal" type="Boolean"/>
 			<field name="bRestrictToRobot" type="Boolean"/>
-			<field hash="7E2CBCA2" type="BinHex"/>
-			<field hash="BD020C6A" type="BinHex"/>
-			<field hash="1B5C206B" type="BinHex"/>
+			<field name="bRestrictToActivatedDrone" type="BinHex"/>
+			<field name="bRestrictToStandbyDrone" type="BinHex"/>
+			<field name="bRestrictToTurret" type="BinHex"/>
 		</object>
 		<object name="Persistence">
 			<field name="bIsPersistent" type="Boolean"/>
 			<field name="fPersistenceInterval" type="Float"/>
 		</object>
-		<object hash="F23BD7E9">
+		<object name="VehicleSwerveData">
 			<field name="fDuration" type="Float"/>
-			<field hash="82DBBA96" type="BinHex"/>
-			<field hash="F7536DB0" type="BinHex"/>
-			<field hash="CB5E52E9" type="BinHex"/>
-			<field hash="9A56C7CF" type="BinHex"/>
-			<field hash="685B57F5" type="BinHex"/>
-			<field hash="833D0E6D" type="BinHex"/>
-			<field hash="16970E38" type="BinHex"/>
-			<field hash="81161F57" type="BinHex"/>
-			<field hash="7D10F4F1" type="BinHex"/>
-			<field hash="FD80CCE5" type="BinHex"/>
+			<field name="fDurationAIDriverVehicle" type="BinHex"/>
+			<field name="fSwerveIntensityMin" type="BinHex"/>
+			<field name="fSwerveIntensityMax" type="BinHex"/>
+			<field name="fSwerveIntensityAIDriverModifier" type="BinHex"/>
+			<field name="fSwerveOverrideStrengthPlayerDriver" type="BinHex"/>
+			<field name="fSwerveOverrideStrengthAIDriver" type="BinHex"/>
+			<field name="fSwerveChangeRate" type="BinHex"/>
+			<field name="fSwerveStiffness" type="BinHex"/>
+			<field name="fForcedAccelIntensity" type="BinHex"/>
+			<field name="fTimeToLoseSpeedControl" type="BinHex"/>
 		</object>
 		<object name="VisibilityCheckSettings">
 			<field name="bPerceiveIfSee" type="Boolean"/>
 			<field name="bPerceiveIfCouldSee" type="Boolean"/>
 			<field name="bPerceiveIfHear" type="Boolean"/>
-			<field hash="46C0A02C" type="BinHex"/>
+			<field name="bPerceiveIfInFOV" type="BinHex"/>
 		</object>
 		<object name="ReactionZoneSettings">
 			<field name="fComfortZoneMinRadius" type="Float"/>
 			<field name="fComfortZoneMaxRadius" type="Float"/>
-			<field hash="108AE880" type="BinHex"/>
+			<field name="fComfortZoneAbsoluteMinRadius" type="BinHex"/>
 			<field name="bIsOriented" type="Boolean"/>
 			<field name="fFavoredAngle" type="Float"/>
 		</object>
-		<object hash="973136C9">
-			<field hash="AAE278E5" type="BinHex"/>
-			<object hash="98B1032C">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="StimFilterSettings">
+			<field name="bCheckPerceivedDistance" type="BinHex"/>
+			<object name="PerceivedDistance">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 		</object>
 		<object name="ProjectileRadius">
@@ -129,9 +129,9 @@
 				<field name="bPerceiveIfHear" type="Boolean"/>
 			</object>
 		</object>
-		<object hash="351A65CB">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="DoesEntityEmitHVCProximity">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="ExtraStimRadius">
 			<field name="fHearRadius" type="Float"/>

@@ -8,14 +8,14 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="bEnable" type="Boolean"/>
 	<field name="sFrameLabel" type="BinHex"/>
-	<field hash="1ED07B72" type="BinHex"/>
-	<field hash="189D4340" type="BinHex"/>
-	<field hash="7FFC53AB" type="BinHex"/>
-	<field hash="E7B5EF9D" type="BinHex"/>
-	<object hash="1D52A663">
+	<field name="texturedbobjectVarietyIcon" type="BinHex"/>
+	<field name="bIsAShopVariety" type="BinHex"/>
+	<field name="selShopVarietyType" type="BinHex"/>
+	<field name="uVarietyPriority" type="BinHex"/>
+	<object name="locstridItemVarietyNameId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="55E03BA3">
+	<object name="locstridItemVarietyDescriptionId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

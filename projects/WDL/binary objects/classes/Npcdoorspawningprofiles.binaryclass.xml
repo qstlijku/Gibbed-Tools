@@ -6,14 +6,14 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9DAAA350" type="BinHex"/>
+	<field name="fMaxSpawnsPerMinute" type="BinHex"/>
 	<field hash="D9F90648" type="BinHex"/>
-	<object hash="E997FA01">
-		<field hash="FB1DC110" type="BinHex"/>
-		<field hash="18516C6F" type="BinHex"/>
-		<field hash="236EBB82" type="BinHex"/>
+	<object name="SpawnWeights">
+		<field name="uiOccupationSpawnWeight" type="BinHex"/>
+		<field name="uiLeisureSpawnWeight" type="BinHex"/>
+		<field name="uiRestSpawnWeight" type="BinHex"/>
 	</object>
-	<object hash="8AA48470">
+	<object name="curveSpawnInterval">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">

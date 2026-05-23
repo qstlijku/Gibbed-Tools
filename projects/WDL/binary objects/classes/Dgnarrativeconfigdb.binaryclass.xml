@@ -6,36 +6,36 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="F7B8EB1B">
+	<object name="Triggers">
 		<object name="Trigger">
-			<object hash="59D9FCF2">
-				<field hash="86B954EC" type="BinHex"/>
-				<field hash="98ACEE14" type="BinHex"/>
+			<object name="TriggerCondition">
+				<field name="bIsRepeatable" type="BinHex"/>
+				<field name="bUseGlobalCooldown" type="BinHex"/>
 				<field name="fCooldown" type="Float"/>
-				<field hash="5E8DFE96" type="BinHex"/>
-				<field hash="997917D6" type="BinHex"/>
+				<field name="bUseGlobalDelayToStartAfterTrigger" type="BinHex"/>
+				<field name="fMinTimeToStartAfterTrigger" type="BinHex"/>
 				<object name="Conditions">
 					<object name="Condition">
 						<field hash="6D1E1959" type="String"/>
 						<field name="selType" type="Enum"/>
 						<object name="Object">
-							<field hash="326E0D52" type="BinHex"/>
-							<field hash="8A5B248B" type="BinHex"/>
-							<object hash="C08739C0">
+							<field name="fMaxRangeToPickNPC" type="BinHex"/>
+							<field name="selGroupBehaviorRole" type="BinHex"/>
+							<object name="MatchingAgentStates">
 								<object name="State">
 									<field name="selNPCState" type="Enum"/>
 								</object>
 							</object>
 							<field hash="4BB5CDCF" type="String"/>
-							<field hash="C8AC8EE4" type="BinHex"/>
-							<field hash="F1AC3B08" type="BinHex"/>
+							<field name="SeenTriggerName" type="BinHex"/>
+							<field name="BlockingTriggerName" type="BinHex"/>
 						</object>
 					</object>
 				</object>
 			</object>
 			<object name="Configs">
-				<object hash="F0AEE5CF">
-					<field hash="F0AEE5CF" type="BinHex"/>
+				<object name="dggroupbhvconfigConfig">
+					<field name="dggroupbhvconfigConfig" type="BinHex"/>
 				</object>
 			</object>
 		</object>

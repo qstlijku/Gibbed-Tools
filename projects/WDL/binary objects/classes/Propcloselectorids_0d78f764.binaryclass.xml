@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="AF868EAE">
-		<object hash="1F9F5635">
-			<field hash="1F9F5635" type="String"/>
+	<object name="CLOSelectorIDs">
+		<object name="SelectorID">
+			<field name="SelectorID" type="String"/>
 		</object>
 	</object>
 </class>

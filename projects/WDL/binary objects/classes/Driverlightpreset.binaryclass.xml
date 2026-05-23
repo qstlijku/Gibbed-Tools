@@ -13,9 +13,9 @@
 	<field name="bSnapDirectionOnPlane" type="Boolean"/>
 	<field name="bUpdateOnMovement" type="Boolean"/>
 	<field name="bForceOrientationUpdate" type="Boolean"/>
-	<field hash="474B51D8" type="BinHex"/>
+	<field name="iVersion" type="BinHex"/>
 	<field name="fIntensity" type="Float"/>
-	<field hash="26233C8F" type="BinHex"/>
+	<field name="fRelativeIntensity" type="BinHex"/>
 	<object name="LightEffects">
 		<object name="LightEffect">
 			<field name="lighteffectprefabPrefab" type="BinHex"/>

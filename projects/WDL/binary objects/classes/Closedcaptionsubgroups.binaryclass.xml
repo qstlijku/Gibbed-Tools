@@ -7,22 +7,22 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fCooldown" type="Float"/>
-	<field hash="A2CFF32C" type="BinHex"/>
+	<field name="uPriority" type="BinHex"/>
 	<field name="fMaxRadius" type="Float"/>
 	<field name="fMinRadius" type="Float"/>
-	<field hash="FA54B5B3" type="BinHex"/>
-	<field hash="AB1DC8AB" type="BinHex"/>
-	<field hash="DB6DCECA" type="BinHex"/>
-	<field hash="F6E338E3" type="BinHex"/>
-	<field hash="13FD054B" type="BinHex"/>
-	<object hash="AD567963">
-		<field hash="5CD2F06A" type="BinHex"/>
-		<field hash="DE5BB23C" type="BinHex"/>
-		<field hash="2BBBB894" type="BinHex"/>
-		<field hash="285C2D31" type="BinHex"/>
-		<field hash="11FD150E" type="BinHex"/>
-		<field hash="01540C26" type="BinHex"/>
-		<field hash="79070FFE" type="BinHex"/>
-		<field hash="7AAFD532" type="BinHex"/>
+	<field name="closedcaptiongroupGroup" type="BinHex"/>
+	<field name="bShowDirection" type="BinHex"/>
+	<field name="bShowIfInView" type="BinHex"/>
+	<field name="fDurationThreshold" type="BinHex"/>
+	<field name="fRandomSkipDivisor" type="BinHex"/>
+	<object name="ClosedCaptioningStates">
+		<field name="bShowDuringExploration" type="BinHex"/>
+		<field name="bShowDuringDroneControlling" type="BinHex"/>
+		<field name="bShowInCar" type="BinHex"/>
+		<field name="bShowDuringSearch" type="BinHex"/>
+		<field name="bShowDuringCombat" type="BinHex"/>
+		<field name="bShowDuringForbiddenZone" type="BinHex"/>
+		<field name="bShowDuringActiveCombat" type="BinHex"/>
+		<field name="bShowDuringCinematic" type="BinHex"/>
 	</object>
 </class>

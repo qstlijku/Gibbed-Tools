@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="D6393D04" type="BinHex"/>
-	<field hash="D9A08B12" type="BinHex"/>
-	<field hash="E5ADB44B" type="BinHex"/>
+	<field name="fMinGaugeRatio" type="BinHex"/>
+	<field name="fAbandonTimeMin" type="BinHex"/>
+	<field name="fAbandonTimeMax" type="BinHex"/>
 </class>

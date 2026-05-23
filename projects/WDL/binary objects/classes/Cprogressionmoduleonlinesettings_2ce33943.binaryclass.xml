@@ -7,33 +7,33 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
-		<field hash="F6C52C9A" type="String"/>
-		<field hash="9FE938B1" type="String"/>
-		<field hash="7E7F6076" type="String"/>
-		<field hash="64E48544" type="String"/>
-		<field hash="25AA07DB" type="String"/>
-		<field hash="02B80215" type="String"/>
-		<field hash="CA73E4C7" type="String"/>
-		<field hash="2830C723" type="String"/>
+		<field name="CurrencyTypeName" type="String"/>
+		<field name="BoosterTypeName" type="String"/>
+		<field name="ElitePassTypeName" type="String"/>
+		<field name="SeasonPassTypeName" type="String"/>
+		<field name="MissionTypeName" type="String"/>
+		<field name="PremiumCurrencyId" type="String"/>
+		<field name="OnlineTokenId" type="String"/>
+		<field name="OnlineCryptoId" type="String"/>
 		<field hash="EBBD1C48" type="BinHex"/>
 		<field hash="2B2F1C71" type="String"/>
-		<field hash="EE908583" type="String"/>
-		<field hash="A0B8ED9E" type="String"/>
-		<field hash="3EA0916E" type="String"/>
+		<field name="ModPartId" type="String"/>
+		<field name="ProgressionBoosterId" type="String"/>
+		<field name="TeamSlotId" type="String"/>
 		<field hash="4F0939C9" type="String"/>
 		<field hash="56C7EBB0" type="String"/>
 		<field hash="EE70C7B2" type="String"/>
-		<field hash="A08A8D78" type="String"/>
-		<field hash="586FB527" type="String"/>
-		<object hash="BCDAF6C7">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="CryptoId" type="String"/>
+		<field name="PremiumStoreShopId" type="String"/>
+		<object name="CanSyncOnlineData">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="909CF7CA">
 			<object name="Trigger">
 				<field name="ItemId" type="String"/>
 				<object name="Trigger">
-					<field hash="C50F1A52" type="BinHex"/>
+					<field name="rulesmithidRuleId" type="BinHex"/>
 				</object>
 			</object>
 		</object>

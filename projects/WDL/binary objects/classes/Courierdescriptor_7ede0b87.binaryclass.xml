@@ -6,82 +6,82 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="6F2C92B4" type="BinHex"/>
-	<field hash="BB55B1F4" type="BinHex"/>
-	<field hash="36CC5EE1" type="BinHex"/>
-	<field hash="F590B6D8" type="BinHex"/>
-	<field hash="8F9F955E" type="BinHex"/>
-	<field hash="5420C6B9" type="BinHex"/>
-	<field hash="964C19B5" type="BinHex"/>
-	<field hash="938AD91F" type="BinHex"/>
-	<field hash="8ADAD7D9" type="BinHex"/>
-	<field hash="811AEA8C" type="BinHex"/>
-	<field hash="AB8E2968" type="BinHex"/>
-	<field hash="53152C90" type="BinHex"/>
-	<field hash="D48D8752" type="BinHex"/>
-	<field hash="B17B29E1" type="BinHex"/>
-	<field hash="8283EC3E" type="BinHex"/>
+	<field name="bShouldShowGPSPath" type="BinHex"/>
+	<field name="iMaxNumberMissions" type="BinHex"/>
+	<field name="fRedistributionAmount" type="BinHex"/>
+	<field name="fRecommendedMissionMinimumDistanceToDropOff" type="BinHex"/>
+	<field name="iMinMissionExpirationTime" type="BinHex"/>
+	<field name="iMaxMissionExpirationTime" type="BinHex"/>
+	<field name="iMaxIntrigueMissionRetries" type="BinHex"/>
+	<field name="iMaxRecommendedMissionBuildRetries" type="BinHex"/>
+	<field name="fNearlyExpiredDuration" type="BinHex"/>
+	<field name="fRetryGenerationTimeout" type="BinHex"/>
+	<field name="fReplaceFinishedTimeout" type="BinHex"/>
+	<field name="fDisplayMissionResolutionTime" type="BinHex"/>
+	<field name="iReputationMaxStrikes" type="BinHex"/>
+	<field name="fPackageHealthNotificationThreshold" type="BinHex"/>
+	<field name="fPackageHealthNotificationDuration" type="BinHex"/>
 	<field hash="83DC2170" type="String"/>
-	<field hash="00C5625B" type="BinHex"/>
-	<field hash="321E942D" type="BinHex"/>
+	<field name="sndMissionStart" type="BinHex"/>
+	<field name="sndtpMissionStartType" type="BinHex"/>
 	<field hash="8AEF1D4B" type="String"/>
-	<field hash="B606A7FA" type="BinHex"/>
-	<field hash="69D44CB2" type="BinHex"/>
+	<field name="sndMisssionCompleted" type="BinHex"/>
+	<field name="sndtpMisssionCompletedType" type="BinHex"/>
 	<field hash="B395E98E" type="String"/>
-	<field hash="1FAA098D" type="BinHex"/>
-	<field hash="6A744ACF" type="BinHex"/>
+	<field name="sndMissionFailed" type="BinHex"/>
+	<field name="sndtpMissionFailedType" type="BinHex"/>
 	<field hash="3775D2EE" type="String"/>
-	<field hash="AED0BCB4" type="BinHex"/>
-	<field hash="676B428B" type="BinHex"/>
+	<field name="sndTimerCountdown" type="BinHex"/>
+	<field name="sndtpTimerCountdownType" type="BinHex"/>
 	<field hash="B89D7A00" type="String"/>
-	<field hash="04C710A0" type="BinHex"/>
-	<field hash="3CA4B4ED" type="BinHex"/>
+	<field name="sndTimerFastCountdown" type="BinHex"/>
+	<field name="sndtpTimerFastCountdownType" type="BinHex"/>
 	<field hash="E407B263" type="String"/>
-	<field hash="1675F4AD" type="BinHex"/>
-	<field hash="5A9E2F4E" type="BinHex"/>
-	<field hash="F50A3737" type="BinHex"/>
-	<field hash="DAD0EA95" type="BinHex"/>
-	<field hash="43D9BB2F" type="BinHex"/>
-	<field hash="34DE8BB9" type="BinHex"/>
+	<field name="sndTimerOver" type="BinHex"/>
+	<field name="sndtpTimerOverType" type="BinHex"/>
+	<field name="fPkgDmgPlayerThrownOffVehicle" type="BinHex"/>
+	<field name="fPackageMaxDamageLvl1" type="BinHex"/>
+	<field name="fPackageMaxDamageLvl2" type="BinHex"/>
+	<field name="fPackageMaxDamageLvl3" type="BinHex"/>
 	<field hash="6B627CC8" type="String"/>
-	<field hash="578BC679" type="BinHex"/>
-	<field hash="50A21615" type="BinHex"/>
-	<field hash="B48885F1" type="BinHex"/>
+	<field name="PackageDamagedBarkId" type="BinHex"/>
+	<field name="fPackageHealthThresholdForDamageBark" type="BinHex"/>
+	<field name="fPackageDamagedBarkCooldown" type="BinHex"/>
 	<field hash="4B5019C7" type="String"/>
-	<field hash="77B9A376" type="BinHex"/>
-	<field hash="90426A16" type="BinHex"/>
+	<field name="TimerExpiringdBarkId" type="BinHex"/>
+	<field name="fNearlyExpiredBarkTime" type="BinHex"/>
 	<field hash="092117E7" type="String"/>
-	<field hash="35C8AD56" type="BinHex"/>
+	<field name="DeliveryFailedBarkId" type="BinHex"/>
 	<field hash="C18E2B28" type="String"/>
-	<field hash="17E4D2AA" type="BinHex"/>
-	<field hash="ADD6322D" type="BinHex"/>
-	<field hash="4440C863" type="BinHex"/>
-	<field hash="75C8F020" type="BinHex"/>
-	<field hash="06999C85" type="BinHex"/>
-	<field hash="EDF19163" type="BinHex"/>
-	<object hash="F4A7A1D8">
-		<object hash="7C7EF943">
-			<field hash="D09E28D9" type="BinHex"/>
+	<field name="PackageDeliveredBarkId" type="BinHex"/>
+	<field name="fAttentionRequestTime" type="BinHex"/>
+	<field name="phonecommunicationsettingsFirstIntro" type="BinHex"/>
+	<field name="phonecommunicationsettingsIllegalDeliveryIntro" type="BinHex"/>
+	<field name="phonecommunicationsettingsIllegalPickup" type="BinHex"/>
+	<field name="bE3LocationRestrictionEnable" type="BinHex"/>
+	<object name="MissionTypes">
+		<object name="MissionType">
+			<field name="couriermissionconfigMissionType" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="8E319F4E">
-		<object hash="7C7EF943">
-			<field hash="D09E28D9" type="BinHex"/>
+		<object name="MissionType">
+			<field name="couriermissionconfigMissionType" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="2D220C22">
+	<object name="locstridOrderCompletedMessageLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3543BA34">
+	<object name="locstridOrderCanceledTimedOutMessageLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="4D33DF57">
+	<object name="locstridMissionObjectiveTitleLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="542F204F">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F1BF7C35">
+	<object name="locstridJobAbandonedLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="93AE31E6">
@@ -93,10 +93,10 @@
 	<object hash="AA72E3BD">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="60DC5D62">
+	<object name="locstridFragileObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="0B17AAD2">
+	<object name="locstridWaypointObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="671AAD2A">
@@ -105,49 +105,49 @@
 	<object hash="8B62A2D1">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E00CFD78">
-		<field hash="C50F1A52" type="BinHex"/>
+	<object name="RankReachedTrigger">
+		<field name="rulesmithidRuleId" type="BinHex"/>
 	</object>
-	<object hash="67D63CE0">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="CryptoGetter">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="BFFA3B73">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="ReputationGainGetter">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="64AACBFB">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="ReputationLossGetter">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="AE269E2C">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="69FD7277">
+	<object name="locstridPackageHealthNotificationTitleLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="6D5FD463">
+	<object name="locstridPackageHealthNotificationSubTextLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="52F27AF4">
-		<object hash="284B47DB">
+	<object name="ProgressionRanks">
+		<object name="Rank">
 			<field hash="B5453AAD" type="String"/>
-			<field hash="A0C9A35E" type="BinHex"/>
-			<field hash="941B5661" type="BinHex"/>
+			<field name="RankId" type="BinHex"/>
+			<field name="fRankMax" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="B3FF12C1">
+	<object name="ProgressionDefaultRank">
 		<field hash="B5453AAD" type="String"/>
-		<field hash="A0C9A35E" type="BinHex"/>
-		<field hash="941B5661" type="BinHex"/>
+		<field name="RankId" type="BinHex"/>
+		<field name="fRankMax" type="BinHex"/>
 	</object>
-	<object hash="B1427AEA">
-		<object hash="46F9BE6E">
-			<field hash="A067B1A1" type="BinHex"/>
+	<object name="TutorialItems">
+		<object name="TutorialItem">
+			<field name="itemsTutorialItem" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="C4B623C1">
+	<object name="locstridTutorialLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

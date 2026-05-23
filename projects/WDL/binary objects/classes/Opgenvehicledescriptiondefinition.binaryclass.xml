@@ -11,9 +11,9 @@
 			<field name="selAffiliation" type="Enum"/>
 		</object>
 	</object>
-	<object hash="4898EEBF">
-		<object hash="25B284F2">
-			<field hash="02A2734E" type="BinHex"/>
+	<object name="VehiculeFlags">
+		<object name="VehiculeFlag">
+			<field name="selVehiculeFlag" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
 		<object name="Setting">
-			<field hash="564734F8" type="BinHex"/>
+			<field name="brickcontextsettingsSetting" type="BinHex"/>
 		</object>
 	</object>
 </class>

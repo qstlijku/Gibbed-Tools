@@ -13,8 +13,8 @@
 	<field name="fBlendOutTime" type="Float"/>
 	<field name="fConstantValue" type="Float"/>
 	<field name="fIntensity" type="Float"/>
-	<field hash="26233C8F" type="BinHex"/>
-	<field hash="474B51D8" type="BinHex"/>
+	<field name="fRelativeIntensity" type="BinHex"/>
+	<field name="iVersion" type="BinHex"/>
 	<object name="curveFlashingIntensityCurve">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
@@ -46,7 +46,7 @@
 		<field name="bConveniance" type="Boolean"/>
 		<field name="bSpotLight" type="Boolean"/>
 		<field name="bHacked" type="Boolean"/>
-		<field hash="3B5F5AD3" type="BinHex"/>
-		<field hash="2BA334C4" type="BinHex"/>
+		<field name="bRearFog" type="BinHex"/>
+		<field name="bAutonomousMode" type="BinHex"/>
 	</object>
 </class>

@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="D194C4C7" type="BinHex"/>
-	<field hash="388BCDC7" type="BinHex"/>
-	<field hash="F9CB2B3F" type="BinHex"/>
-	<object hash="78B0D2F3">
+	<field name="mapicondescTrackedIcon" type="BinHex"/>
+	<field name="mapicondescUntrackedIcon" type="BinHex"/>
+	<field name="texturedbobjectIconTexture" type="BinHex"/>
+	<object name="locstridLoadingBrief">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

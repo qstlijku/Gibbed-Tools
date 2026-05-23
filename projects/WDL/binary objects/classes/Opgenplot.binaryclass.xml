@@ -6,34 +6,34 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="C9D1F50E" type="BinHex"/>
-	<field hash="C2BB5251" type="BinHex"/>
+	<field name="bEnableRandomAIVehicle" type="BinHex"/>
+	<field name="fRandomAIVehicleProbability" type="BinHex"/>
 	<field name="sTrackingName" type="String"/>
-	<object hash="96C1C1A8">
-		<object hash="A24A246D">
-			<field hash="C7B490E0" type="BinHex"/>
-			<object hash="5CA0DB20">
-				<object hash="21CC9683">
-					<field hash="7A24A6A6" type="BinHex"/>
-					<object hash="04F405F9">
+	<object name="ObjectiveFamilies">
+		<object name="Family">
+			<field name="opgenobjectivefamilyObjectiveLogicFamilyDb" type="BinHex"/>
+			<object name="TargetsSpecification">
+				<object name="TargetSpecification">
+					<field name="dgobjectivelogicObjectiveLogicDb" type="BinHex"/>
+					<object name="locstridFriendlyName">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>
 					<object name="RequiredTags">
-						<object hash="66FFEEA3">
-							<object hash="EFEDCA86">
+						<object name="RequiredActorTags">
+							<object name="tagcategoryselectionblackboardActorTags">
 								<object name="TagCategorySelectionArray">
 									<object name="TagCategorySelection">
 										<field hash="CF68E402" type="String"/>
 										<field name="hid_DTCTH_ClassName" type="BinHex"/>
 										<field hash="BDB3B8D5" type="String"/>
-										<field hash="401A8276" type="BinHex"/>
-										<field hash="F5391DFF" type="BinHex"/>
+										<field name="UITagCategorySelectionClassID" type="BinHex"/>
+										<field name="tagcategoryUITagCategory" type="BinHex"/>
 										<field name="tagcategoryTagCategory" type="BinHex"/>
 										<object name="Tags"/>
 										<field name="tagTag" type="BinHex"/>
 									</object>
 								</object>
-								<object hash="D0C5DABB">
+								<object name="TagDescriptorUI">
 									<field hash="CF68E402" type="String"/>
 									<field name="hid_DTCTH_ClassName" type="BinHex"/>
 									<object name="TagCategorySelectionDescriptors">
@@ -46,51 +46,51 @@
 							</object>
 						</object>
 					</object>
-					<object hash="70EF867B"/>
+					<object name="ForbiddenTags"/>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="3B508C06">
-		<object hash="04E00B23">
+	<object name="ProfilesDefinitions">
+		<object name="LocationsDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="E915ADA6"/>
+			<object name="LocationDefinitions"/>
 		</object>
-		<object hash="9B94D601">
+		<object name="DeliveryLocationsDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="E915ADA6"/>
+			<object name="LocationDefinitions"/>
 		</object>
-		<object hash="FAA9B2EC">
+		<object name="HumanAlliesDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="D3599E81">
-				<object hash="EB3177F2">
-					<field hash="EB3177F2" type="BinHex"/>
+			<object name="HumanDefinitions">
+				<object name="opgenhumandefinitionHumanDefinition">
+					<field name="opgenhumandefinitionHumanDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="EE0D46F5">
+		<object name="HumanEnnemiesDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="D3599E81">
-				<object hash="EB3177F2">
-					<field hash="EB3177F2" type="BinHex"/>
+			<object name="HumanDefinitions">
+				<object name="opgenhumandefinitionHumanDefinition">
+					<field name="opgenhumandefinitionHumanDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="A076B70E">
+		<object name="VehiclesDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="AE6DEDC0">
-				<object hash="A22C17CA">
-					<field hash="A22C17CA" type="BinHex"/>
+			<object name="VehicleDefinitions">
+				<object name="opgenvehicledefinitionVehicleDefinition">
+					<field name="opgenvehicledefinitionVehicleDefinition" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="D0EAD89B">
+		<object name="DronesDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="58F6F7C5"/>
+			<object name="DroneDefinitions"/>
 		</object>
-		<object hash="32C9C169">
+		<object name="AnyTargetDefinitions">
 			<field name="selMode" type="Enum"/>
-			<object hash="32C9C169">
+			<object name="AnyTargetDefinitions">
 				<field name="selMode" type="Enum"/>
 			</object>
 		</object>

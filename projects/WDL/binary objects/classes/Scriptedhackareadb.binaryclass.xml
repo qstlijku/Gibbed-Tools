@@ -7,30 +7,30 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="2A8FD736" type="String"/>
-	<field hash="69A91C07" type="BinHex"/>
-	<object hash="84FB3782">
-		<field hash="5B795443" type="BinHex"/>
+	<field name="scriptedhackareaselHackAreaType" type="BinHex"/>
+	<object name="HackArea">
+		<field name="fUpdateDelayTime" type="BinHex"/>
 		<field name="fLifeTime" type="Float"/>
-		<field hash="796217EA" type="BinHex"/>
+		<field name="bClearEffectOnLeave" type="BinHex"/>
 		<field name="fRadius" type="Float"/>
 		<field hash="C28B0D1D" type="BinHex"/>
 		<field hash="EC9D1DD7" type="BinHex"/>
-		<field hash="AB74A207" type="BinHex"/>
-		<field hash="D3768B7A" type="BinHex"/>
-		<field hash="4EAA5382" type="BinHex"/>
-		<field hash="0A060216" type="BinHex"/>
-		<field hash="96113AAD" type="BinHex"/>
-		<field hash="8FFA6E0A" type="BinHex"/>
-		<field hash="B1AE6324" type="BinHex"/>
-		<object hash="85183C5C">
-			<field hash="759A6A89" type="BinHex"/>
-			<field hash="73A36962" type="BinHex"/>
-			<object hash="85183C5C">
-				<field hash="759A6A89" type="BinHex"/>
-				<field hash="73A36962" type="BinHex"/>
+		<field name="vec3LocalCameraOffset" type="BinHex"/>
+		<field name="vec3LocalCameraOffsetVehicle" type="BinHex"/>
+		<field name="bUseDirIncar" type="BinHex"/>
+		<field name="bDebugMovementEnabled" type="BinHex"/>
+		<field name="fDebugMovementMaxOffset" type="BinHex"/>
+		<field name="fDebugMovementSpeed" type="BinHex"/>
+		<field name="bDebugsingleForwardSpawn" type="BinHex"/>
+		<object name="OnEnterEffects">
+			<field name="scriptedhackeffectdbHackEffect" type="BinHex"/>
+			<field name="fOverrideProbability" type="BinHex"/>
+			<object name="OnEnterEffects">
+				<field name="scriptedhackeffectdbHackEffect" type="BinHex"/>
+				<field name="fOverrideProbability" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D46BBF16"/>
-		<object hash="00CE87EC"/>
+		<object name="OnExitEffects"/>
+		<object name="OnActivateEffects"/>
 	</object>
 </class>

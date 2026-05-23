@@ -6,30 +6,30 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="2AF7DC06" type="BinHex"/>
-	<field hash="165581CD" type="BinHex"/>
-	<field hash="BC79F996" type="BinHex"/>
-	<field hash="509E5209" type="BinHex"/>
-	<field hash="5A7705BB" type="BinHex"/>
-	<field hash="6F2D0D9E" type="BinHex"/>
-	<field hash="E54BD97A" type="BinHex"/>
-	<field hash="3B15C816" type="BinHex"/>
-	<field hash="FCCDE2D3" type="BinHex"/>
+	<field name="bIsCodeDependent" type="BinHex"/>
+	<field name="selMemoryType" type="BinHex"/>
+	<field name="selAffinityChange" type="BinHex"/>
+	<field name="selSeverityLevel" type="BinHex"/>
+	<field name="selReactionCategory" type="BinHex"/>
+	<field name="bIsIndirectMemory" type="BinHex"/>
+	<field name="bCanPropagateToPositiveRelations" type="BinHex"/>
+	<field name="bCanPropagateToRivalRelations" type="BinHex"/>
+	<field name="selUiDisplayOverride" type="BinHex"/>
 	<field hash="024E29E1" type="BinHex"/>
 	<field hash="75D5BD00" type="BinHex"/>
-	<object hash="EE603A60">
-		<field hash="C50F1A52" type="BinHex"/>
+	<object name="AppliedTrigger">
+		<field name="rulesmithidRuleId" type="BinHex"/>
 	</object>
-	<object hash="1E0FA483">
+	<object name="locstridUITemplateForPersonalMemory">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="9AB3D67E">
+	<object name="locstridUITemplateForPersonalMemoryAboutOperative">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F947AB1C">
-		<field hash="FBD08719" type="BinHex"/>
-		<field hash="AF927793" type="BinHex"/>
-		<field hash="26D36C55" type="BinHex"/>
-		<field hash="F8391733" type="BinHex"/>
+	<object name="MemoryOverrides">
+		<field name="censusactormemorydefinitionMemoryToOverride" type="BinHex"/>
+		<field name="bMustBePropagatedViaRival" type="BinHex"/>
+		<field name="bMustBePropagatedFromIntrigueTarget" type="BinHex"/>
+		<field name="bRequiresSameParticipants" type="BinHex"/>
 	</object>
 </class>

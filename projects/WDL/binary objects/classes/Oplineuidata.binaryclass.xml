@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="F72718F4" type="BinHex"/>
-	<object hash="7BA72580">
+	<field name="texturedbobjectUIImage" type="BinHex"/>
+	<object name="locstridNameLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="42DDAFC5">
+	<object name="locstridDescriptionLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

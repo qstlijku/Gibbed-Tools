@@ -6,19 +6,19 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="F4E82F6E">
-		<object hash="F5469614">
-			<field hash="4BA552D5" type="BinHex"/>
-			<field hash="534EEAD1" type="BinHex"/>
+	<object name="DataDriveObjectsMap">
+		<object name="DataDriveObjectData">
+			<field name="itemsItemDbObject" type="BinHex"/>
+			<field name="selFileType" type="BinHex"/>
 			<object name="locstridTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8DD1E18A">
-				<object hash="DF9449B4">
+			<object name="DataFileItemsData">
+				<object name="DataFileItemData">
 					<field hash="A59E7470" type="String"/>
-					<field hash="A879B653" type="BinHex"/>
-					<object hash="9D2DBA80">
-						<object hash="83E722F5">
+					<field name="uidatafilesitemContentType" type="BinHex"/>
+					<object name="ItemContentProperties">
+						<object name="locstridTextContent">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
 					</object>

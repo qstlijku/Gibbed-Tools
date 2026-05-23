@@ -6,36 +6,36 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="2B8DCD46">
-		<field hash="67C26CAC" type="BinHex"/>
-		<field hash="4EBC91B4" type="BinHex"/>
-		<field hash="269DB089" type="BinHex"/>
-		<field hash="4FE20BA7" type="BinHex"/>
-		<field hash="144292BF" type="BinHex"/>
+	<object name="LookAhead">
+		<field name="fMaxSpeedForLookAhead" type="BinHex"/>
+		<field name="fMinSpeedForLookAhead" type="BinHex"/>
+		<field name="fMinLookAhead" type="BinHex"/>
+		<field name="fMaxLookAheadDistance" type="BinHex"/>
+		<field name="fMaxLookAheadCurve" type="BinHex"/>
 	</object>
-	<object hash="139F7916">
-		<field hash="F0938972" type="BinHex"/>
-		<field hash="94F821B2" type="BinHex"/>
-		<field hash="EA495D0F" type="BinHex"/>
-		<field hash="5D36BD3E" type="BinHex"/>
+	<object name="SteeringControlParameters">
+		<field name="fKp" type="BinHex"/>
+		<field name="fKi" type="BinHex"/>
+		<field name="fKd" type="BinHex"/>
+		<field name="fKpSlow" type="BinHex"/>
 	</object>
-	<object hash="F2D38F25">
-		<field hash="329727C6" type="BinHex"/>
-		<field hash="32F4D3EC" type="BinHex"/>
-		<field hash="E932EA88" type="BinHex"/>
-		<field hash="6EA1BCFA" type="BinHex"/>
-		<field hash="C819AD6B" type="BinHex"/>
+	<object name="SpeedControlParameters">
+		<field name="fKpThrottle" type="BinHex"/>
+		<field name="fKiThrottle" type="BinHex"/>
+		<field name="fBrakingThreshold" type="BinHex"/>
+		<field name="fBrakeGain" type="BinHex"/>
+		<field name="fMaxBrakeForSpeedLimitChanges" type="BinHex"/>
 	</object>
 	<object name="Speed">
-		<field hash="D0409CCB" type="BinHex"/>
-		<field hash="40338C21" type="BinHex"/>
-		<field hash="8DD1406A" type="BinHex"/>
-		<field hash="6A673A2D" type="BinHex"/>
+		<field name="fMin_speedCff" type="BinHex"/>
+		<field name="fMax_speedCff" type="BinHex"/>
+		<field name="fSpeedEpsilon" type="BinHex"/>
+		<field name="fDefaultStressMaxSpeed" type="BinHex"/>
 	</object>
-	<object hash="2715B2C0">
-		<field hash="06A874DE" type="BinHex"/>
-		<field hash="C7D943D6" type="BinHex"/>
-		<field hash="D49CA57D" type="BinHex"/>
-		<field hash="A02B6954" type="BinHex"/>
+	<object name="Others">
+		<field name="fMaxBrakeForTraffic" type="BinHex"/>
+		<field name="fMaxThrottleForTraffic" type="BinHex"/>
+		<field name="fMinThrottleForTraffic" type="BinHex"/>
+		<field name="fCornerSpeedModifierForTraffic" type="BinHex"/>
 	</object>
 </class>

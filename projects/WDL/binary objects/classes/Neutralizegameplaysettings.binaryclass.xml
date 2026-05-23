@@ -6,33 +6,33 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="5286F20B" type="BinHex"/>
-	<field hash="B0F3B395" type="BinHex"/>
-	<field hash="0AC2704E" type="BinHex"/>
-	<field hash="6D5DD14E" type="BinHex"/>
-	<field hash="D5FE7974" type="BinHex"/>
-	<field hash="D76F3261" type="BinHex"/>
-	<field hash="6EFBB928" type="BinHex"/>
+	<field name="bUseUnspecificTargets" type="BinHex"/>
+	<field name="selHumanNeutralizationCondition" type="BinHex"/>
+	<field name="selAuthorizedDestructionCauses" type="BinHex"/>
+	<field name="bNoCivilianVictim" type="BinHex"/>
+	<field name="iNumberOfNonSpecificTargetNeutralizationNeeded" type="BinHex"/>
+	<field name="bAreHumanTargets" type="BinHex"/>
+	<field name="bUseOnlineNotifications" type="BinHex"/>
 	<field hash="CB8E77FC" type="BinHex"/>
-	<object hash="E8F9ADB0">
-		<object hash="7F774473">
-			<field hash="14958AD5" type="BinHex"/>
+	<object name="AffiliationFlags">
+		<object name="ValidAffiliationFlag">
+			<field name="selFlag" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="7D9DE536"/>
-	<object hash="275DCCD2"/>
-	<object hash="57C1A347"/>
-	<object hash="BFF776AE">
+	<object name="NPCDescriptions"/>
+	<object name="VehicleDescriptions"/>
+	<object name="DroneDescriptions"/>
+	<object name="TargetNeutralizedOnlineNotification">
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="EC302652">
-		<field hash="5B334899" type="BinHex"/>
-		<field hash="FE7DCB74" type="BinHex"/>
+	<object name="TargetNeutralizedCriticalMessage">
+		<field name="bIsActivated" type="BinHex"/>
+		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="4B95868D">

@@ -7,9 +7,9 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="8D97F4A3" type="BinHex"/>
-	<field hash="F9CB2B3F" type="BinHex"/>
-	<field hash="0A38546E" type="BinHex"/>
-	<field hash="628E3389" type="BinHex"/>
+	<field name="texturedbobjectIconTexture" type="BinHex"/>
+	<field name="texturedbobjectUpgradeImage" type="BinHex"/>
+	<field name="videosBinkVideoResource" type="BinHex"/>
 	<field hash="8126348F" type="BinHex"/>
 	<field hash="BD62AFE1" type="BinHex"/>
 	<field hash="03BB9D63" type="BinHex"/>
@@ -18,15 +18,15 @@
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="AFF3FED5">
-		<object hash="F68FE9FC">
+		<object name="UpgradeDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="8A38F97A">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="IsAvailableExotic">
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="17817DB9">
+	<object name="locstridExoticLockReason">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

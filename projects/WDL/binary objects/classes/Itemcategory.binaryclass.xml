@@ -8,18 +8,18 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="bEnable" type="Boolean"/>
 	<field name="sFrameLabel" type="String"/>
-	<field hash="8A187A75" type="BinHex"/>
+	<field name="texturedbobjectCategoryIcon" type="BinHex"/>
 	<field name="bIsAShopCategory" type="Boolean"/>
 	<field name="selShopCategoryType" type="BinHex"/>
 	<field name="uCategoryPriority" type="UInt32"/>
-	<field hash="E5C45E25" type="BinHex"/>
+	<field name="selRewardType" type="BinHex"/>
 	<object name="locstridItemCategoryNameId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridItemCategoryDescriptionId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="62021480">
+	<object name="locstridItemCategoryRewardName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

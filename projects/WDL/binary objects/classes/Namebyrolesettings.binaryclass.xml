@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="586A5A73">
-		<object hash="05081C4B">
+	<object name="NameByRoleList">
+		<object name="OverridenNameByRole">
 			<field hash="F0255B61" type="String"/>
-			<field hash="F75B2554" type="BinHex"/>
+			<field name="Role" type="BinHex"/>
 			<object name="locstridName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>

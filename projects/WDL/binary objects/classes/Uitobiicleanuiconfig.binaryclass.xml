@@ -6,14 +6,14 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="544EE946" type="BinHex"/>
-	<field hash="FE426B58" type="BinHex"/>
+	<field name="uitweensettingTobiiCleanUITweenSetting" type="BinHex"/>
+	<field name="bUseCustomBoundingBox" type="BinHex"/>
 	<object name="BoundingBox">
 		<field name="vectorBBoxMin" type="BinHex"/>
 		<field name="vectorBBoxMax" type="BinHex"/>
 	</object>
-	<object hash="16982A44">
-		<object hash="94A6362F">
+	<object name="UIElements">
+		<object name="UIElementSettingsUIElementSetting">
 			<field name="uielementsettingsUIElementSetting" type="BinHex"/>
 		</object>
 	</object>

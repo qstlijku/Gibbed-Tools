@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="180BBC23">
+	<object name="FeedbackNames">
 		<object hash="8F33CEE3">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E61323E3">
+		<object name="OrbisPadLocalization">
 			<object hash="381062C6">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -87,7 +87,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="92496843">
+		<object name="DurangoPadLocalization">
 			<object hash="381062C6">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -395,7 +395,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="7A8DC4C2">
+		<object name="MouseLocalization">
 			<object hash="E1C20A03">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>

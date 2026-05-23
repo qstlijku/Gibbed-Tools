@@ -6,52 +6,52 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="0D1BE24F" type="BinHex"/>
-	<field hash="BC6104C3" type="BinHex"/>
+	<field name="fStallInitialTime" type="BinHex"/>
+	<field name="fStallTime" type="BinHex"/>
 	<object name="Reactions">
 		<object name="Reaction">
-			<field hash="B95D8252" type="BinHex"/>
-			<field hash="3498A538" type="BinHex"/>
-			<field hash="60ED381A" type="BinHex"/>
-			<field hash="9AE3AA21" type="BinHex"/>
-			<field hash="73419271" type="BinHex"/>
+			<field name="selReaction" type="BinHex"/>
+			<field name="selWinning" type="BinHex"/>
+			<field name="selGamePhase" type="BinHex"/>
+			<field name="bWantSpecificActor" type="BinHex"/>
+			<field name="selSpecificActor" type="BinHex"/>
 			<field name="fPriority" type="Float"/>
 			<field name="fProbability" type="Float"/>
-			<field hash="1E28FEE4" type="BinHex"/>
-			<field hash="315F1163" type="BinHex"/>
-			<field hash="0D522E3A" type="BinHex"/>
-			<field hash="924C385B" type="BinHex"/>
-			<field hash="2FD579D1" type="BinHex"/>
-			<field hash="819ECB6F" type="BinHex"/>
-			<field hash="5144E07D" type="BinHex"/>
-			<field hash="A81DEEF7" type="BinHex"/>
-			<field hash="2CC6F4BC" type="BinHex"/>
+			<field name="selSound" type="BinHex"/>
+			<field name="fSoundHypeMin" type="BinHex"/>
+			<field name="fSoundHypeMax" type="BinHex"/>
+			<field name="fSoundHypeBase" type="BinHex"/>
+			<field name="fSoundEventProbability" type="BinHex"/>
+			<field name="bForPlayerOnly" type="BinHex"/>
+			<field name="bPlayIfTopLevelOnly" type="BinHex"/>
+			<field name="bImmediate" type="BinHex"/>
+			<field name="fAnimDelay" type="BinHex"/>
 			<object name="Animations">
-				<object hash="8AB260F0">
+				<object name="CrowdAnimation">
 					<field hash="42BB2269" type="String"/>
-					<field hash="B0C964A7" type="BinHex"/>
-					<field hash="99B98309" type="BinHex"/>
-					<field hash="30C8CA53" type="BinHex"/>
-					<field hash="32E1279C" type="BinHex"/>
+					<field name="fileAnimPath" type="BinHex"/>
+					<field name="fDurationMale" type="BinHex"/>
+					<field name="fDurationFemale" type="BinHex"/>
+					<field name="iWeight" type="BinHex"/>
 				</object>
 			</object>
 			<object name="Bark">
-				<field hash="B28B422D" type="BinHex"/>
-				<field hash="5262D62E" type="BinHex"/>
-				<field hash="09BAC376" type="BinHex"/>
+				<field name="bPlayOnAnnouncer" type="BinHex"/>
+				<field name="bPlayOnLocalPlayer" type="BinHex"/>
+				<field name="bIs2D" type="BinHex"/>
 				<field hash="0B3BE899" type="BinHex"/>
 				<field hash="995B332C" type="String"/>
 				<field name="Bark" type="BinHex"/>
-				<object hash="82ED9952">
+				<object name="MinMaxInterval">
 					<field name="fMin" type="Float"/>
 					<field name="fMax" type="Float"/>
 				</object>
 			</object>
-			<object hash="F8D682CA">
+			<object name="Instances">
 				<field name="iMin" type="Int32"/>
 				<field name="iMax" type="Int32"/>
 			</object>
-			<object hash="1C597AAD">
+			<object name="RepeatTime">
 				<field name="fMin" type="Float"/>
 				<field name="fMax" type="Float"/>
 			</object>

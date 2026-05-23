@@ -51,49 +51,49 @@
 			<field name="fHumanVsTrafficNormalize" type="Float"/>
 			<field name="fAiVsTrafficNormalize" type="Float"/>
 		</object>
-		<object hash="1E161DAA">
-			<field hash="D59671A3" type="BinHex"/>
-			<field hash="EE6338B8" type="BinHex"/>
-			<field hash="E355D833" type="BinHex"/>
-			<field hash="CF6367CA" type="BinHex"/>
-			<field hash="57FE1F07" type="BinHex"/>
-			<field hash="F70B7E69" type="BinHex"/>
+		<object name="VehicleMassScaleFactor">
+			<field name="fHumanVsAiMassScale" type="BinHex"/>
+			<field name="fHumanVsTrafficMassScale" type="BinHex"/>
+			<field name="fHumanVsParkedMassScale" type="BinHex"/>
+			<field name="fAiVsTrafficMassScale" type="BinHex"/>
+			<field name="fAiVsParkedMassScale" type="BinHex"/>
+			<field name="fTrafficVsParkedMassScale" type="BinHex"/>
 		</object>
-		<object hash="9897CA2B">
-			<field hash="3995B1B1" type="BinHex"/>
-			<field hash="05988EE8" type="BinHex"/>
-			<field hash="F3EA0A2C" type="BinHex"/>
-			<field hash="09A2F47F" type="BinHex"/>
-			<field hash="C6093103" type="BinHex"/>
-			<field hash="7145C137" type="BinHex"/>
-			<field hash="7691CCD8" type="BinHex"/>
-			<field hash="4A9CF381" type="BinHex"/>
-			<field hash="AC15AB4E" type="BinHex"/>
+		<object name="VehicleLockSteer">
+			<field name="fDegreeCollisionMax" type="BinHex"/>
+			<field name="fDegreeCollisionMin" type="BinHex"/>
+			<field name="fVelocityTollerance" type="BinHex"/>
+			<field name="fAngVelTollerance" type="BinHex"/>
+			<field name="fMassRatioThreshold" type="BinHex"/>
+			<field name="fRelativeSpeedThreshold" type="BinHex"/>
+			<field name="fDeadzoneDegreeMax" type="BinHex"/>
+			<field name="fDeadzoneDegreeMin" type="BinHex"/>
+			<field name="fIgnoreInputForSecs" type="BinHex"/>
 		</object>
 		<object name="DriverTypeDamageScales">
-			<object hash="CFF8F370">
-				<field hash="32C17AC5" type="BinHex"/>
+			<object name="ParkedDamageReceiver">
+				<field name="fScaleWhenHitByParked" type="BinHex"/>
 				<field name="fScaleWhenHitByHuman" type="Float"/>
-				<field hash="39DAE946" type="BinHex"/>
-				<field hash="FE4A8997" type="BinHex"/>
+				<field name="fScaleWhenHitByAi" type="BinHex"/>
+				<field name="fScaleWhenHitByTraffic" type="BinHex"/>
 			</object>
 			<object name="HumanDamageReceiver">
-				<field hash="32C17AC5" type="BinHex"/>
+				<field name="fScaleWhenHitByParked" type="BinHex"/>
 				<field name="fScaleWhenHitByHuman" type="Float"/>
-				<field hash="39DAE946" type="BinHex"/>
-				<field hash="FE4A8997" type="BinHex"/>
+				<field name="fScaleWhenHitByAi" type="BinHex"/>
+				<field name="fScaleWhenHitByTraffic" type="BinHex"/>
 			</object>
 			<object name="AiDamageReceiver">
-				<field hash="32C17AC5" type="BinHex"/>
+				<field name="fScaleWhenHitByParked" type="BinHex"/>
 				<field name="fScaleWhenHitByHuman" type="Float"/>
-				<field hash="39DAE946" type="BinHex"/>
-				<field hash="FE4A8997" type="BinHex"/>
+				<field name="fScaleWhenHitByAi" type="BinHex"/>
+				<field name="fScaleWhenHitByTraffic" type="BinHex"/>
 			</object>
 			<object name="TrafficeDamageReceiver">
-				<field hash="32C17AC5" type="BinHex"/>
+				<field name="fScaleWhenHitByParked" type="BinHex"/>
 				<field name="fScaleWhenHitByHuman" type="Float"/>
-				<field hash="39DAE946" type="BinHex"/>
-				<field hash="FE4A8997" type="BinHex"/>
+				<field name="fScaleWhenHitByAi" type="BinHex"/>
+				<field name="fScaleWhenHitByTraffic" type="BinHex"/>
 			</object>
 		</object>
 	</object>
@@ -199,12 +199,12 @@
 			<field name="fMaxDamage" type="Float"/>
 		</object>
 	</object>
-	<object hash="D203B2EA">
-		<field hash="36EBA2CC" type="BinHex"/>
-		<field hash="A70664F3" type="BinHex"/>
-		<field hash="E275B9C9" type="BinHex"/>
-		<field hash="CDE8ECD6" type="BinHex"/>
-		<field hash="06FAF611" type="BinHex"/>
-		<field hash="15E349F9" type="BinHex"/>
+	<object name="VehicleEjectionParams">
+		<field name="fVerticalScaleRange" type="BinHex"/>
+		<field name="fVerticalBase" type="BinHex"/>
+		<field name="fVerticalLinCompo" type="BinHex"/>
+		<field name="fMinLaunchAngle" type="BinHex"/>
+		<field name="fMaxCarEjectSpeed" type="BinHex"/>
+		<field name="fMaxNonCarEjectSpeed" type="BinHex"/>
 	</object>
 </class>

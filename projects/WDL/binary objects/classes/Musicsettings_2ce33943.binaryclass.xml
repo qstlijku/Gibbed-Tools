@@ -6,207 +6,207 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="3F064AFF">
-		<field hash="3BAAF03A" type="BinHex"/>
-		<field hash="BB37CED0" type="BinHex"/>
+	<object name="MusicEvents">
+		<field name="musiceventsLoadingMusicStart" type="BinHex"/>
+		<field name="musiceventsLoadingMusicStop" type="BinHex"/>
 		<field hash="261A5928" type="String"/>
-		<field hash="CC44390C" type="BinHex"/>
+		<field name="sndMute2DMusicEvent" type="BinHex"/>
 		<field hash="6B5FE44A" type="String"/>
-		<field hash="D7058EEA" type="BinHex"/>
+		<field name="sndUnMute2DMusicEvent" type="BinHex"/>
 		<field hash="1F8F7083" type="String"/>
-		<field hash="F5D110A7" type="BinHex"/>
+		<field name="sndTurnRadioOnEvent" type="BinHex"/>
 		<field hash="5B4611A0" type="String"/>
-		<field hash="67AFAB11" type="BinHex"/>
+		<field name="sndTurnRadioOffEvent" type="BinHex"/>
 		<field hash="B03671C5" type="String"/>
-		<field hash="0C6C1B65" type="BinHex"/>
+		<field name="sndChangeRadioStation" type="BinHex"/>
 	</object>
-	<object hash="F5C85B9F">
+	<object name="MusicRtpcs">
 		<object name="sndvarPositioningRtpc">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="52AA73C6">
+		<object name="sndvarPlayerInVehicleRtpc">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndvarSpeakerSizeRtpc">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="A7F669BF">
+		<object name="sndvarNPCRadioDopplerRtpc">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="9980783E">
+		<object name="sndvarMusicPlaybackSpeedRtpc">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
-		<object hash="CA4A530A">
-			<field hash="393F3932" type="BinHex"/>
-			<field hash="DF1C29A6" type="BinHex"/>
-			<field hash="C60718E7" type="BinHex"/>
+		<object name="MusicRTPCValues">
+			<field name="fNPCRadioDopplerScale" type="BinHex"/>
+			<field name="fPositioningValue2D" type="BinHex"/>
+			<field name="fPositioningValue3D" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="09FE9896">
-		<object hash="B6746EEA">
-			<object hash="10FE7EEA">
+	<object name="MusicSwitches">
+		<object name="PlaybackMode">
+			<object name="sndswtpPlaybackMode">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
-			<object hash="6307354D">
+			<object name="sndswvlPlaybackInVehicle">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
-			<object hash="76F26B45">
+			<object name="sndswvlPlaybackOutsideVehicle">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
-			</object>
-		</object>
-		<object hash="8702E0F1">
-			<object hash="9A3EF84F">
-				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
-			</object>
-			<object hash="BF63C5A4">
-				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
-			</object>
-			<object hash="A678F4E5">
-				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
 		</object>
-		<object hash="E878A263">
-			<object hash="0A87770F">
+		<object name="MusicPositioning2D3D">
+			<object name="sndswtpMusicPositioning">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
-			<object hash="7A57EC1C">
+			<object name="sndswvlMusic2D">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
-			<object hash="29F650A7">
+			<object name="sndswvlMusic3D">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
+			</object>
+		</object>
+		<object name="InteriorExterior">
+			<object name="sndswtpInteriorExterior">
+				<field name="SoundId" type="BinHex"/>
+				<field name="SoundGuid" type="String"/>
+			</object>
+			<object name="sndswvlInterior">
+				<field name="SoundId" type="BinHex"/>
+				<field name="SoundGuid" type="String"/>
+			</object>
+			<object name="sndswvlExterior">
+				<field name="SoundId" type="BinHex"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
 		</object>
 	</object>
-	<object hash="3F016904">
-		<field hash="090D8114" type="BinHex"/>
-		<object hash="B199BD55">
-			<object hash="1BB9FD9A">
+	<object name="DRAMA">
+		<field name="iTracksBeforeInterlude" type="BinHex"/>
+		<object name="DRAMALevel">
+			<object name="sndstgrDRAMAConflictLevel">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
-			<object hash="C91A6DB6">
+			<object name="sndstvlDRAMAConflictLevel0">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
-			<object hash="BE1D5D20">
+			<object name="sndstvlDRAMAConflictLevel1">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
-			<object hash="27140C9A">
+			<object name="sndstvlDRAMAConflictLevel2">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
 		</object>
-		<object hash="7DA80740">
-			<object hash="54ECD1D7">
+		<object name="DRAMADirection">
+			<object name="sndstgrDRAMADirection">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
-			<object hash="7E39A4B6">
+			<object name="sndstvlDRAMADirectionUp">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
-			<object hash="175675D0">
+			<object name="sndstvlDRAMADirectionDown">
 				<field name="SoundId" type="BinHex"/>
-				<field hash="EE1824B1" type="String"/>
+				<field name="SoundGuid" type="String"/>
 			</object>
 		</object>
-		<object hash="C066E43B">
-			<field hash="561CEFC3" type="BinHex"/>
-			<field hash="FC1F2006" type="BinHex"/>
-			<field hash="D9B21481" type="BinHex"/>
-			<object hash="8CC6C14C">
+		<object name="DRAMATransitions">
+			<field name="fElapsedTimeSinceLastTransitionShort" type="BinHex"/>
+			<field name="fElapsedTimeSinceLastTransitionMedium" type="BinHex"/>
+			<field name="fElapsedTimeSinceLastTransitionLong" type="BinHex"/>
+			<object name="OneLevelIncreaseDelays">
 				<field name="disNomadObjectId" type="BinHex"/>
 				<field name="hidSingleObject" type="Boolean"/>
 				<field name="hidKey" type="BinHex"/>
 				<field name="hidValidationFailed" type="Boolean"/>
 				<field name="hidName" type="BinHex"/>
-				<field hash="95265962" type="BinHex"/>
-				<field hash="5D0D89CE" type="BinHex"/>
-				<field hash="EF8A147C" type="BinHex"/>
+				<field name="fElapsedTimeShort" type="BinHex"/>
+				<field name="fElapsedTimeMedium" type="BinHex"/>
+				<field name="fElapsedTimeLong" type="BinHex"/>
 			</object>
-			<object hash="DCF50EB4">
+			<object name="OneLevelDecreaseDelays">
 				<field name="disNomadObjectId" type="BinHex"/>
 				<field name="hidSingleObject" type="Boolean"/>
 				<field name="hidKey" type="BinHex"/>
 				<field name="hidValidationFailed" type="Boolean"/>
 				<field name="hidName" type="BinHex"/>
-				<field hash="95265962" type="BinHex"/>
-				<field hash="5D0D89CE" type="BinHex"/>
-				<field hash="EF8A147C" type="BinHex"/>
+				<field name="fElapsedTimeShort" type="BinHex"/>
+				<field name="fElapsedTimeMedium" type="BinHex"/>
+				<field name="fElapsedTimeLong" type="BinHex"/>
 			</object>
-			<object hash="03D33877">
+			<object name="TwoLevelIncreaseDelays">
 				<field name="disNomadObjectId" type="BinHex"/>
 				<field name="hidSingleObject" type="Boolean"/>
 				<field name="hidKey" type="BinHex"/>
 				<field name="hidValidationFailed" type="Boolean"/>
 				<field name="hidName" type="BinHex"/>
-				<field hash="95265962" type="BinHex"/>
-				<field hash="5D0D89CE" type="BinHex"/>
-				<field hash="EF8A147C" type="BinHex"/>
+				<field name="fElapsedTimeShort" type="BinHex"/>
+				<field name="fElapsedTimeMedium" type="BinHex"/>
+				<field name="fElapsedTimeLong" type="BinHex"/>
 			</object>
-			<object hash="53E0F78F">
+			<object name="TwoLevelDecreaseDelays">
 				<field name="disNomadObjectId" type="BinHex"/>
 				<field name="hidSingleObject" type="Boolean"/>
 				<field name="hidKey" type="BinHex"/>
 				<field name="hidValidationFailed" type="Boolean"/>
 				<field name="hidName" type="BinHex"/>
-				<field hash="95265962" type="BinHex"/>
-				<field hash="5D0D89CE" type="BinHex"/>
-				<field hash="EF8A147C" type="BinHex"/>
+				<field name="fElapsedTimeShort" type="BinHex"/>
+				<field name="fElapsedTimeMedium" type="BinHex"/>
+				<field name="fElapsedTimeLong" type="BinHex"/>
 			</object>
 		</object>
 	</object>
 	<object hash="2E6F2B10">
 		<object hash="2EC9A100">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="47D87A6E">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="910E2F9A">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="9FAA48AE">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="92EBC651">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="EA344455">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="1AF0B619">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="56EBDCEF">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="8995D8AE">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 	</object>
 </class>

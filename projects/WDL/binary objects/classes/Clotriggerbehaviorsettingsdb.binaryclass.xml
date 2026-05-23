@@ -15,7 +15,7 @@
 		<field name="selOnAnimEnd" type="Enum"/>
 		<field name="bUseAsAnchorForGoto" type="Boolean"/>
 		<field name="bOverrideQuitSettings" type="Boolean"/>
-		<field hash="FF140259" type="BinHex"/>
+		<field name="bSkipExitAnim" type="BinHex"/>
 		<object name="TriggerSettings">
 			<field name="selTriggerType" type="Enum"/>
 			<field name="bComputeAnchorFromDynamicCLOAnchor" type="Boolean"/>
@@ -42,7 +42,7 @@
 			<field name="selOnAnimEnd" type="Enum"/>
 			<field name="bUseAsAnchorForGoto" type="Boolean"/>
 			<field name="bOverrideQuitSettings" type="Boolean"/>
-			<field hash="FF140259" type="BinHex"/>
+			<field name="bSkipExitAnim" type="BinHex"/>
 			<object name="TriggerSettings">
 				<field name="selTriggerType" type="Enum"/>
 				<field name="bComputeAnchorFromDynamicCLOAnchor" type="Boolean"/>

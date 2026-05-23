@@ -14,8 +14,8 @@
 	</object>
 	<object name="Detection">
 		<field name="DetectionTimeToReachTopMax" type="BinHex"/>
-		<field hash="CEE5B380" type="BinHex"/>
-		<field hash="F74D28B7" type="BinHex"/>
+		<field name="LOSReacquisitionCoolDown" type="BinHex"/>
+		<field name="LOSReacquisitionMaxTime" type="BinHex"/>
 	</object>
 	<object name="Modifiers">
 		<object name="Actions">
@@ -74,53 +74,53 @@
 		<field name="ExplodedEntitiesDetectionRadius" type="BinHex"/>
 	</object>
 	<object name="Distracted">
-		<field hash="18488AE9" type="BinHex"/>
+		<field name="DistractedDetectionRadius" type="BinHex"/>
 	</object>
 	<object name="LastKnownPosition">
 		<field name="TargetIsSprintingAutomaticLKPUpdateRadius" type="BinHex"/>
 	</object>
-	<object hash="B3F16520">
-		<object hash="9113A06A">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+	<object name="RuleSmith">
+		<object name="IntuitionRadius">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="D0577785">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="IntuitionDetectionTime">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="531907E7">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="GaugeTimeToReachMaxModifier">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="38E7194F">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="GaugeResetDelay">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="2CBE6240">
 		<object hash="BBA122C9">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="29CFB97E">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="068F6A7E">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="6DD2FFEF">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="12734240">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="CB15AB98">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 </class>

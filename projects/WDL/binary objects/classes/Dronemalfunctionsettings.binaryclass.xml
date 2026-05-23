@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9DA5C45E" type="BinHex"/>
-	<field hash="186A582D" type="BinHex"/>
-	<field hash="ADACCEC0" type="BinHex"/>
-	<field hash="18E8CE53" type="BinHex"/>
-	<field hash="5853521A" type="BinHex"/>
-	<field hash="5D8C5E06" type="BinHex"/>
-	<field hash="779ECAA9" type="BinHex"/>
+	<field name="uiMalfunctionCountInVolley" type="BinHex"/>
+	<field name="vec2MalfunctionRange" type="BinHex"/>
+	<field name="fMalfunctionInitialFireDelay" type="BinHex"/>
+	<field name="fMalfunctionChanceToTargetEnemies" type="BinHex"/>
+	<field name="fMalfunctionMinDistBetweenShots" type="BinHex"/>
+	<field name="bSendSearchStim" type="BinHex"/>
+	<field name="bSendWasMalfunctioningIncident" type="BinHex"/>
 </class>

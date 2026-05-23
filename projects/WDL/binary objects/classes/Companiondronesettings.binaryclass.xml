@@ -6,6 +6,6 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="8EE6CAF9" type="BinHex"/>
-	<field hash="3A8BA0FB" type="BinHex"/>
+	<field name="companiondroneactiondefIdleAction" type="BinHex"/>
+	<field name="companiondroneactiondefActiveAction" type="BinHex"/>
 </class>

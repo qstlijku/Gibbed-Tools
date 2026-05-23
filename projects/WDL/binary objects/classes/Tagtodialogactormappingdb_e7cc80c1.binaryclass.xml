@@ -6,20 +6,20 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="71679931">
-		<object hash="D976C811">
-			<object hash="DF2A6D08">
+	<object name="TagDialogActorPairs">
+		<object name="TagDialogActorPair">
+			<object name="tagcategoryselectionCensusTag">
 				<field hash="BDB3B8D5" type="String"/>
-				<field hash="401A8276" type="BinHex"/>
-				<field hash="F5391DFF" type="BinHex"/>
+				<field name="UITagCategorySelectionClassID" type="BinHex"/>
+				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
-			<object hash="B948610D">
+			<object name="NPCDialogActor">
 				<field hash="D8C7B5B6" type="String"/>
 				<field name="tmplDialogActor" type="BinHex"/>
 			</object>
-			<object hash="D56C1F99">
+			<object name="PlayerDialogActor">
 				<field hash="D8C7B5B6" type="String"/>
 				<field name="tmplDialogActor" type="BinHex"/>
 			</object>

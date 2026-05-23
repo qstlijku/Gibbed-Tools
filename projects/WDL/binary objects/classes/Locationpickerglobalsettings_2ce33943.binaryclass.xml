@@ -7,44 +7,44 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Default">
-		<field hash="91FF3360" type="BinHex"/>
-		<object hash="1A743196">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<field hash="82B73BEA" type="BinHex"/>
-			<field hash="4EBA40E5" type="BinHex"/>
+		<field name="fPickWeightThresholdPercent" type="BinHex"/>
+		<object name="DistanceEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<field name="fDistanceDonutMinDistance" type="BinHex"/>
+			<field name="fDistanceDonutMaxDistance" type="BinHex"/>
 			<object name="Curve">
-				<field hash="15F6C4BB" type="BinHex"/>
-				<field hash="41D68DCC" type="BinHex"/>
-				<field hash="EB769AB7" type="BinHex"/>
-				<field hash="7DDBB295" type="BinHex"/>
-				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fWeightPercentAt0" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMin" type="BinHex"/>
+				<field name="fWeightPercentInDonut" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMax" type="BinHex"/>
+				<field name="fWeightPercentAtMax" type="BinHex"/>
 				<field name="fMaxDistance" type="Float"/>
 			</object>
 		</object>
-		<object hash="16F88B47">
-			<field hash="2E5CEE34" type="BinHex"/>
+		<object name="PlayStyleEvaluator">
+			<field name="fFactor" type="BinHex"/>
 			<object name="Curve">
-				<field hash="3D5372B7" type="BinHex"/>
-				<field hash="AE5C9AB9" type="BinHex"/>
+				<field name="fWeightPercentIfRight" type="BinHex"/>
+				<field name="fWeightPercentIfWrong" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8EFE48FB">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<object hash="81268AFF">
-				<field hash="1C956E3E" type="BinHex"/>
-				<field hash="72DCECA6" type="BinHex"/>
-				<field hash="2C4875B0" type="BinHex"/>
+		<object name="HistoryEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<object name="CurveSettings">
+				<field name="fWeightPercentAtHistoryTop" type="BinHex"/>
+				<field name="fWeightPercentAtHistoryBottom" type="BinHex"/>
+				<field name="fWeightPercentNotInHistory" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F5B6A82D">
-			<field hash="2E5CEE34" type="BinHex"/>
+		<object name="PlayerCountEvaluator">
+			<field name="fFactor" type="BinHex"/>
 			<object name="Curve">
-				<field hash="31F08D14" type="BinHex"/>
-				<field hash="AAF9FF4E" type="BinHex"/>
+				<field name="fWeightPercentForMatchingLocations" type="BinHex"/>
+				<field name="fWeightPercentForNonMatchingLocations" type="BinHex"/>
 			</object>
-			<object hash="6B8EB83B">
+			<object name="tagcategoryselectionblackboardPreferedLocationsFor1Players">
 				<object name="TagCategorySelectionArray"/>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -55,9 +55,9 @@
 					</object>
 				</object>
 			</object>
-			<object hash="E501BFD8">
+			<object name="tagcategoryselectionblackboardPreferedLocationsFor2Players">
 				<object name="TagCategorySelectionArray"/>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -68,9 +68,9 @@
 					</object>
 				</object>
 			</object>
-			<object hash="29ABBF46">
+			<object name="tagcategoryselectionblackboardPreferedLocationsFor3Players">
 				<object name="TagCategorySelectionArray"/>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -81,9 +81,9 @@
 					</object>
 				</object>
 			</object>
-			<object hash="236EB65F">
+			<object name="tagcategoryselectionblackboardPreferedLocationsFor4Players">
 				<object name="TagCategorySelectionArray"/>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -96,74 +96,74 @@
 			</object>
 		</object>
 	</object>
-	<object hash="9A4BAF88">
-		<field hash="91FF3360" type="BinHex"/>
-		<object hash="1A743196">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<field hash="82B73BEA" type="BinHex"/>
-			<field hash="4EBA40E5" type="BinHex"/>
+	<object name="LOP">
+		<field name="fPickWeightThresholdPercent" type="BinHex"/>
+		<object name="DistanceEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<field name="fDistanceDonutMinDistance" type="BinHex"/>
+			<field name="fDistanceDonutMaxDistance" type="BinHex"/>
 			<object name="Curve">
-				<field hash="15F6C4BB" type="BinHex"/>
-				<field hash="41D68DCC" type="BinHex"/>
-				<field hash="EB769AB7" type="BinHex"/>
-				<field hash="7DDBB295" type="BinHex"/>
-				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fWeightPercentAt0" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMin" type="BinHex"/>
+				<field name="fWeightPercentInDonut" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMax" type="BinHex"/>
+				<field name="fWeightPercentAtMax" type="BinHex"/>
 				<field name="fMaxDistance" type="Float"/>
 			</object>
 		</object>
-		<object hash="16F88B47">
-			<field hash="2E5CEE34" type="BinHex"/>
+		<object name="PlayStyleEvaluator">
+			<field name="fFactor" type="BinHex"/>
 			<object name="Curve">
-				<field hash="3D5372B7" type="BinHex"/>
-				<field hash="AE5C9AB9" type="BinHex"/>
+				<field name="fWeightPercentIfRight" type="BinHex"/>
+				<field name="fWeightPercentIfWrong" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8EFE48FB">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<object hash="81268AFF">
-				<field hash="1C956E3E" type="BinHex"/>
-				<field hash="72DCECA6" type="BinHex"/>
-				<field hash="2C4875B0" type="BinHex"/>
+		<object name="HistoryEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<object name="CurveSettings">
+				<field name="fWeightPercentAtHistoryTop" type="BinHex"/>
+				<field name="fWeightPercentAtHistoryBottom" type="BinHex"/>
+				<field name="fWeightPercentNotInHistory" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="63EF2722">
-		<field hash="91FF3360" type="BinHex"/>
-		<object hash="1A743196">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<field hash="82B73BEA" type="BinHex"/>
-			<field hash="4EBA40E5" type="BinHex"/>
+	<object name="FAA">
+		<field name="fPickWeightThresholdPercent" type="BinHex"/>
+		<object name="DistanceEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<field name="fDistanceDonutMinDistance" type="BinHex"/>
+			<field name="fDistanceDonutMaxDistance" type="BinHex"/>
 			<object name="Curve">
-				<field hash="15F6C4BB" type="BinHex"/>
-				<field hash="41D68DCC" type="BinHex"/>
-				<field hash="EB769AB7" type="BinHex"/>
-				<field hash="7DDBB295" type="BinHex"/>
-				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fWeightPercentAt0" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMin" type="BinHex"/>
+				<field name="fWeightPercentInDonut" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMax" type="BinHex"/>
+				<field name="fWeightPercentAtMax" type="BinHex"/>
 				<field name="fMaxDistance" type="Float"/>
 			</object>
 		</object>
-		<object hash="8EFE48FB">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<object hash="81268AFF">
-				<field hash="1C956E3E" type="BinHex"/>
-				<field hash="72DCECA6" type="BinHex"/>
-				<field hash="2C4875B0" type="BinHex"/>
+		<object name="HistoryEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<object name="CurveSettings">
+				<field name="fWeightPercentAtHistoryTop" type="BinHex"/>
+				<field name="fWeightPercentAtHistoryBottom" type="BinHex"/>
+				<field name="fWeightPercentNotInHistory" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F5B6A82D">
-			<field hash="2E5CEE34" type="BinHex"/>
+		<object name="PlayerCountEvaluator">
+			<field name="fFactor" type="BinHex"/>
 			<object name="Curve">
-				<field hash="31F08D14" type="BinHex"/>
-				<field hash="AAF9FF4E" type="BinHex"/>
+				<field name="fWeightPercentForMatchingLocations" type="BinHex"/>
+				<field name="fWeightPercentForNonMatchingLocations" type="BinHex"/>
 			</object>
-			<object hash="6B8EB83B">
+			<object name="tagcategoryselectionblackboardPreferedLocationsFor1Players">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<object name="Tags">
 							<object name="Tag">
@@ -172,7 +172,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -183,9 +183,9 @@
 					</object>
 				</object>
 			</object>
-			<object hash="E501BFD8">
+			<object name="tagcategoryselectionblackboardPreferedLocationsFor2Players">
 				<object name="TagCategorySelectionArray"/>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -196,14 +196,14 @@
 					</object>
 				</object>
 			</object>
-			<object hash="29ABBF46">
+			<object name="tagcategoryselectionblackboardPreferedLocationsFor3Players">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<object name="Tags">
 							<object name="Tag">
@@ -212,7 +212,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -223,14 +223,14 @@
 					</object>
 				</object>
 			</object>
-			<object hash="236EB65F">
+			<object name="tagcategoryselectionblackboardPreferedLocationsFor4Players">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field hash="CF68E402" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
 						<field hash="BDB3B8D5" type="String"/>
-						<field hash="401A8276" type="BinHex"/>
-						<field hash="F5391DFF" type="BinHex"/>
+						<field name="UITagCategorySelectionClassID" type="BinHex"/>
+						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
 						<object name="Tags">
 							<object name="Tag">
@@ -239,7 +239,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="D0C5DABB">
+				<object name="TagDescriptorUI">
 					<field hash="CF68E402" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
@@ -251,81 +251,81 @@
 				</object>
 			</object>
 		</object>
-		<object hash="9432FDC1">
-			<field hash="2E5CEE34" type="BinHex"/>
+		<object name="ComplexityEvaluator">
+			<field name="fFactor" type="BinHex"/>
 			<object name="Curve">
-				<field hash="31F08D14" type="BinHex"/>
-				<field hash="AAF9FF4E" type="BinHex"/>
+				<field name="fWeightPercentForMatchingLocations" type="BinHex"/>
+				<field name="fWeightPercentForNonMatchingLocations" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="97DC2A5E">
-		<field hash="91FF3360" type="BinHex"/>
-		<object hash="1A743196">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<field hash="82B73BEA" type="BinHex"/>
-			<field hash="4EBA40E5" type="BinHex"/>
+	<object name="FOP">
+		<field name="fPickWeightThresholdPercent" type="BinHex"/>
+		<object name="DistanceEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<field name="fDistanceDonutMinDistance" type="BinHex"/>
+			<field name="fDistanceDonutMaxDistance" type="BinHex"/>
 			<object name="Curve">
-				<field hash="15F6C4BB" type="BinHex"/>
-				<field hash="41D68DCC" type="BinHex"/>
-				<field hash="EB769AB7" type="BinHex"/>
-				<field hash="7DDBB295" type="BinHex"/>
-				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fWeightPercentAt0" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMin" type="BinHex"/>
+				<field name="fWeightPercentInDonut" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMax" type="BinHex"/>
+				<field name="fWeightPercentAtMax" type="BinHex"/>
 				<field name="fMaxDistance" type="Float"/>
 			</object>
 		</object>
-		<object hash="16F88B47">
-			<field hash="2E5CEE34" type="BinHex"/>
+		<object name="PlayStyleEvaluator">
+			<field name="fFactor" type="BinHex"/>
 			<object name="Curve">
-				<field hash="3D5372B7" type="BinHex"/>
-				<field hash="AE5C9AB9" type="BinHex"/>
+				<field name="fWeightPercentIfRight" type="BinHex"/>
+				<field name="fWeightPercentIfWrong" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8EFE48FB">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<object hash="81268AFF">
-				<field hash="1C956E3E" type="BinHex"/>
-				<field hash="72DCECA6" type="BinHex"/>
-				<field hash="2C4875B0" type="BinHex"/>
+		<object name="HistoryEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<object name="CurveSettings">
+				<field name="fWeightPercentAtHistoryTop" type="BinHex"/>
+				<field name="fWeightPercentAtHistoryBottom" type="BinHex"/>
+				<field name="fWeightPercentNotInHistory" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="1C2C85D2">
-		<field hash="91FF3360" type="BinHex"/>
-		<object hash="1A743196">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<field hash="82B73BEA" type="BinHex"/>
-			<field hash="4EBA40E5" type="BinHex"/>
+	<object name="RevengeOp">
+		<field name="fPickWeightThresholdPercent" type="BinHex"/>
+		<object name="DistanceEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<field name="fDistanceDonutMinDistance" type="BinHex"/>
+			<field name="fDistanceDonutMaxDistance" type="BinHex"/>
 			<object name="Curve">
-				<field hash="15F6C4BB" type="BinHex"/>
-				<field hash="41D68DCC" type="BinHex"/>
-				<field hash="EB769AB7" type="BinHex"/>
-				<field hash="7DDBB295" type="BinHex"/>
-				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fWeightPercentAt0" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMin" type="BinHex"/>
+				<field name="fWeightPercentInDonut" type="BinHex"/>
+				<field name="fWeightPercentAtDonutMax" type="BinHex"/>
+				<field name="fWeightPercentAtMax" type="BinHex"/>
 				<field name="fMaxDistance" type="Float"/>
 			</object>
 		</object>
-		<object hash="16F88B47">
-			<field hash="2E5CEE34" type="BinHex"/>
+		<object name="PlayStyleEvaluator">
+			<field name="fFactor" type="BinHex"/>
 			<object name="Curve">
-				<field hash="3D5372B7" type="BinHex"/>
-				<field hash="AE5C9AB9" type="BinHex"/>
+				<field name="fWeightPercentIfRight" type="BinHex"/>
+				<field name="fWeightPercentIfWrong" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8EFE48FB">
-			<field hash="2E5CEE34" type="BinHex"/>
-			<object hash="81268AFF">
-				<field hash="1C956E3E" type="BinHex"/>
-				<field hash="72DCECA6" type="BinHex"/>
-				<field hash="2C4875B0" type="BinHex"/>
+		<object name="HistoryEvaluator">
+			<field name="fFactor" type="BinHex"/>
+			<object name="CurveSettings">
+				<field name="fWeightPercentAtHistoryTop" type="BinHex"/>
+				<field name="fWeightPercentAtHistoryBottom" type="BinHex"/>
+				<field name="fWeightPercentNotInHistory" type="BinHex"/>
 			</object>
 		</object>
 	</object>
 	<object hash="FE497B2F">
-		<field hash="2E5CEE34" type="BinHex"/>
+		<field name="fFactor" type="BinHex"/>
 		<object hash="2AF4B72B">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="Curve">
 			<field hash="AF3A054B" type="BinHex"/>

@@ -9,16 +9,16 @@
 	<field hash="B7A73E9C" type="String"/>
 	<field name="archDefaultZone" type="BinHex"/>
 	<field hash="641A60A9" type="String"/>
-	<field hash="2B383BC1" type="BinHex"/>
-	<object hash="722E4856">
-		<object hash="ED4F0F0E">
-			<object hash="D6615DE0">
-				<object hash="7140B73D">
-					<object hash="4B68AAF9">
-						<field hash="4B68AAF9" type="BinHex"/>
+	<field name="archDefaultDebugAnnotationText" type="BinHex"/>
+	<object name="VehicleAdapterDefinition">
+		<object name="DGSceneVehicleBankAdapterCollection">
+			<object name="Adapter">
+				<object name="MatchingPlayerCounts">
+					<object name="uiPlayerCount">
+						<field name="uiPlayerCount" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="2F4CD182">
+				<object name="VehicleBankCollection">
 					<object name="vehiclesbankVehicleBank">
 						<field name="vehiclesbankVehicleBank" type="BinHex"/>
 					</object>

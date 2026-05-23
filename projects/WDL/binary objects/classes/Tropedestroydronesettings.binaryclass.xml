@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="6116A158" type="BinHex"/>
-	<object hash="77E4F8F9">
-		<object hash="F493C4AC">
+	<field name="dronebankDronesBank" type="BinHex"/>
+	<object name="PickableInfos">
+		<object name="pickableInfo">
 			<field hash="FD4BE706" type="String"/>
-			<field hash="41118DA6" type="BinHex"/>
-			<field hash="73A4DAEF" type="BinHex"/>
+			<field name="archPickableArchetype" type="BinHex"/>
+			<field name="iSpawnNbTicket" type="BinHex"/>
 		</object>
 	</object>
 </class>

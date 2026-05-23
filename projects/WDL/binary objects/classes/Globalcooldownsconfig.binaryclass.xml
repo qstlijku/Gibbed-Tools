@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="DE694AED">
+	<object name="ConfigEntries">
 		<object name="Entry">
-			<field hash="850EBDD1" type="BinHex"/>
+			<field name="selHackCategory" type="BinHex"/>
 			<field name="fCooldown" type="Float"/>
 		</object>
 	</object>

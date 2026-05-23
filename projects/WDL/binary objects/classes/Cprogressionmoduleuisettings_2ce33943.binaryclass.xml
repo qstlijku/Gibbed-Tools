@@ -7,66 +7,66 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
-		<field hash="19A7E64C" type="BinHex"/>
-		<field hash="23FF4727" type="BinHex"/>
-		<field hash="EB4B8137" type="BinHex"/>
-		<field hash="B4B5B922" type="BinHex"/>
+		<field name="texturedbobjectDataDriveAudioTexture" type="BinHex"/>
+		<field name="texturedbobjectDataDriveVideoTexture" type="BinHex"/>
+		<field name="texturedbobjectDataDriveTextTexture" type="BinHex"/>
+		<field name="texturedbobjectDataDriveImageTexture" type="BinHex"/>
 		<field hash="A29BC0C2" type="BinHex"/>
-		<object hash="523D0A8B">
+		<object name="locstridDSITokensGainedTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="DBAA3438">
+		<object name="locstridWDCreditsGainedTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="FD668E02">
+		<object name="locstridSeasonPassAcquiredTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="C762FD69">
+		<object name="locstridSeasonPassAcquiredDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8DB047A3">
+		<object name="locstridRewardCryptoGainedTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E0C6416A">
+		<object name="locstridRewardCryptoConsumedTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A6E93B9D">
+		<object name="locstridRewardCryptoGainedDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B56166B5">
+		<object name="locstridRewardDataDriveAudioAcquiredTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="BD506801">
+		<object name="locstridRewardDataDriveVideoAcquiredTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="677E7F86">
+		<object name="locstridRewardDataDriveTextAcquiredTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="166C01A2">
+		<object name="locstridRewardDataDriveImageAcquiredTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4F2DE620">
+		<object name="locstridRewardRaidModeUnlockedTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="48ED9B8C">
+		<object name="locstridRewardRaidModeUnlockedSubtitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="319BE96E">
+		<object name="locstridRewardAdditionalTeamSlotTitleLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="355758B3">
+		<object name="locstridRewardAdditionalTeamSlotGainedDescriptionLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="73737E96">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D7B7D669">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+		<object name="isRaidsUnlockeByProgression">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="C115869B">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 </class>

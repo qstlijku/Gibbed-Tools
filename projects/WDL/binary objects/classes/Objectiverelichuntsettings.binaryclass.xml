@@ -6,25 +6,25 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="B4945DFB" type="BinHex"/>
-	<field hash="8DC58589" type="BinHex"/>
-	<field hash="D64B1A65" type="BinHex"/>
-	<field hash="3A7D1D8B" type="BinHex"/>
+	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
+	<field name="bUseSpecificRole" type="BinHex"/>
+	<field name="TargetSceneID" type="BinHex"/>
+	<field name="TargetRole" type="BinHex"/>
 	<field name="bIsTimed" type="Boolean"/>
-	<field hash="D4091C10" type="BinHex"/>
-	<object hash="DADF8182">
+	<field name="timergameplaydescriptorEntityToRelicHuntTimerDescriptor" type="BinHex"/>
+	<object name="locstridShortLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3CFBA4A2">
+	<object name="locstridLongLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="14BBAE7D">
+	<object name="locstridSoloObjectiveLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FC293553">
+	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="BAD82400">
+	<object name="locstridRelicName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

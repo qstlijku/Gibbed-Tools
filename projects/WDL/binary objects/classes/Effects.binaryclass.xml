@@ -25,8 +25,8 @@
 			<field name="sndStartSoundID" type="BinHex"/>
 			<field hash="7DC670E6" type="String"/>
 			<field name="sndStopSoundID" type="BinHex"/>
-			<field hash="960CDFBD" type="BinHex"/>
-			<field hash="F4C24AA3" type="BinHex"/>
+			<field name="sndtpStartSoundType" type="BinHex"/>
+			<field name="sndtpStopSoundType" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Leaves">
@@ -42,8 +42,8 @@
 			<field name="fSpeedThreshold" type="Float"/>
 			<field name="sndStartSoundID" type="BinHex"/>
 			<field name="sndStopSoundID" type="BinHex"/>
-			<field hash="960CDFBD" type="BinHex"/>
-			<field hash="F4C24AA3" type="BinHex"/>
+			<field name="sndtpStartSoundType" type="BinHex"/>
+			<field name="sndtpStopSoundType" type="BinHex"/>
 		</object>
 	</object>
 	<object name="RoadCovers">

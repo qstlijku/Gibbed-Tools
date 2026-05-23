@@ -15,8 +15,8 @@
 	<object name="Settings">
 		<field name="bOverrideCLODensity" type="Boolean"/>
 		<field name="uiCLODensity" type="UInt32"/>
-		<field hash="9B592592" type="BinHex"/>
-		<object hash="491E05B0">
+		<field name="bOverrideTimeOfDayCivilianSpawnDensity" type="BinHex"/>
+		<object name="curveTimeOfDayCivilianSpawnDensity">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">

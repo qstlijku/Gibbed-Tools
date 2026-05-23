@@ -8,103 +8,103 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="ingamemapservicesettingsentryDefaultMap" type="BinHex"/>
 	<field name="vec2NorthDirection" type="Vector2"/>
-	<field hash="A328FDF6" type="BinHex"/>
-	<field hash="DE8E5557" type="BinHex"/>
-	<field hash="BA5125A2" type="BinHex"/>
-	<field hash="60100F02" type="BinHex"/>
-	<field hash="5568927F" type="BinHex"/>
-	<field hash="58291C80" type="BinHex"/>
-	<field hash="1B2A64CD" type="BinHex"/>
-	<field hash="E4D5B34F" type="BinHex"/>
-	<field hash="6B4895E2" type="BinHex"/>
-	<field hash="4E9A8336" type="BinHex"/>
-	<field hash="2A126B94" type="BinHex"/>
-	<field hash="A7F5FC77" type="BinHex"/>
-	<field hash="C687156D" type="BinHex"/>
-	<field hash="788BF836" type="BinHex"/>
-	<field hash="EEAAF233" type="BinHex"/>
-	<field hash="619490B7" type="BinHex"/>
-	<field hash="B39D5DDF" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapArabic" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapBrazilianPortuguese" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapDutch" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapEnglish" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapFrench" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapGerman" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapItalian" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapJapanese" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapKorean" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapMexicanSpanish" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapPolish" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapRussian" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapSimplifiedChinese" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapSpanish" type="BinHex"/>
+	<field name="mapicondescNorthSymbolMinimapTraditionalChinese" type="BinHex"/>
+	<field name="uizonesettingsBuildingSetting" type="BinHex"/>
+	<field name="uizonesettingsWorldMapRedZoneSetting" type="BinHex"/>
 	<field hash="752A4A8B" type="BinHex"/>
-	<field hash="EF24A400" type="BinHex"/>
-	<field hash="98239496" type="BinHex"/>
-	<field hash="52E4FEE2" type="BinHex"/>
-	<field hash="755F99D3" type="BinHex"/>
-	<field hash="780F3442" type="BinHex"/>
+	<field name="fIconFramingMaxOffsetX" type="BinHex"/>
+	<field name="fIconFramingMaxOffsetY" type="BinHex"/>
+	<field name="fIconFramingMinZoomDistance" type="BinHex"/>
+	<field name="fIconFramingMaxZoomDistance" type="BinHex"/>
+	<field name="uitweensettingFramingCameraTweenSettings" type="BinHex"/>
 	<object name="FogOfWar">
 		<field name="colorColor" type="Vector3"/>
 		<field name="Alpha" type="BinHex"/>
 	</object>
-	<object hash="280C9352">
-		<field hash="C8F142B6" type="BinHex"/>
-		<field hash="CF83AC17" type="BinHex"/>
-		<field hash="BF3DAAF7" type="BinHex"/>
+	<object name="MapFilterItems">
+		<field name="selFilterType" type="BinHex"/>
+		<field name="mapicondescMapIcon" type="BinHex"/>
+		<field name="texturedbobjectFilterTexture" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="280C9352">
-			<field hash="C8F142B6" type="BinHex"/>
-			<field hash="CF83AC17" type="BinHex"/>
-			<field hash="BF3DAAF7" type="BinHex"/>
+		<object name="MapFilterItems">
+			<field name="selFilterType" type="BinHex"/>
+			<field name="mapicondescMapIcon" type="BinHex"/>
+			<field name="texturedbobjectFilterTexture" type="BinHex"/>
 			<object name="locstridName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="FFA719C7">
-		<field hash="24564AF1" type="BinHex"/>
-		<field hash="5100B41A" type="BinHex"/>
+	<object name="BoroughBorders">
+		<field name="colorOppressedColor" type="BinHex"/>
+		<field name="colorDefiantColor" type="BinHex"/>
 		<field hash="56701DC5" type="BinHex"/>
-		<object hash="1FC4C656">
-			<field hash="5ED80A9D" type="BinHex"/>
+		<object name="FullZoomIn">
+			<field name="bAllowBoroughPanel" type="BinHex"/>
 			<field hash="C81EA09A" type="BinHex"/>
-			<field hash="8911299C" type="BinHex"/>
+			<field name="bDisplayFocusedBoroughOnly" type="BinHex"/>
 			<object name="Focused">
-				<field hash="1A23DCFE" type="BinHex"/>
-				<field hash="6D24EC68" type="BinHex"/>
+				<field name="fBorderSizeX" type="BinHex"/>
+				<field name="fBorderSizeY" type="BinHex"/>
 			</object>
-			<object hash="8CF8D7D7">
-				<field hash="1A23DCFE" type="BinHex"/>
-				<field hash="6D24EC68" type="BinHex"/>
+			<object name="Unfocused">
+				<field name="fBorderSizeX" type="BinHex"/>
+				<field name="fBorderSizeY" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="6705EFA0">
-			<field hash="5ED80A9D" type="BinHex"/>
+		<object name="MidZoomIn">
+			<field name="bAllowBoroughPanel" type="BinHex"/>
 			<field hash="C81EA09A" type="BinHex"/>
-			<field hash="8911299C" type="BinHex"/>
+			<field name="bDisplayFocusedBoroughOnly" type="BinHex"/>
 			<object name="Focused">
-				<field hash="1A23DCFE" type="BinHex"/>
-				<field hash="6D24EC68" type="BinHex"/>
+				<field name="fBorderSizeX" type="BinHex"/>
+				<field name="fBorderSizeY" type="BinHex"/>
 			</object>
-			<object hash="8CF8D7D7">
-				<field hash="1A23DCFE" type="BinHex"/>
-				<field hash="6D24EC68" type="BinHex"/>
+			<object name="Unfocused">
+				<field name="fBorderSizeX" type="BinHex"/>
+				<field name="fBorderSizeY" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="FE604B87">
-			<field hash="5ED80A9D" type="BinHex"/>
+		<object name="MidZoomOut">
+			<field name="bAllowBoroughPanel" type="BinHex"/>
 			<field hash="C81EA09A" type="BinHex"/>
-			<field hash="8911299C" type="BinHex"/>
+			<field name="bDisplayFocusedBoroughOnly" type="BinHex"/>
 			<object name="Focused">
-				<field hash="1A23DCFE" type="BinHex"/>
-				<field hash="6D24EC68" type="BinHex"/>
+				<field name="fBorderSizeX" type="BinHex"/>
+				<field name="fBorderSizeY" type="BinHex"/>
 			</object>
-			<object hash="8CF8D7D7">
-				<field hash="1A23DCFE" type="BinHex"/>
-				<field hash="6D24EC68" type="BinHex"/>
+			<object name="Unfocused">
+				<field name="fBorderSizeX" type="BinHex"/>
+				<field name="fBorderSizeY" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="AAC6DD87">
-			<field hash="5ED80A9D" type="BinHex"/>
+		<object name="FullZoomOut">
+			<field name="bAllowBoroughPanel" type="BinHex"/>
 			<field hash="C81EA09A" type="BinHex"/>
-			<field hash="8911299C" type="BinHex"/>
+			<field name="bDisplayFocusedBoroughOnly" type="BinHex"/>
 			<object name="Focused">
-				<field hash="1A23DCFE" type="BinHex"/>
-				<field hash="6D24EC68" type="BinHex"/>
+				<field name="fBorderSizeX" type="BinHex"/>
+				<field name="fBorderSizeY" type="BinHex"/>
 			</object>
-			<object hash="8CF8D7D7">
-				<field hash="1A23DCFE" type="BinHex"/>
-				<field hash="6D24EC68" type="BinHex"/>
+			<object name="Unfocused">
+				<field name="fBorderSizeX" type="BinHex"/>
+				<field name="fBorderSizeY" type="BinHex"/>
 			</object>
 		</object>
 	</object>
@@ -122,8 +122,8 @@
 				<field hash="B1C509F1" type="BinHex"/>
 				<field name="mapicondescMapIconDescription" type="BinHex"/>
 				<object hash="E03E9C14">
-					<field hash="94C08F9B" type="BinHex"/>
-					<field hash="1DF2E0ED" type="BinHex"/>
+					<field name="rulesmithidRule" type="BinHex"/>
+					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
 				<object hash="950954D4">
 					<field name="LocalizationId" type="UInt64"/>

@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="selOrientation" type="Enum"/>
 	<field name="selLoopType" type="Enum"/>
-	<object hash="7E88C119">
+	<object name="curveSearchPattern">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">

@@ -6,28 +6,28 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="209C3575" type="BinHex"/>
-	<field hash="EA0E44C5" type="BinHex"/>
-	<field hash="2E6C64DC" type="BinHex"/>
+	<field name="selSettingType" type="BinHex"/>
+	<field name="sUiMovieClipName" type="BinHex"/>
+	<field name="bIsEditableByPlayer" type="BinHex"/>
 	<field hash="413F7139" type="BinHex"/>
-	<field hash="493DC1F7" type="BinHex"/>
-	<field hash="6FEABFFA" type="BinHex"/>
-	<field hash="F5C7D929" type="BinHex"/>
-	<field hash="F33541B3" type="BinHex"/>
-	<field hash="2FFED589" type="BinHex"/>
+	<field name="cinematicmodeColorFilter" type="BinHex"/>
+	<field name="selStickerBlendType" type="BinHex"/>
+	<field name="selStickerHorizontalAlignment" type="BinHex"/>
+	<field name="selStickerVerticalAlignment" type="BinHex"/>
+	<field name="fileStickerTexture" type="BinHex"/>
 	<field name="fMinValue" type="Float"/>
 	<field name="fMaxValue" type="Float"/>
-	<field hash="06E462BB" type="BinHex"/>
-	<field hash="2AF58FEE" type="BinHex"/>
-	<field hash="B8F9E515" type="BinHex"/>
-	<field hash="A0B51F41" type="BinHex"/>
-	<field hash="BB9EBBE9" type="BinHex"/>
+	<field name="fDefaultValue" type="BinHex"/>
+	<field name="bUseGameCameraDefaultValue" type="BinHex"/>
+	<field name="bIsAffectedByFocus" type="BinHex"/>
+	<field name="fDefaultValueWhenFocusActive" type="BinHex"/>
+	<field name="bDefaultToggleValue" type="BinHex"/>
 	<object name="locstridSettingName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="08159117">
-		<object hash="77C64A18">
-			<field hash="53961559" type="BinHex"/>
+	<object name="PhotoModes">
+		<object name="PhotoMode">
+			<field name="selPhotoMode" type="BinHex"/>
 		</object>
 	</object>
 </class>

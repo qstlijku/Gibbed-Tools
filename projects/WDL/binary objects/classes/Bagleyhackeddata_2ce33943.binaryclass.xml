@@ -14,15 +14,15 @@
 		<field hash="FE392FE1" type="BinHex"/>
 		<field hash="CF8A4437" type="BinHex"/>
 		<object name="IsActivated">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="183CD630">
-			<object hash="84FB3782">
-				<field hash="1EC4B5DC" type="BinHex"/>
+		<object name="HackAreas">
+			<object name="HackArea">
+				<field name="scriptedhackareadbHackArea" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="B0568086">
+		<object name="curveHackAreaIndexPerSecondCurve">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">
@@ -40,15 +40,15 @@
 			<field hash="FE392FE1" type="BinHex"/>
 			<field hash="CF8A4437" type="BinHex"/>
 			<object name="IsActivated">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="183CD630">
-				<object hash="84FB3782">
-					<field hash="1EC4B5DC" type="BinHex"/>
+			<object name="HackAreas">
+				<object name="HackArea">
+					<field name="scriptedhackareadbHackArea" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="B0568086">
+			<object name="curveHackAreaIndexPerSecondCurve">
 				<field name="hidNumKnots" type="BinHex"/>
 				<object name="Knots">
 					<object name="Knot">

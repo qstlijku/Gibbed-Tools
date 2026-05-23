@@ -6,46 +6,46 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="B4945DFB" type="BinHex"/>
-	<field hash="6D5DD14E" type="BinHex"/>
-	<field hash="FFC16212" type="BinHex"/>
-	<field hash="0AC2704E" type="BinHex"/>
-	<field hash="36BEB326" type="BinHex"/>
-	<object hash="DADF8182">
+	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
+	<field name="bNoCivilianVictim" type="BinHex"/>
+	<field name="bForceTargetVehicleExplosionOnDestruction" type="BinHex"/>
+	<field name="selAuthorizedDestructionCauses" type="BinHex"/>
+	<field name="selVehicleHealthBarDisplayMode" type="BinHex"/>
+	<object name="locstridShortLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3CFBA4A2">
+	<object name="locstridLongLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="14BBAE7D">
+	<object name="locstridSoloObjectiveLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FC293553">
+	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="Target">
-		<field hash="D64B1A65" type="BinHex"/>
+		<field name="TargetSceneID" type="BinHex"/>
 		<field hash="A6871411" type="String"/>
-		<field hash="3A7D1D8B" type="BinHex"/>
+		<field name="TargetRole" type="BinHex"/>
 	</object>
-	<object hash="A2139B40">
+	<object name="TargetDestroyedOnlineNotification">
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="F19380B0">
-		<field hash="5B334899" type="BinHex"/>
-		<field hash="FE7DCB74" type="BinHex"/>
+	<object name="TargetDestroyedCriticalMessage">
+		<field name="bIsActivated" type="BinHex"/>
+		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
-		<object hash="E2474051">
+		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="4B95868D">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="8293A3A8">
+	<object name="locstridVehicleHealthBarHeader">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="06523E97">

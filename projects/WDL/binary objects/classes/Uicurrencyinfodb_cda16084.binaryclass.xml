@@ -8,9 +8,9 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="F659849C" type="BinHex"/>
 	<field hash="7B9F925B" type="BinHex"/>
-	<object hash="D8066696">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="DSICurrency">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -18,9 +18,9 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="884EDBA5">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="ETOCurrency">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -28,9 +28,9 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="593DD49B">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="WDCreditsCurrency">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -38,9 +38,9 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="47C9C3B1">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="DSICurrency3D">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -48,9 +48,9 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="8CF5197A">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="ETOCurrency3DSmallQuantity">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -58,9 +58,9 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="706F9BB2">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="ETOCurrency3DMediumQuantity">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -68,9 +68,9 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="79DFC872">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="ETOCurrency3DLargeQuantity">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -78,9 +78,9 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="3B927DE1">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="WDCreditsCurrency3DSmallQuantity">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -88,9 +88,9 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="1705B61A">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="WDCreditsCurrency3DMediumQuantity">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -98,9 +98,9 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="CEB8ACE9">
-		<field hash="6DD09D90" type="BinHex"/>
-		<field hash="99B426E3" type="BinHex"/>
+	<object name="WDCreditsCurrency3DLargeQuantity">
+		<field name="texturedbobjectSmallImage" type="BinHex"/>
+		<field name="texturedbobjectBigImage" type="BinHex"/>
 		<object name="locstridName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>

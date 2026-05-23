@@ -6,22 +6,22 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="C6211711" type="BinHex"/>
-	<field hash="D30F667C" type="BinHex"/>
-	<field hash="EF025925" type="BinHex"/>
-	<field hash="A4A8AEE8" type="BinHex"/>
-	<field hash="98A591B1" type="BinHex"/>
-	<field hash="6880555B" type="BinHex"/>
-	<field hash="548D6A02" type="BinHex"/>
-	<field hash="CC38026F" type="BinHex"/>
-	<field hash="E5EFAEA3" type="BinHex"/>
-	<field hash="D9E291FA" type="BinHex"/>
-	<field hash="BA77CD42" type="BinHex"/>
-	<field hash="867AF21B" type="BinHex"/>
-	<field hash="56E5FEFB" type="BinHex"/>
-	<field hash="265EF24A" type="BinHex"/>
-	<field hash="E72C4174" type="BinHex"/>
-	<object hash="DF504231">
+	<field name="fMoveSpeed" type="BinHex"/>
+	<field name="fSideMoveAngleMin" type="BinHex"/>
+	<field name="fSideMoveAngleMax" type="BinHex"/>
+	<field name="fVerticalMoveAngleMin" type="BinHex"/>
+	<field name="fVerticalMoveAngleMax" type="BinHex"/>
+	<field name="fMoveRangeMin" type="BinHex"/>
+	<field name="fMoveRangeMax" type="BinHex"/>
+	<field name="fMinTargetDistance" type="BinHex"/>
+	<field name="fDefaultDelayMin" type="BinHex"/>
+	<field name="fDefaultDelayMax" type="BinHex"/>
+	<field name="fDelayIfHijackedTargetMin" type="BinHex"/>
+	<field name="fDelayIfHijackedTargetMax" type="BinHex"/>
+	<field name="fLastMoveDirProbabilityModifier" type="BinHex"/>
+	<field name="fTooLowHeight" type="BinHex"/>
+	<field name="fTooLowUpProbabilityModifier" type="BinHex"/>
+	<object name="curveHeightDiffUpProbabilityModifierCurve">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">
@@ -31,7 +31,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="F88BE1EF">
+	<object name="curveHeightDiffDownProbabilityModifierCurve">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">
 			<object name="Knot">

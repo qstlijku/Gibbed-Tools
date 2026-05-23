@@ -7,25 +7,25 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
-		<object hash="99CCE36F">
-			<field hash="C50F1A52" type="BinHex"/>
+		<object name="InitTrigger">
+			<field name="rulesmithidRuleId" type="BinHex"/>
 		</object>
 		<object hash="7709AB25">
-			<field hash="C50F1A52" type="BinHex"/>
+			<field name="rulesmithidRuleId" type="BinHex"/>
 		</object>
-		<object hash="1FAD3253">
+		<object name="Upgrades">
 			<object name="Upgrade">
 				<field hash="D97A7AA9" type="String"/>
-				<field hash="CCF6E35A" type="BinHex"/>
-				<field hash="582D3A63" type="BinHex"/>
-				<object hash="9886612F">
+				<field name="NameId" type="BinHex"/>
+				<field name="uiclassupgradeUI" type="BinHex"/>
+				<object name="Levels">
 					<object name="Level">
-						<field hash="B8143BC2" type="BinHex"/>
+						<field name="Cost" type="BinHex"/>
 						<field hash="7B8CA066" type="BinHex"/>
-						<object hash="1D38085E">
-							<object hash="80724A45">
+						<object name="Atoms">
+							<object name="Atom">
 								<field hash="AD6C934B" type="String"/>
-								<field hash="1136F9EB" type="BinHex"/>
+								<field name="progressionatomAtomId" type="BinHex"/>
 							</object>
 						</object>
 					</object>

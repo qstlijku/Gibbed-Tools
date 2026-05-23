@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Items">
-		<object hash="D0DDE0E4">
-			<field hash="D0DDE0E4" type="BinHex"/>
+		<object name="wolfskinitemdbItem">
+			<field name="wolfskinitemdbItem" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -11,76 +11,76 @@
 		<field hash="F1DAA2B6" type="BinHex"/>
 		<object name="sndvarBusVolumeRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndvarObjectVolumeRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndvarObjectPercentVolumeRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndvarOcclusionRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndvarMusicVolumeRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="83EFB8F6">
+		<object name="sndvarDialogueVolumeRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="D3919203">
+		<object name="sndvarVoiceChatVolumeRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="E3FACACF">
+		<object name="sndvarCommunicationNotificationsVolumeRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="2CCA6E56">
+		<object name="sndvarObjectVelocityRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="9E6818B8">
+		<object name="sndvarSFXVolumeRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="CAAA048B">
+		<object name="sndvarOcclusionZoneReverbLevelRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="A4D9BF69">
+		<object name="sndvarStereoDownmixRTPC">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object hash="874D3D8D">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
-		<object hash="3AFDEAC9">
+		<object name="sndswtpEntityMovement">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="48C75427">
+		<object name="sndswvlEntityMovementForward">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="F3FA4654">
+		<object name="sndswvlEntityMovementBackward">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="Multiplayer">
 			<field hash="FD88E382" type="String"/>
-			<field hash="FEE86B77" type="BinHex"/>
+			<field name="sndMicrophoneInputEvent" type="BinHex"/>
 			<field hash="ED621470" type="BinHex"/>
 		</object>
 		<object name="DTest">
 			<field hash="0536EAC8" type="String"/>
-			<field hash="F744AC06" type="BinHex"/>
+			<field name="sndTestSound" type="BinHex"/>
 			<field hash="B30B1B1E" type="BinHex"/>
 		</object>
 	</object>
@@ -108,12 +108,12 @@
 		<field name="LimiterMaxSpeed" type="BinHex"/>
 		<field name="LimiterMinSoundDuration" type="BinHex"/>
 	</object>
-	<object hash="E57680DA">
-		<object hash="20A21C14">
-			<object hash="C2F3D720">
-				<field hash="C841F297" type="BinHex"/>
-				<field hash="6CD38F45" type="BinHex"/>
-				<field hash="E65ACE31" type="BinHex"/>
+	<object name="SoundCategoryLimiter">
+		<object name="SoundLimiterSettings">
+			<object name="SoundLimiterSetting">
+				<field name="sndtpSoundCategory" type="BinHex"/>
+				<field name="bCanLimit2DSounds" type="BinHex"/>
+				<field name="SoundLimit" type="BinHex"/>
 			</object>
 		</object>
 	</object>

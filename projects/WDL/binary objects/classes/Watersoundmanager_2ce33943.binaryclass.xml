@@ -10,77 +10,77 @@
 	<object name="WaterDeepnessSwitch">
 		<object name="sndswtpWaterDeepSoundSwitchType">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndswvlSoundSwitchSolidGround">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object name="sndswvlSoundSwitchMud">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object name="sndswvlSoundSwitchWaterLow">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndswvlSoundSwitchWaterDeep">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 	</object>
 	<object name="PerspectiveSwitch">
 		<object name="sndswtpPerspectiveSoundSwitchType">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object name="sndswvlSoundSwitchOutOfWater">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object name="sndswvlSoundSwitchUnderwater">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 	</object>
 	<object name="ObjectSizeSwitch">
 		<object name="sndswtpObjectSizeSoundSwitchType">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndswvlSoundSwitchLargeObject">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndswvlSoundSwitchMediumObject">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndswvlSoundSwitchSmallObject">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndswvlSoundSwitchExtraSmallObject">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 	</object>
 	<object name="ObjectSpeedSwitch">
 		<object name="sndswtpObjectSpeedSoundSwitchType">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndswvlSoundSwitchVeryFastObject">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndswvlSoundSwitchFastObject">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="sndswvlSoundSwitchSlowObject">
 			<field name="SoundId" type="BinHex"/>
-			<field hash="EE1824B1" type="String"/>
+			<field name="SoundGuid" type="String"/>
 		</object>
 	</object>
 	<object name="WaterDeepnessLimit">

@@ -13,7 +13,7 @@
 			<field name="Pose" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="4A18A424">
+	<object name="Sliders">
 		<object name="Slider">
 			<field hash="DDE78CC2" type="String"/>
 			<field name="Slider" type="BinHex"/>

@@ -7,6 +7,6 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bEnabled" type="Boolean"/>
-	<field hash="ACF447A5" type="BinHex"/>
-	<field hash="78B5787A" type="BinHex"/>
+	<field name="publiceventsettingsSP" type="BinHex"/>
+	<field name="publiceventsettingsMP" type="BinHex"/>
 </class>

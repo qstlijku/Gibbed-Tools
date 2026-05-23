@@ -51,17 +51,17 @@
 			</object>
 		</object>
 	</object>
-	<object hash="A23DAC54">
-		<field hash="AB3B8FDB" type="BinHex"/>
-		<field hash="6A8D9090" type="BinHex"/>
-		<field hash="E2E16AD0" type="BinHex"/>
-		<field hash="A023E187" type="BinHex"/>
-		<field hash="41ECCF80" type="BinHex"/>
+	<object name="DronesHighwayHeight">
+		<field name="fVeryLow" type="BinHex"/>
+		<field name="fLow" type="BinHex"/>
+		<field name="fNormal" type="BinHex"/>
+		<field name="fHigh" type="BinHex"/>
+		<field name="fVeryHigh" type="BinHex"/>
 	</object>
-	<object hash="BCF927BD">
-		<field hash="1DC97FEE" type="BinHex"/>
-		<field hash="E2E16AD0" type="BinHex"/>
-		<field hash="2BFE0A78" type="BinHex"/>
+	<object name="DronesHighwaySize">
+		<field name="fSmall" type="BinHex"/>
+		<field name="fNormal" type="BinHex"/>
+		<field name="fBig" type="BinHex"/>
 	</object>
 	<object name="RailVehicleGlobal">
 		<field name="iMaxCivilInRailVehicle" type="Int32"/>
@@ -99,20 +99,20 @@
 			<field name="fDistanceMax" type="Float"/>
 			<field name="hidMigrated" type="BinHex"/>
 		</object>
-		<object hash="9C48A666">
+		<object name="DefaultTrafficDronesDensity">
 			<field name="disNomadObjectId" type="BinHex"/>
 			<field name="hidSingleObject" type="Boolean"/>
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="ED19FCF9" type="BinHex"/>
-			<field hash="535CF19B" type="BinHex"/>
-			<object hash="47F4FB82">
+			<field name="MaxSpawnDronesDuringDay" type="BinHex"/>
+			<field name="MaxSpawnDronesDuringNight" type="BinHex"/>
+			<object name="DensityDuringDay">
 				<field name="bZeroDensity" type="Boolean"/>
 				<field name="fDistanceMin" type="Float"/>
 				<field name="fDistanceMax" type="Float"/>
 			</object>
-			<object hash="01F36EE8">
+			<object name="DensityDuringNight">
 				<field name="bZeroDensity" type="Boolean"/>
 				<field name="fDistanceMin" type="Float"/>
 				<field name="fDistanceMax" type="Float"/>
@@ -120,7 +120,7 @@
 		</object>
 	</object>
 	<object name="DefaultGameplayContext">
-		<field hash="6C748C6E" type="BinHex"/>
-		<field hash="159EC046" type="BinHex"/>
+		<field name="gpctxspecNormal" type="BinHex"/>
+		<field name="gpctxspecHighEnd" type="BinHex"/>
 	</object>
 </class>

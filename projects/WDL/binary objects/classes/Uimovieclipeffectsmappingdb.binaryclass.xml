@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="59FE3CA9">
-		<object hash="59FE3CA9">
-			<field hash="3CB483B4" type="String"/>
-			<field hash="160BD7F1" type="BinHex"/>
+	<object name="MovieClipEffectsMapping">
+		<object name="MovieClipEffectsMapping">
+			<field name="sMovieClipDPS" type="String"/>
+			<field name="uimovieclipeffectsEffectsSettings" type="BinHex"/>
 		</object>
 	</object>
 </class>

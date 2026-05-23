@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9FD11F25" type="BinHex"/>
+	<field name="demoNewGameDemo" type="BinHex"/>
 	<field hash="3B58DC0E" type="BinHex"/>
-	<field hash="34BD6ECD" type="BinHex"/>
-	<field hash="C5A862C3" type="BinHex"/>
-	<field hash="656A2D90" type="BinHex"/>
-	<field hash="C59974FB" type="BinHex"/>
+	<field name="demoDefaultDevelopmentDemo" type="BinHex"/>
+	<field name="demoDefaultTestMapDemo" type="BinHex"/>
+	<field name="demoVmcDemo" type="BinHex"/>
+	<field name="demoBenchmarkDemo" type="BinHex"/>
 </class>

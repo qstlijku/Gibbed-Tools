@@ -10,22 +10,22 @@
 	<object name="AutoExposure">
 		<field name="fExposureMin" type="Float"/>
 		<field name="fExposureMax" type="Float"/>
-		<field hash="D096D6D1" type="BinHex"/>
+		<field name="fExposureCompentation" type="BinHex"/>
 		<field name="fDownwardAdaptationTimeScale" type="Float"/>
 		<field name="fUpwardAdaptationTimeScale" type="Float"/>
 		<field name="fAdaptationSpeedFactor" type="Float"/>
 		<field name="fMesurementHotSpot" type="Float"/>
 		<field name="bEnableExposureOverride" type="Boolean"/>
 		<field name="fExposureOverride" type="Float"/>
-		<field hash="3867C154" type="BinHex"/>
-		<field hash="27F18B03" type="BinHex"/>
-		<field hash="2C5C0C4B" type="BinHex"/>
-		<field hash="9094F29C" type="BinHex"/>
-		<field hash="29A4CE39" type="BinHex"/>
-		<field hash="BD300F04" type="BinHex"/>
-		<field hash="E9EB2378" type="BinHex"/>
-		<field hash="A5EF0B4F" type="BinHex"/>
-		<field hash="DC70FAA8" type="BinHex"/>
+		<field name="fShadowEV" type="BinHex"/>
+		<field name="fShadowAmount" type="BinHex"/>
+		<field name="fHighlightEV" type="BinHex"/>
+		<field name="fHighlightAmount" type="BinHex"/>
+		<field name="fCharacterBoostDistanceStart" type="BinHex"/>
+		<field name="fCharacterBoostDistanceEnd" type="BinHex"/>
+		<field name="fCharacterBoostEVRange" type="BinHex"/>
+		<field name="uiColorGradingMoodExteriorIndex" type="BinHex"/>
+		<field name="uiColorGradingMoodInteriorIndex" type="BinHex"/>
 		<object name="curveExposureRetarget">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
@@ -431,12 +431,12 @@
 		<field name="fIrradianceEnvironmentDesaturation" type="Float"/>
 		<field name="fGITempDemoHackSkyDesaturation" type="Float"/>
 		<field name="fGITempDemoHackSkyMultiplier" type="Float"/>
-		<field hash="B716FEB0" type="BinHex"/>
-		<field hash="D5D9DDAD" type="BinHex"/>
-		<field hash="72ED5DD4" type="BinHex"/>
-		<field hash="0BB231EB" type="BinHex"/>
-		<field hash="68D69211" type="BinHex"/>
-		<field hash="41A86F09" type="BinHex"/>
+		<field name="fSoftShadowLightSizeForSun" type="BinHex"/>
+		<field name="fSoftShadowMinKernelSizeForSun" type="BinHex"/>
+		<field name="fSoftShadowMaxKernelSizeForSun" type="BinHex"/>
+		<field name="fSoftShadowLightSizeForMoon" type="BinHex"/>
+		<field name="fSoftShadowMinKernelSizeForMoon" type="BinHex"/>
+		<field name="fSoftShadowMaxKernelSizeForMoon" type="BinHex"/>
 		<object name="curveStaticReflectionIntensityDay">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
@@ -552,14 +552,14 @@
 	<object name="SkySettings">
 		<field name="fRainIntensity" type="Float"/>
 		<field name="bForceWetness" type="Boolean"/>
-		<field hash="6AF2AEE8" type="BinHex"/>
+		<field name="fDampnessAmount" type="BinHex"/>
 		<field name="fWetnessAmount" type="Float"/>
-		<field hash="8374CC33" type="BinHex"/>
-		<field hash="F872F2B8" type="BinHex"/>
-		<field hash="474CAF71" type="BinHex"/>
+		<field name="fPuddleStartAmount" type="BinHex"/>
+		<field name="fPuddleEndAmount" type="BinHex"/>
+		<field name="fMaximumDampnessAmount" type="BinHex"/>
 		<field name="fMaximumWetnessAmount" type="Float"/>
-		<field hash="4474E0AB" type="BinHex"/>
-		<field hash="718C6759" type="BinHex"/>
+		<field name="fMaximumPuddleStartAmount" type="BinHex"/>
+		<field name="fMaximumPuddleEndAmount" type="BinHex"/>
 		<field name="selWeatherForecastRainAmount" type="Enum"/>
 		<field name="selWeatherForecastCloudAmount" type="Enum"/>
 		<field name="selWeatherForecastFogAmount" type="Enum"/>
@@ -567,26 +567,26 @@
 		<field name="matCloudsMaterial" type="BinHex"/>
 	</object>
 	<object name="CloudsSettings">
-		<field hash="628AFDD1" type="BinHex"/>
-		<field hash="FC616510" type="BinHex"/>
-		<field hash="C96B15EA" type="BinHex"/>
+		<field name="fOpacity" type="BinHex"/>
+		<field name="fPhaseForLowAlpha" type="BinHex"/>
+		<field name="fPhaseForHighAlpha" type="BinHex"/>
 		<field name="fScatteringForLowAlpha" type="Float"/>
 		<field name="fScatteringForHighAlpha" type="Float"/>
 		<field name="fExtinctionForLowAlpha" type="Float"/>
 		<field name="fExtinctionForHighAlpha" type="Float"/>
-		<field hash="B07E7579" type="BinHex"/>
-		<field hash="B12B30DC" type="BinHex"/>
-		<field hash="F8D49404" type="BinHex"/>
-		<field hash="6946DA3E" type="BinHex"/>
-		<field hash="F6BC67A1" type="BinHex"/>
-		<field hash="3A4F57E5" type="BinHex"/>
-		<field hash="A05B56D1" type="BinHex"/>
-		<field hash="938B017D" type="BinHex"/>
-		<field hash="18278C28" type="BinHex"/>
-		<field hash="A6034DA0" type="BinHex"/>
-		<field hash="78786273" type="BinHex"/>
+		<field name="fIntercloudShadow" type="BinHex"/>
+		<field name="bExpCloudLighting" type="BinHex"/>
+		<field name="bExpDualPhase" type="BinHex"/>
+		<field name="bExpMultiScatter" type="BinHex"/>
+		<field name="bExpRelightPerLayer" type="BinHex"/>
+		<field name="fSilverIntensity" type="BinHex"/>
+		<field name="fSilverSpread" type="BinHex"/>
+		<field name="vectorNoiseBaseVelocity" type="BinHex"/>
+		<field name="vectorNoiseDetailVelocity" type="BinHex"/>
+		<field name="vec2ControlVelocity" type="BinHex"/>
+		<field name="fAvgSkyShadowTerm" type="BinHex"/>
 		<field hash="4554D67A" type="String"/>
-		<field hash="CE73CBFE" type="BinHex"/>
+		<field name="fileControlTexture" type="BinHex"/>
 		<object name="curveSunExtinction">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">

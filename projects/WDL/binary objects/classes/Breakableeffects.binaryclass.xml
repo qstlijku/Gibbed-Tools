@@ -8,9 +8,9 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="psParticle" type="BinHex"/>
 	<field name="sndSound" type="BinHex"/>
-	<field hash="8FE662AD" type="BinHex"/>
+	<field name="sndtpSoundType" type="BinHex"/>
 	<field name="sndGroupSound" type="BinHex"/>
 	<field name="sndLoopSoundEnd" type="BinHex"/>
-	<field hash="ABB646FA" type="BinHex"/>
-	<field hash="3302E217" type="BinHex"/>
+	<field name="bUseVelocityRTPC" type="BinHex"/>
+	<field name="bGenerateReactionStim" type="BinHex"/>
 </class>

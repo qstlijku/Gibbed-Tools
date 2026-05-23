@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="68678339" type="BinHex"/>
-	<field hash="4A4A0932" type="BinHex"/>
-	<field hash="D3435888" type="BinHex"/>
-	<field hash="A444681E" type="BinHex"/>
-	<field hash="3A20FDBD" type="BinHex"/>
-	<field hash="4D27CD2B" type="BinHex"/>
+	<field name="vehiclecombatconfigNoFelony" type="BinHex"/>
+	<field name="vehiclecombatconfigFelonyLvl1" type="BinHex"/>
+	<field name="vehiclecombatconfigFelonyLvl2" type="BinHex"/>
+	<field name="vehiclecombatconfigFelonyLvl3" type="BinHex"/>
+	<field name="vehiclecombatconfigFelonyLvl4" type="BinHex"/>
+	<field name="vehiclecombatconfigFelonyLvl5" type="BinHex"/>
 </class>

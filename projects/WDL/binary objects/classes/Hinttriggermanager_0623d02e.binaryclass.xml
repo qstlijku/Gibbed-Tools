@@ -6,26 +6,26 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="2C73599B">
+	<object name="TutorialsList">
 		<object name="Tutorials">
 			<field hash="ACBB12A1" type="String"/>
-			<field hash="7622CC04" type="BinHex"/>
+			<field name="progressionplayeractionTriggerAction" type="BinHex"/>
 			<field name="iPriority" type="Int32"/>
 			<field name="fDisplayTime" type="Float"/>
-			<field hash="279D328F" type="BinHex"/>
+			<field name="bIsFullscreen" type="BinHex"/>
 			<field hash="631C0186" type="BinHex"/>
 			<field hash="B2870E8A" type="BinHex"/>
-			<field hash="37D524C3" type="BinHex"/>
+			<field name="itemsTutorial" type="BinHex"/>
 			<field hash="EE8FE6FF" type="String"/>
-			<field hash="6D96A5D4" type="BinHex"/>
-			<field hash="176EF66E" type="BinHex"/>
-			<object hash="A671E6E4">
-				<field hash="94C08F9B" type="BinHex"/>
-				<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="CompletedAction" type="BinHex"/>
+			<field name="fReTriggerTime" type="BinHex"/>
+			<object name="CanShowTutorial">
+				<field name="rulesmithidRule" type="BinHex"/>
+				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="EFCD41D4">
-				<object hash="129A2A19"/>
-				<object hash="B278DFAC">
+			<object name="FullscreenTutorial">
+				<object name="FullScreenTutorials"/>
+				<object name="FullScreenTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>

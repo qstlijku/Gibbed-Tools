@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9039C18D" type="BinHex"/>
-	<field hash="4A5B182A" type="BinHex"/>
-	<field hash="D42FDCC9" type="BinHex"/>
-	<field hash="5F202234" type="BinHex"/>
-	<field hash="56F9EAD0" type="BinHex"/>
+	<field name="bHoustonIsActivated" type="BinHex"/>
+	<field name="bSeoulIsActivated" type="BinHex"/>
+	<field name="bCairoIsActivated" type="BinHex"/>
+	<field name="bSydneyIsActivated" type="BinHex"/>
+	<field name="bCaracasIsActivated" type="BinHex"/>
 </class>
