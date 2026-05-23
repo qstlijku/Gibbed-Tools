@@ -54,9 +54,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -87,9 +87,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -120,9 +120,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -164,9 +164,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -197,9 +197,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -230,9 +230,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -274,9 +274,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -307,9 +307,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -340,9 +340,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -384,9 +384,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -417,9 +417,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -450,9 +450,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -494,9 +494,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -527,9 +527,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -560,9 +560,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -604,9 +604,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -637,9 +637,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
@@ -670,9 +670,9 @@
 				<field name="bIsUsed" type="Boolean"/>
 				<field name="bIsLooping" type="Boolean"/>
 				<field name="bIsOneWay" type="Boolean"/>
-				<field name="colorStartColor" type="Vector3"/>
+				<field name="colorStartColor" type="Vector4"/>
 				<field name="fStartAlpha" type="Float"/>
-				<field name="colorEndColor" type="Vector3"/>
+				<field name="colorEndColor" type="Vector4"/>
 				<field name="fEndAlpha" type="Float"/>
 				<field name="fColorAnimDelay" type="Float"/>
 				<field name="fColorAnimDelayBetweenLoop" type="Float"/>

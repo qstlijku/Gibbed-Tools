@@ -23,7 +23,7 @@
 	<field name="bIsSilencedWeapon" type="Boolean"/>
 	<field name="bEmitsGunshotStim" type="BinHex"/>
 	<field name="itemsBulletItem" type="BinHex"/>
-	<field name="fBulletsPerClip" type="Int16"/>
+	<field name="fBulletsPerClip" type="Int32"/>
 	<field name="fRateOfFire" type="Float"/>
 	<field name="fRateOfFireVehicleMultiplier" type="Float"/>
 	<field name="fReloadSpeedMultiplier" type="BinHex"/>
