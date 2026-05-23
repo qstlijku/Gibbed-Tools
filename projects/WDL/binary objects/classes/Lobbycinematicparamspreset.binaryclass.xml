@@ -27,7 +27,7 @@
 			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
 			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
 			<field name="bKillLayerAnimations" type="Boolean"/>
-			<field name="fileAnimatedCamera" type="String"/>
+			<field name="fileAnimatedCamera" type="BinHex"/>
 			<field name="fAnimatedCameraBlendInTime" type="BinHex"/>
 			<field name="fAnimatedCameraBlendOutTime" type="BinHex"/>
 			<field name="bAnimatedCameraDisableCollision" type="BinHex"/>

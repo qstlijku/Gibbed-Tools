@@ -48,7 +48,7 @@
 		<object name="IconTexturesList">
 			<object name="IconTexture">
 				<field hash="33E4567C" type="String"/>
-				<field name="fileIconTexture" type="String"/>
+				<field name="fileIconTexture" type="BinHex"/>
 			</object>
 		</object>
 	</object>

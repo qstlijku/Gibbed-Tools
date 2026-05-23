@@ -24,7 +24,7 @@
 				<object name="LowerLayer">
 					<field name="text_fileAlbedo" type="String"/>
 					<field name="fileAlbedo" type="BinHex"/>
-					<field name="fileNormal" type="String"/>
+					<field name="fileNormal" type="BinHex"/>
 					<field name="vector2Tiling" type="BinHex"/>
 					<field name="fSpeed" type="Float"/>
 					<field name="fIntensity" type="Float"/>
@@ -32,7 +32,7 @@
 				<object name="UpperLayer">
 					<field name="text_fileAlbedo" type="String"/>
 					<field name="fileAlbedo" type="BinHex"/>
-					<field name="fileNormal" type="String"/>
+					<field name="fileNormal" type="BinHex"/>
 					<field name="vector2Tiling" type="BinHex"/>
 					<field name="fSpeed" type="Float"/>
 					<field name="fIntensity" type="Float"/>
@@ -46,7 +46,7 @@
 				<object name="LowerLayer">
 					<field name="text_fileAlbedo" type="String"/>
 					<field name="fileAlbedo" type="BinHex"/>
-					<field name="fileNormal" type="String"/>
+					<field name="fileNormal" type="BinHex"/>
 					<field name="vector2Tiling" type="BinHex"/>
 					<field name="fSpeed" type="Float"/>
 					<field name="fIntensity" type="Float"/>
@@ -54,7 +54,7 @@
 				<object name="UpperLayer">
 					<field name="text_fileAlbedo" type="String"/>
 					<field name="fileAlbedo" type="BinHex"/>
-					<field name="fileNormal" type="String"/>
+					<field name="fileNormal" type="BinHex"/>
 					<field name="vector2Tiling" type="BinHex"/>
 					<field name="fSpeed" type="Float"/>
 					<field name="fIntensity" type="Float"/>

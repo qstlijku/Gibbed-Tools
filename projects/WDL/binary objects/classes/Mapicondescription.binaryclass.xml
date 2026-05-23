@@ -19,17 +19,17 @@
 		<field name="selMidZoomOutLayer" type="BinHex"/>
 		<field name="selFullZoomOutLayer" type="BinHex"/>
 		<object name="FullZoomInHintTexture">
-			<field name="fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="MidZoomInHintTexture">
 			<field name="text_fileIconTexture" type="String"/>
 			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="MidZoomOutHintTexture">
-			<field name="fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="FullZoomOutHintTexture">
-			<field name="fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 	</object>
 	<object name="OverlayIcon">

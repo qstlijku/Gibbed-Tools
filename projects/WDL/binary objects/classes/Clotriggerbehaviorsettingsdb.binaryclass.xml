@@ -66,7 +66,7 @@
 						<field name="fMaxRight" type="Float"/>
 					</object>
 					<object name="LookAtMoveState">
-						<field name="fileMovePath" type="String"/>
+						<field name="fileMovePath" type="BinHex"/>
 					</object>
 				</object>
 			</object>
