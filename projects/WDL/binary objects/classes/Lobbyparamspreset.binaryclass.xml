@@ -7,13 +7,13 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="C0E89F6F" type="BinHex"/>
-	<field hash="91F68864" type="String"/>
+	<field name="text_sndLobbyMusicStart" type="String"/>
 	<field name="sndLobbyMusicStart" type="BinHex"/>
-	<field hash="ED03CFBE" type="String"/>
+	<field name="text_sndLobbyMusicStop" type="String"/>
 	<field name="sndLobbyMusicStop" type="BinHex"/>
 	<field hash="92166D64" type="BinHex"/>
 	<field hash="A7FB98B0" type="BinHex"/>
-	<field hash="D555F8AB" type="String"/>
+	<field name="text_psWaitingPlayerParticles" type="String"/>
 	<field name="psWaitingPlayerParticles" type="BinHex"/>
 	<field name="psPlayerJoinedParticles" type="BinHex"/>
 	<field hash="5317C79A" type="BinHex"/>

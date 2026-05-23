@@ -15,7 +15,7 @@
 		</object>
 		<object name="Triggers">
 			<object name="Action">
-				<field hash="66905A99" type="String"/>
+				<field name="text_progressionplayeractionAction" type="String"/>
 				<field name="progressionplayeractionAction" type="BinHex"/>
 				<object name="Trigger">
 					<field name="rulesmithidRuleId" type="BinHex"/>

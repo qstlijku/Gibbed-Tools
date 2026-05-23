@@ -151,7 +151,7 @@
 	<object name="MenuSelections">
 		<object name="MenuSelectionItem">
 			<object name="MenuSelection">
-				<field hash="9A5A85C9" type="String"/>
+				<field name="text_menuselectionname" type="String"/>
 				<field name="menuselectionname" type="BinHex"/>
 				<field name="uimenupageCalibrationMenuPage" type="BinHex"/>
 				<field name="uimenupageNvidiaLogoMenuPage" type="BinHex"/>
@@ -220,19 +220,19 @@
 		<field name="fCameraZoomSpeed" type="Float"/>
 		<field name="sndMapEnterSound" type="BinHex"/>
 		<field name="sndMapExitSound" type="BinHex"/>
-		<field hash="F91D7E86" type="String"/>
+		<field name="text_sndMapPlaceWaypointSound" type="String"/>
 		<field name="sndMapPlaceWaypointSound" type="BinHex"/>
-		<field hash="2C842CE7" type="String"/>
+		<field name="text_sndMapRemoveWaypointSound" type="String"/>
 		<field name="sndMapRemoveWaypointSound" type="BinHex"/>
-		<field hash="A232BED2" type="String"/>
+		<field name="text_sndMapTrackMissionSound" type="String"/>
 		<field name="sndMapTrackMissionSound" type="BinHex"/>
-		<field hash="D99F3554" type="String"/>
+		<field name="text_sndMapZoomInEnterSound" type="String"/>
 		<field name="sndMapZoomInEnterSound" type="BinHex"/>
-		<field hash="2C5CA9B8" type="String"/>
+		<field name="text_sndMapZoomInExitSound" type="String"/>
 		<field name="sndMapZoomInExitSound" type="BinHex"/>
-		<field hash="21AB712E" type="String"/>
+		<field name="text_sndMapZoomOutEnterSound" type="String"/>
 		<field name="sndMapZoomOutEnterSound" type="BinHex"/>
-		<field hash="7AB6BA65" type="String"/>
+		<field name="text_sndMapZoomOutExitSound" type="String"/>
 		<field name="sndMapZoomOutExitSound" type="BinHex"/>
 		<field hash="84E627F7" type="String"/>
 		<field hash="CBC47C9F" type="BinHex"/>

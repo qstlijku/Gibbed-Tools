@@ -108,23 +108,23 @@
 		</object>
 	</object>
 	<object name="MANDATORY_DEFAULT_TEXTURES">
-		<field hash="83626177" type="String"/>
+		<field name="text_matNoSignalMaterial" type="String"/>
 		<field name="matNoSignalMaterial" type="BinHex"/>
 		<object name="GenericChannelMaterials">
 			<object name="Material">
-				<field hash="9301DFBD" type="String"/>
+				<field name="text_matMaterial" type="String"/>
 				<field name="matMaterial" type="BinHex"/>
 			</object>
 		</object>
 		<object name="ShopChannelMaterials">
 			<object name="Material">
-				<field hash="9301DFBD" type="String"/>
+				<field name="text_matMaterial" type="String"/>
 				<field name="matMaterial" type="BinHex"/>
 			</object>
 		</object>
 		<object name="BarChannelMaterials">
 			<object name="Material">
-				<field hash="9301DFBD" type="String"/>
+				<field name="text_matMaterial" type="String"/>
 				<field name="matMaterial" type="BinHex"/>
 			</object>
 		</object>

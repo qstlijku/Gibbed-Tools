@@ -7,17 +7,17 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Engine">
-		<field hash="48B16D70" type="String"/>
+		<field name="text_sndEngineThrottleLoop" type="String"/>
 		<field name="sndEngineThrottleLoop" type="BinHex"/>
-		<field hash="1C48EF34" type="String"/>
+		<field name="text_sndEngineIgnition" type="String"/>
 		<field name="sndEngineIgnition" type="BinHex"/>
-		<field hash="5856F3F8" type="String"/>
+		<field name="text_sndEngineIgnitionFromHack" type="String"/>
 		<field name="sndEngineIgnitionFromHack" type="BinHex"/>
-		<field hash="31A327C6" type="String"/>
+		<field name="text_sndTurnOffEngine" type="String"/>
 		<field name="sndTurnOffEngine" type="BinHex"/>
-		<field hash="3D7BD1D5" type="String"/>
+		<field name="text_sndEngineReverseStart" type="String"/>
 		<field name="sndEngineReverseStart" type="BinHex"/>
-		<field hash="DCA33E95" type="String"/>
+		<field name="text_sndEngineReverseStop" type="String"/>
 		<field name="sndEngineReverseStop" type="BinHex"/>
 		<field hash="CA7E3836" type="BinHex"/>
 		<field hash="C465DC4B" type="BinHex"/>
@@ -32,11 +32,11 @@
 		</object>
 	</object>
 	<object name="EngineNpc">
-		<field hash="4EBF2D16" type="String"/>
+		<field name="text_sndAiEngineThrottleLoop" type="String"/>
 		<field name="sndAiEngineThrottleLoop" type="BinHex"/>
-		<field hash="17546824" type="String"/>
+		<field name="text_sndNpcEngineThrottleLoop" type="String"/>
 		<field name="sndNpcEngineThrottleLoop" type="BinHex"/>
-		<field hash="52A85F77" type="String"/>
+		<field name="text_sndEngineIgnitionNPC" type="String"/>
 		<field name="sndEngineIgnitionNPC" type="BinHex"/>
 		<field hash="3D0E817C" type="BinHex"/>
 		<field hash="DF0DD3BF" type="BinHex"/>

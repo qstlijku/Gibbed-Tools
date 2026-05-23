@@ -49,11 +49,11 @@
 					<field name="iGodRaysIndex" type="BinHex"/>
 					<field name="entDoorId" type="BinHex"/>
 					<field name="entDamageZoneCenterId" type="BinHex"/>
-					<field hash="8A6739BA" type="String"/>
+					<field name="text_psParticle" type="String"/>
 					<field name="psParticle" type="BinHex"/>
-					<field hash="A20E0B6A" type="String"/>
+					<field name="text_sndStartSound" type="String"/>
 					<field name="sndStartSound" type="BinHex"/>
-					<field hash="EAA90218" type="String"/>
+					<field name="text_sndStopSound" type="String"/>
 					<field name="sndStopSound" type="BinHex"/>
 					<field name="sndtpStartSoundType" type="BinHex"/>
 					<field name="sndtpStopSoundType" type="BinHex"/>
@@ -66,7 +66,7 @@
 			</object>
 		</object>
 		<object name="DamageZoneStim">
-			<field hash="92210DFC" type="String"/>
+			<field name="text_hidEventName" type="String"/>
 			<field name="hidEventName" type="BinHex"/>
 			<field name="hidTargetEntityId" type="BinHex"/>
 			<field name="sDetail" type="BinHex"/>
@@ -129,17 +129,17 @@
 		</object>
 		<object name="SFX">
 			<field name="BossIntroBark" type="BinHex"/>
-			<field hash="68D9C928" type="String"/>
+			<field name="text_sndWipeCharge" type="String"/>
 			<field name="sndWipeCharge" type="BinHex"/>
-			<field hash="F10F04AA" type="String"/>
+			<field name="text_sndWipeChargeStop" type="String"/>
 			<field name="sndWipeChargeStop" type="BinHex"/>
-			<field hash="7A724027" type="String"/>
+			<field name="text_sndWipeAttack" type="String"/>
 			<field name="sndWipeAttack" type="BinHex"/>
-			<field hash="0D1FFC70" type="String"/>
+			<field name="text_sndBatteryStartCharging" type="String"/>
 			<field name="sndBatteryStartCharging" type="BinHex"/>
-			<field hash="54FA09A2" type="String"/>
+			<field name="text_sndBatteryStopCharging" type="String"/>
 			<field name="sndBatteryStopCharging" type="BinHex"/>
-			<field hash="1D896722" type="String"/>
+			<field name="text_sndBatteryCharged" type="String"/>
 			<field name="sndBatteryCharged" type="BinHex"/>
 			<field hash="E8C27DBF" type="String"/>
 			<field hash="44FD9DBC" type="BinHex"/>
@@ -152,15 +152,15 @@
 			<field hash="D1BA86C8" type="BinHex"/>
 			<object name="StepTransitionBarks">
 				<object name="StepTransitionBarksData">
-					<field hash="995B332C" type="String"/>
+					<field name="text_Bark" type="String"/>
 					<field name="Bark" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="VFX">
-			<field hash="F7FE6D1A" type="String"/>
+			<field name="text_psWipeCharge" type="String"/>
 			<field name="psWipeCharge" type="BinHex"/>
-			<field hash="E555E415" type="String"/>
+			<field name="text_psWipeAttack" type="String"/>
 			<field name="psWipeAttack" type="BinHex"/>
 			<field hash="48985698" type="String"/>
 			<field hash="E4A7B69B" type="BinHex"/>

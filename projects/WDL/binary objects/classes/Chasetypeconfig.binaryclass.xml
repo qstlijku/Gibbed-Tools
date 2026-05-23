@@ -22,30 +22,30 @@
 		<field hash="E5AF9E64" type="BinHex"/>
 	</object>
 	<object name="SquelchSounds">
-		<field hash="B3D45CF2" type="String"/>
+		<field name="text_sndChopperStartSquelch" type="String"/>
 		<field name="sndChopperStartSquelch" type="BinHex"/>
-		<field hash="FFFC1335" type="String"/>
+		<field name="text_sndPatrolStartSquelch" type="String"/>
 		<field name="sndPatrolStartSquelch" type="BinHex"/>
-		<field hash="A18778E1" type="String"/>
+		<field name="text_sndDispatchStartSquelch" type="String"/>
 		<field name="sndDispatchStartSquelch" type="BinHex"/>
-		<field hash="9451CECF" type="String"/>
+		<field name="text_sndOperator911StartSquelch" type="String"/>
 		<field name="sndOperator911StartSquelch" type="BinHex"/>
-		<field hash="AFBB1D16" type="String"/>
+		<field name="text_sndBoatStartSquelch" type="String"/>
 		<field name="sndBoatStartSquelch" type="BinHex"/>
 		<field hash="52340F67" type="BinHex"/>
 		<field hash="2809C204" type="BinHex"/>
 		<field hash="6BE2002B" type="BinHex"/>
 		<field hash="6F2AECA9" type="BinHex"/>
 		<field hash="58C6280E" type="BinHex"/>
-		<field hash="CDD7DCE1" type="String"/>
+		<field name="text_sndChopperStopSquelch" type="String"/>
 		<field name="sndChopperStopSquelch" type="BinHex"/>
-		<field hash="8C8845C0" type="String"/>
+		<field name="text_sndPatrolStopSquelch" type="String"/>
 		<field name="sndPatrolStopSquelch" type="BinHex"/>
-		<field hash="291A9FB8" type="String"/>
+		<field name="text_sndDispatchStopSquelch" type="String"/>
 		<field name="sndDispatchStopSquelch" type="BinHex"/>
-		<field hash="4A044B90" type="String"/>
+		<field name="text_sndOperator911StopSquelch" type="String"/>
 		<field name="sndOperator911StopSquelch" type="BinHex"/>
-		<field hash="CEF75AB0" type="String"/>
+		<field name="text_sndBoatStopSquelch" type="String"/>
 		<field name="sndBoatStopSquelch" type="BinHex"/>
 		<field hash="A56B915E" type="BinHex"/>
 		<field hash="F2FC5AD5" type="BinHex"/>
@@ -61,19 +61,19 @@
 		</object>
 		<object name="PatrolArchetypes">
 			<object name="Patrol">
-				<field hash="E6655990" type="String"/>
+				<field name="text_archArchetype" type="String"/>
 				<field name="archArchetype" type="BinHex"/>
 			</object>
 		</object>
 		<object name="DispatchArchetypes">
 			<object name="Dispatch">
-				<field hash="E6655990" type="String"/>
+				<field name="text_archArchetype" type="String"/>
 				<field name="archArchetype" type="BinHex"/>
 			</object>
 		</object>
 		<object name="OperatorArchetypes">
 			<object name="Operator">
-				<field hash="E6655990" type="String"/>
+				<field name="text_archArchetype" type="String"/>
 				<field name="archArchetype" type="BinHex"/>
 			</object>
 		</object>

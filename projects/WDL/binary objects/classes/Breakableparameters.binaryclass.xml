@@ -116,10 +116,10 @@
 			<field name="ExplosionCenter" type="BinHex"/>
 			<field name="ExplosionImpulseDividerHACK" type="BinHex"/>
 			<object name="ExplosionStim">
-				<field hash="92210DFC" type="String"/>
+				<field name="text_hidEventName" type="String"/>
 				<field name="hidEventName" type="BinHex"/>
 				<field name="hidTargetEntityId" type="BinHex"/>
-				<field hash="FC25E1F1" type="String"/>
+				<field name="text_sDetail" type="String"/>
 				<field name="sDetail" type="BinHex"/>
 				<field name="selType" type="Enum"/>
 				<field name="bShowCone" type="Boolean"/>
@@ -156,7 +156,7 @@
 					<field name="vectorLocalTranslationOffset" type="BinHex"/>
 					<field name="vectorWorldTranslationOffset" type="BinHex"/>
 					<field name="bIsPersistent" type="Boolean"/>
-					<field hash="92210DFC" type="String"/>
+					<field name="text_hidEventName" type="String"/>
 					<field name="hidEventName" type="BinHex"/>
 					<field name="hidTargetEntityId" type="BinHex"/>
 					<field name="sDetail" type="BinHex"/>
@@ -191,7 +191,7 @@
 		<object name="StimsOnDestroy">
 			<object name="GeneratedStims">
 				<object name="Stim">
-					<field hash="92210DFC" type="String"/>
+					<field name="text_hidEventName" type="String"/>
 					<field name="hidEventName" type="BinHex"/>
 					<field name="hidTargetEntityId" type="BinHex"/>
 					<field name="sDetail" type="BinHex"/>

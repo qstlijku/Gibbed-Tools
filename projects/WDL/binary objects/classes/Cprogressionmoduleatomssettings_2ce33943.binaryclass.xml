@@ -18,7 +18,7 @@
 			<object name="Atom">
 				<field name="text_Name" type="String"/>
 				<field name="Name" type="BinHex"/>
-				<field hash="C6BB2A91" type="String"/>
+				<field name="text_progressionatomvariableVariable" type="String"/>
 				<field name="progressionatomvariableVariable" type="BinHex"/>
 				<field name="Value" type="Vector4"/>
 				<object name="IsValid">

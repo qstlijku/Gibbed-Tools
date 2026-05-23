@@ -8,18 +8,18 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="BoneOffsets">
 		<object name="SRetargetingBoneOffset">
-			<field hash="795F32D4" type="String"/>
+			<field name="text_BoneName" type="String"/>
 			<field name="BoneName" type="BinHex"/>
 			<field name="Offset" type="BinHex"/>
 		</object>
 	</object>
 	<object name="BoneLinks">
 		<object name="SRetargetingBoneLinking">
-			<field hash="1EF6D0A0" type="String"/>
+			<field name="text_BoneToAdjust" type="String"/>
 			<field name="BoneToAdjust" type="BinHex"/>
-			<field hash="F1EAED15" type="String"/>
+			<field name="text_BoneParent" type="String"/>
 			<field name="BoneParent" type="BinHex"/>
-			<field hash="4F75FB9B" type="String"/>
+			<field name="text_BoneOffsetReferential" type="String"/>
 			<field name="BoneOffsetReferential" type="BinHex"/>
 			<field name="vecOffset" type="BinHex"/>
 			<field name="angvecRotOffset" type="BinHex"/>

@@ -8,9 +8,9 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fActivationDelayMin" type="Float"/>
 	<field name="fActivationDelayMax" type="Float"/>
-	<field hash="96D40CD5" type="String"/>
+	<field name="text_sndStandbyStartSound" type="String"/>
 	<field name="sndStandbyStartSound" type="BinHex"/>
-	<field hash="5E774171" type="String"/>
+	<field name="text_sndStandbyStopSound" type="String"/>
 	<field name="sndStandbyStopSound" type="BinHex"/>
 	<field hash="011CA015" type="BinHex"/>
 	<field hash="36646AA8" type="BinHex"/>

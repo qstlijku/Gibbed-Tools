@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="E6655990" type="String"/>
+	<field name="text_archArchetype" type="String"/>
 	<field name="archArchetype" type="BinHex"/>
 	<field name="tagPropTag" type="BinHex"/>
 	<field name="selDisposeType" type="BinHex"/>
@@ -37,10 +37,10 @@
 		<field name="selPoseDefinitionId" type="Enum"/>
 		<field name="selPoseDefinitionPathID" type="Enum"/>
 		<field name="facialposedefinitionExtraFacialPoseDefinition" type="BinHex"/>
-		<field hash="7E23AAAE" type="String"/>
+		<field name="text_selVisualModelOverride" type="String"/>
 		<field name="selVisualModelOverride" type="Enum"/>
 		<object name="BoneAnchor">
-			<field hash="3BA7D966" type="String"/>
+			<field name="text_selBoneName" type="String"/>
 			<field name="selBoneName" type="Enum"/>
 			<field name="vectorTranslation" type="BinHex"/>
 			<field name="angvecRotation" type="BinHex"/>

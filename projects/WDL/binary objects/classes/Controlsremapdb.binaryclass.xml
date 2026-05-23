@@ -10,7 +10,7 @@
 	<object name="Common">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -27,7 +27,7 @@
 	<object name="Hacking">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -43,7 +43,7 @@
 	<object name="OnFoot">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -59,7 +59,7 @@
 	<object name="Driving">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -75,7 +75,7 @@
 	<object name="Drone">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -91,7 +91,7 @@
 	<object name="Turret">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -107,7 +107,7 @@
 	<object name="SecurityCamera">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -123,7 +123,7 @@
 	<object name="Crane">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -139,7 +139,7 @@
 	<object name="VentDoctor">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -155,7 +155,7 @@
 	<object name="Kick-Up">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>
@@ -171,7 +171,7 @@
 	<object name="Menu">
 		<object name="Control">
 			<field name="strDebugText" type="String"/>
-			<field hash="9DBAB5ED" type="String"/>
+			<field name="text_csKeyId" type="String"/>
 			<field name="csKeyId" type="BinHex"/>
 			<field name="strCsKeyText" type="String"/>
 			<field name="selGroupId" type="BinHex"/>

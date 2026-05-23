@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Sounds">
-		<field hash="5D8F4508" type="String"/>
+		<field name="text_sndCombat" type="String"/>
 		<field name="sndCombat" type="BinHex"/>
 		<field hash="F35296A0" type="BinHex"/>
 		<field name="sndIntuitionStart" type="BinHex"/>
@@ -18,41 +18,41 @@
 		<field hash="75D6F2CC" type="BinHex"/>
 		<field name="sndDetectionStop" type="BinHex"/>
 		<field hash="DF4937BE" type="BinHex"/>
-		<field hash="DD485282" type="String"/>
+		<field name="text_sndLKPBrokenSound" type="String"/>
 		<field name="sndLKPBrokenSound" type="BinHex"/>
 		<field hash="DD995268" type="BinHex"/>
 	</object>
 	<object name="SoundStates">
-		<field hash="AFEE2105" type="String"/>
+		<field name="text_sndOtherState" type="String"/>
 		<field name="sndOtherState" type="BinHex"/>
 		<field hash="E05C748F" type="BinHex"/>
-		<field hash="89B60218" type="String"/>
+		<field name="text_sndAlertSoftState" type="String"/>
 		<field name="sndAlertSoftState" type="BinHex"/>
 		<field hash="85E124C6" type="BinHex"/>
-		<field hash="22EE76C0" type="String"/>
+		<field name="text_sndAlertHardState" type="String"/>
 		<field name="sndAlertHardState" type="BinHex"/>
 		<field hash="069FD800" type="BinHex"/>
-		<field hash="E7D6E3C1" type="String"/>
+		<field name="text_sndWarnState" type="String"/>
 		<field name="sndWarnState" type="BinHex"/>
 		<field hash="D1A81FA3" type="BinHex"/>
-		<field hash="1855DB52" type="String"/>
+		<field name="text_sndArrestState" type="String"/>
 		<field name="sndArrestState" type="BinHex"/>
 		<field hash="BC0165F5" type="BinHex"/>
-		<field hash="1B946195" type="String"/>
+		<field name="text_sndCombatState" type="String"/>
 		<field name="sndCombatState" type="BinHex"/>
 		<field hash="D4BA7F39" type="BinHex"/>
-		<field hash="DB442461" type="String"/>
+		<field name="text_sndSearchState" type="String"/>
 		<field name="sndSearchState" type="BinHex"/>
 		<field hash="B1B3B64D" type="BinHex"/>
-		<field hash="2B4FA63B" type="String"/>
+		<field name="text_sndAwareState" type="String"/>
 		<field name="sndAwareState" type="BinHex"/>
 		<field hash="491B3C89" type="BinHex"/>
 	</object>
 	<object name="ForbiddenZones">
-		<field hash="A6FC8E0B" type="String"/>
+		<field name="text_sndPlayerEnterForbiddenZone" type="String"/>
 		<field name="sndPlayerEnterForbiddenZone" type="BinHex"/>
 		<field hash="3EE454C9" type="BinHex"/>
-		<field hash="CFBCDCCD" type="String"/>
+		<field name="text_sndPlayerExitForbiddenZone" type="String"/>
 		<field name="sndPlayerExitForbiddenZone" type="BinHex"/>
 		<field hash="CDE856E1" type="BinHex"/>
 	</object>

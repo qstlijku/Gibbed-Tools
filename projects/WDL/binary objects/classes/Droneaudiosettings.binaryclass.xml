@@ -8,19 +8,19 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="DroneAudioStateSettings">
 		<object name="AudioSettings">
-			<field hash="9A4904D5" type="String"/>
+			<field name="text_selAiState" type="String"/>
 			<field name="selAiState" type="BinHex"/>
 			<field name="OnUpdateBarkDelayMinimum" type="BinHex"/>
 			<field name="OnUpdateBarkDelayMaximum" type="BinHex"/>
-			<field hash="E62D80E9" type="String"/>
+			<field name="text_sndOnEntrySound" type="String"/>
 			<field name="sndOnEntrySound" type="BinHex"/>
-			<field hash="42ECCA2C" type="String"/>
+			<field name="text_sndOnExitSound" type="String"/>
 			<field name="sndOnExitSound" type="BinHex"/>
 			<field hash="1A93487F" type="BinHex"/>
 			<field hash="94BCD606" type="BinHex"/>
 			<object name="OnEntryBark">
 				<field name="rulesmithidRule" type="BinHex"/>
-				<field hash="F7AC80C9" type="String"/>
+				<field name="text_rulesmithconstValue" type="String"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 			<object name="OnExitBark">
@@ -29,18 +29,18 @@
 			</object>
 			<object name="OnUpdateBark">
 				<field name="rulesmithidRule" type="BinHex"/>
-				<field hash="F7AC80C9" type="String"/>
+				<field name="text_rulesmithconstValue" type="String"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 			<object name="DroneAudioFromAIStateSettings">
 				<object name="AudioFromAIStateSettings">
-					<field hash="DEEFE01D" type="String"/>
+					<field name="text_selLastAIState" type="String"/>
 					<field name="selLastAIState" type="BinHex"/>
 					<field name="sndOnEntrySound" type="BinHex"/>
 					<field hash="1A93487F" type="BinHex"/>
 					<object name="OnEntryBark">
 						<field name="rulesmithidRule" type="BinHex"/>
-						<field hash="F7AC80C9" type="String"/>
+						<field name="text_rulesmithconstValue" type="String"/>
 						<field name="rulesmithconstValue" type="BinHex"/>
 					</object>
 				</object>

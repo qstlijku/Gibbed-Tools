@@ -60,9 +60,9 @@
 		<field name="fFadeInEndDistance" type="Float"/>
 	</object>
 	<object name="HDRColorGrading">
-		<field hash="C1CDF0EA" type="String"/>
+		<field name="text_fileNeutralLUT" type="String"/>
 		<field name="fileNeutralLUT" type="BinHex"/>
-		<field hash="C5A4B5B4" type="String"/>
+		<field name="text_fileNeutralLUTHDR" type="String"/>
 		<field name="fileNeutralLUTHDR" type="BinHex"/>
 		<field name="fBoroughTransitionTime" type="BinHex"/>
 		<field name="fIndoorOutdoorTransitionTime" type="BinHex"/>
@@ -85,17 +85,17 @@
 					<object name="Moods">
 						<object name="TexturesSDR">
 							<object name="Texture">
-								<field hash="1CB97581" type="String"/>
+								<field name="text_fileTexture" type="String"/>
 								<field name="fileTexture" type="BinHex"/>
-								<field hash="FC200229" type="String"/>
+								<field name="text_fileLUT" type="String"/>
 								<field name="fileLUT" type="BinHex"/>
 							</object>
 						</object>
 						<object name="TexturesHDR">
 							<object name="Texture">
-								<field hash="1CB97581" type="String"/>
+								<field name="text_fileTexture" type="String"/>
 								<field name="fileTexture" type="BinHex"/>
-								<field hash="FC200229" type="String"/>
+								<field name="text_fileLUT" type="String"/>
 								<field name="fileLUT" type="BinHex"/>
 							</object>
 						</object>
@@ -116,17 +116,17 @@
 					<object name="Moods">
 						<object name="TexturesSDR">
 							<object name="Texture">
-								<field hash="1CB97581" type="String"/>
+								<field name="text_fileTexture" type="String"/>
 								<field name="fileTexture" type="BinHex"/>
-								<field hash="FC200229" type="String"/>
+								<field name="text_fileLUT" type="String"/>
 								<field name="fileLUT" type="BinHex"/>
 							</object>
 						</object>
 						<object name="TexturesHDR">
 							<object name="Texture">
-								<field hash="1CB97581" type="String"/>
+								<field name="text_fileTexture" type="String"/>
 								<field name="fileTexture" type="BinHex"/>
-								<field hash="FC200229" type="String"/>
+								<field name="text_fileLUT" type="String"/>
 								<field name="fileLUT" type="BinHex"/>
 							</object>
 						</object>
@@ -827,9 +827,9 @@
 	<object name="GlobalLightColor">
 		<object name="LightColorTextures">
 			<object name="Texture">
-				<field hash="FC200229" type="String"/>
+				<field name="text_fileLUT" type="String"/>
 				<field name="fileLUT" type="BinHex"/>
-				<field hash="1CB97581" type="String"/>
+				<field name="text_fileTexture" type="String"/>
 				<field name="fileTexture" type="BinHex"/>
 			</object>
 		</object>
@@ -873,7 +873,7 @@
 		<object name="CustomEnvironmentMaps">
 			<object name="Map">
 				<field name="fBrightnessScale" type="BinHex"/>
-				<field hash="1CB97581" type="String"/>
+				<field name="text_fileTexture" type="String"/>
 				<field name="fileTexture" type="BinHex"/>
 			</object>
 		</object>

@@ -14,7 +14,7 @@
 			<field name="selAffiliation" type="Enum"/>
 			<object name="Archetypes">
 				<object name="Archetype">
-					<field hash="E6655990" type="String"/>
+					<field name="text_archArchetype" type="String"/>
 					<field name="archArchetype" type="BinHex"/>
 				</object>
 			</object>

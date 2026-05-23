@@ -47,7 +47,7 @@
 		<field name="fIconSwapDelay" type="Float"/>
 		<object name="IconTexturesList">
 			<object name="IconTexture">
-				<field hash="33E4567C" type="String"/>
+				<field name="text_fileIconTexture" type="String"/>
 				<field name="fileIconTexture" type="BinHex"/>
 			</object>
 		</object>

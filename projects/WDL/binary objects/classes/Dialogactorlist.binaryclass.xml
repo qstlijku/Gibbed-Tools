@@ -9,7 +9,7 @@
 	<field name="bExportForInstallPackage" type="Boolean"/>
 	<object name="DialogActors">
 		<object name="tmplDialogActor">
-			<field hash="D8C7B5B6" type="String"/>
+			<field name="text_tmplDialogActor" type="String"/>
 			<field name="tmplDialogActor" type="BinHex"/>
 		</object>
 	</object>

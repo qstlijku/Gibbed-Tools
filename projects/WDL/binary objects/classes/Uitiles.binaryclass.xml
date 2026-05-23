@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="3BC08D22" type="String"/>
+	<field name="text_uimenutiledatatypeidTileType" type="String"/>
 	<field name="uimenutiledatatypeidTileType" type="BinHex"/>
 	<object name="TileProperties">
 		<field name="uiXPosition" type="UInt32"/>
@@ -39,8 +39,8 @@
 		<field name="uimenupageWardrobeCategoryPage" type="BinHex"/>
 		<field name="selIndexDisplayType" type="Enum"/>
 		<field name="itemcategoryShopItemCategory" type="BinHex"/>
-		<field name="fItemImageWidth" type="Float"/>
-		<field name="fItemImageHeight" type="Float"/>
+		<field name="fItemImageWidth" type="BinHex"/>
+		<field name="fItemImageHeight" type="BinHex"/>
 		<field name="uimenupageShopPage" type="BinHex"/>
 		<field hash="B50A1A4E" type="BinHex"/>
 		<field hash="D214239F" type="String"/>
@@ -1041,7 +1041,7 @@
 		<object name="TileActions">
 			<object name="OnSelectActions">
 				<object name="OnSelectAction">
-					<field hash="E24557AA" type="String"/>
+					<field name="text_uimenuactiontypeidUIMenuActionType" type="String"/>
 					<field name="uimenuactiontypeidUIMenuActionType" type="BinHex"/>
 					<field name="strCustomParameter" type="String"/>
 					<field name="uimenupageRequestedPage" type="BinHex"/>

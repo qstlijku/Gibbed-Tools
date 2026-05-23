@@ -17,7 +17,7 @@
 				<field name="SoundId" type="BinHex"/>
 				<field name="SoundGuid" type="BinHex"/>
 			</object>
-			<field hash="7B6A651D" type="String"/>
+			<field name="text_sndRandomFxSound" type="String"/>
 			<field name="sndRandomFxSound" type="BinHex"/>
 			<field hash="2B355191" type="BinHex"/>
 			<object hash="9B529A9A"/>

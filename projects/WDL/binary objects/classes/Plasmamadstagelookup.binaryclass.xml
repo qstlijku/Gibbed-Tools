@@ -6,6 +6,6 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="C0744B19" type="String"/>
+	<field name="text_StageName" type="String"/>
 	<field name="StageName" type="BinHex"/>
 </class>

@@ -9,11 +9,11 @@
 	<object name="Clutch">
 		<field name="sndClutchIn" type="BinHex"/>
 		<field name="sndClutchOut" type="BinHex"/>
-		<field hash="08C992E3" type="String"/>
+		<field name="text_sndClutchInHandbrake" type="String"/>
 		<field name="sndClutchInHandbrake" type="BinHex"/>
-		<field hash="F2F7D97F" type="String"/>
+		<field name="text_sndClutchOutHandbrake" type="String"/>
 		<field name="sndClutchOutHandbrake" type="BinHex"/>
-		<field hash="750A2561" type="String"/>
+		<field name="text_sndClutchSlipping" type="String"/>
 		<field name="sndClutchSlipping" type="BinHex"/>
 		<field hash="23ABD29F" type="BinHex"/>
 		<field hash="2E751D43" type="BinHex"/>

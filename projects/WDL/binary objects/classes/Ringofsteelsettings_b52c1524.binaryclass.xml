@@ -17,7 +17,7 @@
 	<field hash="D45BB6B8" type="BinHex"/>
 	<field name="sndTargetDetectedSound" type="BinHex"/>
 	<field hash="23335519" type="BinHex"/>
-	<field hash="422A47D2" type="String"/>
+	<field name="text_TargetDetectedBark" type="String"/>
 	<field name="TargetDetectedBark" type="BinHex"/>
 	<object name="RandomNPCFelony">
 		<field name="fNPCFelonyTriggerProbabilityPercentage" type="BinHex"/>
@@ -26,10 +26,10 @@
 		<field name="fFelonyPlayerCamProximityVertical" type="BinHex"/>
 	</object>
 	<object name="Profiler">
-		<field hash="6446C6E2" type="String"/>
+		<field name="text_sndProfileGrantedSound" type="String"/>
 		<field name="sndProfileGrantedSound" type="BinHex"/>
 		<field hash="A969CA31" type="BinHex"/>
-		<field hash="50B30B71" type="String"/>
+		<field name="text_sndProfileDeniedSound" type="String"/>
 		<field name="sndProfileDeniedSound" type="BinHex"/>
 		<field hash="1FC21215" type="BinHex"/>
 		<field name="fDisplayProfileDelay" type="BinHex"/>
@@ -45,11 +45,11 @@
 		<field hash="1B21EEBA" type="BinHex"/>
 	</object>
 	<object name="Propaganda">
-		<field hash="AC494C17" type="String"/>
+		<field name="text_PropagandaDialog" type="String"/>
 		<field name="PropagandaDialog" type="BinHex"/>
-		<field hash="D6CD9B1E" type="String"/>
+		<field name="text_WarningStateActivationDialog" type="String"/>
 		<field name="WarningStateActivationDialog" type="BinHex"/>
-		<field hash="1A928BF6" type="String"/>
+		<field name="text_AggressiveStateActivationDialog" type="String"/>
 		<field name="AggressiveStateActivationDialog" type="BinHex"/>
 		<field name="fMinInitialPropagandaDelay" type="BinHex"/>
 		<field name="fMaxInitialPropagandaDelay" type="BinHex"/>

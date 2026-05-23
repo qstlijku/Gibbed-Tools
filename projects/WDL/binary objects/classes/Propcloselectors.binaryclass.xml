@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="Selectors">
 		<object name="Selectors">
-			<field hash="624EEA9D" type="String"/>
+			<field name="text_selSelectorID" type="String"/>
 			<field name="selSelectorID" type="BinHex"/>
 			<field name="propPropDbName" type="BinHex"/>
 		</object>

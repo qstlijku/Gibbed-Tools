@@ -26,7 +26,7 @@
 		<field name="fPingBackWaveRange" type="BinHex"/>
 		<field name="fPingBackWaveAngle" type="BinHex"/>
 		<field name="colorPingBackWaveColor" type="BinHex"/>
-		<field hash="A5BCE2B6" type="String"/>
+		<field name="text_psPingBackParticles" type="String"/>
 		<field name="psPingBackParticles" type="BinHex"/>
 		<field name="fPingBackParticlesDuration" type="BinHex"/>
 		<field name="possyselementIconRevealed" type="BinHex"/>

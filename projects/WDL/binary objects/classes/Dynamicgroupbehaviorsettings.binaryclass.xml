@@ -11,7 +11,7 @@
 	<field name="fCooldownBetweenEvaluations" type="BinHex"/>
 	<field hash="E5C9DE0A" type="BinHex"/>
 	<object name="EvaluatorSettings">
-		<field hash="6D1E1959" type="String"/>
+		<field name="text_selType" type="String"/>
 		<field name="selType" type="Enum"/>
 		<object name="Object">
 			<field name="fPMCsMaxDistFromHostage" type="BinHex"/>
@@ -69,7 +69,7 @@
 			<field name="selPrisonerRole" type="BinHex"/>
 			<field name="bRescuerAllowAnyProp" type="BinHex"/>
 			<object name="tagcategoryselectionRescuerPropWhitelist">
-							<field hash="BDB3B8D5" type="String"/>
+							<field name="text_UITagCategorySelectionClassID" type="String"/>
 							<field name="UITagCategorySelectionClassID" type="BinHex"/>
 							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<object name="Tags"/>
@@ -86,7 +86,7 @@
 			<field name="bExcludeLoMoCiv" type="BinHex"/>
 			<field name="bCivilianAllowAnyProp" type="BinHex"/>
 			<object name="tagcategoryselectionCivilianPropWhitelist">
-							<field hash="BDB3B8D5" type="String"/>
+							<field name="text_UITagCategorySelectionClassID" type="String"/>
 							<field name="UITagCategorySelectionClassID" type="BinHex"/>
 							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<object name="Tags">
@@ -106,7 +106,7 @@
 		<object name="ConditionalStrategySet">
 			<object name="Preconditions">
 				<object name="Precondition">
-					<field hash="6D1E1959" type="String"/>
+					<field name="text_selType" type="String"/>
 					<field name="selType" type="Enum"/>
 					<object name="Object">
 						<field name="fPMCsMaxDistFromHostage" type="BinHex"/>
@@ -122,7 +122,7 @@
 						<field name="selPrisonerRole" type="BinHex"/>
 						<field name="bRescuerAllowAnyProp" type="BinHex"/>
 						<object name="tagcategoryselectionRescuerPropWhitelist">
-							<field hash="BDB3B8D5" type="String"/>
+							<field name="text_UITagCategorySelectionClassID" type="String"/>
 							<field name="UITagCategorySelectionClassID" type="BinHex"/>
 							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<object name="Tags"/>
@@ -139,7 +139,7 @@
 						<field name="bExcludeLoMoCiv" type="BinHex"/>
 						<field name="bCivilianAllowAnyProp" type="BinHex"/>
 						<object name="tagcategoryselectionCivilianPropWhitelist">
-							<field hash="BDB3B8D5" type="String"/>
+							<field name="text_UITagCategorySelectionClassID" type="String"/>
 							<field name="UITagCategorySelectionClassID" type="BinHex"/>
 							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<object name="Tags">
@@ -158,9 +158,9 @@
 							<object name="tagcategoryselectionblackboardProfile">
 								<object name="TagCategorySelectionArray">
 									<object name="TagCategorySelection">
-										<field hash="CF68E402" type="String"/>
+										<field name="text_hid_DTCTH_ClassName" type="String"/>
 										<field name="hid_DTCTH_ClassName" type="BinHex"/>
-										<field hash="BDB3B8D5" type="String"/>
+										<field name="text_UITagCategorySelectionClassID" type="String"/>
 										<field name="UITagCategorySelectionClassID" type="BinHex"/>
 										<field name="tagcategoryUITagCategory" type="BinHex"/>
 										<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -173,7 +173,7 @@
 									</object>
 								</object>
 								<object name="TagDescriptorUI">
-									<field hash="CF68E402" type="String"/>
+									<field name="text_hid_DTCTH_ClassName" type="String"/>
 									<field name="hid_DTCTH_ClassName" type="BinHex"/>
 									<object name="TagCategorySelectionDescriptors">
 										<object name="TagCategorySelectionDescriptor">
@@ -189,7 +189,7 @@
 			</object>
 			<object name="WeightedStrategies">
 				<object name="WeightedStrategy">
-					<field hash="1794B82F" type="String"/>
+					<field name="text_fileStrategyCategory" type="String"/>
 					<field name="fileStrategyCategory" type="BinHex"/>
 					<field name="fWeight" type="Float"/>
 					<object name="BlackboardInitializers"/>
@@ -199,12 +199,12 @@
 	</object>
 	<object name="WeightedStrategies">
 		<object name="WeightedStrategy">
-			<field hash="1794B82F" type="String"/>
+			<field name="text_fileStrategyCategory" type="String"/>
 			<field name="fileStrategyCategory" type="BinHex"/>
 			<field name="fWeight" type="Float"/>
 			<object name="BlackboardInitializers">
 				<object name="BlackboardValue">
-			<field hash="122C9A00" type="String"/>
+			<field name="text_sKey" type="String"/>
 			<field name="sKey" type="BinHex"/>
 			<object name="Value">
 				<field name="selType" type="Enum"/>
@@ -216,7 +216,7 @@
 	</object>
 	<object name="BlackboardInitializers">
 		<object name="BlackboardValue">
-			<field hash="122C9A00" type="String"/>
+			<field name="text_sKey" type="String"/>
 			<field name="sKey" type="BinHex"/>
 			<object name="Value">
 				<field name="selType" type="Enum"/>

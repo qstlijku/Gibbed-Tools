@@ -39,16 +39,16 @@
 	<field name="fLKPRefreshRate" type="BinHex"/>
 	<field name="fLKPRefreshRateInVehicle" type="BinHex"/>
 	<field name="fSwitchToFullCombatTimeout" type="BinHex"/>
-	<field hash="39D1D56D" type="String"/>
+	<field name="text_sndSwitchToFullCombatSoundReset" type="String"/>
 	<field name="sndSwitchToFullCombatSoundReset" type="BinHex"/>
 	<field name="sndtpSwitchToFullCombatSoundTypeReset" type="BinHex"/>
-	<field hash="13C9FF35" type="String"/>
+	<field name="text_sndSwitchToFullCombatSoundBegin" type="String"/>
 	<field name="sndSwitchToFullCombatSoundBegin" type="BinHex"/>
 	<field name="sndtpSwitchToFullCombatSoundtypeBegin" type="BinHex"/>
-	<field hash="2B5EA58A" type="String"/>
+	<field name="text_sndSwitchToFullCombatSoundEndHostile" type="String"/>
 	<field name="sndSwitchToFullCombatSoundEndHostile" type="BinHex"/>
 	<field name="sndtpSwitchToFullCombatSoundTypeEndHostile" type="BinHex"/>
-	<field hash="27CD53E0" type="String"/>
+	<field name="text_sndSwitchToFullCombatSoundEndCancel" type="String"/>
 	<field name="sndSwitchToFullCombatSoundEndCancel" type="BinHex"/>
 	<field name="sndtpSwitchToFullCombatSoundTypeEndCancel" type="BinHex"/>
 	<field name="bUseNonPlayerExplosionDamageMultiplier" type="BinHex"/>
@@ -62,7 +62,7 @@
 		<field name="fBurstDelayMax" type="Float"/>
 		<field name="fLookAtTurnSpeedModifier" type="BinHex"/>
 		<field name="fPreShootDelay" type="BinHex"/>
-		<field hash="C21D27DF" type="String"/>
+		<field name="text_sndPreShootSound" type="String"/>
 		<field name="sndPreShootSound" type="BinHex"/>
 		<field hash="56ACCAAB" type="BinHex"/>
 		<field name="bIsValid" type="Boolean"/>
@@ -115,7 +115,7 @@
 		<field name="fBurstDelayMax" type="Float"/>
 		<field name="fLookAtTurnSpeedModifier" type="BinHex"/>
 		<field name="fPreShootDelay" type="BinHex"/>
-		<field hash="C21D27DF" type="String"/>
+		<field name="text_sndPreShootSound" type="String"/>
 		<field name="sndPreShootSound" type="BinHex"/>
 		<field hash="56ACCAAB" type="BinHex"/>
 		<field name="bIsValid" type="Boolean"/>

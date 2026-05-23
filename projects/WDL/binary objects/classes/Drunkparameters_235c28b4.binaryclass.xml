@@ -39,9 +39,9 @@
 	<field name="fDrunkEffectsBlurFactorMax" type="BinHex"/>
 	<field name="fRandomAdjustmentAmount" type="BinHex"/>
 	<field name="fDrunkEffectsFadeInOutTime" type="BinHex"/>
-	<field hash="E75F8608" type="String"/>
+	<field name="text_sndSoundStartEvent" type="String"/>
 	<field name="sndSoundStartEvent" type="BinHex"/>
-	<field hash="369827C6" type="String"/>
+	<field name="text_sndSoundEndEvent" type="String"/>
 	<field name="sndSoundEndEvent" type="BinHex"/>
 	<field hash="2FDBDB7C" type="BinHex"/>
 	<field hash="879988B5" type="BinHex"/>
@@ -58,13 +58,13 @@
 	<field name="selAnimationReaction" type="BinHex"/>
 	<field hash="B019ECA7" type="String"/>
 	<field hash="BDFE2E84" type="BinHex"/>
-	<field hash="B7D396AA" type="String"/>
+	<field name="text_fileHungoverAnimation" type="String"/>
 	<field name="fileHungoverAnimation" type="BinHex"/>
-	<field hash="25353F00" type="String"/>
+	<field name="text_fileHungoverAnimationLoop" type="String"/>
 	<field name="fileHungoverAnimationLoop" type="BinHex"/>
 	<field name="fAttentionRequestTime" type="BinHex"/>
 	<field name="fDrunkLevelToBeginBarking" type="BinHex"/>
-	<field hash="8D92C4B6" type="String"/>
+	<field name="text_NewDrunkLevelBarkId" type="String"/>
 	<field name="NewDrunkLevelBarkId" type="BinHex"/>
 	<field name="fBagleyDartsPhoneCommCooldown" type="BinHex"/>
 	<field name="phonecommunicationsettingsBagleyDarts" type="BinHex"/>
@@ -104,8 +104,8 @@
 	<object name="CarStateAnimationList"/>
 	<object name="WalkStateAnimationList">
 		<object name="Animation">
-			<field hash="E942AD8B" type="String"/>
-			<field name="fileAnimationPath" type="String"/>
+			<field name="text_fileAnimationPath" type="String"/>
+			<field name="fileAnimationPath" type="BinHex"/>
 			<field name="bIsUsingSpikeTimer" type="BinHex"/>
 			<field name="fDrunkLevelLimitUpper" type="BinHex"/>
 			<field name="fDrunkLevelLimitLower" type="BinHex"/>

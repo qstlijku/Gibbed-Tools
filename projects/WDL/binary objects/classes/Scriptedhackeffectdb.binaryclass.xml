@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="3AF28808" type="String"/>
+	<field name="text_scriptedhackeffectselHackEffectType" type="String"/>
 	<field name="scriptedhackeffectselHackEffectType" type="BinHex"/>
 	<field hash="EDD87BE7" type="BinHex"/>
 	<object name="HackEffect">

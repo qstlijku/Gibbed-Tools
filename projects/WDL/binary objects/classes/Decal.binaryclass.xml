@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9301DFBD" type="String"/>
+	<field name="text_matMaterial" type="String"/>
 	<field name="matMaterial" type="BinHex"/>
 	<field name="iTextureVariationCount" type="Int32"/>
 	<field name="angRotation" type="Float"/>

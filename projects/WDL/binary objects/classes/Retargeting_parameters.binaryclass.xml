@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="E3629E25" type="String"/>
-	<field name="fileFromSkeletonUrl" type="String"/>
-	<field hash="1FD6FCBD" type="String"/>
-	<field name="fileToSkeletonUrl" type="String"/>
+	<field name="text_fileFromSkeletonUrl" type="String"/>
+	<field name="fileFromSkeletonUrl" type="BinHex"/>
+	<field name="text_fileToSkeletonUrl" type="String"/>
+	<field name="fileToSkeletonUrl" type="BinHex"/>
 	<field name="PelvisScalingFactor" type="BinHex"/>
 	<field name="AttachementTranslationScalingFactor" type="BinHex"/>
 	<field name="boneoffsetBoneOffsets" type="BinHex"/>

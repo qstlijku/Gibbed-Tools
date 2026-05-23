@@ -12,8 +12,8 @@
 		<field name="fMinAngle" type="Float"/>
 	</object>
 	<object name="TrajectoryGraphicSettings">
-		<field hash="ACD67C07" type="String"/>
-		<field name="filePathTextureResource" type="String"/>
+		<field name="text_filePathTextureResource" type="String"/>
+		<field name="filePathTextureResource" type="BinHex"/>
 		<field name="fTextureAnimSpeed" type="Float"/>
 		<field name="fTrajectoryScalePerSquareRootMeter" type="Float"/>
 		<field name="fTrajectoryInitsize" type="Float"/>

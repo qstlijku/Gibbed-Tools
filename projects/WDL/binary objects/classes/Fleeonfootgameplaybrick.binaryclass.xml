@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fleebehaviordescriptorFleeToEntityBeforeSystemicFleeBhvDescriptor" type="BinHex"/>
-	<field name="fStopWhenIAOverEscapeRadius" type="Float"/>
-	<field name="fStopWhenWarningTimerExpired" type="Float"/>
+	<field name="fStopWhenIAOverEscapeRadius" type="Boolean"/>
+	<field name="fStopWhenWarningTimerExpired" type="Boolean"/>
 	<field name="fEscapeRadius" type="Float"/>
 	<field name="fleebehaviordescriptorFleeBhvDescriptor" type="BinHex"/>
 	<field name="bShouldDisplayAlmostLostWarning" type="Boolean"/>

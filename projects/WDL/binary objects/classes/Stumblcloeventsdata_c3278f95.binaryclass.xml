@@ -10,7 +10,7 @@
 	<field name="bTriggerCLODataClean" type="BinHex"/>
 	<object name="CLOEvents">
 		<object name="CLOEvent">
-			<field hash="A5FBB8A1" type="String"/>
+			<field name="text_fileCloBehaviorStrategy" type="String"/>
 			<field name="fileCloBehaviorStrategy" type="BinHex"/>
 			<field name="pdcfgPhotoTargetConfig" type="BinHex"/>
 			<object name="CLOPosDatas">

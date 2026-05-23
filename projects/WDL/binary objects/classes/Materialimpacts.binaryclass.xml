@@ -15,14 +15,14 @@
 			<field name="disMatId" type="BinHex"/>
 			<object name="ParticleFXs">
 				<object name="ParticleFX">
-					<field hash="31491B5F" type="String"/>
+					<field name="text_psParticlesSystem" type="String"/>
 					<field name="psParticlesSystem" type="BinHex"/>
 					<field name="fWeight" type="Float"/>
 				</object>
 			</object>
 			<object name="SpecParticleFXs">
 				<object name="SpecParticleFX">
-					<field hash="31491B5F" type="String"/>
+					<field name="text_psParticlesSystem" type="String"/>
 					<field name="psParticlesSystem" type="BinHex"/>
 					<field name="fWeight" type="Float"/>
 					<field name="SpecializationId" type="BinHex"/>
@@ -49,7 +49,7 @@
 		<object name="SoundEvent">
 			<field name="disName" type="String"/>
 			<field name="disMatId" type="BinHex"/>
-			<field hash="991E2A5F" type="String"/>
+			<field name="text_sndMaterialImpactSound" type="String"/>
 			<field name="sndMaterialImpactSound" type="BinHex"/>
 			<field name="sndtpMaterialImpactSoundType" type="BinHex"/>
 		</object>

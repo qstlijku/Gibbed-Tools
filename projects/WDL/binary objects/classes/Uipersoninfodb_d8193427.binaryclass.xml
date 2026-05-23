@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="PersonElementInfos">
 		<object name="PersonElementInfo">
-			<field hash="CF73F172" type="String"/>
+			<field name="text_progressionelementElementId" type="String"/>
 			<field name="progressionelementElementId" type="BinHex"/>
 			<field name="texturedbobjectIconTexture" type="BinHex"/>
 			<object name="locstridTitle">
@@ -25,7 +25,7 @@
 	<object name="OperativeStateInfos">
 		<object name="StateInfos">
 			<object name="StateInfo">
-				<field hash="2D2A1CD0" type="String"/>
+				<field name="text_operativestateState" type="String"/>
 				<field name="operativestateState" type="BinHex"/>
 				<object name="locstridStateLocId">
 					<field name="LocalizationId" type="UInt64"/>

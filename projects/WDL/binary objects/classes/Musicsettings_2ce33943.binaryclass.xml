@@ -9,15 +9,15 @@
 	<object name="MusicEvents">
 		<field name="musiceventsLoadingMusicStart" type="BinHex"/>
 		<field name="musiceventsLoadingMusicStop" type="BinHex"/>
-		<field hash="261A5928" type="String"/>
+		<field name="text_sndMute2DMusicEvent" type="String"/>
 		<field name="sndMute2DMusicEvent" type="BinHex"/>
-		<field hash="6B5FE44A" type="String"/>
+		<field name="text_sndUnMute2DMusicEvent" type="String"/>
 		<field name="sndUnMute2DMusicEvent" type="BinHex"/>
-		<field hash="1F8F7083" type="String"/>
+		<field name="text_sndTurnRadioOnEvent" type="String"/>
 		<field name="sndTurnRadioOnEvent" type="BinHex"/>
-		<field hash="5B4611A0" type="String"/>
+		<field name="text_sndTurnRadioOffEvent" type="String"/>
 		<field name="sndTurnRadioOffEvent" type="BinHex"/>
-		<field hash="B03671C5" type="String"/>
+		<field name="text_sndChangeRadioStation" type="String"/>
 		<field name="sndChangeRadioStation" type="BinHex"/>
 	</object>
 	<object name="MusicRtpcs">

@@ -11,7 +11,7 @@
 	<field name="fShutdownTime" type="BinHex"/>
 	<field name="fMinConnectRadius" type="BinHex"/>
 	<field name="fMaxConnectRadius" type="BinHex"/>
-	<field hash="7E4E0629" type="String"/>
+	<field name="text_sHackEscalationGroupID" type="String"/>
 	<field name="sHackEscalationGroupID" type="BinHex"/>
 	<field name="uiShutdownEscalationHackNumber" type="BinHex"/>
 	<field name="uiDestroyEscalationHackNumber" type="BinHex"/>

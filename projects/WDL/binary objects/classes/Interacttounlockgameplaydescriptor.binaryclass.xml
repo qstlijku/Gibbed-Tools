@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fUnlockDuration" type="BinHex"/>
 	<object name="YInteractGameplayDescriptor">
-		<field hash="477708C0" type="String"/>
+		<field name="text_archDataYInteractArchetypeResource" type="String"/>
 		<field name="archDataYInteractArchetypeResource" type="BinHex"/>
 		<field name="bForceDisableAfterCompleteOnce" type="BinHex"/>
 	</object>

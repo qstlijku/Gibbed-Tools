@@ -11,12 +11,12 @@
 		<field name="iGoodReputationThreshold" type="Int32"/>
 		<field name="iBadReputationThreshold" type="Int32"/>
 		<field name="dialactorlistDialogActorsList" type="BinHex"/>
-		<field hash="D3F9F6B4" type="String"/>
+		<field name="text_sGoodReputationReactionbark" type="String"/>
 		<field name="sGoodReputationReactionbark" type="BinHex"/>
 		<object name="PMSValuesNeeded"/>
 		<object name="PMSValuesExcluded">
 			<object name="PMSValue">
-				<field hash="363F5FCE" type="String"/>
+				<field name="text_pmsPMSName" type="String"/>
 				<field name="pmsPMSName" type="BinHex"/>
 				<field name="selEnumValue" type="Enum"/>
 			</object>
@@ -24,7 +24,7 @@
 	</object>
 	<object name="ReactionExposedAtoms">
 		<object name="Atom">
-			<field hash="A5314DE9" type="String"/>
+			<field name="text_progressionatomAtom" type="String"/>
 			<field name="progressionatomAtom" type="BinHex"/>
 		</object>
 	</object>

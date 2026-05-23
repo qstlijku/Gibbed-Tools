@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="411691DC" type="String"/>
+	<field name="text_GroupName" type="String"/>
 	<field name="GroupName" type="BinHex"/>
 	<object name="Bank">
 		<object name="Entry">
-			<field hash="A1295865" type="String"/>
+			<field name="text_archDroneArchetype" type="String"/>
 			<field name="archDroneArchetype" type="BinHex"/>
 			<field name="droneconfigDroneConfig" type="BinHex"/>
 			<field hash="572F5755" type="BinHex"/>

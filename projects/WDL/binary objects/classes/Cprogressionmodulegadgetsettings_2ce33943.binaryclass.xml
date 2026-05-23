@@ -14,7 +14,7 @@
 				<field name="Name" type="BinHex"/>
 				<field name="bDisplayInApp" type="BinHex"/>
 				<field name="bOnlineOnly" type="BinHex"/>
-				<field hash="E6655990" type="String"/>
+				<field name="text_archArchetype" type="String"/>
 				<field name="archArchetype" type="BinHex"/>
 				<field hash="E7BEE37F" type="String"/>
 				<field hash="2D780F68" type="BinHex"/>
@@ -22,7 +22,7 @@
 				<field hash="7F0A68CE" type="BinHex"/>
 				<object name="Atoms">
 					<object name="Atom">
-						<field hash="AD6C934B" type="String"/>
+						<field name="text_progressionatomAtomId" type="String"/>
 						<field name="progressionatomAtomId" type="BinHex"/>
 					</object>
 				</object>

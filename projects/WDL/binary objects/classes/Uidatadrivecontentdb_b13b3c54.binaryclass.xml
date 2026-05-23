@@ -15,7 +15,7 @@
 			</object>
 			<object name="DataFileItemsData">
 				<object name="DataFileItemData">
-					<field hash="A59E7470" type="String"/>
+					<field name="text_uidatafilesitemContentType" type="String"/>
 					<field name="uidatafilesitemContentType" type="BinHex"/>
 					<object name="ItemContentProperties">
 						<object name="locstridTextContent">

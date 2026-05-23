@@ -9,9 +9,9 @@
 	<object name="NarrativeTeamSpeak">
 		<field name="sndCardShowSFX" type="BinHex"/>
 		<field name="sndCardHideSFX" type="BinHex"/>
-		<field hash="18A0180C" type="String"/>
+		<field name="text_sndStartSFX" type="String"/>
 		<field name="sndStartSFX" type="BinHex"/>
-		<field hash="060A910E" type="String"/>
+		<field name="text_sndEndSFX" type="String"/>
 		<field name="sndEndSFX" type="BinHex"/>
 		<field hash="478A35C2" type="BinHex"/>
 		<field hash="9954B5F8" type="BinHex"/>

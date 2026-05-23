@@ -18,9 +18,9 @@
 			<field name="bKillVideoWhenWorldIsLoaded" type="Boolean"/>
 			<object name="SoundSettings">
 				<field name="selLoopingVideoSoundType" type="Enum"/>
-				<field hash="C3FAFE7D" type="String"/>
+				<field name="text_sndIntroMusic" type="String"/>
 				<field name="sndIntroMusic" type="BinHex"/>
-				<field hash="E0715296" type="String"/>
+				<field name="text_sndOutroMusic" type="String"/>
 				<field name="sndOutroMusic" type="BinHex"/>
 				<field hash="A2A874D7" type="BinHex"/>
 				<field hash="09A42618" type="BinHex"/>

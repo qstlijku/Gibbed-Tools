@@ -11,24 +11,24 @@
 	<object hash="3C3DF4E2">
 		<object name="Item">
 			<field hash="B857F415" type="String"/>
-			<field hash="0B42F16C" type="String"/>
+			<field name="text_Slot" type="String"/>
 			<field name="Slot" type="BinHex"/>
 			<field hash="9BA44234" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="0D5FE2C6">
 		<object name="Item">
-			<field hash="0B42F16C" type="String"/>
+			<field name="text_Slot" type="String"/>
 			<field name="Slot" type="BinHex"/>
 			<field hash="9BA44234" type="BinHex"/>
-			<field hash="B857F415" type="String"/>
+			<field name="text_Item" type="String"/>
 			<field name="Item" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="9C863B86">
 		<object name="Tag">
 			<object name="tagcategoryselectionTag">
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>

@@ -8,14 +8,14 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="matsetMaterialSet" type="BinHex"/>
 	<object name="Entries">
-		<field hash="6E7A746B" type="String"/>
+		<field name="text_SlotName" type="String"/>
 		<field name="SlotName" type="BinHex"/>
-		<field hash="71727063" type="String"/>
+		<field name="text_selMaterial" type="String"/>
 		<field name="selMaterial" type="Enum"/>
 		<object name="Entries">
-			<field hash="6E7A746B" type="String"/>
+			<field name="text_SlotName" type="String"/>
 			<field name="SlotName" type="BinHex"/>
-			<field hash="71727063" type="String"/>
+			<field name="text_selMaterial" type="String"/>
 			<field name="selMaterial" type="Enum"/>
 		</object>
 	</object>

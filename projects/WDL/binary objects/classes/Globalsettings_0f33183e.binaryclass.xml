@@ -35,7 +35,7 @@
 	<object name="ShopBroadcastPrograms"/>
 	<object name="BarBroadcastPrograms"/>
 	<object name="MANDATORY_DEFAULT_TEXTURES">
-		<field hash="83626177" type="String"/>
+		<field name="text_matNoSignalMaterial" type="String"/>
 		<field name="matNoSignalMaterial" type="BinHex"/>
 		<object name="GenericChannelMaterials"/>
 		<object name="ShopChannelMaterials"/>

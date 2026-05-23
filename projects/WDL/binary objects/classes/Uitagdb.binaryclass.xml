@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="sTagName" type="String"/>
 	<object name="TagDescriptor">
-		<field hash="286439CF" type="String"/>
+		<field name="text_uitagdescriptoridTagType" type="String"/>
 		<field name="uitagdescriptoridTagType" type="BinHex"/>
 		<object name="Properties">
 			<field name="uitagimagesettingImage" type="BinHex"/>

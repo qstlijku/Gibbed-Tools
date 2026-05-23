@@ -35,7 +35,7 @@
 	<field name="fMaxRemapY" type="BinHex"/>
 	<object name="Materials">
 		<object name="Material">
-			<field hash="9301DFBD" type="String"/>
+			<field name="text_matMaterial" type="String"/>
 			<field name="matMaterial" type="BinHex"/>
 		</object>
 	</object>

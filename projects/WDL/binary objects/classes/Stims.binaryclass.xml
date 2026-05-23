@@ -7,19 +7,19 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selMode" type="Enum"/>
-	<field hash="0E909C7D" type="String"/>
+	<field name="text_stimItemType" type="String"/>
 	<field name="stimItemType" type="BinHex"/>
 	<object name="StimDefinition">
-		<field hash="92210DFC" type="String"/>
+		<field name="text_hidEventName" type="String"/>
 		<field name="hidEventName" type="BinHex"/>
 		<field name="hidTargetEntityId" type="BinHex"/>
-		<field hash="FC25E1F1" type="String"/>
+		<field name="text_sDetail" type="String"/>
 		<field name="sDetail" type="BinHex"/>
 		<field name="selType" type="Enum"/>
 		<field name="bShowCone" type="Boolean"/>
 		<field name="selReactionType" type="Enum"/>
 		<field name="fPerceiveInAngle" type="BinHex"/>
-		<field hash="1794B82F" type="String"/>
+		<field name="text_fileStrategyCategory" type="String"/>
 		<field name="fileStrategyCategory" type="BinHex"/>
 		<field name="uiMaxReactionCount" type="BinHex"/>
 		<field name="selTargetRole" type="BinHex"/>

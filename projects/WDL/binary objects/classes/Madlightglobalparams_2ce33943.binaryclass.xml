@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="FDC22EB8" type="String"/>
+	<field name="text_fileExposureMaskTexture" type="String"/>
 	<field name="fileExposureMaskTexture" type="BinHex"/>
 	<field name="fExposureMaskSize" type="BinHex"/>
 	<field name="fEthnicityBlackExposureOffset" type="BinHex"/>

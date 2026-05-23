@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="RemoteControlModule">
-		<field hash="6D1E1959" type="String"/>
+		<field name="text_selType" type="String"/>
 		<field name="selType" type="Enum"/>
 		<object name="Object">
 			<field name="fSteeringViolentEndThreshold" type="Float"/>
@@ -27,34 +27,34 @@
 			<field name="fSpiderPosSysZOffest" type="BinHex"/>
 			<field name="fSpiderIconMinRange" type="BinHex"/>
 			<field name="fSpiderIconMaxRange" type="BinHex"/>
-			<field hash="D0CDB384" type="String"/>
+			<field name="text_archGasExplosionArchetype" type="String"/>
 			<field name="archGasExplosionArchetype" type="BinHex"/>
 			<field name="bExplodesOnDestroy" type="BinHex"/>
 			<field name="fTargetMarkerLifetime" type="BinHex"/>
-			<field hash="3C258B1F" type="String"/>
+			<field name="text_sDamagePostFxName" type="String"/>
 			<field name="sDamagePostFxName" type="BinHex"/>
 			<field name="fHealthEffectIncreaseMult" type="BinHex"/>
 			<field name="fHealthEffectRecoveryDelay" type="BinHex"/>
 			<field name="fHealthEffectRecoveryTime" type="BinHex"/>
 			<object name="HeathEffects"/>
-			<field hash="64DB59FE" type="String"/>
+			<field name="text_psWipeParticles" type="String"/>
 			<field name="psWipeParticles" type="BinHex"/>
-			<field hash="A5059CDA" type="String"/>
+			<field name="text_psWipeFiringParticles" type="String"/>
 			<field name="psWipeFiringParticles" type="BinHex"/>
 			<field name="vectorWipeFiringOffset" type="BinHex"/>
-			<field hash="8F88C126" type="String"/>
+			<field name="text_sndWipeStartSound" type="String"/>
 			<field name="sndWipeStartSound" type="BinHex"/>
 			<field name="sndtpWipeStartSoundType" type="BinHex"/>
-			<field hash="6E8CC3E7" type="String"/>
+			<field name="text_sndWipeStopSound" type="String"/>
 			<field name="sndWipeStopSound" type="BinHex"/>
 			<field name="sndtpWipeStopSoundType" type="BinHex"/>
-			<field hash="68671FAE" type="String"/>
+			<field name="text_sndWipeFiring" type="String"/>
 			<field name="sndWipeFiring" type="BinHex"/>
 			<field name="sndtpWipeFiringType" type="BinHex"/>
-			<field hash="7D058DA4" type="String"/>
+			<field name="text_sndWipeAlert" type="String"/>
 			<field name="sndWipeAlert" type="BinHex"/>
 			<field name="sndtpWipeAlertType" type="BinHex"/>
-			<field hash="AA42F725" type="String"/>
+			<field name="text_sndWipeCondemned" type="String"/>
 			<field name="sndWipeCondemned" type="BinHex"/>
 			<field name="sndtpWipeCondemnedType" type="BinHex"/>
 			<field name="fLevel" type="Float"/>
@@ -79,21 +79,21 @@
 				<field name="fTurretTargetUpdatePeriodMin" type="BinHex"/>
 				<field name="fTurretTargetUpdatePeriodMax" type="BinHex"/>
 				<field hash="DFF42472" type="BinHex"/>
-				<field hash="3DA57090" type="String"/>
+				<field name="text_fileTurretLayeredMove" type="String"/>
 				<field name="fileTurretLayeredMove" type="BinHex"/>
 				<field name="fMaxDistanceToHideIcon" type="BinHex"/>
 				<field name="fMinDistanceToHideIcon" type="BinHex"/>
 				<field name="bUseDefaultTaggingSystem" type="BinHex"/>
-				<field hash="DA342A37" type="String"/>
+				<field name="text_sndDeploySound" type="String"/>
 				<field name="sndDeploySound" type="BinHex"/>
-				<field hash="D346FC96" type="String"/>
+				<field name="text_sndSelfDestructSound" type="String"/>
 				<field name="sndSelfDestructSound" type="BinHex"/>
-				<field hash="0EE02DDB" type="String"/>
+				<field name="text_sndBeepingSound" type="String"/>
 				<field name="sndBeepingSound" type="BinHex"/>
 				<field name="sndtpDeploySoundType" type="BinHex"/>
 				<field name="sndtpSelfDestructSoundType" type="BinHex"/>
 				<field name="sndtpBeepingSoundType" type="BinHex"/>
-				<field hash="93D2AFB5" type="String"/>
+				<field name="text_psParticleSystem" type="String"/>
 				<field name="psParticleSystem" type="BinHex"/>
 				<field name="ParticleSystemAttachBoneIndex" type="BinHex"/>
 				<field name="bUseExplosiveIcon" type="BinHex"/>
@@ -117,7 +117,7 @@
 				</object>
 			</object>
 			<field name="bUseCustomItemArchetype" type="Boolean"/>
-			<field hash="2B534C07" type="String"/>
+			<field name="text_archDropItemArchetype" type="String"/>
 			<field name="archDropItemArchetype" type="BinHex"/>
 			<field name="uiDropObjectCount" type="UInt32"/>
 			<field name="uiBatteryCost" type="UInt32"/>
@@ -126,7 +126,7 @@
 			<object name="LandingGearBoneMovement">
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="selPosReference" type="BinHex"/>
 					<field name="vectorStartPos" type="BinHex"/>
@@ -155,7 +155,7 @@
 						</object>
 					</object>
 					<object name="MobileBones">
-						<field hash="795F32D4" type="String"/>
+						<field name="text_BoneName" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="selPosReference" type="BinHex"/>
 						<field name="vectorStartPos" type="BinHex"/>
@@ -190,46 +190,46 @@
 			<field name="uiSpotlightSlot" type="BinHex"/>
 			<field name="uiTopLightSlot" type="BinHex"/>
 			<field name="uiCameraLightSlot" type="BinHex"/>
-			<field hash="44F43ED2" type="String"/>
+			<field name="text_sMaterialOverrideSlotName" type="String"/>
 			<field name="sMaterialOverrideSlotName" type="BinHex"/>
 			<field name="fScanAlertDisplayDuration" type="BinHex"/>
-			<field hash="00A03090" type="String"/>
+			<field name="text_matIdleAiEnabled" type="String"/>
 			<field name="matIdleAiEnabled" type="BinHex"/>
-			<field hash="9E74E315" type="String"/>
+			<field name="text_matIdleAiDisabled" type="String"/>
 			<field name="matIdleAiDisabled" type="BinHex"/>
-			<field hash="92BB4052" type="String"/>
+			<field name="text_matPlayerControlled" type="String"/>
 			<field name="matPlayerControlled" type="BinHex"/>
-			<field hash="30FD8719" type="String"/>
+			<field name="text_matDeactivationTakedown" type="String"/>
 			<field name="matDeactivationTakedown" type="BinHex"/>
-			<field hash="E25153B0" type="String"/>
+			<field name="text_matMalfunction" type="String"/>
 			<field name="matMalfunction" type="BinHex"/>
-			<field hash="7A1D74EA" type="String"/>
+			<field name="text_matShutdown" type="String"/>
 			<field name="matShutdown" type="BinHex"/>
-			<field hash="A30D4F96" type="String"/>
+			<field name="text_matRebootPart1" type="String"/>
 			<field name="matRebootPart1" type="BinHex"/>
-			<field hash="3A041E2C" type="String"/>
+			<field name="text_matRebootPart2" type="String"/>
 			<field name="matRebootPart2" type="BinHex"/>
-			<field hash="2A9D005F" type="String"/>
+			<field name="text_matSpeakingMaterial" type="String"/>
 			<field name="matSpeakingMaterial" type="BinHex"/>
-			<field hash="521826EE" type="String"/>
+			<field name="text_matBroadcastMaterial" type="String"/>
 			<field name="matBroadcastMaterial" type="BinHex"/>
-			<field hash="EEC6C56E" type="String"/>
+			<field name="text_matDestroyed" type="String"/>
 			<field name="matDestroyed" type="BinHex"/>
-			<field hash="53B82407" type="String"/>
+			<field name="text_psUnawareParticles" type="String"/>
 			<field name="psUnawareParticles" type="BinHex"/>
-			<field hash="887CF77E" type="String"/>
+			<field name="text_psCombatParticles" type="String"/>
 			<field name="psCombatParticles" type="BinHex"/>
-			<field hash="ED753E0A" type="String"/>
+			<field name="text_psSearchParticles" type="String"/>
 			<field name="psSearchParticles" type="BinHex"/>
-			<field hash="FAB2749D" type="String"/>
+			<field name="text_sndDetectingSoundStart" type="String"/>
 			<field name="sndDetectingSoundStart" type="BinHex"/>
 			<field name="sndDetectingSoundStop" type="BinHex"/>
-			<field hash="D77651C8" type="String"/>
+			<field name="text_sndBulletHitSound" type="String"/>
 			<field name="sndBulletHitSound" type="BinHex"/>
 			<field name="sndtpDetectingSoundStartType" type="BinHex"/>
 			<field name="sndtpDetectingSoundStopType" type="BinHex"/>
 			<field name="sndtpBulletHitSoundType" type="BinHex"/>
-			<field hash="6A30C6FB" type="String"/>
+			<field name="text_psSpawnParticles" type="String"/>
 			<field name="psSpawnParticles" type="BinHex"/>
 			<field name="uiWeaponHeatLightSlot" type="BinHex"/>
 			<field name="fWeakpointsHotIronntensityMin" type="BinHex"/>
@@ -238,108 +238,108 @@
 			<field name="fWeaponHeatIntensityMax" type="BinHex"/>
 			<field name="sndDetectionStartSound" type="BinHex"/>
 			<field name="sndtpDetectionStartSoundType" type="BinHex"/>
-			<field hash="727236E3" type="String"/>
+			<field name="text_BarkBuffActivated" type="String"/>
 			<field name="BarkBuffActivated" type="BinHex"/>
-			<field hash="8FF34063" type="String"/>
+			<field name="text_sndDroneKilledSound" type="String"/>
 			<field name="sndDroneKilledSound" type="BinHex"/>
 			<field name="sndtpDroneKilledSoundType" type="BinHex"/>
-			<field hash="699559C1" type="String"/>
+			<field name="text_psBuffParticles" type="String"/>
 			<field name="psBuffParticles" type="BinHex"/>
 			<field name="fBuffParticlesLifeTime" type="BinHex"/>
-			<field hash="4CB9BDDA" type="String"/>
+			<field name="text_sWeaponGaugeMaterialName" type="String"/>
 			<field name="sWeaponGaugeMaterialName" type="BinHex"/>
 			<field name="fGunGaugeMinOffset" type="BinHex"/>
 			<field name="fGunGaugeMaxOffset" type="BinHex"/>
-			<field hash="C951770D" type="String"/>
+			<field name="text_WarningLightBoneName" type="String"/>
 			<field name="WarningLightBoneName" type="BinHex"/>
 			<field name="fWarningLightRotationSpeed" type="BinHex"/>
-			<field hash="C41AE6FA" type="String"/>
+			<field name="text_sScreenMaterialSlotName" type="String"/>
 			<field name="sScreenMaterialSlotName" type="BinHex"/>
-			<field hash="FF02E566" type="String"/>
+			<field name="text_matScreenOffMaterial" type="String"/>
 			<field name="matScreenOffMaterial" type="BinHex"/>
-			<field hash="1BF00104" type="String"/>
+			<field name="text_matScreenPlayerMaterial" type="String"/>
 			<field name="matScreenPlayerMaterial" type="BinHex"/>
-			<field hash="DD1D49C4" type="String"/>
+			<field name="text_matScreenPlayerOverchargeMaterial" type="String"/>
 			<field name="matScreenPlayerOverchargeMaterial" type="BinHex"/>
-			<field hash="2BEE8809" type="String"/>
+			<field name="text_matScreenRebootPart1Material" type="String"/>
 			<field name="matScreenRebootPart1Material" type="BinHex"/>
-			<field hash="1263B4CC" type="String"/>
+			<field name="text_matScreenRebootPart2Material" type="String"/>
 			<field name="matScreenRebootPart2Material" type="BinHex"/>
-			<field hash="9397BCFD" type="String"/>
+			<field name="text_matScreenDeactivationTakedownMaterial" type="String"/>
 			<field name="matScreenDeactivationTakedownMaterial" type="BinHex"/>
-			<field hash="AA56AC17" type="String"/>
+			<field name="text_matScreenMalfunctionMaterial" type="String"/>
 			<field name="matScreenMalfunctionMaterial" type="BinHex"/>
-			<field hash="5EBE638D" type="String"/>
+			<field name="text_matScreenSwitchAllegianceMaterial" type="String"/>
 			<field name="matScreenSwitchAllegianceMaterial" type="BinHex"/>
-			<field hash="FD0C3576" type="String"/>
+			<field name="text_sOverchargeMaterialSlotName" type="String"/>
 			<field name="sOverchargeMaterialSlotName" type="BinHex"/>
-			<field hash="AD8FF11E" type="String"/>
+			<field name="text_matOverchargeOnMaterial" type="String"/>
 			<field name="matOverchargeOnMaterial" type="BinHex"/>
-			<field hash="C2078D51" type="String"/>
+			<field name="text_matOverchargeOffMaterial" type="String"/>
 			<field name="matOverchargeOffMaterial" type="BinHex"/>
-			<field hash="FAAF2F5B" type="String"/>
+			<field name="text_matScreenPlayerOwnedMaterial" type="String"/>
 			<field name="matScreenPlayerOwnedMaterial" type="BinHex"/>
-			<field hash="B0DB9CA4" type="String"/>
+			<field name="text_matScreenAiWithCargoMaterial" type="String"/>
 			<field name="matScreenAiWithCargoMaterial" type="BinHex"/>
-			<field hash="FD36E0CF" type="String"/>
+			<field name="text_matScreenAiNoCargoMaterial" type="String"/>
 			<field name="matScreenAiNoCargoMaterial" type="BinHex"/>
-			<field hash="C92868FC" type="String"/>
+			<field name="text_matScreenAiCargoDeliveredMaterial" type="String"/>
 			<field name="matScreenAiCargoDeliveredMaterial" type="BinHex"/>
-			<field hash="B2894FB5" type="String"/>
+			<field name="text_matScreenAiIdleMaterial" type="String"/>
 			<field name="matScreenAiIdleMaterial" type="BinHex"/>
-			<field hash="8625B649" type="String"/>
+			<field name="text_matScreenAiAwareMaterial" type="String"/>
 			<field name="matScreenAiAwareMaterial" type="BinHex"/>
-			<field hash="2E89E7C7" type="String"/>
+			<field name="text_matScreenAiInvestigateMaterial" type="String"/>
 			<field name="matScreenAiInvestigateMaterial" type="BinHex"/>
-			<field hash="9DC5F293" type="String"/>
+			<field name="text_matScreenAiWarnMaterial" type="String"/>
 			<field name="matScreenAiWarnMaterial" type="BinHex"/>
-			<field hash="286C9751" type="String"/>
+			<field name="text_matScreenArrestMaterial" type="String"/>
 			<field name="matScreenArrestMaterial" type="BinHex"/>
-			<field hash="F7D511DB" type="String"/>
+			<field name="text_matScreenSearchMaterial" type="String"/>
 			<field name="matScreenSearchMaterial" type="BinHex"/>
-			<field hash="4EC5A383" type="String"/>
+			<field name="text_matScreenCombatMaterial" type="String"/>
 			<field name="matScreenCombatMaterial" type="BinHex"/>
-			<field hash="35E47E79" type="String"/>
+			<field name="text_matScreenAiWorkingMaterial" type="String"/>
 			<field name="matScreenAiWorkingMaterial" type="BinHex"/>
-			<field hash="315D4D4D" type="String"/>
+			<field name="text_matScreenCarryingCargoMaterial" type="String"/>
 			<field name="matScreenCarryingCargoMaterial" type="BinHex"/>
 			<field name="matScreenWithoutCargoMaterial" type="BinHex"/>
-			<field hash="1EEED0B7" type="String"/>
+			<field name="text_matScreenAiMaintenanceMaterial" type="String"/>
 			<field name="matScreenAiMaintenanceMaterial" type="BinHex"/>
-			<field hash="33595B4D" type="String"/>
+			<field name="text_sWeakpointMaterialSlotName" type="String"/>
 			<field name="sWeakpointMaterialSlotName" type="BinHex"/>
-			<field hash="F209DDCA" type="String"/>
+			<field name="text_matWeakpointOnMaterial" type="String"/>
 			<field name="matWeakpointOnMaterial" type="BinHex"/>
-			<field hash="43E61DB0" type="String"/>
+			<field name="text_matWeakpointOffMaterial" type="String"/>
 			<field name="matWeakpointOffMaterial" type="BinHex"/>
-			<field hash="765F2168" type="String"/>
+			<field name="text_sRingGlowMaterialSlotName" type="String"/>
 			<field name="sRingGlowMaterialSlotName" type="BinHex"/>
-			<field hash="4E3C3C00" type="String"/>
+			<field name="text_matRingGlowFriendlyMaterial" type="String"/>
 			<field name="matRingGlowFriendlyMaterial" type="BinHex"/>
-			<field hash="DF6B0A3B" type="String"/>
+			<field name="text_matRingGlowHijackFpvMaterial" type="String"/>
 			<field name="matRingGlowHijackFpvMaterial" type="BinHex"/>
-			<field hash="31F7565C" type="String"/>
+			<field name="text_matRingGlowSearchMaterial" type="String"/>
 			<field name="matRingGlowSearchMaterial" type="BinHex"/>
-			<field hash="EE4ED0D6" type="String"/>
+			<field name="text_matRingGlowArrestMaterial" type="String"/>
 			<field name="matRingGlowArrestMaterial" type="BinHex"/>
-			<field hash="88E7E404" type="String"/>
+			<field name="text_matRingGlowCombatMaterial" type="String"/>
 			<field name="matRingGlowCombatMaterial" type="BinHex"/>
 			<field hash="411A9158" type="BinHex"/>
-			<field hash="A8920C9D" type="String"/>
+			<field name="text_matRingGlowOffMaterial" type="String"/>
 			<field name="matRingGlowOffMaterial" type="BinHex"/>
-			<field hash="AB74C16E" type="String"/>
+			<field name="text_sHudScreenMaterialSlotName" type="String"/>
 			<field name="sHudScreenMaterialSlotName" type="BinHex"/>
-			<field hash="D9F4228D" type="String"/>
+			<field name="text_matHudScreenOnMaterial" type="String"/>
 			<field name="matHudScreenOnMaterial" type="BinHex"/>
-			<field hash="AB75347C" type="String"/>
+			<field name="text_matHudScreenOffMaterial" type="String"/>
 			<field name="matHudScreenOffMaterial" type="BinHex"/>
-			<field hash="C0617AED" type="String"/>
+			<field name="text_matHudScreenBrokenMaterial" type="String"/>
 			<field name="matHudScreenBrokenMaterial" type="BinHex"/>
-			<field hash="CA6D1A87" type="String"/>
+			<field name="text_sClampHudMaterialName" type="String"/>
 			<field name="sClampHudMaterialName" type="BinHex"/>
 			<field name="fClampHudOpenPos" type="BinHex"/>
 			<field name="fClampHudClosedPos" type="BinHex"/>
-			<field hash="0E51BCCC" type="String"/>
+			<field name="text_sTargetHudMaterialName" type="String"/>
 			<field name="sTargetHudMaterialName" type="BinHex"/>
 			<field name="fTargetHudDistanceScale" type="BinHex"/>
 			<field name="fTargetHudIntensityMin" type="BinHex"/>
@@ -347,9 +347,9 @@
 			<field name="fTargetHudMaxRange" type="BinHex"/>
 			<field name="colorHudDotOpenColor" type="BinHex"/>
 			<field name="colorHudDotClosedColor" type="BinHex"/>
-			<field hash="20C87F18" type="String"/>
+			<field name="text_sndSirenSoundStart" type="String"/>
 			<field name="sndSirenSoundStart" type="BinHex"/>
-			<field hash="D81D9785" type="String"/>
+			<field name="text_sndSirenSoundStop" type="String"/>
 			<field name="sndSirenSoundStop" type="BinHex"/>
 			<field name="sndtpSirenSoundStartType" type="BinHex"/>
 			<field name="sndtpSirenSoundStopType" type="BinHex"/>
@@ -359,34 +359,34 @@
 			<field hash="3E77DB15" type="BinHex"/>
 			<field hash="7D8A6AE5" type="BinHex"/>
 			<field hash="7C412D66" type="BinHex"/>
-			<field hash="8C9C7F6A" type="String"/>
+			<field name="text_sGaugeMaterialName" type="String"/>
 			<field name="sGaugeMaterialName" type="BinHex"/>
 			<field name="colorChargingGaugeColor" type="BinHex"/>
 			<field name="colorCooldownGaugeColor" type="BinHex"/>
 			<field name="fGaugeMinOffset" type="BinHex"/>
 			<field name="fGaugeMaxOffset" type="BinHex"/>
-			<field hash="49CFA09D" type="String"/>
+			<field name="text_sndShockDamageSound" type="String"/>
 			<field name="sndShockDamageSound" type="BinHex"/>
 			<field name="sndtpShockDamageSoundType" type="BinHex"/>
-			<field hash="C1AC4537" type="String"/>
+			<field name="text_psShockDamageParticles" type="String"/>
 			<field name="psShockDamageParticles" type="BinHex"/>
-			<field hash="AC4E61C9" type="String"/>
+			<field name="text_psShockDamageOnModelParticles" type="String"/>
 			<field name="psShockDamageOnModelParticles" type="BinHex"/>
 			<field name="fParticlesPlayDistance" type="BinHex"/>
 			<field name="fShockDamageImpulseStrength" type="BinHex"/>
-			<field hash="D54CBCF8" type="String"/>
+			<field name="text_fileOverHeatPostFxTexture" type="String"/>
 			<field name="fileOverHeatPostFxTexture" type="BinHex"/>
-			<field hash="BB0EB92E" type="String"/>
+			<field name="text_fileOverHeatPostFxTextureAlpha" type="String"/>
 			<field name="fileOverHeatPostFxTextureAlpha" type="BinHex"/>
 			<field name="fNormalToOverHeatDuration" type="BinHex"/>
 			<field name="fOverHeatToNormalDuration" type="BinHex"/>
-			<field hash="693EB0BD" type="String"/>
+			<field name="text_sndOverHeatSoundPlay" type="String"/>
 			<field name="sndOverHeatSoundPlay" type="BinHex"/>
-			<field hash="8EE178B1" type="String"/>
+			<field name="text_sndOverHeatSoundStop" type="String"/>
 			<field name="sndOverHeatSoundStop" type="BinHex"/>
 			<field name="sndtpOverHeatSoundPlayType" type="BinHex"/>
 			<field name="sndtpOverHeatSoundStopType" type="BinHex"/>
-			<field hash="97D7DBB8" type="String"/>
+			<field name="text_psOverHeatParticles" type="String"/>
 			<field name="psOverHeatParticles" type="BinHex"/>
 			<object name="LightsAffectedByDeactivationTakedown">
 				<object name="LightSlot">
@@ -1269,7 +1269,7 @@
 			<object name="JawBones">
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="selPosReference" type="BinHex"/>
 					<field name="vectorStartPos" type="BinHex"/>
@@ -1332,7 +1332,7 @@
 			<object name="shakeBones">
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="selPosReference" type="BinHex"/>
 					<field name="vectorStartPos" type="BinHex"/>
@@ -1361,7 +1361,7 @@
 						</object>
 					</object>
 					<object name="MobileBones">
-						<field hash="795F32D4" type="String"/>
+						<field name="text_BoneName" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="selPosReference" type="BinHex"/>
 						<field name="vectorStartPos" type="BinHex"/>
@@ -2143,7 +2143,7 @@
 				</object>
 			</object>
 			<object name="ShockDamageCameraShake">
-				<field hash="92210DFC" type="String"/>
+				<field name="text_hidEventName" type="String"/>
 				<field name="hidEventName" type="BinHex"/>
 				<field name="hidTargetEntityId" type="BinHex"/>
 				<field name="hidEventType" type="BinHex"/>
@@ -2157,11 +2157,11 @@
 			</object>
 			<object name="OverHeatMaterials">
 				<object name="OverHeatMaterial">
-					<field hash="12C0029A" type="String"/>
+					<field name="text_sMaterialName" type="String"/>
 					<field name="sMaterialName" type="BinHex"/>
 					<object name="OverHeatParams">
 						<object name="OverHeatParam">
-							<field hash="0AB51E01" type="String"/>
+							<field name="text_sParamName" type="String"/>
 							<field name="sParamName" type="BinHex"/>
 							<field name="bIsVector" type="BinHex"/>
 							<field name="fNormalFloatValue" type="BinHex"/>
@@ -2756,7 +2756,7 @@
 			</object>
 			<object name="ScreenGlowSlots">
 				<object name="LightSlot">
-					<field hash="B3D128D7" type="String"/>
+					<field name="text_BreakingBoneName" type="String"/>
 					<field name="BreakingBoneName" type="BinHex"/>
 					<field name="uiLightSlot" type="UInt32"/>
 				</object>
@@ -3642,7 +3642,7 @@
 			<object name="ScreenMovement">
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="selPosReference" type="BinHex"/>
 					<field name="vectorStartPos" type="BinHex"/>
@@ -3671,7 +3671,7 @@
 						</object>
 					</object>
 					<object name="MobileBones">
-						<field hash="795F32D4" type="String"/>
+						<field name="text_BoneName" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="selPosReference" type="BinHex"/>
 						<field name="vectorStartPos" type="BinHex"/>
@@ -3910,19 +3910,19 @@
 					</object>
 				</object>
 			</object>
-			<field hash="975A7CF1" type="String"/>
+			<field name="text_sndBuildupSoundStart" type="String"/>
 			<field name="sndBuildupSoundStart" type="BinHex"/>
 			<field name="sndtpBuildupSoundStartType" type="BinHex"/>
 			<field name="sndBuildupSoundStop" type="BinHex"/>
 			<field name="sndtpBuildupSoundStopType" type="BinHex"/>
-			<field hash="C278F42D" type="String"/>
+			<field name="text_psBuildupParticles" type="String"/>
 			<field name="psBuildupParticles" type="BinHex"/>
 			<field name="sndIntensifySound" type="BinHex"/>
 			<field name="sndtpIntensifySoundType" type="BinHex"/>
-			<field hash="BC1F32CF" type="String"/>
+			<field name="text_psBuildupIntensifyParticles" type="String"/>
 			<field name="psBuildupIntensifyParticles" type="BinHex"/>
 			<field name="fIntensifyDuration" type="BinHex"/>
-			<field hash="7B87B004" type="String"/>
+			<field name="text_sndExplosionSound" type="String"/>
 			<field name="sndExplosionSound" type="BinHex"/>
 			<field name="sndtpExplosionSoundType" type="BinHex"/>
 			<field name="matimpExplosionImpact" type="BinHex"/>
@@ -3931,9 +3931,9 @@
 			<field hash="09402490" type="BinHex"/>
 			<field hash="1D40007E" type="BinHex"/>
 			<field name="bIsMissionDamagedSpider" type="BinHex"/>
-			<field hash="713AB898" type="String"/>
+			<field name="text_psMissionDamagedVFX" type="String"/>
 			<field name="psMissionDamagedVFX" type="BinHex"/>
-			<field hash="C9F21D0F" type="String"/>
+			<field name="text_MissionDamagedVFXBoneName" type="String"/>
 			<field name="MissionDamagedVFXBoneName" type="BinHex"/>
 			<object name="IsManualTurretAllowedRule">
 				<field name="rulesmithidRule" type="BinHex"/>
@@ -3955,10 +3955,10 @@
 				<field name="ExplosionCenter" type="BinHex"/>
 				<field name="ExplosionImpulseDividerHACK" type="BinHex"/>
 				<object name="ExplosionStim">
-					<field hash="92210DFC" type="String"/>
+					<field name="text_hidEventName" type="String"/>
 					<field name="hidEventName" type="BinHex"/>
 					<field name="hidTargetEntityId" type="BinHex"/>
-					<field hash="FC25E1F1" type="String"/>
+					<field name="text_sDetail" type="String"/>
 					<field name="sDetail" type="BinHex"/>
 					<field name="selType" type="Enum"/>
 					<field name="bShowCone" type="Boolean"/>
@@ -3986,7 +3986,7 @@
 				</object>
 				<object name="ExtraStims">
 					<object name="Stim">
-						<field hash="92210DFC" type="String"/>
+						<field name="text_hidEventName" type="String"/>
 						<field name="hidEventName" type="BinHex"/>
 						<field name="hidTargetEntityId" type="BinHex"/>
 						<field name="sDetail" type="BinHex"/>
@@ -4010,9 +4010,9 @@
 					</object>
 				</object>
 			</object>
-			<field hash="EF3B16A9" type="String"/>
+			<field name="text_psExplosionParticles" type="String"/>
 			<field name="psExplosionParticles" type="BinHex"/>
-			<field hash="B03DFA99" type="String"/>
+			<field name="text_sndPreSelfDestructSound" type="String"/>
 			<field name="sndPreSelfDestructSound" type="BinHex"/>
 			<field name="sndtpPreSelfDestructSoundType" type="BinHex"/>
 			<field name="bSendCustomExplosionStimOnPlayerOnly" type="BinHex"/>
@@ -4020,10 +4020,10 @@
 				<field name="ExplosionCenter" type="BinHex"/>
 				<field name="ExplosionImpulseDividerHACK" type="BinHex"/>
 				<object name="ExplosionStim">
-					<field hash="92210DFC" type="String"/>
+					<field name="text_hidEventName" type="String"/>
 					<field name="hidEventName" type="BinHex"/>
 					<field name="hidTargetEntityId" type="BinHex"/>
-					<field hash="FC25E1F1" type="String"/>
+					<field name="text_sDetail" type="String"/>
 					<field name="sDetail" type="BinHex"/>
 					<field name="selType" type="Enum"/>
 					<field name="bShowCone" type="Boolean"/>
@@ -4060,7 +4060,7 @@
 						<field name="vectorLocalTranslationOffset" type="BinHex"/>
 						<field name="vectorWorldTranslationOffset" type="BinHex"/>
 						<field name="bIsPersistent" type="Boolean"/>
-						<field hash="92210DFC" type="String"/>
+						<field name="text_hidEventName" type="String"/>
 						<field name="hidEventName" type="BinHex"/>
 						<field name="hidTargetEntityId" type="BinHex"/>
 						<field name="sDetail" type="BinHex"/>
@@ -4089,7 +4089,7 @@
 				<object name="StimsOnActivate">
 					<object name="GeneratedStims">
 						<object name="Stim">
-							<field hash="92210DFC" type="String"/>
+							<field name="text_hidEventName" type="String"/>
 							<field name="hidEventName" type="BinHex"/>
 							<field name="hidTargetEntityId" type="BinHex"/>
 							<field name="sDetail" type="BinHex"/>
@@ -4119,10 +4119,10 @@
 				</object>
 			</object>
 			<object name="CustomExplosionStim">
-				<field hash="92210DFC" type="String"/>
+				<field name="text_hidEventName" type="String"/>
 				<field name="hidEventName" type="BinHex"/>
 				<field name="hidTargetEntityId" type="BinHex"/>
-				<field hash="FC25E1F1" type="String"/>
+				<field name="text_sDetail" type="String"/>
 				<field name="sDetail" type="BinHex"/>
 				<field name="selType" type="Enum"/>
 				<field name="bShowCone" type="Boolean"/>
@@ -4153,9 +4153,9 @@
 					<field name="bRestrictToEntities" type="Boolean"/>
 				</object>
 			</object>
-			<field hash="DA342A37" type="String"/>
+			<field name="text_sndDeploySound" type="String"/>
 			<field name="sndDeploySound" type="BinHex"/>
-			<field hash="574AED5A" type="String"/>
+			<field name="text_sndUndeploySound" type="String"/>
 			<field name="sndUndeploySound" type="BinHex"/>
 			<field name="sndtpDeploySoundType" type="BinHex"/>
 			<field name="sndtpUndeploySoundType" type="BinHex"/>
@@ -4168,28 +4168,28 @@
 			<field name="bVulnerableWhenDroneMalfunction" type="BinHex"/>
 			<field hash="DB0F0CD8" type="BinHex"/>
 			<field hash="3FA2CAF1" type="BinHex"/>
-			<field hash="FD74E212" type="String"/>
+			<field name="text_psWeakpointParticles" type="String"/>
 			<field name="psWeakpointParticles" type="BinHex"/>
-			<field hash="22AC4362" type="String"/>
+			<field name="text_sWeakpointStartBark" type="String"/>
 			<field name="sWeakpointStartBark" type="BinHex"/>
-			<field hash="D0619B4E" type="String"/>
+			<field name="text_sndWeakpointStartSound" type="String"/>
 			<field name="sndWeakpointStartSound" type="BinHex"/>
 			<field name="sndtpWeakpointStartSoundType" type="BinHex"/>
-			<field hash="825EA3DE" type="String"/>
+			<field name="text_sndWeakpointStopSound" type="String"/>
 			<field name="sndWeakpointStopSound" type="BinHex"/>
 			<field name="sndtpWeakpointStopSoundType" type="BinHex"/>
 			<object name="VehiclePartNames">
-				<field hash="3E6A030D" type="String"/>
+				<field name="text_PartName" type="String"/>
 				<field name="PartName" type="BinHex"/>
 				<object name="VehiclePartNames">
-					<field hash="3E6A030D" type="String"/>
+					<field name="text_PartName" type="String"/>
 					<field name="PartName" type="BinHex"/>
 				</object>
 			</object>
 			<object name="VentBones">
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="selPosReference" type="BinHex"/>
 					<field name="vectorStartPos" type="BinHex"/>
@@ -4218,7 +4218,7 @@
 						</object>
 					</object>
 					<object name="MobileBones">
-						<field hash="795F32D4" type="String"/>
+						<field name="text_BoneName" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="selPosReference" type="BinHex"/>
 						<field name="vectorStartPos" type="BinHex"/>
@@ -4255,14 +4255,14 @@
 					<field name="fHealthRatioToExit" type="BinHex"/>
 					<field name="bIncludeDeadBodyState" type="BinHex"/>
 					<field name="bReenterIfHealing" type="BinHex"/>
-					<field hash="CB8B319B" type="String"/>
+					<field name="text_psStateParticles" type="String"/>
 					<field name="psStateParticles" type="BinHex"/>
 					<field name="vectorParticlesOffset" type="BinHex"/>
-					<field hash="0D901669" type="String"/>
+					<field name="text_FxBoneName" type="String"/>
 					<field name="FxBoneName" type="BinHex"/>
-					<field hash="0DCF19E9" type="String"/>
+					<field name="text_sndStateEnterSound" type="String"/>
 					<field name="sndStateEnterSound" type="BinHex"/>
-					<field hash="C740F6DB" type="String"/>
+					<field name="text_sndStateExitSound" type="String"/>
 					<field name="sndStateExitSound" type="BinHex"/>
 					<field name="sndtpStateEnterSoundType" type="BinHex"/>
 					<field name="sndtpStateExitSoundType" type="BinHex"/>
@@ -4270,7 +4270,7 @@
 			</object>
 			<object name="DetachingParts">
 				<object name="Parts">
-					<field hash="3E6A030D" type="String"/>
+					<field name="text_PartName" type="String"/>
 					<field name="PartName" type="BinHex"/>
 					<object name="DestructionStageInAir">
 						<field name="fChanceToDetach" type="BinHex"/>
@@ -4292,11 +4292,11 @@
 			</object>
 			<object name="PartDetachMappings">
 				<object name="Mappings">
-					<field hash="DE6F2426" type="String"/>
+					<field name="text_ChassisPartName" type="String"/>
 					<field name="ChassisPartName" type="BinHex"/>
 					<object name="TriggerPartNames">
 						<object name="PartNames">
-							<field hash="3E6A030D" type="String"/>
+							<field name="text_PartName" type="String"/>
 							<field name="PartName" type="BinHex"/>
 						</object>
 					</object>
@@ -4312,12 +4312,12 @@
 			<field name="fRotorIdleRerollTimeMin" type="BinHex"/>
 			<field name="fRotorIdleRerollTimeMax" type="BinHex"/>
 			<object name="MobileRotors">
-				<field hash="795F32D4" type="String"/>
+				<field name="text_BoneName" type="String"/>
 				<field name="BoneName" type="BinHex"/>
 				<field name="vector2RotorDir" type="BinHex"/>
 				<field name="bClockwiseProps" type="BinHex"/>
 				<object name="MobileRotors">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="vector2RotorDir" type="BinHex"/>
 					<field name="bClockwiseProps" type="BinHex"/>
@@ -4357,23 +4357,23 @@
 					</object>
 				</object>
 			</object>
-			<field hash="947E7D2C" type="String"/>
+			<field name="text_sndArmedSoundStart" type="String"/>
 			<field name="sndArmedSoundStart" type="BinHex"/>
 			<field name="sndtpArmedSoundStartType" type="BinHex"/>
-			<field hash="65A19479" type="String"/>
+			<field name="text_sndArmedSoundStop" type="String"/>
 			<field name="sndArmedSoundStop" type="BinHex"/>
 			<field name="sndtpArmedSoundStopType" type="BinHex"/>
 			<field name="bExternalArmEnabled" type="BinHex"/>
 			<field name="fOcclusionCheckZOffset" type="BinHex"/>
-			<field hash="300328E8" type="String"/>
+			<field name="text_sndExplosionSoundArm" type="String"/>
 			<field name="sndExplosionSoundArm" type="BinHex"/>
 			<field name="sndtpExplosionSoundArmType" type="BinHex"/>
-			<field hash="84AB4AB8" type="String"/>
+			<field name="text_sndExplosionSoundTrigger" type="String"/>
 			<field name="sndExplosionSoundTrigger" type="BinHex"/>
 			<field name="sndtpExplosionSoundTriggerType" type="BinHex"/>
-			<field hash="DB290287" type="String"/>
+			<field name="text_psExplosionParticlesArm" type="String"/>
 			<field name="psExplosionParticlesArm" type="BinHex"/>
-			<field hash="8A879903" type="String"/>
+			<field name="text_psExplosionParticlesTrigger" type="String"/>
 			<field name="psExplosionParticlesTrigger" type="BinHex"/>
 			<object name="PerkUnlockedRuleArm">
 				<field name="rulesmithidRule" type="BinHex"/>
@@ -4400,11 +4400,11 @@
 				<field name="bFeedbackEnabled" type="Boolean"/>
 				<field name="bFeedbackLinesEnabled" type="BinHex"/>
 				<field name="fFeedbackRadius" type="Float"/>
-				<field hash="D0237189" type="String"/>
+				<field name="text_psArmedParticleFxNormal" type="String"/>
 				<field name="psArmedParticleFxNormal" type="BinHex"/>
-				<field hash="FFCAC4CB" type="String"/>
+				<field name="text_psArmedParticleFxAlly" type="String"/>
 				<field name="psArmedParticleFxAlly" type="BinHex"/>
-				<field hash="89647578" type="String"/>
+				<field name="text_psArmedParticleFxEnemy" type="String"/>
 				<field name="psArmedParticleFxEnemy" type="BinHex"/>
 				<field name="bArmedParticleKillOnStop" type="BinHex"/>
 			</object>
@@ -4420,10 +4420,10 @@
 				<field name="ExplosionCenter" type="BinHex"/>
 				<field name="ExplosionImpulseDividerHACK" type="BinHex"/>
 				<object name="ExplosionStim">
-					<field hash="92210DFC" type="String"/>
+					<field name="text_hidEventName" type="String"/>
 					<field name="hidEventName" type="BinHex"/>
 					<field name="hidTargetEntityId" type="BinHex"/>
-					<field hash="FC25E1F1" type="String"/>
+					<field name="text_sDetail" type="String"/>
 					<field name="sDetail" type="BinHex"/>
 					<field name="selType" type="Enum"/>
 					<field name="bShowCone" type="Boolean"/>
@@ -4460,7 +4460,7 @@
 						<field name="vectorLocalTranslationOffset" type="BinHex"/>
 						<field name="vectorWorldTranslationOffset" type="BinHex"/>
 						<field name="bIsPersistent" type="Boolean"/>
-						<field hash="92210DFC" type="String"/>
+						<field name="text_hidEventName" type="String"/>
 						<field name="hidEventName" type="BinHex"/>
 						<field name="hidTargetEntityId" type="BinHex"/>
 						<field name="sDetail" type="BinHex"/>
@@ -4488,10 +4488,10 @@
 				<field name="ExplosionCenter" type="BinHex"/>
 				<field name="ExplosionImpulseDividerHACK" type="BinHex"/>
 				<object name="ExplosionStim">
-					<field hash="92210DFC" type="String"/>
+					<field name="text_hidEventName" type="String"/>
 					<field name="hidEventName" type="BinHex"/>
 					<field name="hidTargetEntityId" type="BinHex"/>
-					<field hash="FC25E1F1" type="String"/>
+					<field name="text_sDetail" type="String"/>
 					<field name="sDetail" type="BinHex"/>
 					<field name="selType" type="Enum"/>
 					<field name="bShowCone" type="Boolean"/>
@@ -4528,7 +4528,7 @@
 						<field name="vectorLocalTranslationOffset" type="BinHex"/>
 						<field name="vectorWorldTranslationOffset" type="BinHex"/>
 						<field name="bIsPersistent" type="Boolean"/>
-						<field hash="92210DFC" type="String"/>
+						<field name="text_hidEventName" type="String"/>
 						<field name="hidEventName" type="BinHex"/>
 						<field name="hidTargetEntityId" type="BinHex"/>
 						<field name="sDetail" type="BinHex"/>
@@ -4555,7 +4555,7 @@
 			<object name="StimsOnActivate">
 				<object name="GeneratedStims">
 					<object name="Stim">
-						<field hash="92210DFC" type="String"/>
+						<field name="text_hidEventName" type="String"/>
 						<field name="hidEventName" type="BinHex"/>
 						<field name="hidTargetEntityId" type="BinHex"/>
 						<field name="sDetail" type="BinHex"/>
@@ -4596,19 +4596,19 @@
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 			<field name="bOnlyRegenWhenStationary" type="BinHex"/>
-			<field hash="B0358A3D" type="String"/>
+			<field name="text_sndSoundStart" type="String"/>
 			<field name="sndSoundStart" type="BinHex"/>
 			<field name="sndtpSoundStartType" type="BinHex"/>
-			<field hash="9AF5238A" type="String"/>
+			<field name="text_sndSoundStop" type="String"/>
 			<field name="sndSoundStop" type="BinHex"/>
 			<field name="sndtpSoundStopType" type="BinHex"/>
 			<field name="psRegenEffect" type="BinHex"/>
 			<field name="vectorRegenEffectOffset" type="BinHex"/>
-			<field hash="810AF893" type="String"/>
+			<field name="text_sMaterialSlotName" type="String"/>
 			<field name="sMaterialSlotName" type="BinHex"/>
-			<field hash="440B839D" type="String"/>
+			<field name="text_matActiveMaterial" type="String"/>
 			<field name="matActiveMaterial" type="BinHex"/>
-			<field hash="8CEBA290" type="String"/>
+			<field name="text_matInactiveMaterial" type="String"/>
 			<field name="matInactiveMaterial" type="BinHex"/>
 			<object name="PerkUnlockedRule">
 				<field name="rulesmithidRule" type="BinHex"/>
@@ -4640,39 +4640,39 @@
 					<field name="SoundId" type="BinHex"/>
 					<field name="SoundGuid" type="BinHex"/>
 				</object>
-				<field hash="CEDA221F" type="String"/>
+				<field name="text_psArcFx" type="String"/>
 				<field name="psArcFx" type="BinHex"/>
-				<field hash="5DBB2505" type="String"/>
+				<field name="text_psHitFx" type="String"/>
 				<field name="psHitFx" type="BinHex"/>
-				<field hash="EC3B6026" type="String"/>
+				<field name="text_sndTaserSound" type="String"/>
 				<field name="sndTaserSound" type="BinHex"/>
 				<field name="sndtpTaserSoundType" type="BinHex"/>
 				<field name="matimpExplosionImpact" type="BinHex"/>
 				<field name="archItemArchetypeExplosive" type="BinHex"/>
-				<field hash="7B87B004" type="String"/>
+				<field name="text_sndExplosionSound" type="String"/>
 				<field name="sndExplosionSound" type="BinHex"/>
 				<field name="sndtpExplosionSoundType" type="BinHex"/>
-				<field hash="E568B3C3" type="String"/>
+				<field name="text_psExplosionRangeParticleFx" type="String"/>
 				<field name="psExplosionRangeParticleFx" type="BinHex"/>
 				<field name="fExplosionRangeParticleFxRadius" type="BinHex"/>
-				<field hash="E4672427" type="String"/>
+				<field name="text_sndDropSound" type="String"/>
 				<field name="sndDropSound" type="BinHex"/>
 				<field name="sndtpDropSoundType" type="BinHex"/>
-				<field hash="FF42C923" type="String"/>
+				<field name="text_sndDepletedSound" type="String"/>
 				<field name="sndDepletedSound" type="BinHex"/>
 				<field name="sndtpDepletedSoundType" type="BinHex"/>
 				<field name="sndDisruptSound" type="BinHex"/>
 				<field name="sndtpDisruptSoundType" type="BinHex"/>
-				<field hash="851B4A54" type="String"/>
+				<field name="text_psDisruptParticles" type="String"/>
 				<field name="psDisruptParticles" type="BinHex"/>
 				<field name="fDisruptParticleFx" type="BinHex"/>
 				<field name="bUseEscalating" type="Boolean"/>
-				<field hash="17321066" type="String"/>
+				<field name="text_psAttractVFX" type="String"/>
 				<field name="psAttractVFX" type="BinHex"/>
 				<field name="vectorAttractVFXLocalOffset" type="BinHex"/>
 				<object name="OneShotAttractSoundsAndTypes">
 					<object name="Sound">
-						<field hash="87E038DB" type="String"/>
+						<field name="text_sndSoundId" type="String"/>
 						<field name="sndSoundId" type="BinHex"/>
 						<field name="sndtpSoundType" type="BinHex"/>
 					</object>
@@ -4702,13 +4702,13 @@
 			<field name="bHudElementVisibleWhenCollapsed" type="BinHex"/>
 			<field name="bIsHoldAction" type="BinHex"/>
 			<field name="fHoldActionDuration" type="BinHex"/>
-			<field hash="FC03AE59" type="String"/>
+			<field name="text_sndTriggerSound" type="String"/>
 			<field name="sndTriggerSound" type="BinHex"/>
 			<field name="sndtpTriggerSoundType" type="BinHex"/>
 			<field name="sTriggerBark" type="BinHex"/>
-			<field hash="490621F2" type="String"/>
+			<field name="text_sndFailedTriggerSound" type="String"/>
 			<field name="sndFailedTriggerSound" type="BinHex"/>
-			<field hash="CE8A5853" type="String"/>
+			<field name="text_sndCooldownOverSound" type="String"/>
 			<field name="sndCooldownOverSound" type="BinHex"/>
 			<field name="sndtpFailedTriggerSoundType" type="BinHex"/>
 			<field name="sndtpCooldownOverSoundType" type="BinHex"/>
@@ -4717,14 +4717,14 @@
 			<field name="sndtpWeaponStartSoundType" type="BinHex"/>
 			<field name="texturedbobjectWeaponTexture" type="BinHex"/>
 			<field name="fMinDistanceToShoot" type="BinHex"/>
-			<field hash="CEED17C3" type="String"/>
+			<field name="text_SupportToSpiderBind" type="String"/>
 			<field name="SupportToSpiderBind" type="BinHex"/>
-			<field hash="9300738C" type="String"/>
+			<field name="text_WeaponToSupportBind" type="String"/>
 			<field name="WeaponToSupportBind" type="BinHex"/>
-			<field hash="C9F3CC4D" type="String"/>
+			<field name="text_WeaponMuzzleBone" type="String"/>
 			<field name="WeaponMuzzleBone" type="BinHex"/>
 			<field hash="15B05872" type="BinHex"/>
-			<field hash="277D3CBF" type="String"/>
+			<field name="text_archWeaponSupport" type="String"/>
 			<field name="archWeaponSupport" type="BinHex"/>
 			<field name="vectorWeaponOffset" type="BinHex"/>
 			<field name="fOverheatMultiplier" type="BinHex"/>
@@ -4732,11 +4732,11 @@
 			<field name="fDamageMultiplier" type="BinHex"/>
 			<field name="fShotBeamDuration" type="BinHex"/>
 			<field name="fShotBeamOpacity" type="BinHex"/>
-			<field hash="D705CF2A" type="String"/>
+			<field name="text_archShotBeamArchetype" type="String"/>
 			<field name="archShotBeamArchetype" type="BinHex"/>
-			<field hash="F59DA9F2" type="String"/>
+			<field name="text_archShotBeamDotArchetype" type="String"/>
 			<field name="archShotBeamDotArchetype" type="BinHex"/>
-			<field hash="56F126E4" type="String"/>
+			<field name="text_sShotBeamMaterialName" type="String"/>
 			<field name="sShotBeamMaterialName" type="BinHex"/>
 			<field name="colorShotBeamColor" type="BinHex"/>
 			<field name="fShotBeamScale" type="BinHex"/>
@@ -4750,10 +4750,10 @@
 			<field name="fDuration" type="Float"/>
 			<field name="sndFinishSound" type="BinHex"/>
 			<field name="sndtpFinishSoundType" type="BinHex"/>
-			<field hash="A20E0B6A" type="String"/>
+			<field name="text_sndStartSound" type="String"/>
 			<field name="sndStartSound" type="BinHex"/>
 			<field name="sndtpStartSoundType" type="BinHex"/>
-			<field hash="CB8B319B" type="String"/>
+			<field name="text_psStateParticles" type="String"/>
 			<field name="psStateParticles" type="BinHex"/>
 			<field name="fHackedAIBeamDurationModifier" type="BinHex"/>
 			<field name="fActivationRange" type="BinHex"/>
@@ -4763,7 +4763,7 @@
 			<field name="iSpotlightBoneIndex" type="BinHex"/>
 			<field name="fCaptureInNewsStimConeAngle" type="BinHex"/>
 			<field name="spotlightAngleInRad" type="BinHex"/>
-			<field hash="2CFC48D6" type="String"/>
+			<field name="text_sndSpotlightToggleSound" type="String"/>
 			<field name="sndSpotlightToggleSound" type="BinHex"/>
 			<field name="sndtpSpotlightToggleSoundType" type="BinHex"/>
 			<field name="vectorAttachmentPointOffset" type="BinHex"/>
@@ -4775,41 +4775,41 @@
 			<field name="fDropVelocityMultiplier" type="BinHex"/>
 			<field name="fDropMaxHeightToShowUI" type="BinHex"/>
 			<field name="fCarryCameraModifierDelay" type="BinHex"/>
-			<field hash="51F9F093" type="String"/>
+			<field name="text_DestructibleHookPartName" type="String"/>
 			<field name="DestructibleHookPartName" type="BinHex"/>
 			<field name="fPickupCylinderTopOffset" type="BinHex"/>
 			<field name="fPickupCylinderHeight" type="BinHex"/>
 			<field name="fPickupCylinderRadius" type="BinHex"/>
 			<field name="fPickupCylinderRadiusFpvMult" type="BinHex"/>
 			<field name="fAttachCornerDistance" type="BinHex"/>
-			<field hash="AACC9334" type="String"/>
+			<field name="text_sndAttachSound" type="String"/>
 			<field name="sndAttachSound" type="BinHex"/>
-			<field hash="809EAB63" type="String"/>
+			<field name="text_sndReleaseSound" type="String"/>
 			<field name="sndReleaseSound" type="BinHex"/>
 			<field name="sndReadySound" type="BinHex"/>
-			<field hash="F8FC53F2" type="String"/>
+			<field name="text_sndPackageDeliveredSound" type="String"/>
 			<field name="sndPackageDeliveredSound" type="BinHex"/>
 			<field name="sndtpAttachSoundType" type="BinHex"/>
 			<field name="sndtpReleaseSoundType" type="BinHex"/>
 			<field name="sndtpReadySoundType" type="BinHex"/>
 			<field name="sndtpPackageDeliveredSoundType" type="BinHex"/>
-			<field hash="3A0FA6D0" type="String"/>
+			<field name="text_sndProximityWarningPlaySound" type="String"/>
 			<field name="sndProximityWarningPlaySound" type="BinHex"/>
-			<field hash="DBEC9A1E" type="String"/>
+			<field name="text_sndProximityWarningStopSound" type="String"/>
 			<field name="sndProximityWarningStopSound" type="BinHex"/>
 			<field name="sndtpProximityWarningPlaySoundType" type="BinHex"/>
 			<field name="sndtpProximityWarningStopSoundType" type="BinHex"/>
-			<field hash="2882E70B" type="String"/>
+			<field name="text_psAttachParticles" type="String"/>
 			<field name="psAttachParticles" type="BinHex"/>
-			<field hash="E0B8849A" type="String"/>
+			<field name="text_psDetachParticles" type="String"/>
 			<field name="psDetachParticles" type="BinHex"/>
-			<field hash="763735EE" type="String"/>
+			<field name="text_archDropPointArchetype" type="String"/>
 			<field name="archDropPointArchetype" type="BinHex"/>
 			<field name="text_fileLineTexture" type="String"/>
 			<field name="fileLineTexture" type="BinHex"/>
 			<field name="fLineThickness" type="BinHex"/>
 			<field name="fTextureAspectRatio" type="BinHex"/>
-			<field name="colorLineColor" type="Vector3"/>
+			<field name="colorLineColor" type="Vector4"/>
 			<field name="bHidePickableInFpv" type="BinHex"/>
 			<field name="bAlignPickableOnAttach" type="BinHex"/>
 			<field name="fMaxPickupDroneSpeed" type="BinHex"/>
@@ -4820,10 +4820,10 @@
 			<field name="uiClipCapacity" type="BinHex"/>
 			<field name="fProjectileSpeed" type="BinHex"/>
 			<field name="fEffectiveRange" type="BinHex"/>
-			<field hash="1B5B881E" type="String"/>
+			<field name="text_psFlashParticles" type="String"/>
 			<field name="psFlashParticles" type="BinHex"/>
 			<field name="vectorParticlesOffset" type="BinHex"/>
-			<field hash="0D901669" type="String"/>
+			<field name="text_FxBoneName" type="String"/>
 			<field name="FxBoneName" type="BinHex"/>
 			<field name="texturedbobjectPowerupTexture" type="BinHex"/>
 			<field hash="E3936E06" type="BinHex"/>
@@ -4832,7 +4832,7 @@
 			<field name="fHealthPerSecond" type="BinHex"/>
 			<field name="fJumpMultiplier" type="BinHex"/>
 			<field name="sCameraPostFX" type="BinHex"/>
-			<field hash="7C9F1B8D" type="String"/>
+			<field name="text_sFlashRumbleId" type="String"/>
 			<field name="sFlashRumbleId" type="BinHex"/>
 			<field hash="A6F268FB" type="String"/>
 			<field hash="DADCF50A" type="BinHex"/>
@@ -4840,10 +4840,10 @@
 			<field name="fCallFelonyProgressBarDuration" type="BinHex"/>
 			<field name="fCallFelonyIconDuration" type="BinHex"/>
 			<field name="fBroadcastDuration" type="BinHex"/>
-			<field hash="D75C768C" type="String"/>
+			<field name="text_BroadcastBark" type="String"/>
 			<field name="BroadcastBark" type="BinHex"/>
 			<field name="psBroadcastParticles" type="BinHex"/>
-			<field hash="ABEC6D46" type="String"/>
+			<field name="text_sndBroadcastStartSound" type="String"/>
 			<field name="sndBroadcastStartSound" type="BinHex"/>
 			<field name="sndtpBroadcastStartSoundType" type="BinHex"/>
 			<field name="fHijackTriggerRebootDuration" type="BinHex"/>
@@ -4856,11 +4856,11 @@
 			<field name="fMaxCannonOffsetFireAngleRad" type="BinHex"/>
 			<field hash="AA4C4896" type="BinHex"/>
 			<field name="GunBoneName" type="BinHex"/>
-			<field hash="C9CFA978" type="String"/>
+			<field name="text_fileTurretLayeredMovePath" type="String"/>
 			<field name="fileTurretLayeredMovePath" type="BinHex"/>
 			<field name="fSmootherStiffnessFactor" type="BinHex"/>
 			<field name="fAimAssistWaitTime" type="BinHex"/>
-			<field hash="6D2DB451" type="String"/>
+			<field name="text_ChassisSubshapeName" type="String"/>
 			<field name="ChassisSubshapeName" type="BinHex"/>
 			<field name="vectorGunPivotOffset" type="BinHex"/>
 			<field name="bSpecifyReloadingGunPitch" type="BinHex"/>
@@ -4879,25 +4879,25 @@
 			<field name="fGunYawStiffness" type="BinHex"/>
 			<field name="fRecoilStrengthAIControlled" type="BinHex"/>
 			<field name="fRecoilStrengthPlayerControlled" type="BinHex"/>
-			<field hash="CEA8C339" type="String"/>
+			<field name="text_sFireRumbleId" type="String"/>
 			<field name="sFireRumbleId" type="BinHex"/>
 			<field name="fFireRumbleIntensity" type="BinHex"/>
 			<field name="bSendStimGunshotOnLaunch" type="BinHex"/>
-			<field hash="A6604358" type="String"/>
+			<field name="text_archWeapon" type="String"/>
 			<field name="archWeapon" type="BinHex"/>
-			<field hash="3A0E18EC" type="String"/>
+			<field name="text_sndOverchargeStartSound" type="String"/>
 			<field name="sndOverchargeStartSound" type="BinHex"/>
-			<field hash="389A385A" type="String"/>
+			<field name="text_sndOverchargeStopSound" type="String"/>
 			<field name="sndOverchargeStopSound" type="BinHex"/>
-			<field hash="F2B9A366" type="String"/>
+			<field name="text_sndAbilitySelectedSound" type="String"/>
 			<field name="sndAbilitySelectedSound" type="BinHex"/>
-			<field hash="B6ECE5C4" type="String"/>
+			<field name="text_sndAimingBeamStartSound" type="String"/>
 			<field name="sndAimingBeamStartSound" type="BinHex"/>
-			<field hash="091BE304" type="String"/>
+			<field name="text_sndAimingBeamStopSound" type="String"/>
 			<field name="sndAimingBeamStopSound" type="BinHex"/>
-			<field hash="B291DC57" type="String"/>
+			<field name="text_sndGunMovementStartSound" type="String"/>
 			<field name="sndGunMovementStartSound" type="BinHex"/>
-			<field hash="AF046582" type="String"/>
+			<field name="text_sndGunMovementStopSound" type="String"/>
 			<field name="sndGunMovementStopSound" type="BinHex"/>
 			<field name="sndtpOverchargeStartSoundType" type="BinHex"/>
 			<field name="sndtpOverchargeStopSoundType" type="BinHex"/>
@@ -4910,20 +4910,20 @@
 			<field name="fGunMovementStopSoundSpeed" type="BinHex"/>
 			<field name="bPlayReloadSoundBetweenShots" type="BinHex"/>
 			<field name="sndReloadSound" type="BinHex"/>
-			<field hash="4FB36E62" type="String"/>
+			<field name="text_sndReloadDoneSound" type="String"/>
 			<field name="sndReloadDoneSound" type="BinHex"/>
 			<field name="sndtpLaunchSoundType" type="BinHex"/>
 			<field name="sndtpAbilitySelectedType" type="BinHex"/>
 			<field name="sndtpReloadSoundType" type="BinHex"/>
 			<field name="sndtpReloadDoneSoundType" type="BinHex"/>
 			<field hash="B2A9FD02" type="String"/>
-			<field hash="CEFF26C0" type="String"/>
+			<field name="text_archProjectileArchetype" type="String"/>
 			<field name="archProjectileArchetype" type="BinHex"/>
-			<field hash="66669D7E" type="String"/>
+			<field name="text_psMuzzleFlashFx" type="String"/>
 			<field name="psMuzzleFlashFx" type="BinHex"/>
-			<field hash="970E14BD" type="String"/>
+			<field name="text_sFireChargeRumbleId" type="String"/>
 			<field name="sFireChargeRumbleId" type="BinHex"/>
-			<field hash="C2F435A9" type="String"/>
+			<field name="text_sFireChargeEndRumbleId" type="String"/>
 			<field name="sFireChargeEndRumbleId" type="BinHex"/>
 			<field name="fReticleOnScreenRadius" type="BinHex"/>
 			<field name="vec2LockCurve" type="BinHex"/>
@@ -4941,36 +4941,36 @@
 			<field name="fFocusBeamOpacity" type="BinHex"/>
 			<field name="fLockOnBeamOpacity" type="BinHex"/>
 			<field name="fBeamLengthPlayer" type="BinHex"/>
-			<field hash="2CA77B71" type="String"/>
+			<field name="text_archLaserDotArchetype" type="String"/>
 			<field name="archLaserDotArchetype" type="BinHex"/>
-			<field hash="865C1112" type="String"/>
+			<field name="text_archLaserBeamArchetype" type="String"/>
 			<field name="archLaserBeamArchetype" type="BinHex"/>
 			<field name="flaserBeamStartAngle" type="BinHex"/>
-			<field hash="AB7B70B1" type="String"/>
+			<field name="text_sLaserBeamMaterialName" type="String"/>
 			<field name="sLaserBeamMaterialName" type="BinHex"/>
 			<field name="colorLaserBeam" type="BinHex"/>
 			<field name="fLaserLockOnScale" type="BinHex"/>
 			<field name="fLaserNormalScale" type="BinHex"/>
-			<field hash="9A22D5F5" type="String"/>
+			<field name="text_sndEnterRange" type="String"/>
 			<field name="sndEnterRange" type="BinHex"/>
 			<field name="sndExitRange" type="BinHex"/>
-			<field hash="6983998C" type="String"/>
+			<field name="text_sndBeamStart" type="String"/>
 			<field name="sndBeamStart" type="BinHex"/>
 			<field name="sndLockonStart" type="BinHex"/>
-			<field hash="82302063" type="String"/>
+			<field name="text_sndBeamStartAi" type="String"/>
 			<field name="sndBeamStartAi" type="BinHex"/>
-			<field hash="3E733451" type="String"/>
+			<field name="text_sndLockonStartAi" type="String"/>
 			<field name="sndLockonStartAi" type="BinHex"/>
-			<field hash="71210B71" type="String"/>
+			<field name="text_sndBeamStopCancelled" type="String"/>
 			<field name="sndBeamStopCancelled" type="BinHex"/>
-			<field hash="B22CACD8" type="String"/>
+			<field name="text_sndBeamStopCompleted" type="String"/>
 			<field name="sndBeamStopCompleted" type="BinHex"/>
-			<field hash="558F16A3" type="String"/>
+			<field name="text_sndCooldownStart" type="String"/>
 			<field name="sndCooldownStart" type="BinHex"/>
 			<field name="sndCooldownStop" type="BinHex"/>
-			<field hash="3E0A80D0" type="String"/>
+			<field name="text_sndHitValidTarget" type="String"/>
 			<field name="sndHitValidTarget" type="BinHex"/>
-			<field hash="A6E5DABF" type="String"/>
+			<field name="text_sndHitInvalidTarget" type="String"/>
 			<field name="sndHitInvalidTarget" type="BinHex"/>
 			<field name="sndtpEnterRangeType" type="BinHex"/>
 			<field name="sndtpExitRangeType" type="BinHex"/>
@@ -5002,12 +5002,12 @@
 			<field hash="0A0082B1" type="BinHex"/>
 			<field hash="7F998945" type="BinHex"/>
 			<field hash="B74EB1EB" type="BinHex"/>
-			<field hash="999F81F2" type="String"/>
+			<field name="text_psLaunchParticles" type="String"/>
 			<field name="psLaunchParticles" type="BinHex"/>
 			<field name="psOverchargeParticles" type="BinHex"/>
-			<field hash="DD5E2ABE" type="String"/>
+			<field name="text_psOverchargeMuzzleFlashParticles" type="String"/>
 			<field name="psOverchargeMuzzleFlashParticles" type="BinHex"/>
-			<field hash="F6B05FF8" type="String"/>
+			<field name="text_OverchargeParticlesBoneName" type="String"/>
 			<field name="OverchargeParticlesBoneName" type="BinHex"/>
 			<field name="bUseTargetLockOn" type="BinHex"/>
 			<field name="fLockonReticleSize" type="BinHex"/>
@@ -5016,11 +5016,11 @@
 			<field name="AimingBeamOriginBoneName" type="BinHex"/>
 			<field name="fAimingBeamDuration" type="BinHex"/>
 			<field name="fAimingBeamOpacity" type="BinHex"/>
-			<field hash="9952CDB4" type="String"/>
+			<field name="text_archAimingBeamArchetype" type="String"/>
 			<field name="archAimingBeamArchetype" type="BinHex"/>
-			<field hash="C5299A93" type="String"/>
+			<field name="text_archAimingBeamDotArchetype" type="String"/>
 			<field name="archAimingBeamDotArchetype" type="BinHex"/>
-			<field hash="62DA964E" type="String"/>
+			<field name="text_sAimingBeamMaterialName" type="String"/>
 			<field name="sAimingBeamMaterialName" type="BinHex"/>
 			<field name="colorAimingBeamColor" type="BinHex"/>
 			<field name="fAimingBeamScale" type="BinHex"/>
@@ -5041,10 +5041,10 @@
 			<field name="fOverheatRecoveryPerSecond" type="BinHex"/>
 			<field name="fOverheatRecoveryDelay" type="BinHex"/>
 			<field name="fAboutToOverheatSoundRatio" type="BinHex"/>
-			<field hash="24A9904D" type="String"/>
+			<field name="text_psOverheatParticles" type="String"/>
 			<field name="psOverheatParticles" type="BinHex"/>
 			<field name="bShowWeakpointsOnOverheat" type="BinHex"/>
-			<field hash="44E47BFA" type="String"/>
+			<field name="text_psBuildUpParticles" type="String"/>
 			<field name="psBuildUpParticles" type="BinHex"/>
 			<field name="iLaunchPosBoneIndex" type="BinHex"/>
 			<field name="iCannonBoneIndex" type="BinHex"/>
@@ -5055,24 +5055,24 @@
 			<field name="fMinYaw" type="BinHex"/>
 			<field name="fMaxYaw" type="BinHex"/>
 			<field name="fAngleOffset" type="BinHex"/>
-			<field hash="6E849270" type="String"/>
+			<field name="text_sndLaunchSound" type="String"/>
 			<field name="sndLaunchSound" type="BinHex"/>
-			<field hash="2628153D" type="String"/>
+			<field name="text_sndAbilitySelected" type="String"/>
 			<field name="sndAbilitySelected" type="BinHex"/>
 			<field hash="B77BF821" type="String"/>
-			<field hash="8BFBCD4A" type="String"/>
+			<field name="text_sndAboutToOverheatStartSound" type="String"/>
 			<field name="sndAboutToOverheatStartSound" type="BinHex"/>
-			<field hash="C6A6BA61" type="String"/>
+			<field name="text_sndAboutToOverheatStopSound" type="String"/>
 			<field name="sndAboutToOverheatStopSound" type="BinHex"/>
-			<field hash="DE758ECD" type="String"/>
+			<field name="text_sndOverheatStartSound" type="String"/>
 			<field name="sndOverheatStartSound" type="BinHex"/>
-			<field hash="4DC312D6" type="String"/>
+			<field name="text_sndOverheatStopSound" type="String"/>
 			<field name="sndOverheatStopSound" type="BinHex"/>
-			<field hash="561FF429" type="String"/>
+			<field name="text_sndCooldownStartSound" type="String"/>
 			<field name="sndCooldownStartSound" type="BinHex"/>
-			<field hash="2FE3100E" type="String"/>
+			<field name="text_sndCooldownStopSound" type="String"/>
 			<field name="sndCooldownStopSound" type="BinHex"/>
-			<field hash="16594413" type="String"/>
+			<field name="text_sndMaximumHeatReachedSound" type="String"/>
 			<field name="sndMaximumHeatReachedSound" type="BinHex"/>
 			<field name="sndtpAboutToOverheatStartSoundType" type="BinHex"/>
 			<field name="sndtpAboutToOverheatStopSoundType" type="BinHex"/>
@@ -5088,29 +5088,29 @@
 			<field hash="A9DD9E7D" type="BinHex"/>
 			<field hash="3F3C4131" type="BinHex"/>
 			<field hash="581A1132" type="BinHex"/>
-			<field hash="F9F0323B" type="String"/>
+			<field name="text_sndFireBeamStartSound" type="String"/>
 			<field name="sndFireBeamStartSound" type="BinHex"/>
-			<field hash="CA3E4EA7" type="String"/>
+			<field name="text_sndFireBeamStopSound" type="String"/>
 			<field name="sndFireBeamStopSound" type="BinHex"/>
-			<field hash="5E6348B5" type="String"/>
+			<field name="text_sndFireBeamHitStartSound" type="String"/>
 			<field name="sndFireBeamHitStartSound" type="BinHex"/>
-			<field hash="3E62A143" type="String"/>
+			<field name="text_sndFireBeamHitStopSound" type="String"/>
 			<field name="sndFireBeamHitStopSound" type="BinHex"/>
 			<field name="sndtpFireBeamStartSoundType" type="BinHex"/>
 			<field name="sndtpFireBeamStopSoundType" type="BinHex"/>
 			<field name="sndtpFireBeamHitStartSoundType" type="BinHex"/>
 			<field name="sndtpFireBeamHitStopSoundType" type="BinHex"/>
-			<field hash="E07F094F" type="String"/>
+			<field name="text_psMuzzleBeamParticles" type="String"/>
 			<field name="psMuzzleBeamParticles" type="BinHex"/>
-			<field hash="8CC7DDAA" type="String"/>
+			<field name="text_psTargetBeamParticles" type="String"/>
 			<field name="psTargetBeamParticles" type="BinHex"/>
-			<field hash="4D46F87B" type="String"/>
+			<field name="text_archBeamArchetype" type="String"/>
 			<field name="archBeamArchetype" type="BinHex"/>
-			<field hash="81AA3F3D" type="String"/>
+			<field name="text_sBeamMaterialName" type="String"/>
 			<field name="sBeamMaterialName" type="BinHex"/>
 			<field name="colorBeamColor" type="BinHex"/>
 			<field name="fBeamScale" type="BinHex"/>
-			<field hash="0D769233" type="String"/>
+			<field name="text_archArCloakArchetype" type="String"/>
 			<field name="archArCloakArchetype" type="BinHex"/>
 			<field hash="AF19DB8C" type="String"/>
 			<field hash="A2FE19AF" type="BinHex"/>
@@ -5218,7 +5218,7 @@
 			<object name="AttachAnimation">
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="selPosReference" type="BinHex"/>
 					<field name="vectorStartPos" type="BinHex"/>
@@ -5247,7 +5247,7 @@
 						</object>
 					</object>
 					<object name="MobileBones">
-						<field hash="795F32D4" type="String"/>
+						<field name="text_BoneName" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="selPosReference" type="BinHex"/>
 						<field name="vectorStartPos" type="BinHex"/>
@@ -5281,7 +5281,7 @@
 			<object name="FlashbangStims">
 				<object name="GeneratedStims">
 					<object name="Stim">
-						<field hash="92210DFC" type="String"/>
+						<field name="text_hidEventName" type="String"/>
 						<field name="hidEventName" type="BinHex"/>
 						<field name="hidTargetEntityId" type="BinHex"/>
 						<field name="sDetail" type="BinHex"/>
@@ -5315,7 +5315,7 @@
 			<object name="BroadcastStims">
 				<object name="GeneratedStims">
 					<object name="Stim">
-						<field hash="92210DFC" type="String"/>
+						<field name="text_hidEventName" type="String"/>
 						<field name="hidEventName" type="BinHex"/>
 						<field name="hidTargetEntityId" type="BinHex"/>
 						<field name="sDetail" type="BinHex"/>
@@ -5350,7 +5350,7 @@
 			<object name="DeployMovement">
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="selPosReference" type="BinHex"/>
 					<field name="vectorStartPos" type="BinHex"/>
@@ -5382,14 +5382,14 @@
 			</object>
 			<object name="PartsToToggleNames">
 				<object name="Parts">
-					<field hash="3E6A030D" type="String"/>
+					<field name="text_PartName" type="String"/>
 					<field name="PartName" type="BinHex"/>
 				</object>
 			</object>
 			<object name="GunDirectionHandler">
 				<object name="BoneJoints">
 					<field name="selJointType" type="BinHex"/>
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="vectorBoneRotAxis" type="BinHex"/>
 					<field name="vectorBoneForwardDir" type="BinHex"/>
@@ -5402,7 +5402,7 @@
 				</object>
 			</object>
 			<object name="CameraShakeOnShoot">
-				<field hash="92210DFC" type="String"/>
+				<field name="text_hidEventName" type="String"/>
 				<field name="hidEventName" type="BinHex"/>
 				<field name="hidTargetEntityId" type="BinHex"/>
 				<field name="hidEventType" type="BinHex"/>
@@ -5427,21 +5427,21 @@
 				<field name="bCanTargetDrones" type="BinHex"/>
 				<field name="bCanTargetVehicles" type="BinHex"/>
 				<field name="bCanTargetPlayers" type="BinHex"/>
-				<field hash="46B56D17" type="String"/>
+				<field name="text_sndLockingOnBegin" type="String"/>
 				<field name="sndLockingOnBegin" type="BinHex"/>
-				<field hash="BB5F5F68" type="String"/>
+				<field name="text_sndLockingOnComplete" type="String"/>
 				<field name="sndLockingOnComplete" type="BinHex"/>
-				<field hash="B82494A6" type="String"/>
+				<field name="text_sndLockingOnCancel" type="String"/>
 				<field name="sndLockingOnCancel" type="BinHex"/>
 				<field name="sndtpLockingOnBeginType" type="BinHex"/>
 				<field name="sndtpLockingOnCompleteType" type="BinHex"/>
 				<field name="sndtpLockingOnCancelType" type="BinHex"/>
 			</object>
 			<object name="MuzzleBoneNames">
-				<field hash="795F32D4" type="String"/>
+				<field name="text_BoneName" type="String"/>
 				<field name="BoneName" type="BinHex"/>
 				<object name="MuzzleBoneNames">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 				</object>
 			</object>
@@ -5456,7 +5456,7 @@
 			<object name="RackBones">
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="selPosReference" type="BinHex"/>
 					<field name="vectorStartPos" type="BinHex"/>
@@ -5485,7 +5485,7 @@
 						</object>
 					</object>
 					<object name="MobileBones">
-						<field hash="795F32D4" type="String"/>
+						<field name="text_BoneName" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="selPosReference" type="BinHex"/>
 						<field name="vectorStartPos" type="BinHex"/>
@@ -5519,7 +5519,7 @@
 			<object name="RecoilMovement">
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
-					<field hash="795F32D4" type="String"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 					<field name="selPosReference" type="BinHex"/>
 					<field name="vectorStartPos" type="BinHex"/>
@@ -5562,7 +5562,7 @@
 				<field name="fDefaultStiffness" type="BinHex"/>
 				<object name="MobileBones">
 					<object name="MobileBones">
-						<field hash="795F32D4" type="String"/>
+						<field name="text_BoneName" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="selPosReference" type="BinHex"/>
 						<field name="vectorStartPos" type="BinHex"/>

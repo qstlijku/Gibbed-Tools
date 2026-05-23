@@ -31,10 +31,10 @@
 	<field name="fVelocityBlendAvgFactor" type="BinHex"/>
 	<field name="fVelocityBlendMinTimeFactor" type="BinHex"/>
 	<field name="uiLookatStartupFrames" type="BinHex"/>
-	<field hash="1E45EBF8" type="String"/>
+	<field name="text_sndSetYTalkerStateEvent" type="String"/>
 	<field name="sndSetYTalkerStateEvent" type="BinHex"/>
 	<field hash="1BB40546" type="BinHex"/>
-	<field hash="D8379C95" type="String"/>
+	<field name="text_sndRemoveYTalkerStateEvent" type="String"/>
 	<field name="sndRemoveYTalkerStateEvent" type="BinHex"/>
 	<field hash="E86F382B" type="BinHex"/>
 </class>

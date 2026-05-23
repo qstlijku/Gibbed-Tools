@@ -55,15 +55,15 @@
 			<field name="fObstacleMinHeightForCollisionStumbles" type="Float"/>
 		</object>
 		<object name="Accessories">
-			<field hash="54AC9FDB" type="String"/>
+			<field name="text_archBaton" type="String"/>
 			<field name="archBaton" type="BinHex"/>
-			<field hash="C76AE73F" type="String"/>
+			<field name="text_archMonkeyFist" type="String"/>
 			<field name="archMonkeyFist" type="BinHex"/>
-			<field hash="9E51B378" type="String"/>
+			<field name="text_archARPhone" type="String"/>
 			<field name="archARPhone" type="BinHex"/>
-			<field hash="D3A36E82" type="String"/>
+			<field name="text_archSniperScope" type="String"/>
 			<field name="archSniperScope" type="BinHex"/>
-			<field hash="6DEDC036" type="String"/>
+			<field name="text_archMask" type="String"/>
 			<field name="archMask" type="BinHex"/>
 			<field name="nExtractFromPDAOverrideMaterialIndex" type="BinHex"/>
 		</object>

@@ -15,10 +15,10 @@
 		<field name="fBlendInTime" type="Float"/>
 		<field name="fBlendOutTime" type="Float"/>
 		<field name="vec2BlendSCurve" type="Vector2"/>
-		<field hash="A20E0B6A" type="String"/>
+		<field name="text_sndStartSound" type="String"/>
 		<field name="sndStartSound" type="BinHex"/>
 		<field name="sndtpStartSoundType" type="BinHex"/>
-		<field hash="EAA90218" type="String"/>
+		<field name="text_sndStopSound" type="String"/>
 		<field name="sndStopSound" type="BinHex"/>
 		<field name="sndtpStopSoundType" type="BinHex"/>
 	</object>

@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="BlendShapesSet">
 		<object name="BlendShapes">
-			<field hash="A509BD31" type="String"/>
+			<field name="text_BlendShapeName" type="String"/>
 			<field name="BlendShapeName" type="BinHex"/>
 			<object name="BoneIntensityInput">
 				<field name="sBoneName" type="String"/>

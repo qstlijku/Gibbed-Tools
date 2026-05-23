@@ -22,7 +22,7 @@
 	<field name="fPostHitOscillationMagnitude" type="BinHex"/>
 	<field name="fPostHitOscillationFade" type="BinHex"/>
 	<field name="fCenterOfMassOffset" type="BinHex"/>
-	<field hash="9F412B91" type="String"/>
+	<field name="text_sSoundTriggerDialogEvent" type="String"/>
 	<field name="sSoundTriggerDialogEvent" type="BinHex"/>
 	<field name="bCanPlayBark2D" type="BinHex"/>
 	<field name="fPlayerUIRotation" type="BinHex"/>
@@ -188,7 +188,7 @@
 	</object>
 	<object name="AnimatedCameraTrackCollectionResource">
 		<object name="AnimatedCamera">
-			<field hash="270ED8B1" type="String"/>
+			<field name="text_fileTrackColectionPath" type="String"/>
 			<field name="fileTrackColectionPath" type="BinHex"/>
 		</object>
 	</object>

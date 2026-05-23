@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="477708C0" type="String"/>
+	<field name="text_archDataYInteractArchetypeResource" type="String"/>
 	<field name="archDataYInteractArchetypeResource" type="BinHex"/>
 	<field name="bForceDisableAfterCompleteOnce" type="BinHex"/>
 </class>

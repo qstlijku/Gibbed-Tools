@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="2A8FD736" type="String"/>
+	<field name="text_scriptedhackareaselHackAreaType" type="String"/>
 	<field name="scriptedhackareaselHackAreaType" type="BinHex"/>
 	<object name="HackArea">
 		<field name="fUpdateDelayTime" type="BinHex"/>

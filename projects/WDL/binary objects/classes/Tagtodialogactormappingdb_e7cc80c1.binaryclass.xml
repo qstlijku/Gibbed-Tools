@@ -9,18 +9,18 @@
 	<object name="TagDialogActorPairs">
 		<object name="TagDialogActorPair">
 			<object name="tagcategoryselectionCensusTag">
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
 			<object name="NPCDialogActor">
-				<field hash="D8C7B5B6" type="String"/>
+				<field name="text_tmplDialogActor" type="String"/>
 				<field name="tmplDialogActor" type="BinHex"/>
 			</object>
 			<object name="PlayerDialogActor">
-				<field hash="D8C7B5B6" type="String"/>
+				<field name="text_tmplDialogActor" type="String"/>
 				<field name="tmplDialogActor" type="BinHex"/>
 			</object>
 		</object>

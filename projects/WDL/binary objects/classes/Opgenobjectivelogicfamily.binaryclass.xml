@@ -26,21 +26,21 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="Settings">
-				<field hash="73B0E267" type="String"/>
+				<field name="text_BrickContainerID" type="String"/>
 				<field name="BrickContainerID" type="BinHex"/>
-				<field hash="858A200E" type="String"/>
+				<field name="text_BrickID" type="String"/>
 				<field name="BrickID" type="BinHex"/>
 				<object name="Settings">
-					<field hash="73B0E267" type="String"/>
+					<field name="text_BrickContainerID" type="String"/>
 					<field name="BrickContainerID" type="BinHex"/>
-					<field hash="858A200E" type="String"/>
+					<field name="text_BrickID" type="String"/>
 					<field name="BrickID" type="BinHex"/>
 					<object name="Settings">
-						<field hash="73B0E267" type="String"/>
+						<field name="text_BrickContainerID" type="String"/>
 						<field name="BrickContainerID" type="BinHex"/>
-						<field hash="858A200E" type="String"/>
+						<field name="text_BrickID" type="String"/>
 						<field name="BrickID" type="BinHex"/>
-						<field hash="6D1E1959" type="String"/>
+						<field name="text_selType" type="String"/>
 						<field name="selType" type="Enum"/>
 						<object name="Object">
 							<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
@@ -136,7 +136,7 @@
 								<field name="selVehicleHealthBarDisplayMode" type="BinHex"/>
 								<object name="Target">
 									<field name="TargetSceneID" type="BinHex"/>
-									<field hash="A6871411" type="String"/>
+									<field name="text_TargetRole" type="String"/>
 									<field name="TargetRole" type="BinHex"/>
 								</object>
 								<object name="TargetDestroyedOnlineNotification">
@@ -200,7 +200,7 @@
 								</object>
 								<object name="Target">
 									<field name="TargetSceneID" type="BinHex"/>
-									<field hash="A6871411" type="String"/>
+									<field name="text_TargetRole" type="String"/>
 									<field name="TargetRole" type="BinHex"/>
 								</object>
 								<object name="locstridVehicleHealthBarHeader">
@@ -252,14 +252,14 @@
 								<field name="timergameplaydescriptorEntityToPhotographTimerDescriptor" type="BinHex"/>
 								<object name="Target">
 									<field name="TargetSceneID" type="BinHex"/>
-									<field hash="A6871411" type="String"/>
+									<field name="text_TargetRole" type="String"/>
 									<field name="TargetRole" type="BinHex"/>
 								</object>
 							</object>
 							<object name="ObjectiveFreeOverrideSettings">
 								<object name="Target">
 									<field name="TargetSceneID" type="BinHex"/>
-									<field hash="A6871411" type="String"/>
+									<field name="text_TargetRole" type="String"/>
 									<field name="TargetRole" type="BinHex"/>
 								</object>
 								<object name="ObjectiveFreedOnlineNotification">
@@ -279,7 +279,7 @@
 								<field name="downloadgameplaydescriptorDownloadGameplaySettings" type="BinHex"/>
 								<object name="Target">
 									<field name="TargetSceneID" type="BinHex"/>
-									<field hash="A6871411" type="String"/>
+									<field name="text_TargetRole" type="String"/>
 									<field name="TargetRole" type="BinHex"/>
 								</object>
 								<object name="Targets"/>
@@ -439,7 +439,7 @@
 							</object>
 							<object name="ReachLocationActivities">
 								<object name="ReachLocationActivity">
-									<field hash="523E0213" type="String"/>
+									<field name="text_progressioncollectablecategoryActivityId" type="String"/>
 									<field name="progressioncollectablecategoryActivityId" type="BinHex"/>
 								</object>
 							</object>
@@ -472,7 +472,7 @@
 								<field name="yinteractgameplaydescriptorInteractDescriptor" type="BinHex"/>
 								<object name="Target">
 									<field name="TargetSceneID" type="BinHex"/>
-									<field hash="A6871411" type="String"/>
+									<field name="text_TargetRole" type="String"/>
 									<field name="TargetRole" type="BinHex"/>
 								</object>
 								<object name="WaitingForOtherPartyReachCriticalMessage">
@@ -494,7 +494,7 @@
 			<object name="ObjectiveTargetSceneIndexBridgeCollection">
 				<object name="SceneIndexBridgeCollection">
 					<object name="SceneIndexBridge">
-						<field hash="B1AD7E9C" type="String"/>
+						<field name="text_SceneID" type="String"/>
 						<field name="SceneID" type="BinHex"/>
 						<field name="uiIndex" type="BinHex"/>
 					</object>

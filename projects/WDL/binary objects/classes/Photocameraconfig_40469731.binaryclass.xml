@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="A12E0CEF" type="String"/>
+	<field name="text_sPostFx" type="String"/>
 	<field name="sPostFx" type="BinHex"/>
 	<field name="fSearchDistanceToFocalLengthRatio" type="Float"/>
 	<field name="fMinEntitySearchRadius" type="Float"/>
@@ -29,101 +29,101 @@
 	<object name="SoundEffects">
 		<object name="General">
 			<object hash="15049F68">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="C376C278">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object name="TakePicture">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object name="Exit">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object name="Navigation">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="A30165ED">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="59B0C04F">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="F6B5B709">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="6C3D83AC">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="4D762D91">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="16186DDC">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 		</object>
 		<object name="EditMode">
 			<object hash="5203AB45">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="F891BD9A">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="178D5299">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="6F9B3D2D">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 		</object>
 		<object name="FreeModeCamera">
 			<object name="Enter">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object name="Exit">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="68CD2E7F">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 			<object hash="FAF24F11">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>

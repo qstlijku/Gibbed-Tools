@@ -8,13 +8,13 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="reinforcementcallsettingsDefaultCallSettings" type="BinHex"/>
 	<object name="Sounds">
-		<field hash="D8CA3FC4" type="String"/>
+		<field name="text_sndCallStartSound" type="String"/>
 		<field name="sndCallStartSound" type="BinHex"/>
-		<field hash="810FCB38" type="String"/>
+		<field name="text_sndCallFailSound" type="String"/>
 		<field name="sndCallFailSound" type="BinHex"/>
-		<field hash="6050EF30" type="String"/>
+		<field name="text_sndAlarmCallStartSound" type="String"/>
 		<field name="sndAlarmCallStartSound" type="BinHex"/>
-		<field hash="A67A300F" type="String"/>
+		<field name="text_sndAlarmCallFailSound" type="String"/>
 		<field name="sndAlarmCallFailSound" type="BinHex"/>
 		<field hash="5A3603BC" type="BinHex"/>
 		<field hash="2ADDFA17" type="BinHex"/>

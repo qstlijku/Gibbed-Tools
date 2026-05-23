@@ -74,12 +74,12 @@
 			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="Multiplayer">
-			<field hash="FD88E382" type="String"/>
+			<field name="text_sndMicrophoneInputEvent" type="String"/>
 			<field name="sndMicrophoneInputEvent" type="BinHex"/>
 			<field hash="ED621470" type="BinHex"/>
 		</object>
 		<object name="DTest">
-			<field hash="0536EAC8" type="String"/>
+			<field name="text_sndTestSound" type="String"/>
 			<field name="sndTestSound" type="BinHex"/>
 			<field hash="B30B1B1E" type="BinHex"/>
 		</object>

@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="NameByRoleList">
 		<object name="OverridenNameByRole">
-			<field hash="F0255B61" type="String"/>
+			<field name="text_Role" type="String"/>
 			<field name="Role" type="BinHex"/>
 			<object name="locstridName">
 				<field name="LocalizationId" type="UInt64"/>

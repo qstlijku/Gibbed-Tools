@@ -8,11 +8,11 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="Languages">
 		<object name="Language">
-			<field hash="94A714F0" type="String"/>
+			<field name="text_sLanguage" type="String"/>
 			<field name="sLanguage" type="BinHex"/>
 			<object name="Resources">
 				<object name="Resource">
-					<field hash="F3A51A52" type="String"/>
+					<field name="text_Resource" type="String"/>
 					<field name="Resource" type="BinHex"/>
 				</object>
 			</object>

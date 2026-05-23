@@ -62,7 +62,7 @@
 	<object name="WeaponTypesDamageOverrides"/>
 	<object name="StimTypesDamageOverrides">
 		<object name="StimTypeOverride">
-			<field hash="6DB6F40C" type="String"/>
+			<field name="text_selDamageType" type="String"/>
 			<field name="selDamageType" type="Enum"/>
 			<field name="fBodyshotDamageMultiplier" type="BinHex"/>
 			<field name="fHeadshotDamageMultiplier" type="BinHex"/>

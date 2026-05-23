@@ -6,21 +6,21 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="345B5D89" type="String"/>
+	<field name="text_progressioncollectablecategoryTubeCollectibleStringId" type="String"/>
 	<field name="progressioncollectablecategoryTubeCollectibleStringId" type="BinHex"/>
-	<field hash="DF052E7E" type="String"/>
+	<field name="text_progressioncollectablecategoryPubCollectibleStringId" type="String"/>
 	<field name="progressioncollectablecategoryPubCollectibleStringId" type="BinHex"/>
-	<field hash="705C70F7" type="String"/>
+	<field name="text_progressioncollectablecategoryDartsCollectibleStringId" type="String"/>
 	<field name="progressioncollectablecategoryDartsCollectibleStringId" type="BinHex"/>
-	<field hash="42878D04" type="String"/>
+	<field name="text_progressioncollectablecategoryKickupCollectibleStringId" type="String"/>
 	<field name="progressioncollectablecategoryKickupCollectibleStringId" type="BinHex"/>
-	<field hash="27D74AE4" type="String"/>
+	<field name="text_progressioncollectablecategoryParcelFoxCollectibleStringId" type="String"/>
 	<field name="progressioncollectablecategoryParcelFoxCollectibleStringId" type="BinHex"/>
-	<field hash="B588F355" type="String"/>
+	<field name="text_progressioncollectablecategoryShoppingCollectibleStringId" type="String"/>
 	<field name="progressioncollectablecategoryShoppingCollectibleStringId" type="BinHex"/>
 	<object name="Activities">
 		<object name="Activity">
-			<field hash="ACC39534" type="String"/>
+			<field name="text_progressioncollectablecategoryCollectibleStringId" type="String"/>
 			<field name="progressioncollectablecategoryCollectibleStringId" type="BinHex"/>
 			<field name="selActivitiesFilter" type="BinHex"/>
 			<field name="sUIIconName" type="String"/>
@@ -31,7 +31,7 @@
 	</object>
 	<object name="Collectibles">
 		<object name="Collectible">
-			<field hash="ACC39534" type="String"/>
+			<field name="text_progressioncollectablecategoryCollectibleStringId" type="String"/>
 			<field name="progressioncollectablecategoryCollectibleStringId" type="BinHex"/>
 			<field name="selCollectiblesFilter" type="BinHex"/>
 			<field name="sUIIconName" type="String"/>

@@ -581,11 +581,11 @@
 				<field name="fMaxExtraLatency" type="Float"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -909,11 +909,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -937,11 +937,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -990,11 +990,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -1043,9 +1043,9 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
@@ -1095,11 +1095,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -1173,9 +1173,9 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
@@ -1225,11 +1225,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -1378,11 +1378,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -1480,11 +1480,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -1658,11 +1658,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -2036,11 +2036,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -2339,11 +2339,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -2467,11 +2467,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -2770,11 +2770,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -3123,11 +3123,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -3151,11 +3151,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -3255,9 +3255,9 @@
 			</object>
 			<object name="Barks">
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -3705,11 +3705,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -3732,11 +3732,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -3759,11 +3759,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -3786,11 +3786,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4063,11 +4063,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4090,11 +4090,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4117,11 +4117,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4144,11 +4144,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4172,11 +4172,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4199,11 +4199,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4327,11 +4327,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4555,11 +4555,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4583,11 +4583,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4611,11 +4611,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4864,7 +4864,7 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
 				<field name="sAnxietyBark" type="BinHex"/>
 				<field name="sPanicBark" type="BinHex"/>
@@ -4965,11 +4965,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -4993,11 +4993,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -5046,11 +5046,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -5249,11 +5249,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -5549,11 +5549,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -5577,11 +5577,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -5605,11 +5605,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -5908,11 +5908,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -6086,9 +6086,9 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
@@ -6364,9 +6364,9 @@
 				<field name="fMaxExtraLatency" type="Float"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
@@ -7667,9 +7667,9 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
@@ -7719,11 +7719,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -7747,11 +7747,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -7775,11 +7775,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -7878,11 +7878,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -7906,11 +7906,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -8109,11 +8109,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -8212,11 +8212,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -8265,11 +8265,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -8293,11 +8293,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -8671,11 +8671,11 @@
 				<field name="bSendOnleaderQuitStim" type="Boolean"/>
 			</object>
 			<object name="Barks">
-				<field hash="DE5A421B" type="String"/>
+				<field name="text_sCuriosityBark" type="String"/>
 				<field name="sCuriosityBark" type="BinHex"/>
-				<field hash="84DAC73A" type="String"/>
+				<field name="text_sAnxietyBark" type="String"/>
 				<field name="sAnxietyBark" type="BinHex"/>
-				<field hash="999C4896" type="String"/>
+				<field name="text_sPanicBark" type="String"/>
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
@@ -8736,11 +8736,11 @@
 		<field name="fPanicBarkCoolDown" type="Float"/>
 		<field name="fMultiplierForMaxDenunciatorGunShotInPanic" type="Float"/>
 		<object name="OasisStateNames">
-			<field hash="05C172E7" type="String"/>
+			<field name="text_Curiosity" type="String"/>
 			<field name="Curiosity" type="BinHex"/>
-			<field hash="CA558F80" type="String"/>
+			<field name="text_Anxiety" type="String"/>
 			<field name="Anxiety" type="BinHex"/>
-			<field hash="09D214CB" type="String"/>
+			<field name="text_Panic" type="String"/>
 			<field name="Panic" type="BinHex"/>
 		</object>
 	</object>

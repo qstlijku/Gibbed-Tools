@@ -8,10 +8,10 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fMaxDistanceToCamera" type="Float"/>
 	<object name="Puddles">
-		<field hash="721FE9DB" type="String"/>
+		<field name="text_psSplashParticleResId" type="String"/>
 		<field name="psSplashParticleResId" type="BinHex"/>
 		<field name="psSplashTrailParticleResId" type="BinHex"/>
-		<field hash="3E50598A" type="String"/>
+		<field name="text_psTwoWheeledSplashParticleResId" type="String"/>
 		<field name="psTwoWheeledSplashParticleResId" type="BinHex"/>
 		<field name="psTwoWheeledsplashTrailParticleResId" type="BinHex"/>
 		<object name="PuddleTweaks">
@@ -21,9 +21,9 @@
 			<field name="fEffectMinLifeTime" type="Float"/>
 			<field name="fEffectMaxLifeTime" type="Float"/>
 			<field name="fSpeedThreshold" type="Float"/>
-			<field hash="19139B91" type="String"/>
+			<field name="text_sndStartSoundID" type="String"/>
 			<field name="sndStartSoundID" type="BinHex"/>
-			<field hash="7DC670E6" type="String"/>
+			<field name="text_sndStopSoundID" type="String"/>
 			<field name="sndStopSoundID" type="BinHex"/>
 			<field name="sndtpStartSoundType" type="BinHex"/>
 			<field name="sndtpStopSoundType" type="BinHex"/>
@@ -31,7 +31,7 @@
 	</object>
 	<object name="Leaves">
 		<field name="psLeavesParticleResId" type="BinHex"/>
-		<field hash="70C607D1" type="String"/>
+		<field name="text_psLeavesTrailParticleResId" type="String"/>
 		<field name="psLeavesTrailParticleResId" type="BinHex"/>
 		<object name="LeavesTweaks">
 			<field name="fSpawnInterval" type="Float"/>
@@ -47,9 +47,9 @@
 		</object>
 	</object>
 	<object name="RoadCovers">
-		<field hash="19139B91" type="String"/>
+		<field name="text_sndStartSoundID" type="String"/>
 		<field name="sndStartSoundID" type="BinHex"/>
-		<field hash="62187AD7" type="String"/>
+		<field name="text_sndStartNPCSoundID" type="String"/>
 		<field name="sndStartNPCSoundID" type="BinHex"/>
 		<field hash="C8AC786D" type="BinHex"/>
 		<field hash="CFD8566A" type="BinHex"/>

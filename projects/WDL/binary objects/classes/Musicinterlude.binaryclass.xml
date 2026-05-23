@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="1C069352" type="String"/>
+	<field name="text_sndInterludeEvent" type="String"/>
 	<field name="sndInterludeEvent" type="BinHex"/>
 	<field hash="E939872B" type="BinHex"/>
 	<field name="bIsGated" type="BinHex"/>

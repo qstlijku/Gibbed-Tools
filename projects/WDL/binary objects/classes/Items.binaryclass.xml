@@ -42,9 +42,9 @@
 		<field hash="247060C0" type="BinHex"/>
 		<field hash="95D67F3E" type="BinHex"/>
 		<field name="sBoneName" type="String"/>
-		<field hash="95BFFF8E" type="String"/>
+		<field name="text_archArchetypeSmall" type="String"/>
 		<field name="archArchetypeSmall" type="BinHex"/>
-		<field hash="40046F75" type="String"/>
+		<field name="text_archArchetypeBig" type="String"/>
 		<field name="archArchetypeBig" type="BinHex"/>
 		<field name="fDuration" type="Float"/>
 		<field name="fileAnimation" type="BinHex"/>
@@ -172,7 +172,7 @@
 			<field name="sItemIconTextureName" type="String"/>
 			<field name="text_archItemArchetype" type="String"/>
 			<field name="archItemArchetype" type="BinHex"/>
-			<field hash="F142C8CF" type="String"/>
+			<field name="text_ConstraintForArchetypeLoading" type="String"/>
 			<field name="ConstraintForArchetypeLoading" type="BinHex"/>
 		</object>
 		<object name="RewardProperties">
@@ -200,9 +200,9 @@
 		<object name="Links">
 			<object name="ItemLink">
 				<field name="itemsItem" type="BinHex"/>
-				<field hash="9301DFBD" type="String"/>
+				<field name="text_matMaterial" type="String"/>
 				<field name="matMaterial" type="BinHex"/>
-				<field hash="44F43ED2" type="String"/>
+				<field name="text_sMaterialOverrideSlotName" type="String"/>
 				<field name="sMaterialOverrideSlotName" type="BinHex"/>
 			</object>
 		</object>
@@ -225,16 +225,16 @@
 		</object>
 		<object name="SkinElements">
 			<object name="SkinElement">
-				<field hash="E0ED5CFB" type="String"/>
+				<field name="text_sMaterialSlot" type="String"/>
 				<field name="sMaterialSlot" type="BinHex"/>
-				<field hash="9301DFBD" type="String"/>
+				<field name="text_matMaterial" type="String"/>
 				<field name="matMaterial" type="BinHex"/>
 			</object>
 		</object>
 		<object name="ActivityConversation">
-			<field hash="1AFF3D7C" type="String"/>
+			<field name="text_ConversationBark" type="String"/>
 			<field name="ConversationBark" type="BinHex"/>
-			<field hash="D2F37DB2" type="String"/>
+			<field name="text_ConversationTrigger" type="String"/>
 			<field name="ConversationTrigger" type="BinHex"/>
 			<field name="sndOneSidedConvo" type="BinHex"/>
 		</object>
@@ -257,7 +257,7 @@
 			<field name="selPoseDefinitionId" type="Enum"/>
 			<field name="selPoseDefinitionPathID" type="Enum"/>
 			<field name="facialposedefinitionExtraFacialPoseDefinition" type="BinHex"/>
-			<field hash="7E23AAAE" type="String"/>
+			<field name="text_selVisualModelOverride" type="String"/>
 			<field name="selVisualModelOverride" type="Enum"/>
 			<object name="BoneAnchor">
 				<field name="selBoneName" type="Enum"/>
@@ -282,11 +282,11 @@
 			</object>
 		</object>
 		<object name="DisruptCommSpecific">
-			<field hash="169A8FF6" type="String"/>
+			<field name="text_sndDisruptionSound" type="String"/>
 			<field name="sndDisruptionSound" type="BinHex"/>
 			<field hash="3A8460E6" type="BinHex"/>
 			<field name="sCinemaPostFxName" type="BinHex"/>
-			<field hash="93D2AFB5" type="String"/>
+			<field name="text_psParticleSystem" type="String"/>
 			<field name="psParticleSystem" type="BinHex"/>
 			<field name="vectorParticleSystemRelativeLocation" type="BinHex"/>
 			<field name="fDisruptDuration" type="Float"/>

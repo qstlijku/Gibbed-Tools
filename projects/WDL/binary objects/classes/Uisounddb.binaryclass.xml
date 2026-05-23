@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="D45156D3" type="String"/>
+	<field name="text_sSoundId" type="String"/>
 	<field name="sSoundId" type="BinHex"/>
-	<field hash="03810A2C" type="String"/>
+	<field name="text_sndSoundResource" type="String"/>
 	<field name="sndSoundResource" type="BinHex"/>
 	<field name="sndtpSoundType" type="BinHex"/>
 </class>

@@ -32,11 +32,11 @@
 		<field name="fDronePostIntroTeleportDelay" type="BinHex"/>
 		<field name="entDronePostIntroTeleportLocEntityId" type="BinHex"/>
 		<field name="entIntroSequenceCenterSceneEntityId" type="BinHex"/>
-		<field hash="FCF07F6E" type="String"/>
+		<field name="text_fileIntroSequenceResourcePath" type="String"/>
 		<field name="fileIntroSequenceResourcePath" type="BinHex"/>
-		<field hash="EB627FEC" type="String"/>
+		<field name="text_sndMuteExternalSounds" type="String"/>
 		<field name="sndMuteExternalSounds" type="BinHex"/>
-		<field hash="543F4C8D" type="String"/>
+		<field name="text_sndUnmuteExternalSounds" type="String"/>
 		<field name="sndUnmuteExternalSounds" type="BinHex"/>
 		<field hash="CE3502BF" type="String"/>
 		<field hash="45121F3B" type="BinHex"/>
@@ -47,12 +47,12 @@
 		<field hash="94E20542" type="BinHex"/>
 		<field hash="0D568F58" type="BinHex"/>
 		<object hash="7C0A1024">
-			<field hash="87E038DB" type="String"/>
+			<field name="text_sndSoundId" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="F7E415F2">
-			<field hash="87E038DB" type="String"/>
+			<field name="text_sndSoundId" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>

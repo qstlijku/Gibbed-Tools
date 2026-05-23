@@ -47,13 +47,13 @@
 		<field name="archDefaultArchetype" type="BinHex"/>
 		<object name="Rules">
 			<object name="Rule">
-				<field hash="E6655990" type="String"/>
+				<field name="text_archArchetype" type="String"/>
 				<field name="archArchetype" type="BinHex"/>
 				<object name="TagSpec">
 					<object name="IncludeTags">
 						<object name="Tag">
 							<object name="tagcategoryselectionTag">
-								<field hash="BDB3B8D5" type="String"/>
+								<field name="text_UITagCategorySelectionClassID" type="String"/>
 								<field name="UITagCategorySelectionClassID" type="BinHex"/>
 								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>

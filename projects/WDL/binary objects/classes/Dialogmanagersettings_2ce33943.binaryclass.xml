@@ -11,13 +11,13 @@
 	<field name="dialactorlistAllFemaleDialogActor" type="BinHex"/>
 	<field name="dialactorlistInstallPackageDialogActor" type="BinHex"/>
 	<field name="nConcurrentDialogsMax" type="BinHex"/>
-	<field hash="57AB16CD" type="String"/>
+	<field name="text_sndLawEnforcerStartSquelch" type="String"/>
 	<field name="sndLawEnforcerStartSquelch" type="BinHex"/>
-	<field hash="BC52E86D" type="String"/>
+	<field name="text_sndLawEnforcerStopSquelch" type="String"/>
 	<field name="sndLawEnforcerStopSquelch" type="BinHex"/>
-	<field hash="FAEEA0E9" type="String"/>
+	<field name="text_sndFactionStartSquelch" type="String"/>
 	<field name="sndFactionStartSquelch" type="BinHex"/>
-	<field hash="9E6C8A07" type="String"/>
+	<field name="text_sndFactionStopSquelch" type="String"/>
 	<field name="sndFactionStopSquelch" type="BinHex"/>
 	<field hash="AA87DA97" type="BinHex"/>
 	<field hash="74100883" type="BinHex"/>

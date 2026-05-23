@@ -22,7 +22,7 @@
 	</object>
 	<object hash="A52D5834">
 		<object name="tagcategoryselectionTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -32,7 +32,7 @@
 	<object hash="219A8D0D"/>
 	<object hash="D7943110">
 		<object name="tagcategoryselectionTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagcategoryTagCategory" type="BinHex"/>

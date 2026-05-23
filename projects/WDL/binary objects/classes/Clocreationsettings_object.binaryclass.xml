@@ -11,7 +11,7 @@
 		<field name="cloupsetUpdateSettings" type="BinHex"/>
 		<field name="bUseParentPosAsAnchor" type="Boolean"/>
 		<field name="bIsALeader" type="Boolean"/>
-		<field hash="E6655990" type="String"/>
+		<field name="text_archArchetype" type="String"/>
 		<field name="archArchetype" type="BinHex"/>
 		<object name="ActivationSettings">
 			<field name="entcontContext" type="BinHex"/>

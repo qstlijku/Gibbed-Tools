@@ -15,13 +15,13 @@
 		<field name="fCinematicFadeRaiseAmount" type="Float"/>
 	</object>
 	<object name="tagcategoryselectionGraphicKitTagSelection">
-		<field hash="BDB3B8D5" type="String"/>
+		<field name="text_UITagCategorySelectionClassID" type="String"/>
 		<field name="UITagCategorySelectionClassID" type="BinHex"/>
 		<field name="tagcategoryUITagCategory" type="BinHex"/>
 		<field name="tagTag" type="BinHex"/>
 	</object>
 	<object name="BoneAnchor">
-		<field hash="3BA7D966" type="String"/>
+		<field name="text_selBoneName" type="String"/>
 		<field name="selBoneName" type="Enum"/>
 		<field name="vectorTranslation" type="BinHex"/>
 		<field name="angvecRotation" type="BinHex"/>

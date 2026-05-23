@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9F798D1C" type="String"/>
+	<field name="text_uinavigationbehaviourtypeidBehaviourType" type="String"/>
 	<field name="uinavigationbehaviourtypeidBehaviourType" type="BinHex"/>
 	<object name="BehaviourProperties">
 		<field name="uMaxItemWidth" type="BinHex"/>

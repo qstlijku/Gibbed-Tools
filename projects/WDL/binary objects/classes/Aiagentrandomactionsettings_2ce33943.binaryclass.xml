@@ -21,14 +21,14 @@
 				<field name="fCoolDown" type="Float"/>
 				<object name="PMSValuesNeeded">
 					<object name="PMSValue">
-						<field hash="363F5FCE" type="String"/>
+						<field name="text_pmsPMSName" type="String"/>
 						<field name="pmsPMSName" type="BinHex"/>
 						<field name="selEnumValue" type="Enum"/>
 					</object>
 				</object>
 				<object name="PMSValuesExcluded">
 					<object name="PMSValue">
-						<field hash="363F5FCE" type="String"/>
+						<field name="text_pmsPMSName" type="String"/>
 						<field name="pmsPMSName" type="BinHex"/>
 						<field name="bBoolValue" type="Boolean"/>
 						<field name="selEnumValue" type="Enum"/>
@@ -48,7 +48,7 @@
 		<field name="fMinDistanceToPlayer" type="Float"/>
 		<object name="PMSValuesNeeded">
 			<object name="PMSValue">
-				<field hash="363F5FCE" type="String"/>
+				<field name="text_pmsPMSName" type="String"/>
 				<field name="pmsPMSName" type="BinHex"/>
 				<field name="selEnumValue" type="Enum"/>
 			</object>
@@ -56,7 +56,7 @@
 		<object name="PMSValuesExcluded"/>
 		<object name="TagsExcluded">
 			<object name="tagcategoryselectionTag">
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>

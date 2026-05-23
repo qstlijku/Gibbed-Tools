@@ -15,7 +15,7 @@
 		</object>
 		<object name="Upgrades">
 			<object name="Upgrade">
-				<field hash="D97A7AA9" type="String"/>
+				<field name="text_NameId" type="String"/>
 				<field name="NameId" type="BinHex"/>
 				<field name="uiclassupgradeUI" type="BinHex"/>
 				<object name="Levels">
@@ -24,7 +24,7 @@
 						<field hash="7B8CA066" type="BinHex"/>
 						<object name="Atoms">
 							<object name="Atom">
-								<field hash="AD6C934B" type="String"/>
+								<field name="text_progressionatomAtomId" type="String"/>
 								<field name="progressionatomAtomId" type="BinHex"/>
 							</object>
 						</object>

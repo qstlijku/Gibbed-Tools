@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="UtilityAgentStateConfigs">
 		<object name="StateConfigs">
-			<field hash="9A4904D5" type="String"/>
+			<field name="text_selAiState" type="String"/>
 			<field name="selAiState" type="BinHex"/>
 			<field name="utilitybehaviourBehaviour" type="BinHex"/>
 		</object>

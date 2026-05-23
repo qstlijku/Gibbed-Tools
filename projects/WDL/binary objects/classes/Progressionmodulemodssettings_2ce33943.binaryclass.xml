@@ -27,7 +27,7 @@
 		<object name="Set">
 			<field name="text_Name" type="String"/>
 			<field name="Name" type="BinHex"/>
-			<field hash="705E184C" type="String"/>
+			<field name="text_operativeclasswithemptyClass" type="String"/>
 			<field name="operativeclasswithemptyClass" type="BinHex"/>
 			<field name="texturedbobjectIconTexture" type="BinHex"/>
 			<object name="locstridUIName">
@@ -39,9 +39,9 @@
 		<object name="Mod">
 			<field name="text_Name" type="String"/>
 			<field name="Name" type="BinHex"/>
-			<field hash="7FCF48FB" type="String"/>
+			<field name="text_progressionmodsetsSet" type="String"/>
 			<field name="progressionmodsetsSet" type="BinHex"/>
-			<field hash="4D4C5D51" type="String"/>
+			<field name="text_progressionmodcategoriesCategory" type="String"/>
 			<field name="progressionmodcategoriesCategory" type="BinHex"/>
 			<field name="Tier" type="BinHex"/>
 			<field name="Quality" type="BinHex"/>
@@ -50,13 +50,13 @@
 			<field name="texturedbobjectIconTexture" type="BinHex"/>
 			<object name="Modifiers">
 				<object name="Modifier">
-					<field hash="F9B62FE0" type="String"/>
+					<field name="text_progressionmodmodifiersModifier" type="String"/>
 					<field name="progressionmodmodifiersModifier" type="BinHex"/>
 					<field name="IsTeam" type="BinHex"/>
 					<field name="IsCoop" type="BinHex"/>
 					<object name="Overrides">
 						<object name="Override">
-							<field hash="120FA6D9" type="String"/>
+							<field name="text_progressionmodoverrideVariable" type="String"/>
 							<field name="progressionmodoverrideVariable" type="BinHex"/>
 							<field name="Value" type="Vector4"/>
 						</object>
@@ -72,21 +72,21 @@
 		<object name="SetBonus">
 			<field name="text_Name" type="String"/>
 			<field name="Name" type="BinHex"/>
-			<field hash="7FCF48FB" type="String"/>
+			<field name="text_progressionmodsetsSet" type="String"/>
 			<field name="progressionmodsetsSet" type="BinHex"/>
 			<field name="NumberRequired" type="BinHex"/>
-			<field hash="C41AB23D" type="String"/>
+			<field name="text_PerkRequired" type="String"/>
 			<field name="PerkRequired" type="BinHex"/>
 			<field name="videosBinkVideoTutorial" type="BinHex"/>
 			<object name="Modifiers">
 				<object name="Modifier">
-					<field hash="F9B62FE0" type="String"/>
+					<field name="text_progressionmodmodifiersModifier" type="String"/>
 					<field name="progressionmodmodifiersModifier" type="BinHex"/>
 					<field name="IsTeam" type="BinHex"/>
 					<field name="IsCoop" type="BinHex"/>
 					<object name="Overrides">
 						<object name="Override">
-							<field hash="120FA6D9" type="String"/>
+							<field name="text_progressionmodoverrideVariable" type="String"/>
 							<field name="progressionmodoverrideVariable" type="BinHex"/>
 							<field name="Value" type="Vector4"/>
 						</object>

@@ -532,9 +532,9 @@
 		<field name="fIntensityToDelayScale" type="Float"/>
 		<field name="fBigSoundThreshold" type="Float"/>
 		<field name="fMinSoundDelay" type="Float"/>
-		<field hash="F1A0BB65" type="String"/>
+		<field name="text_sndLightingStrikeSound" type="String"/>
 		<field name="sndLightingStrikeSound" type="BinHex"/>
-		<field hash="AFE4E2C8" type="String"/>
+		<field name="text_sndThunderSound" type="String"/>
 		<field name="sndThunderSound" type="BinHex"/>
 		<field hash="0D8F8C11" type="BinHex"/>
 		<field hash="5C760A59" type="BinHex"/>
@@ -585,7 +585,7 @@
 		<field name="vectorNoiseDetailVelocity" type="BinHex"/>
 		<field name="vec2ControlVelocity" type="BinHex"/>
 		<field name="fAvgSkyShadowTerm" type="BinHex"/>
-		<field hash="4554D67A" type="String"/>
+		<field name="text_fileControlTexture" type="String"/>
 		<field name="fileControlTexture" type="BinHex"/>
 		<object name="curveSunExtinction">
 			<field name="hidNumKnots" type="BinHex"/>

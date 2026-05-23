@@ -10,7 +10,7 @@
 	<object name="LimitedSoundList">
 		<object name="LimitedSound">
 			<field name="MaxValue" type="BinHex"/>
-			<field hash="9D52DA72" type="String"/>
+			<field name="text_sndLimitedSound" type="String"/>
 			<field name="sndLimitedSound" type="BinHex"/>
 		</object>
 	</object>

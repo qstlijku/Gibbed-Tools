@@ -51,7 +51,7 @@
 		<field name="fDefaultStiffness" type="BinHex"/>
 		<object name="MobileBones">
 			<object name="MobileBones">
-				<field hash="795F32D4" type="String"/>
+				<field name="text_BoneName" type="String"/>
 				<field name="BoneName" type="BinHex"/>
 				<field name="selPosReference" type="BinHex"/>
 				<field name="vectorStartPos" type="BinHex"/>
@@ -83,7 +83,7 @@
 		</object>
 	</object>
 	<object name="DamageZoneStim">
-		<field hash="92210DFC" type="String"/>
+		<field name="text_hidEventName" type="String"/>
 		<field name="hidEventName" type="BinHex"/>
 		<field name="hidTargetEntityId" type="BinHex"/>
 		<field name="sDetail" type="BinHex"/>
@@ -125,12 +125,12 @@
 		<field name="bDestroyWipeDronesWhenWeak" type="BinHex"/>
 	</object>
 	<object name="SFX">
-		<field hash="3580578C" type="String"/>
+		<field name="text_sndSFXMachineGunGoOut" type="String"/>
 		<field name="sndSFXMachineGunGoOut" type="BinHex"/>
 		<field name="sndSFXMachineGunGoIn" type="BinHex"/>
-		<field hash="061D241A" type="String"/>
+		<field name="text_sndSFXMachineGunCharge" type="String"/>
 		<field name="sndSFXMachineGunCharge" type="BinHex"/>
-		<field hash="BD750C98" type="String"/>
+		<field name="text_sndSFXMachineGunChargeLoud" type="String"/>
 		<field name="sndSFXMachineGunChargeLoud" type="BinHex"/>
 		<field name="sndtpSFXMachineGunGoOutType" type="BinHex"/>
 		<field name="sndtpSFXMachineGunGoInType" type="BinHex"/>
@@ -138,19 +138,19 @@
 		<field name="sndtpSFXMachineGunChargeLoudType" type="BinHex"/>
 		<field name="fWeaponRotationShortAngleThreshold" type="BinHex"/>
 		<field name="sndSFXRocketLauncherGoOut" type="BinHex"/>
-		<field hash="4E9D27E0" type="String"/>
+		<field name="text_sndSFXRocketLauncherGoIn" type="String"/>
 		<field name="sndSFXRocketLauncherGoIn" type="BinHex"/>
-		<field hash="6E641A0E" type="String"/>
+		<field name="text_sndSFXWipeAttackGoOut" type="String"/>
 		<field name="sndSFXWipeAttackGoOut" type="BinHex"/>
-		<field hash="DC49F7AF" type="String"/>
+		<field name="text_sndSFXWipeAttackGoIn" type="String"/>
 		<field name="sndSFXWipeAttackGoIn" type="BinHex"/>
-		<field hash="88A0DBC1" type="String"/>
+		<field name="text_sndSFXWipeAttackBefore" type="String"/>
 		<field name="sndSFXWipeAttackBefore" type="BinHex"/>
-		<field hash="03CD930A" type="String"/>
+		<field name="text_sndSFXWipeAttackCondemned" type="String"/>
 		<field name="sndSFXWipeAttackCondemned" type="BinHex"/>
-		<field hash="7DF2DE4B" type="String"/>
+		<field name="text_sndSFXStartReload" type="String"/>
 		<field name="sndSFXStartReload" type="BinHex"/>
-		<field hash="2B6C23B9" type="String"/>
+		<field name="text_sndSFXStopReload" type="String"/>
 		<field name="sndSFXStopReload" type="BinHex"/>
 		<field name="sndtpSFXRocketLauncherGoOutType" type="BinHex"/>
 		<field name="sndtpSFXRocketLauncherGoInType" type="BinHex"/>
@@ -162,18 +162,18 @@
 		<field name="sndtpSFXStopReloaTyped" type="BinHex"/>
 		<field name="fBossRotationAngleThreshold" type="BinHex"/>
 		<field name="sndFirstWipeDroneConnected" type="BinHex"/>
-		<field hash="BD0CA193" type="String"/>
+		<field name="text_sndSecondWipeDroneConnected" type="String"/>
 		<field name="sndSecondWipeDroneConnected" type="BinHex"/>
 		<field name="sndWipeDroneDisconnected" type="BinHex"/>
-		<field hash="6992629C" type="String"/>
+		<field name="text_sndRepairStart" type="String"/>
 		<field name="sndRepairStart" type="BinHex"/>
-		<field hash="EB475E63" type="String"/>
+		<field name="text_sndRepairStop" type="String"/>
 		<field name="sndRepairStop" type="BinHex"/>
-		<field hash="BE24EBB6" type="String"/>
+		<field name="text_sndBossVulnerable" type="String"/>
 		<field name="sndBossVulnerable" type="BinHex"/>
-		<field hash="9C3B980C" type="String"/>
+		<field name="text_sndBossInvincible" type="String"/>
 		<field name="sndBossInvincible" type="BinHex"/>
-		<field hash="78D2C104" type="String"/>
+		<field name="text_sndBossDefeated" type="String"/>
 		<field name="sndBossDefeated" type="BinHex"/>
 		<field name="sndtpFirstWipeDroneConnectedType" type="BinHex"/>
 		<field name="sndtpSecondWipeDroneConnectedType" type="BinHex"/>
@@ -184,25 +184,25 @@
 		<field name="sndtpBossInvincibleType" type="BinHex"/>
 		<field name="sndtpBossDefeatedType" type="BinHex"/>
 		<object name="Barks">
-			<field hash="04C3912D" type="String"/>
+			<field name="text_BarkWeakpointClosed" type="String"/>
 			<field name="BarkWeakpointClosed" type="BinHex"/>
 			<field name="BarkWeakpointOpened" type="BinHex"/>
-			<field hash="FC337AF2" type="String"/>
+			<field name="text_BarkWipeAttack" type="String"/>
 			<field name="BarkWipeAttack" type="BinHex"/>
-			<field hash="92BC1358" type="String"/>
+			<field name="text_BarkWipeAttackAborted" type="String"/>
 			<field name="BarkWipeAttackAborted" type="BinHex"/>
-			<field hash="458315D4" type="String"/>
+			<field name="text_BarkWipeAttackCriticalHealth" type="String"/>
 			<field name="BarkWipeAttackCriticalHealth" type="BinHex"/>
-			<field hash="CADC503B" type="String"/>
+			<field name="text_BarkRepaired" type="String"/>
 			<field name="BarkRepaired" type="BinHex"/>
 		</object>
 	</object>
 	<object name="VFX">
-		<field hash="3C3ECB7B" type="String"/>
+		<field name="text_WipeSuccessPostFX" type="String"/>
 		<field name="WipeSuccessPostFX" type="BinHex"/>
 		<field name="psCriticalSmoke" type="BinHex"/>
 		<field name="iCriticalSmokeBone" type="BinHex"/>
-		<field hash="15F5825B" type="String"/>
+		<field name="text_psDamageZone" type="String"/>
 		<field name="psDamageZone" type="BinHex"/>
 		<field name="vectorDamageZoneOffset" type="BinHex"/>
 	</object>

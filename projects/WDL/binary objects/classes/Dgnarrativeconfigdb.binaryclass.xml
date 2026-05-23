@@ -16,7 +16,7 @@
 				<field name="fMinTimeToStartAfterTrigger" type="BinHex"/>
 				<object name="Conditions">
 					<object name="Condition">
-						<field hash="6D1E1959" type="String"/>
+						<field name="text_selType" type="String"/>
 						<field name="selType" type="Enum"/>
 						<object name="Object">
 							<field name="fMaxRangeToPickNPC" type="BinHex"/>
@@ -26,7 +26,7 @@
 									<field name="selNPCState" type="Enum"/>
 								</object>
 							</object>
-							<field hash="4BB5CDCF" type="String"/>
+							<field name="text_SeenTriggerName" type="String"/>
 							<field name="SeenTriggerName" type="BinHex"/>
 							<field name="BlockingTriggerName" type="BinHex"/>
 						</object>

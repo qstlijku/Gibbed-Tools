@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="Bosses">
 		<object name="Boss">
-			<field hash="EA4652DA" type="String"/>
+			<field name="text_sID" type="String"/>
 			<field name="sID" type="BinHex"/>
 			<field name="bossconfigBossConfig" type="BinHex"/>
 		</object>

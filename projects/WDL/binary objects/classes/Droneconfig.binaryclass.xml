@@ -22,7 +22,7 @@
 		<field name="fleebehaviordescriptorFleeConfig" type="BinHex"/>
 		<field name="rewardconfigRewardConfig" type="BinHex"/>
 		<field name="selDroneType" type="BinHex"/>
-		<field hash="A1295865" type="String"/>
+		<field name="text_archDroneArchetype" type="String"/>
 		<field name="archDroneArchetype" type="BinHex"/>
 		<field name="fInitialHealth" type="Float"/>
 		<field name="fScanSelectDistance" type="Float"/>
@@ -75,7 +75,7 @@
 			<field name="bIsUnique" type="BinHex"/>
 			<field hash="9E66B082" type="BinHex"/>
 			<field hash="806E5806" type="BinHex"/>
-			<field hash="4288D9B2" type="String"/>
+			<field name="text_sBossID" type="String"/>
 			<field name="sBossID" type="BinHex"/>
 			<object name="TagInfo">
 				<field name="selTagIndicatorCategory" type="Enum"/>
@@ -120,9 +120,9 @@
 			<field name="fDelayBeforeRestrain" type="BinHex"/>
 		</object>
 		<object name="FallbackToShutdownSettings">
-			<field hash="23F8FE6C" type="String"/>
+			<field name="text_sndFallbackToShutdownStartSound" type="String"/>
 			<field name="sndFallbackToShutdownStartSound" type="BinHex"/>
-			<field hash="A24AC9CC" type="String"/>
+			<field name="text_sndFallbackToShutdownStopSound" type="String"/>
 			<field name="sndFallbackToShutdownStopSound" type="BinHex"/>
 			<field hash="A9B95BF2" type="BinHex"/>
 			<field hash="F440D805" type="BinHex"/>

@@ -18,21 +18,21 @@
 		<field hash="32129942" type="BinHex"/>
 		<field name="sndRoomActivationSound" type="BinHex"/>
 		<field name="sndRoomFailSound" type="BinHex"/>
-		<field hash="30CF16FE" type="String"/>
+		<field name="text_sndBossScreenUpdate" type="String"/>
 		<field name="sndBossScreenUpdate" type="BinHex"/>
-		<field hash="E8535859" type="String"/>
+		<field name="text_sndRoomWipeAttackStarted" type="String"/>
 		<field name="sndRoomWipeAttackStarted" type="BinHex"/>
-		<field hash="72AD8A59" type="String"/>
+		<field name="text_sndRoomWipeAttackAborted" type="String"/>
 		<field name="sndRoomWipeAttackAborted" type="BinHex"/>
-		<field hash="482E79DA" type="String"/>
+		<field name="text_sndRoomWeakspotOpen" type="String"/>
 		<field name="sndRoomWeakspotOpen" type="BinHex"/>
-		<field hash="419A85AE" type="String"/>
+		<field name="text_sndDPSStageStart" type="String"/>
 		<field name="sndDPSStageStart" type="BinHex"/>
-		<field hash="E118F25B" type="String"/>
+		<field name="text_sndDPSStageStop" type="String"/>
 		<field name="sndDPSStageStop" type="BinHex"/>
-		<field hash="A61367CA" type="String"/>
+		<field name="text_sndMuteSoundEvents" type="String"/>
 		<field name="sndMuteSoundEvents" type="BinHex"/>
-		<field hash="D90A6334" type="String"/>
+		<field name="text_sndUnmuteSoundEvents" type="String"/>
 		<field name="sndUnmuteSoundEvents" type="BinHex"/>
 		<field name="sndBulletAttenuationStartEvent" type="BinHex"/>
 		<field name="sndBulletAttenuationStopEvent" type="BinHex"/>
@@ -145,11 +145,11 @@
 					<field name="fDronePostIntroTeleportDelay" type="BinHex"/>
 					<field name="entDronePostIntroTeleportLocEntityId" type="BinHex"/>
 					<field name="entIntroSequenceCenterSceneEntityId" type="BinHex"/>
-					<field hash="FCF07F6E" type="String"/>
+					<field name="text_fileIntroSequenceResourcePath" type="String"/>
 					<field name="fileIntroSequenceResourcePath" type="BinHex"/>
-					<field hash="EB627FEC" type="String"/>
+					<field name="text_sndMuteExternalSounds" type="String"/>
 					<field name="sndMuteExternalSounds" type="BinHex"/>
-					<field hash="543F4C8D" type="String"/>
+					<field name="text_sndUnmuteExternalSounds" type="String"/>
 					<field name="sndUnmuteExternalSounds" type="BinHex"/>
 					<field hash="45121F3B" type="BinHex"/>
 					<field hash="4D1D1E28" type="BinHex"/>
@@ -158,12 +158,12 @@
 					<field hash="94E20542" type="BinHex"/>
 					<field hash="0D568F58" type="BinHex"/>
 					<object hash="7C0A1024">
-						<field hash="87E038DB" type="String"/>
+						<field name="text_sndSoundId" type="String"/>
 						<field name="sndSoundId" type="BinHex"/>
 						<field name="sndtpSoundType" type="BinHex"/>
 					</object>
 					<object hash="F7E415F2">
-						<field hash="87E038DB" type="String"/>
+						<field name="text_sndSoundId" type="String"/>
 						<field name="sndSoundId" type="BinHex"/>
 						<field name="sndtpSoundType" type="BinHex"/>
 					</object>
@@ -190,7 +190,7 @@
 		</object>
 		<object hash="42CA6C21">
 			<object name="BarkStageTransistion">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
@@ -240,7 +240,7 @@
 		</object>
 		<object name="BossCarcassArchetypesToSpawn">
 			<object name="BossCarcassArchetypeData">
-				<field hash="2A49EBEB" type="String"/>
+				<field name="text_archBossCarcassArchetype" type="String"/>
 				<field name="archBossCarcassArchetype" type="BinHex"/>
 			</object>
 		</object>

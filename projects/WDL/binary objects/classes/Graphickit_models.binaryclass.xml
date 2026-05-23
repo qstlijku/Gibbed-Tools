@@ -15,10 +15,10 @@
 			<field name="uniqueidnocopyUniqueID" type="BinHex"/>
 			<field name="graphickitpartPart" type="BinHex"/>
 			<field name="selPoseDefinitionId" type="Enum"/>
-			<field hash="1E908F98" type="String"/>
+			<field name="text_selPoseDefinitionPathID" type="String"/>
 			<field name="selPoseDefinitionPathID" type="Enum"/>
 			<field name="facialposedefinitionExtraFacialPoseDefinition" type="BinHex"/>
-			<field hash="7E23AAAE" type="String"/>
+			<field name="text_selVisualModelOverride" type="String"/>
 			<field name="selVisualModelOverride" type="Enum"/>
 			<object name="BoneAnchor">
 				<field name="selBoneName" type="Enum"/>
@@ -31,13 +31,13 @@
 	<object hash="27942400">
 		<object name="TagCategorySelectionOverrideArray">
 			<object name="TagCategoryOverrideSelection">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<field name="bInheritSource" type="Boolean"/>
 				<object name="OverrideTagCategorySelection">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -47,13 +47,13 @@
 			</object>
 		</object>
 		<object hash="F91DC750">
-			<field hash="CF68E402" type="String"/>
+			<field name="text_hid_DTCTH_ClassName" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionArray">
 				<object name="TagCategorySelection">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -62,7 +62,7 @@
 				</object>
 			</object>
 			<object name="TagDescriptorUI">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
 					<object name="TagCategorySelectionDescriptor">
@@ -76,9 +76,9 @@
 	<object name="ResultingTagCategorySelectionBlackboard">
 		<object name="TagCategorySelectionArray">
 			<object name="TagCategorySelection">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -87,7 +87,7 @@
 			</object>
 		</object>
 		<object name="TagDescriptorUI">
-			<field hash="CF68E402" type="String"/>
+			<field name="text_hid_DTCTH_ClassName" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
@@ -103,10 +103,10 @@
 			<field name="uniqueidnocopyUniqueID" type="BinHex"/>
 			<field name="graphickitpartPart" type="BinHex"/>
 			<field name="selPoseDefinitionId" type="Enum"/>
-			<field hash="1E908F98" type="String"/>
+			<field name="text_selPoseDefinitionPathID" type="String"/>
 			<field name="selPoseDefinitionPathID" type="Enum"/>
 			<field name="facialposedefinitionExtraFacialPoseDefinition" type="BinHex"/>
-			<field hash="7E23AAAE" type="String"/>
+			<field name="text_selVisualModelOverride" type="String"/>
 			<field name="selVisualModelOverride" type="Enum"/>
 			<object name="BoneAnchor">
 				<field name="selBoneName" type="Enum"/>

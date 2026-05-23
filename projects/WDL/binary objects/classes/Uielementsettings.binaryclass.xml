@@ -7,9 +7,9 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fileUIResourceFile" type="String"/>
-	<field hash="58150F0E" type="String"/>
+	<field name="text_uihudmodeelementclassidElementClass" type="String"/>
 	<field name="uihudmodeelementclassidElementClass" type="BinHex"/>
-	<field hash="FD74E486" type="String"/>
+	<field name="text_uihudmodelogicclassidLogicClass" type="String"/>
 	<field name="uihudmodelogicclassidLogicClass" type="BinHex"/>
 	<field name="sMainContainerName" type="String"/>
 	<field name="selCanvasSelection" type="Enum"/>

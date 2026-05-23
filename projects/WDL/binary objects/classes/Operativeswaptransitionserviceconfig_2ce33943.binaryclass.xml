@@ -58,7 +58,7 @@
 			</object>
 		</object>
 		<object name="TacticalOPSwap">
-			<field hash="D5FE76B2" type="String"/>
+			<field name="text_archSpawnPointType" type="String"/>
 			<field name="archSpawnPointType" type="BinHex"/>
 			<object name="CapturedDelay">
 				<field name="uiHours" type="UInt32"/>

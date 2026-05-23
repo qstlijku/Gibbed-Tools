@@ -10,7 +10,7 @@
 		<field hash="232F7D6E" type="BinHex"/>
 		<object name="Descriptions">
 			<object name="Description">
-				<field hash="6D1E1959" type="String"/>
+				<field name="text_selType" type="String"/>
 				<field name="selType" type="Enum"/>
 				<object name="Object">
 					<field name="vectorRelativeOffset" type="BinHex"/>
@@ -19,9 +19,9 @@
 					<field hash="939B7534" type="BinHex"/>
 					<field hash="8B5D608C" type="String"/>
 					<object name="Data">
-						<field hash="482CA2F4" type="String"/>
+						<field name="text_RoleName" type="String"/>
 						<field name="RoleName" type="BinHex"/>
-						<field hash="E6655990" type="String"/>
+						<field name="text_archArchetype" type="String"/>
 						<field name="archArchetype" type="BinHex"/>
 					</object>
 				</object>

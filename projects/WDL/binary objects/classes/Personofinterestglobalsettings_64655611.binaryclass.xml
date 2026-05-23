@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9CCB05D8" type="String"/>
+	<field name="text_sndPersonOfInterestFoundSoundId" type="String"/>
 	<field name="sndPersonOfInterestFoundSoundId" type="BinHex"/>
 	<field hash="69B7054B" type="BinHex"/>
 </class>

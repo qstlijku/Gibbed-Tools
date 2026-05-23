@@ -13,8 +13,8 @@
 	</object>
 	<object name="GenericAnimations">
 		<object name="LayeredMoveWhenSpeaking">
-			<field hash="7193C71D" type="String"/>
-			<field name="fileMovePath" type="String"/>
+			<field name="text_fileMovePath" type="String"/>
+			<field name="fileMovePath" type="BinHex"/>
 		</object>
 		<object name="LayeredMoveWhenWaiting">
 			<field name="fileMovePath" type="String"/>

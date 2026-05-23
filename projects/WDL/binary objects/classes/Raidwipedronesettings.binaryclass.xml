@@ -16,9 +16,9 @@
 	<field name="fHeightAboveBossMaxDeviation" type="BinHex"/>
 	<field name="fRepairAmountPerSecond" type="BinHex"/>
 	<object name="Beam">
-		<field hash="89306252" type="String"/>
+		<field name="text_psMuzzle" type="String"/>
 		<field name="psMuzzle" type="BinHex"/>
-		<field hash="D0D76CCF" type="String"/>
+		<field name="text_psImpact" type="String"/>
 		<field name="psImpact" type="BinHex"/>
 		<field name="sndFireBeamStartSound" type="BinHex"/>
 		<field name="sndFireBeamStopSound" type="BinHex"/>
@@ -26,9 +26,9 @@
 		<field name="sndtpFireBeamStopSoundType" type="BinHex"/>
 		<field name="fTargetVerticalOffset" type="BinHex"/>
 		<field name="vectorMuzzleOffset" type="BinHex"/>
-		<field hash="4D46F87B" type="String"/>
+		<field name="text_archBeamArchetype" type="String"/>
 		<field name="archBeamArchetype" type="BinHex"/>
-		<field hash="81AA3F3D" type="String"/>
+		<field name="text_sBeamMaterialName" type="String"/>
 		<field name="sBeamMaterialName" type="BinHex"/>
 		<field name="colorBeamColor" type="BinHex"/>
 		<field name="fBeamScale" type="BinHex"/>

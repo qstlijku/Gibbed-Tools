@@ -7,22 +7,22 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object hash="7FE003FD">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object hash="664DDD7C">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object hash="F4C63FF6">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object hash="AC5C9915">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>

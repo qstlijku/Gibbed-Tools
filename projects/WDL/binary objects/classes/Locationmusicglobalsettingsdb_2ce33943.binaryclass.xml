@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="97CF5129" type="String"/>
+	<field name="text_sndGlobalQuickStop" type="String"/>
 	<field name="sndGlobalQuickStop" type="BinHex"/>
 	<field name="sndtpGlobalQuickStopType" type="BinHex"/>
 	<field name="fNoMoreInConflictWithAiTimeoutDuration" type="BinHex"/>
@@ -19,9 +19,9 @@
 			<object name="tagcategoryselectionblackboardTags">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
-						<field hash="CF68E402" type="String"/>
+						<field name="text_hid_DTCTH_ClassName" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
-						<field hash="BDB3B8D5" type="String"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -29,7 +29,7 @@
 					</object>
 				</object>
 				<object name="TagDescriptorUI">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
 						<object name="TagCategorySelectionDescriptor">
@@ -41,13 +41,13 @@
 			</object>
 			<object name="LocationMusicSoundIds">
 				<object name="LocationMusicSoundId">
-					<field hash="C77C85E5" type="String"/>
+					<field name="text_sndEndEvent" type="String"/>
 					<field name="sndEndEvent" type="BinHex"/>
 					<field hash="00A914DB" type="BinHex"/>
 					<object name="sndpairPlayStopEvents">
-						<field hash="8DB965BE" type="String"/>
+						<field name="text_dissndStart" type="String"/>
 						<field name="dissndStart" type="BinHex"/>
-						<field hash="CE8F77EF" type="String"/>
+						<field name="text_dissndStop" type="String"/>
 						<field name="dissndStop" type="BinHex"/>
 						<field name="sndtpStartType" type="BinHex"/>
 						<field name="sndtpStopType" type="BinHex"/>

@@ -43,7 +43,7 @@
 		<object name="tagcategoryselectionblackboardActivityTags">
 			<object name="TagCategorySelectionArray"/>
 			<object name="TagDescriptorUI">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
 					<object name="TagCategorySelectionDescriptor">
@@ -56,7 +56,7 @@
 		<object name="tagcategoryselectionblackboardExclusionTags">
 			<object name="TagCategorySelectionArray"/>
 			<object name="TagDescriptorUI">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
 					<object name="TagCategorySelectionDescriptor">

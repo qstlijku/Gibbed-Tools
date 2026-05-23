@@ -14,24 +14,24 @@
 	<field name="vectorCameraOBBSize" type="BinHex"/>
 	<field name="fDomeFollowMovementFactor" type="BinHex"/>
 	<field hash="893D0FC1" type="BinHex"/>
-	<field hash="BAA7AE19" type="String"/>
+	<field name="text_archOperativeArchetype" type="String"/>
 	<field name="archOperativeArchetype" type="BinHex"/>
 	<field name="bUseHighlightOnOperative" type="BinHex"/>
-	<field hash="07C0A78B" type="String"/>
+	<field name="text_sndEnter" type="String"/>
 	<field name="sndEnter" type="BinHex"/>
-	<field hash="2F7E717C" type="String"/>
+	<field name="text_sndExit" type="String"/>
 	<field name="sndExit" type="BinHex"/>
-	<field hash="E47E77E2" type="String"/>
+	<field name="text_sndSelectOperative" type="String"/>
 	<field name="sndSelectOperative" type="BinHex"/>
-	<field hash="59EDC5D2" type="String"/>
+	<field name="text_sndChangeOperative" type="String"/>
 	<field name="sndChangeOperative" type="BinHex"/>
-	<field hash="C1EC97F3" type="String"/>
+	<field name="text_sndChangeAnimation" type="String"/>
 	<field name="sndChangeAnimation" type="BinHex"/>
-	<field hash="BACEEDDA" type="String"/>
+	<field name="text_sndChangeMask" type="String"/>
 	<field name="sndChangeMask" type="BinHex"/>
-	<field hash="435B3D0D" type="String"/>
+	<field name="text_sndChangeCamera" type="String"/>
 	<field name="sndChangeCamera" type="BinHex"/>
-	<field hash="F2301AC0" type="String"/>
+	<field name="text_sndRandomizeSetup" type="String"/>
 	<field name="sndRandomizeSetup" type="BinHex"/>
 	<field hash="BF86C09D" type="BinHex"/>
 	<field hash="B6DE8700" type="BinHex"/>
@@ -43,7 +43,7 @@
 	<field hash="DE3AD001" type="BinHex"/>
 	<object name="EmoteAnimations">
 		<object name="EmoteAnimation">
-			<field hash="BE9EFCB9" type="String"/>
+			<field name="text_fileEmoteAnimation" type="String"/>
 			<field name="fileEmoteAnimation" type="BinHex"/>
 		</object>
 	</object>

@@ -117,20 +117,20 @@
 	<field name="mapicondescLabelIconDistrict" type="BinHex"/>
 	<field name="mapicondescLabelIconLandmark" type="BinHex"/>
 	<field name="mapicondescLabelIconMisc" type="BinHex"/>
-	<field hash="67C6DEB0" type="String"/>
-	<field name="fileDefaultShapeZoneTexture" type="String"/>
-	<field hash="96EA1AF9" type="String"/>
-	<field name="fileDefaultCircularZoneTexture" type="String"/>
-	<field hash="5C2903EA" type="String"/>
-	<field name="fileMapPathPlayerTexture" type="String"/>
-	<field hash="FED02135" type="String"/>
-	<field name="fileMapPathMissionTexture" type="String"/>
-	<field hash="A4A87E84" type="String"/>
-	<field name="fileMapPathRaceTexture" type="String"/>
-	<field hash="07769967" type="String"/>
-	<field name="fileMapPathCoopTexture" type="String"/>
-	<field hash="0C693322" type="String"/>
-	<field name="fileMapAlphaMaskTexture" type="String"/>
+	<field name="text_fileDefaultShapeZoneTexture" type="String"/>
+	<field name="fileDefaultShapeZoneTexture" type="BinHex"/>
+	<field name="text_fileDefaultCircularZoneTexture" type="String"/>
+	<field name="fileDefaultCircularZoneTexture" type="BinHex"/>
+	<field name="text_fileMapPathPlayerTexture" type="String"/>
+	<field name="fileMapPathPlayerTexture" type="BinHex"/>
+	<field name="text_fileMapPathMissionTexture" type="String"/>
+	<field name="fileMapPathMissionTexture" type="BinHex"/>
+	<field name="text_fileMapPathRaceTexture" type="String"/>
+	<field name="fileMapPathRaceTexture" type="BinHex"/>
+	<field name="text_fileMapPathCoopTexture" type="String"/>
+	<field name="fileMapPathCoopTexture" type="BinHex"/>
+	<field name="text_fileMapAlphaMaskTexture" type="String"/>
+	<field name="fileMapAlphaMaskTexture" type="BinHex"/>
 	<field name="uizonesettingsFelonyScanZoneSettings" type="BinHex"/>
 	<field name="uizonesettingsFelonyScanZoneFXSettings" type="BinHex"/>
 	<field name="uizonesettingsFelonyScanZoneSettingsJammed" type="BinHex"/>
@@ -278,16 +278,16 @@
 		<field name="mapicondescVeryDifficult" type="BinHex"/>
 	</object>
 	<object name="IconAboveFireUiBlobTexture">
-		<field hash="33E4567C" type="String"/>
-		<field name="fileIconTexture" type="String"/>
+		<field name="text_fileIconTexture" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
 	</object>
 	<object name="IconBelowFireUiBlobTexture">
-		<field hash="33E4567C" type="String"/>
-		<field name="fileIconTexture" type="String"/>
+		<field name="text_fileIconTexture" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
 	</object>
 	<object name="ClampArrowFireUiBlobTexture">
-		<field hash="33E4567C" type="String"/>
-		<field name="fileIconTexture" type="String"/>
+		<field name="text_fileIconTexture" type="String"/>
+		<field name="fileIconTexture" type="BinHex"/>
 	</object>
 	<object name="Checkpoints">
 		<field name="uicolorpalettesettingsColorCheckpointInactive" type="BinHex"/>
@@ -296,11 +296,11 @@
 		<field name="fCheckpointAlpha" type="BinHex"/>
 		<field name="fMediumCheckpointSizeThreshold" type="BinHex"/>
 		<field name="fLargeCheckpointSizeThreshold" type="BinHex"/>
-		<field hash="8A5C702A" type="String"/>
+		<field name="text_fileSmallCheckpointTexture" type="String"/>
 		<field name="fileSmallCheckpointTexture" type="BinHex"/>
-		<field hash="E6C53C66" type="String"/>
+		<field name="text_fileMediumCheckpointTexture" type="String"/>
 		<field name="fileMediumCheckpointTexture" type="BinHex"/>
-		<field hash="D5A14AC8" type="String"/>
+		<field name="text_fileLargeCheckpointTexture" type="String"/>
 		<field name="fileLargeCheckpointTexture" type="BinHex"/>
 		<field name="fCheckpointGroundOffset" type="BinHex"/>
 	</object>
@@ -327,36 +327,36 @@
 		<field name="mapicondescAIShutdownActionDetectionIcon" type="BinHex"/>
 		<field name="mapicondescCivilianNPCDenunciationDetectionIcon" type="BinHex"/>
 		<object name="CameraDetectionFireUiBlobTexture">
-			<field hash="33E4567C" type="String"/>
-			<field name="fileIconTexture" type="String"/>
+			<field name="text_fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="CivilianDenunciationDetectionFireUiBlobTexture">
-			<field hash="33E4567C" type="String"/>
-			<field name="fileIconTexture" type="String"/>
+			<field name="text_fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="MediaBroadcastDetectionFireUiBlobTexture">
-			<field hash="33E4567C" type="String"/>
-			<field name="fileIconTexture" type="String"/>
+			<field name="text_fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="DisruptedDetectionFireUiBlobTexture">
-			<field hash="33E4567C" type="String"/>
-			<field name="fileIconTexture" type="String"/>
+			<field name="text_fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="BlumeAgentDenunciationDetectionFireUiBlobTexture">
-			<field hash="33E4567C" type="String"/>
-			<field name="fileIconTexture" type="String"/>
+			<field name="text_fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="AIDetectionHighDetectionFireUiBlobTexture">
-			<field hash="33E4567C" type="String"/>
-			<field name="fileIconTexture" type="String"/>
+			<field name="text_fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="AIDetectionLowDetectionFireUiBlobTexture">
-			<field hash="33E4567C" type="String"/>
-			<field name="fileIconTexture" type="String"/>
+			<field name="text_fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 		<object name="CivilianNPCDenunciationDetectionFireUiBlobTexture">
-			<field hash="33E4567C" type="String"/>
-			<field name="fileIconTexture" type="String"/>
+			<field name="text_fileIconTexture" type="String"/>
+			<field name="fileIconTexture" type="BinHex"/>
 		</object>
 	</object>
 	<object name="PowerSettings">

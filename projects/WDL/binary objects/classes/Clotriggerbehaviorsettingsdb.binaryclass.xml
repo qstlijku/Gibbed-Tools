@@ -19,7 +19,7 @@
 		<object name="TriggerSettings">
 			<field name="selTriggerType" type="Enum"/>
 			<field name="bComputeAnchorFromDynamicCLOAnchor" type="Boolean"/>
-			<field hash="2977E278" type="String"/>
+			<field name="text_sTriggerTypeExtraInfo" type="String"/>
 			<field name="sTriggerTypeExtraInfo" type="BinHex"/>
 			<field name="bTriggerOrientTowards" type="Boolean"/>
 			<field name="bTriggerOrientReturn" type="Boolean"/>
@@ -46,7 +46,7 @@
 			<object name="TriggerSettings">
 				<field name="selTriggerType" type="Enum"/>
 				<field name="bComputeAnchorFromDynamicCLOAnchor" type="Boolean"/>
-				<field hash="2977E278" type="String"/>
+				<field name="text_sTriggerTypeExtraInfo" type="String"/>
 				<field name="sTriggerTypeExtraInfo" type="BinHex"/>
 				<field name="bTriggerOrientTowards" type="Boolean"/>
 				<field name="bTriggerOrientReturn" type="Boolean"/>

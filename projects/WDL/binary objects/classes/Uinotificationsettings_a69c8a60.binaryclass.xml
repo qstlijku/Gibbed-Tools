@@ -11,7 +11,7 @@
 	</object>
 	<object name="Map">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -50,7 +50,7 @@
 	</object>
 	<object name="AppStore">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -70,7 +70,7 @@
 	</object>
 	<object name="Tutorial">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -128,7 +128,7 @@
 	</object>
 	<object name="ContactList">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -148,7 +148,7 @@
 	</object>
 	<object name="TaxiActivity">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -168,7 +168,7 @@
 	</object>
 	<object name="SongSneak">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -188,7 +188,7 @@
 	</object>
 	<object name="HackerSpace">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -208,7 +208,7 @@
 	</object>
 	<object name="Activities">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -228,7 +228,7 @@
 	</object>
 	<object name="LeaderboardNewSeason">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -248,7 +248,7 @@
 	</object>
 	<object name="LeaderboardDivisionChange">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>
@@ -268,7 +268,7 @@
 	</object>
 	<object name="DataDriveAppFiles">
 		<field name="selNotificationDisplayType" type="Enum"/>
-		<field hash="DCB816C4" type="String"/>
+		<field name="text_sndShowSound" type="String"/>
 		<field name="sndShowSound" type="BinHex"/>
 		<field name="texturedbobjectSmallIconTexture" type="BinHex"/>
 		<field name="uimenutileAppIconSmartphoneTile" type="BinHex"/>

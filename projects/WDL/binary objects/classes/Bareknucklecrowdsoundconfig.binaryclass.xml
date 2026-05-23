@@ -6,20 +6,20 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="0C05F1DA" type="String"/>
+	<field name="text_sndWallaSoundStartEvent" type="String"/>
 	<field name="sndWallaSoundStartEvent" type="BinHex"/>
 	<field hash="03FE7A18" type="BinHex"/>
-	<field hash="A922CB30" type="String"/>
+	<field name="text_sndWallaSoundEndEvent" type="String"/>
 	<field name="sndWallaSoundEndEvent" type="BinHex"/>
 	<field hash="01FE4AEE" type="BinHex"/>
 	<field name="fHypeDecreasePerSecond" type="BinHex"/>
 	<field name="bHypeAdditive" type="BinHex"/>
 	<field name="iCrowdSizeMin" type="BinHex"/>
 	<field name="iCrowdSizeMax" type="BinHex"/>
-	<field hash="4BCB99DF" type="String"/>
+	<field name="text_sndCrowdPositiveSoundEvent" type="String"/>
 	<field name="sndCrowdPositiveSoundEvent" type="BinHex"/>
 	<field hash="CB022ED6" type="BinHex"/>
-	<field hash="B3F6B689" type="String"/>
+	<field name="text_sndCrowdNegativeSoundEvent" type="String"/>
 	<field name="sndCrowdNegativeSoundEvent" type="BinHex"/>
 	<field hash="CFFB4DE5" type="BinHex"/>
 	<object name="sndvarWallaDensitySoundRTPC">

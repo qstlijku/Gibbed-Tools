@@ -13,7 +13,7 @@
 	<field name="selResourceSizePlatform" type="Enum"/>
 	<object name="BoneAttachements">
 		<object name="BoneAttachment">
-			<field hash="A7419E96" type="String"/>
+			<field name="text_BoneAttachment" type="String"/>
 			<field name="BoneAttachment" type="BinHex"/>
 		</object>
 	</object>

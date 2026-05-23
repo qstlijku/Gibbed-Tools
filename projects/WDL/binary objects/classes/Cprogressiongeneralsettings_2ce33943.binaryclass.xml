@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="Settings">
 		<field name="fAutoSaveCooldown" type="BinHex"/>
-		<field hash="F7D0B084" type="String"/>
+		<field name="text_progressiontraitcategoryChallengeTraitCategory" type="String"/>
 		<field name="progressiontraitcategoryChallengeTraitCategory" type="BinHex"/>
 	</object>
 </class>

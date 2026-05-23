@@ -11,35 +11,35 @@
 	<object name="Pierce">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
-			<field hash="2A3E82DB" type="String"/>
+			<field name="text_Counter" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Crush">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
-			<field hash="2A3E82DB" type="String"/>
+			<field name="text_Counter" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Cut">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
-			<field hash="2A3E82DB" type="String"/>
+			<field name="text_Counter" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Health">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
-			<field hash="2A3E82DB" type="String"/>
+			<field name="text_Counter" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Burn">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
-			<field hash="2A3E82DB" type="String"/>
+			<field name="text_Counter" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
@@ -50,7 +50,7 @@
 	<object name="Dirt">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
-			<field hash="2A3E82DB" type="String"/>
+			<field name="text_Counter" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
@@ -63,14 +63,14 @@
 	<object name="Stun">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
-			<field hash="2A3E82DB" type="String"/>
+			<field name="text_Counter" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
 	<object name="TransferRemaining">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
-			<field hash="2A3E82DB" type="String"/>
+			<field name="text_Counter" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>
@@ -78,7 +78,7 @@
 	<object name="Strike">
 		<object name="Curve">
 			<field name="curvelibCurve" type="BinHex"/>
-			<field hash="2A3E82DB" type="String"/>
+			<field name="text_Counter" type="String"/>
 			<field name="Counter" type="BinHex"/>
 		</object>
 	</object>

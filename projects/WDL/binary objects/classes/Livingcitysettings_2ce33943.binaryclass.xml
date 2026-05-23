@@ -80,7 +80,7 @@
 		<object name="DogBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -89,7 +89,7 @@
 		<object name="SmallDogBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -98,7 +98,7 @@
 		<object name="SeaLionBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -107,7 +107,7 @@
 		<object name="PigeonBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -116,7 +116,7 @@
 		<object name="ParrotBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -125,7 +125,7 @@
 		<object name="SeagullBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -134,7 +134,7 @@
 		<object name="EagleBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -143,7 +143,7 @@
 		<object name="SeaLionGroupBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -152,7 +152,7 @@
 		<object name="SeaLionGroupScoutXBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -161,7 +161,7 @@
 		<object name="RatBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="FED81222" type="String"/>
+					<field name="text_archAnimalArchetype" type="String"/>
 					<field name="archAnimalArchetype" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
@@ -169,17 +169,17 @@
 		</object>
 	</object>
 	<object name="RobotConfig">
-		<field hash="DE54E644" type="String"/>
+		<field name="text_archRobotWatcherArchetype" type="String"/>
 		<field name="archRobotWatcherArchetype" type="BinHex"/>
-		<field hash="3F268F56" type="String"/>
+		<field name="text_archRobotGreeterArchetype" type="String"/>
 		<field name="archRobotGreeterArchetype" type="BinHex"/>
-		<field hash="E187563A" type="String"/>
+		<field name="text_archRobotGreeterArchetypeGalilei" type="String"/>
 		<field name="archRobotGreeterArchetypeGalilei" type="BinHex"/>
-		<field hash="A0391F73" type="String"/>
+		<field name="text_archRobotGreeterArchetypeNudle" type="String"/>
 		<field name="archRobotGreeterArchetypeNudle" type="BinHex"/>
-		<field hash="19053963" type="String"/>
+		<field name="text_archRobotGreeterArchetypeTidis" type="String"/>
 		<field name="archRobotGreeterArchetypeTidis" type="BinHex"/>
-		<field hash="BDBA012E" type="String"/>
+		<field name="text_archRobotCounterHackerArchetype" type="String"/>
 		<field name="archRobotCounterHackerArchetype" type="BinHex"/>
 		<field name="robotconfigDefault" type="BinHex"/>
 	</object>
@@ -187,7 +187,7 @@
 		<object name="TrafficDroneBank">
 			<object name="Bank">
 				<object name="Entry">
-					<field hash="A1295865" type="String"/>
+					<field name="text_archDroneArchetype" type="String"/>
 					<field name="archDroneArchetype" type="BinHex"/>
 					<field name="droneconfigDroneConfig" type="BinHex"/>
 					<field hash="572F5755" type="BinHex"/>
@@ -280,14 +280,14 @@
 		</object>
 	</object>
 	<object name="VehicleConfig">
-		<field hash="458E49BB" type="String"/>
+		<field name="text_archVehicleArcrtype" type="String"/>
 		<field name="archVehicleArcrtype" type="BinHex"/>
 		<field name="vehicleentityconfigDefault" type="BinHex"/>
 	</object>
 	<object name="RCJumperConfig">
-		<field hash="D2DB0091" type="String"/>
+		<field name="text_archRCJumperArcrtype" type="String"/>
 		<field name="archRCJumperArcrtype" type="BinHex"/>
-		<field hash="24D7C259" type="String"/>
+		<field name="text_archRCSpiderArchetype" type="String"/>
 		<field name="archRCSpiderArchetype" type="BinHex"/>
 	</object>
 	<object name="OneGunInventoryConfig">
@@ -314,7 +314,7 @@
 		<field name="wolfskinitemdbFallbackUniformItem" type="BinHex"/>
 		<object name="UniqueNpcGraphicKitTag">
 			<object name="tagcategoryselectionTag">
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>

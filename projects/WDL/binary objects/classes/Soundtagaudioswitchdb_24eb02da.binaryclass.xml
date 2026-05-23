@@ -14,7 +14,7 @@
 		<object name="FabricTagValues">
 			<object name="FabricTagSwitch">
 				<object name="tagcategoryselectionAudioSwitchTag">
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -39,7 +39,7 @@
 		<object name="ShoeTagValues">
 			<object name="ShoeTagSwitch">
 				<object name="tagcategoryselectionAudioSwitchTag">
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -64,7 +64,7 @@
 		<object name="GearTagValues">
 			<object hash="B8F4FB8D">
 				<object name="tagcategoryselectionAudioSwitchTag">
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>

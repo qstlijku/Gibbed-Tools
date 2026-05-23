@@ -45,7 +45,7 @@
 			<object name="tagcategoryselectionblackboardPreferedLocationsFor1Players">
 				<object name="TagCategorySelectionArray"/>
 				<object name="TagDescriptorUI">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
 						<object name="TagCategorySelectionDescriptor">
@@ -58,7 +58,7 @@
 			<object name="tagcategoryselectionblackboardPreferedLocationsFor2Players">
 				<object name="TagCategorySelectionArray"/>
 				<object name="TagDescriptorUI">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
 						<object name="TagCategorySelectionDescriptor">
@@ -71,7 +71,7 @@
 			<object name="tagcategoryselectionblackboardPreferedLocationsFor3Players">
 				<object name="TagCategorySelectionArray"/>
 				<object name="TagDescriptorUI">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
 						<object name="TagCategorySelectionDescriptor">
@@ -84,7 +84,7 @@
 			<object name="tagcategoryselectionblackboardPreferedLocationsFor4Players">
 				<object name="TagCategorySelectionArray"/>
 				<object name="TagDescriptorUI">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
 						<object name="TagCategorySelectionDescriptor">
@@ -159,9 +159,9 @@
 			<object name="tagcategoryselectionblackboardPreferedLocationsFor1Players">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
-						<field hash="CF68E402" type="String"/>
+						<field name="text_hid_DTCTH_ClassName" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
-						<field hash="BDB3B8D5" type="String"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -173,7 +173,7 @@
 					</object>
 				</object>
 				<object name="TagDescriptorUI">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
 						<object name="TagCategorySelectionDescriptor">
@@ -186,7 +186,7 @@
 			<object name="tagcategoryselectionblackboardPreferedLocationsFor2Players">
 				<object name="TagCategorySelectionArray"/>
 				<object name="TagDescriptorUI">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
 						<object name="TagCategorySelectionDescriptor">
@@ -199,9 +199,9 @@
 			<object name="tagcategoryselectionblackboardPreferedLocationsFor3Players">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
-						<field hash="CF68E402" type="String"/>
+						<field name="text_hid_DTCTH_ClassName" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
-						<field hash="BDB3B8D5" type="String"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -213,7 +213,7 @@
 					</object>
 				</object>
 				<object name="TagDescriptorUI">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
 						<object name="TagCategorySelectionDescriptor">
@@ -226,9 +226,9 @@
 			<object name="tagcategoryselectionblackboardPreferedLocationsFor4Players">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
-						<field hash="CF68E402" type="String"/>
+						<field name="text_hid_DTCTH_ClassName" type="String"/>
 						<field name="hid_DTCTH_ClassName" type="BinHex"/>
-						<field hash="BDB3B8D5" type="String"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -240,7 +240,7 @@
 					</object>
 				</object>
 				<object name="TagDescriptorUI">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
 					<object name="TagCategorySelectionDescriptors">
 						<object name="TagCategorySelectionDescriptor">

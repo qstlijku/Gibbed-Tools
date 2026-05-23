@@ -9,13 +9,13 @@
 	<field name="Description" type="BinHex"/>
 	<object name="SlotTags">
 		<object name="SlotSpec">
-			<field hash="6E7A746B" type="String"/>
+			<field name="text_SlotName" type="String"/>
 			<field name="SlotName" type="BinHex"/>
 			<object name="Tags">
 				<object name="IncludeTags">
 					<object name="Tag">
 						<object name="tagcategoryselectionTag">
-							<field hash="BDB3B8D5" type="String"/>
+							<field name="text_UITagCategorySelectionClassID" type="String"/>
 							<field name="UITagCategorySelectionClassID" type="BinHex"/>
 							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -26,7 +26,7 @@
 				<object name="ExcludeTags">
 					<object name="Tag">
 						<object name="tagcategoryselectionTag">
-							<field hash="BDB3B8D5" type="String"/>
+							<field name="text_UITagCategorySelectionClassID" type="String"/>
 							<field name="UITagCategorySelectionClassID" type="BinHex"/>
 							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<field name="tagcategoryTagCategory" type="BinHex"/>

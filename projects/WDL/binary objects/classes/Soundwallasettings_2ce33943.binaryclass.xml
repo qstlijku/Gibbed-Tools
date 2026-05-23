@@ -8,9 +8,9 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fSearchRadius" type="Float"/>
 	<object name="SoundSettings">
-		<field hash="65628D45" type="String"/>
+		<field name="text_sndWallaPlaySound" type="String"/>
 		<field name="sndWallaPlaySound" type="BinHex"/>
-		<field hash="8481B18B" type="String"/>
+		<field name="text_sndWallaStopSound" type="String"/>
 		<field name="sndWallaStopSound" type="BinHex"/>
 		<field hash="1A07014C" type="BinHex"/>
 		<field hash="03BAF64C" type="BinHex"/>

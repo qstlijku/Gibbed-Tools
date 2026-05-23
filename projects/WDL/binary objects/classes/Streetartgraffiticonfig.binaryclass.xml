@@ -8,10 +8,10 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fileThumbnailPath" type="String"/>
 	<field name="fileLockedThumbnailPath" type="String"/>
-	<field hash="2494EDD5" type="String"/>
+	<field name="text_archFinalDecalArchetype" type="String"/>
 	<field name="archFinalDecalArchetype" type="BinHex"/>
-	<field hash="CF560511" type="String"/>
+	<field name="text_archSelectedProjectionArchetype" type="String"/>
 	<field name="archSelectedProjectionArchetype" type="BinHex"/>
-	<field hash="831F5814" type="String"/>
+	<field name="text_archLockedProjectionArchetype" type="String"/>
 	<field name="archLockedProjectionArchetype" type="BinHex"/>
 </class>

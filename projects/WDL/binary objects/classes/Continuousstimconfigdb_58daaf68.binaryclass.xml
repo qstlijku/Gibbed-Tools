@@ -15,7 +15,7 @@
 					<object name="TagsOR">
 						<object name="TagsAND">
 							<object name="tagcategoryselectionTag">
-								<field hash="BDB3B8D5" type="String"/>
+								<field name="text_UITagCategorySelectionClassID" type="String"/>
 								<field name="UITagCategorySelectionClassID" type="BinHex"/>
 								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>

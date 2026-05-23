@@ -9,13 +9,13 @@
 	<field name="fGravity" type="Float"/>
 	<field name="fGravityVariation" type="BinHex"/>
 	<field name="fCelebrationDuration" type="BinHex"/>
-	<field hash="DC357F50" type="String"/>
+	<field name="text_fileHappyCelebrationDecisionTree" type="String"/>
 	<field name="fileHappyCelebrationDecisionTree" type="BinHex"/>
-	<field hash="81278343" type="String"/>
+	<field name="text_fileSadCelebrationDecisionTree" type="String"/>
 	<field name="fileSadCelebrationDecisionTree" type="BinHex"/>
-	<field hash="4D50A286" type="String"/>
+	<field name="text_fileWarmUpDecisionTree" type="String"/>
 	<field name="fileWarmUpDecisionTree" type="BinHex"/>
-	<field hash="3E63DAAA" type="String"/>
+	<field name="text_fileDeniedEnterDecisionTree" type="String"/>
 	<field name="fileDeniedEnterDecisionTree" type="BinHex"/>
 	<field name="bLoadConfiguration" type="BinHex"/>
 	<field name="bOverrideHardcodedValues" type="BinHex"/>
@@ -30,7 +30,7 @@
 	<field name="fTrickCameraDesiredFOV" type="BinHex"/>
 	<field name="fTrickCameraTransitionDuration" type="BinHex"/>
 	<field name="fWindowOfOpportunity" type="BinHex"/>
-	<field hash="66B04B5D" type="String"/>
+	<field name="text_archBall" type="String"/>
 	<field name="archBall" type="BinHex"/>
 	<field name="vectorBallStartPosition" type="BinHex"/>
 	<field name="fBallRadius" type="BinHex"/>
@@ -45,32 +45,32 @@
 	<field name="fLookAtBallWeight" type="BinHex"/>
 	<field name="fPlayingStimSendInterval" type="BinHex"/>
 	<field name="stimsPlayingStim" type="BinHex"/>
-	<field hash="A20E0B6A" type="String"/>
+	<field name="text_sndStartSound" type="String"/>
 	<field name="sndStartSound" type="BinHex"/>
 	<field name="sndtpStartSoundType" type="BinHex"/>
-	<field hash="045C4CC6" type="String"/>
+	<field name="text_sndEndSound" type="String"/>
 	<field name="sndEndSound" type="BinHex"/>
 	<field name="sndtpEndSoundType" type="BinHex"/>
 	<field hash="7DF02AA7" type="String"/>
 	<field hash="41199016" type="BinHex"/>
 	<field hash="3ADA2806" type="BinHex"/>
-	<field hash="2F61CDB3" type="String"/>
+	<field name="text_sndFailSound" type="String"/>
 	<field name="sndFailSound" type="BinHex"/>
 	<field name="sndtpFailSoundType" type="BinHex"/>
-	<field hash="7A67C1D2" type="String"/>
+	<field name="text_sndBallGroundCollisionSound" type="String"/>
 	<field name="sndBallGroundCollisionSound" type="BinHex"/>
 	<field name="sndtpBallGroundCollisionSoundType" type="BinHex"/>
-	<field hash="4CACFB20" type="String"/>
+	<field name="text_sndBallPlayerCollisionSound" type="String"/>
 	<field name="sndBallPlayerCollisionSound" type="BinHex"/>
 	<field name="sndtpBallPlayerCollisionSoundType" type="BinHex"/>
 	<field name="fMaxBallVelocity" type="BinHex"/>
 	<field name="fVerticalBallVelocityThreshold" type="BinHex"/>
 	<field name="sndScoreSound" type="BinHex"/>
 	<field name="sndtpScoreSoundType" type="BinHex"/>
-	<field hash="D3045518" type="String"/>
+	<field name="text_sndTrickSound" type="String"/>
 	<field name="sndTrickSound" type="BinHex"/>
 	<field name="sndtpTrickSoundType" type="BinHex"/>
-	<field hash="E7123F4B" type="String"/>
+	<field name="text_sndTrickChainSound" type="String"/>
 	<field name="sndTrickChainSound" type="BinHex"/>
 	<field name="sndtpTrickChainSoundType" type="BinHex"/>
 	<field name="iSinglePlayerSeatIndex" type="BinHex"/>
@@ -101,29 +101,29 @@
 	<field name="iOnlineChallengeDuration" type="BinHex"/>
 	<field hash="16F7FEDC" type="BinHex"/>
 	<field name="iNumberOfHitsForStreakBark" type="BinHex"/>
-	<field hash="F513E819" type="String"/>
+	<field name="text_StreakBarkId" type="String"/>
 	<field name="StreakBarkId" type="BinHex"/>
 	<field name="phonecommunicationsettingsFirstIntro" type="BinHex"/>
 	<field name="fGenericAttentionRequestTime" type="BinHex"/>
 	<field hash="32C6593B" type="BinHex"/>
 	<field hash="EF3878DE" type="BinHex"/>
 	<object name="StartingAnimations">
-		<field hash="4733D20E" type="String"/>
+		<field name="text_StanceName" type="String"/>
 		<field name="StanceName" type="BinHex"/>
 		<field name="HitsUntilStanceChange" type="BinHex"/>
 		<field name="bFixedStanceId" type="BinHex"/>
 		<field name="bStartingAnimations" type="BinHex"/>
 		<object name="AnimationsData">
-			<field hash="FCD28790" type="String"/>
+			<field name="text_selLinkedBodyPart" type="String"/>
 			<field name="selLinkedBodyPart" type="BinHex"/>
-			<field hash="28008E43" type="String"/>
+			<field name="text_selBodyPart" type="String"/>
 			<field name="selBodyPart" type="Enum"/>
-			<field hash="2C70ADF7" type="String"/>
+			<field name="text_fileHitDecisionTree" type="String"/>
 			<field name="fileHitDecisionTree" type="BinHex"/>
 			<object name="AnimationSpecificData">
 				<field name="vectorImpactPositon" type="BinHex"/>
 				<field name="sHitAnimationName" type="String"/>
-				<field hash="ED31F346" type="String"/>
+				<field name="text_fileSingleAnimation" type="String"/>
 				<field name="fileSingleAnimation" type="BinHex"/>
 				<field name="fStartBlend" type="BinHex"/>
 				<field name="fImpactTime" type="BinHex"/>
@@ -135,7 +135,7 @@
 				<object name="AnimationSpecificData">
 					<field name="vectorImpactPositon" type="BinHex"/>
 					<field name="sHitAnimationName" type="String"/>
-					<field hash="ED31F346" type="String"/>
+					<field name="text_fileSingleAnimation" type="String"/>
 					<field name="fileSingleAnimation" type="BinHex"/>
 					<field name="fStartBlend" type="BinHex"/>
 					<field name="fImpactTime" type="BinHex"/>
@@ -147,16 +147,16 @@
 				</object>
 			</object>
 			<object name="AnimationsData">
-				<field hash="FCD28790" type="String"/>
+				<field name="text_selLinkedBodyPart" type="String"/>
 				<field name="selLinkedBodyPart" type="BinHex"/>
-				<field hash="28008E43" type="String"/>
+				<field name="text_selBodyPart" type="String"/>
 				<field name="selBodyPart" type="Enum"/>
-				<field hash="2C70ADF7" type="String"/>
+				<field name="text_fileHitDecisionTree" type="String"/>
 				<field name="fileHitDecisionTree" type="BinHex"/>
 				<object name="AnimationSpecificData">
 					<field name="vectorImpactPositon" type="BinHex"/>
 					<field name="sHitAnimationName" type="String"/>
-					<field hash="ED31F346" type="String"/>
+					<field name="text_fileSingleAnimation" type="String"/>
 					<field name="fileSingleAnimation" type="BinHex"/>
 					<field name="fStartBlend" type="BinHex"/>
 					<field name="fImpactTime" type="BinHex"/>
@@ -168,7 +168,7 @@
 					<object name="AnimationSpecificData">
 						<field name="vectorImpactPositon" type="BinHex"/>
 						<field name="sHitAnimationName" type="String"/>
-						<field hash="ED31F346" type="String"/>
+						<field name="text_fileSingleAnimation" type="String"/>
 						<field name="fileSingleAnimation" type="BinHex"/>
 						<field name="fStartBlend" type="BinHex"/>
 						<field name="fImpactTime" type="BinHex"/>
@@ -184,10 +184,10 @@
 		<object name="TricksData"/>
 		<object name="BodyPartsData">
 			<object name="BodyPartData">
-				<field hash="FFD54AC2" type="String"/>
+				<field name="text_BodyPartName" type="String"/>
 				<field name="BodyPartName" type="BinHex"/>
 				<field name="uitagInputDisplay" type="BinHex"/>
-				<field hash="E49BC04E" type="String"/>
+				<field name="text_AssociatedButton" type="String"/>
 				<field name="AssociatedButton" type="BinHex"/>
 				<field name="vectorButtonOffset" type="BinHex"/>
 				<field name="fLookAtHeight" type="BinHex"/>
@@ -200,30 +200,30 @@
 		</object>
 		<object name="BreakAnimationsData">
 			<object name="BreakAnimationData">
-				<field hash="28008E43" type="String"/>
+				<field name="text_selBodyPart" type="String"/>
 				<field name="selBodyPart" type="Enum"/>
-				<field hash="62849423" type="String"/>
+				<field name="text_fileBreakDecisionTree" type="String"/>
 				<field name="fileBreakDecisionTree" type="BinHex"/>
 			</object>
 		</object>
 	</object>
 	<object name="DefaultStance">
-		<field hash="4733D20E" type="String"/>
+		<field name="text_StanceName" type="String"/>
 		<field name="StanceName" type="BinHex"/>
 		<field name="HitsUntilStanceChange" type="BinHex"/>
 		<field name="bFixedStanceId" type="BinHex"/>
 		<field name="bStartingAnimations" type="BinHex"/>
 		<object name="AnimationsData">
-			<field hash="FCD28790" type="String"/>
+			<field name="text_selLinkedBodyPart" type="String"/>
 			<field name="selLinkedBodyPart" type="BinHex"/>
-			<field hash="28008E43" type="String"/>
+			<field name="text_selBodyPart" type="String"/>
 			<field name="selBodyPart" type="Enum"/>
-			<field hash="2C70ADF7" type="String"/>
+			<field name="text_fileHitDecisionTree" type="String"/>
 			<field name="fileHitDecisionTree" type="BinHex"/>
 			<object name="AnimationSpecificData">
 				<field name="vectorImpactPositon" type="BinHex"/>
 				<field name="sHitAnimationName" type="String"/>
-				<field hash="ED31F346" type="String"/>
+				<field name="text_fileSingleAnimation" type="String"/>
 				<field name="fileSingleAnimation" type="BinHex"/>
 				<field name="fStartBlend" type="BinHex"/>
 				<field name="fImpactTime" type="BinHex"/>
@@ -235,7 +235,7 @@
 				<object name="AnimationSpecificData">
 					<field name="vectorImpactPositon" type="BinHex"/>
 					<field name="sHitAnimationName" type="String"/>
-					<field hash="ED31F346" type="String"/>
+					<field name="text_fileSingleAnimation" type="String"/>
 					<field name="fileSingleAnimation" type="BinHex"/>
 					<field name="fStartBlend" type="BinHex"/>
 					<field name="fImpactTime" type="BinHex"/>
@@ -247,16 +247,16 @@
 				</object>
 			</object>
 			<object name="AnimationsData">
-				<field hash="FCD28790" type="String"/>
+				<field name="text_selLinkedBodyPart" type="String"/>
 				<field name="selLinkedBodyPart" type="BinHex"/>
-				<field hash="28008E43" type="String"/>
+				<field name="text_selBodyPart" type="String"/>
 				<field name="selBodyPart" type="Enum"/>
-				<field hash="2C70ADF7" type="String"/>
+				<field name="text_fileHitDecisionTree" type="String"/>
 				<field name="fileHitDecisionTree" type="BinHex"/>
 				<object name="AnimationSpecificData">
 					<field name="vectorImpactPositon" type="BinHex"/>
 					<field name="sHitAnimationName" type="String"/>
-					<field hash="ED31F346" type="String"/>
+					<field name="text_fileSingleAnimation" type="String"/>
 					<field name="fileSingleAnimation" type="BinHex"/>
 					<field name="fStartBlend" type="BinHex"/>
 					<field name="fImpactTime" type="BinHex"/>
@@ -268,7 +268,7 @@
 					<object name="AnimationSpecificData">
 						<field name="vectorImpactPositon" type="BinHex"/>
 						<field name="sHitAnimationName" type="String"/>
-						<field hash="ED31F346" type="String"/>
+						<field name="text_fileSingleAnimation" type="String"/>
 						<field name="fileSingleAnimation" type="BinHex"/>
 						<field name="fStartBlend" type="BinHex"/>
 						<field name="fImpactTime" type="BinHex"/>
@@ -288,16 +288,16 @@
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object name="AnimationsData">
-					<field hash="FCD28790" type="String"/>
+					<field name="text_selLinkedBodyPart" type="String"/>
 					<field name="selLinkedBodyPart" type="BinHex"/>
-					<field hash="28008E43" type="String"/>
+					<field name="text_selBodyPart" type="String"/>
 					<field name="selBodyPart" type="Enum"/>
-					<field hash="2C70ADF7" type="String"/>
+					<field name="text_fileHitDecisionTree" type="String"/>
 					<field name="fileHitDecisionTree" type="BinHex"/>
 					<object name="AnimationSpecificData">
 						<field name="vectorImpactPositon" type="BinHex"/>
 						<field name="sHitAnimationName" type="String"/>
-						<field hash="ED31F346" type="String"/>
+						<field name="text_fileSingleAnimation" type="String"/>
 						<field name="fileSingleAnimation" type="BinHex"/>
 						<field name="fStartBlend" type="BinHex"/>
 						<field name="fImpactTime" type="BinHex"/>
@@ -309,7 +309,7 @@
 						<object name="AnimationSpecificData">
 							<field name="vectorImpactPositon" type="BinHex"/>
 							<field name="sHitAnimationName" type="String"/>
-							<field hash="ED31F346" type="String"/>
+							<field name="text_fileSingleAnimation" type="String"/>
 							<field name="fileSingleAnimation" type="BinHex"/>
 							<field name="fStartBlend" type="BinHex"/>
 							<field name="fImpactTime" type="BinHex"/>
@@ -321,16 +321,16 @@
 						</object>
 					</object>
 					<object name="AnimationsData">
-						<field hash="FCD28790" type="String"/>
+						<field name="text_selLinkedBodyPart" type="String"/>
 						<field name="selLinkedBodyPart" type="BinHex"/>
-						<field hash="28008E43" type="String"/>
+						<field name="text_selBodyPart" type="String"/>
 						<field name="selBodyPart" type="Enum"/>
-						<field hash="2C70ADF7" type="String"/>
+						<field name="text_fileHitDecisionTree" type="String"/>
 						<field name="fileHitDecisionTree" type="BinHex"/>
 						<object name="AnimationSpecificData">
 							<field name="vectorImpactPositon" type="BinHex"/>
 							<field name="sHitAnimationName" type="String"/>
-							<field hash="ED31F346" type="String"/>
+							<field name="text_fileSingleAnimation" type="String"/>
 							<field name="fileSingleAnimation" type="BinHex"/>
 							<field name="fStartBlend" type="BinHex"/>
 							<field name="fImpactTime" type="BinHex"/>
@@ -342,7 +342,7 @@
 							<object name="AnimationSpecificData">
 								<field name="vectorImpactPositon" type="BinHex"/>
 								<field name="sHitAnimationName" type="String"/>
-								<field hash="ED31F346" type="String"/>
+								<field name="text_fileSingleAnimation" type="String"/>
 								<field name="fileSingleAnimation" type="BinHex"/>
 								<field name="fStartBlend" type="BinHex"/>
 								<field name="fImpactTime" type="BinHex"/>
@@ -359,26 +359,26 @@
 		</object>
 		<object name="BodyPartsData">
 			<object name="BodyPartData">
-				<field hash="FFD54AC2" type="String"/>
+				<field name="text_BodyPartName" type="String"/>
 				<field name="BodyPartName" type="BinHex"/>
 				<field name="uitagInputDisplay" type="BinHex"/>
-				<field hash="E49BC04E" type="String"/>
+				<field name="text_AssociatedButton" type="String"/>
 				<field name="AssociatedButton" type="BinHex"/>
 				<field name="vectorButtonOffset" type="BinHex"/>
 				<field name="fLookAtHeight" type="BinHex"/>
 				<field name="fMinimumGravity" type="BinHex"/>
 				<field name="vectorAngularVelocityBiasMin" type="BinHex"/>
 				<field name="vectorAngularVelocityBiasMax" type="BinHex"/>
-				<field hash="A20E0B6A" type="String"/>
+				<field name="text_sndStartSound" type="String"/>
 				<field name="sndStartSound" type="BinHex"/>
 				<field name="sndtpStartSoundType" type="BinHex"/>
 			</object>
 		</object>
 		<object name="BreakAnimationsData">
 			<object name="BreakAnimationData">
-				<field hash="28008E43" type="String"/>
+				<field name="text_selBodyPart" type="String"/>
 				<field name="selBodyPart" type="Enum"/>
-				<field hash="62849423" type="String"/>
+				<field name="text_fileBreakDecisionTree" type="String"/>
 				<field name="fileBreakDecisionTree" type="BinHex"/>
 			</object>
 		</object>
@@ -421,7 +421,7 @@
 	</object>
 	<object name="BodyPartsOrder">
 		<object name="BodyPart">
-			<field hash="FC0911EA" type="String"/>
+			<field name="text_Id" type="String"/>
 			<field name="Id" type="BinHex"/>
 		</object>
 	</object>
@@ -601,7 +601,7 @@
 	</object>
 	<object name="TutorialGoals">
 		<object name="Goal">
-			<field hash="6D1E1959" type="String"/>
+			<field name="text_selType" type="String"/>
 			<field name="selType" type="Enum"/>
 			<object name="Object">
 				<field hash="46C93851" type="BinHex"/>
@@ -620,7 +620,7 @@
 				</object>
 				<object name="LockedBodyParts">
 					<object name="LockedBodyPart">
-						<field hash="3F04C725" type="String"/>
+						<field name="text_selUnlockedBodyPart" type="String"/>
 						<field name="selUnlockedBodyPart" type="BinHex"/>
 					</object>
 				</object>
@@ -629,7 +629,7 @@
 	</object>
 	<object name="IntermediateGoals">
 		<object name="Goal">
-			<field hash="6D1E1959" type="String"/>
+			<field name="text_selType" type="String"/>
 			<field name="selType" type="Enum"/>
 			<object name="Object">
 				<field hash="46C93851" type="BinHex"/>
@@ -652,7 +652,7 @@
 	</object>
 	<object name="ExpertGoals">
 		<object name="Goal">
-			<field hash="6D1E1959" type="String"/>
+			<field name="text_selType" type="String"/>
 			<field name="selType" type="Enum"/>
 			<object name="Object">
 				<field hash="46C93851" type="BinHex"/>

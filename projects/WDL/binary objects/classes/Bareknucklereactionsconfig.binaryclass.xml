@@ -28,7 +28,7 @@
 			<field name="fAnimDelay" type="BinHex"/>
 			<object name="Animations">
 				<object name="CrowdAnimation">
-					<field hash="42BB2269" type="String"/>
+					<field name="text_fileAnimPath" type="String"/>
 					<field name="fileAnimPath" type="BinHex"/>
 					<field name="fDurationMale" type="BinHex"/>
 					<field name="fDurationFemale" type="BinHex"/>
@@ -40,7 +40,7 @@
 				<field name="bPlayOnLocalPlayer" type="BinHex"/>
 				<field name="bIs2D" type="BinHex"/>
 				<field hash="0B3BE899" type="BinHex"/>
-				<field hash="995B332C" type="String"/>
+				<field name="text_Bark" type="String"/>
 				<field name="Bark" type="BinHex"/>
 				<object name="MinMaxInterval">
 					<field name="fMin" type="Float"/>

@@ -24,11 +24,11 @@
 	<field name="colorPingColor" type="BinHex"/>
 	<field name="fPingOpacity" type="BinHex"/>
 	<field name="fDiscoveryMarkerRemainRange" type="BinHex"/>
-	<field hash="9E5ABD1E" type="String"/>
+	<field name="text_archScanWave" type="String"/>
 	<field name="archScanWave" type="BinHex"/>
-	<field hash="282CE334" type="String"/>
+	<field name="text_archPingIndicator" type="String"/>
 	<field name="archPingIndicator" type="BinHex"/>
-	<field hash="313486D3" type="String"/>
+	<field name="text_archKeyLocationProfilePath" type="String"/>
 	<field name="archKeyLocationProfilePath" type="BinHex"/>
 	<field name="profilingpathpresetDiscoveryDefaultPreset" type="BinHex"/>
 	<field name="profilingpathpresetDiscoveryTrackedOpPreset" type="BinHex"/>

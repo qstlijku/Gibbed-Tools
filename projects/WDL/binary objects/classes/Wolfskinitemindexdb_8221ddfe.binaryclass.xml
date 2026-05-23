@@ -10,7 +10,7 @@
 		<object name="Item">
 			<field name="libraryName" type="String"/>
 			<field name="itemHandle" type="BinHex"/>
-			<field hash="AB705E52" type="String"/>
+			<field name="text_slot" type="String"/>
 			<field name="slot" type="BinHex"/>
 		</object>
 	</object>

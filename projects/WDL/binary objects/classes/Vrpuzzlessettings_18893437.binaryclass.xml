@@ -32,27 +32,27 @@
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="PoweredSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="UnpoweredSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="RotateSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="PuzzleCompletedSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="AlarmTriggeredSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
@@ -61,32 +61,32 @@
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="AlarmPoweredSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="AlarmUnpoweredSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="UnlockedSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="OnPuzzleResetSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="OnNodeResetSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="PuzzleActivatedSound">
-		<field hash="87E038DB" type="String"/>
+		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>

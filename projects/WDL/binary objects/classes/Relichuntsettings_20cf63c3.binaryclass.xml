@@ -8,11 +8,11 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fRotationSpeed" type="BinHex"/>
 	<field name="bEnableOperativeBarks" type="BinHex"/>
-	<field hash="6858A3A1" type="String"/>
+	<field name="text_FirstRelicPieceFoundBarkId" type="String"/>
 	<field name="FirstRelicPieceFoundBarkId" type="BinHex"/>
-	<field hash="9B5D341B" type="String"/>
+	<field name="text_LastRelicPieceFoundBarkId" type="String"/>
 	<field name="LastRelicPieceFoundBarkId" type="BinHex"/>
-	<field hash="F7EF69F4" type="String"/>
+	<field name="text_RelicPieceFoundBarkId" type="String"/>
 	<field name="RelicPieceFoundBarkId" type="BinHex"/>
 	<object name="OnPieceCollected">
 		<field name="rulesmithidRuleId" type="BinHex"/>

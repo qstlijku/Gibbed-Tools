@@ -480,13 +480,13 @@
 		</object>
 	</object>
 	<object name="SoundParams">
-		<field hash="53336CFE" type="String"/>
+		<field name="text_selPlayerWeaponModel" type="String"/>
 		<field name="selPlayerWeaponModel" type="BinHex"/>
-		<field hash="C0440EA1" type="String"/>
+		<field name="text_selNPCWeaponCategory" type="String"/>
 		<field name="selNPCWeaponCategory" type="BinHex"/>
 	</object>
 	<object name="CameraShakeParameters">
-		<field hash="92210DFC" type="String"/>
+		<field name="text_hidEventName" type="String"/>
 		<field name="hidEventName" type="BinHex"/>
 		<field name="hidTargetEntityId" type="BinHex"/>
 		<field name="hidEventType" type="BinHex"/>

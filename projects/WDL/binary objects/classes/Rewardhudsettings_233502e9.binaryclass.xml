@@ -30,13 +30,13 @@
 			<field name="fProgressBarSpeed" type="Float"/>
 			<field name="fProgressBarDelayToHideDuration" type="Float"/>
 			<field name="uiSoundXPHighThreshold" type="UInt32"/>
-			<field hash="77E1BF7B" type="String"/>
+			<field name="text_sndSoundXPSmallGain" type="String"/>
 			<field name="sndSoundXPSmallGain" type="BinHex"/>
-			<field hash="C425626B" type="String"/>
+			<field name="text_sndSoundXPHighGainStart" type="String"/>
 			<field name="sndSoundXPHighGainStart" type="BinHex"/>
-			<field hash="3BCFEF09" type="String"/>
+			<field name="text_sndSoundXPHighGainStop" type="String"/>
 			<field name="sndSoundXPHighGainStop" type="BinHex"/>
-			<field hash="5823BB56" type="String"/>
+			<field name="text_sndSoundXPBarLevelUp" type="String"/>
 			<field name="sndSoundXPBarLevelUp" type="BinHex"/>
 			<object name="locstridXPTitle">
 				<field name="LocalizationId" type="UInt64"/>

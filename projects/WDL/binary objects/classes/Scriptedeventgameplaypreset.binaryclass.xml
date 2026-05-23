@@ -22,13 +22,13 @@
 			<field name="selFadeType" type="Enum"/>
 			<field name="fadeTransitionDuration" type="BinHex"/>
 			<field name="colorFadeColor" type="BinHex"/>
-			<field hash="8CF11C56" type="String"/>
+			<field name="text_sFadePostFx" type="String"/>
 			<field name="sFadePostFx" type="BinHex"/>
 			<field hash="9DE148E0" type="BinHex"/>
 			<field name="fadeDuration" type="BinHex"/>
 			<field name="bShouldShuffleTeleport" type="BinHex"/>
 			<field name="sRespawnLayerName" type="BinHex"/>
-			<field hash="5986377E" type="String"/>
+			<field name="text_fileCinemaResourcePath" type="String"/>
 			<field name="fileCinemaResourcePath" type="BinHex"/>
 			<field name="cinemaResource" type="BinHex"/>
 			<field name="cinemaScenePivotId" type="BinHex"/>
@@ -39,7 +39,7 @@
 			<field name="fShakeDuration" type="Float"/>
 			<field name="vec3ShakeXYZRange" type="BinHex"/>
 			<field name="vec3ShakePRYRange" type="BinHex"/>
-			<field hash="766BFB99" type="String"/>
+			<field name="text_sRumbleId" type="String"/>
 			<field name="sRumbleId" type="BinHex"/>
 			<field name="fWaitDuration" type="BinHex"/>
 			<field name="fDuration" type="Float"/>
@@ -87,9 +87,9 @@
 				</object>
 			</object>
 			<object name="Common">
-				<field hash="5EEA5EBB" type="String"/>
+				<field name="text_sndStateStartSound" type="String"/>
 				<field name="sndStateStartSound" type="BinHex"/>
-				<field hash="B774AF43" type="String"/>
+				<field name="text_sndStateStopSound" type="String"/>
 				<field name="sndStateStopSound" type="BinHex"/>
 				<field name="sndtpStateStartSoundType" type="BinHex"/>
 				<field name="sndtpStateStopSoundType" type="BinHex"/>

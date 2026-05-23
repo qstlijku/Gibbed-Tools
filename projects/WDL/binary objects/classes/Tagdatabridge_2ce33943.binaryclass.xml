@@ -9,13 +9,13 @@
 	<object name="Gender">
 		<field name="tagcategoryGenderTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionMaleTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionFemaleTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -24,31 +24,31 @@
 	<object name="ActorRarity">
 		<field name="tagcategoryActorRarityTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionCommonTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionUncommonTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionRareTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionEpicTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionLegendaryTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -63,31 +63,31 @@
 		<field name="tagcategoryEthnicityTagCategory" type="BinHex"/>
 		<field name="tagcategoryVisualStereotypeTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionEthnicityBlackTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionEthnicityCaucasianTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionEthnicityEastAsianTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionEthnicityIndianSubContinentTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionEthnicityMiddleEasternTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -95,19 +95,19 @@
 		<object name="AgeRange">
 			<field name="tagcategoryCategory" type="BinHex"/>
 			<object name="tagcategoryselectionYoungTag">
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
 			<object name="tagcategoryselectionAdultTag">
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
 			</object>
 			<object name="tagcategoryselectionOldTag">
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
@@ -122,20 +122,20 @@
 			</object>
 		</object>
 		<object name="tagcategoryselectionIsPlayerTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionIsClanKellyTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagcategoryTagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object hash="8D74724E">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -156,31 +156,31 @@
 		<field name="tagcategoryUIClothingStyleTagCategory" type="BinHex"/>
 		<field name="tagcategoryPropTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionHighHeels">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object hash="67C8717A">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object hash="1FDCEDA0">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionMaskUpTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionMaskDownTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -192,7 +192,7 @@
 	<object name="VisualStereotype">
 		<field name="tagcategoryVisualStereotypeTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionRoyalGuardTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -202,31 +202,31 @@
 		<field name="tagcategoryOccupationTagCategory" type="BinHex"/>
 		<field name="tagcategoryOccupationGroupTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionRoyalGuardTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionClanKelleyCaptainTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionAlbionCaptainTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionCrimeOrganizedTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionPoliceSpecializedTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -236,61 +236,61 @@
 		<field name="tagcategoryTubeStationTagCategory" type="BinHex"/>
 		<field name="tagcategoryDominantPlaystyleTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionTubeStationTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionHackerspaceTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionPoliceStationTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionClanKelleyHideoutTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionBlacksiteTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionPrivateMilitaryAlbionTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionHospitalTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionAssaultPlaystyleTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionHackerPlaystyleTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionInfiltratorPlaystyleTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -311,19 +311,19 @@
 		<field name="tagcategoryTraitSpecializationTagCategory" type="BinHex"/>
 		<field name="tagcategoryPredefinedActorTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionSeanNameOverrideTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionVanessaNameOverrideTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionKenningtonOvalSpawnTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -336,25 +336,25 @@
 		<field name="tagcategoryOPSwapLevelTagCategory" type="BinHex"/>
 		<field name="tagcategoryHackerspaceCLOTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionBronzeOpSwapTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionSilverOpSwapTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionGoldOpSwapTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionHackerspaceCLOTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -370,61 +370,61 @@
 	<object name="Faction">
 		<field name="tagcategoryFactionTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionCivilianTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionAuthoritiesTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionCriminalsTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionPMCTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionPrivateSecurityTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionSIRSTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionPoliceTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionFirmsTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionGangsTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionEPAFTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -433,25 +433,25 @@
 	<object name="DGScene">
 		<field name="tagcategoryActorTypeTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionHumanTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionVehicleTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionDroneTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionIngredientTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -463,43 +463,43 @@
 		<field name="tagcategoryPlayerCountTagCategory" type="BinHex"/>
 		<field name="tagcategoryTypeTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionTypeAnyTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionTypeFreeroamTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionTypeSceneBasedTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionTypeLocationBasedTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionPlayerCountSoloTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionPlayerCountSoftCoopTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionPlayerCountHardcoopTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -508,31 +508,31 @@
 	<object name="AtlasType">
 		<field name="tagcategoryActorTypeTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionFillerTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionMicroTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionSmallTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionMediumTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
 		<object name="tagcategoryselectionLargeTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
@@ -541,7 +541,7 @@
 	<object name="Behavior">
 		<field name="tagcategoryBehaviorTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionCelebrityTag">
-			<field hash="BDB3B8D5" type="String"/>
+			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>

@@ -15,7 +15,7 @@
 		<field name="selMeleeIntensity" type="Enum"/>
 		<field name="fPlayerMeleeMinDistance" type="Float"/>
 		<field name="fPlayerMeleeMaxDistance" type="Float"/>
-		<field hash="E12E3AB2" type="String"/>
+		<field name="text_sPlayerMeleeRumbleId" type="String"/>
 		<field name="sPlayerMeleeRumbleId" type="BinHex"/>
 		<field name="fPlayerMeleeRumbleIntensity" type="Float"/>
 	</object>

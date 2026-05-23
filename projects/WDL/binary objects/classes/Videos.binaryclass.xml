@@ -18,7 +18,7 @@
 		<field name="bSendSpecialBroadcastStim" type="Boolean"/>
 		<object name="Sounds">
 			<object name="Sound">
-				<field hash="87E038DB" type="String"/>
+				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field hash="F67F93E3" type="BinHex"/>
 			</object>

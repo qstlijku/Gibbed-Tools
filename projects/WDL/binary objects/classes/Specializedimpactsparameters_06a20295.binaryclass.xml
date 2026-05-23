@@ -8,11 +8,11 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="CharacterBulletImpact">
 		<field name="ImpactHealthy" type="BinHex"/>
-		<field hash="3204D1F7" type="String"/>
+		<field name="text_ImpactDiedNormal" type="String"/>
 		<field name="ImpactDiedNormal" type="BinHex"/>
-		<field hash="49A904CB" type="String"/>
+		<field name="text_ImpactDiedHeadshot" type="String"/>
 		<field name="ImpactDiedHeadshot" type="BinHex"/>
-		<field hash="633CDF00" type="String"/>
+		<field name="text_ImpactAlreadyDead" type="String"/>
 		<field name="ImpactAlreadyDead" type="BinHex"/>
 	</object>
 </class>

@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="E27ABE37" type="String"/>
+	<field name="text_matBackgroundMaterial" type="String"/>
 	<field name="matBackgroundMaterial" type="BinHex"/>
 	<field name="matHighLightedMaterial" type="BinHex"/>
 	<field name="nethackingconfigDefault" type="BinHex"/>

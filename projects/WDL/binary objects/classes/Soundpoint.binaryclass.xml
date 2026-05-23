@@ -9,7 +9,7 @@
 	<field name="iNumMaxPlaying" type="Int32"/>
 	<object name="RTPCList">
 		<object name="RTPC">
-			<field hash="0126A8E1" type="String"/>
+			<field name="text_sndrtpcRTPCType" type="String"/>
 			<field name="sndrtpcRTPCType" type="BinHex"/>
 			<object name="sndvarRTPCId">
 				<field name="SoundId" type="BinHex"/>
@@ -20,16 +20,16 @@
 	<object name="SoundElements">
 		<object name="SoundElement">
 			<object name="sndpairSound">
-				<field hash="8DB965BE" type="String"/>
+				<field name="text_dissndStart" type="String"/>
 				<field name="dissndStart" type="BinHex"/>
-				<field hash="CE8F77EF" type="String"/>
+				<field name="text_dissndStop" type="String"/>
 				<field name="dissndStop" type="BinHex"/>
 				<field name="sndtpStartType" type="BinHex"/>
 				<field name="sndtpStopType" type="BinHex"/>
 			</object>
 			<object name="Conditions">
 				<object name="Condition">
-					<field hash="79FEFA82" type="String"/>
+					<field name="text_sndcondConditionType" type="String"/>
 					<field name="sndcondConditionType" type="BinHex"/>
 					<field name="fMinValue" type="Float"/>
 					<field name="fMaxValue" type="Float"/>

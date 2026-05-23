@@ -21,12 +21,12 @@
 		<field hash="67E000DC" type="BinHex"/>
 		<field hash="25067F29" type="BinHex"/>
 		<field name="entIntroSequenceCenterSceneEntityId" type="BinHex"/>
-		<field hash="FCF07F6E" type="String"/>
+		<field name="text_fileIntroSequenceResourcePath" type="String"/>
 		<field name="fileIntroSequenceResourcePath" type="BinHex"/>
 		<field name="sLayerName" type="String"/>
-		<field hash="EB627FEC" type="String"/>
+		<field name="text_sndMuteExternalSounds" type="String"/>
 		<field name="sndMuteExternalSounds" type="BinHex"/>
-		<field hash="543F4C8D" type="String"/>
+		<field name="text_sndUnmuteExternalSounds" type="String"/>
 		<field name="sndUnmuteExternalSounds" type="BinHex"/>
 		<field hash="C78075BA" type="BinHex"/>
 		<field hash="D8BB27FF" type="BinHex"/>

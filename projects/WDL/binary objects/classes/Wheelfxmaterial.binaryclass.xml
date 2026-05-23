@@ -21,7 +21,7 @@
 					</object>
 					<object name="WheelParticlesSystemsParams">
 						<object name="ParticlesSystemsParams">
-							<field hash="93D2AFB5" type="String"/>
+							<field name="text_psParticleSystem" type="String"/>
 							<field name="psParticleSystem" type="BinHex"/>
 							<field name="psConfettiParticleSystem" type="BinHex"/>
 							<field name="selEmissionType" type="Enum"/>

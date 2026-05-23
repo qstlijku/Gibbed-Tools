@@ -24,7 +24,7 @@
 	</object>
 	<object name="ReachLocationActivities">
 		<object name="ReachLocationActivity">
-			<field hash="523E0213" type="String"/>
+			<field name="text_progressioncollectablecategoryActivityId" type="String"/>
 			<field name="progressioncollectablecategoryActivityId" type="BinHex"/>
 		</object>
 	</object>

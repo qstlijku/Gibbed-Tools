@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="TutorialsList">
 		<object name="Tutorials">
-			<field hash="ACBB12A1" type="String"/>
+			<field name="text_progressionplayeractionTriggerAction" type="String"/>
 			<field name="progressionplayeractionTriggerAction" type="BinHex"/>
 			<field name="iPriority" type="Int32"/>
 			<field name="fDisplayTime" type="Float"/>
@@ -16,7 +16,7 @@
 			<field hash="631C0186" type="BinHex"/>
 			<field hash="B2870E8A" type="BinHex"/>
 			<field name="itemsTutorial" type="BinHex"/>
-			<field hash="EE8FE6FF" type="String"/>
+			<field name="text_CompletedAction" type="String"/>
 			<field name="CompletedAction" type="BinHex"/>
 			<field name="fReTriggerTime" type="BinHex"/>
 			<object name="CanShowTutorial">

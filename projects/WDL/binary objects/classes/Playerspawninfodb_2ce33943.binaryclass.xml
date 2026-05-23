@@ -9,7 +9,7 @@
 	<field name="graphickitcollectionModels" type="BinHex"/>
 	<object name="Archetypes">
 		<object name="Archetype">
-			<field hash="3E8C551F" type="String"/>
+			<field name="text_archPlayerArchetype" type="String"/>
 			<field name="archPlayerArchetype" type="BinHex"/>
 		</object>
 	</object>

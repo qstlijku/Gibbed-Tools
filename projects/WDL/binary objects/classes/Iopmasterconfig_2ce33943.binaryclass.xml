@@ -12,7 +12,7 @@
 		<field hash="D487C0C2" type="BinHex"/>
 		<field hash="C1C1BD07" type="BinHex"/>
 		<object name="DisconnectionScreen">
-			<field hash="E450ED42" type="String"/>
+			<field name="text_sndIOPDisconnectSound" type="String"/>
 			<field name="sndIOPDisconnectSound" type="BinHex"/>
 			<field hash="E96C3EF2" type="BinHex"/>
 			<object name="locstridDisconnectHeaderText">

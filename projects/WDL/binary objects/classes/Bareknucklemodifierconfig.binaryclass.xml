@@ -165,7 +165,7 @@
 					<field name="bMustStartMeleeState" type="BinHex"/>
 					<field name="iNumberOfFighters" type="BinHex"/>
 					<object name="MadCinematic">
-						<field hash="F8C7825F" type="String"/>
+						<field name="text_fileFile" type="String"/>
 						<field name="fileFile" type="BinHex"/>
 						<field name="SceneTemplate" type="BinHex"/>
 						<field name="iDialogTemplate" type="BinHex"/>
@@ -176,7 +176,7 @@
 							<field name="bPlayOnLocalPlayer" type="BinHex"/>
 							<field name="bIs2D" type="BinHex"/>
 							<field hash="0B3BE899" type="BinHex"/>
-							<field hash="995B332C" type="String"/>
+							<field name="text_Bark" type="String"/>
 							<field name="Bark" type="BinHex"/>
 							<object name="MinMaxInterval">
 								<field name="fMin" type="Float"/>

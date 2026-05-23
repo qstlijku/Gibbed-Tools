@@ -6,25 +6,25 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="5915B659" type="String"/>
+	<field name="text_fileGroupBehaviorStrategyCategory" type="String"/>
 	<field name="fileGroupBehaviorStrategyCategory" type="BinHex"/>
 	<object name="RoleMap">
 		<object name="DgToGbMapping">
-			<field hash="0C4B0E3B" type="String"/>
+			<field name="text_DGRole" type="String"/>
 			<field name="DGRole" type="BinHex"/>
 			<field name="selGroupBhvRole" type="BinHex"/>
 		</object>
 	</object>
 	<object name="BlackboardInitializers">
 		<object name="Initializer">
-			<field hash="122C9A00" type="String"/>
+			<field name="text_sKey" type="String"/>
 			<field name="sKey" type="BinHex"/>
 			<object name="Value">
 				<field name="selType" type="Enum"/>
 				<field name="plasmaDialogTemplateID" type="BinHex"/>
 				<field name="bBoolValue" type="Boolean"/>
 				<field name="fFloatValue" type="Float"/>
-				<field hash="019095D6" type="String"/>
+				<field name="text_sStringValue" type="String"/>
 				<field name="sStringValue" type="BinHex"/>
 			</object>
 		</object>

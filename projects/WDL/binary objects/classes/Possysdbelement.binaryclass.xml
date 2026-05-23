@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="3E780124" type="String"/>
+	<field name="text_possysdescriptorDescriptorType" type="String"/>
 	<field name="possysdescriptorDescriptorType" type="BinHex"/>
 	<object name="PosSysDescriptor">
 		<field name="vectorPositionOffset" type="BinHex"/>
@@ -20,7 +20,7 @@
 		<field name="fRadius" type="Float"/>
 		<field name="selZoneType" type="Enum"/>
 		<field name="selActivityTyp" type="Enum"/>
-		<field hash="32BC3C88" type="String"/>
+		<field name="text_sFakeMissionID" type="String"/>
 		<field name="sFakeMissionID" type="BinHex"/>
 		<object name="locstridWorldMapIconLabel">
 			<field name="LocalizationId" type="UInt64"/>

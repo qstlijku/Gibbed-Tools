@@ -9,7 +9,7 @@
 	<object name="ClosedCaptions">
 		<object name="ClosedCaption">
 			<field name="Name" type="String"/>
-			<field hash="14E2D515" type="String"/>
+			<field name="text_sndSoundEvent" type="String"/>
 			<field name="sndSoundEvent" type="BinHex"/>
 			<field name="closedcaptionsubgroupSubGroup" type="BinHex"/>
 			<field name="sCloseCaptionName" type="String"/>

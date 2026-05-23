@@ -9,7 +9,7 @@
 	<field name="dronebankDronesBank" type="BinHex"/>
 	<object name="PickableInfos">
 		<object name="pickableInfo">
-			<field hash="FD4BE706" type="String"/>
+			<field name="text_archPickableArchetype" type="String"/>
 			<field name="archPickableArchetype" type="BinHex"/>
 			<field name="iSpawnNbTicket" type="BinHex"/>
 		</object>

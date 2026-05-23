@@ -11,7 +11,7 @@
 		<field name="datacardtypeDataCardType" type="BinHex"/>
 		<object name="DataCardPanelGenerator">
 			<field name="fWeight" type="Float"/>
-			<field hash="C1CF27A8" type="String"/>
+			<field name="text_datacardtypeDataCardType" type="String"/>
 			<field name="datacardtypeDataCardType" type="BinHex"/>
 		</object>
 	</object>

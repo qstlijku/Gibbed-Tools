@@ -18,9 +18,9 @@
 		<field name="fInBoatWarningDeltaDistance" type="Float"/>
 		<field name="fInWaterWarningDeltaDistance" type="Float"/>
 		<field name="fOnGroundWarningDeltaDistance" type="Float"/>
-		<field hash="35A02FA9" type="String"/>
+		<field name="text_FirstArrestYell" type="String"/>
 		<field name="FirstArrestYell" type="BinHex"/>
-		<field hash="8A8993CC" type="String"/>
+		<field name="text_WarningChanceYell" type="String"/>
 		<field name="WarningChanceYell" type="BinHex"/>
 	</object>
 	<object name="EngineBoost">

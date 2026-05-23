@@ -7,16 +7,16 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selProductionState" type="BinHex"/>
-	<field hash="710CB40C" type="String"/>
+	<field name="text_characterabilitylogicmoduleLogicModule" type="String"/>
 	<field name="characterabilitylogicmoduleLogicModule" type="BinHex"/>
-	<field hash="28453881" type="String"/>
+	<field name="text_characterabilityparametersParameters" type="String"/>
 	<field name="characterabilityparametersParameters" type="BinHex"/>
 	<object name="Parameters">
 		<field name="selTriggerType" type="Enum"/>
 		<field hash="AF201CC7" type="BinHex"/>
 		<field hash="5653F8B5" type="String"/>
 		<field hash="461578E6" type="BinHex"/>
-		<field hash="A6604358" type="String"/>
+		<field name="text_archWeapon" type="String"/>
 		<field name="archWeapon" type="BinHex"/>
 		<field name="uiCharges" type="BinHex"/>
 		<field name="BoneName" type="BinHex"/>
@@ -31,7 +31,7 @@
 		<field name="fAbilityActiveDuration" type="BinHex"/>
 		<field name="scriptedhackareadbHackArea" type="BinHex"/>
 		<field hash="9FF411B7" type="BinHex"/>
-		<field hash="35406CAE" type="String"/>
+		<field name="text_sndPropagationSound" type="String"/>
 		<field name="sndPropagationSound" type="BinHex"/>
 		<field hash="32A10E30" type="BinHex"/>
 		<field hash="76DF8C37" type="BinHex"/>
@@ -73,7 +73,7 @@
 		<field name="fDrunkLevel" type="BinHex"/>
 		<field name="iNumDrinksIncrement" type="BinHex"/>
 		<field hash="5D68559F" type="BinHex"/>
-		<field hash="8A8EB5BB" type="String"/>
+		<field name="text_sndRegenGrenadeUseFailSound" type="String"/>
 		<field name="sndRegenGrenadeUseFailSound" type="BinHex"/>
 		<field hash="247967B5" type="BinHex"/>
 		<field name="fMaxDropDistanceBeforeDespawn" type="BinHex"/>
@@ -99,9 +99,9 @@
 		<field hash="0F355CB7" type="BinHex"/>
 		<field hash="3491A00C" type="BinHex"/>
 		<field hash="C6DA20C5" type="BinHex"/>
-		<field hash="E6655990" type="String"/>
+		<field name="text_archArchetype" type="String"/>
 		<field name="archArchetype" type="BinHex"/>
-		<field hash="1E216B24" type="String"/>
+		<field name="text_sndSpiderProjectileUseFailSound" type="String"/>
 		<field name="sndSpiderProjectileUseFailSound" type="BinHex"/>
 		<field hash="0453637C" type="BinHex"/>
 		<field name="fEscapeTimerMultiplier" type="BinHex"/>
@@ -140,7 +140,7 @@
 		</object>
 		<object hash="B28E240F">
 			<object hash="3C4557EC">
-				<field hash="66905A99" type="String"/>
+				<field name="text_progressionplayeractionAction" type="String"/>
 				<field name="progressionplayeractionAction" type="BinHex"/>
 				<field hash="08BFA198" type="BinHex"/>
 			</object>
@@ -200,9 +200,9 @@
 			<field hash="331C7EE6" type="BinHex"/>
 		</object>
 		<object hash="6D4A1B35">
-			<field hash="16B267BA" type="String"/>
+			<field name="text_psShockwaveParticles" type="String"/>
 			<field name="psShockwaveParticles" type="BinHex"/>
-			<field hash="A3E72452" type="String"/>
+			<field name="text_sndShockwaveSound" type="String"/>
 			<field name="sndShockwaveSound" type="BinHex"/>
 			<field hash="3593030E" type="BinHex"/>
 		</object>
@@ -381,14 +381,14 @@
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="1EFA9442">
-			<field hash="28AB67AA" type="String"/>
+			<field name="text_AimingBeamOriginBoneName" type="String"/>
 			<field name="AimingBeamOriginBoneName" type="BinHex"/>
 			<field name="fAimingBeamOpacity" type="BinHex"/>
-			<field hash="9952CDB4" type="String"/>
+			<field name="text_archAimingBeamArchetype" type="String"/>
 			<field name="archAimingBeamArchetype" type="BinHex"/>
-			<field hash="C5299A93" type="String"/>
+			<field name="text_archAimingBeamDotArchetype" type="String"/>
 			<field name="archAimingBeamDotArchetype" type="BinHex"/>
-			<field hash="62DA964E" type="String"/>
+			<field name="text_sAimingBeamMaterialName" type="String"/>
 			<field name="sAimingBeamMaterialName" type="BinHex"/>
 			<field name="colorAimingBeamColor" type="BinHex"/>
 			<field name="fAimingBeamScale" type="BinHex"/>
@@ -429,7 +429,7 @@
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object name="Drone">
-			<field hash="E6655990" type="String"/>
+			<field name="text_archArchetype" type="String"/>
 			<field name="archArchetype" type="BinHex"/>
 		</object>
 		<object hash="009DD9BE">
@@ -457,11 +457,11 @@
 			<field name="bCanTargetDrones" type="BinHex"/>
 			<field name="bCanTargetVehicles" type="BinHex"/>
 			<field name="bCanTargetPlayers" type="BinHex"/>
-			<field hash="46B56D17" type="String"/>
+			<field name="text_sndLockingOnBegin" type="String"/>
 			<field name="sndLockingOnBegin" type="BinHex"/>
-			<field hash="BB5F5F68" type="String"/>
+			<field name="text_sndLockingOnComplete" type="String"/>
 			<field name="sndLockingOnComplete" type="BinHex"/>
-			<field hash="B82494A6" type="String"/>
+			<field name="text_sndLockingOnCancel" type="String"/>
 			<field name="sndLockingOnCancel" type="BinHex"/>
 			<field name="sndtpLockingOnBeginType" type="BinHex"/>
 			<field name="sndtpLockingOnCompleteType" type="BinHex"/>
@@ -483,7 +483,7 @@
 			<field hash="DADD2FCD" type="BinHex"/>
 			<field hash="E6F8E350" type="BinHex"/>
 			<field hash="317D13A3" type="BinHex"/>
-			<field hash="E24C4BBF" type="String"/>
+			<field name="text_sndImpactSound" type="String"/>
 			<field name="sndImpactSound" type="BinHex"/>
 			<field hash="A36FF6FA" type="BinHex"/>
 			<field hash="01F7382F" type="String"/>
@@ -563,9 +563,9 @@
 		<object name="tagcategoryselectionblackboardLocationTags">
 			<object name="TagCategorySelectionArray">
 				<object name="TagCategorySelection">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -574,7 +574,7 @@
 				</object>
 			</object>
 			<object name="TagDescriptorUI">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
 					<object name="TagCategorySelectionDescriptor">

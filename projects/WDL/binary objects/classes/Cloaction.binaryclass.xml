@@ -52,7 +52,7 @@
 				<field name="bComputeAnchorFromDynamicCLOAnchor" type="Boolean"/>
 				<field hash="B72FD723" type="BinHex"/>
 				<field name="fTriggerDelay" type="Float"/>
-				<field hash="2977E278" type="String"/>
+				<field name="text_sTriggerTypeExtraInfo" type="String"/>
 				<field name="sTriggerTypeExtraInfo" type="BinHex"/>
 				<field name="bTriggerOrientTowards" type="Boolean"/>
 				<field name="bTriggerOrientReturn" type="Boolean"/>
@@ -84,7 +84,7 @@
 				<object name="QuitPMS">
 					<object name="PMSValues">
 						<object name="PMSValue">
-							<field hash="363F5FCE" type="String"/>
+							<field name="text_pmsPMSName" type="String"/>
 							<field name="pmsPMSName" type="BinHex"/>
 							<field name="bBoolValue" type="Boolean"/>
 							<field name="selEnumValue" type="Enum"/>
@@ -124,7 +124,7 @@
 				<field name="fTriggerDelay" type="Float"/>
 				<field name="fTriggerRadius" type="Float"/>
 				<field name="selRaycastTypeCheck" type="Enum"/>
-				<field hash="2977E278" type="String"/>
+				<field name="text_sTriggerTypeExtraInfo" type="String"/>
 				<field name="sTriggerTypeExtraInfo" type="BinHex"/>
 				<field name="bTriggerOrientTowards" type="Boolean"/>
 				<field name="bTriggerOrientReturn" type="Boolean"/>
@@ -140,7 +140,7 @@
 				<object name="QuitPMS">
 					<object name="PMSValues">
 						<object name="PMSValue">
-						<field hash="363F5FCE" type="String"/>
+						<field name="text_pmsPMSName" type="String"/>
 						<field name="pmsPMSName" type="BinHex"/>
 						<field name="bBoolValue" type="Boolean"/>
 						<field name="selEnumValue" type="Enum"/>
@@ -159,7 +159,7 @@
 			<object name="QuitPMS">
 				<object name="PMSValues">
 					<object name="PMSValue">
-						<field hash="363F5FCE" type="String"/>
+						<field name="text_pmsPMSName" type="String"/>
 						<field name="pmsPMSName" type="BinHex"/>
 						<field name="bBoolValue" type="Boolean"/>
 						<field name="selEnumValue" type="Enum"/>
@@ -172,16 +172,16 @@
 		<object name="tagcategoryselectionblackboardActivityTags">
 			<object name="TagCategorySelectionArray">
 				<object name="TagCategorySelection">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
 					<object name="Tags">
 						<object name="Tag">
 							<object name="tagcategoryselectionTag">
-								<field hash="BDB3B8D5" type="String"/>
+								<field name="text_UITagCategorySelectionClassID" type="String"/>
 								<field name="UITagCategorySelectionClassID" type="BinHex"/>
 								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -194,7 +194,7 @@
 				</object>
 			</object>
 			<object name="TagDescriptorUI">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
 					<object name="TagCategorySelectionDescriptor">
@@ -207,16 +207,16 @@
 		<object name="tagcategoryselectionblackboardExclusionTags">
 			<object name="TagCategorySelectionArray">
 				<object name="TagCategorySelection">
-					<field hash="CF68E402" type="String"/>
+					<field name="text_hid_DTCTH_ClassName" type="String"/>
 					<field name="hid_DTCTH_ClassName" type="BinHex"/>
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
 					<object name="Tags">
 						<object name="Tag">
 							<object name="tagcategoryselectionTag">
-								<field hash="BDB3B8D5" type="String"/>
+								<field name="text_UITagCategorySelectionClassID" type="String"/>
 								<field name="UITagCategorySelectionClassID" type="BinHex"/>
 								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -229,7 +229,7 @@
 				</object>
 			</object>
 			<object name="TagDescriptorUI">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
 				<object name="TagCategorySelectionDescriptors">
 					<object name="TagCategorySelectionDescriptor">
@@ -254,7 +254,7 @@
 						<object name="Tag">
 							<field name="tagTag" type="BinHex"/>
 							<object name="tagcategoryselectionTag">
-								<field hash="BDB3B8D5" type="String"/>
+								<field name="text_UITagCategorySelectionClassID" type="String"/>
 								<field name="UITagCategorySelectionClassID" type="BinHex"/>
 								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -266,7 +266,7 @@
 						<object name="Tag">
 							<field name="tagTag" type="BinHex"/>
 							<object name="tagcategoryselectionTag">
-								<field hash="BDB3B8D5" type="String"/>
+								<field name="text_UITagCategorySelectionClassID" type="String"/>
 								<field name="UITagCategorySelectionClassID" type="BinHex"/>
 								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -279,7 +279,7 @@
 							<object name="Tags">
 								<object name="Tag">
 									<object name="tagcategoryselectionTag">
-										<field hash="BDB3B8D5" type="String"/>
+										<field name="text_UITagCategorySelectionClassID" type="String"/>
 										<field name="UITagCategorySelectionClassID" type="BinHex"/>
 										<field name="tagcategoryUITagCategory" type="BinHex"/>
 										<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -311,7 +311,7 @@
 						<object name="PMSValueOR">
 							<object name="PMSValuesAND">
 								<object name="PMSValueAND">
-									<field hash="363F5FCE" type="String"/>
+									<field name="text_pmsPMSName" type="String"/>
 									<field name="pmsPMSName" type="BinHex"/>
 									<field name="bBoolValue" type="Boolean"/>
 									<field name="selEnumValue" type="Enum"/>
@@ -321,7 +321,7 @@
 					</object>
 					<object name="Excluded">
 						<object name="PMSValue">
-							<field hash="363F5FCE" type="String"/>
+							<field name="text_pmsPMSName" type="String"/>
 							<field name="pmsPMSName" type="BinHex"/>
 							<field name="bBoolValue" type="Boolean"/>
 							<field name="selEnumValue" type="Enum"/>
@@ -333,7 +333,7 @@
 						<object name="PMSValueOR">
 							<object name="PMSValuesAND">
 								<object name="PMSValueAND">
-									<field hash="363F5FCE" type="String"/>
+									<field name="text_pmsPMSName" type="String"/>
 									<field name="pmsPMSName" type="BinHex"/>
 									<field name="bBoolValue" type="Boolean"/>
 									<field name="selEnumValue" type="Enum"/>
@@ -343,7 +343,7 @@
 					</object>
 					<object name="TagsExcluded">
 						<object name="tagcategoryselectionTag">
-							<field hash="BDB3B8D5" type="String"/>
+							<field name="text_UITagCategorySelectionClassID" type="String"/>
 							<field name="UITagCategorySelectionClassID" type="BinHex"/>
 							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<field name="tagcategoryTagCategory" type="BinHex"/>

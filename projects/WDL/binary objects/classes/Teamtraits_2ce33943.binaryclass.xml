@@ -15,7 +15,7 @@
 		<field name="InitialTeamSpeak" type="BinHex"/>
 		<field name="EndingTeamSpeak" type="BinHex"/>
 		<field name="bOnlyInRedZone" type="BinHex"/>
-		<field hash="2215F870" type="String"/>
+		<field name="text_progressionteamtraitOperativeTeamTraitId" type="String"/>
 		<field name="progressionteamtraitOperativeTeamTraitId" type="BinHex"/>
 		<field name="nMinWantedLvlToActivate" type="BinHex"/>
 		<object name="IsAvailable">
@@ -69,7 +69,7 @@
 		<field name="InitialTeamSpeak" type="BinHex"/>
 		<field name="EndingTeamSpeak" type="BinHex"/>
 		<field name="bOnlyInRedZone" type="BinHex"/>
-		<field hash="2215F870" type="String"/>
+		<field name="text_progressionteamtraitOperativeTeamTraitId" type="String"/>
 		<field name="progressionteamtraitOperativeTeamTraitId" type="BinHex"/>
 		<object name="IsAvailable">
 			<field name="rulesmithidRule" type="BinHex"/>
@@ -89,7 +89,7 @@
 		<field name="InitialTeamSpeak" type="BinHex"/>
 		<field name="EndingTeamSpeak" type="BinHex"/>
 		<field name="bOnlyInRedZone" type="BinHex"/>
-		<field hash="2215F870" type="String"/>
+		<field name="text_progressionteamtraitOperativeTeamTraitId" type="String"/>
 		<field name="progressionteamtraitOperativeTeamTraitId" type="BinHex"/>
 		<field name="fMinTimeForEnemyTag" type="BinHex"/>
 		<field name="fMaxTimeForEnemyTag" type="BinHex"/>
@@ -106,11 +106,11 @@
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="ProgressionCategories">
-			<field hash="DA9884B9" type="String"/>
+			<field name="text_progressioncollectablecategoryCollectibleCategory" type="String"/>
 			<field name="progressioncollectablecategoryCollectibleCategory" type="BinHex"/>
 			<field name="DiscoveryTeamSpeak" type="BinHex"/>
 			<object name="ProgressionCategories">
-				<field hash="DA9884B9" type="String"/>
+				<field name="text_progressioncollectablecategoryCollectibleCategory" type="String"/>
 				<field name="progressioncollectablecategoryCollectibleCategory" type="BinHex"/>
 				<field name="DiscoveryTeamSpeak" type="BinHex"/>
 			</object>
@@ -125,7 +125,7 @@
 		<field name="InitialTeamSpeak" type="BinHex"/>
 		<field name="EndingTeamSpeak" type="BinHex"/>
 		<field name="bOnlyInRedZone" type="BinHex"/>
-		<field hash="2215F870" type="String"/>
+		<field name="text_progressionteamtraitOperativeTeamTraitId" type="String"/>
 		<field name="progressionteamtraitOperativeTeamTraitId" type="BinHex"/>
 		<field name="iMinHostileAIsToActivate" type="BinHex"/>
 		<field name="iMinGunLockCount" type="BinHex"/>

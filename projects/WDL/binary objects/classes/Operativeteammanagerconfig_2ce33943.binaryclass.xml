@@ -81,12 +81,12 @@
 		</object>
 		<object name="ItemSlotConfigRule">
 			<field name="rulesmithidRule" type="BinHex"/>
-			<field hash="F7AC80C9" type="String"/>
+			<field name="text_rulesmithconstValue" type="String"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="ItemSlotConfigs">
 			<object name="Config">
-				<field hash="F1B1D97B" type="String"/>
+				<field name="text_sName" type="String"/>
 				<field name="sName" type="BinHex"/>
 				<object name="SlotConfig">
 					<object name="Slot">
@@ -98,7 +98,7 @@
 		</object>
 		<object name="DefaultOperativeInventoryItemList">
 			<field name="rulesmithidRule" type="BinHex"/>
-			<field hash="F7AC80C9" type="String"/>
+			<field name="text_rulesmithconstValue" type="String"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="InventoryItemLists">
@@ -124,7 +124,7 @@
 		<object hash="CC9B0EA0">
 			<object hash="981345E1">
 				<field name="selWeaponType" type="Enum"/>
-				<field hash="C30C0A5F" type="String"/>
+				<field name="text_progressionelementProgressionElement" type="String"/>
 				<field name="progressionelementProgressionElement" type="BinHex"/>
 			</object>
 		</object>

@@ -8,9 +8,9 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="MaterialMapping">
 		<object name="MaterialMappings">
-			<field hash="0865A8FF" type="String"/>
+			<field name="text_matMaterialResource" type="String"/>
 			<field name="matMaterialResource" type="BinHex"/>
-			<field hash="810AF893" type="String"/>
+			<field name="text_sMaterialSlotName" type="String"/>
 			<field name="sMaterialSlotName" type="BinHex"/>
 		</object>
 	</object>

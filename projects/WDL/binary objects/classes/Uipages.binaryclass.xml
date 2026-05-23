@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="uimenuMenuOwner" type="BinHex"/>
 	<field name="uimenupageParentMenuPage" type="BinHex"/>
-	<field hash="0181730D" type="String"/>
+	<field name="text_uimenupagetypeidMenuPage" type="String"/>
 	<field name="uimenupagetypeidMenuPage" type="BinHex"/>
 	<field name="uimenutileGridContainer" type="BinHex"/>
 	<field name="bShowLoadingFeedback" type="Boolean"/>
@@ -738,7 +738,7 @@
 			<object hash="CD504759">
 				<field name="texturedbobjectIconTexture" type="BinHex"/>
 				<object hash="D55C1629">
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagTag" type="BinHex"/>
@@ -1894,7 +1894,7 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="7184B4A7">
-			<field hash="E6655990" type="String"/>
+			<field name="text_archArchetype" type="String"/>
 			<field name="archArchetype" type="BinHex"/>
 			<field hash="F54802C3" type="BinHex"/>
 			<field name="angvecRotation" type="BinHex"/>

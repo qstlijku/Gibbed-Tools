@@ -10,7 +10,7 @@
 	<field name="bUseSharedIndex" type="BinHex"/>
 	<object name="Slots">
 		<object name="Slot">
-			<field hash="6E7A746B" type="String"/>
+			<field name="text_SlotName" type="String"/>
 			<field name="SlotName" type="BinHex"/>
 			<object name="Materials">
 				<object name="Material">

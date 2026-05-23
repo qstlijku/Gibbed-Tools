@@ -8,16 +8,16 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fMargin" type="Float"/>
 	<object name="GPSServiceSettings">
-		<field hash="0A50A924" type="String"/>
-		<field name="filePathTexture" type="String"/>
-		<field hash="BCC9D3DF" type="String"/>
-		<field name="fileMinimapPathTexture" type="String"/>
-		<field hash="75D7B00C" type="String"/>
-		<field name="fileAdditionalPathTexture" type="String"/>
-		<field hash="7043614E" type="String"/>
-		<field name="fileRacePathTexture" type="String"/>
-		<field hash="EC48F079" type="String"/>
-		<field name="fileOnlinePathTexture" type="String"/>
+		<field name="text_filePathTexture" type="String"/>
+		<field name="filePathTexture" type="BinHex"/>
+		<field name="text_fileMinimapPathTexture" type="String"/>
+		<field name="fileMinimapPathTexture" type="BinHex"/>
+		<field name="text_fileAdditionalPathTexture" type="String"/>
+		<field name="fileAdditionalPathTexture" type="BinHex"/>
+		<field name="text_fileRacePathTexture" type="String"/>
+		<field name="fileRacePathTexture" type="BinHex"/>
+		<field name="text_fileOnlinePathTexture" type="String"/>
+		<field name="fileOnlinePathTexture" type="BinHex"/>
 		<field name="fWaypointMinimumDistance" type="Float"/>
 		<field name="fTimeToConsiderBeforeRecomputeNewRoute" type="BinHex"/>
 		<field name="fArrowWidthInGame" type="BinHex"/>

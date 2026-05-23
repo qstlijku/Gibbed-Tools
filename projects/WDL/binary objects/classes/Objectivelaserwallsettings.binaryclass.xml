@@ -49,12 +49,12 @@
 			<field name="reinforcementgameplaydescriptorDrone" type="BinHex"/>
 		</object>
 		<object hash="C584F191">
-			<field hash="87E038DB" type="String"/>
+			<field name="text_sndSoundId" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="CB530087">
-			<field hash="87E038DB" type="String"/>
+			<field name="text_sndSoundId" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>

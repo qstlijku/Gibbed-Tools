@@ -11,9 +11,9 @@
 		<field hash="0668A342" type="BinHex"/>
 		<object name="Actors">
 			<object name="Actor">
-				<field hash="918C4185" type="String"/>
+				<field name="text_RoleID" type="String"/>
 				<field name="RoleID" type="BinHex"/>
-				<field hash="6D1E1959" type="String"/>
+				<field name="text_selType" type="String"/>
 				<field name="selType" type="Enum"/>
 				<object name="Object">
 					<field hash="6CD78C8B" type="String"/>
@@ -30,9 +30,9 @@
 					<object name="tagcategoryselectionblackboardFeatureTags">
 						<object name="TagCategorySelectionArray">
 							<object name="TagCategorySelection">
-								<field hash="CF68E402" type="String"/>
+								<field name="text_hid_DTCTH_ClassName" type="String"/>
 								<field name="hid_DTCTH_ClassName" type="BinHex"/>
-								<field hash="BDB3B8D5" type="String"/>
+								<field name="text_UITagCategorySelectionClassID" type="String"/>
 								<field name="UITagCategorySelectionClassID" type="BinHex"/>
 								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -44,7 +44,7 @@
 							</object>
 						</object>
 						<object name="TagDescriptorUI">
-							<field hash="CF68E402" type="String"/>
+							<field name="text_hid_DTCTH_ClassName" type="String"/>
 							<field name="hid_DTCTH_ClassName" type="BinHex"/>
 							<object name="TagCategorySelectionDescriptors">
 								<object name="TagCategorySelectionDescriptor">

@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="6D6B0765" type="String"/>
+	<field name="text_reactionBark" type="String"/>
 	<field name="reactionBark" type="BinHex"/>
 	<field name="phoneCallBark" type="BinHex"/>
 	<field name="patrolResponseBark" type="BinHex"/>

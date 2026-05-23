@@ -6,19 +6,19 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="EA2E4843" type="String"/>
+	<field name="text_sndConfirmNegativeSound" type="String"/>
 	<field name="sndConfirmNegativeSound" type="BinHex"/>
-	<field hash="4300FDF5" type="String"/>
+	<field name="text_sndConfirmPositiveSound" type="String"/>
 	<field name="sndConfirmPositiveSound" type="BinHex"/>
-	<field hash="1C9F81EB" type="String"/>
+	<field name="text_sndNavigationSound" type="String"/>
 	<field name="sndNavigationSound" type="BinHex"/>
-	<field hash="D7D7E9DC" type="String"/>
+	<field name="text_sndHoldStartSound" type="String"/>
 	<field name="sndHoldStartSound" type="BinHex"/>
-	<field hash="FE050C20" type="String"/>
+	<field name="text_sndHoldFinishSound" type="String"/>
 	<field name="sndHoldFinishSound" type="BinHex"/>
-	<field hash="92DA17BC" type="String"/>
+	<field name="text_sndHoldCancelSound" type="String"/>
 	<field name="sndHoldCancelSound" type="BinHex"/>
-	<field hash="4603F635" type="String"/>
+	<field name="text_sndDisplaySound" type="String"/>
 	<field name="sndDisplaySound" type="BinHex"/>
 	<field hash="3620AB8D" type="BinHex"/>
 	<field hash="69A19450" type="BinHex"/>

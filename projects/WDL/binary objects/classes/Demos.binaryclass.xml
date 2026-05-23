@@ -17,19 +17,19 @@
 	<field name="entSpawnPoint" type="BinHex"/>
 	<object name="AutoUnlockOpNames">
 		<object name="OpName">
-			<field hash="A02277CC" type="String"/>
+			<field name="text_StringValue" type="String"/>
 			<field name="StringValue" type="BinHex"/>
 		</object>
 	</object>
 	<object name="AutoStartOpNames">
 		<object name="OpName">
-			<field hash="A02277CC" type="String"/>
+			<field name="text_StringValue" type="String"/>
 			<field name="StringValue" type="BinHex"/>
 		</object>
 	</object>
 	<object name="AutoCompleteOpNames">
 		<object name="OpName">
-			<field hash="A02277CC" type="String"/>
+			<field name="text_StringValue" type="String"/>
 			<field name="StringValue" type="BinHex"/>
 		</object>
 	</object>
@@ -44,7 +44,7 @@
 		</object>
 	</object>
 	<object name="tagcategoryselectionWorldBoundaryTag">
-		<field hash="BDB3B8D5" type="String"/>
+		<field name="text_UITagCategorySelectionClassID" type="String"/>
 		<field name="UITagCategorySelectionClassID" type="BinHex"/>
 		<field name="tagcategoryUITagCategory" type="BinHex"/>
 		<field name="tagcategoryTagCategory" type="BinHex"/>

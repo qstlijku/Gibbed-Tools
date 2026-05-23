@@ -8,9 +8,9 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="selCharacterSex" type="BinHex"/>
 	<field name="selCharacterArchetype" type="BinHex"/>
-	<field hash="BBD46C7F" type="String"/>
+	<field name="text_DialogPersona" type="String"/>
 	<field name="DialogPersona" type="BinHex"/>
-	<field hash="A3D7F66E" type="String"/>
+	<field name="text_DialogMapping" type="String"/>
 	<field name="DialogMapping" type="BinHex"/>
 	<field name="tmplDialogActorOverride" type="BinHex"/>
 	<field name="prismPrismActor" type="BinHex"/>
@@ -26,7 +26,7 @@
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="tagcategoryselectionCastedCharacterTag">
-		<field hash="BDB3B8D5" type="String"/>
+		<field name="text_UITagCategorySelectionClassID" type="String"/>
 		<field name="UITagCategorySelectionClassID" type="BinHex"/>
 		<field name="tagcategoryUITagCategory" type="BinHex"/>
 		<field name="tagcategoryTagCategory" type="BinHex"/>

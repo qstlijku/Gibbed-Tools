@@ -17,7 +17,7 @@
 		<field name="MaxTargetIconOnScreen" type="BinHex"/>
 		<field name="bUsePuppetAsSearchOrigin" type="BinHex"/>
 		<field name="fTargetSearchRange" type="BinHex"/>
-		<field hash="19B49F03" type="String"/>
+		<field name="text_PuppetModePostFXName" type="String"/>
 		<field name="PuppetModePostFXName" type="BinHex"/>
 		<field name="fPathPreviewRepathThreshold" type="BinHex"/>
 	</object>
@@ -83,11 +83,11 @@
 		</object>
 	</object>
 	<object name="Sounds">
-		<field hash="D013EC65" type="String"/>
+		<field name="text_sndTargetHighlightedSound" type="String"/>
 		<field name="sndTargetHighlightedSound" type="BinHex"/>
-		<field hash="81C09B00" type="String"/>
+		<field name="text_sndHackActivatedSound" type="String"/>
 		<field name="sndHackActivatedSound" type="BinHex"/>
-		<field hash="53E892D3" type="String"/>
+		<field name="text_sndHackCanceledSound" type="String"/>
 		<field name="sndHackCanceledSound" type="BinHex"/>
 	</object>
 </class>

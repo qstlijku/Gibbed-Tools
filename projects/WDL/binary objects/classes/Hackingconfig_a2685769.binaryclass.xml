@@ -13,8 +13,8 @@
 	<field name="fDetectorLineThickness" type="Float"/>
 	<field name="fDetectorLineThicknessNethack" type="Float"/>
 	<field name="colorDetectorLineFriendlyColor" type="Vector3"/>
-	<field hash="B809343E" type="String"/>
-	<field name="fileDetectorLineTexture" type="String"/>
+	<field name="text_fileDetectorLineTexture" type="String"/>
+	<field name="fileDetectorLineTexture" type="BinHex"/>
 	<field name="fDetectorMaskTextureScale" type="Float"/>
 	<field name="sDetectorConeMaterialSlotName" type="BinHex"/>
 	<field name="matDetectorConeHostileMaterial" type="BinHex"/>
@@ -23,32 +23,32 @@
 	<field name="sndtpToggledOffStartType" type="BinHex"/>
 	<field name="sndToggledOffEnd" type="BinHex"/>
 	<field name="sndtpToggledOffEndType" type="BinHex"/>
-	<field hash="1022E62B" type="String"/>
+	<field name="text_psMotionDetectorParticles" type="String"/>
 	<field name="psMotionDetectorParticles" type="BinHex"/>
-	<field hash="3AF27FF4" type="String"/>
+	<field name="text_sndHackingStartSound" type="String"/>
 	<field name="sndHackingStartSound" type="BinHex"/>
 	<field name="sndtpHackingStartSoundType" type="BinHex"/>
-	<field hash="DEB364F1" type="String"/>
+	<field name="text_sndHackingSuccessSound" type="String"/>
 	<field name="sndHackingSuccessSound" type="BinHex"/>
 	<field name="sndtpHackingSuccessSoundType" type="BinHex"/>
-	<field hash="93FFCD55" type="String"/>
+	<field name="text_sndHackingFailureSound" type="String"/>
 	<field name="sndHackingFailureSound" type="BinHex"/>
 	<field name="sndtpHackingFailureSoundType" type="BinHex"/>
-	<field hash="04787DBC" type="String"/>
+	<field name="text_sndArmingProximitySound" type="String"/>
 	<field name="sndArmingProximitySound" type="BinHex"/>
 	<field name="sndtpArmingProximitySoundType" type="BinHex"/>
-	<field hash="BA50CA31" type="String"/>
+	<field name="text_sndArmingVehicleSound" type="String"/>
 	<field name="sndArmingVehicleSound" type="BinHex"/>
 	<field name="sndtpArmingVehicleSoundType" type="BinHex"/>
 	<field name="sndVehicleArmingTriggeredSound" type="BinHex"/>
 	<field name="sndtpVehicleArmingTriggeredSoundType" type="BinHex"/>
 	<field name="uiVehicleTakedownBatteryCost" type="UInt32"/>
-	<field hash="736B2E2B" type="String"/>
+	<field name="text_sndLockBoxUnlockingSound" type="String"/>
 	<field name="sndLockBoxUnlockingSound" type="BinHex"/>
 	<field name="sndtpLockBoxUnlockingSoundType" type="BinHex"/>
 	<field name="sndAccessCodeUnlockingSound" type="BinHex"/>
 	<field name="sndtpAccessCodeUnlockingSoundType" type="BinHex"/>
-	<field hash="41C4B399" type="String"/>
+	<field name="text_sndLockedFocusSound" type="String"/>
 	<field name="sndLockedFocusSound" type="BinHex"/>
 	<field name="sndtpLockedFocusSoundType" type="BinHex"/>
 	<field name="sndAccessCodeRewardFocusSound" type="BinHex"/>
@@ -57,14 +57,14 @@
 	<field name="fileUnlockedLockboxNetworkTextureName" type="String"/>
 	<field name="fileUnlockedMicroDroneNetworkTextureName" type="String"/>
 	<field hash="5FB2A94F" type="BinHex"/>
-	<field hash="52F517DF" type="String"/>
+	<field name="text_archIntersectionArchetype" type="String"/>
 	<field name="archIntersectionArchetype" type="BinHex"/>
 	<field name="fNetHackTransitionInDuration" type="Float"/>
 	<field name="fNetHackTransitionOutDuration" type="Float"/>
-	<field hash="5E7409C5" type="String"/>
+	<field name="text_sNetHackStartRumbleId" type="String"/>
 	<field name="sNetHackStartRumbleId" type="BinHex"/>
 	<field name="fNetHackStartRumbleIntensity" type="Float"/>
-	<field hash="5E93A38C" type="String"/>
+	<field name="text_sNetHackStopRumbleId" type="String"/>
 	<field name="sNetHackStopRumbleId" type="BinHex"/>
 	<field name="fNetHackStopRumbleIntensity" type="Float"/>
 	<field name="sndNetHackWaveSound" type="BinHex"/>
@@ -88,16 +88,16 @@
 	<field name="sndtpJammerSignalActivatedSoundType" type="BinHex"/>
 	<field name="sndJammerSignalDeactivatedSound" type="BinHex"/>
 	<field name="sndtpJammerSignalDeactivatedSoundType" type="BinHex"/>
-	<field hash="91B74D84" type="String"/>
+	<field name="text_sndJammerSignalEnterRadiusSound" type="String"/>
 	<field name="sndJammerSignalEnterRadiusSound" type="BinHex"/>
 	<field name="sndtpJammerSignalEnterRadiusSoundType" type="BinHex"/>
-	<field hash="A72EEC0B" type="String"/>
+	<field name="text_sndJammerSignalExitRadiusSound" type="String"/>
 	<field name="sndJammerSignalExitRadiusSound" type="BinHex"/>
 	<field name="sndtpJammerSignalExitRadiusSoundType" type="BinHex"/>
 	<object name="DetectorMaskTextures">
 		<object name="fileTexture">
-			<field hash="1CB97581" type="String"/>
-			<field name="fileTexture" type="String"/>
+			<field name="text_fileTexture" type="String"/>
+			<field name="fileTexture" type="BinHex"/>
 		</object>
 	</object>
 	<object name="sndvarHackingCompletionRtpc">
@@ -153,8 +153,8 @@
 	</object>
 	<object name="ProximityTriggerDisplaySettings">
 		<field name="iCount" type="Int32"/>
-		<field hash="69960ED2" type="String"/>
-		<field name="fileFlipbookTexture" type="String"/>
+		<field name="text_fileFlipbookTexture" type="String"/>
+		<field name="fileFlipbookTexture" type="BinHex"/>
 		<field name="iTextureFlipbookCountX" type="Int32"/>
 		<field name="iTextureFlipbookCountY" type="Int32"/>
 		<field name="fTextureRepeat" type="Float"/>
@@ -167,8 +167,8 @@
 	</object>
 	<object name="ProximityTriggerFastDisplaySettings">
 		<field name="iCount" type="Int32"/>
-		<field hash="69960ED2" type="String"/>
-		<field name="fileFlipbookTexture" type="String"/>
+		<field name="text_fileFlipbookTexture" type="String"/>
+		<field name="fileFlipbookTexture" type="BinHex"/>
 		<field name="iTextureFlipbookCountX" type="Int32"/>
 		<field name="iTextureFlipbookCountY" type="Int32"/>
 		<field name="fTextureRepeat" type="Float"/>

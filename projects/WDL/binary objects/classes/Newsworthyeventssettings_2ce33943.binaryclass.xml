@@ -75,7 +75,7 @@
 				</object>
 			</object>
 			<object name="Sounds">
-				<field hash="171E604F" type="String"/>
+				<field name="text_sndNewsJingleSound" type="String"/>
 				<field name="sndNewsJingleSound" type="BinHex"/>
 				<field hash="D0A89BB2" type="BinHex"/>
 				<field name="fNewsStartBarkDelayMin" type="BinHex"/>
@@ -84,12 +84,12 @@
 				<field name="fNewsReminderBarkIntervalMax" type="BinHex"/>
 				<object name="NewsStartBark">
 					<field name="rulesmithidRule" type="BinHex"/>
-					<field hash="F7AC80C9" type="String"/>
+					<field name="text_rulesmithconstValue" type="String"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
 				<object name="NewsReminderBark">
 					<field name="rulesmithidRule" type="BinHex"/>
-					<field hash="F7AC80C9" type="String"/>
+					<field name="text_rulesmithconstValue" type="String"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
 			</object>

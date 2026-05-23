@@ -9,7 +9,7 @@
 	<object name="DebrisPseudoPrefab">
 		<object name="pseudoprefabElementList">
 			<object name="Element">
-				<field hash="E6655990" type="String"/>
+				<field name="text_archArchetype" type="String"/>
 				<field name="archArchetype" type="BinHex"/>
 				<field name="vectorRelativeOffset" type="BinHex"/>
 				<field name="angvecRelativeAngle" type="BinHex"/>

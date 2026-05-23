@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="2E6F474E" type="String"/>
+	<field name="text_ingameMapID" type="String"/>
 	<field name="ingameMapID" type="BinHex"/>
 	<field name="text_fileIngameMapPathID" type="String"/>
 	<field name="fileIngameMapPathID" type="BinHex"/>

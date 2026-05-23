@@ -94,14 +94,14 @@
 		<field name="fGravityScale" type="Float"/>
 		<field name="bDeactivateWithBrake" type="Boolean"/>
 		<field name="fSpeedIncrease" type="Float"/>
-		<field hash="766BFB99" type="String"/>
+		<field name="text_sRumbleId" type="String"/>
 		<field name="sRumbleId" type="BinHex"/>
 		<field name="fRumbleIntensity" type="Float"/>
 		<field name="fCamShakeIntensity" type="Float"/>
 		<field name="fCamShakeTime" type="Float"/>
 	</object>
 	<object name="VisualSteering">
-		<field hash="43010E7E" type="String"/>
+		<field name="text_sMasterSteeredBone" type="String"/>
 		<field name="sMasterSteeredBone" type="BinHex"/>
 	</object>
 	<object name="RaceSettings">

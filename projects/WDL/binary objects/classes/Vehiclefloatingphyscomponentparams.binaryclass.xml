@@ -88,13 +88,13 @@
 	</object>
 	<object name="RudderBones">
 		<object name="Bone">
-			<field hash="033DAB5D" type="String"/>
+			<field name="text_BoneId" type="String"/>
 			<field name="BoneId" type="BinHex"/>
 		</object>
 	</object>
 	<object name="PropellerBones">
 		<object name="Bone">
-			<field hash="033DAB5D" type="String"/>
+			<field name="text_BoneId" type="String"/>
 			<field name="BoneId" type="BinHex"/>
 		</object>
 	</object>

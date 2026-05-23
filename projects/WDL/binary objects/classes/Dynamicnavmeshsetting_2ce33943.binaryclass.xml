@@ -14,8 +14,8 @@
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
 			<field name="selNavmeshType" type="Enum"/>
-			<field hash="E085CDFD" type="String"/>
-			<field name="fileObjectFile" type="String"/>
+			<field name="text_fileObjectFile" type="String"/>
+			<field name="fileObjectFile" type="BinHex"/>
 			<field name="sSectorFileName" type="String"/>
 			<field name="uiMaxNodes" type="UInt32"/>
 		</object>

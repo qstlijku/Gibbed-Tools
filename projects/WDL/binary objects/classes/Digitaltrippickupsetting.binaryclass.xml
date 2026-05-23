@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="8ECDDD43" type="String"/>
+	<field name="text_archPickup" type="String"/>
 	<field name="archPickup" type="BinHex"/>
-	<field hash="556C21B8" type="String"/>
+	<field name="text_archPickupCone" type="String"/>
 	<field name="archPickupCone" type="BinHex"/>
-	<field hash="0865A8FF" type="String"/>
+	<field name="text_matMaterialResource" type="String"/>
 	<field name="matMaterialResource" type="BinHex"/>
 	<field hash="534E8533" type="BinHex"/>
 </class>

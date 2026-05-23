@@ -12,23 +12,23 @@
 	<field hash="9836807F" type="BinHex"/>
 	<field hash="62ED842B" type="BinHex"/>
 	<field hash="C9C2D860" type="BinHex"/>
-	<field hash="2494EDD5" type="String"/>
+	<field name="text_archFinalDecalArchetype" type="String"/>
 	<field name="archFinalDecalArchetype" type="BinHex"/>
-	<field hash="CF560511" type="String"/>
+	<field name="text_archSelectedProjectionArchetype" type="String"/>
 	<field name="archSelectedProjectionArchetype" type="BinHex"/>
 	<field name="fStimsTimerLengthMin" type="BinHex"/>
 	<field name="fStimsTimerLengthMax" type="BinHex"/>
 	<field name="sndCameraTravel" type="BinHex"/>
-	<field hash="365FCA30" type="String"/>
+	<field name="text_sndCameraStart" type="String"/>
 	<field name="sndCameraStart" type="BinHex"/>
 	<field name="sndCameraStop" type="BinHex"/>
-	<field hash="D272D005" type="String"/>
+	<field name="text_sndGraffitySequenceStart" type="String"/>
 	<field name="sndGraffitySequenceStart" type="BinHex"/>
-	<field hash="00B2C4D6" type="String"/>
+	<field name="text_sndGraffitySequenceStop" type="String"/>
 	<field name="sndGraffitySequenceStop" type="BinHex"/>
-	<field hash="160FA1AB" type="String"/>
+	<field name="text_sndPageClosed" type="String"/>
 	<field name="sndPageClosed" type="BinHex"/>
-	<field hash="BF9ECB14" type="String"/>
+	<field name="text_sndPageOpened" type="String"/>
 	<field name="sndPageOpened" type="BinHex"/>
 	<field hash="79182B60" type="BinHex"/>
 	<field hash="16F3767F" type="BinHex"/>
@@ -39,12 +39,12 @@
 	<field hash="9E047891" type="BinHex"/>
 	<field hash="D817FB49" type="BinHex"/>
 	<field hash="A8093978" type="BinHex"/>
-	<field hash="75EC5940" type="String"/>
+	<field name="text_LocationReachedBarkId" type="String"/>
 	<field name="LocationReachedBarkId" type="BinHex"/>
 	<field hash="280A2BDC" type="BinHex"/>
-	<field hash="E92DD1BF" type="String"/>
+	<field name="text_ArtworkUnlockedBarkId" type="String"/>
 	<field name="ArtworkUnlockedBarkId" type="BinHex"/>
-	<field hash="DD4E7846" type="String"/>
+	<field name="text_InteractingBarkId" type="String"/>
 	<field name="InteractingBarkId" type="BinHex"/>
 	<object name="LockedGraffitis">
 		<object name="streetartgraffiticonfigGraffiti">

@@ -9,7 +9,7 @@
 	<object name="OneSideConvo">
 		<field name="dialactorlistMaleDialogActor" type="BinHex"/>
 		<field name="dialactorlistFemaleDialogActor" type="BinHex"/>
-		<field hash="39699C12" type="String"/>
+		<field name="text_bark" type="String"/>
 		<field name="bark" type="BinHex"/>
 		<field name="fCoolDown" type="Float"/>
 		<field name="fMaxDistToPlayer" type="Float"/>
@@ -25,7 +25,7 @@
 			<field name="dialactorlistDialogActorsList" type="BinHex"/>
 			<object name="Tags">
 				<object name="tagcategoryselectionTag">
-					<field hash="BDB3B8D5" type="String"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>

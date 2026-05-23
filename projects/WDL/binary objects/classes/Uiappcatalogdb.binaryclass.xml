@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="selDefaultAppState" type="Enum"/>
 	<field name="uimenupageMenuPage" type="BinHex"/>
-	<field hash="F232683B" type="String"/>
+	<field name="text_keyboardShortcut" type="String"/>
 	<field name="keyboardShortcut" type="BinHex"/>
 	<field name="bKeyboardShortcutIsOnlineOnly" type="BinHex"/>
 	<field hash="A4077D7D" type="BinHex"/>

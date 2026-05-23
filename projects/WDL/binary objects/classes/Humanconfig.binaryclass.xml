@@ -40,7 +40,7 @@
 			<field name="bIsUnique" type="BinHex"/>
 			<field hash="9E66B082" type="BinHex"/>
 			<field hash="806E5806" type="BinHex"/>
-			<field hash="4288D9B2" type="String"/>
+			<field name="text_sBossID" type="String"/>
 			<field name="sBossID" type="BinHex"/>
 			<object name="TagInfo">
 				<field name="selTagIndicatorCategory" type="Enum"/>
@@ -82,7 +82,7 @@
 		</object>
 	</object>
 	<object name="DialogSettings">
-		<field hash="D8C7B5B6" type="String"/>
+		<field name="text_tmplDialogActor" type="String"/>
 		<field name="tmplDialogActor" type="BinHex"/>
 		<field name="dialactorlistDialogActorList" type="BinHex"/>
 	</object>

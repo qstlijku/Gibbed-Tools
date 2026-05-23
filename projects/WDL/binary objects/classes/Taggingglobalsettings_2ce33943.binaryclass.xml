@@ -12,21 +12,21 @@
 	<field hash="9EBC53F1" type="BinHex"/>
 	<field hash="8BA9FDD1" type="BinHex"/>
 	<object name="TagSounds">
-		<field hash="E83F119A" type="String"/>
+		<field name="text_sndOnGenericTagAddedSound" type="String"/>
 		<field name="sndOnGenericTagAddedSound" type="BinHex"/>
-		<field hash="0801B758" type="String"/>
+		<field name="text_sndOnEnemyTagAddedSound" type="String"/>
 		<field name="sndOnEnemyTagAddedSound" type="BinHex"/>
-		<field hash="6FB111A9" type="String"/>
+		<field name="text_sndOnPoliceTagAddedSound" type="String"/>
 		<field name="sndOnPoliceTagAddedSound" type="BinHex"/>
 		<field hash="69E1EEC5" type="BinHex"/>
 		<field hash="53B8F4C7" type="BinHex"/>
 		<field hash="E6C91021" type="BinHex"/>
 	</object>
 	<object name="AutoTagSpecialEffects">
-		<field hash="463EA461" type="String"/>
+		<field name="text_sndSound" type="String"/>
 		<field name="sndSound" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
-		<field hash="93D2AFB5" type="String"/>
+		<field name="text_psParticleSystem" type="String"/>
 		<field name="psParticleSystem" type="BinHex"/>
 		<field name="vectorParticleSystemRelativeLocation" type="BinHex"/>
 	</object>

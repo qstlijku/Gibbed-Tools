@@ -9,16 +9,16 @@
 	<object name="JumpAndLanding">
 		<field name="fMinSpeedInKmhForJumpLaunchSound" type="Float"/>
 		<field name="fMinAirTimeForLongLandSound" type="Float"/>
-		<field hash="0EF91647" type="String"/>
+		<field name="text_sndJumpLaunch" type="String"/>
 		<field name="sndJumpLaunch" type="BinHex"/>
 		<field hash="CB63B6F9" type="BinHex"/>
-		<field hash="32EDF0C2" type="String"/>
+		<field name="text_sndLandGood" type="String"/>
 		<field name="sndLandGood" type="BinHex"/>
 		<field hash="C668FBB7" type="BinHex"/>
-		<field hash="356C6783" type="String"/>
+		<field name="text_sndLandBad" type="String"/>
 		<field name="sndLandBad" type="BinHex"/>
 		<field hash="64D24395" type="BinHex"/>
-		<field hash="1E70D259" type="String"/>
+		<field name="text_sndLandSmall" type="String"/>
 		<field name="sndLandSmall" type="BinHex"/>
 		<field hash="3EEBD2E1" type="BinHex"/>
 		<field hash="164DE22E" type="String"/>

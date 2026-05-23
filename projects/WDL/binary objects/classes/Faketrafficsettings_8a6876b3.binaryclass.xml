@@ -15,8 +15,8 @@
 	<field name="fDistanceScale" type="Float"/>
 	<field name="fDensityScale" type="Float"/>
 	<field name="fLightsIntensity" type="Float"/>
-	<field hash="99317073" type="String"/>
-	<field name="fileLightTexture" type="String"/>
+	<field name="text_fileLightTexture" type="String"/>
+	<field name="fileLightTexture" type="BinHex"/>
 	<object name="CurrentGen">
 		<field name="fFadeInDistance" type="Float"/>
 		<field name="fFadeOutDistance" type="Float"/>

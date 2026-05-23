@@ -10,7 +10,7 @@
 	<field name="uiNumSequencesBeforeRepeat" type="UInt32"/>
 	<field name="bPingPong" type="Boolean"/>
 	<field name="bIsValid" type="Boolean"/>
-	<field hash="AD02841A" type="String"/>
+	<field name="text_World" type="String"/>
 	<field name="World" type="BinHex"/>
 	<object name="WeatherSteps">
 		<object name="Step">

@@ -21,38 +21,38 @@
 	<field name="iReputationMaxStrikes" type="BinHex"/>
 	<field name="fPackageHealthNotificationThreshold" type="BinHex"/>
 	<field name="fPackageHealthNotificationDuration" type="BinHex"/>
-	<field hash="83DC2170" type="String"/>
+	<field name="text_sndMissionStart" type="String"/>
 	<field name="sndMissionStart" type="BinHex"/>
 	<field name="sndtpMissionStartType" type="BinHex"/>
-	<field hash="8AEF1D4B" type="String"/>
+	<field name="text_sndMisssionCompleted" type="String"/>
 	<field name="sndMisssionCompleted" type="BinHex"/>
 	<field name="sndtpMisssionCompletedType" type="BinHex"/>
-	<field hash="B395E98E" type="String"/>
+	<field name="text_sndMissionFailed" type="String"/>
 	<field name="sndMissionFailed" type="BinHex"/>
 	<field name="sndtpMissionFailedType" type="BinHex"/>
-	<field hash="3775D2EE" type="String"/>
+	<field name="text_sndTimerCountdown" type="String"/>
 	<field name="sndTimerCountdown" type="BinHex"/>
 	<field name="sndtpTimerCountdownType" type="BinHex"/>
-	<field hash="B89D7A00" type="String"/>
+	<field name="text_sndTimerFastCountdown" type="String"/>
 	<field name="sndTimerFastCountdown" type="BinHex"/>
 	<field name="sndtpTimerFastCountdownType" type="BinHex"/>
-	<field hash="E407B263" type="String"/>
+	<field name="text_sndTimerOver" type="String"/>
 	<field name="sndTimerOver" type="BinHex"/>
 	<field name="sndtpTimerOverType" type="BinHex"/>
 	<field name="fPkgDmgPlayerThrownOffVehicle" type="BinHex"/>
 	<field name="fPackageMaxDamageLvl1" type="BinHex"/>
 	<field name="fPackageMaxDamageLvl2" type="BinHex"/>
 	<field name="fPackageMaxDamageLvl3" type="BinHex"/>
-	<field hash="6B627CC8" type="String"/>
+	<field name="text_PackageDamagedBarkId" type="String"/>
 	<field name="PackageDamagedBarkId" type="BinHex"/>
 	<field name="fPackageHealthThresholdForDamageBark" type="BinHex"/>
 	<field name="fPackageDamagedBarkCooldown" type="BinHex"/>
-	<field hash="4B5019C7" type="String"/>
+	<field name="text_TimerExpiringdBarkId" type="String"/>
 	<field name="TimerExpiringdBarkId" type="BinHex"/>
 	<field name="fNearlyExpiredBarkTime" type="BinHex"/>
-	<field hash="092117E7" type="String"/>
+	<field name="text_DeliveryFailedBarkId" type="String"/>
 	<field name="DeliveryFailedBarkId" type="BinHex"/>
-	<field hash="C18E2B28" type="String"/>
+	<field name="text_PackageDeliveredBarkId" type="String"/>
 	<field name="PackageDeliveredBarkId" type="BinHex"/>
 	<field name="fAttentionRequestTime" type="BinHex"/>
 	<field name="phonecommunicationsettingsFirstIntro" type="BinHex"/>
@@ -132,13 +132,13 @@
 	</object>
 	<object name="ProgressionRanks">
 		<object name="Rank">
-			<field hash="B5453AAD" type="String"/>
+			<field name="text_RankId" type="String"/>
 			<field name="RankId" type="BinHex"/>
 			<field name="fRankMax" type="BinHex"/>
 		</object>
 	</object>
 	<object name="ProgressionDefaultRank">
-		<field hash="B5453AAD" type="String"/>
+		<field name="text_RankId" type="String"/>
 		<field name="RankId" type="BinHex"/>
 		<field name="fRankMax" type="BinHex"/>
 	</object>

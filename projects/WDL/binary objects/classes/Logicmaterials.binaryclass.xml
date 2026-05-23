@@ -14,7 +14,7 @@
 	<field name="clrDisplayColor" type="BinHex"/>
 	<field name="bSoundOccluder" type="Boolean"/>
 	<field name="bBlocksExplosions" type="Boolean"/>
-	<field hash="0989CD07" type="String"/>
+	<field name="text_matSkidmarkMaterial" type="String"/>
 	<field name="matSkidmarkMaterial" type="BinHex"/>
 	<object name="sndswvlSoundSwitchValue">
 		<field name="SoundId" type="BinHex"/>

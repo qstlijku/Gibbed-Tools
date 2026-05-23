@@ -15,7 +15,7 @@
 		<object name="Pairing">
 			<field name="tagStoreTag" type="BinHex"/>
 			<object name="tagcategoryselectionUITag">
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagTag" type="BinHex"/>
@@ -26,7 +26,7 @@
 		<object name="Pairing">
 			<field name="wolfskinitemdbWolfskinCompletingPart" type="BinHex"/>
 			<object name="tagcategoryselectionTagSelection">
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -39,7 +39,7 @@
 				<field name="selPoseDefinitionId" type="Enum"/>
 				<field name="selPoseDefinitionPathID" type="Enum"/>
 				<field name="facialposedefinitionExtraFacialPoseDefinition" type="BinHex"/>
-				<field hash="7E23AAAE" type="String"/>
+				<field name="text_selVisualModelOverride" type="String"/>
 				<field name="selVisualModelOverride" type="Enum"/>
 				<object name="BoneAnchor">
 					<field name="selBoneName" type="Enum"/>
@@ -59,15 +59,15 @@
 	<object name="HeadDetailTextures">
 		<object name="Texture">
 			<field name="DisplayName" type="String"/>
-			<field hash="1CB97581" type="String"/>
-			<field name="fileTexture" type="String"/>
+			<field name="text_fileTexture" type="String"/>
+			<field name="fileTexture" type="BinHex"/>
 		</object>
 	</object>
 	<object name="ClothTextures">
 		<object name="Texture">
 			<field name="DisplayName" type="String"/>
-			<field hash="1CB97581" type="String"/>
-			<field name="fileTexture" type="String"/>
+			<field name="text_fileTexture" type="String"/>
+			<field name="fileTexture" type="BinHex"/>
 		</object>
 	</object>
 	<object name="MultiplayerInfos">
@@ -91,7 +91,7 @@
 			<object name="IncludeTags">
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
-						<field hash="BDB3B8D5" type="String"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -102,7 +102,7 @@
 			<object name="ExcludeTags">
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
-						<field hash="BDB3B8D5" type="String"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>

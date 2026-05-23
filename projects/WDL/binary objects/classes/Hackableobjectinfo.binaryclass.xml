@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9185455A" type="String"/>
+	<field name="text_sBark" type="String"/>
 	<field name="sBark" type="BinHex"/>
 	<field name="fBarkDelay" type="Float"/>
 </class>

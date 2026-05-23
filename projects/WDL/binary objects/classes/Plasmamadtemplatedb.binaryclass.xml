@@ -9,14 +9,14 @@
 	<field name="text_fileAnimationPath" type="String"/>
 	<field name="fileAnimationPath" type="BinHex"/>
 	<field name="plasmalookatLookatSettings" type="BinHex"/>
-	<field hash="C3FC89BF" type="String"/>
+	<field name="text_selLayerBlendSettingsID" type="String"/>
 	<field name="selLayerBlendSettingsID" type="BinHex"/>
-	<field hash="765307C2" type="String"/>
+	<field name="text_selCloseUpLayerBlendSettingsID" type="String"/>
 	<field name="selCloseUpLayerBlendSettingsID" type="BinHex"/>
 	<field name="bEnableFootIK" type="BinHex"/>
 	<object name="PlasmaResources">
 		<object name="Resource">
-			<field hash="D0B33F4B" type="String"/>
+			<field name="text_filePlasmaResource" type="String"/>
 			<field name="filePlasmaResource" type="BinHex"/>
 			<field name="selSpeakerSlot" type="BinHex"/>
 			<field name="selSpeakerSex" type="BinHex"/>

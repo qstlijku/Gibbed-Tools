@@ -34,7 +34,7 @@
 			</object>
 			<object name="Variables">
 				<object name="Variable">
-					<field hash="C85B47A3" type="String"/>
+					<field name="text_progressionmodvariablesVariable" type="String"/>
 					<field name="progressionmodvariablesVariable" type="BinHex"/>
 					<field name="Value" type="Vector4"/>
 					<field name="progressionmodexportvariablesMultiplier" type="BinHex"/>

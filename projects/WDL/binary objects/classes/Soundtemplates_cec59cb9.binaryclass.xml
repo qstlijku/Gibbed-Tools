@@ -8,9 +8,9 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="ExternalSourceTemplates">
 		<object name="ExternalSourceTemplate">
-			<field hash="595D0033" type="String"/>
+			<field name="text_name" type="String"/>
 			<field name="name" type="BinHex"/>
-			<field hash="4A69B5F9" type="String"/>
+			<field name="text_sndExternalSource" type="String"/>
 			<field name="sndExternalSource" type="BinHex"/>
 			<field name="useFacial" type="BinHex"/>
 			<field name="is2D" type="BinHex"/>
