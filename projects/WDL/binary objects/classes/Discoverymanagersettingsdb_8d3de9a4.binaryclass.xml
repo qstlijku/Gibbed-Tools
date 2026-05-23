@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Discoverymanagersettingsdb_8d3de9a4Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="discoverysettingsActivationDiscoverySettings" type="BinHex"/>
+	<field name="discoverysettingsLocateObjectiveDiscoverySettings" type="BinHex"/>
+	<field hash="F766B74F" type="BinHex"/>
+	<field name="discoverysettingsTalkersDiscoverySettings" type="BinHex"/>
+	<field hash="915E07DE" type="BinHex"/>
+	<field hash="9F4B7F6D" type="BinHex"/>
+	<object hash="92FAE546">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+</class>

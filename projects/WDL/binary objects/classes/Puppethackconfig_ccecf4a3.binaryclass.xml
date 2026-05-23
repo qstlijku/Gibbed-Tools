@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Puppethackconfig_ccecf4a3Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="77FCA088">
+		<field hash="FA3202D5" type="BinHex"/>
+		<field hash="3E3FA1F3" type="BinHex"/>
+		<field hash="D381C6DF" type="BinHex"/>
+		<field hash="13A35E4F" type="BinHex"/>
+		<field hash="0F64BB73" type="BinHex"/>
+	</object>
+	<object hash="608E6215">
+		<field hash="2C9067E8" type="BinHex"/>
+		<field hash="2F919A0F" type="BinHex"/>
+		<field hash="EAA2CFDE" type="BinHex"/>
+		<field hash="19B49F03" type="String"/>
+		<field hash="255D25B2" type="BinHex"/>
+		<field hash="6183B1B8" type="BinHex"/>
+	</object>
+	<object hash="99D2AC4E">
+		<field hash="677678FE" type="BinHex"/>
+		<field hash="A0BEF577" type="BinHex"/>
+		<object hash="4D426894">
+			<field hash="1CFAC445" type="BinHex"/>
+			<object hash="4D426894">
+				<field hash="1CFAC445" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="218780AD">
+		<object name="Context">
+			<field hash="A8FEEB76" type="String"/>
+			<field hash="F1682801" type="BinHex"/>
+			<field hash="BB552FA7" type="BinHex"/>
+			<field hash="995CF1B8" type="BinHex"/>
+			<field hash="E035E191" type="BinHex"/>
+			<field hash="6FEEFD5E" type="BinHex"/>
+			<field hash="43D33C6E" type="BinHex"/>
+			<field hash="1A2EC7AE" type="BinHex"/>
+			<object hash="88F829D2">
+				<field name="selInteractionType" type="Enum"/>
+				<field hash="50A5DCC3" type="BinHex"/>
+				<field hash="CA84062B" type="String"/>
+				<object hash="E6EFC469">
+					<object hash="83F2181A">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object hash="7432F5D8">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+			<object hash="EC938112">
+				<field name="selInteractionType" type="Enum"/>
+				<field hash="50A5DCC3" type="BinHex"/>
+				<field hash="CA84062B" type="String"/>
+				<object hash="E6EFC469">
+					<object hash="83F2181A">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object hash="7432F5D8">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+			<object hash="9B94B184">
+				<field name="selInteractionType" type="Enum"/>
+				<field hash="50A5DCC3" type="BinHex"/>
+				<field hash="CA84062B" type="String"/>
+				<object hash="E6EFC469">
+					<object hash="83F2181A">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+				<object hash="7432F5D8">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Sounds">
+		<field hash="D013EC65" type="String"/>
+		<field hash="5ABBF1EF" type="BinHex"/>
+		<field hash="81C09B00" type="String"/>
+		<field hash="3D9AF1A0" type="BinHex"/>
+		<field hash="53E892D3" type="String"/>
+		<field hash="6F012862" type="BinHex"/>
+	</object>
+</class>

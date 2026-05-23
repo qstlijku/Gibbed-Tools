@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Quickopssettingsdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bEnabled" type="Boolean"/>
+	<object hash="74E5F223">
+		<object hash="CD211C25">
+			<field hash="E4F58863" type="BinHex"/>
+			<field hash="9275492E" type="BinHex"/>
+			<field name="bIsEnabled" type="Boolean"/>
+			<object hash="3DDB1C89">
+				<object hash="0CE32E30">
+					<object hash="2F3FA927">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+					<object hash="7D86E3E3">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

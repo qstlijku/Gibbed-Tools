@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Interacttounlockgameplayglobalsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="8BD9B8B2" type="BinHex"/>
+	<field hash="E096D36B" type="BinHex"/>
+	<field hash="C01C86D8" type="BinHex"/>
+	<field hash="BEE50628" type="BinHex"/>
+	<field hash="A998FF6A" type="BinHex"/>
+</class>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Vrpuzzlessettings_18893437Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="profilingpathpresetPathOffPreset" type="BinHex"/>
+	<field name="profilingpathpresetPathOnPreset" type="BinHex"/>
+	<field name="profilingpathpresetPathOnAlarmPreset" type="BinHex"/>
+	<field name="colorNodePoweredColor" type="Vector3"/>
+	<field name="colorNodeNotPoweredColor" type="Vector3"/>
+	<field name="colorAlarmColorNodeReset" type="Vector3"/>
+	<field name="colorAlarmColorFullReset" type="Vector3"/>
+	<field name="colorAlarmColorShutDownWithInvestigation" type="Vector3"/>
+	<field name="selInvestigationStimType" type="Enum"/>
+	<field name="fInvestigationStimRadius" type="Float"/>
+	<field name="vectorAlarmNodesTimeMarkerOffset" type="BinHex"/>
+	<field name="fAlarmModeTime" type="Float"/>
+	<field name="fClosePuzzleDistance" type="Float"/>
+	<field name="fForceClosePuzzleDistance" type="Float"/>
+	<field name="fInactivePuzzleDistance" type="Float"/>
+	<field name="fOutOfRangeDuration" type="Float"/>
+	<object name="locstridAlarmColorNodeReset">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridAlarmColorFullReset">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridAlarmColorShutDownWithInvestigation">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="DD1007E9">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="38F210A7">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="65C4C944">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="E2373140">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="FF42096A">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="EA3A8196">
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="92B29300">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="402C40FD">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="FD7912EB">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="6F1843F4">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="758E74F1">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="B0892118">
+		<field hash="87E038DB" type="String"/>
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+</class>

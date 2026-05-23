@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronealertstatesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="1A22B2A4" type="BinHex"/>
+	<field hash="E36447F1" type="BinHex"/>
+	<field hash="CDC890C2" type="BinHex"/>
+	<field hash="F2F9C8AE" type="BinHex"/>
+	<field hash="C6211711" type="BinHex"/>
+	<field hash="C221E4E7" type="BinHex"/>
+	<field hash="B8FB6C11" type="BinHex"/>
+	<field hash="0BCEB896" type="BinHex"/>
+	<field hash="24889CBD" type="BinHex"/>
+	<field hash="780AE42B" type="BinHex"/>
+	<field hash="74F384D2" type="BinHex"/>
+	<field hash="3F4F9E78" type="BinHex"/>
+	<field hash="0342A121" type="BinHex"/>
+</class>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Bagleyhackeddata_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="5858FB62">
+		<field hash="2669ECB6" type="BinHex"/>
+		<field hash="EE53D842" type="BinHex"/>
+		<field hash="12B7A2E4" type="BinHex"/>
+		<field hash="617BDAC7" type="BinHex"/>
+		<field hash="FE392FE1" type="BinHex"/>
+		<field hash="CF8A4437" type="BinHex"/>
+		<object name="IsActivated">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="183CD630">
+			<object hash="84FB3782">
+				<field hash="1EC4B5DC" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="B0568086">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="5858FB62">
+			<field hash="2669ECB6" type="BinHex"/>
+			<field hash="EE53D842" type="BinHex"/>
+			<field hash="12B7A2E4" type="BinHex"/>
+			<field hash="617BDAC7" type="BinHex"/>
+			<field hash="FE392FE1" type="BinHex"/>
+			<field hash="CF8A4437" type="BinHex"/>
+			<object name="IsActivated">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="183CD630">
+				<object hash="84FB3782">
+					<field hash="1EC4B5DC" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="B0568086">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

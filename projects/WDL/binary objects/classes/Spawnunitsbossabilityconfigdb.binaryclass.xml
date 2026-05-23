@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SpawnunitsbossabilityconfigdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="EB7E3FDE" type="BinHex"/>
+	<field hash="1F9FA18B" type="BinHex"/>
+	<object name="Groups">
+		<object name="Groups">
+			<field hash="C36F6B21" type="BinHex"/>
+			<object hash="28715B4D">
+				<object hash="28715B4D">
+					<field hash="C670B1BD" type="BinHex"/>
+					<field name="selUnitType" type="Enum"/>
+					<field hash="25DD4CED" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

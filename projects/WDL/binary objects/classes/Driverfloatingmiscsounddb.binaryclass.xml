@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DriverfloatingmiscsounddbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="JumpAndLanding">
+		<field name="fMinSpeedInKmhForJumpLaunchSound" type="Float"/>
+		<field name="fMinAirTimeForLongLandSound" type="Float"/>
+		<field hash="0EF91647" type="String"/>
+		<field name="sndJumpLaunch" type="BinHex"/>
+		<field hash="CB63B6F9" type="BinHex"/>
+		<field hash="32EDF0C2" type="String"/>
+		<field name="sndLandGood" type="BinHex"/>
+		<field hash="C668FBB7" type="BinHex"/>
+		<field hash="356C6783" type="String"/>
+		<field name="sndLandBad" type="BinHex"/>
+		<field hash="64D24395" type="BinHex"/>
+		<field hash="1E70D259" type="String"/>
+		<field name="sndLandSmall" type="BinHex"/>
+		<field hash="3EEBD2E1" type="BinHex"/>
+		<field hash="164DE22E" type="String"/>
+		<field hash="8FE88C74" type="BinHex"/>
+		<field hash="5238D248" type="BinHex"/>
+		<field hash="FEB68BF2" type="BinHex"/>
+		<field hash="5B33A427" type="BinHex"/>
+		<field hash="8FEE5619" type="String"/>
+		<field hash="7D9C10D7" type="BinHex"/>
+		<field hash="AF7556A1" type="BinHex"/>
+		<field hash="529F9482" type="String"/>
+		<field hash="2EB10973" type="BinHex"/>
+		<field hash="9705343C" type="BinHex"/>
+		<field hash="4E371F43" type="BinHex"/>
+		<field hash="93E7417F" type="BinHex"/>
+		<field hash="0608C96D" type="String"/>
+		<field hash="8D2FD4E9" type="BinHex"/>
+		<field hash="A29D7830" type="BinHex"/>
+		<field hash="B986ED26" type="BinHex"/>
+		<field hash="4F9A4E52" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ScenetotexturestudiosParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="101D25D0" type="BinHex"/>
+	<field hash="83008599" type="BinHex"/>
+	<field hash="2A37528A" type="BinHex"/>
+	<field hash="1ADB622B" type="BinHex"/>
+	<field hash="F0D31BAE" type="BinHex"/>
+	<field hash="ED4ADAC6" type="BinHex"/>
+	<field hash="8D0A40C9" type="BinHex"/>
+	<field hash="F0ABEF4B" type="BinHex"/>
+	<field hash="6D6FEF19" type="BinHex"/>
+	<field hash="59C3B82C" type="BinHex"/>
+	<field hash="322DAAC0" type="BinHex"/>
+	<field hash="45004630" type="BinHex"/>
+	<field hash="FD914198" type="BinHex"/>
+	<field hash="87B7E81A" type="BinHex"/>
+	<field hash="95B764D3" type="BinHex"/>
+	<field hash="0BD03994" type="String"/>
+	<field hash="88C97ABF" type="BinHex"/>
+	<object name="Lights">
+		<object name="Light">
+			<field name="bEnabled" type="Boolean"/>
+			<field name="selType" type="Enum"/>
+			<field hash="26067E78" type="BinHex"/>
+			<field hash="A5A9C91D" type="BinHex"/>
+			<field hash="F4C0BA08" type="BinHex"/>
+			<field hash="D8AF0244" type="BinHex"/>
+			<field hash="D7D82299" type="BinHex"/>
+			<field name="colorColor" type="Vector3"/>
+			<field hash="575EB40C" type="BinHex"/>
+			<field name="bHasSpecular" type="Boolean"/>
+			<field name="lightcolorsettingLightColorSetting" type="BinHex"/>
+			<field name="selColorMode" type="Enum"/>
+			<field name="clrColor" type="BinHex"/>
+			<field hash="ACD13808" type="BinHex"/>
+			<field name="fColorTemperature" type="Float"/>
+			<field name="fTint" type="Float"/>
+			<field hash="22746ADB" type="BinHex"/>
+			<field hash="40FAA9EE" type="BinHex"/>
+			<field name="fSourceAreaRadius" type="Float"/>
+			<field hash="9FDF7AE8" type="BinHex"/>
+			<field name="fLightCutOffRadius" type="Float"/>
+			<field name="fTurnOffLength" type="Float"/>
+			<field name="fTurnOffFallOffRatio" type="Float"/>
+			<field name="bEnableDistantLight" type="Boolean"/>
+			<field hash="D4A57D05" type="BinHex"/>
+			<field name="bEnabledInEditor" type="Boolean"/>
+			<field name="bDisabledInCinematics" type="Boolean"/>
+			<field name="bNeedsElectricPower" type="Boolean"/>
+			<field name="bHasElectricBackup" type="Boolean"/>
+			<field name="bAffectedByTimeOfDay" type="Boolean"/>
+			<field name="uiLightIntensityCurveIndex" type="UInt32"/>
+			<field name="bCastShadow" type="Boolean"/>
+			<field hash="220F9CAF" type="BinHex"/>
+			<field hash="24CF5CE9" type="BinHex"/>
+			<field hash="BF64C511" type="BinHex"/>
+			<field hash="C49D6823" type="BinHex"/>
+			<field hash="84D21055" type="BinHex"/>
+			<field hash="D5E90065" type="BinHex"/>
+			<field name="selPriority" type="Enum"/>
+			<field name="uiShadowGroup" type="UInt32"/>
+			<field name="iShadowFadeFactorCurveIndex" type="Int32"/>
+			<field name="fCastShadowMaxDistance" type="Float"/>
+			<field name="fShadowFadeOutRatio" type="Float"/>
+			<field hash="23226F47" type="BinHex"/>
+			<field name="vectorPosition" type="BinHex"/>
+			<field hash="2B1BFA99" type="BinHex"/>
+			<field hash="0C3CE552" type="BinHex"/>
+			<field hash="32D31EA9" type="BinHex"/>
+			<field name="fShadowDepthBiasScale" type="Float"/>
+			<field name="fShadowSlopeScaledDepthBiasScale" type="Float"/>
+			<field hash="67FE8E7C" type="BinHex"/>
+			<field name="fShadowVerticalFadeRange" type="Float"/>
+			<field name="bOrientedOmniShadow" type="Boolean"/>
+			<field name="fFlickeringFrequency" type="Float"/>
+			<field name="fFlickeringAmplitude" type="Float"/>
+			<field name="fFlickeringNoise" type="Float"/>
+			<field name="bIsReflector" type="Boolean"/>
+			<field name="bReflectorUseSun" type="Boolean"/>
+			<field name="bReflectorUseMoon" type="Boolean"/>
+			<field name="bReflectorUseDistanceFalloff" type="Boolean"/>
+			<field name="selReflectorTimeCurve" type="Enum"/>
+			<object name="Affects">
+				<field name="bGeometry" type="Boolean"/>
+				<field name="bParticles" type="Boolean"/>
+				<field name="bWater" type="Boolean"/>
+				<field name="bVolumetricFog" type="Boolean"/>
+				<field name="bGlobalIllumination" type="Boolean"/>
+				<field name="bNethackingDeviceArea" type="Boolean"/>
+				<field name="bBakedDirectLighting" type="Boolean"/>
+			</object>
+			<object name="ProjectedVideo">
+				<field hash="2DA613A5" type="BinHex"/>
+				<field hash="29FA48B6" type="BinHex"/>
+				<field name="fileProjectedVideo" type="String"/>
+				<field name="bPlayOnLoad" type="Boolean"/>
+				<field name="iShareChannel" type="Int32"/>
+			</object>
+			<object name="ClipPlanes">
+				<object name="ClipPlane">
+					<field name="angYaw" type="Float"/>
+					<field name="angPitch" type="Float"/>
+					<field name="fDistance" type="Float"/>
+					<field name="fFadeDistance" type="Float"/>
+					<field name="bShowInEditorIfSelected" type="Boolean"/>
+					<field hash="CC9D6D25" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="EDDAB8E7">
+				<field hash="5DBFDBF2" type="BinHex"/>
+				<field hash="6671B2D8" type="BinHex"/>
+				<field hash="27A97854" type="BinHex"/>
+				<field hash="4A12DEF9" type="BinHex"/>
+			</object>
+			<object name="curveReflectorIntensityOffset">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="A3056B3C">
+			<field hash="BF6DB2D7" type="BinHex"/>
+			<field hash="EBD3D101" type="BinHex"/>
+			<object name="Light">
+				<field name="bEnabled" type="Boolean"/>
+				<field name="selType" type="Enum"/>
+				<field name="colorColor" type="Vector3"/>
+				<field hash="26067E78" type="BinHex"/>
+				<field hash="A5A9C91D" type="BinHex"/>
+				<field hash="F4C0BA08" type="BinHex"/>
+				<field hash="D8AF0244" type="BinHex"/>
+				<field hash="D7D82299" type="BinHex"/>
+				<field hash="575EB40C" type="BinHex"/>
+				<field hash="23226F47" type="BinHex"/>
+				<field name="vectorPosition" type="BinHex"/>
+				<field hash="2B1BFA99" type="BinHex"/>
+				<field hash="0C3CE552" type="BinHex"/>
+				<field hash="32D31EA9" type="BinHex"/>
+				<field name="bHasSpecular" type="Boolean"/>
+				<field name="lightcolorsettingLightColorSetting" type="BinHex"/>
+				<field name="selColorMode" type="Enum"/>
+				<field name="clrColor" type="BinHex"/>
+				<field hash="ACD13808" type="BinHex"/>
+				<field name="fColorTemperature" type="Float"/>
+				<field name="fTint" type="Float"/>
+				<field hash="22746ADB" type="BinHex"/>
+				<field hash="40FAA9EE" type="BinHex"/>
+				<field name="fSourceAreaRadius" type="Float"/>
+				<field hash="9FDF7AE8" type="BinHex"/>
+				<field name="fLightCutOffRadius" type="Float"/>
+				<field name="fTurnOffLength" type="Float"/>
+				<field name="fTurnOffFallOffRatio" type="Float"/>
+				<field name="bEnableDistantLight" type="Boolean"/>
+				<field hash="D4A57D05" type="BinHex"/>
+				<field name="bEnabledInEditor" type="Boolean"/>
+				<field name="bDisabledInCinematics" type="Boolean"/>
+				<field name="bNeedsElectricPower" type="Boolean"/>
+				<field name="bHasElectricBackup" type="Boolean"/>
+				<field name="bAffectedByTimeOfDay" type="Boolean"/>
+				<field name="uiLightIntensityCurveIndex" type="UInt32"/>
+				<field name="bCastShadow" type="Boolean"/>
+				<field hash="220F9CAF" type="BinHex"/>
+				<field hash="24CF5CE9" type="BinHex"/>
+				<field hash="BF64C511" type="BinHex"/>
+				<field hash="C49D6823" type="BinHex"/>
+				<field hash="84D21055" type="BinHex"/>
+				<field hash="D5E90065" type="BinHex"/>
+				<field name="selPriority" type="Enum"/>
+				<field name="uiShadowGroup" type="UInt32"/>
+				<field name="iShadowFadeFactorCurveIndex" type="Int32"/>
+				<field name="fCastShadowMaxDistance" type="Float"/>
+				<field name="fShadowFadeOutRatio" type="Float"/>
+				<field name="fShadowDepthBiasScale" type="Float"/>
+				<field name="fShadowSlopeScaledDepthBiasScale" type="Float"/>
+				<field hash="67FE8E7C" type="BinHex"/>
+				<field name="fShadowVerticalFadeRange" type="Float"/>
+				<field name="bOrientedOmniShadow" type="Boolean"/>
+				<field name="fFlickeringFrequency" type="Float"/>
+				<field name="fFlickeringAmplitude" type="Float"/>
+				<field name="fFlickeringNoise" type="Float"/>
+				<field name="bIsReflector" type="Boolean"/>
+				<field name="bReflectorUseSun" type="Boolean"/>
+				<field name="bReflectorUseMoon" type="Boolean"/>
+				<field name="bReflectorUseDistanceFalloff" type="Boolean"/>
+				<field name="selReflectorTimeCurve" type="Enum"/>
+				<object name="Affects">
+					<field name="bGeometry" type="Boolean"/>
+					<field name="bParticles" type="Boolean"/>
+					<field name="bWater" type="Boolean"/>
+					<field name="bVolumetricFog" type="Boolean"/>
+					<field name="bGlobalIllumination" type="Boolean"/>
+					<field name="bNethackingDeviceArea" type="Boolean"/>
+					<field name="bBakedDirectLighting" type="Boolean"/>
+				</object>
+				<object name="ProjectedVideo">
+					<field hash="2DA613A5" type="BinHex"/>
+					<field hash="29FA48B6" type="BinHex"/>
+					<field name="fileProjectedVideo" type="String"/>
+					<field name="bPlayOnLoad" type="Boolean"/>
+					<field name="iShareChannel" type="Int32"/>
+				</object>
+				<object name="ClipPlanes">
+					<object name="ClipPlane">
+						<field name="angYaw" type="Float"/>
+						<field name="angPitch" type="Float"/>
+						<field name="fDistance" type="Float"/>
+						<field name="fFadeDistance" type="Float"/>
+						<field name="bShowInEditorIfSelected" type="Boolean"/>
+						<field hash="CC9D6D25" type="BinHex"/>
+					</object>
+				</object>
+				<object hash="EDDAB8E7">
+					<field hash="5DBFDBF2" type="BinHex"/>
+					<field hash="6671B2D8" type="BinHex"/>
+					<field hash="27A97854" type="BinHex"/>
+					<field hash="4A12DEF9" type="BinHex"/>
+				</object>
+				<object name="curveReflectorIntensityOffset">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

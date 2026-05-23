@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PgtingredientfamiliesParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="nDefaultMin" type="BinHex"/>
+	<field name="nDefaultMax" type="BinHex"/>
+	<field name="cloupsetAffiliationUpdateSettings" type="BinHex"/>
+	<object name="ContentPerAffiliation">
+		<object name="ContentPerAffiliation">
+			<field name="selAffiliation" type="Enum"/>
+			<object name="Archetypes">
+				<object name="Archetype">
+					<field hash="E6655990" type="String"/>
+					<field name="archArchetype" type="BinHex"/>
+				</object>
+			</object>
+			<object name="VehicleSpawnInfos">
+				<object name="VehicleSpawnInfo">
+					<field name="vehicleinfoVehicleSpawnInfo" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ObjectiveinteractivetalkersettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="B4945DFB" type="BinHex"/>
+	<object hash="DADF8182">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="3CFBA4A2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="14BBAE7D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="FC293553">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="Target">
+		<field hash="D64B1A65" type="BinHex"/>
+		<field hash="A6871411" type="String"/>
+		<field hash="3A7D1D8B" type="BinHex"/>
+	</object>
+</class>

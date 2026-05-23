@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Ringofsteelsettings_b52c1524Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9F75F432" type="BinHex"/>
+	<field name="fDeactivationDistance" type="Float"/>
+	<field hash="8B7D2062" type="BinHex"/>
+	<field hash="E4BAA0C8" type="BinHex"/>
+	<field hash="090C61F8" type="BinHex"/>
+	<field hash="321074B7" type="BinHex"/>
+	<field hash="4021AFB8" type="BinHex"/>
+	<field hash="EA21CC1D" type="BinHex"/>
+	<field hash="D45BB6B8" type="BinHex"/>
+	<field hash="AE0BC9C1" type="BinHex"/>
+	<field hash="23335519" type="BinHex"/>
+	<field hash="422A47D2" type="String"/>
+	<field hash="C90D5A56" type="BinHex"/>
+	<object hash="86F04A50">
+		<field hash="6315FC0F" type="BinHex"/>
+		<field hash="D0D318A3" type="BinHex"/>
+		<field hash="338EA679" type="BinHex"/>
+		<field hash="D8009882" type="BinHex"/>
+	</object>
+	<object name="Profiler">
+		<field hash="6446C6E2" type="String"/>
+		<field hash="B22C3F60" type="BinHex"/>
+		<field hash="A969CA31" type="BinHex"/>
+		<field hash="50B30B71" type="String"/>
+		<field hash="ECE961D1" type="BinHex"/>
+		<field hash="1FC21215" type="BinHex"/>
+		<field hash="2738586F" type="BinHex"/>
+		<field hash="80EB3BFC" type="BinHex"/>
+	</object>
+	<object hash="B0C20042">
+		<field hash="E302FBA4" type="BinHex"/>
+		<field hash="BF3F1DD0" type="String"/>
+		<field hash="FC19D6E1" type="BinHex"/>
+		<field hash="8D4C64BE" type="String"/>
+		<field hash="C26E3FD6" type="BinHex"/>
+		<field hash="D1CAB116" type="String"/>
+		<field hash="1B21EEBA" type="BinHex"/>
+	</object>
+	<object hash="732599D2">
+		<field hash="AC494C17" type="String"/>
+		<field hash="0076AC14" type="BinHex"/>
+		<field hash="D6CD9B1E" type="String"/>
+		<field hash="1D0E4204" type="BinHex"/>
+		<field hash="1A928BF6" type="String"/>
+		<field hash="59B440C7" type="BinHex"/>
+		<field hash="39073945" type="BinHex"/>
+		<field hash="07B2F1CD" type="BinHex"/>
+		<field hash="C38FCF65" type="BinHex"/>
+		<field hash="9029D781" type="BinHex"/>
+	</object>
+	<object hash="076A0B0B">
+		<field hash="A420F543" type="BinHex"/>
+		<field hash="E6F4293E" type="BinHex"/>
+	</object>
+</class>

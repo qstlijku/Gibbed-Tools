@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ClosedcaptionsubgroupsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fCooldown" type="Float"/>
+	<field hash="A2CFF32C" type="BinHex"/>
+	<field name="fMaxRadius" type="Float"/>
+	<field name="fMinRadius" type="Float"/>
+	<field hash="FA54B5B3" type="BinHex"/>
+	<field hash="AB1DC8AB" type="BinHex"/>
+	<field hash="DB6DCECA" type="BinHex"/>
+	<field hash="F6E338E3" type="BinHex"/>
+	<field hash="13FD054B" type="BinHex"/>
+	<object hash="AD567963">
+		<field hash="5CD2F06A" type="BinHex"/>
+		<field hash="DE5BB23C" type="BinHex"/>
+		<field hash="2BBBB894" type="BinHex"/>
+		<field hash="285C2D31" type="BinHex"/>
+		<field hash="11FD150E" type="BinHex"/>
+		<field hash="01540C26" type="BinHex"/>
+		<field hash="79070FFE" type="BinHex"/>
+		<field hash="7AAFD532" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DownloadgameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fBaseDownLoadDuration" type="Float"/>
+	<field hash="3DDB37B8" type="BinHex"/>
+	<field hash="1D52A984" type="BinHex"/>
+	<field hash="11D247E2" type="BinHex"/>
+	<field name="bShouldTestPlayersDistance" type="Boolean"/>
+	<field hash="7F2BC2A8" type="BinHex"/>
+	<field hash="BEA4E141" type="BinHex"/>
+	<field hash="A568F5FA" type="BinHex"/>
+	<field hash="90895C16" type="BinHex"/>
+	<field name="fAllPlayersInRangeCoef" type="Float"/>
+	<field hash="755340FD" type="BinHex"/>
+	<field hash="E1B8D51E" type="BinHex"/>
+	<field hash="ED43CB8A" type="BinHex"/>
+	<field hash="04A29DA3" type="BinHex"/>
+	<field hash="775E9397" type="BinHex"/>
+	<field hash="F4CE5E2A" type="BinHex"/>
+	<field hash="4A0C596D" type="BinHex"/>
+	<field hash="49FB1BF2" type="BinHex"/>
+	<field hash="A660619A" type="BinHex"/>
+	<field hash="6A6D1A95" type="BinHex"/>
+	<field name="bIsProgressBarInverted" type="Boolean"/>
+	<field name="fDownloadResetDuration" type="Float"/>
+	<field name="fDownloadBlockedDuration" type="Float"/>
+	<field name="fDownloadBlockedStartRatio" type="Float"/>
+	<field hash="D1B6746C" type="BinHex"/>
+	<field hash="48BF25D6" type="BinHex"/>
+	<field hash="E4CBB8A6" type="BinHex"/>
+	<field name="fAttractStimRadius" type="Float"/>
+	<object name="locstridDownloadDisplayString">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridDownloadBoostedDisplayString">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridPausedDisplayString">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="6AE3719C">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="C799772D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridDownloadResetWarningString">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridDownloadBlockedString">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="F9528B4E"/>
+	<object hash="165329B8">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="A4D38395">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+</class>

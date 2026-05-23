@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dg scenes familiesParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="AB079B47" type="BinHex"/>
+	<field hash="A235C8C8" type="String"/>
+	<field hash="103D1006" type="BinHex"/>
+	<object hash="9F42217F">
+		<object hash="EA4F616E">
+			<field hash="EA4F616E" type="BinHex"/>
+		</object>
+	</object>
+</class>

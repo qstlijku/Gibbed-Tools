@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Soundtemplates_cec59cb9Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="C709FBF0">
+		<object hash="D139342E">
+			<field hash="595D0033" type="String"/>
+			<field name="name" type="BinHex"/>
+			<field hash="4A69B5F9" type="String"/>
+			<field hash="D3CCDBA3" type="BinHex"/>
+			<field hash="8C480F5E" type="BinHex"/>
+			<field hash="AD1C6064" type="BinHex"/>
+		</object>
+	</object>
+</class>

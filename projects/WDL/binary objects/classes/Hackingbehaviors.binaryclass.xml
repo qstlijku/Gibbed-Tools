@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackingbehaviorsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="HackingBehavior">
+		<field hash="6D1E1959" type="String"/>
+		<field name="selType" type="Enum"/>
+		<object name="Object">
+			<field hash="5D0563E7" type="BinHex"/>
+			<object name="BehaviorCategorys">
+				<object name="Category">
+					<object name="BehaviorCategory">
+						<field name="selButtonMapping" type="Enum"/>
+						<field name="selCategory" type="Enum"/>
+						<field hash="2D6BE765" type="BinHex"/>
+						<field hash="2710B8C4" type="BinHex"/>
+						<field hash="90EDC2D6" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="Sounds">
+				<field hash="FE8D29CE" type="String"/>
+				<field name="sndHackingDisplayCategorySelectedSoundId" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

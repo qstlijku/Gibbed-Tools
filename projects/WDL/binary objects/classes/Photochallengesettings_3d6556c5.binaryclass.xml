@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Photochallengesettings_3d6556c5Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="591BBC41" type="BinHex"/>
+	<field hash="CB46FBDA" type="BinHex"/>
+	<field hash="0825D3BC" type="BinHex"/>
+	<object hash="090D7075">
+		<object hash="654E0DE0">
+			<field hash="654E0DE0" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="1FEB6DEC">
+		<field hash="FBE89548" type="BinHex"/>
+		<field hash="830523E1" type="String"/>
+		<field name="selTagType" type="Enum"/>
+		<field hash="BD70EEED" type="BinHex"/>
+		<field hash="828AC6CC" type="BinHex"/>
+		<field hash="4B53C67A" type="BinHex"/>
+		<field hash="39636A25" type="BinHex"/>
+		<object hash="8CE04FFB">
+			<object name="TagCategorySelectionArray"/>
+			<object hash="D0C5DABB">
+				<field name="hid_DTCTH_ClassName" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="D871E5C6">
+			<field hash="6065F6F0" type="BinHex"/>
+			<field hash="6A909358" type="BinHex"/>
+		</object>
+		<object hash="1FEB6DEC">
+			<field hash="FBE89548" type="BinHex"/>
+			<field hash="830523E1" type="String"/>
+			<field name="selTagType" type="Enum"/>
+			<field hash="BD70EEED" type="BinHex"/>
+			<field hash="828AC6CC" type="BinHex"/>
+			<object hash="8CE04FFB">
+				<object name="TagCategorySelectionArray"/>
+				<object hash="D0C5DABB">
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="D871E5C6">
+				<field hash="6065F6F0" type="BinHex"/>
+				<field hash="6A909358" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

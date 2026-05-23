@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Retargeting_objectsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="915B05DD" type="String"/>
+	<field name="fileHolderSkeletonUrl" type="String"/>
+	<field name="SubObjectScale" type="BinHex"/>
+	<field name="IKPartScale" type="BinHex"/>
+</class>

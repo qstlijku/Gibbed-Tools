@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Onlineonboardingsettingsdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="IsEnabled" type="BinHex"/>
+	<object hash="AA884E7A">
+		<object hash="342CB585">
+			<field hash="342CB585" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="6427F01E">
+		<object hash="B80CFA26">
+			<field hash="B80CFA26" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="40A0B956">
+		<field hash="67E000DC" type="BinHex"/>
+		<field hash="25067F29" type="BinHex"/>
+		<field hash="2D9E6018" type="BinHex"/>
+		<field hash="FCF07F6E" type="String"/>
+		<field hash="015945CD" type="BinHex"/>
+		<field hash="A79DB041" type="String"/>
+		<field hash="EB627FEC" type="String"/>
+		<field hash="5738154C" type="BinHex"/>
+		<field hash="543F4C8D" type="String"/>
+		<field hash="575FC478" type="BinHex"/>
+		<field hash="C78075BA" type="BinHex"/>
+		<field hash="D8BB27FF" type="BinHex"/>
+		<field hash="3E96DF18" type="String"/>
+		<field hash="CCE499D6" type="BinHex"/>
+		<field hash="DF75E3D6" type="String"/>
+		<field hash="2D07A518" type="BinHex"/>
+		<field hash="193EF56B" type="String"/>
+		<field hash="EB4CB3A5" type="BinHex"/>
+		<field hash="E3F73527" type="BinHex"/>
+		<field hash="E50CB7D2" type="BinHex"/>
+		<field hash="9AE4F8AA" type="BinHex"/>
+	</object>
+	<object hash="D711AAEE">
+		<field hash="324EE216" type="BinHex"/>
+	</object>
+</class>

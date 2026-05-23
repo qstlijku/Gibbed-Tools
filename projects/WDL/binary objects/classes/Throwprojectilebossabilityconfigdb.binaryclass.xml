@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ThrowprojectilebossabilityconfigdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selProjectileType" type="Enum"/>
+	<object hash="B4671278">
+		<field name="selType" type="Enum"/>
+		<field name="fRadius" type="Float"/>
+		<object hash="4F69F9D7">
+			<object hash="FE73A0D2">
+				<field name="selType" type="Enum"/>
+				<object name="curveCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="8FC6247F">
+		<field hash="D4B3A630" type="BinHex"/>
+		<field hash="14C1F836" type="BinHex"/>
+		<field hash="8A1391DC" type="BinHex"/>
+		<field hash="F51DBDD7" type="BinHex"/>
+	</object>
+</class>

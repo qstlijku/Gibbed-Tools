@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UitobiicleanuiconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="544EE946" type="BinHex"/>
+	<field hash="FE426B58" type="BinHex"/>
+	<object name="BoundingBox">
+		<field name="vectorBBoxMin" type="BinHex"/>
+		<field name="vectorBBoxMax" type="BinHex"/>
+	</object>
+	<object hash="16982A44">
+		<object hash="94A6362F">
+			<field name="uielementsettingsUIElementSetting" type="BinHex"/>
+		</object>
+	</object>
+</class>

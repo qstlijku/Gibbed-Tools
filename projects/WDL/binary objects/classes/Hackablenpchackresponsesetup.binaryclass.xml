@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackablenpchackresponsesetupParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="6D6B0765" type="String"/>
+	<field name="reactionBark" type="BinHex"/>
+	<field name="phoneCallBark" type="BinHex"/>
+	<field name="patrolResponseBark" type="BinHex"/>
+	<object name="locsectionidNoveltyFactType">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridHackText">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

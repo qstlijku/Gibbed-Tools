@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uiinterfacelayersettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="interfaceMenuLayer">
+		<field hash="89B3BF19" type="String"/>
+		<field name="InterfacePathID" type="BinHex"/>
+		<field name="MainAccesorName" type="String"/>
+		<field name="fLayerRenderingOrder" type="Float"/>
+		<field name="InterfaceLayerDescription" type="String"/>
+		<field hash="28A22F1F" type="BinHex"/>
+	</object>
+	<object name="interfaceHudOneLayer">
+		<field hash="89B3BF19" type="String"/>
+		<field name="InterfacePathID" type="BinHex"/>
+		<field name="MainAccesorName" type="String"/>
+		<field name="fLayerRenderingOrder" type="Float"/>
+		<field name="InterfaceLayerDescription" type="String"/>
+		<field hash="28A22F1F" type="BinHex"/>
+	</object>
+	<object name="interfaceHudTwoLayer">
+		<field hash="89B3BF19" type="String"/>
+		<field name="InterfacePathID" type="BinHex"/>
+		<field name="MainAccesorName" type="String"/>
+		<field name="fLayerRenderingOrder" type="Float"/>
+		<field name="InterfaceLayerDescription" type="String"/>
+		<field hash="28A22F1F" type="BinHex"/>
+	</object>
+	<object name="interfaceHudThreeLayer">
+		<field hash="89B3BF19" type="String"/>
+		<field name="InterfacePathID" type="BinHex"/>
+		<field name="MainAccesorName" type="String"/>
+		<field name="fLayerRenderingOrder" type="Float"/>
+		<field name="InterfaceLayerDescription" type="String"/>
+		<field hash="28A22F1F" type="BinHex"/>
+	</object>
+	<object name="interfaceDebugLayer">
+		<field hash="89B3BF19" type="String"/>
+		<field name="InterfacePathID" type="BinHex"/>
+		<field name="MainAccesorName" type="String"/>
+		<field name="fLayerRenderingOrder" type="Float"/>
+		<field name="InterfaceLayerDescription" type="String"/>
+		<field hash="28A22F1F" type="BinHex"/>
+	</object>
+	<object name="interfaceIngameMapComponents">
+		<field hash="89B3BF19" type="String"/>
+		<field name="InterfacePathID" type="BinHex"/>
+		<field name="MainAccesorName" type="String"/>
+		<field name="fLayerRenderingOrder" type="Float"/>
+		<field name="InterfaceLayerDescription" type="String"/>
+		<field hash="28A22F1F" type="BinHex"/>
+	</object>
+	<object hash="A703FD2E">
+		<field name="InterfacePathID" type="BinHex"/>
+		<field name="MainAccesorName" type="BinHex"/>
+		<field name="fLayerRenderingOrder" type="Float"/>
+		<field name="InterfaceLayerDescription" type="BinHex"/>
+		<field hash="28A22F1F" type="BinHex"/>
+	</object>
+</class>

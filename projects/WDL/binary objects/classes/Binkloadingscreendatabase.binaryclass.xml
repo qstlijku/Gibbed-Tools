@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BinkloadingscreendatabaseParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="LoadingScreenSequenceList">
+		<object name="VideoProperties">
+			<field name="videosBinkVideo" type="BinHex"/>
+			<field name="sndSoundTrack" type="BinHex"/>
+			<field hash="671EB242" type="BinHex"/>
+		</object>
+		<object name="GeneralProperties">
+			<field name="bEnableSubtitles" type="Boolean"/>
+			<field name="bIsLoadingScreenVideoLooping" type="Boolean"/>
+			<field name="bKillVideoWhenWorldIsLoaded" type="Boolean"/>
+			<object name="SoundSettings">
+				<field name="selLoopingVideoSoundType" type="Enum"/>
+				<field hash="C3FAFE7D" type="String"/>
+				<field name="sndIntroMusic" type="BinHex"/>
+				<field hash="E0715296" type="String"/>
+				<field name="sndOutroMusic" type="BinHex"/>
+				<field hash="A2A874D7" type="BinHex"/>
+				<field hash="09A42618" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

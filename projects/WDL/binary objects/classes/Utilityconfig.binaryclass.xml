@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UtilityconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="9794A59D">
+		<object hash="6512A27B">
+			<field hash="9A4904D5" type="String"/>
+			<field hash="06B30D4F" type="BinHex"/>
+			<field hash="0B121648" type="BinHex"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronereinforcementconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="7C51D6F6" type="BinHex"/>
+	<object hash="AA5B97C9">
+		<object hash="19EF6456">
+			<field hash="C36F6B21" type="BinHex"/>
+			<field hash="48A25DE7" type="BinHex"/>
+			<field hash="195BE6BA" type="BinHex"/>
+			<field hash="31E07BFD" type="BinHex"/>
+			<field name="fUnspawnDistance" type="Float"/>
+			<field hash="5139A400" type="BinHex"/>
+			<field hash="A5137B9E" type="BinHex"/>
+			<field name="fTakedownRespawnDelay" type="Float"/>
+			<field hash="F9E9DAC9" type="BinHex"/>
+		</object>
+	</object>
+</class>

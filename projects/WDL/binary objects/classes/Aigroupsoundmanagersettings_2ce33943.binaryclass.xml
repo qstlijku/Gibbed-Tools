@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Aigroupsoundmanagersettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fTimeIntervalWalkieTalkie" type="Float"/>
+	<field name="fRandomDeltaTimeWalkieTalkie" type="Float"/>
+	<object name="WalkieTalkieSounds">
+		<field name="sndEmergency" type="BinHex"/>
+		<field hash="063B681F" type="BinHex"/>
+		<field hash="C9D35BB0" type="BinHex"/>
+		<field hash="C7A11C1D" type="BinHex"/>
+		<field hash="34E169BF" type="BinHex"/>
+		<field hash="1206409E" type="BinHex"/>
+		<field hash="FD191032" type="BinHex"/>
+		<field hash="FB56B18C" type="BinHex"/>
+	</object>
+</class>

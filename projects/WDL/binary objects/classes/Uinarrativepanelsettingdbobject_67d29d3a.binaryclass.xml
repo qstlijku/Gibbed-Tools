@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uinarrativepanelsettingdbobject_67d29d3aParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="NarrativeTeamSpeak">
+		<field name="sndCardShowSFX" type="BinHex"/>
+		<field name="sndCardHideSFX" type="BinHex"/>
+		<field hash="18A0180C" type="String"/>
+		<field hash="08E6985F" type="BinHex"/>
+		<field hash="060A910E" type="String"/>
+		<field hash="F505A2CA" type="BinHex"/>
+		<field hash="478A35C2" type="BinHex"/>
+		<field hash="9954B5F8" type="BinHex"/>
+		<field hash="65F4749C" type="BinHex"/>
+		<field hash="E6F4B0E2" type="BinHex"/>
+		<object hash="9CA4BDD6"/>
+	</object>
+	<object name="NarrativePhoneCall">
+		<field name="sndCardShowSFX" type="BinHex"/>
+		<field name="sndCardHideSFX" type="BinHex"/>
+		<field hash="08E6985F" type="BinHex"/>
+		<field hash="F505A2CA" type="BinHex"/>
+		<field hash="478A35C2" type="BinHex"/>
+		<field hash="9954B5F8" type="BinHex"/>
+		<field hash="65F4749C" type="BinHex"/>
+		<field hash="E6F4B0E2" type="BinHex"/>
+		<object hash="9CA4BDD6"/>
+	</object>
+</class>

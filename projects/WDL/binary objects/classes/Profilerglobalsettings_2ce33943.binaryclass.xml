@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Profilerglobalsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fMaxPlayerSpeed" type="Float"/>
+	<field name="fMaxPlayerSpeedOnFoot" type="Float"/>
+	<field name="fConnectingDelayMin" type="Float"/>
+	<field name="fConnectingDelayMax" type="Float"/>
+	<field name="fDiscoveringDelayMin" type="Float"/>
+	<field name="fDiscoveringDelayMax" type="Float"/>
+	<field name="fRefreshInformationDelayMin" type="Float"/>
+	<field name="fRefreshInformationDelayMax" type="Float"/>
+	<field name="fLoseFocusDelayNoProfilerAndTowardsCharacter" type="Float"/>
+	<field name="fMinScanDuration" type="Float"/>
+	<field name="fMaxScanDuration" type="Float"/>
+	<field name="uiNumberOfScanners" type="UInt32"/>
+	<field name="fFovAngleXMultiplierForTargeting" type="Float"/>
+	<field name="fMaxApparentDistance" type="Float"/>
+	<field name="fMaxDataCloudDensity" type="Float"/>
+	<field hash="7BABEDA9" type="String"/>
+	<field name="sndTypingTextSoundStart" type="BinHex"/>
+	<field hash="91AD5A86" type="BinHex"/>
+	<field name="sndTypingTextSoundStop" type="BinHex"/>
+	<field hash="AA2E7632" type="BinHex"/>
+	<field hash="EED14B50" type="String"/>
+	<field name="sndTurnOnSound" type="BinHex"/>
+	<field hash="E02A1FE8" type="BinHex"/>
+	<field hash="25E9546D" type="String"/>
+	<field name="sndTurnOffSound" type="BinHex"/>
+	<field hash="5FD375BF" type="BinHex"/>
+	<field hash="393327A9" type="String"/>
+	<field name="sndLockOnSound" type="BinHex"/>
+	<field hash="2E76A298" type="BinHex"/>
+	<field hash="E15FFCB9" type="String"/>
+	<field name="sndLockOffSound" type="BinHex"/>
+	<field hash="0F18583E" type="BinHex"/>
+	<field name="sndStartGainingFocusSound" type="BinHex"/>
+	<field hash="A8C64BEA" type="BinHex"/>
+	<field name="sndGainedFocusSound" type="BinHex"/>
+	<field hash="912BF0A2" type="BinHex"/>
+	<field name="sndStartLosingFocusSound" type="BinHex"/>
+	<field hash="79243C63" type="BinHex"/>
+	<field name="sndLostFocusSound" type="BinHex"/>
+	<field hash="98488E33" type="BinHex"/>
+	<field hash="F8EF77D9" type="String"/>
+	<field name="sndShowCallRecordSound" type="BinHex"/>
+	<field hash="CCA3F979" type="BinHex"/>
+	<field hash="E6BBE1CC" type="String"/>
+	<field name="sndShowWantedRecordSound" type="BinHex"/>
+	<field hash="317EB7CE" type="BinHex"/>
+	<field name="sndShowRobberyRecordSound" type="BinHex"/>
+	<field hash="EA7CA3B9" type="BinHex"/>
+	<field name="fDelayBeforeSendingDominoEvent" type="Float"/>
+	<field name="sndHackingFeedbackTargetEnterRangeSound" type="BinHex"/>
+	<field hash="D04C0598" type="BinHex"/>
+	<field hash="6296328F" type="String"/>
+	<field name="sCinemaPostFx" type="BinHex"/>
+	<field name="sLockCinemaPostFx" type="BinHex"/>
+	<field hash="060FF46C" type="BinHex"/>
+	<field name="fRewardPanelTextEffectDuration" type="Float"/>
+	<field name="fOthersLinesTextEffectDelay" type="Float"/>
+	<field name="fWebSearchWheelSpeed" type="Float"/>
+	<field name="fProfilerRewardTimer" type="Float"/>
+	<field name="fRemoteControlOwnerLinkDuration" type="Float"/>
+	<field name="fRemoteControlOwnerLinkWidth" type="Float"/>
+	<field name="fRemoteControlOwnerLinkAlpha" type="Float"/>
+	<field name="fHackLockFlashSpeed" type="Float"/>
+	<field name="fHackLockFlashIntensity" type="Float"/>
+	<field name="fCallTheCopsDelay" type="Float"/>
+	<field name="fCallTheCopsBarkDelay" type="Float"/>
+	<field name="fCallTheCopsInfoDuration" type="Float"/>
+	<field hash="DF7F1D7A" type="String"/>
+	<field name="sndCallTheCopsSendInfoSound" type="BinHex"/>
+	<field name="sCallTheCopsSendInfoPostFx" type="BinHex"/>
+	<field name="sCallTheHitmanSendInfoPostFx" type="BinHex"/>
+	<field name="fAttractSendEvidenceDuration" type="Float"/>
+	<field name="fAttractResultDuration" type="Float"/>
+	<field name="fEmailActivityPanelDisplayDuration" type="Float"/>
+	<field name="fChatDisplayDurationAfterLastMessage" type="Float"/>
+	<field name="fVoiceDisplayDurationAfterDialog" type="Float"/>
+	<field name="profilerinfofilterSystemKeyProfileFilter" type="BinHex"/>
+	<field name="uMaxAttrackHackAtSameTime" type="UInt32"/>
+	<field name="uMaxExposePoliceHackAtSameTime" type="UInt32"/>
+	<field name="uMaxExposeHitmanHackAtSameTime" type="UInt32"/>
+	<field name="fExplosionHackRadiusModifier" type="Float"/>
+	<field hash="7151A83A" type="BinHex"/>
+	<field hash="C1814A07" type="BinHex"/>
+	<field name="fAutoTakedownBatteryCost" type="Float"/>
+	<field name="fVrNodeTriggerBatteryCost" type="Float"/>
+	<field name="fActivateFlatbedPlatformBatteryCost" type="Float"/>
+	<field name="fEnemyVehicleHackCostMultiplier" type="Float"/>
+	<field name="fIngredientShutdownDuration" type="Float"/>
+	<field hash="F0D36CA4" type="BinHex"/>
+	<field hash="B08CDDFE" type="BinHex"/>
+	<field hash="186CEEE5" type="BinHex"/>
+	<field hash="8245EED1" type="BinHex"/>
+	<field hash="06846DF2" type="BinHex"/>
+	<field hash="F1981A8D" type="BinHex"/>
+	<field name="mapicondescPoliceIcon" type="BinHex"/>
+	<field name="mapicondescMobIcon" type="BinHex"/>
+	<field name="mapicondescCivilianIcon" type="BinHex"/>
+	<field name="mapicondescLockIcon" type="BinHex"/>
+	<field name="mapicondescAccessCodeLockIcon" type="BinHex"/>
+	<field hash="EC4DFEC2" type="BinHex"/>
+	<field hash="F0F5A435" type="BinHex"/>
+	<field hash="72D6FF18" type="BinHex"/>
+	<field hash="16F564B4" type="BinHex"/>
+	<field name="mapicondescBreachLockIcon" type="BinHex"/>
+	<field hash="F61D05F5" type="BinHex"/>
+	<field hash="A9604BFA" type="BinHex"/>
+	<field hash="792398D2" type="BinHex"/>
+	<field hash="C0DF1568" type="BinHex"/>
+	<field name="sndHackingContextualSoundId" type="BinHex"/>
+	<field hash="24D9D80C" type="BinHex"/>
+	<field hash="2D41207D" type="String"/>
+	<field name="sndHackingDistractSoundId" type="BinHex"/>
+	<field hash="E27031F6" type="BinHex"/>
+	<field hash="37E9A373" type="String"/>
+	<field name="sndHackingPoliceSearchSoundId" type="BinHex"/>
+	<field hash="07601B08" type="BinHex"/>
+	<field name="sndHackingHitmanSoundId" type="BinHex"/>
+	<field hash="CDA8D62A" type="BinHex"/>
+	<field hash="8F993DD2" type="String"/>
+	<field name="sndHackingAttractSoundId" type="BinHex"/>
+	<field hash="8EF8390F" type="BinHex"/>
+	<field name="sndHackingDisruptCommSoundId" type="BinHex"/>
+	<field hash="1A7AFFE5" type="BinHex"/>
+	<field hash="2D299653" type="String"/>
+	<field name="sndHackingLockLeftWheelSoundId" type="BinHex"/>
+	<field hash="32E5C2CD" type="BinHex"/>
+	<field hash="9816B42D" type="String"/>
+	<field name="sndHackingLockRightWheelSoundId" type="BinHex"/>
+	<field hash="BC1A9774" type="BinHex"/>
+	<field name="sndHackingTBoneLeftWeaponSoundId" type="BinHex"/>
+	<field hash="6E6C9D90" type="BinHex"/>
+	<field name="sndHackingTBoneRightWeaponSoundId" type="BinHex"/>
+	<field hash="49925EAC" type="BinHex"/>
+	<field name="sndHackingTBoneBackWeaponSoundId" type="BinHex"/>
+	<field hash="6DDAE928" type="BinHex"/>
+	<field hash="1CB23F31" type="String"/>
+	<field name="sndHackingLockBrackesSoundId" type="BinHex"/>
+	<field hash="37931D6E" type="BinHex"/>
+	<field hash="51F9402C" type="String"/>
+	<field name="sndHackingEngineOverheatSoundId" type="BinHex"/>
+	<field hash="1FD159DF" type="BinHex"/>
+	<field name="sndHackingRobotRebootSoundId" type="BinHex"/>
+	<field hash="BFF45087" type="BinHex"/>
+	<field name="sndHackingRobotAttractorSoundId" type="BinHex"/>
+	<field hash="AFFF2028" type="BinHex"/>
+	<field name="sndHackingRobotRepulsorSoundId" type="BinHex"/>
+	<field hash="D691F9F1" type="BinHex"/>
+	<field name="sndHackingRobotLoveBullSoundId" type="BinHex"/>
+	<field hash="363FFF57" type="BinHex"/>
+	<field name="sndHackingRobotAlarmSoundId" type="BinHex"/>
+	<field hash="08488BBF" type="BinHex"/>
+	<field name="sndHackingRemoteControlSoundId" type="BinHex"/>
+	<field hash="4350975E" type="BinHex"/>
+	<field name="sndHackingDogShockCollarSoundId" type="BinHex"/>
+	<field hash="CE53E230" type="BinHex"/>
+	<field hash="62DDC065" type="String"/>
+	<field name="sndHackingIngredientAttractSoundId" type="BinHex"/>
+	<field hash="89BD93B5" type="BinHex"/>
+	<field hash="8F65BF45" type="String"/>
+	<field name="sndHackingIngredientArmSoundId" type="BinHex"/>
+	<field hash="6CCF4D3A" type="BinHex"/>
+	<field name="sndHackingIngredientDisarmSoundId" type="BinHex"/>
+	<field hash="04698EDA" type="BinHex"/>
+	<field name="sndHackingIngredientTriggerSoundId" type="BinHex"/>
+	<field hash="45CFE2D5" type="BinHex"/>
+	<field hash="DEFDECF4" type="String"/>
+	<field name="sndHackingIngredientShutdownSoundId" type="BinHex"/>
+	<field hash="A1E282EA" type="BinHex"/>
+	<field hash="85A36848" type="String"/>
+	<field name="sndHackingIngredientTurnOnSoundId" type="BinHex"/>
+	<field hash="AB874738" type="BinHex"/>
+	<field name="sndHackingChopperSoundId" type="BinHex"/>
+	<field hash="330F839A" type="BinHex"/>
+	<field name="sndHackingActivateFlatbedPlatformSoundId" type="BinHex"/>
+	<field hash="588B11FA" type="BinHex"/>
+	<field hash="C3747FD9" type="BinHex"/>
+	<field hash="717F288C" type="BinHex"/>
+	<field hash="1B54EAF3" type="BinHex"/>
+	<field hash="17373D75" type="BinHex"/>
+	<field hash="CB1B7F3E" type="String"/>
+	<field hash="06CF1925" type="BinHex"/>
+	<field hash="E4E1E1D1" type="BinHex"/>
+	<field hash="B68F000E" type="BinHex"/>
+	<field hash="7782976A" type="BinHex"/>
+	<field hash="B90114A6" type="String"/>
+	<field hash="72C2CDBC" type="BinHex"/>
+	<field hash="A52F5D40" type="BinHex"/>
+	<field hash="71287038" type="String"/>
+	<field hash="8C814A9B" type="BinHex"/>
+	<field hash="0B374869" type="BinHex"/>
+	<field hash="DE115C30" type="String"/>
+	<field hash="14FA039C" type="BinHex"/>
+	<field hash="6DD51BC1" type="BinHex"/>
+	<field hash="393DAA3D" type="String"/>
+	<field hash="7A1B610C" type="BinHex"/>
+	<field hash="0CD7196D" type="BinHex"/>
+	<field hash="3DE82965" type="BinHex"/>
+	<field hash="03095E9E" type="BinHex"/>
+	<field hash="043E600C" type="String"/>
+	<field hash="706FCF27" type="BinHex"/>
+	<field hash="E2E632B2" type="BinHex"/>
+	<field hash="AF520FEE" type="String"/>
+	<field hash="25FA1264" type="BinHex"/>
+	<field hash="13CD5765" type="BinHex"/>
+	<field hash="82C6DCD8" type="String"/>
+	<field name="sndHackingIngredientLockedSoundId" type="BinHex"/>
+	<field hash="16CABDD2" type="BinHex"/>
+	<field hash="787CEA7F" type="String"/>
+	<field name="sndHackingHackDisabledSoundId" type="BinHex"/>
+	<field hash="A4D5E2A5" type="BinHex"/>
+	<field name="sndHackingIngredientShutdownExpiringSoundId" type="BinHex"/>
+	<field hash="E60E843A" type="BinHex"/>
+	<field name="sndHackingContextualRewardSoundId" type="BinHex"/>
+	<field hash="BDE53B68" type="String"/>
+	<field name="sndHackingContextualPersonalCameraSoundId" type="BinHex"/>
+	<field hash="2F2C14A9" type="BinHex"/>
+	<field name="sndHackingContextualCallEnemyFactionSoundId" type="BinHex"/>
+	<field name="sndHackingContextualHackExplosiveSoundId" type="BinHex"/>
+	<field hash="A8067099" type="String"/>
+	<field name="sndHackingContextualDownloadSoundId" type="BinHex"/>
+	<field name="sndHackingContextualPhoneOvereatSoundId" type="BinHex"/>
+	<field hash="B6553074" type="String"/>
+	<field name="sndHackingContextualBankAccountSoundId" type="BinHex"/>
+	<field hash="4460130A" type="String"/>
+	<field name="sndHackingDefaultSoundId" type="BinHex"/>
+	<field hash="1BCFB02E" type="BinHex"/>
+	<field hash="0EC3DEF3" type="String"/>
+	<field name="sndLockedByPlayerStartSound" type="BinHex"/>
+	<field hash="915945D7" type="BinHex"/>
+	<field hash="9B85DB33" type="String"/>
+	<field name="sndLockedByPlayerStopSound" type="BinHex"/>
+	<field hash="CC9C39A7" type="BinHex"/>
+	<field name="sndHackedByPlayerSound" type="BinHex"/>
+	<field hash="95927A88" type="BinHex"/>
+	<field hash="E8F42E56" type="String"/>
+	<field hash="4A9EB8E6" type="BinHex"/>
+	<field hash="87463849" type="BinHex"/>
+	<field hash="78790608" type="BinHex"/>
+	<field hash="816D4DD3" type="BinHex"/>
+	<field hash="FBD0B989" type="BinHex"/>
+	<field hash="50AFF434" type="BinHex"/>
+	<field hash="47038D6C" type="BinHex"/>
+	<field hash="73325344" type="BinHex"/>
+	<field name="fReticleInTargetingQuadWeight" type="Float"/>
+	<field name="fDistanceFromReticleWeight" type="Float"/>
+	<field name="fSizeOfTargetingQuadOnScreenWeight" type="Float"/>
+	<field name="fTimeSameFocusedWeight" type="Float"/>
+	<field name="fProfilerPanelOpenMaxSpeed" type="Float"/>
+	<field name="fProfilerPanelTimeForFirstOpen" type="Float"/>
+	<field hash="FF6DC6A8" type="String"/>
+	<field name="sndProfilerHasKeyIntelSoundId" type="BinHex"/>
+	<field hash="58745A8F" type="BinHex"/>
+	<field hash="C105A8A0" type="String"/>
+	<field name="sndProfilerFailedSoundId" type="BinHex"/>
+	<field hash="13940B2C" type="BinHex"/>
+	<field name="sndProfilerCardClosedSoundId" type="BinHex"/>
+	<field hash="510400CC" type="BinHex"/>
+	<field name="fMinimumBreachDistance" type="Float"/>
+	<field name="fTimeToBreachProtectedEntity" type="Float"/>
+	<field name="sndBreachingHackableStartSoundId" type="BinHex"/>
+	<field name="sndBreachingHackablePauseSoundId" type="BinHex"/>
+	<field hash="DFBEFD09" type="BinHex"/>
+	<field name="fMassHackNPCRadius" type="Float"/>
+	<field name="fMassHackVehicleRadius" type="Float"/>
+	<field name="fMassHackIngredientRadius" type="Float"/>
+	<field name="fMassHackNPCDuration" type="Float"/>
+	<field name="fMassHackVehicleDuration" type="Float"/>
+	<field name="fMassHackIngredientDuration" type="Float"/>
+	<field name="fMassHackChargeTime" type="Float"/>
+	<field name="fMassHackCoolDownTime" type="Float"/>
+	<field name="sndMassHackOnCoolDownSoundId" type="BinHex"/>
+	<field name="uMassHackBatteryCost" type="UInt32"/>
+	<field name="sndMassHackDistractSoundId" type="BinHex"/>
+	<field name="sndMassHackIngredientSoundId" type="BinHex"/>
+	<field name="sndMassHackVehicleSoundId" type="BinHex"/>
+	<field hash="9D653170" type="String"/>
+	<field name="sMassHackDistractRumbleId" type="BinHex"/>
+	<field name="fMassHackDistractRumbleIntensity" type="Float"/>
+	<field hash="78E4CB2F" type="String"/>
+	<field name="sMassHackIngredientRumbleId" type="BinHex"/>
+	<field name="fMassHackIngredientRumbleIntensity" type="Float"/>
+	<field hash="9DEE0CED" type="String"/>
+	<field name="sMassHackVehicleRumbleId" type="BinHex"/>
+	<field name="fMassHackVehicleRumbleIntensity" type="Float"/>
+	<field name="fMassHackNPCMinDelayPropagation" type="Float"/>
+	<field name="fMassHackNPCMaxDelayPropagation" type="Float"/>
+	<field hash="60AA29C7" type="String"/>
+	<field name="sHackLockRumbleId" type="BinHex"/>
+	<field name="fHackLockRumbleIntensity" type="Float"/>
+	<field hash="FD1E0605" type="String"/>
+	<field name="sHackLockStartRumbleId" type="BinHex"/>
+	<field name="fHackLockStartRumbleIntensity" type="Float"/>
+	<field hash="889C17EE" type="String"/>
+	<field name="sHackLockStopRumbleId" type="BinHex"/>
+	<field name="fHackLockStopRumbleIntensity" type="Float"/>
+	<field hash="BCFD35D5" type="String"/>
+	<field name="sHackTriggerRumbleId" type="BinHex"/>
+	<field name="fHackTriggerRumbleIntensity" type="Float"/>
+	<field name="fTargetingPulseBaseIntensity" type="Float"/>
+	<field name="fTargetingPulseBaseFadeSpeed" type="Float"/>
+	<field name="fTargetingPulseRotationIntensityMultiplier" type="Float"/>
+	<field name="fTargetingPulseRotationFadeSpeedMultiplier" type="Float"/>
+	<field name="fTargetingPulseRotationMultiplierDuration" type="Float"/>
+	<field name="fTargetingPulseRotationMultiplierFadeSpeed" type="Float"/>
+	<field hash="A7BBBB17" type="BinHex"/>
+	<field hash="373C557E" type="BinHex"/>
+	<field hash="982917F5" type="BinHex"/>
+	<field hash="08AEF99C" type="BinHex"/>
+	<field hash="A081B889" type="BinHex"/>
+	<field hash="9F13146B" type="BinHex"/>
+	<field hash="9B50CA30" type="BinHex"/>
+	<field hash="4E72DC9C" type="BinHex"/>
+	<field hash="CF9A525A" type="BinHex"/>
+	<object name="DataCloudsSettings">
+		<field name="iNumberOfPlanes" type="Int32"/>
+		<object name="InitialDisposition">
+			<field name="fPlaneScale" type="Float"/>
+			<field name="PlaneLocalOrientation" type="BinHex"/>
+			<field name="vecPlaneLocalOffsetMin" type="BinHex"/>
+			<field name="vecPlaneLocalOffsetMax" type="BinHex"/>
+			<field name="vecPlaneLocalOffsetInterval" type="BinHex"/>
+			<field name="fYawInterval" type="Float"/>
+		</object>
+		<object name="Movement">
+			<field name="fRotationSpeedMin" type="Float"/>
+			<field name="fRotationSpeedMax" type="Float"/>
+		</object>
+		<object name="Alpha">
+			<field name="fBaseAlpha" type="Float"/>
+			<object name="curveAlphaOverDistanceFromCamera">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveAlphaOverTimeOfDay">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="430557D2">
+		<object name="Settings">
+			<field hash="03005914" type="BinHex"/>
+			<field hash="BA43B496" type="BinHex"/>
+			<field hash="47C6B7D6" type="BinHex"/>
+			<field hash="21E7FD57" type="BinHex"/>
+			<field hash="D3B53263" type="BinHex"/>
+			<field hash="8A7847C3" type="BinHex"/>
+			<field name="PictureWithPoseProbability" type="BinHex"/>
+			<field hash="95B764D3" type="BinHex"/>
+			<field hash="FD914198" type="BinHex"/>
+			<object name="ZoomPresets">
+				<object name="ZoomPreset">
+					<field name="fCamHeightOffset" type="Float"/>
+					<field name="fCamHeightOffsetVariance" type="Float"/>
+					<field name="fCamDistance" type="Float"/>
+					<field name="fCamDistanceVariance" type="Float"/>
+					<field name="fCamFieldOfView" type="Float"/>
+					<field name="fCamFieldOfViewVariance" type="Float"/>
+				</object>
+			</object>
+			<object name="Poses">
+				<object name="Pose">
+					<field hash="01D698D6" type="String"/>
+					<field name="fileProfilerPortraitAnimRes" type="String"/>
+					<field hash="E4C77BC5" type="String"/>
+					<field name="fileProfilerPortraitPoseRes" type="String"/>
+					<field name="selGender" type="Enum"/>
+					<object name="IncludeTags">
+						<object name="Tag">
+							<field name="tagTag" type="BinHex"/>
+						</object>
+					</object>
+					<object name="ExcludeTags"/>
+				</object>
+			</object>
+			<object name="Lighting">
+				<object hash="A80A504E">
+					<field name="fExposure" type="Float"/>
+					<field hash="7096DCCB" type="BinHex"/>
+					<field hash="B7A8ED29" type="BinHex"/>
+					<object name="Lights">
+						<object name="Light">
+							<field name="bEnabled" type="Boolean"/>
+							<field name="selType" type="Enum"/>
+							<field name="colorColor" type="Vector3"/>
+							<field hash="575EB40C" type="BinHex"/>
+							<field hash="23226F47" type="BinHex"/>
+							<field name="vectorPosition" type="BinHex"/>
+							<field hash="2B1BFA99" type="BinHex"/>
+							<field hash="0C3CE552" type="BinHex"/>
+							<field hash="32D31EA9" type="BinHex"/>
+							<field name="fShadowDepthBiasScale" type="Float"/>
+							<field name="fShadowSlopeScaledDepthBiasScale" type="Float"/>
+						</object>
+					</object>
+					<object name="IncludeTags">
+						<object name="Tag">
+							<field name="tagTag" type="BinHex"/>
+						</object>
+					</object>
+					<object name="ExcludeTags"/>
+				</object>
+			</object>
+			<object name="CameraAngleSettings">
+				<field name="disNomadObjectId" type="BinHex"/>
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="hidValidationFailed" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<object name="AngleSettings">
+					<object name="AngleSetting">
+						<field name="fWeight" type="Float"/>
+						<field name="fMinAngle" type="Float"/>
+						<field name="fMaxAngle" type="Float"/>
+					</object>
+				</object>
+			</object>
+			<object name="WithPoseBackgrounds">
+				<object name="Background">
+					<field hash="1CB97581" type="String"/>
+					<field name="fileTexture" type="String"/>
+				</object>
+			</object>
+			<object name="WithoutPoseBackgrounds"/>
+			<object name="Masks">
+				<object name="Mask">
+					<field hash="1CB97581" type="String"/>
+					<field name="fileTexture" type="String"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="0482DE1C">
+		<object name="Settings">
+			<field hash="03005914" type="BinHex"/>
+			<field hash="BA43B496" type="BinHex"/>
+			<field hash="47C6B7D6" type="BinHex"/>
+			<field hash="21E7FD57" type="BinHex"/>
+			<field hash="D3B53263" type="BinHex"/>
+			<field hash="8A7847C3" type="BinHex"/>
+			<field name="PictureWithPoseProbability" type="BinHex"/>
+			<field hash="95B764D3" type="BinHex"/>
+			<field hash="FD914198" type="BinHex"/>
+			<object name="ZoomPresets">
+				<object name="ZoomPreset">
+					<field name="fCamHeightOffset" type="Float"/>
+					<field name="fCamHeightOffsetVariance" type="Float"/>
+					<field name="fCamDistance" type="Float"/>
+					<field name="fCamDistanceVariance" type="Float"/>
+					<field name="fCamFieldOfView" type="Float"/>
+					<field name="fCamFieldOfViewVariance" type="Float"/>
+				</object>
+			</object>
+			<object name="Poses">
+				<object name="Pose">
+					<field hash="01D698D6" type="String"/>
+					<field name="fileProfilerPortraitAnimRes" type="String"/>
+					<field hash="E4C77BC5" type="String"/>
+					<field name="fileProfilerPortraitPoseRes" type="String"/>
+					<field name="selGender" type="Enum"/>
+					<object name="IncludeTags">
+						<object name="Tag">
+							<field name="tagTag" type="BinHex"/>
+						</object>
+					</object>
+					<object name="ExcludeTags"/>
+				</object>
+			</object>
+			<object name="Lighting">
+				<object hash="A80A504E">
+					<field name="fExposure" type="Float"/>
+					<field hash="7096DCCB" type="BinHex"/>
+					<field hash="B7A8ED29" type="BinHex"/>
+					<object name="Lights">
+						<object name="Light">
+							<field name="bEnabled" type="Boolean"/>
+							<field name="selType" type="Enum"/>
+							<field name="colorColor" type="Vector3"/>
+							<field hash="575EB40C" type="BinHex"/>
+							<field hash="23226F47" type="BinHex"/>
+							<field name="vectorPosition" type="BinHex"/>
+							<field hash="2B1BFA99" type="BinHex"/>
+							<field hash="0C3CE552" type="BinHex"/>
+							<field hash="32D31EA9" type="BinHex"/>
+							<field name="fShadowDepthBiasScale" type="Float"/>
+							<field name="fShadowSlopeScaledDepthBiasScale" type="Float"/>
+						</object>
+					</object>
+					<object name="IncludeTags">
+						<object name="Tag">
+							<field name="tagTag" type="BinHex"/>
+						</object>
+					</object>
+					<object name="ExcludeTags"/>
+				</object>
+			</object>
+			<object name="CameraAngleSettings">
+				<field name="disNomadObjectId" type="BinHex"/>
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="hidValidationFailed" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<object name="AngleSettings">
+					<object name="AngleSetting">
+						<field name="fWeight" type="Float"/>
+						<field name="fMinAngle" type="Float"/>
+						<field name="fMaxAngle" type="Float"/>
+					</object>
+				</object>
+			</object>
+			<object name="WithPoseBackgrounds">
+				<object name="Background">
+					<field hash="1CB97581" type="String"/>
+					<field name="fileTexture" type="String"/>
+				</object>
+			</object>
+			<object name="WithoutPoseBackgrounds"/>
+			<object name="Masks">
+				<object name="Mask">
+					<field hash="1CB97581" type="String"/>
+					<field name="fileTexture" type="String"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="ProfilerDefault">
+		<field name="tagDefaultEthnicity" type="BinHex"/>
+		<field name="uAgeMin" type="UInt32"/>
+		<field name="uAgeMax" type="UInt32"/>
+		<field name="uRichBankAccountIncomeRequired" type="UInt32"/>
+		<field name="uRecordCaseNbMin" type="UInt32"/>
+		<field name="uRecordCaseNbMax" type="UInt32"/>
+		<field hash="012B9F7A" type="String"/>
+		<field name="fileProfilerThumbnailOverride" type="String"/>
+		<field hash="81217E4B" type="String"/>
+		<field name="fileProfilerThumbnailOverrideBlackout" type="String"/>
+		<object name="locsectionidOccupationType">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locsectionidNoveltyFactTypeCommon">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locsectionidNoveltyFactTypeRare">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridXIngredientStateOFF">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridXIngredientStateON">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridSecurityCameraInUseStateOasisString">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridSecurityCameraStateHostile">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridSecurityCameraStateFriendly">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="sndvarProfilerAmbienceRTPC">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="BinHex"/>
+		</object>
+		<object name="locsectionidSpecificHubLockedProfilerInfoId">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locsectionidSpecificBlackoutProfilerInfoId">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="DefaultObjectCategoryThumbnails">
+			<object name="ObjectCategoryThumbnail">
+				<field hash="C30BA08E" type="String"/>
+				<field name="fileDefaultThumbnail" type="String"/>
+				<object name="locsectionidObjectCategoryOasisLine">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="FiltersAndDataCardCyclingArchetypes">
+		<field name="datacardcyclingarchetypedescDataCardCyclingArchetype" type="BinHex"/>
+		<field name="datacardpanelarchetypedescDataCardPanelArchetype" type="BinHex"/>
+		<field name="criminalrecordarchetypedescCriminalRecordArchetypeDefault" type="BinHex"/>
+	</object>
+	<object name="ProfilerNameConfig">
+		<object name="NameSettings">
+			<object name="NameGenerationSetting">
+				<field name="disNomadObjectId" type="BinHex"/>
+				<field name="hidSingleObject" type="Boolean"/>
+				<field name="hidKey" type="BinHex"/>
+				<field name="hidValidationFailed" type="Boolean"/>
+				<field name="hidName" type="BinHex"/>
+				<field name="tagEthnicityTag" type="BinHex"/>
+				<field name="selGender" type="Enum"/>
+				<object name="NameGenerationSettings">
+					<object name="FirstName">
+						<object name="FirstNameSetting">
+							<field name="fWeight" type="Float"/>
+							<field name="tagEthnicityTag" type="BinHex"/>
+						</object>
+					</object>
+					<object name="LastName">
+						<object name="LastNameSetting">
+							<field name="fWeight" type="Float"/>
+							<field name="tagEthnicityTag" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="TagLocalizationIDMappings">
+			<object name="TagLocalizationIDMapping">
+				<field name="tagEthnicityTag" type="BinHex"/>
+				<object name="locsectionidMaleFirstNameOasisSection">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object name="locsectionidFemaleFirstNameOasisSection">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object name="locsectionidLastNameOasisSection">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="GlobalConnectionLinksManagerSettings">
+		<field name="fMaxLinkedEntities" type="Float"/>
+		<field name="fMaxLinksPerEntity" type="Float"/>
+		<field name="fMaxEntitiesDistanceToPlayer" type="Float"/>
+		<field name="fLineWidth" type="Float"/>
+		<field name="fProfilingPathShapeFillSpeed" type="Float"/>
+		<field name="colorHackLineColorWhite" type="Vector3"/>
+		<field name="colorHackLineColorYellow" type="Vector3"/>
+		<field name="colorHackLineColorRed" type="Vector3"/>
+		<field name="colorHackLineColorBlue" type="Vector3"/>
+		<field name="colorHackLineColorGreen" type="Vector3"/>
+		<field name="colorHackLineColorPurple" type="Vector3"/>
+		<field name="colorHackLineColorOrange" type="Vector3"/>
+		<field name="colorHackLineColorPortal" type="Vector3"/>
+		<field name="fMaxEntitiesDistanceToPlayerForRandomEntities" type="Float"/>
+		<field name="bDoTargetingHackLineOnNextTarget" type="Boolean"/>
+		<field name="fHackLineWidth" type="Float"/>
+		<field name="fHackLineJoltRandomMin" type="Float"/>
+		<field name="fHackLineJoltRandomMax" type="Float"/>
+		<field name="fHackLineJoltVerticalIntensityRatio" type="Float"/>
+		<field name="fHackLineJoltCompressPower" type="Float"/>
+		<field name="fHackLineStartAlpha" type="Float"/>
+		<field name="fHackLineEndAlpha" type="Float"/>
+		<field name="bHackLineFadeEnabled" type="Boolean"/>
+		<field name="fHackLineMinAlpha" type="Float"/>
+		<field name="fHackLineFadeSpeed" type="Float"/>
+		<field name="fHackLineFillSpeed" type="Float"/>
+		<field name="fHackLineFillCompressPower" type="Float"/>
+		<field name="fHackLineCatchUpDelay" type="Float"/>
+		<field name="fHackLineCatchUpSpeed" type="Float"/>
+		<field name="fHackLineMaxJoltDistance" type="Float"/>
+		<field name="fHackLinePositionSmootherStiffness" type="Float"/>
+		<field name="fHackLinePositionSmootherDelay" type="Float"/>
+		<field name="fHackLinePositionSpacingVariance" type="Float"/>
+		<field name="fHackLockLineWidth" type="Float"/>
+		<field name="fHackLockLineJoltRandomMin" type="Float"/>
+		<field name="fHackLockLineJoltRandomMax" type="Float"/>
+		<field name="fHackLockLineJoltVerticalIntensityRatio" type="Float"/>
+		<field name="fHackLockLineJoltRandomOnHackMin" type="Float"/>
+		<field name="fHackLockLineJoltRandomOnHackMax" type="Float"/>
+		<field name="fHackLockLineJoltVerticalIntensityRatioOnHack" type="Float"/>
+		<field name="fHackLockLineJoltCompressPower" type="Float"/>
+		<field name="fHackLockLineStartAlpha" type="Float"/>
+		<field name="fHackLockLineEndAlpha" type="Float"/>
+		<field name="bHackLockLineFadeEnabled" type="Boolean"/>
+		<field name="fHackLockLineMinAlpha" type="Float"/>
+		<field name="fHackLockLineFadeSpeed" type="Float"/>
+		<field name="fHackLockLineMaxJoltDistance" type="Float"/>
+		<field name="fHackLockLineFillSpeed" type="Float"/>
+		<field name="fHackLockLineReplicaFillSpeed" type="Float"/>
+		<field name="fHackLockLineFillCompressPower" type="Float"/>
+		<field name="fHackLineTextureUVSpeedBurst" type="Float"/>
+		<field name="fHackLineTextureUVSpeedBurstDuration" type="Float"/>
+		<field name="fHackLockLinePositionSmootherStiffness" type="Float"/>
+		<field name="fHackLockLinePositionSmootherDelay" type="Float"/>
+		<field name="fHackLockLinePositionSmootherDelayOnHack" type="Float"/>
+		<field name="fHackLockLinePositionSpacingVariance" type="Float"/>
+		<field name="fHackLineHackFillSpeed" type="Float"/>
+		<field name="fHackLineHackFadeSpeed" type="Float"/>
+		<field name="bHackLineAvoidPlayer" type="Boolean"/>
+		<field name="bHackLockLineAvoidPlayer" type="Boolean"/>
+		<field name="fHackLineAvoidFrontPush" type="Float"/>
+		<field name="fHackLineAvoidSidePush" type="Float"/>
+		<field name="fHackLineAvoidFrontPositionFrontPushRatio" type="Float"/>
+		<field name="fHackLineAvoidFrontPositionSidePushRatio" type="Float"/>
+		<field name="fHackLineAvoidFrontSidePositionFrontPushRatio" type="Float"/>
+		<field name="fHackLineAvoidFrontSidePositionSidePushRatio" type="Float"/>
+		<field name="fHackLineAvoidBackSidePositionFrontPushRatio" type="Float"/>
+		<field name="fHackLineAvoidBackSidePositionSidePushRatio" type="Float"/>
+		<field name="fHackLineAvoidBackPositionFrontPushRatio" type="Float"/>
+		<field name="fHackLineAvoidBackPositionSidePushRatio" type="Float"/>
+		<field name="fHackLineAvoidJoltIntensityMin" type="Float"/>
+		<field name="fHackLineAvoidJoltIntensityMax" type="Float"/>
+		<field name="fHackLineAvoidJoltDelayMin" type="Float"/>
+		<field name="fHackLineAvoidJoltDelayMax" type="Float"/>
+		<field name="fHackLineAvoidJoltStiffness" type="Float"/>
+		<field name="fHackLineAvoidBaseSegmentMinLength" type="Float"/>
+		<field name="fHackLineAvoidBaseSegmentMaxLength" type="Float"/>
+		<field name="bDoRandomConnectionFlow" type="Boolean"/>
+		<field name="fRandomConnectionEntityFlowTimerMin" type="Float"/>
+		<field name="fRandomConnectionEntityFlowTimerMax" type="Float"/>
+		<field name="iRandomConnectionEntityFlowCountMin" type="Int32"/>
+		<field name="iRandomConnectionEntityFlowCountMax" type="Int32"/>
+		<field name="fRandomConnectionEntityFillSpeedMin" type="Float"/>
+		<field name="fRandomConnectionEntityFillSpeedMax" type="Float"/>
+		<field name="fRandomConnectionEntityDurationMin" type="Float"/>
+		<field name="fRandomConnectionEntityDurationMax" type="Float"/>
+		<field name="fRandomConnectionEntityCatchUpDelayMin" type="Float"/>
+		<field name="fRandomConnectionEntityCatchUpDelayMax" type="Float"/>
+		<field name="fRandomConnectionEntityCatchUpSpeedMin" type="Float"/>
+		<field name="fRandomConnectionEntityCatchUpSpeedMax" type="Float"/>
+		<field name="fRandomConnectionEntityAlphaMin" type="Float"/>
+		<field name="fRandomConnectionEntityAlphaMax" type="Float"/>
+		<field name="fRandomConnectionEntityWidthMin" type="Float"/>
+		<field name="fRandomConnectionEntityWidthMax" type="Float"/>
+		<field name="colorRandomConnectionEntityColorMin" type="Vector3"/>
+		<field name="colorRandomConnectionEntityColorMax" type="Vector3"/>
+		<field name="fRandomConnectionEntityMaxDistance" type="Float"/>
+		<field name="fRandomConnectionRandomFlowTimerMin" type="Float"/>
+		<field name="fRandomConnectionRandomFlowTimerMax" type="Float"/>
+		<field name="iRandomConnectionRandomFlowCountMin" type="Int32"/>
+		<field name="iRandomConnectionRandomFlowCountMax" type="Int32"/>
+		<field name="fRandomConnectionRandomFillSpeedMin" type="Float"/>
+		<field name="fRandomConnectionRandomFillSpeedMax" type="Float"/>
+		<field name="fRandomConnectionRandomDurationMin" type="Float"/>
+		<field name="fRandomConnectionRandomDurationMax" type="Float"/>
+		<field name="fRandomConnectionRandomCatchUpDelayMin" type="Float"/>
+		<field name="fRandomConnectionRandomCatchUpDelayMax" type="Float"/>
+		<field name="fRandomConnectionRandomCatchUpSpeedMin" type="Float"/>
+		<field name="fRandomConnectionRandomCatchUpSpeedMax" type="Float"/>
+		<field name="fRandomConnectionRandomAlphaMin" type="Float"/>
+		<field name="fRandomConnectionRandomAlphaMax" type="Float"/>
+		<field name="fRandomConnectionRandomWidthMin" type="Float"/>
+		<field name="fRandomConnectionRandomWidthMax" type="Float"/>
+		<field name="fRandomConnectionRandomDistanceMin" type="Float"/>
+		<field name="fRandomConnectionRandomDistanceMax" type="Float"/>
+		<field name="colorRandomConnectionRandomColorMin" type="Vector3"/>
+		<field name="colorRandomConnectionRandomColorMax" type="Vector3"/>
+		<object name="GlobalLineSettings">
+			<field hash="69960ED2" type="String"/>
+			<field name="fileFlipbookTexture" type="String"/>
+			<field name="iTextureFlipbookCountY" type="Int32"/>
+			<field name="fTextureRepeatLength" type="Float"/>
+			<field name="fTextureIndexSpeed" type="Float"/>
+			<field name="fTextureUVSpeed" type="Float"/>
+		</object>
+		<object name="HackLineSettings">
+			<field hash="69960ED2" type="String"/>
+			<field name="fileFlipbookTexture" type="String"/>
+			<field name="iTextureFlipbookCountY" type="Int32"/>
+			<field name="fTextureRepeatLength" type="Float"/>
+			<field name="fTextureIndexSpeed" type="Float"/>
+			<field name="fTextureUVSpeed" type="Float"/>
+		</object>
+		<object name="HackLockLineSettings">
+			<field hash="69960ED2" type="String"/>
+			<field name="fileFlipbookTexture" type="String"/>
+			<field name="iTextureFlipbookCountY" type="Int32"/>
+			<field name="fTextureRepeatLength" type="Float"/>
+			<field name="fTextureIndexSpeed" type="Float"/>
+			<field name="fTextureUVSpeed" type="Float"/>
+		</object>
+		<object hash="022416CB">
+			<field hash="69960ED2" type="String"/>
+			<field name="fileFlipbookTexture" type="String"/>
+			<field name="iTextureFlipbookCountY" type="Int32"/>
+			<field name="fTextureRepeatLength" type="Float"/>
+			<field name="fTextureIndexSpeed" type="Float"/>
+			<field name="fTextureUVSpeed" type="Float"/>
+		</object>
+		<object hash="314BB4E7">
+			<field hash="69960ED2" type="String"/>
+			<field name="fileFlipbookTexture" type="String"/>
+			<field name="iTextureFlipbookCountY" type="Int32"/>
+			<field name="fTextureRepeatLength" type="Float"/>
+			<field name="fTextureIndexSpeed" type="Float"/>
+			<field name="fTextureUVSpeed" type="Float"/>
+		</object>
+	</object>
+	<object name="ProfilerConnectionLinksManagerSettings">
+		<field name="fHighRandomEntitiesToAdd" type="Float"/>
+		<field name="fRandomEntitiesHeight" type="Float"/>
+	</object>
+	<object name="DisruptCommConnectionLinksManagerSettings">
+		<field name="fHighRandomEntitiesToAdd" type="Float"/>
+		<field name="fRandomEntitiesHeight" type="Float"/>
+	</object>
+	<object name="HackingConnectionLinksManagerSettings">
+		<field name="fHighRandomEntitiesToAdd" type="Float"/>
+		<field name="fRandomEntitiesHeight" type="Float"/>
+		<field name="fHackingHalfAperture" type="Float"/>
+	</object>
+	<object name="MyPerkLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="String"/>
+		<field name="fWorldOffset" type="Float"/>
+		<field name="fTimedLineDuration" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="CtOsConnectionLineSettings">
+		<field name="fTimedLineDuration" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="DownloadLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="String"/>
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="String"/>
+		<field name="fWorldOffset" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="TeamBoostLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="String"/>
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="String"/>
+		<field name="fWorldOffset" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="DataTheftLineSettings">
+		<field hash="1F8062E2" type="String"/>
+		<field name="fileLineTexture" type="String"/>
+		<field hash="33E4567C" type="String"/>
+		<field name="fileIconTexture" type="String"/>
+		<field name="fWorldOffset" type="Float"/>
+		<object name="curveLineWidthOverDist">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="TargetingSettings">
+		<field name="fSlowerSwitchTime" type="Float"/>
+		<field name="fNormalSwitchTime" type="Float"/>
+		<field name="fFasterSwitchTime" type="Float"/>
+		<field name="iNormalCivilianPriority" type="Int32"/>
+		<field name="iHackableCivilianCivilianPriority" type="Int32"/>
+		<field name="iHackableCivilianRareRewardPriority" type="Int32"/>
+		<field name="iCameraPriority" type="Int32"/>
+		<field name="iXIngredientPriority" type="Int32"/>
+		<field name="iPlayerPriority" type="Int32"/>
+		<field name="iMissionObjectivePriority" type="Int32"/>
+		<field name="iHackableVehiclePriority" type="Int32"/>
+		<field name="fDistanceBeforeProfilingVehicleOccupant" type="Float"/>
+		<field name="fProfilingRange" type="Float"/>
+		<field name="fCameraProfilingRange" type="Float"/>
+		<field hash="4FA6D24C" type="BinHex"/>
+		<field hash="4E3E1A86" type="BinHex"/>
+		<field hash="22F8265F" type="BinHex"/>
+		<field hash="445DBD87" type="BinHex"/>
+	</object>
+	<object name="ChatReadSpeedSettings">
+		<field name="fWordPerSecond" type="Float"/>
+		<field name="fWaitMin" type="Float"/>
+		<field name="fWaitMax" type="Float"/>
+	</object>
+	<object name="EmailReadSpeedSettings">
+		<field name="fWordPerSecond" type="Float"/>
+		<field name="fWaitMin" type="Float"/>
+		<field name="fWaitMax" type="Float"/>
+	</object>
+	<object name="ActivityPanelSettings">
+		<field hash="3F550EB2" type="String"/>
+		<field name="sndSkipActivitySound" type="BinHex"/>
+	</object>
+	<object name="PhoneCallSettings">
+		<field hash="CFD84DA3" type="String"/>
+		<field name="sndPhoneCallIncomingSMS" type="BinHex"/>
+		<field hash="7D2EA9B0" type="String"/>
+		<field name="sndPhoneCallIncomingMail" type="BinHex"/>
+		<field name="sndPhoneCallIncomingCall" type="BinHex"/>
+	</object>
+	<object name="NoveltyFactSystemKey">
+		<object name="locstridSystemKey">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object name="NoveltyFactRandomEvent">
+		<object name="locstridMissionConvoy">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridMissionIntimidation">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridItemInterest">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object name="VideoFile">
+		<field hash="5B5B2C23" type="String"/>
+		<field name="matDefaultMaterial" type="BinHex"/>
+	</object>
+	<object hash="5F840A11">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="D01DA8FB">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="D6AF664C">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="2CCCF06F">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="F94E3EB5">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="B053F89E">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="5375E185">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="AEE75195">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="20982751">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="DD26ABB0">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="0095550A">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="00A2E917">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="77A01E34">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="7DEDDAC7">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="9491ABD2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="FF493301">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="BAA23DED">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="2196C131">
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="2B2A1822">
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="566CCE43">
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="1B8E39D8">
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="E0402C33">
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="CC284C83">
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object hash="1C63E8CB">
+		<field name="sndSoundId" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+	</object>
+	<object name="locstridBreachingProgressBarRunningInfo">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridBreachingProgressBarOutOfRangeInfo">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridBreachingProgressBarJamCommInfo">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridHackableNeedsBreachingInfo">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="curveTargetingPulseTimeOfDayIntensityMultiplierCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveTargetingPulseTimeOfDayFadeSpeedMultiplierCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="3FF05E9E">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="39A081EE">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+</class>

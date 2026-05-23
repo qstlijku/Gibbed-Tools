@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Tagvisibilitycontroller_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="DB4A7FFB">
+		<object hash="3C3F679F">
+			<object name="TagCategories">
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+			</object>
+		</object>
+		<object name="GraphicKitModelSelectionTagCategories">
+			<object name="TagCategories">
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="B1453AE5"/>
+		<object hash="00248BD0">
+			<object name="TagCategories">
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="9F0FB594">
+			<object name="TagCategories">
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="1EECD5F5">
+			<object name="Tags">
+				<field name="tagTag" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="1843B084">
+			<object name="TagCategories">
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="A1665AA1">
+			<object name="TagCategories">
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="068BEEA1">
+			<object name="Tags">
+				<field name="tagTag" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="1BBFD266">
+			<object name="TagCategories">
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="594A86C3"/>
+		<object hash="05778C43"/>
+		<object hash="42DC2EE1">
+			<object name="TagCategories">
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="37C1187C"/>
+	</object>
+	<object hash="91E10444">
+		<object hash="D837092E">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="189670B8">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="70779BE8">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="DF6F9CDF">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="36BA6573">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="0C1DF2C6">
+			<object name="TagCategorySelectionDescriptors"/>
+		</object>
+		<object hash="2DFD097F">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="13099775">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="C7217D7C">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="F130842E">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="FBA2ED0B">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="3879698D">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="5B73C83B">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="E01F8594">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="7587E2DF">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="204CF852">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uicollectiblesdb_aa9d6193Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="345B5D89" type="String"/>
+	<field hash="EA241D53" type="BinHex"/>
+	<field hash="DF052E7E" type="String"/>
+	<field hash="1BDB3193" type="BinHex"/>
+	<field hash="705C70F7" type="String"/>
+	<field hash="1684347D" type="BinHex"/>
+	<field hash="42878D04" type="String"/>
+	<field hash="4F8C3F7E" type="BinHex"/>
+	<field hash="27D74AE4" type="String"/>
+	<field hash="3F90B2DD" type="BinHex"/>
+	<field hash="B588F355" type="String"/>
+	<field hash="4537BD82" type="BinHex"/>
+	<object name="Activities">
+		<object name="Activity">
+			<field hash="ACC39534" type="String"/>
+			<field hash="FD1C7E66" type="BinHex"/>
+			<field hash="2E01DD54" type="BinHex"/>
+			<field hash="AD328877" type="String"/>
+			<object hash="EA4910DF">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+	<object name="Collectibles">
+		<object name="Collectible">
+			<field hash="ACC39534" type="String"/>
+			<field hash="FD1C7E66" type="BinHex"/>
+			<field hash="B52E909B" type="BinHex"/>
+			<field hash="AD328877" type="String"/>
+			<object hash="EA4910DF">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

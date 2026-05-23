@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BareknuckleinteractfightsconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="5866C412">
+		<object hash="512C23F5">
+			<field hash="845FDA67" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="E0EBA065">
+		<object hash="68B4B753">
+			<field hash="845FDA67" type="BinHex"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DggroupbehaviorconfigdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="5915B659" type="String"/>
+	<field hash="93FEE9F5" type="BinHex"/>
+	<object hash="D41F325B">
+		<object hash="F50BCA03">
+			<field hash="0C4B0E3B" type="String"/>
+			<field hash="19C797C8" type="BinHex"/>
+			<field hash="1F46CA29" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="1673FFCD">
+		<object hash="E9FB9FA8">
+			<field hash="122C9A00" type="String"/>
+			<field hash="1552E435" type="BinHex"/>
+			<object name="Value">
+				<field name="selType" type="Enum"/>
+				<field hash="2EE6943B" type="BinHex"/>
+				<field name="bBoolValue" type="Boolean"/>
+				<field name="fFloatValue" type="Float"/>
+				<field hash="019095D6" type="String"/>
+				<field hash="F3E2D318" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

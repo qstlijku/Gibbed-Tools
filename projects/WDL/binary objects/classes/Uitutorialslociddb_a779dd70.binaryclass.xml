@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uitutorialslociddb_a779dd70Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="1584313B">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="0547C984">
+		<object hash="AE548864">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="69F05FA3">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="1BCD04C2">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="A876B2BF">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="132928B7">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="DFEAE50A">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="F24581C2">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="FE301845">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

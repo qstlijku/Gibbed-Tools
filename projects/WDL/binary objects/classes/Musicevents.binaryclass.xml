@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MusiceventsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="A166EC0F" type="BinHex"/>
+	<field hash="0AA6AB10" type="String"/>
+	<field hash="768836E1" type="BinHex"/>
+	<field hash="F525DF1E" type="BinHex"/>
+	<field hash="4BA00DE8" type="BinHex"/>
+	<field hash="F1308309" type="BinHex"/>
+	<object hash="DA100389">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridArtistName">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

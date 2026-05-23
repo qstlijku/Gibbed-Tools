@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AbilitiesParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="E6AC9823" type="BinHex"/>
+	<field hash="710CB40C" type="String"/>
+	<field hash="C317D9EA" type="BinHex"/>
+	<field hash="28453881" type="String"/>
+	<field hash="F2DCE624" type="BinHex"/>
+	<object name="Parameters">
+		<field name="selTriggerType" type="Enum"/>
+		<field hash="AF201CC7" type="BinHex"/>
+		<field hash="5653F8B5" type="String"/>
+		<field hash="461578E6" type="BinHex"/>
+		<field hash="A6604358" type="String"/>
+		<field hash="3A9A4AC2" type="BinHex"/>
+		<field hash="FBA79F5C" type="BinHex"/>
+		<field name="BoneName" type="BinHex"/>
+		<field name="fDuration" type="Float"/>
+		<field hash="E5C05A9B" type="BinHex"/>
+		<field hash="CEE26ACF" type="BinHex"/>
+		<field hash="35816279" type="BinHex"/>
+		<field hash="6B50A150" type="BinHex"/>
+		<field hash="575D9E09" type="BinHex"/>
+		<field hash="3DEA7A6D" type="BinHex"/>
+		<field hash="575FE76B" type="BinHex"/>
+		<field hash="A5DDFB45" type="BinHex"/>
+		<field hash="1EC4B5DC" type="BinHex"/>
+		<field hash="9FF411B7" type="BinHex"/>
+		<field hash="35406CAE" type="String"/>
+		<field hash="DF1E0C8A" type="BinHex"/>
+		<field hash="32A10E30" type="BinHex"/>
+		<field hash="76DF8C37" type="BinHex"/>
+		<field hash="EFBAD9C1" type="BinHex"/>
+		<field hash="57214160" type="String"/>
+		<field hash="4767C133" type="BinHex"/>
+		<field hash="11580684" type="String"/>
+		<field hash="6D769B75" type="BinHex"/>
+		<field hash="7EED4111" type="String"/>
+		<field hash="E217488B" type="BinHex"/>
+		<field hash="2F6FA0A0" type="String"/>
+		<field hash="DD1DE66E" type="BinHex"/>
+		<field hash="ED5458BD" type="BinHex"/>
+		<field hash="0F938F45" type="BinHex"/>
+		<field name="fConnectionDuration" type="Float"/>
+		<field hash="6B626D26" type="BinHex"/>
+		<field hash="3F1864FE" type="BinHex"/>
+		<field hash="82A41A93" type="BinHex"/>
+		<field hash="7B7B8B87" type="BinHex"/>
+		<field hash="AF328419" type="String"/>
+		<field hash="E010DF71" type="BinHex"/>
+		<field hash="04DF007E" type="BinHex"/>
+		<field hash="AE5C4E4E" type="String"/>
+		<field hash="FFC168BF" type="BinHex"/>
+		<field hash="E5A306E1" type="BinHex"/>
+		<field hash="D94D6B64" type="String"/>
+		<field hash="7B27FDD4" type="BinHex"/>
+		<field hash="CFEC5283" type="BinHex"/>
+		<field hash="5BB661AE" type="String"/>
+		<field hash="675FDB1F" type="BinHex"/>
+		<field hash="4F3368D3" type="BinHex"/>
+		<field hash="1FEF0824" type="String"/>
+		<field hash="0FA98877" type="BinHex"/>
+		<field hash="C0F8D72F" type="String"/>
+		<field hash="43E19404" type="BinHex"/>
+		<field hash="1BDBD3FE" type="String"/>
+		<field hash="0B9D53AD" type="BinHex"/>
+		<field hash="CC075402" type="BinHex"/>
+		<field hash="5AE1E2C1" type="BinHex"/>
+		<field hash="300EB8B4" type="BinHex"/>
+		<field hash="5D68559F" type="BinHex"/>
+		<field hash="8A8EB5BB" type="String"/>
+		<field hash="28E4230B" type="BinHex"/>
+		<field hash="247967B5" type="BinHex"/>
+		<field hash="AE401296" type="BinHex"/>
+		<field hash="12D3F38D" type="BinHex"/>
+		<field hash="64BA38F2" type="BinHex"/>
+		<field name="selAnimationType" type="Enum"/>
+		<field hash="1B8AA683" type="BinHex"/>
+		<field hash="4A7A5AF8" type="BinHex"/>
+		<field hash="C9B57E3A" type="String"/>
+		<field hash="C452BC19" type="BinHex"/>
+		<field hash="AE89D17B" type="String"/>
+		<field hash="78E328F9" type="BinHex"/>
+		<field hash="4DFF3084" type="BinHex"/>
+		<field hash="ABA4466F" type="BinHex"/>
+		<field hash="25DD4CED" type="BinHex"/>
+		<field hash="0B55F7A9" type="BinHex"/>
+		<field hash="B4793232" type="BinHex"/>
+		<field hash="2C57C89A" type="BinHex"/>
+		<field hash="09FB7A42" type="BinHex"/>
+		<field hash="349BC85A" type="BinHex"/>
+		<field hash="9A2BF7EE" type="BinHex"/>
+		<field hash="D991D00E" type="BinHex"/>
+		<field hash="0F355CB7" type="BinHex"/>
+		<field hash="3491A00C" type="BinHex"/>
+		<field hash="C6DA20C5" type="BinHex"/>
+		<field hash="E6655990" type="String"/>
+		<field name="archArchetype" type="BinHex"/>
+		<field hash="1E216B24" type="String"/>
+		<field hash="5D07A015" type="BinHex"/>
+		<field hash="0453637C" type="BinHex"/>
+		<field hash="170C034B" type="BinHex"/>
+		<field hash="E8881B3E" type="BinHex"/>
+		<field hash="27DF9361" type="BinHex"/>
+		<field hash="B988B5DC" type="BinHex"/>
+		<field hash="0786FDD3" type="String"/>
+		<field hash="3CA10647" type="BinHex"/>
+		<object name="Cooldown">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="119346EE">
+			<field hash="F8550BEE" type="BinHex"/>
+			<field hash="9B907424" type="BinHex"/>
+		</object>
+		<object hash="97275596">
+			<field hash="763C7D7C" type="BinHex"/>
+			<field hash="5CE244A8" type="BinHex"/>
+		</object>
+		<object hash="F189D7E8">
+			<field hash="17529DB5" type="BinHex"/>
+			<field hash="1B70525B" type="BinHex"/>
+			<field hash="84F82F47" type="BinHex"/>
+			<field hash="F2901FC3" type="BinHex"/>
+			<field hash="7E83788A" type="BinHex"/>
+		</object>
+		<object hash="618F5209">
+			<object hash="EBC7AA8B">
+				<field hash="662E0ABF" type="BinHex"/>
+				<field name="fMultiplier" type="Float"/>
+				<field hash="4C26C009" type="BinHex"/>
+				<field hash="4D2A5ABD" type="BinHex"/>
+				<field hash="7E22C3EC" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="B28E240F">
+			<object hash="3C4557EC">
+				<field hash="66905A99" type="String"/>
+				<field hash="9B39603A" type="BinHex"/>
+				<field hash="08BFA198" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="03BFF0C6">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="D4544287">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="7418A098">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="365F34FC">
+			<field hash="C50F1A52" type="BinHex"/>
+		</object>
+		<object hash="A948B88B">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="61366DE0">
+			<object hash="FA72D7A0">
+				<field hash="8EAEE8BA" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="1500A355">
+			<field hash="ACADD370" type="String"/>
+			<field hash="BCEB5323" type="BinHex"/>
+			<field hash="63D31201" type="String"/>
+			<field hash="E0CA512A" type="BinHex"/>
+			<object hash="5EA2C901">
+				<field hash="CF050DDE" type="String"/>
+				<field hash="56A06384" type="BinHex"/>
+				<field hash="C81BAE53" type="String"/>
+				<field hash="02DD4244" type="BinHex"/>
+				<field hash="BEAE1874" type="BinHex"/>
+				<field hash="F3CA4366" type="BinHex"/>
+				<field hash="B0FFB57B" type="BinHex"/>
+				<field hash="94CCDB59" type="BinHex"/>
+			</object>
+			<object hash="629F60A1">
+				<field hash="BCD5D5F9" type="String"/>
+				<field hash="761339EE" type="BinHex"/>
+				<field hash="59286502" type="String"/>
+				<field hash="496EE551" type="BinHex"/>
+				<field hash="2B839BE9" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="13890902">
+			<field hash="103D1A52" type="String"/>
+			<field hash="2CD4A0E3" type="BinHex"/>
+			<field hash="F85A34E0" type="String"/>
+			<field hash="61FF5ABA" type="BinHex"/>
+			<field hash="331C7EE6" type="BinHex"/>
+		</object>
+		<object hash="6D4A1B35">
+			<field hash="16B267BA" type="String"/>
+			<field hash="2A5BDD0B" type="BinHex"/>
+			<field hash="A3E72452" type="String"/>
+			<field hash="3A424A08" type="BinHex"/>
+			<field hash="3593030E" type="BinHex"/>
+		</object>
+		<object hash="932786C0">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="990358FF">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="F3C64159">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="B993BCF6">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="40C87021">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="76EDE49A">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="2E1A5130">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="C96D6DA9">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="46C94843">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="69203CAC">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="B18DD72C">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="E0518567">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="F22430E5">
+			<field hash="759A6A89" type="BinHex"/>
+			<field hash="73A36962" type="BinHex"/>
+		</object>
+		<object hash="0CA0FB2D">
+			<field hash="759A6A89" type="BinHex"/>
+			<field hash="73A36962" type="BinHex"/>
+		</object>
+		<object hash="9F41D9B7">
+			<field hash="759A6A89" type="BinHex"/>
+			<field hash="73A36962" type="BinHex"/>
+		</object>
+		<object hash="41F10355">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="A3F04350">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="3BFCA4E7">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="9BCF6AC2">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="301AB727">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="5A99F904">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="DF50B8D6">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="20A84E42">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="1C0DE75F">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="769D5F98">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="2EA1F381">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="3B801D12">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="9700B915">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="0803734B">
+			<field name="humanconfigHumanConfig" type="BinHex"/>
+			<object hash="0803734B">
+				<field name="humanconfigHumanConfig" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="DAB8E605">
+			<field hash="316298A0" type="String"/>
+			<field hash="CCCBA203" type="BinHex"/>
+			<field hash="58F69813" type="String"/>
+			<field hash="17D4C37B" type="BinHex"/>
+			<field hash="861E64C8" type="String"/>
+			<field hash="6C4004EC" type="BinHex"/>
+			<field hash="EF1117B0" type="String"/>
+			<field hash="EC719F45" type="BinHex"/>
+			<field hash="E36B10D9" type="BinHex"/>
+			<field hash="A3B8A8DF" type="BinHex"/>
+			<field hash="570E0646" type="BinHex"/>
+			<field hash="A8C695D3" type="BinHex"/>
+			<field hash="54D14697" type="String"/>
+			<field hash="8B7B420B" type="BinHex"/>
+			<object hash="A5A6C6A6">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="67ADDA15">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="Sounds">
+				<field hash="F0436232" type="String"/>
+				<field hash="5C7C8231" type="BinHex"/>
+				<field hash="E8073D3F" type="BinHex"/>
+				<field hash="97B1D2FF" type="String"/>
+				<field hash="1C96CF7B" type="BinHex"/>
+				<field hash="CF27DC50" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="ED57E45A">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="E1206939">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="41754D27">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="1EFA9442">
+			<field hash="28AB67AA" type="String"/>
+			<field hash="E57F01B1" type="BinHex"/>
+			<field hash="2C22468A" type="BinHex"/>
+			<field hash="9952CDB4" type="String"/>
+			<field hash="9A324541" type="BinHex"/>
+			<field hash="C5299A93" type="String"/>
+			<field hash="C8CE58B0" type="BinHex"/>
+			<field hash="62DA964E" type="String"/>
+			<field hash="61BA1EBB" type="BinHex"/>
+			<field hash="BDBFB95A" type="BinHex"/>
+			<field hash="003C1252" type="BinHex"/>
+			<field hash="31805E5B" type="BinHex"/>
+			<field hash="A7EBCFF2" type="BinHex"/>
+			<field hash="34ECEECC" type="BinHex"/>
+		</object>
+		<object hash="3772EB78">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="CanRevive">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="67C93126">
+			<field hash="24BA9E57" type="String"/>
+			<field hash="34FC1E04" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+		<object hash="0EEE75C8">
+			<field hash="24BA9E57" type="String"/>
+			<field hash="34FC1E04" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+		<object hash="9D970667">
+			<field hash="24BA9E57" type="String"/>
+			<field hash="34FC1E04" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+		<object hash="C7B91397">
+			<field hash="24BA9E57" type="String"/>
+			<field hash="34FC1E04" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+		<object hash="ECB9B42A">
+			<field hash="34FC1E04" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+		<object name="Drone">
+			<field hash="E6655990" type="String"/>
+			<field name="archArchetype" type="BinHex"/>
+		</object>
+		<object hash="009DD9BE">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="B75E07E5">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="70527600">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="8058D161">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="8294D123">
+			<field hash="322D674F" type="BinHex"/>
+			<field hash="80D11F0E" type="BinHex"/>
+			<field hash="BCDC2057" type="BinHex"/>
+			<field hash="6767E696" type="BinHex"/>
+			<field hash="07DDE034" type="BinHex"/>
+			<field hash="6FFFC46E" type="BinHex"/>
+			<field hash="F6FB41CB" type="BinHex"/>
+			<field hash="70C347A0" type="BinHex"/>
+			<field hash="46B56D17" type="String"/>
+			<field hash="DF10034D" type="BinHex"/>
+			<field hash="BB5F5F68" type="String"/>
+			<field hash="87B6E5D9" type="BinHex"/>
+			<field hash="B82494A6" type="String"/>
+			<field hash="33038922" type="BinHex"/>
+			<field hash="BEFF346F" type="BinHex"/>
+			<field hash="1D56BB4E" type="BinHex"/>
+			<field hash="AAD22E0C" type="BinHex"/>
+		</object>
+		<object hash="71B99564">
+			<field hash="726B84E8" type="BinHex"/>
+			<field hash="E0741223" type="String"/>
+			<field hash="6ADC0FA9" type="BinHex"/>
+			<field hash="F4C49DD8" type="BinHex"/>
+		</object>
+		<object name="Animation">
+			<field hash="80E2E8C1" type="BinHex"/>
+		</object>
+		<object hash="960F1863">
+			<field hash="5C7C8231" type="BinHex"/>
+			<field hash="E8073D3F" type="BinHex"/>
+			<field hash="101BC3DA" type="String"/>
+			<field hash="DADD2FCD" type="BinHex"/>
+			<field hash="E6F8E350" type="BinHex"/>
+			<field hash="317D13A3" type="BinHex"/>
+			<field hash="E24C4BBF" type="String"/>
+			<field name="sndImpactSound" type="BinHex"/>
+			<field hash="A36FF6FA" type="BinHex"/>
+			<field hash="01F7382F" type="String"/>
+			<field hash="8AD025AB" type="BinHex"/>
+			<field hash="F249EE4D" type="BinHex"/>
+			<field hash="4F430C6D" type="BinHex"/>
+			<field hash="CD0F7269" type="String"/>
+			<field hash="3F7D34A7" type="BinHex"/>
+			<field hash="2EE74B0E" type="BinHex"/>
+			<field hash="11ADF5C3" type="BinHex"/>
+			<field hash="97B1D2FF" type="String"/>
+			<field hash="1C96CF7B" type="BinHex"/>
+			<field hash="CF27DC50" type="BinHex"/>
+			<field hash="D25A594E" type="String"/>
+			<field hash="1F8E3F55" type="BinHex"/>
+			<field hash="DBB250CE" type="BinHex"/>
+			<field hash="84D20966" type="String"/>
+			<field hash="52B8F0E4" type="BinHex"/>
+			<field hash="E4869746" type="BinHex"/>
+			<field hash="A520B54F" type="String"/>
+			<field hash="734A4CCD" type="BinHex"/>
+			<field hash="9F1BE3E7" type="BinHex"/>
+			<field hash="6E1EE158" type="String"/>
+			<field hash="A3CA8743" type="BinHex"/>
+			<field hash="334F8283" type="BinHex"/>
+		</object>
+		<object name="CooldownTime">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="CooldownDelay">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="RechargeTime">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="CanUseFlashbang">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="FlashbangRadius">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="8E83BECF">
+			<object name="GeneratedStims">
+				<object name="Stim">
+					<field name="stims" type="BinHex"/>
+					<field name="vectorLocalTranslationOffset" type="BinHex"/>
+					<field hash="0AA58CD7" type="BinHex"/>
+					<field name="bIsPersistent" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object name="CanUseAllSeeing">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="AllSeeingRadius">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="EnemyProximityRadius">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="LowUseTimeScale">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="LowUseSpeedThreshold">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="C3D3E886">
+			<object name="TagCategorySelectionArray">
+				<object name="TagCategorySelection">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<field hash="BDB3B8D5" type="String"/>
+					<field hash="401A8276" type="BinHex"/>
+					<field hash="F5391DFF" type="BinHex"/>
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<object name="Tags"/>
+					<field name="tagTag" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="D0C5DABB">
+				<field hash="CF68E402" type="String"/>
+				<field name="hid_DTCTH_ClassName" type="BinHex"/>
+				<object name="TagCategorySelectionDescriptors">
+					<object name="TagCategorySelectionDescriptor">
+						<field name="tagcategoryTagCategory" type="BinHex"/>
+						<field name="bMultiSelect" type="Boolean"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="891542DA">
+			<field hash="3B3AFA97" type="BinHex"/>
+			<object hash="2D962B6F">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

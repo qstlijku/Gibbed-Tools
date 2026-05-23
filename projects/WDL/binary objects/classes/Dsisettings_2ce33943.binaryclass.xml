@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dsisettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9039C18D" type="BinHex"/>
+	<field hash="4A5B182A" type="BinHex"/>
+	<field hash="D42FDCC9" type="BinHex"/>
+	<field hash="5F202234" type="BinHex"/>
+	<field hash="56F9EAD0" type="BinHex"/>
+</class>

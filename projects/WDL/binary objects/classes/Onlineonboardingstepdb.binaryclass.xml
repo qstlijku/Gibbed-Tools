@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="OnlineonboardingstepdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selType" type="Enum"/>
+	<field name="selState" type="Enum"/>
+	<field hash="6301134D" type="BinHex"/>
+	<field name="districtDistrict" type="BinHex"/>
+	<field hash="D6C380EE" type="String"/>
+	<field hash="AAED1D1F" type="BinHex"/>
+	<field hash="E6EDA391" type="BinHex"/>
+	<object hash="11030A42">
+		<object hash="B789ABB3">
+			<field hash="B789ABB3" type="BinHex"/>
+		</object>
+	</object>
+</class>

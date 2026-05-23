@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CensusactormemorydefinitionParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="2AF7DC06" type="BinHex"/>
+	<field hash="165581CD" type="BinHex"/>
+	<field hash="BC79F996" type="BinHex"/>
+	<field hash="509E5209" type="BinHex"/>
+	<field hash="5A7705BB" type="BinHex"/>
+	<field hash="6F2D0D9E" type="BinHex"/>
+	<field hash="E54BD97A" type="BinHex"/>
+	<field hash="3B15C816" type="BinHex"/>
+	<field hash="FCCDE2D3" type="BinHex"/>
+	<field hash="024E29E1" type="BinHex"/>
+	<field hash="75D5BD00" type="BinHex"/>
+	<object hash="EE603A60">
+		<field hash="C50F1A52" type="BinHex"/>
+	</object>
+	<object hash="1E0FA483">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="9AB3D67E">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="F947AB1C">
+		<field hash="FBD08719" type="BinHex"/>
+		<field hash="AF927793" type="BinHex"/>
+		<field hash="26D36C55" type="BinHex"/>
+		<field hash="F8391733" type="BinHex"/>
+	</object>
+</class>

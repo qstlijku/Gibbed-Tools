@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dg stagesParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Stage">
+		<field hash="232F7D6E" type="BinHex"/>
+		<object name="Descriptions">
+			<object name="Description">
+				<field hash="6D1E1959" type="String"/>
+				<field name="selType" type="Enum"/>
+				<object name="Object">
+					<field name="vectorRelativeOffset" type="BinHex"/>
+					<field name="angvecRelativeAngle" type="BinHex"/>
+					<field hash="A06E61FC" type="BinHex"/>
+					<field hash="939B7534" type="BinHex"/>
+					<field hash="8B5D608C" type="String"/>
+					<object name="Data">
+						<field hash="482CA2F4" type="String"/>
+						<field name="RoleName" type="BinHex"/>
+						<field hash="E6655990" type="String"/>
+						<field name="archArchetype" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="UserSettings"/>
+	</object>
+</class>

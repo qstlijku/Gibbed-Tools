@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DynamicgroupbehaviorsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="4D3C1E92" type="BinHex"/>
+	<field hash="2EA6A881" type="BinHex"/>
+	<field hash="19E26443" type="BinHex"/>
+	<field hash="E5C9DE0A" type="BinHex"/>
+	<object hash="6C6245E2">
+		<field hash="6D1E1959" type="String"/>
+		<field name="selType" type="Enum"/>
+		<object name="Object">
+			<field hash="3B067724" type="BinHex"/>
+			<field hash="D1172F43" type="BinHex"/>
+			<field hash="C59E002F" type="BinHex"/>
+			<field hash="BB9083BF" type="BinHex"/>
+			<field hash="58CD3D65" type="BinHex"/>
+			<field hash="9AB02A11" type="BinHex"/>
+			<object hash="6F882F27">
+				<field name="CLOId" type="BinHex"/>
+				<field hash="8A5B248B" type="BinHex"/>
+				<field hash="B9B192E2" type="BinHex"/>
+				<object hash="6F882F27">
+					<field name="CLOId" type="BinHex"/>
+					<field hash="8A5B248B" type="BinHex"/>
+					<field hash="B9B192E2" type="BinHex"/>
+				</object>
+			</object>
+			<field hash="2E2C2551" type="BinHex"/>
+			<field name="fMaxDistanceFromPlayer" type="Float"/>
+			<field hash="9128CC7C" type="BinHex"/>
+			<field hash="C28ED498" type="BinHex"/>
+			<field hash="C52E733F" type="BinHex"/>
+			<field hash="C2E1324B" type="BinHex"/>
+			<field hash="0EEC4944" type="BinHex"/>
+			<field hash="ACED22C9" type="BinHex"/>
+			<field hash="4FB09C13" type="BinHex"/>
+			<field hash="BC280219" type="BinHex"/>
+			<field hash="FB6BC523" type="BinHex"/>
+			<field hash="E82E2388" type="BinHex"/>
+			<field hash="C893DBE1" type="BinHex"/>
+			<field hash="E1ED26F9" type="BinHex"/>
+			<field hash="97E526A7" type="BinHex"/>
+			<field hash="A7C1183A" type="BinHex"/>
+			<field hash="6BCC6335" type="BinHex"/>
+			<field hash="4458263E" type="BinHex"/>
+			<field hash="1356767D" type="BinHex"/>
+			<object hash="7E266E90">
+				<object hash="98785D58">
+					<field hash="BC280219" type="BinHex"/>
+				</object>
+			</object>
+			<field hash="62DDACDC" type="BinHex"/>
+			<field hash="4D02EF41" type="BinHex"/>
+			<object hash="83515D32">
+				<object hash="0FBD30B4">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+			</object>
+			<field hash="34614BED" type="BinHex"/>
+			<field hash="361B0F26" type="BinHex"/>
+			<field hash="849D46D9" type="BinHex"/>
+			<field hash="4A037C86" type="BinHex"/>
+			<field hash="FD5A02E6" type="BinHex"/>
+			<field hash="16BE6FA5" type="BinHex"/>
+			<object hash="F5B61693">
+							<field hash="BDB3B8D5" type="String"/>
+							<field hash="401A8276" type="BinHex"/>
+							<field hash="F5391DFF" type="BinHex"/>
+							<object name="Tags"/>
+						</object>
+			<object hash="AE931E96"/>
+			<object hash="8C962293"/>
+			<object hash="542F69C4">
+							<field hash="94C08F9B" type="BinHex"/>
+							<field hash="1DF2E0ED" type="BinHex"/>
+						</object>
+			<field hash="91E96D17" type="BinHex"/>
+			<field hash="EB915A01" type="BinHex"/>
+			<field hash="52B7C170" type="BinHex"/>
+			<field hash="52CAA51D" type="BinHex"/>
+			<field hash="661CE37D" type="BinHex"/>
+			<object hash="658CDB01">
+							<field hash="BDB3B8D5" type="String"/>
+							<field hash="401A8276" type="BinHex"/>
+							<field hash="F5391DFF" type="BinHex"/>
+							<object name="Tags">
+								<object name="Tag">
+												<field name="tagTag" type="BinHex"/>
+											</object>
+							</object>
+						</object>
+			<object hash="6A7BDD41">
+				<object name="Tag">
+								<field name="tagTag" type="BinHex"/>
+							</object>
+			</object>
+		</object>
+	</object>
+	<object hash="A917E784">
+		<object hash="0371711C">
+			<object hash="F8E0353D">
+				<object hash="8DF12488">
+					<field hash="6D1E1959" type="String"/>
+					<field name="selType" type="Enum"/>
+					<object name="Object">
+						<field hash="3B067724" type="BinHex"/>
+						<field hash="D1172F43" type="BinHex"/>
+						<field hash="C59E002F" type="BinHex"/>
+						<field hash="BB9083BF" type="BinHex"/>
+						<field hash="58CD3D65" type="BinHex"/>
+						<field hash="9AB02A11" type="BinHex"/>
+						<field hash="34614BED" type="BinHex"/>
+						<field hash="361B0F26" type="BinHex"/>
+						<field hash="849D46D9" type="BinHex"/>
+						<field hash="4A037C86" type="BinHex"/>
+						<field hash="FD5A02E6" type="BinHex"/>
+						<field hash="16BE6FA5" type="BinHex"/>
+						<object hash="F5B61693">
+							<field hash="BDB3B8D5" type="String"/>
+							<field hash="401A8276" type="BinHex"/>
+							<field hash="F5391DFF" type="BinHex"/>
+							<object name="Tags"/>
+						</object>
+						<object hash="AE931E96"/>
+						<object hash="8C962293"/>
+						<object hash="542F69C4">
+							<field hash="94C08F9B" type="BinHex"/>
+							<field hash="1DF2E0ED" type="BinHex"/>
+						</object>
+						<field hash="91E96D17" type="BinHex"/>
+						<field hash="EB915A01" type="BinHex"/>
+						<field hash="52B7C170" type="BinHex"/>
+						<field hash="52CAA51D" type="BinHex"/>
+						<field hash="661CE37D" type="BinHex"/>
+						<object hash="658CDB01">
+							<field hash="BDB3B8D5" type="String"/>
+							<field hash="401A8276" type="BinHex"/>
+							<field hash="F5391DFF" type="BinHex"/>
+							<object name="Tags">
+								<object name="Tag">
+												<field name="tagTag" type="BinHex"/>
+											</object>
+							</object>
+						</object>
+						<object hash="6A7BDD41">
+							<object name="Tag">
+								<field name="tagTag" type="BinHex"/>
+							</object>
+						</object>
+						<field hash="8A5B248B" type="BinHex"/>
+						<object hash="EB31FC0C">
+							<object hash="04170D84">
+								<object name="TagCategorySelectionArray">
+									<object name="TagCategorySelection">
+										<field hash="CF68E402" type="String"/>
+										<field name="hid_DTCTH_ClassName" type="BinHex"/>
+										<field hash="BDB3B8D5" type="String"/>
+										<field hash="401A8276" type="BinHex"/>
+										<field hash="F5391DFF" type="BinHex"/>
+										<field name="tagcategoryTagCategory" type="BinHex"/>
+										<field name="tagTag" type="BinHex"/>
+										<object name="Tags">
+											<object name="Tag">
+												<field name="tagTag" type="BinHex"/>
+											</object>
+										</object>
+									</object>
+								</object>
+								<object hash="D0C5DABB">
+									<field hash="CF68E402" type="String"/>
+									<field name="hid_DTCTH_ClassName" type="BinHex"/>
+									<object name="TagCategorySelectionDescriptors">
+										<object name="TagCategorySelectionDescriptor">
+											<field name="tagcategoryTagCategory" type="BinHex"/>
+											<field name="bMultiSelect" type="Boolean"/>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="F0A8AB69">
+				<object hash="275FF08A">
+					<field hash="1794B82F" type="String"/>
+					<field hash="2B7D029E" type="BinHex"/>
+					<field name="fWeight" type="Float"/>
+					<object hash="1673FFCD"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="F0A8AB69">
+		<object hash="275FF08A">
+			<field hash="1794B82F" type="String"/>
+			<field hash="2B7D029E" type="BinHex"/>
+			<field name="fWeight" type="Float"/>
+			<object hash="1673FFCD">
+				<object hash="54554D2E">
+			<field hash="122C9A00" type="String"/>
+			<field hash="1552E435" type="BinHex"/>
+			<object name="Value">
+				<field name="selType" type="Enum"/>
+				<field hash="2EE6943B" type="BinHex"/>
+			</object>
+		</object>
+			</object>
+		</object>
+	</object>
+	<object hash="1673FFCD">
+		<object hash="54554D2E">
+			<field hash="122C9A00" type="String"/>
+			<field hash="1552E435" type="BinHex"/>
+			<object name="Value">
+				<field name="selType" type="Enum"/>
+				<field hash="2EE6943B" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

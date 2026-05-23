@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GameplayconversationsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Rules">
+		<object name="Rule">
+			<field hash="B05A8B89" type="String"/>
+			<field name="gameplayconvoruleItemType" type="BinHex"/>
+			<object name="Settings">
+				<field name="fCoolDown" type="Float"/>
+				<field hash="995B332C" type="String"/>
+				<field name="Bark" type="BinHex"/>
+				<field name="fMinDamage" type="Float"/>
+				<field name="fDelayMax" type="Float"/>
+				<field name="fDistanceToStop" type="Float"/>
+				<field name="fDistanceToPause" type="Float"/>
+				<field name="fDistanceToResume" type="Float"/>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SealionsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selSimpleAnimalType" type="Enum"/>
+	<field name="selStartState" type="Enum"/>
+	<field name="bIsGrouped" type="Boolean"/>
+	<field name="bIsScoutXTarget" type="Boolean"/>
+	<object name="Physics">
+		<field name="fPhantomRadius" type="Float"/>
+		<field name="vectorPhantomOffset" type="BinHex"/>
+	</object>
+	<object name="Threat">
+		<field name="fFleeProximityRange" type="Float"/>
+		<field name="fSearchRanage" type="Float"/>
+		<field name="fThreatSpeed" type="Float"/>
+		<field name="fEventDeathRadius" type="Float"/>
+	</object>
+	<object name="Movement">
+		<field name="fDestinationGroundBuffer" type="Float"/>
+		<field name="fDestinationAirBuffer" type="Float"/>
+		<field name="fFleeAlititude" type="Float"/>
+		<field name="fFleeDisplacement" type="Float"/>
+		<field name="fFlightFleeDisplacement" type="Float"/>
+		<field name="fAccelerationRate" type="Float"/>
+		<field name="fMaxSpeed" type="Float"/>
+		<field name="fTurnRate" type="Float"/>
+		<field name="fPitchTurnRate" type="Float"/>
+		<field name="fRollTurnRate" type="Float"/>
+		<field name="bIsContinuousPath" type="Boolean"/>
+	</object>
+	<object name="MoveStateEntries">
+		<object name="Idle">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="IdleStanding">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="FleeTransition">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="Flee">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="Dive">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object hash="38B17551">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+	</object>
+	<object name="locstridScoutXTargetNameLocId">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

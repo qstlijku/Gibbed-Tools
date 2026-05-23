@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FacialposedefinitionParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="CC979B17" type="String"/>
+	<field name="filePoseDefinitionFileName" type="String"/>
+	<field hash="5DE0C464" type="BinHex"/>
+	<field hash="46A28028" type="BinHex"/>
+	<field name="posewrinklemasksetPoseWrinkleMaskSet" type="BinHex"/>
+	<field name="poseblendshapessetPoseBlendShapesSet" type="BinHex"/>
+</class>

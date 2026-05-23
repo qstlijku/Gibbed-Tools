@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Raid2bossfightgameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="1A90607D">
+		<field hash="CB6A45FD" type="BinHex"/>
+		<field hash="A0080146" type="BinHex"/>
+		<field hash="3E6CDFF6" type="BinHex"/>
+		<field hash="8DE75BE4" type="BinHex"/>
+		<field hash="F416245C" type="BinHex"/>
+		<object name="Reinforcements">
+			<field hash="E8527F53" type="BinHex"/>
+			<object name="Reinforcements">
+				<object hash="99255E5B">
+					<field hash="EB3467DE" type="BinHex"/>
+					<field hash="A0DDA34F" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="B78EC99A">
+			<object hash="0B633B98">
+				<object hash="84097E8B">
+					<field hash="3AE8ED5C" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="GodRays">
+			<object name="GodRays">
+				<object hash="318FC468">
+					<field hash="B49BA169" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="9ECCC904">
+			<object hash="F37FB54C">
+				<object hash="F37FB54C">
+					<field hash="C8C3B356" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="E3CD18F3">
+			<object hash="E3CD18F3">
+				<object hash="7A02BE1F">
+					<field hash="5555DA69" type="BinHex"/>
+					<field hash="EAFA92E5" type="BinHex"/>
+					<field hash="FD443474" type="BinHex"/>
+					<field hash="C0535FA3" type="BinHex"/>
+					<field hash="8A6739BA" type="String"/>
+					<field name="psParticle" type="BinHex"/>
+					<field hash="A20E0B6A" type="String"/>
+					<field name="sndStartSound" type="BinHex"/>
+					<field hash="EAA90218" type="String"/>
+					<field name="sndStopSound" type="BinHex"/>
+					<field hash="960CDFBD" type="BinHex"/>
+					<field hash="F4C24AA3" type="BinHex"/>
+					<object hash="6497BD05">
+						<object hash="834678B0">
+							<field hash="C8C3B356" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="8FEB15D4">
+			<field hash="92210DFC" type="String"/>
+			<field name="hidEventName" type="BinHex"/>
+			<field name="hidTargetEntityId" type="BinHex"/>
+			<field name="sDetail" type="BinHex"/>
+			<field name="selType" type="Enum"/>
+			<field name="bShowCone" type="Boolean"/>
+			<object name="RadiusSettings">
+				<field name="fRadius" type="Float"/>
+			</object>
+			<object name="AltitudeSliceSettings">
+				<field name="fMaxAlt" type="Float"/>
+				<field name="fMinAlt" type="Float"/>
+			</object>
+			<object name="LevelSettings">
+				<field name="fLevel" type="Float"/>
+				<field name="bFalloff" type="Boolean"/>
+				<field name="fFalloffMinLevel" type="Float"/>
+			</object>
+			<object name="EntityRestrictions">
+				<field name="bRestrictToEntities" type="Boolean"/>
+				<field name="bRestrictToPlayers" type="Boolean"/>
+				<field name="bRestrictToNpcs" type="Boolean"/>
+				<field name="bRestrictToCivilians" type="Boolean"/>
+				<field name="bRestrictToVehicles" type="Boolean"/>
+				<field name="bRestrictToCiviliansDriver" type="Boolean"/>
+				<field name="bRestrictToAnimal" type="Boolean"/>
+				<field name="bRestrictToSimpleAnimal" type="Boolean"/>
+				<field name="bRestrictToRobot" type="Boolean"/>
+				<field hash="7E2CBCA2" type="BinHex"/>
+				<field hash="BD020C6A" type="BinHex"/>
+				<field hash="1B5C206B" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="84DCFB04">
+			<object hash="FC6A9A11">
+				<field hash="F235E718" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="F6DC69DB">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="30076F99">
+			<object hash="0F1A4383">
+				<object hash="222FB847">
+					<field hash="01C2FF0E" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="FE7F32B8">
+			<field hash="C9013AA0" type="BinHex"/>
+			<field hash="78FAD5A7" type="BinHex"/>
+			<field hash="64F0C527" type="BinHex"/>
+			<field hash="D36B5E65" type="BinHex"/>
+		</object>
+		<object hash="522878BE">
+			<field hash="BF43B6CC" type="BinHex"/>
+			<field hash="68D9C928" type="String"/>
+			<field hash="14F754D9" type="BinHex"/>
+			<field hash="F10F04AA" type="String"/>
+			<field hash="68AA6AF0" type="BinHex"/>
+			<field hash="7A724027" type="String"/>
+			<field hash="065CDDD6" type="BinHex"/>
+			<field hash="0D1FFC70" type="String"/>
+			<field hash="0E7F7485" type="BinHex"/>
+			<field hash="54FA09A2" type="String"/>
+			<field hash="8290F020" type="BinHex"/>
+			<field hash="1D896722" type="String"/>
+			<field hash="842C0978" type="BinHex"/>
+			<field hash="E8C27DBF" type="String"/>
+			<field hash="44FD9DBC" type="BinHex"/>
+			<field hash="80F27553" type="BinHex"/>
+			<field hash="5DCE329A" type="BinHex"/>
+			<field hash="883F5160" type="BinHex"/>
+			<field hash="EEDADA67" type="BinHex"/>
+			<field hash="C6279269" type="BinHex"/>
+			<field hash="FBD748A9" type="BinHex"/>
+			<field hash="D1BA86C8" type="BinHex"/>
+			<object hash="7E1B4CF9">
+				<object hash="91A4E675">
+					<field hash="995B332C" type="String"/>
+					<field name="Bark" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="54E3BA55">
+			<field hash="F7FE6D1A" type="String"/>
+			<field hash="058C2BD4" type="BinHex"/>
+			<field hash="E555E415" type="String"/>
+			<field hash="1727A2DB" type="BinHex"/>
+			<field hash="48985698" type="String"/>
+			<field hash="E4A7B69B" type="BinHex"/>
+			<field hash="2477F0A0" type="BinHex"/>
+			<field hash="7F85FD51" type="String"/>
+			<field hash="D3BA1D52" type="BinHex"/>
+			<field hash="690A1AA0" type="BinHex"/>
+			<object hash="D41D3B26">
+				<object hash="A5F4B35B">
+					<field hash="F005A4F6" type="String"/>
+					<field hash="8C2B3907" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="22807B8C">
+				<object hash="6DC30E26">
+					<field hash="A477B1C7" type="String"/>
+					<field hash="6EB15DD0" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="89D0338F">
+			<field name="fWarningDuration" type="Float"/>
+			<object hash="C0AA540C">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="828BBC22">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="855F8807">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="AC625CCA">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="D6E68AF9">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

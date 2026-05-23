@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Animalanimationvariationsettings_16e10314Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Default">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+		<field name="bIsRandomized" type="Boolean"/>
+	</object>
+	<object hash="B9617F9D">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+		<field name="bIsRandomized" type="Boolean"/>
+	</object>
+	<object name="SmallDog">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+		<field name="bIsRandomized" type="Boolean"/>
+	</object>
+	<object name="SeaLion">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+		<field name="bIsRandomized" type="Boolean"/>
+	</object>
+	<object name="Pigeon">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+		<field name="bIsRandomized" type="Boolean"/>
+	</object>
+	<object name="Parrot">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+		<field name="bIsRandomized" type="Boolean"/>
+	</object>
+	<object name="Seagull">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+		<field name="bIsRandomized" type="Boolean"/>
+	</object>
+	<object name="Eagle">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+		<field name="bIsRandomized" type="Boolean"/>
+	</object>
+</class>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PhotodetectiontargetconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="E035E191" type="BinHex"/>
+	<field hash="EF595791" type="BinHex"/>
+	<field hash="1EF609DE" type="BinHex"/>
+	<field name="bIsHidden" type="Boolean"/>
+	<field hash="8C90FA25" type="BinHex"/>
+	<field hash="329322C9" type="BinHex"/>
+	<field hash="72DC5ABF" type="BinHex"/>
+	<field hash="32359AAE" type="BinHex"/>
+	<field hash="EC14353B" type="BinHex"/>
+	<field hash="78259A69" type="BinHex"/>
+	<field name="vectorPosition" type="BinHex"/>
+	<field name="fRadius" type="Float"/>
+	<field hash="D1C4E289" type="BinHex"/>
+	<object name="locstridTargetName">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="D750861D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="CBA8D4FA">
+		<object hash="D871E5C6">
+			<field hash="6065F6F0" type="BinHex"/>
+			<field hash="6A909358" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="29224056">
+		<object name="Modifier">
+			<field hash="828AC6CC" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="AAC6AF60">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

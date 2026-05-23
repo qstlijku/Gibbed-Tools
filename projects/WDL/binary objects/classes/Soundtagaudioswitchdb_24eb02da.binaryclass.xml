@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Soundtagaudioswitchdb_24eb02daParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="6A4F7595">
+		<object hash="3461B0FC">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="68B08FC0">
+			<object hash="3DFE883E">
+				<object hash="68CFADD8">
+					<field hash="BDB3B8D5" type="String"/>
+					<field hash="401A8276" type="BinHex"/>
+					<field hash="F5391DFF" type="BinHex"/>
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="tagTag" type="BinHex"/>
+				</object>
+				<object hash="13BBF214">
+					<field name="SoundId" type="BinHex"/>
+					<field hash="EE1824B1" type="String"/>
+				</object>
+			</object>
+		</object>
+		<object hash="5E481032">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+	</object>
+	<object hash="D50EAE93">
+		<object hash="617AEC79">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="90AF8046">
+			<object hash="C5E187B8">
+				<object hash="68CFADD8">
+					<field hash="BDB3B8D5" type="String"/>
+					<field hash="401A8276" type="BinHex"/>
+					<field hash="F5391DFF" type="BinHex"/>
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="tagTag" type="BinHex"/>
+				</object>
+				<object hash="13BBF214">
+					<field name="SoundId" type="BinHex"/>
+					<field hash="EE1824B1" type="String"/>
+				</object>
+			</object>
+		</object>
+		<object hash="DB1C90E4">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+	</object>
+	<object name="Gear">
+		<object hash="73046D44">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="EDBAFC73">
+			<object hash="B8F4FB8D">
+				<object hash="68CFADD8">
+					<field hash="BDB3B8D5" type="String"/>
+					<field hash="401A8276" type="BinHex"/>
+					<field hash="F5391DFF" type="BinHex"/>
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="tagTag" type="BinHex"/>
+				</object>
+				<object hash="13BBF214">
+					<field name="SoundId" type="BinHex"/>
+					<field hash="EE1824B1" type="String"/>
+				</object>
+			</object>
+		</object>
+		<object hash="11EF6B36">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+	</object>
+</class>

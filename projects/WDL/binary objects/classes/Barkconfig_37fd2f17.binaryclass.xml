@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Barkconfig_37fd2f17Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="CombatBarkPatameters">
+		<field name="fSecurityCameraDistance" type="Float"/>
+		<field name="fProjectileLandedDistance" type="Float"/>
+		<field name="fVehicleAirborneDistance" type="Float"/>
+		<field name="nSaviourKillTime" type="BinHex"/>
+		<field name="nTakingFireEventCount" type="BinHex"/>
+		<field name="fTakingFireEventTimeWindow" type="Float"/>
+		<field name="fTakingFireEventDistance" type="Float"/>
+		<field name="fTakingFireBarkTimeout" type="Float"/>
+	</object>
+</class>

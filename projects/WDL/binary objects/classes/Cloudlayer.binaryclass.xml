@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CloudlayerParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bEnable" type="Boolean"/>
+	<field name="iRenderingOrder" type="Int32"/>
+	<field name="uiRandomSeed" type="UInt32"/>
+	<field name="fOrientation" type="Float"/>
+	<field name="fPositionScale" type="Float"/>
+	<field name="fTileScale" type="Float"/>
+	<field name="bEnableAlphaBlend" type="Boolean"/>
+	<field name="fEarthRadius" type="Float"/>
+	<field name="fLayerHeight" type="Float"/>
+	<field hash="8E306B76" type="BinHex"/>
+	<field name="bCylindricProjectionEnabled" type="Boolean"/>
+	<field name="fCylindricProjectionOffset" type="Float"/>
+	<field name="fCylindricDistributionRandomFactor" type="Float"/>
+	<field name="fCylindricSkewYAxis" type="Float"/>
+	<field name="fFadeInOutSlope" type="Float"/>
+	<field name="fVelocity" type="Float"/>
+	<field name="uiTileCount" type="UInt32"/>
+	<field name="fTileXSizeMin" type="Float"/>
+	<field name="fTileXSizeMax" type="Float"/>
+	<field name="fTileYSizeMin" type="Float"/>
+	<field name="fTileYSizeMax" type="Float"/>
+	<field name="fDensity" type="Float"/>
+	<field name="fAmbientIntensity" type="Float"/>
+	<field name="fSelfShadowCoef" type="Float"/>
+	<field hash="2FFFD293" type="BinHex"/>
+	<field hash="092AB940" type="BinHex"/>
+	<field hash="7E2D89D6" type="BinHex"/>
+	<object name="Materials">
+		<object name="Material">
+			<field hash="9301DFBD" type="String"/>
+			<field name="matMaterial" type="BinHex"/>
+		</object>
+	</object>
+</class>

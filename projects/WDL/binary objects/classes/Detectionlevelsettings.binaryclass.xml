@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DetectionlevelsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Intuition">
+		<field name="IntuitionHeight" type="BinHex"/>
+		<field name="TargetRCDroneIntuitionHeight" type="BinHex"/>
+		<field name="TargetRCIntuitionRadius" type="BinHex"/>
+		<field name="TargetRCDroneIntuitionRadius" type="BinHex"/>
+	</object>
+	<object name="Detection">
+		<field name="DetectionTimeToReachTopMax" type="BinHex"/>
+		<field hash="CEE5B380" type="BinHex"/>
+		<field hash="F74D28B7" type="BinHex"/>
+	</object>
+	<object name="Modifiers">
+		<object name="Actions">
+			<field name="TargetIsShootingTimeToReachMaxModifier" type="BinHex"/>
+		</object>
+		<object name="Blackout">
+			<field name="TargetInBlackoutTimeToReachMaxModifier" type="BinHex"/>
+			<field name="TargetInBlackoutBackupTimeToReachMaxModifier" type="BinHex"/>
+		</object>
+		<object name="Identity">
+			<field name="TargetIsFlyingDroneTimeToReachMaxModifier" type="BinHex"/>
+			<field name="TargetIsRCToyCarTimeToReachMaxModifier" type="BinHex"/>
+			<field name="TargetIsLargeRCTimeToReachMaxModifier" type="BinHex"/>
+		</object>
+		<object name="InVehicle">
+			<field name="TargetInRunningVehicleTimeToReachMaxModifier" type="BinHex"/>
+		</object>
+		<object name="LockDown">
+			<field name="LockDownTimeToReachMaxModifier" type="BinHex"/>
+		</object>
+		<object name="OffScreen">
+			<field name="AIAgentOffScreenTimeToReachMaxModifier" type="BinHex"/>
+		</object>
+		<object name="Stims">
+			<field name="AIAgentHasHeardGunShotTimeoutModifier" type="BinHex"/>
+			<field name="AIAgentHasHeardGunShotTimeToReachMaxModifier" type="BinHex"/>
+		</object>
+		<object name="Curves">
+			<field name="bUseTargetDistanceAndFOVRatioCurve" type="Boolean"/>
+			<object name="curveDetectionTimeModifierByTargetDistanceAndFOVRatioCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveDetectionTimeModifierByTargetDistanceCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="DeadBodies">
+		<field name="DeadBodiesDetectionRadius" type="BinHex"/>
+	</object>
+	<object name="ExplodedEntities">
+		<field name="ExplodedEntitiesDetectionRadius" type="BinHex"/>
+	</object>
+	<object name="Distracted">
+		<field hash="18488AE9" type="BinHex"/>
+	</object>
+	<object name="LastKnownPosition">
+		<field name="TargetIsSprintingAutomaticLKPUpdateRadius" type="BinHex"/>
+	</object>
+	<object hash="B3F16520">
+		<object hash="9113A06A">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="D0577785">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="531907E7">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="38E7194F">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="2CBE6240">
+		<object hash="BBA122C9">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="29CFB97E">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="068F6A7E">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="6DD2FFEF">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="12734240">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="CB15AB98">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+	</object>
+</class>

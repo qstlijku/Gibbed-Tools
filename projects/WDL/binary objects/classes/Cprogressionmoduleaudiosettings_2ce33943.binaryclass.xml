@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cprogressionmoduleaudiosettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Settings">
+		<object hash="0A3CA065">
+			<object hash="68454E2E">
+				<field name="text_Name" type="String"/>
+				<field name="Name" type="BinHex"/>
+				<object hash="AD3F91B0">
+					<field name="SoundId" type="BinHex"/>
+					<field hash="EE1824B1" type="String"/>
+				</object>
+				<object hash="770E41DB">
+					<field name="SoundId" type="BinHex"/>
+					<field hash="EE1824B1" type="String"/>
+				</object>
+			</object>
+		</object>
+		<object hash="B3812CCF"/>
+		<object name="States">
+			<object name="State">
+				<field name="text_Name" type="String"/>
+				<field name="Name" type="BinHex"/>
+				<object hash="7143AE58">
+					<field name="SoundId" type="BinHex"/>
+					<field hash="EE1824B1" type="String"/>
+				</object>
+				<object hash="F9814638">
+					<field name="SoundId" type="BinHex"/>
+					<field hash="EE1824B1" type="String"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

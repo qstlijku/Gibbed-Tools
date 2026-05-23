@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Gamemessageboxdbobject_80d1bc2cParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="EA2E4843" type="String"/>
+	<field name="sndConfirmNegativeSound" type="BinHex"/>
+	<field hash="4300FDF5" type="String"/>
+	<field name="sndConfirmPositiveSound" type="BinHex"/>
+	<field hash="1C9F81EB" type="String"/>
+	<field hash="97B89C6F" type="BinHex"/>
+	<field hash="D7D7E9DC" type="String"/>
+	<field hash="4E728786" type="BinHex"/>
+	<field hash="FE050C20" type="String"/>
+	<field hash="752211A4" type="BinHex"/>
+	<field hash="92DA17BC" type="String"/>
+	<field hash="19FD0A38" type="BinHex"/>
+	<field hash="4603F635" type="String"/>
+	<field name="sndDisplaySound" type="BinHex"/>
+	<field hash="3620AB8D" type="BinHex"/>
+	<field hash="69A19450" type="BinHex"/>
+	<field hash="0FCBDFF5" type="BinHex"/>
+	<field hash="294C44C3" type="BinHex"/>
+	<field hash="82C0DFE5" type="BinHex"/>
+	<field hash="278139CB" type="BinHex"/>
+	<field hash="FBBCF078" type="BinHex"/>
+</class>

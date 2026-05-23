@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ObjectivepressureplatepuzzlesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="B4945DFB" type="BinHex"/>
+	<object hash="DADF8182">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="3CFBA4A2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="14BBAE7D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="FC293553">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="B14763B8">
+		<field hash="A318A2C8" type="BinHex"/>
+		<field hash="A831E93F" type="BinHex"/>
+		<field hash="9428677B" type="BinHex"/>
+		<field hash="7C200B6C" type="BinHex"/>
+		<field hash="F662A211" type="BinHex"/>
+		<field name="fWarningDuration" type="Float"/>
+		<field hash="A20E0B6A" type="String"/>
+		<field name="sndStartSound" type="BinHex"/>
+		<field hash="960CDFBD" type="BinHex"/>
+		<field hash="9FB555A0" type="BinHex"/>
+		<object hash="A43E0EB1">
+			<object hash="B13ABC3E">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="7550CAA4">
+			<object hash="B13ABC3E">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="BB1927B8">
+			<object hash="B13ABC3E">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="1031E549">
+			<object hash="B13ABC3E">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="6C584291">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="3D520FAB">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="3511323F">
+			<field hash="207CF03C" type="BinHex"/>
+			<object hash="3A3064E4">
+				<object hash="8FF2B2C5">
+					<field hash="00C50E68" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="0967F85A">
+				<object name="Sequence">
+					<object name="Sequence">
+						<object hash="3B06E962">
+							<field hash="C58F50C6" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

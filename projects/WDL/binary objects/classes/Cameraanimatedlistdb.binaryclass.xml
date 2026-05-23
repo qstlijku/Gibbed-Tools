@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CameraanimatedlistdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bLooping" type="Boolean"/>
+	<object name="CameraAnimations">
+		<object name="fileCameraAnimation">
+			<field hash="3E90CFD9" type="String"/>
+			<field name="fileCameraAnimation" type="String"/>
+		</object>
+	</object>
+</class>

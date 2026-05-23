@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="GameplaycontextspecParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="183467EB" type="String"/>
+	<field name="gctxGameplayContextType" type="BinHex"/>
+	<object name="GameplayContext">
+		<field name="iPriority" type="Int32"/>
+		<field name="fCiviliansDensity" type="Float"/>
+		<field name="fTrafficDensity" type="Float"/>
+		<field name="fParkedCarsDensity" type="Float"/>
+		<object name="GameElements">
+			<field name="bOpenShops" type="Boolean"/>
+			<field name="bEnableActivities" type="Boolean"/>
+			<field name="bActiveEventManager" type="Boolean"/>
+			<field name="selEnableFelony" type="Enum"/>
+			<field name="bEnableMissionDirector" type="Boolean"/>
+			<field name="bAllowFastTravel" type="Boolean"/>
+			<field name="bEnableHideOut" type="Boolean"/>
+			<field name="bEnableStats" type="Boolean"/>
+			<field name="bEnableReputation" type="Boolean"/>
+			<field name="bEnableHotSpots" type="Boolean"/>
+			<field name="bMapCtxDetectorStealth" type="Boolean"/>
+		</object>
+		<object hash="37B529F2">
+			<field name="bShowMinimap" type="Boolean"/>
+			<field name="bShowBattery" type="Boolean"/>
+			<field name="bShowSecondaryItem" type="Boolean"/>
+		</object>
+		<object name="curveCiviliansDensity">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveTrafficDensity">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveParkedCarsDensity">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveDaytimeCiviliansCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveDaytimeVehiclesCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveDaytimeParkedCarsCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveCivilinsRainCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

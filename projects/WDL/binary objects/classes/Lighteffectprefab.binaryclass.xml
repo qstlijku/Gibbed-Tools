@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="LighteffectprefabParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="1CB97581" type="String"/>
+	<field name="fileTexture" type="String"/>
+	<field name="selType" type="Enum"/>
+	<field name="hidType" type="BinHex"/>
+	<field name="fSizeX" type="Float"/>
+	<field name="fSizeY" type="Float"/>
+	<field hash="B29A3418" type="BinHex"/>
+	<field name="bSmoothDepth" type="Boolean"/>
+	<field name="fVisibilitySize" type="Float"/>
+	<field name="fVisibilityBlendRate" type="Float"/>
+	<field name="bHighPrecisionVisibilityTest" type="Boolean"/>
+	<field name="fScaleNoise" type="Float"/>
+	<field name="fFadeAngle" type="Float"/>
+	<field name="fFadeAngleCurveExponent" type="Float"/>
+	<field name="fLookAtFadeAngle" type="Float"/>
+	<field name="fLookAtFadeAngleCurveExponent" type="Float"/>
+	<field name="clrColor" type="BinHex"/>
+	<field name="fIntensity" type="Float"/>
+	<field hash="26233C8F" type="BinHex"/>
+	<field name="fFadeDistance" type="Float"/>
+	<field name="uiTextureSliceCount" type="UInt32"/>
+	<field name="iNumFlareElements" type="Int32"/>
+	<field name="bDirectional" type="Boolean"/>
+	<field name="bUseLightColour" type="Boolean"/>
+	<field name="bUseLightDistanceFade" type="Boolean"/>
+	<field name="bUseLightIntensity" type="Boolean"/>
+	<field name="bAffectedByTimeOfDay" type="Boolean"/>
+	<field name="uiLightIntensityCurveIndex" type="UInt32"/>
+	<field name="bSmoothTimeOfDayFade" type="Boolean"/>
+	<field name="fMinTimeOfDayFadeIntensity" type="Float"/>
+	<field name="bNeedsElectricPower" type="Boolean"/>
+	<field name="bHasElectricBackup" type="Boolean"/>
+	<object hash="20AD2FB2">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="OffsetToCamera">
+		<field name="fMinOffset" type="Float"/>
+		<field name="fMaxOffset" type="Float"/>
+		<field name="fMinDistance" type="Float"/>
+		<field name="fMaxDistance" type="Float"/>
+	</object>
+	<object name="Rain">
+		<field name="bRainLightEnabled" type="Boolean"/>
+		<field name="bRainFogCone" type="Boolean"/>
+		<field name="bRainUseQuadraticAttenuation" type="Boolean"/>
+		<field name="angRainFalloffAngle" type="Float"/>
+		<field name="fRainOffset" type="Float"/>
+		<field name="fRainFalloffDistance" type="Float"/>
+		<field name="fRainLightIntensity" type="Float"/>
+		<field name="fSpotLightFogIntensity" type="Float"/>
+		<field name="fBeamHighlightSeparationIntensity" type="Float"/>
+		<field name="fBeamHighlightSeparationThreshold" type="Float"/>
+		<field name="fBeamHighlightSeparationFalloff" type="Float"/>
+		<field name="angRainVerticalRotation" type="Float"/>
+	</object>
+	<object name="curveIntensityCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="FlareElements">
+		<object name="FlareElement">
+			<field hash="D695DD85" type="BinHex"/>
+			<field name="fScaleMin" type="Float"/>
+			<field name="fScaleMinThreshold" type="Float"/>
+			<field name="fOffset" type="Float"/>
+			<field name="iTextureSliceIndex" type="Int32"/>
+			<field name="vectorColor" type="BinHex"/>
+			<field name="fRotationXAmount" type="Float"/>
+			<field name="fRotationYAmount" type="Float"/>
+			<field name="fFadeAngle" type="Float"/>
+			<field name="fLookAtFadeAngle" type="Float"/>
+		</object>
+	</object>
+</class>

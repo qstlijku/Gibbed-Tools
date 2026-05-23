@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclecarParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="vehicleVehicle" type="BinHex"/>
+	<field name="fFrontTyreRadius" type="Float"/>
+	<field name="fRearTyreRadius" type="Float"/>
+	<field name="bChangeCheck" type="Boolean"/>
+	<field name="hidWheelBaseTest" type="BinHex"/>
+	<field name="hidTrackWidthFrontTest" type="BinHex"/>
+	<field name="hidTrackWidthRearTest" type="BinHex"/>
+	<field hash="8BC0A74C" type="String"/>
+	<field name="fileDriveHandling" type="String"/>
+	<field hash="681360FB" type="String"/>
+	<field name="fileDriveCamera" type="String"/>
+</class>

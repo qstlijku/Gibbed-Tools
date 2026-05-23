@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Humanreactionsettingsdatabase_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="ReputationSettings">
+		<field name="fCoolDown" type="Float"/>
+		<field name="iGoodReputationThreshold" type="Int32"/>
+		<field name="iBadReputationThreshold" type="Int32"/>
+		<field name="dialactorlistDialogActorsList" type="BinHex"/>
+		<field hash="D3F9F6B4" type="String"/>
+		<field name="sGoodReputationReactionbark" type="BinHex"/>
+		<object name="PMSValuesNeeded"/>
+		<object name="PMSValuesExcluded">
+			<object name="PMSValue">
+				<field hash="363F5FCE" type="String"/>
+				<field name="pmsPMSName" type="BinHex"/>
+				<field name="selEnumValue" type="Enum"/>
+			</object>
+		</object>
+	</object>
+	<object hash="561E3C29">
+		<object hash="80724A45">
+			<field hash="A5314DE9" type="String"/>
+			<field hash="4F6F2DCD" type="BinHex"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Relichuntsettings_20cf63c3Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="C344DFA4" type="BinHex"/>
+	<field hash="EE000BEE" type="BinHex"/>
+	<field hash="6858A3A1" type="String"/>
+	<field hash="65BF6182" type="BinHex"/>
+	<field hash="9B5D341B" type="String"/>
+	<field hash="11F52991" type="BinHex"/>
+	<field hash="F7EF69F4" type="String"/>
+	<field hash="4BB50354" type="BinHex"/>
+	<object hash="A71E86A7">
+		<field hash="C50F1A52" type="BinHex"/>
+	</object>
+	<object hash="107C5094">
+		<object hash="2F2BCFA4">
+			<field hash="2F2BCFA4" type="BinHex"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VideosParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bSkipPackaging" type="Boolean"/>
+	<object name="BroadcastData">
+		<field name="fileBink" type="String"/>
+		<field hash="82948C4D" type="String"/>
+		<field hash="46E80E8B" type="BinHex"/>
+		<field name="fSubtitleDisplayTime" type="Float"/>
+		<field name="bIsBinkStreamed" type="Boolean"/>
+		<field name="bIsBinkInGameOnly" type="Boolean"/>
+		<field name="bNoSignalBlockedDuringBroadcast" type="Boolean"/>
+		<field name="bSendSpecialBroadcastStim" type="Boolean"/>
+		<object name="Sounds">
+			<object name="Sound">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="F67F93E3" type="BinHex"/>
+			</object>
+		</object>
+		<object name="locstridDefaultLocalizationID">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="IsEnabled">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+	</object>
+</class>

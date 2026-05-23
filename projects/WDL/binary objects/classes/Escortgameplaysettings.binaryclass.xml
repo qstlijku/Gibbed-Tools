@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="EscortgameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="14F0B414" type="BinHex"/>
+	<field hash="EFDD3CA9" type="BinHex"/>
+	<field hash="D7771303" type="BinHex"/>
+	<field hash="BA6C64A0" type="BinHex"/>
+	<field hash="1DE9F542" type="BinHex"/>
+	<field name="buddyaisettingsBuddyAISettings" type="BinHex"/>
+	<field hash="78CDDE47" type="BinHex"/>
+	<field hash="777A7524" type="BinHex"/>
+	<field hash="15881DFE" type="BinHex"/>
+	<field hash="D4AE10FE" type="BinHex"/>
+	<field hash="059D277C" type="BinHex"/>
+	<field hash="CE675A56" type="BinHex"/>
+	<field hash="79B22C4E" type="BinHex"/>
+	<field name="bIsTimed" type="Boolean"/>
+	<field name="fTimeToDeliver" type="Float"/>
+</class>

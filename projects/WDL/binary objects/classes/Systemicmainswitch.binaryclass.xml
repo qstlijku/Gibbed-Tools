@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SystemicmainswitchParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="13850D86" type="BinHex"/>
+	<field hash="2C876BF6" type="BinHex"/>
+	<field hash="1A1AE1BC" type="BinHex"/>
+	<field hash="43ABD2EF" type="BinHex"/>
+	<field hash="2CBF08B7" type="BinHex"/>
+	<object hash="3BE1533C">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

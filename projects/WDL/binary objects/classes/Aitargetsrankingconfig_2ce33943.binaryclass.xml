@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Aitargetsrankingconfig_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9B8C8463" type="BinHex"/>
+	<field hash="96D4AC06" type="BinHex"/>
+	<field hash="26599579" type="BinHex"/>
+	<field hash="E298CE9C" type="BinHex"/>
+	<field hash="7FB2AFB2" type="BinHex"/>
+	<field hash="A2897E1D" type="BinHex"/>
+	<field hash="8A4AF46C" type="BinHex"/>
+	<field hash="E6FADD94" type="BinHex"/>
+	<field hash="688A9F31" type="BinHex"/>
+	<field hash="7BC3FFD8" type="BinHex"/>
+	<field hash="9A4E48BF" type="BinHex"/>
+	<field hash="0F8D93C9" type="BinHex"/>
+	<object hash="AD0031A1">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uicurrencyinfodb_cda16084Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="F659849C" type="BinHex"/>
+	<field hash="7B9F925B" type="BinHex"/>
+	<object hash="D8066696">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="884EDBA5">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="593DD49B">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="47C9C3B1">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="8CF5197A">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="706F9BB2">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="79DFC872">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="3B927DE1">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="1705B61A">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="CEB8ACE9">
+		<field hash="6DD09D90" type="BinHex"/>
+		<field hash="99B426E3" type="BinHex"/>
+		<object name="locstridName">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

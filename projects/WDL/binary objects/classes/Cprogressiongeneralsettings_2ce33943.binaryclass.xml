@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cprogressiongeneralsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Settings">
+		<field hash="07984014" type="BinHex"/>
+		<field hash="F7D0B084" type="String"/>
+		<field hash="5B18186B" type="BinHex"/>
+	</object>
+</class>

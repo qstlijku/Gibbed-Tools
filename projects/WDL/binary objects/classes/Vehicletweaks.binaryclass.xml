@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicletweaksParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bUseRCtweaks" type="Boolean"/>
+	<field name="fMotorizedMassScaleMinMass" type="Float"/>
+	<field name="fMotorizedMassScaleMaxMass" type="Float"/>
+	<field name="bUseVerticalWallHelp" type="Boolean"/>
+	<object name="ChassisInertiaScale">
+		<field name="fChassisPitchInertiaScale" type="Float"/>
+		<field name="fChassisRollInertiaScale" type="Float"/>
+		<field name="fChassisYawInertiaScale" type="Float"/>
+	</object>
+	<object name="CollisionResponseModifiers">
+		<field name="vec2RagdollType" type="Vector2"/>
+		<field name="vec2DynamicType" type="Vector2"/>
+		<field name="vec2StaticType" type="Vector2"/>
+	</object>
+	<object name="VehicleCollisionHelper">
+		<field name="fLateralTolerancePercentage" type="Float"/>
+		<field name="fVerticalTolerancePercentage" type="Float"/>
+		<field name="fFrontalDetectionLength" type="Float"/>
+		<field name="fBoxShapeForwardOffset" type="Float"/>
+	</object>
+</class>

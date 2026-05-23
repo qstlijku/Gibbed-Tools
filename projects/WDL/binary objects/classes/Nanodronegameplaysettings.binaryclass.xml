@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="NanodronegameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="C9A22E99">
+		<field hash="25DD4CED" type="BinHex"/>
+		<field hash="F2795133" type="BinHex"/>
+		<field hash="77640111" type="BinHex"/>
+		<field hash="7D43CE0C" type="BinHex"/>
+		<field hash="E2A12D8A" type="BinHex"/>
+		<field hash="08EE7263" type="BinHex"/>
+		<field hash="6AEF4031" type="BinHex"/>
+		<field hash="1E9D4270" type="BinHex"/>
+		<field hash="9176D223" type="BinHex"/>
+		<field hash="FBECAC8A" type="BinHex"/>
+		<field name="fWarningDuration" type="Float"/>
+		<object hash="71AC628D">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="8BBDED89">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="FB93D386">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="CFD71CBC">
+		<field hash="27CF6209" type="BinHex"/>
+		<field hash="A6398F84" type="BinHex"/>
+		<field hash="2D9E6018" type="BinHex"/>
+		<field hash="FCF07F6E" type="String"/>
+		<field hash="015945CD" type="BinHex"/>
+		<field hash="EB627FEC" type="String"/>
+		<field hash="5738154C" type="BinHex"/>
+		<field hash="543F4C8D" type="String"/>
+		<field hash="575FC478" type="BinHex"/>
+		<field hash="CE3502BF" type="String"/>
+		<field hash="45121F3B" type="BinHex"/>
+		<field hash="D4B87072" type="String"/>
+		<field hash="4D1D1E28" type="BinHex"/>
+		<field hash="C78075BA" type="BinHex"/>
+		<field hash="D8BB27FF" type="BinHex"/>
+		<field hash="94E20542" type="BinHex"/>
+		<field hash="0D568F58" type="BinHex"/>
+		<object hash="7C0A1024">
+			<field hash="87E038DB" type="String"/>
+			<field name="sndSoundId" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+		<object hash="F7E415F2">
+			<field hash="87E038DB" type="String"/>
+			<field name="sndSoundId" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+	</object>
+</class>

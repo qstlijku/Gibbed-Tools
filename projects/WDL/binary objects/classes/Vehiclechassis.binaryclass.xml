@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclechassisParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fMass" type="Float"/>
+	<field name="fFrontWeightDistribution" type="Float"/>
+	<field name="fCenterOfMassZOffset" type="Float"/>
+	<field name="fChassisInertiaYawCoeff" type="Float"/>
+	<field name="fChassisInertiaRollCoeff" type="Float"/>
+	<field name="fChassisInertiaPitchCoeff" type="Float"/>
+	<field name="vectorChassisDimensions" type="BinHex"/>
+</class>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="NpcdoorspawningprofilesParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9DAAA350" type="BinHex"/>
+	<field hash="D9F90648" type="BinHex"/>
+	<object hash="E997FA01">
+		<field hash="FB1DC110" type="BinHex"/>
+		<field hash="18516C6F" type="BinHex"/>
+		<field hash="236EBB82" type="BinHex"/>
+	</object>
+	<object hash="8AA48470">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

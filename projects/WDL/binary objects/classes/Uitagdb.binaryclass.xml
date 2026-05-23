@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UitagdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="sTagName" type="String"/>
+	<object name="TagDescriptor">
+		<field hash="286439CF" type="String"/>
+		<field name="uitagdescriptoridTagType" type="BinHex"/>
+		<object name="Properties">
+			<field name="uitagimagesettingImage" type="BinHex"/>
+			<field hash="46C639D5" type="BinHex"/>
+			<field name="uitagcolorsettingColor" type="BinHex"/>
+			<field name="actionmap" type="String"/>
+			<field name="signal" type="String"/>
+			<field hash="B14E29E1" type="String"/>
+			<field hash="8D943DB8" type="BinHex"/>
+			<field hash="6AD6D0AA" type="BinHex"/>
+			<field hash="890C8106" type="BinHex"/>
+		</object>
+	</object>
+</class>

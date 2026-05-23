@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemvarietyParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bEnable" type="Boolean"/>
+	<field name="sFrameLabel" type="BinHex"/>
+	<field hash="1ED07B72" type="BinHex"/>
+	<field hash="189D4340" type="BinHex"/>
+	<field hash="7FFC53AB" type="BinHex"/>
+	<field hash="E7B5EF9D" type="BinHex"/>
+	<object hash="1D52A663">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="55E03BA3">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

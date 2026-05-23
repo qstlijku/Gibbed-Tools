@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="OpgenanytargetdefinitionParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="FE52F526" type="BinHex"/>
+	<field hash="D26DB3CC" type="BinHex"/>
+	<field hash="3482F3A1" type="BinHex"/>
+	<field hash="5A275E24" type="BinHex"/>
+	<object hash="DDB3CDA2">
+		<object hash="CC06C3E9">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridDescription">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="2DA2C8D4">
+			<object hash="AF4D29AA">
+				<field hash="C7B490E0" type="BinHex"/>
+				<object hash="452967EC">
+					<object hash="8D9DF881">
+						<field hash="9D6EDFC9" type="BinHex"/>
+						<object hash="CC06C3E9">
+							<field name="LocalizationId" type="UInt64"/>
+						</object>
+						<object name="locstridDescription">
+							<field name="LocalizationId" type="UInt64"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclemiscsounddbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="HornAndSiren">
+		<field hash="AE492E38" type="String"/>
+		<field name="sndStartHorn" type="BinHex"/>
+		<field hash="BB76179F" type="String"/>
+		<field name="sndStopHorn" type="BinHex"/>
+		<field hash="50BE7452" type="String"/>
+		<field name="sndStartHornNpc" type="BinHex"/>
+		<field hash="346B9F25" type="String"/>
+		<field name="sndStopHornNpc" type="BinHex"/>
+		<field hash="810B72E6" type="String"/>
+		<field name="sndStartSiren" type="BinHex"/>
+		<field hash="C9AC7B94" type="String"/>
+		<field name="sndStopSiren" type="BinHex"/>
+		<field hash="4A682C7C" type="BinHex"/>
+		<field hash="59E0ED20" type="BinHex"/>
+		<field hash="1A439588" type="BinHex"/>
+		<field hash="4E67AF52" type="BinHex"/>
+		<field hash="B5B300D6" type="BinHex"/>
+		<field hash="D77D95C8" type="BinHex"/>
+		<field name="bUseHornToggle" type="Boolean"/>
+		<object name="TrafficHornSettings">
+			<field name="vec2ToleranceChangeSpeed" type="Vector2"/>
+			<field name="vec2ChanceAtTolerance" type="Vector2"/>
+			<field name="vec2MinHornTime" type="Vector2"/>
+			<field name="vec2MaxHornTime" type="Vector2"/>
+			<field name="vec2HornPauseTime" type="Vector2"/>
+			<field name="vec2BlockedTimeToleranceTimeLimits" type="Vector2"/>
+			<field name="vec2BlockedTimeTolerancePows" type="Vector2"/>
+			<field name="fAbruptBrakeSmootherLag" type="Float"/>
+			<field name="vec2AbruptBrakeSpeedMinMax" type="Vector2"/>
+			<field name="vec2AbruptBrakeSpeedCffMinMax" type="Vector2"/>
+			<field name="fAbruptBrakeSpeedMinValue" type="Float"/>
+			<field name="vec2AbruptBrakesPlayTimeMinMax" type="Vector2"/>
+			<field name="vec2AbruptBrakesPauseTimeMinMax" type="Vector2"/>
+		</object>
+		<object name="IntersectionBuzzSettings">
+			<field hash="7BBE3F75" type="String"/>
+			<field name="sndStartBuzzIntersection" type="BinHex"/>
+			<field hash="5B58C9F0" type="String"/>
+			<field name="sndStopBuzzIntersection" type="BinHex"/>
+			<field hash="25DAB558" type="BinHex"/>
+			<field hash="1C136624" type="BinHex"/>
+			<field name="vec2MinBuzzTime" type="Vector2"/>
+			<field name="vec2MaxBuzzTime" type="Vector2"/>
+			<field name="vec2RepeatBuzzTime" type="Vector2"/>
+			<field name="iMaxNumberBuzzes" type="Int32"/>
+		</object>
+	</object>
+	<object name="Brake">
+		<field hash="A8925A6E" type="String"/>
+		<field name="sndBrake" type="BinHex"/>
+		<field hash="85F61DF7" type="String"/>
+		<field name="sndHandbrakeSoundStartID" type="BinHex"/>
+		<field hash="8D97210D" type="String"/>
+		<field name="sndHandbrakeSoundEndID" type="BinHex"/>
+		<field hash="2DDF10BB" type="BinHex"/>
+		<field hash="3BE64370" type="BinHex"/>
+		<field hash="CA2DF3F8" type="BinHex"/>
+	</object>
+	<object name="Misc">
+		<field hash="9B0BC22F" type="String"/>
+		<field name="sndTriggerPressedDestroy" type="BinHex"/>
+		<field hash="8E975A61" type="String"/>
+		<field name="sndTriggerReleasedDestroy" type="BinHex"/>
+		<field hash="0177FDBD" type="String"/>
+		<field name="sndLocalPlayerGotIn" type="BinHex"/>
+		<field hash="9D00554C" type="String"/>
+		<field name="sndLocalPlayerGotOut" type="BinHex"/>
+		<field hash="59F731C8" type="String"/>
+		<field hash="DAEE72E3" type="BinHex"/>
+		<field hash="05CE0298" type="BinHex"/>
+		<field hash="8646EFCE" type="BinHex"/>
+		<field hash="3D6F7007" type="BinHex"/>
+		<field hash="D0BFC297" type="BinHex"/>
+		<field hash="E688978B" type="BinHex"/>
+		<object name="SoundFakeTransmission">
+			<field name="bUseRevereseSoundGear" type="Boolean"/>
+			<field name="fMaxRPM" type="Float"/>
+			<field name="fGranularSynthesisMinRPM" type="Float"/>
+			<field name="fGranularSynthesisMaxRPM" type="Float"/>
+			<field name="fWeightsAdd" type="Float"/>
+			<field name="fWeightsMul" type="Float"/>
+			<field name="nMaxValues" type="BinHex"/>
+			<field name="selRpmAccelerationDecelerationType" type="Enum"/>
+			<field name="ThrottleAdjustedRpmPow" type="BinHex"/>
+			<field name="ThrottleAdjustedRpmCff" type="BinHex"/>
+			<field name="ZeroThrottleAddSpeed" type="BinHex"/>
+			<object name="SoundReverseGear">
+				<field hash="E206FBB0" type="BinHex"/>
+				<field hash="EEACA8D2" type="BinHex"/>
+			</object>
+			<object name="RpmThrottleInputRpmModifier">
+				<field name="bUseThrottleInpuRpmModifier" type="Boolean"/>
+			</object>
+		</object>
+	</object>
+	<object hash="0562D91F">
+		<field hash="21037951" type="BinHex"/>
+		<field hash="3B1F47BD" type="BinHex"/>
+		<object hash="1D175479">
+			<object name="sndSound">
+				<field hash="463EA461" type="String"/>
+				<field name="sndSound" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

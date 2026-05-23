@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleboatParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="boatparamsBoatParams" type="BinHex"/>
+	<field hash="8BC0A74C" type="String"/>
+	<field name="fileDriveHandling" type="String"/>
+	<field hash="681360FB" type="String"/>
+	<field name="fileDriveCamera" type="String"/>
+</class>

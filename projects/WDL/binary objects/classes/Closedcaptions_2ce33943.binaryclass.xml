@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Closedcaptions_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="C9198BF5">
+		<object hash="1AC10326">
+			<field name="Name" type="String"/>
+			<field hash="14E2D515" type="String"/>
+			<field hash="68CC48E4" type="BinHex"/>
+			<field hash="C0CE2709" type="BinHex"/>
+			<field hash="24D7C566" type="String"/>
+			<object hash="567B1D30">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="E4CC9BF5">
+				<field name="fMinDuration" type="Float"/>
+				<field name="fMaxDuration" type="Float"/>
+				<field hash="060FFF6F" type="BinHex"/>
+			</object>
+			<object hash="3C53E6BD">
+				<field hash="14C75EB5" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

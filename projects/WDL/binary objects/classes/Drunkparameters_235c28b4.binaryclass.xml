@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Drunkparameters_235c28b4Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="DD6CC9D9" type="BinHex"/>
+	<field hash="9B24A381" type="BinHex"/>
+	<field hash="AF2AF36D" type="BinHex"/>
+	<field hash="35418295" type="BinHex"/>
+	<field hash="28B59435" type="BinHex"/>
+	<field hash="0E97B0EA" type="BinHex"/>
+	<field hash="995578A6" type="BinHex"/>
+	<field hash="C7FF1D1D" type="BinHex"/>
+	<field hash="5822639F" type="BinHex"/>
+	<field hash="94C94E09" type="BinHex"/>
+	<field hash="BB4C38EE" type="BinHex"/>
+	<field hash="3CF6CDE7" type="BinHex"/>
+	<field hash="D2BA38AF" type="BinHex"/>
+	<field hash="758EB8D6" type="BinHex"/>
+	<field hash="806BC30A" type="BinHex"/>
+	<field hash="347750E9" type="BinHex"/>
+	<field hash="04DD6043" type="BinHex"/>
+	<field hash="DB84F68A" type="BinHex"/>
+	<field hash="5EDD1511" type="BinHex"/>
+	<field hash="5DF0119B" type="BinHex"/>
+	<field hash="226086D2" type="BinHex"/>
+	<field hash="3765013A" type="BinHex"/>
+	<field hash="8C59C7F1" type="BinHex"/>
+	<field hash="58F09CB7" type="BinHex"/>
+	<field hash="B45948D3" type="BinHex"/>
+	<field hash="8854778A" type="BinHex"/>
+	<field hash="64B7B807" type="BinHex"/>
+	<field hash="3BD76700" type="BinHex"/>
+	<field hash="62E7266B" type="BinHex"/>
+	<field hash="09596321" type="BinHex"/>
+	<field hash="D61042AA" type="BinHex"/>
+	<field hash="9686CA51" type="BinHex"/>
+	<field hash="854A6EE0" type="BinHex"/>
+	<field hash="E75F8608" type="String"/>
+	<field hash="6C789B8C" type="BinHex"/>
+	<field hash="369827C6" type="String"/>
+	<field hash="9AA7C7C5" type="BinHex"/>
+	<field hash="2FDBDB7C" type="BinHex"/>
+	<field hash="879988B5" type="BinHex"/>
+	<field hash="2FD0406D" type="BinHex"/>
+	<field hash="3B922C13" type="BinHex"/>
+	<field hash="03CA40E2" type="BinHex"/>
+	<field hash="712C4155" type="BinHex"/>
+	<field hash="3F1FBA17" type="BinHex"/>
+	<field hash="D09DA46D" type="BinHex"/>
+	<field hash="F6286A55" type="BinHex"/>
+	<field hash="0889F639" type="BinHex"/>
+	<field hash="1622C2E7" type="BinHex"/>
+	<field hash="C2A445F3" type="BinHex"/>
+	<field hash="5EBCFD28" type="BinHex"/>
+	<field hash="B019ECA7" type="String"/>
+	<field hash="BDFE2E84" type="BinHex"/>
+	<field hash="B7D396AA" type="String"/>
+	<field hash="0B89FC0A" type="BinHex"/>
+	<field hash="25353F00" type="String"/>
+	<field hash="AF9D228A" type="BinHex"/>
+	<field hash="ADD6322D" type="BinHex"/>
+	<field hash="F558FB7F" type="BinHex"/>
+	<field hash="8D92C4B6" type="String"/>
+	<field hash="67CCA492" type="BinHex"/>
+	<field hash="16933E11" type="BinHex"/>
+	<field hash="AF6063AB" type="BinHex"/>
+	<field hash="95BB1FE7" type="BinHex"/>
+	<object hash="63211B98"/>
+	<object hash="F788165F"/>
+	<object hash="D0A1451F">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="EBF63716">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="55E567B1">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="424374A8">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="C5018C86">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="Effects">
+		<object hash="59B8E31D">
+			<field hash="59B8E31D" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="B555169D"/>
+	<object hash="1CB862AE">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object hash="EEEB99CC">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="3B4B1359"/>
+	<object hash="DC5AB42B">
+		<object name="Animation">
+			<field hash="E942AD8B" type="String"/>
+			<field name="fileAnimationPath" type="String"/>
+			<field hash="843F6F9B" type="BinHex"/>
+			<field hash="7061135D" type="BinHex"/>
+			<field hash="10A4B7E2" type="BinHex"/>
+			<field name="fProbabilityWeight" type="Float"/>
+			<field hash="83296935" type="BinHex"/>
+			<field hash="A65E4571" type="BinHex"/>
+			<field hash="91161D1F" type="BinHex"/>
+		</object>
+	</object>
+</class>

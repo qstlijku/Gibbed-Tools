@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Madaudioglobalparams_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="8B828E0D" type="BinHex"/>
+	<field hash="A9BC4E60" type="BinHex"/>
+	<field hash="2456D9B0" type="BinHex"/>
+	<field hash="7616C01D" type="BinHex"/>
+	<field hash="B282CE6B" type="BinHex"/>
+	<field hash="C9917CA0" type="BinHex"/>
+</class>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Tagdatabridge_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Gender">
+		<field name="tagcategoryGenderTagCategory" type="BinHex"/>
+		<object name="tagcategoryselectionMaleTag">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object name="tagcategoryselectionFemaleTag">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="984C33AF">
+		<field hash="5D768236" type="BinHex"/>
+		<object hash="CEFD08D7">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="B499B123">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="4C7C72D4">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="14D4F8E5">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="2FFD27A5">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object name="PawnIdentity">
+		<field hash="3DD354D3" type="BinHex"/>
+		<field hash="1D72B1F4" type="BinHex"/>
+		<field hash="973AE2CD" type="BinHex"/>
+		<field hash="BACFC8D6" type="BinHex"/>
+		<field hash="D2E9784B" type="BinHex"/>
+		<field name="tagcategoryEthnicityTagCategory" type="BinHex"/>
+		<field name="tagcategoryVisualStereotypeTagCategory" type="BinHex"/>
+		<object hash="9B15EA7A">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="481A82E6">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="9BEE1AAF">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="6511DBA3">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="186DDFFA">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="025973C8">
+			<field hash="B051A18E" type="BinHex"/>
+			<object hash="71C2C0D9">
+				<field hash="BDB3B8D5" type="String"/>
+				<field hash="401A8276" type="BinHex"/>
+				<field hash="F5391DFF" type="BinHex"/>
+				<field name="tagTag" type="BinHex"/>
+			</object>
+			<object hash="E4F715AC">
+				<field hash="BDB3B8D5" type="String"/>
+				<field hash="401A8276" type="BinHex"/>
+				<field hash="F5391DFF" type="BinHex"/>
+				<field name="tagTag" type="BinHex"/>
+			</object>
+			<object hash="4659CFF3">
+				<field hash="BDB3B8D5" type="String"/>
+				<field hash="401A8276" type="BinHex"/>
+				<field hash="F5391DFF" type="BinHex"/>
+				<field name="tagTag" type="BinHex"/>
+			</object>
+		</object>
+		<object name="TagCategorySelectionBlackboardDescriptor">
+			<object name="TagCategorySelectionDescriptors">
+				<object name="TagCategorySelectionDescriptor">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bMultiSelect" type="Boolean"/>
+				</object>
+			</object>
+		</object>
+		<object hash="548ECCFC">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="B788EEAB">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagcategoryTagCategory" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="8D74724E">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagcategoryTagCategory" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object name="AvatarCustomization">
+		<field name="tagcategoryPartsPairingTagCategory" type="BinHex"/>
+	</object>
+	<object name="Cloth">
+		<field name="tagcategoryTagCategory" type="BinHex"/>
+		<field hash="A7D380FD" type="BinHex"/>
+		<field hash="26E4F177" type="BinHex"/>
+		<field name="tagcategoryHideMaskTagCategory" type="BinHex"/>
+		<field hash="622BAE2C" type="BinHex"/>
+		<field hash="5F64A9F6" type="BinHex"/>
+		<field name="tagcategoryStoreClothingStyleTagCategory" type="BinHex"/>
+		<field name="tagcategoryUIClothingStyleTagCategory" type="BinHex"/>
+		<field hash="67AC7FBA" type="BinHex"/>
+		<object name="tagcategoryselectionHighHeels">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="67C8717A">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="1FDCEDA0">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object name="tagcategoryselectionMaskUpTag">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object name="tagcategoryselectionMaskDownTag">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object name="ProceduralShadow">
+		<field name="tagcategoryProceduralShadowTagCategory" type="BinHex"/>
+	</object>
+	<object name="VisualStereotype">
+		<field name="tagcategoryVisualStereotypeTagCategory" type="BinHex"/>
+		<object hash="4A27701C">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Occupation">
+		<field hash="E4C64B92" type="BinHex"/>
+		<field hash="5C37D609" type="BinHex"/>
+		<object hash="4A27701C">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="D38DADB0">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="DA40CB62">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="392E333A">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="A1395C06">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Location">
+		<field hash="291647C2" type="BinHex"/>
+		<field hash="1C839C6A" type="BinHex"/>
+		<object hash="18A82318">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="CB0654A1">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="7C3951FF">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="0953F0FC">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="50C0F03D">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="E622F578">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="F2CD338D">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="97F52B73">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="322693D2">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="4C150ACD">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="7FD6DA50">
+		<field name="tagcategoryGenderTagCategory" type="BinHex"/>
+		<field name="tagcategoryEthnicityTagCategory" type="BinHex"/>
+		<field hash="E4C64B92" type="BinHex"/>
+		<field hash="5C37D609" type="BinHex"/>
+		<field hash="A7D380FD" type="BinHex"/>
+		<field hash="80A21055" type="BinHex"/>
+		<field hash="E1EE7CD9" type="BinHex"/>
+		<field hash="D58D2D89" type="BinHex"/>
+		<field hash="F157A830" type="BinHex"/>
+		<field hash="B46E3567" type="BinHex"/>
+		<field hash="1C0676E8" type="BinHex"/>
+		<field hash="406B3E78" type="BinHex"/>
+		<field hash="FE57212E" type="BinHex"/>
+		<object hash="8BCEBC1B">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="B9836AED">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="9BB0B07B">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Flavor">
+		<field name="tagcategoryFlavorTagCategory" type="BinHex"/>
+	</object>
+	<object hash="02700276">
+		<field hash="E20D7C69" type="BinHex"/>
+		<field hash="69342741" type="BinHex"/>
+		<object hash="E6E357EE">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="7D524998">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="6F2AE2A0">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="96CEA5DD">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="3732B683">
+		<object hash="605C4678">
+			<object name="TagCategories">
+				<field name="tagcategoryTagCategory" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="4CB9B20C">
+		<field hash="406388C8" type="BinHex"/>
+		<object hash="B2E85DA8">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="E8FBE368">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="616D64E7">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="759DEE8E">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="51A2388F">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="15757642">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="74A755C1">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="32575CC4">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="F3B6C87C">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="7525C61A">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="E1EF8303">
+		<field hash="F21DDA17" type="BinHex"/>
+		<object hash="12A06A41">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="C0C4C76E">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="9831F05B">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="A7E9BA72">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="AC1EA054">
+		<field hash="DA4DABAB" type="BinHex"/>
+		<field hash="E0D63BF1" type="BinHex"/>
+		<field hash="7F03D332" type="BinHex"/>
+		<field hash="A524C837" type="BinHex"/>
+		<object hash="CC50F9A6">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="CD1CB9FB">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="73D50C14">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="A53CB9F5">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="CC4391A7">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="F7E919C5">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="26DD7133">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="3B9EDBFA">
+		<field hash="F21DDA17" type="BinHex"/>
+		<object hash="7F516C88">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="5FC879D8">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="421B59D4">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="A113E885">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+		<object hash="AFBA1E89">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Behavior">
+		<field hash="E2DD433D" type="BinHex"/>
+		<object hash="953B8855">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<field name="tagTag" type="BinHex"/>
+		</object>
+	</object>
+</class>

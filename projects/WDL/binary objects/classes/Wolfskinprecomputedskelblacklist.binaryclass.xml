@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WolfskinprecomputedskelblacklistParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="Description" type="BinHex"/>
+	<object hash="E9A71259">
+		<object hash="46159141">
+			<field hash="6E7A746B" type="String"/>
+			<field name="SlotName" type="BinHex"/>
+			<object name="Tags">
+				<object name="IncludeTags">
+					<object name="Tag">
+						<object name="tagcategoryselectionTag">
+							<field hash="BDB3B8D5" type="String"/>
+							<field hash="401A8276" type="BinHex"/>
+							<field hash="F5391DFF" type="BinHex"/>
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="tagTag" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="ExcludeTags">
+					<object name="Tag">
+						<object name="tagcategoryselectionTag">
+							<field hash="BDB3B8D5" type="String"/>
+							<field hash="401A8276" type="BinHex"/>
+							<field hash="F5391DFF" type="BinHex"/>
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="tagTag" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object name="TagConstraintsAny"/>
+			</object>
+		</object>
+	</object>
+</class>

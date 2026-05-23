@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="AnimalcombatparametersParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="AttackValues">
+		<field name="fTakeDownWinRate" type="Float"/>
+		<field name="fHumanTakeDownMinDistance" type="Float"/>
+		<field name="fHumanTakeDownMaxDistance" type="Float"/>
+		<field name="fDogTakeDownMinDistance" type="Float"/>
+		<field name="fDogTakeDownMaxDistance" type="Float"/>
+		<field name="selMeleeIntensity" type="Enum"/>
+		<field name="fPlayerMeleeMinDistance" type="Float"/>
+		<field name="fPlayerMeleeMaxDistance" type="Float"/>
+		<field hash="E12E3AB2" type="String"/>
+		<field name="sPlayerMeleeRumbleId" type="BinHex"/>
+		<field name="fPlayerMeleeRumbleIntensity" type="Float"/>
+	</object>
+	<object name="SmellTrackingParameters">
+		<field name="disNomadObjectId" type="BinHex"/>
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="hidValidationFailed" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field name="fSmellIntruderRadius" type="Float"/>
+		<field name="fSmellIntruderLostRadius" type="Float"/>
+		<field name="fSmellIntruderMaxHeight" type="Float"/>
+		<field name="fTargetLostReturnTime" type="Float"/>
+		<field name="fMeanderForwardMaxDistance" type="Float"/>
+		<field name="fMeanderForwardMinDistance" type="Float"/>
+		<field name="fMeanderSideMaxDistance" type="Float"/>
+		<field name="fMeanderSideMinDistance" type="Float"/>
+		<field name="fAggressiveTrackingActivationTime" type="Float"/>
+		<field name="fAggressiveTrackingActivationDistance" type="Float"/>
+		<object hash="962CA9BF">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+	</object>
+</class>

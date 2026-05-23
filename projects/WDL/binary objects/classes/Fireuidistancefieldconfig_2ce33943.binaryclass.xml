@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Fireuidistancefieldconfig_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="08D9BE83" type="BinHex"/>
+	<field hash="34D481DA" type="BinHex"/>
+	<field hash="10BE3D20" type="BinHex"/>
+	<field hash="2CB30279" type="BinHex"/>
+	<field hash="42D0B5A5" type="BinHex"/>
+	<field hash="608FCCEC" type="BinHex"/>
+	<field hash="A8B45AAD" type="BinHex"/>
+	<field hash="78D526CE" type="BinHex"/>
+</class>

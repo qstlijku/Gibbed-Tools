@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="OplineconfigsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="01A6F60F" type="BinHex"/>
+	<field hash="86A44198" type="BinHex"/>
+	<field hash="0C787D3F" type="BinHex"/>
+	<object hash="9C8F9B03">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="5501FD91">
+		<object hash="95229249">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="D407CA9A">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

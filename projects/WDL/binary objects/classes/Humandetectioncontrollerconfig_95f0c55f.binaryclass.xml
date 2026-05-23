@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Humandetectioncontrollerconfig_95f0c55fParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fPlayerDistanceToZoomGps" type="Float"/>
+	<object name="Zones"/>
+	<object name="Threat">
+		<field name="LKPCombatStateThreat" type="BinHex"/>
+		<field name="DistanceWeight" type="BinHex"/>
+		<field name="VisibilityThreat" type="BinHex"/>
+		<field name="StickyThreat" type="BinHex"/>
+		<field name="LastDamageThreat" type="BinHex"/>
+		<field name="LastDamageDecay" type="BinHex"/>
+		<field name="LastNearMissThreat" type="BinHex"/>
+		<field name="LastNearMissDecay" type="BinHex"/>
+		<field name="LastFiredGunThreat" type="BinHex"/>
+		<field name="LastFiredGunDecay" type="BinHex"/>
+		<field name="CloseRangeDistance" type="BinHex"/>
+		<field name="CloseRangeThreat" type="BinHex"/>
+		<field name="CloseRangeThreatSniperModifier" type="BinHex"/>
+		<field name="DrivingVehicleThreat" type="BinHex"/>
+		<field name="PrimaryTargetThreat" type="BinHex"/>
+		<field name="PlayerThreat" type="BinHex"/>
+		<field name="ShootingTicketAvailableThreat" type="BinHex"/>
+		<field name="AnimalThreat" type="BinHex"/>
+		<field hash="D99736E7" type="BinHex"/>
+		<field hash="3F2EE32F" type="BinHex"/>
+		<field hash="6D9CFF37" type="BinHex"/>
+		<object name="ChaseTargetThreat">
+			<field name="ForPoliceSniperInLOS" type="BinHex"/>
+			<field name="ForPoliceSniperOutOfLOS" type="BinHex"/>
+			<field name="ForOthersInLOS" type="BinHex"/>
+			<field name="ForOthersOutOfLOS" type="BinHex"/>
+			<field name="Hitman" type="BinHex"/>
+		</object>
+		<object hash="C492F3BB">
+			<field hash="4143C442" type="BinHex"/>
+			<field hash="3708CDF9" type="BinHex"/>
+			<field hash="A4745CCE" type="BinHex"/>
+			<field hash="2FB27E2E" type="BinHex"/>
+			<field hash="28BFD138" type="BinHex"/>
+			<field hash="61E5FCCA" type="BinHex"/>
+			<object hash="E22B6F37">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="19612B58">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="A4678D0D">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="3750634F">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="0180B62B">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="2D7FE08B">
+			<field hash="8DB58139" type="BinHex"/>
+		</object>
+	</object>
+</class>

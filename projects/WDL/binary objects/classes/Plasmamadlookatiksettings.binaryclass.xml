@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PlasmamadlookatiksettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="7FBA8B34" type="BinHex"/>
+	<field hash="930BFCBE" type="BinHex"/>
+	<field hash="350AE5F5" type="BinHex"/>
+	<field hash="B4FA725A" type="BinHex"/>
+	<field hash="9EF353E1" type="BinHex"/>
+	<object hash="6BAA7452">
+		<field hash="7B534167" type="BinHex"/>
+		<field name="Weight" type="BinHex"/>
+		<field name="Enabled" type="BinHex"/>
+		<object hash="6BAA7452">
+			<field hash="7B534167" type="BinHex"/>
+			<field name="Weight" type="BinHex"/>
+			<field name="Enabled" type="BinHex"/>
+		</object>
+	</object>
+</class>

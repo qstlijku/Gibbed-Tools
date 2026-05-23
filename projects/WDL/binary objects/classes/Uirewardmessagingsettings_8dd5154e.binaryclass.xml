@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uirewardmessagingsettings_8dd5154eParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Unset">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="EAEA5AE7">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="BEAEBE62">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object name="Emote">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object name="Mask">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="2FB915A8">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="456DC87A">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="29EEEDDE">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="A4A5D470">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="D70ECE9F">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="514A7734">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="1ABEBE30">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="A940BECF">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="C67C91F4">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="5E5825CA">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="F42A1263">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="BF035A79">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="89AAF80F">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object name="Vehicle">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="F3E888CB">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object name="Weapon">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="02302D3D">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="8A01EFD1">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="F9AEA347">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+	<object hash="E63A46EA">
+		<field name="texturedbobjectIcon" type="BinHex"/>
+	</object>
+</class>

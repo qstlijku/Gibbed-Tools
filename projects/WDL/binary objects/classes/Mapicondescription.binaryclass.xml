@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MapicondescriptionParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="disPrimaryIconTextureString" type="String"/>
+	<field name="bDisplayAtInit" type="Boolean"/>
+	<field name="bPlayRevealOnlyOnce" type="Boolean"/>
+	<field name="selOrientedMode" type="Enum"/>
+	<field hash="851FF4D3" type="BinHex"/>
+	<field name="iZoomFilterVisibility" type="Int32"/>
+	<field name="itemsSurvivalGuideLink" type="BinHex"/>
+	<object hash="0DB8EEE9">
+		<field hash="109DD5E0" type="BinHex"/>
+		<field hash="9CFF5E76" type="BinHex"/>
+		<field hash="222FDAFE" type="BinHex"/>
+		<field hash="3BCF8E04" type="BinHex"/>
+		<object hash="E3E85072">
+			<field name="fileIconTexture" type="String"/>
+		</object>
+		<object hash="E1DF4869">
+			<field hash="33E4567C" type="String"/>
+			<field name="fileIconTexture" type="String"/>
+		</object>
+		<object hash="C8F013A7">
+			<field name="fileIconTexture" type="String"/>
+		</object>
+		<object hash="4297ED53">
+			<field name="fileIconTexture" type="String"/>
+		</object>
+	</object>
+	<object hash="B27FDA35">
+		<field name="sIconLinkageName" type="String"/>
+		<field hash="104F7EE2" type="BinHex"/>
+		<field hash="67484E74" type="BinHex"/>
+		<field name="colorIconColor" type="Vector3"/>
+		<field name="fIconAlpha" type="Float"/>
+		<object name="IconTexture">
+			<field hash="33E4567C" type="String"/>
+			<field name="fileIconTexture" type="String"/>
+		</object>
+		<object name="IntroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="RunningAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="OutroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object hash="4CD405F4">
+		<field name="sIconLinkageName" type="String"/>
+		<field hash="104F7EE2" type="BinHex"/>
+		<field hash="67484E74" type="BinHex"/>
+		<field name="colorIconColor" type="Vector3"/>
+		<field name="fIconAlpha" type="Float"/>
+		<object name="IconTexture">
+			<field hash="33E4567C" type="String"/>
+			<field name="fileIconTexture" type="String"/>
+		</object>
+		<object name="IntroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="RunningAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="OutroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="PrimaryIcon">
+		<field name="sIconLinkageName" type="String"/>
+		<field hash="104F7EE2" type="BinHex"/>
+		<field hash="67484E74" type="BinHex"/>
+		<field name="colorIconColor" type="Vector3"/>
+		<field name="fIconAlpha" type="Float"/>
+		<object name="IconTexture">
+			<field hash="33E4567C" type="String"/>
+			<field name="fileIconTexture" type="String"/>
+		</object>
+		<object name="IntroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="RunningAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="OutroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object hash="3BB3328B">
+		<field name="sIconLinkageName" type="String"/>
+		<field hash="104F7EE2" type="BinHex"/>
+		<field hash="67484E74" type="BinHex"/>
+		<field name="colorIconColor" type="Vector3"/>
+		<field name="fIconAlpha" type="Float"/>
+		<object name="IconTexture">
+			<field hash="33E4567C" type="String"/>
+			<field name="fileIconTexture" type="String"/>
+		</object>
+		<object name="IntroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="RunningAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="OutroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="BackgroundIcon">
+		<field name="sIconLinkageName" type="String"/>
+		<field hash="104F7EE2" type="BinHex"/>
+		<field hash="67484E74" type="BinHex"/>
+		<field name="colorIconColor" type="Vector3"/>
+		<field name="fIconAlpha" type="Float"/>
+		<object name="IconTexture">
+			<field hash="33E4567C" type="String"/>
+			<field name="fileIconTexture" type="String"/>
+		</object>
+		<object name="IntroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="RunningAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="OutroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object hash="5B0373EB">
+		<field name="sIconLinkageName" type="String"/>
+		<field hash="104F7EE2" type="BinHex"/>
+		<field hash="67484E74" type="BinHex"/>
+		<field name="colorIconColor" type="Vector3"/>
+		<field name="fIconAlpha" type="Float"/>
+		<object name="IconTexture">
+			<field hash="33E4567C" type="String"/>
+			<field name="fileIconTexture" type="String"/>
+		</object>
+		<object name="IntroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="RunningAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+		<object name="OutroAnimationData">
+			<object name="TextureAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="selDispensorType" type="Enum"/>
+				<field name="fIconSwapDelay" type="Float"/>
+				<object name="IconTexturesList"/>
+			</object>
+			<object name="ColorAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="colorStartColor" type="Vector3"/>
+				<field name="fStartAlpha" type="Float"/>
+				<field name="colorEndColor" type="Vector3"/>
+				<field name="fEndAlpha" type="Float"/>
+				<field name="fColorAnimDelay" type="Float"/>
+				<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fColorDuration" type="Float"/>
+			</object>
+			<object name="ScaleAnimation">
+				<field name="bIsUsed" type="Boolean"/>
+				<field name="bIsLooping" type="Boolean"/>
+				<field name="bIsOneWay" type="Boolean"/>
+				<field name="vec2StartScale" type="Vector2"/>
+				<field name="vec2EndScale" type="Vector2"/>
+				<field name="fScaleAnimDelay" type="Float"/>
+				<field name="fScaleAnimDelayBetweenLoop" type="Float"/>
+				<field name="bIsDelayedBothWays" type="Boolean"/>
+				<field name="fScaleAnimDuration" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="locstridWorldMapTag">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="Animations">
+		<field name="bStartAnimationOnInit" type="Boolean"/>
+	</object>
+	<object name="IconModifiers">
+		<field name="fGpsScaleFactor" type="Float"/>
+		<field hash="33B6E8AC" type="BinHex"/>
+		<field name="fMaxDistanceFromPlayer" type="Float"/>
+		<field name="bUseUpOrDownSubIcon" type="Boolean"/>
+		<field name="bUseUpOrDownAlpha" type="Boolean"/>
+		<field name="bUseAboveBelowDistanceOverride" type="Boolean"/>
+		<field name="fMinHeightDiffForAboveBelowFeedback" type="Float"/>
+		<field hash="5AABD4AD" type="BinHex"/>
+		<field hash="2DACE43B" type="BinHex"/>
+		<field hash="D1C46AA1" type="BinHex"/>
+		<field hash="A6C35A37" type="BinHex"/>
+		<object name="ClampMode">
+			<field name="selEGpsClamp" type="Enum"/>
+			<field name="fClampCloseDistance" type="Float"/>
+			<field name="bClampOnWorldMap" type="Boolean"/>
+			<field name="colorClampArrowColor" type="Vector3"/>
+			<field name="bFadeInClamp" type="Boolean"/>
+			<field name="bShrinkInClamp" type="Boolean"/>
+			<field name="bClampOnMainMap" type="Boolean"/>
+			<field name="colorClampOnMainMapColor" type="Vector3"/>
+		</object>
+	</object>
+</class>

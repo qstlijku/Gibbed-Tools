@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PoseblendshapessetParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="BlendShapesSet">
+		<object name="BlendShapes">
+			<field hash="A509BD31" type="String"/>
+			<field name="BlendShapeName" type="BinHex"/>
+			<object name="BoneIntensityInput">
+				<field name="sBoneName" type="String"/>
+				<field name="selIntensityInputMode" type="Enum"/>
+			</object>
+		</object>
+	</object>
+</class>

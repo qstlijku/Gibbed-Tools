@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Boroughuprisingsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="24059F66" type="BinHex"/>
+	<object hash="C936EFD8">
+		<object hash="3CB768D8">
+			<field hash="E68E3C54" type="BinHex"/>
+			<field hash="679B8E61" type="BinHex"/>
+			<object hash="86C2485F"/>
+			<object hash="DE9C542E">
+				<field hash="E6940193" type="BinHex"/>
+				<field hash="2D0DA3EA" type="BinHex"/>
+				<field hash="5E33AB16" type="BinHex"/>
+				<field hash="9174302B" type="BinHex"/>
+				<field hash="3D86F7BE" type="BinHex"/>
+				<field hash="B49A97C0" type="BinHex"/>
+				<object hash="DE9C542E">
+					<field hash="E6940193" type="BinHex"/>
+					<field hash="2D0DA3EA" type="BinHex"/>
+					<field hash="5E33AB16" type="BinHex"/>
+					<field hash="9174302B" type="BinHex"/>
+					<field hash="3D86F7BE" type="BinHex"/>
+					<field hash="B49A97C0" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="686B1E6A">
+				<object hash="6EA4457E">
+					<field hash="89F8FA7F" type="BinHex"/>
+					<field hash="FEA4A0D2" type="String"/>
+					<field hash="CEBD9793" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="51543D90">
+				<object hash="E68E3C54">
+					<field hash="E68E3C54" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

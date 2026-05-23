@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CloactionlistParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bIsPartOfAScenarioOnSpawn" type="Boolean"/>
+	<field hash="EBDB4BAF" type="BinHex"/>
+	<field hash="7DDF4A49" type="BinHex"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field name="cloactAction" type="BinHex"/>
+			<field name="uiCoefficient" type="UInt32"/>
+		</object>
+	</object>
+</class>

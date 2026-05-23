@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SoundregionsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selLayerType" type="Enum"/>
+	<object name="SoundRegions">
+		<object name="SoundRegion">
+			<field name="selLayerType" type="Enum"/>
+			<field name="disUniqueId" type="BinHex"/>
+			<field name="sName" type="String"/>
+			<field name="colorColor" type="Vector3"/>
+			<object name="sndswvlRegionSwitchValue">
+				<field name="SoundId" type="BinHex"/>
+				<field hash="EE1824B1" type="BinHex"/>
+			</object>
+			<field hash="7B6A651D" type="String"/>
+			<field name="sndRandomFxSound" type="BinHex"/>
+			<field hash="2B355191" type="BinHex"/>
+			<object hash="9B529A9A"/>
+			<object name="WindGustSettings">
+				<field name="sndWindGustSound" type="BinHex"/>
+				<field hash="0CE02618" type="BinHex"/>
+				<field name="fWindGustMinWindSpeed" type="Float"/>
+				<field name="fWindGustMaxWindSpeed" type="Float"/>
+				<object name="DelayBetweenGusts">
+					<object name="ForMinWindSpeed">
+						<field name="fMinDelay" type="Float"/>
+						<field name="fMaxDelay" type="Float"/>
+					</object>
+					<object name="ForMaxWindSpeed">
+						<field name="fMinDelay" type="Float"/>
+						<field name="fMaxDelay" type="Float"/>
+					</object>
+				</object>
+			</object>
+			<object name="sndauxbusAuxiliaryBus">
+				<field name="SoundId" type="BinHex"/>
+				<field hash="EE1824B1" type="String"/>
+			</object>
+			<object name="RandomFxSettings">
+				<field name="fFrequency" type="Float"/>
+				<field name="iPolyphony" type="Int32"/>
+				<field name="fMinRadius" type="Float"/>
+				<field name="fMaxRadius" type="Float"/>
+			</object>
+		</object>
+	</object>
+</class>

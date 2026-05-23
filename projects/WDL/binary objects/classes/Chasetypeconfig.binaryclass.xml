@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChasetypeconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selFelonyType" type="Enum"/>
+	<field name="bTrafficStopAtIntersection" type="Boolean"/>
+	<field name="fGateUnblockingDelay" type="Float"/>
+	<field name="fGateSubsequentUnblockingDelay" type="Float"/>
+	<field name="mapicondescRoadBlockMapIcon" type="BinHex"/>
+	<object name="Sounds">
+		<field name="sndChaseStartedSound" type="BinHex"/>
+		<field name="sndChaseStoppedSound" type="BinHex"/>
+		<field name="sndSearchStartedSound" type="BinHex"/>
+		<field name="sndSearchStoppedSound" type="BinHex"/>
+		<field hash="5E5D4F71" type="BinHex"/>
+		<field hash="F69C94C5" type="BinHex"/>
+		<field hash="4D6E45D0" type="BinHex"/>
+		<field hash="E5AF9E64" type="BinHex"/>
+	</object>
+	<object name="SquelchSounds">
+		<field hash="B3D45CF2" type="String"/>
+		<field name="sndChopperStartSquelch" type="BinHex"/>
+		<field hash="FFFC1335" type="String"/>
+		<field name="sndPatrolStartSquelch" type="BinHex"/>
+		<field hash="A18778E1" type="String"/>
+		<field name="sndDispatchStartSquelch" type="BinHex"/>
+		<field hash="9451CECF" type="String"/>
+		<field name="sndOperator911StartSquelch" type="BinHex"/>
+		<field hash="AFBB1D16" type="String"/>
+		<field name="sndBoatStartSquelch" type="BinHex"/>
+		<field hash="52340F67" type="BinHex"/>
+		<field hash="2809C204" type="BinHex"/>
+		<field hash="6BE2002B" type="BinHex"/>
+		<field hash="6F2AECA9" type="BinHex"/>
+		<field hash="58C6280E" type="BinHex"/>
+		<field hash="CDD7DCE1" type="String"/>
+		<field name="sndChopperStopSquelch" type="BinHex"/>
+		<field hash="8C8845C0" type="String"/>
+		<field name="sndPatrolStopSquelch" type="BinHex"/>
+		<field hash="291A9FB8" type="String"/>
+		<field name="sndDispatchStopSquelch" type="BinHex"/>
+		<field hash="4A044B90" type="String"/>
+		<field name="sndOperator911StopSquelch" type="BinHex"/>
+		<field hash="CEF75AB0" type="String"/>
+		<field name="sndBoatStopSquelch" type="BinHex"/>
+		<field hash="A56B915E" type="BinHex"/>
+		<field hash="F2FC5AD5" type="BinHex"/>
+		<field hash="70D71FBD" type="BinHex"/>
+		<field hash="631D883B" type="BinHex"/>
+		<field hash="57E2DFD0" type="BinHex"/>
+	</object>
+	<object name="SoundArchetypes">
+		<object name="PilotArchetypes">
+			<object name="Pilot">
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+		<object name="PatrolArchetypes">
+			<object name="Patrol">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+		<object name="DispatchArchetypes">
+			<object name="Dispatch">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+		<object name="OperatorArchetypes">
+			<object name="Operator">
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+		<object name="BoatArchetypes">
+			<object name="Boat">
+				<field name="archArchetype" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="NonPlayerTargetParams">
+		<field name="chaselevelparametersHighEscalationParams" type="BinHex"/>
+		<field name="chaselevelparametersLowEscalationParams" type="BinHex"/>
+	</object>
+	<object name="LowBudget">
+		<field name="chasestageconfigCopStage" type="BinHex"/>
+	</object>
+</class>

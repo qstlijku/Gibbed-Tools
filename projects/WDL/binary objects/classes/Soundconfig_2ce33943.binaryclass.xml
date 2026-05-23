@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Soundconfig_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fObjectSpeedMultiplier" type="Float"/>
+	<object name="CoreData">
+		<field hash="F1DAA2B6" type="BinHex"/>
+		<object name="sndvarBusVolumeRTPC">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object name="sndvarObjectVolumeRTPC">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object name="sndvarObjectPercentVolumeRTPC">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object name="sndvarOcclusionRTPC">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object name="sndvarMusicVolumeRTPC">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="83EFB8F6">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="D3919203">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="E3FACACF">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="2CCA6E56">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="9E6818B8">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="CAAA048B">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="A4D9BF69">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="874D3D8D">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="BinHex"/>
+		</object>
+		<object hash="3AFDEAC9">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="48C75427">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="F3FA4654">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object name="Multiplayer">
+			<field hash="FD88E382" type="String"/>
+			<field hash="FEE86B77" type="BinHex"/>
+			<field hash="ED621470" type="BinHex"/>
+		</object>
+		<object name="DTest">
+			<field hash="0536EAC8" type="String"/>
+			<field hash="F744AC06" type="BinHex"/>
+			<field hash="B30B1B1E" type="BinHex"/>
+		</object>
+	</object>
+	<object name="DareStudio">
+		<field name="sProjectName" type="BinHex"/>
+	</object>
+	<object name="DirectoryInfo">
+		<field name="sScript" type="String"/>
+		<field name="sBinary" type="String"/>
+		<field name="sProjectName" type="BinHex"/>
+	</object>
+	<object name="OcclusionInfo">
+		<field name="fTransitionTime" type="Float"/>
+		<field name="fMultiplier_PC" type="Float"/>
+		<field name="fMultiplier_Durango" type="Float"/>
+		<field name="fMultiplier_Orbis" type="Float"/>
+	</object>
+	<object name="Contextualisation">
+		<object name="MaxPlayableSoundPoints">
+			<field name="Normal" type="BinHex"/>
+			<field name="HighEnd" type="BinHex"/>
+		</object>
+	</object>
+	<object name="GlobalLimiter">
+		<field name="LimiterMaxSpeed" type="BinHex"/>
+		<field name="LimiterMinSoundDuration" type="BinHex"/>
+	</object>
+	<object hash="E57680DA">
+		<object hash="20A21C14">
+			<object hash="C2F3D720">
+				<field hash="C841F297" type="BinHex"/>
+				<field hash="6CD38F45" type="BinHex"/>
+				<field hash="E65ACE31" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

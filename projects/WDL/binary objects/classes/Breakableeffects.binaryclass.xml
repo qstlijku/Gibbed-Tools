@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BreakableeffectsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="psParticle" type="BinHex"/>
+	<field name="sndSound" type="BinHex"/>
+	<field hash="8FE662AD" type="BinHex"/>
+	<field name="sndGroupSound" type="BinHex"/>
+	<field name="sndLoopSoundEnd" type="BinHex"/>
+	<field hash="ABB646FA" type="BinHex"/>
+	<field hash="3302E217" type="BinHex"/>
+</class>

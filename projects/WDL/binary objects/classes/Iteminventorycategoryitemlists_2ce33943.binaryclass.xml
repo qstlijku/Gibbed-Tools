@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Iteminventorycategoryitemlists_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Categories">
+		<field name="itemlistOneHanded" type="BinHex"/>
+		<field name="itemlistAssault" type="BinHex"/>
+		<field name="itemlistShotgun" type="BinHex"/>
+		<field name="itemlistSpecial" type="BinHex"/>
+		<field name="itemlistObjectInWheel" type="BinHex"/>
+		<field name="itemlistBullet" type="BinHex"/>
+		<field name="itemlistRCItems" type="BinHex"/>
+		<field name="itemlistEmotes" type="BinHex"/>
+		<field name="itemlistTaser" type="BinHex"/>
+		<field name="itemlistCraftingIngredients" type="BinHex"/>
+	</object>
+</class>

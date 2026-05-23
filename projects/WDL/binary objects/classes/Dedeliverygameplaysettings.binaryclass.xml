@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DedeliverygameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="D1D755C6" type="BinHex"/>
+	<field hash="F935D2D4" type="BinHex"/>
+	<field hash="31391A9B" type="BinHex"/>
+	<field hash="CBF40A51" type="BinHex"/>
+	<field name="bDisplayArea" type="Boolean"/>
+	<object hash="90A44F64">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

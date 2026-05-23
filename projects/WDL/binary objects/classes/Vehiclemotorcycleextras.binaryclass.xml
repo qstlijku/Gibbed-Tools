@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclemotorcycleextrasParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fRollSpeedLow" type="Float"/>
+	<field name="fRollSpeedHigh" type="Float"/>
+	<field name="fRollSpeedAcc" type="Float"/>
+	<field name="fLeanAngleLow" type="Float"/>
+	<field name="fLeanAngleMax" type="Float"/>
+	<field name="fOutOfControlMaxLeanAngle" type="Float"/>
+	<field name="fOutOfControlLinAccLimit" type="Float"/>
+	<field name="fOutOfControlLinAccLimitAi" type="Float"/>
+	<field name="fOutOfControlLandingMaxSideVel" type="Float"/>
+	<field name="fOutOfControlLandingMaxBackVel" type="Float"/>
+	<field name="fOutOfControlWheelieLinAccLimit" type="Float"/>
+	<field name="fRollAccelerationScaleUp" type="Float"/>
+	<field name="fExtraGetUpRollScale" type="Float"/>
+</class>

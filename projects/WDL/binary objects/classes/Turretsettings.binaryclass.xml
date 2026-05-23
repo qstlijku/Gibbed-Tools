@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="TurretsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="055B330D" type="BinHex"/>
+	<object hash="DACD34DD">
+		<field hash="52B36A7B" type="BinHex"/>
+		<field hash="C2C07A91" type="BinHex"/>
+		<field hash="E72E4DFE" type="BinHex"/>
+		<field hash="5E08D68F" type="BinHex"/>
+	</object>
+	<object name="Idle">
+		<field hash="F027075B" type="BinHex"/>
+		<field hash="CC2A3802" type="BinHex"/>
+		<field hash="9C3FDCFF" type="BinHex"/>
+		<field hash="A032E3A6" type="BinHex"/>
+		<field hash="B3B8DFDD" type="BinHex"/>
+		<field hash="8FB5E084" type="BinHex"/>
+		<field hash="0FBECA68" type="BinHex"/>
+		<field hash="4ABC89EA" type="BinHex"/>
+		<field hash="072FB6FC" type="BinHex"/>
+	</object>
+	<object name="Combat">
+		<field hash="D9A08B12" type="BinHex"/>
+		<field hash="E5ADB44B" type="BinHex"/>
+		<field hash="29BB81A0" type="BinHex"/>
+	</object>
+	<object hash="68FA25E3">
+		<field hash="641919D8" type="BinHex"/>
+		<field hash="DB43B68C" type="BinHex"/>
+		<field hash="7129DB1E" type="BinHex"/>
+		<field hash="38679295" type="BinHex"/>
+		<field hash="6ED0BEC8" type="BinHex"/>
+		<field hash="1FC2183A" type="BinHex"/>
+		<field hash="23CF2763" type="BinHex"/>
+		<field hash="2D5E73D6" type="BinHex"/>
+		<field hash="11534C8F" type="BinHex"/>
+		<field hash="34044A2C" type="BinHex"/>
+		<field hash="08097575" type="BinHex"/>
+		<object hash="AD0031A1">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="E4699F0A">
+		<field hash="6FC46AFF" type="BinHex"/>
+		<field hash="9F69A849" type="BinHex"/>
+	</object>
+</class>

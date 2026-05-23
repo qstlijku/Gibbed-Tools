@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dynamiceventssettingsdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bEnabled" type="Boolean"/>
+	<field hash="E476117F" type="BinHex"/>
+	<object hash="FCF81E40">
+		<field name="disNomadObjectId" type="BinHex"/>
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="hidValidationFailed" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field hash="A8B379A5" type="BinHex"/>
+		<field hash="0407BD52" type="BinHex"/>
+		<field hash="309B3C9C" type="BinHex"/>
+	</object>
+	<object hash="9B898DDC">
+		<field name="disNomadObjectId" type="BinHex"/>
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="hidValidationFailed" type="Boolean"/>
+		<field name="hidName" type="BinHex"/>
+		<field hash="6CE456BF" type="BinHex"/>
+		<field hash="92E1DE0E" type="BinHex"/>
+		<field hash="229DEFE6" type="BinHex"/>
+	</object>
+	<object hash="93EDCB22">
+		<object name="DynamicEventSettings">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="5733EC84" type="BinHex"/>
+			<object name="Variations">
+				<object name="Variation">
+					<field name="disNomadObjectId" type="BinHex"/>
+					<field name="hidSingleObject" type="Boolean"/>
+					<field name="hidKey" type="BinHex"/>
+					<field name="hidValidationFailed" type="Boolean"/>
+					<field name="hidName" type="BinHex"/>
+					<field hash="E4F58863" type="BinHex"/>
+					<field hash="383A2DE4" type="BinHex"/>
+					<field hash="5733EC84" type="BinHex"/>
+					<object hash="2972EADD"/>
+					<object hash="3B308B7B"/>
+				</object>
+			</object>
+			<object hash="2972EADD"/>
+			<object hash="3B308B7B">
+				<object hash="51C1C375">
+					<field name="disNomadObjectId" type="BinHex"/>
+					<field name="hidSingleObject" type="Boolean"/>
+					<field name="hidKey" type="BinHex"/>
+					<field name="hidValidationFailed" type="Boolean"/>
+					<field name="hidName" type="BinHex"/>
+					<field name="selType" type="Enum"/>
+					<object hash="A0FD370C">
+						<field name="disNomadObjectId" type="BinHex"/>
+						<field name="hidSingleObject" type="Boolean"/>
+						<field name="hidKey" type="BinHex"/>
+						<field name="hidValidationFailed" type="Boolean"/>
+						<field name="hidName" type="BinHex"/>
+						<field hash="45BC8C01" type="BinHex"/>
+						<field hash="88562607" type="BinHex"/>
+						<object hash="12187E17">
+							<object hash="A0FD370C">
+								<field hash="C4492787" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="2972EADD">
+		<object hash="A449352C">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="D22772A7" type="BinHex"/>
+			<field hash="9061376E" type="BinHex"/>
+			<object hash="EDC76697">
+				<object name="TagCategorySelectionArray">
+					<object name="TagCategorySelection">
+						<field hash="CF68E402" type="String"/>
+						<field name="hid_DTCTH_ClassName" type="BinHex"/>
+						<field hash="BDB3B8D5" type="String"/>
+						<field hash="401A8276" type="BinHex"/>
+						<field hash="F5391DFF" type="BinHex"/>
+						<field name="tagcategoryTagCategory" type="BinHex"/>
+						<field name="tagTag" type="BinHex"/>
+					</object>
+				</object>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="3B308B7B"/>
+</class>

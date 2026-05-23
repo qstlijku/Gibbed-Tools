@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ConversationinteractionsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="GeneralSettings">
+		<field hash="43D50E42" type="BinHex"/>
+		<field name="vectorAutoNavPositionOffset" type="BinHex"/>
+		<field name="fAutoNavYawOffset" type="Float"/>
+		<field name="selAvailabilityType" type="Enum"/>
+		<field name="fInteractionAvailabilityDistance" type="Float"/>
+		<field name="fInteractionVisibilityDistance" type="Float"/>
+		<field name="vectorAvailabilityIconOffset" type="BinHex"/>
+		<field name="vectorVisibilityIconOffset" type="BinHex"/>
+		<field name="fLookAtPlayerDistance" type="Float"/>
+		<object name="locstridInteractionText">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="LookAtSettings">
+			<field name="selLookAtType" type="Enum"/>
+			<field name="selPriority" type="Enum"/>
+			<field name="bUseTimer" type="Boolean"/>
+			<field name="bUseMaxAngles" type="Boolean"/>
+			<object name="LookAtMoveState">
+				<field name="fileMovePath" type="String"/>
+			</object>
+		</object>
+		<object name="PlayerAnimation">
+			<field name="fileAnimationPath" type="String"/>
+			<field name="sAnchorName" type="BinHex"/>
+			<field name="bUseForceDisplacement" type="Boolean"/>
+			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
+			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
+			<field name="bKillLayerAnimations" type="Boolean"/>
+			<field name="fileAnimatedCamera" type="String"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
+			<object name="AnchorPartNames"/>
+		</object>
+		<object name="EntityAnimation">
+			<field hash="E942AD8B" type="String"/>
+			<field name="fileAnimationPath" type="String"/>
+			<field name="sAnchorName" type="BinHex"/>
+			<field name="bUseForceDisplacement" type="Boolean"/>
+			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
+			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
+			<field name="bKillLayerAnimations" type="Boolean"/>
+			<field name="fileAnimatedCamera" type="String"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
+			<object name="AnchorPartNames"/>
+		</object>
+		<object hash="4CE34821">
+			<field hash="E942AD8B" type="String"/>
+			<field name="fileAnimationPath" type="String"/>
+			<field name="sAnchorName" type="BinHex"/>
+			<field name="bUseForceDisplacement" type="Boolean"/>
+			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
+			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
+			<field name="bKillLayerAnimations" type="Boolean"/>
+			<field name="fileAnimatedCamera" type="String"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
+			<object name="AnchorPartNames"/>
+		</object>
+		<object hash="D386A137">
+			<field hash="E942AD8B" type="String"/>
+			<field name="fileAnimationPath" type="String"/>
+			<field name="sAnchorName" type="BinHex"/>
+			<field name="bUseForceDisplacement" type="Boolean"/>
+			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
+			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
+			<field name="bKillLayerAnimations" type="Boolean"/>
+			<field name="fileAnimatedCamera" type="String"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
+			<object name="AnchorPartNames"/>
+		</object>
+	</object>
+	<object name="Conversations">
+		<object name="MissionConversationGroup">
+			<object name="MissionConversation">
+				<field name="conversationsettingConversation" type="BinHex"/>
+				<field name="conversationcameraConversationCameraSetting" type="BinHex"/>
+				<field name="bSkippable" type="Boolean"/>
+				<field name="bRepeatable" type="Boolean"/>
+				<object hash="1A8B9A95">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="SpecificConversationGroup">
+			<object name="SpecificConversation">
+				<field name="conversationsettingConversation" type="BinHex"/>
+				<field name="conversationcameraConversationCameraSetting" type="BinHex"/>
+				<field name="bSkippable" type="Boolean"/>
+				<field name="bRepeatable" type="Boolean"/>
+				<object hash="1A8B9A95">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="FillerConversationGroup">
+			<object name="FillerConversation">
+				<field name="conversationsettingConversation" type="BinHex"/>
+				<field name="conversationcameraConversationCameraSetting" type="BinHex"/>
+				<object hash="1A8B9A95">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="3C7AB27D">
+		<field hash="4DBCE0FB" type="BinHex"/>
+		<field hash="34870E16" type="String"/>
+	</object>
+</class>

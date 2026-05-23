@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Citylocationlocksglobalsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="6177A5B1" type="BinHex"/>
+	<field hash="D97D1FB7" type="BinHex"/>
+	<field hash="84D37680" type="BinHex"/>
+	<field hash="C121DB8F" type="BinHex"/>
+	<field hash="485781AD" type="BinHex"/>
+</class>

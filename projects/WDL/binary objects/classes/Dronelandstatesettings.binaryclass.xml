@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronelandstatesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="7F238CA1">
+		<field hash="CDC890C2" type="BinHex"/>
+		<field hash="F2F9C8AE" type="BinHex"/>
+		<object hash="67A8323A">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="58A9C409">
+		<field hash="6D389B51" type="BinHex"/>
+		<field hash="7D039EDC" type="BinHex"/>
+		<field hash="410EA185" type="BinHex"/>
+	</object>
+	<object hash="28806D8A">
+		<field hash="BDDBAE0C" type="BinHex"/>
+	</object>
+	<object hash="95F23E97">
+		<field hash="5BBD106C" type="BinHex"/>
+		<field hash="2A2D2BB3" type="BinHex"/>
+	</object>
+	<object hash="FA08F6EA">
+		<field hash="72D685F8" type="BinHex"/>
+		<field hash="4EDBBAA1" type="BinHex"/>
+	</object>
+</class>

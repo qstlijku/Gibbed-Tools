@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CameralensconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fBloomIntensity" type="Float"/>
+	<field hash="F2928FDA" type="BinHex"/>
+	<field name="fBloomLuminanceOffsetEnd" type="Float"/>
+	<field hash="C55A3CD8" type="BinHex"/>
+	<field hash="D0160F0D" type="BinHex"/>
+	<field name="fileDirtTexture" type="String"/>
+	<field name="fDirtIntensity" type="Float"/>
+	<field name="fDirtGamma" type="Float"/>
+	<field name="fVignettingAmount" type="Float"/>
+	<field name="fVignettingMidpoint" type="Float"/>
+	<field name="fVignettingAnisotropy" type="Float"/>
+	<field name="fVignettingFeather" type="Float"/>
+	<field name="bEnableDistortion" type="Boolean"/>
+	<field name="fKCylindrical" type="Float"/>
+	<field name="fKCubic" type="Float"/>
+	<field name="bEnableChromaticAberation" type="Boolean"/>
+	<field name="fStrength" type="Float"/>
+</class>

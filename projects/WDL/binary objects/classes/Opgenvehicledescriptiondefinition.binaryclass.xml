@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="OpgenvehicledescriptiondefinitionParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Affiliations">
+		<object name="Affiliation">
+			<field name="selAffiliation" type="Enum"/>
+		</object>
+	</object>
+	<object hash="4898EEBF">
+		<object hash="25B284F2">
+			<field hash="02A2734E" type="BinHex"/>
+		</object>
+	</object>
+</class>

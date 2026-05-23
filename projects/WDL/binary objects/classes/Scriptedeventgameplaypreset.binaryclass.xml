@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ScriptedeventgameplaypresetParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="7A2904B4" type="BinHex"/>
+	<field hash="7840A2A2" type="BinHex"/>
+	<field hash="29EB880E" type="BinHex"/>
+	<field hash="B6018EC1" type="BinHex"/>
+	<field hash="26D344B6" type="BinHex"/>
+	<field hash="5A252480" type="BinHex"/>
+	<field hash="759326C0" type="BinHex"/>
+	<field hash="2B4E7884" type="BinHex"/>
+	<field hash="8FE662AD" type="BinHex"/>
+	<field hash="DF3B2FBF" type="BinHex"/>
+	<object hash="2AA66553">
+		<object hash="45E9858D">
+			<field hash="40947E86" type="BinHex"/>
+			<field name="selFadeType" type="Enum"/>
+			<field hash="FA843571" type="BinHex"/>
+			<field hash="E3F076CB" type="BinHex"/>
+			<field hash="8CF11C56" type="String"/>
+			<field hash="9CB79C05" type="BinHex"/>
+			<field hash="9DE148E0" type="BinHex"/>
+			<field hash="F9131B61" type="BinHex"/>
+			<field hash="DD297BC0" type="BinHex"/>
+			<field hash="1ED22D47" type="BinHex"/>
+			<field hash="5986377E" type="String"/>
+			<field hash="8FECCEFC" type="BinHex"/>
+			<field hash="0745D5E1" type="BinHex"/>
+			<field hash="60EFE2C7" type="BinHex"/>
+			<field hash="28968300" type="BinHex"/>
+			<field hash="274D1352" type="BinHex"/>
+			<field name="fShakeStrength" type="Float"/>
+			<field name="fShakeAttenuationPower" type="Float"/>
+			<field name="fShakeDuration" type="Float"/>
+			<field hash="F0CB48A9" type="BinHex"/>
+			<field hash="A7BD7548" type="BinHex"/>
+			<field hash="766BFB99" type="String"/>
+			<field name="sRumbleId" type="BinHex"/>
+			<field hash="E26D39E6" type="BinHex"/>
+			<field name="fDuration" type="Float"/>
+			<field hash="F0038D14" type="BinHex"/>
+			<field hash="56A47084" type="String"/>
+			<field hash="9C629C93" type="BinHex"/>
+			<field hash="25147DB2" type="BinHex"/>
+			<object hash="5C1F4C0C">
+				<object name="TeleportEntity">
+					<field hash="C160F121" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="6C21BB29">
+				<field hash="E942AD8B" type="String"/>
+				<field name="fileAnimationPath" type="String"/>
+				<field name="sAnchorName" type="BinHex"/>
+				<field name="bUseForceDisplacement" type="Boolean"/>
+				<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
+				<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
+				<field name="bKillLayerAnimations" type="Boolean"/>
+				<field name="fileAnimatedCamera" type="String"/>
+				<field hash="D8266791" type="BinHex"/>
+				<field hash="6E9B1521" type="BinHex"/>
+				<field hash="967C4591" type="BinHex"/>
+				<field hash="FAB2056A" type="BinHex"/>
+				<field hash="98432A3B" type="BinHex"/>
+				<field hash="CD235301" type="BinHex"/>
+				<object name="AnchorPartNames"/>
+			</object>
+			<object hash="24EB848D">
+				<object name="TimeOfDay">
+					<field hash="226C0F6A" type="BinHex"/>
+					<field name="uiHour" type="UInt32"/>
+					<field hash="D4C5181B" type="BinHex"/>
+				</object>
+				<object name="Weather">
+					<field hash="A5DCDBBB" type="BinHex"/>
+					<field name="envweatherpresetWeatherPreset" type="BinHex"/>
+				</object>
+				<object name="Felony">
+					<field hash="6972E194" type="BinHex"/>
+				</object>
+				<object hash="469D5DD5">
+					<field hash="27238BE6" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Common">
+				<field hash="5EEA5EBB" type="String"/>
+				<field hash="D5CD433F" type="BinHex"/>
+				<field hash="B774AF43" type="String"/>
+				<field hash="2ED1C119" type="BinHex"/>
+				<field hash="88890F55" type="BinHex"/>
+				<field hash="70E0CA31" type="BinHex"/>
+				<field hash="73C6AC26" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="807F77A2">
+		<field name="fInitialDelay" type="Float"/>
+		<field hash="6C8A638A" type="BinHex"/>
+		<field hash="5290CDC5" type="BinHex"/>
+		<field hash="9E9DB6CA" type="BinHex"/>
+		<field hash="373F04BA" type="BinHex"/>
+		<field hash="76CCBA66" type="BinHex"/>
+		<field hash="BAC1C169" type="BinHex"/>
+		<field hash="509A2078" type="BinHex"/>
+		<field hash="3F465B5F" type="BinHex"/>
+		<field hash="F34B2050" type="BinHex"/>
+		<field hash="69B5048A" type="BinHex"/>
+	</object>
+</class>

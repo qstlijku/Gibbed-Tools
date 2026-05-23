@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="OpslistParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="brickflowBrickFlowConfig" type="BinHex"/>
+	<field name="uiopdbUIContent" type="BinHex"/>
+	<field name="oplineconfigOpLine" type="BinHex"/>
+	<field hash="D65B1412" type="BinHex"/>
+	<field name="oplineuidataOpLineUIDataOnOpCompletion" type="BinHex"/>
+	<field hash="DE4F8D2E" type="BinHex"/>
+	<field name="bShouldPlayOpCompletionDedSecNarrative" type="BinHex"/>
+	<field name="sTrackingName" type="String"/>
+	<field name="districtBorough" type="BinHex"/>
+	<field hash="587240B1" type="BinHex"/>
+	<object name="RewardsSettings">
+		<object name="CryptoCurrency">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object hash="B0993B40">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+		<object name="ExoticRewards">
+			<field name="rulesmithidRuleId" type="BinHex"/>
+		</object>
+		<object name="Items">
+			<object name="Items">
+				<object name="Item">
+					<field name="itemsItem" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="Entities">
+			<object name="Entities"/>
+		</object>
+	</object>
+	<object name="EndOpTrigger">
+		<field name="rulesmithidRuleId" type="BinHex"/>
+	</object>
+	<object name="Unlocking">
+		<field name="iUnlockResistanceLevel" type="BinHex"/>
+		<object name="PrerequisiteOps">
+			<object name="Op">
+				<field name="opslistPrerequisiteOp" type="BinHex"/>
+			</object>
+		</object>
+		<object name="SpecialUnlockRule">
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
+		</object>
+	</object>
+	<object name="locstridMissionsAppSubCategoryOverride">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

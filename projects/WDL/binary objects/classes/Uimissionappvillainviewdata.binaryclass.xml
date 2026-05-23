@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UimissionappvillainviewdataParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="DC9116A9" type="BinHex"/>
+	<object name="locstridTitleLocId">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="42DDAFC5">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="37C75110">
+		<object name="Name">
+			<object hash="C8BC4AD9">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

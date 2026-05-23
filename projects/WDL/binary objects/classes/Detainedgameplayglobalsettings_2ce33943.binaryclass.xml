@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Detainedgameplayglobalsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="A1A4FAC7" type="String"/>
+	<field name="sPrisonerSquadName" type="BinHex"/>
+	<field hash="BB1ADB0A" type="String"/>
+	<field hash="70D90210" type="BinHex"/>
+	<field hash="C3589B4A" type="BinHex"/>
+	<field hash="F4C1F946" type="BinHex"/>
+	<object hash="BCED7D95">
+		<object hash="B45C3B2C">
+			<field hash="A65C0EC6" type="BinHex"/>
+			<field hash="044B9513" type="BinHex"/>
+			<object hash="133FF243">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="5F29CCA2">
+			<field hash="A65C0EC6" type="BinHex"/>
+			<field hash="044B9513" type="BinHex"/>
+			<object hash="133FF243">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="196E9BB6">
+			<field hash="A65C0EC6" type="BinHex"/>
+			<field hash="044B9513" type="BinHex"/>
+			<object hash="133FF243">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="24959C47">
+			<field hash="A65C0EC6" type="BinHex"/>
+			<field hash="044B9513" type="BinHex"/>
+			<object hash="133FF243">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

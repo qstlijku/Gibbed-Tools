@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ReinforcementgameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="reinforcementconfigReinforcementConfig" type="BinHex"/>
+	<field name="selAffiliation" type="Enum"/>
+	<field hash="BE4A7A97" type="BinHex"/>
+	<field hash="9DBCF018" type="BinHex"/>
+	<field hash="BD266559" type="BinHex"/>
+	<field hash="89E6A2C4" type="BinHex"/>
+	<field hash="9FF746DB" type="BinHex"/>
+	<field hash="6972E194" type="BinHex"/>
+	<field hash="E1F8001E" type="BinHex"/>
+	<field hash="9755BED9" type="BinHex"/>
+	<field hash="78285E2C" type="BinHex"/>
+	<field hash="93765F12" type="BinHex"/>
+	<field hash="F3F00C6C" type="BinHex"/>
+	<field hash="2017DADA" type="BinHex"/>
+	<field hash="86AF5326" type="BinHex"/>
+	<field hash="7C5ED359" type="BinHex"/>
+	<field hash="C12F359A" type="BinHex"/>
+	<field hash="5F74C9FF" type="BinHex"/>
+	<field name="bUseReinforcementFeedback" type="Boolean"/>
+	<field name="sDispatchCallID" type="BinHex"/>
+	<field name="sDispatch2ndCallID" type="BinHex"/>
+	<field name="sDispatch3rdCallID" type="BinHex"/>
+	<object name="locstridWarningHeaderLocId">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridWarningMessageLocId">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

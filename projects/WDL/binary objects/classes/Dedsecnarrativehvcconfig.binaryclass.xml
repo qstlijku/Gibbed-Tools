@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DedsecnarrativehvcconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="1FD17E14" type="BinHex"/>
+	<field hash="ADC4D68A" type="BinHex"/>
+	<field hash="DCBF4CE7" type="BinHex"/>
+	<object hash="5C42F5EC">
+		<object hash="FEF598EE">
+			<field hash="27FECE4D" type="BinHex"/>
+			<object hash="FF04FCEA">
+				<object name="Tag">
+					<field name="tagTag" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

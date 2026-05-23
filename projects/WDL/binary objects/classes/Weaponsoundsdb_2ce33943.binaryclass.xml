@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Weaponsoundsdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="04D66F15">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="BinHex"/>
+	</object>
+	<object hash="C028DC8A">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object hash="990E469A">
+		<object hash="5CC9F23E">
+			<field hash="AD82B088" type="String"/>
+			<field hash="67445C9F" type="BinHex"/>
+			<field name="fDistantSoundDistance" type="Float"/>
+			<object hash="C6E70B99">
+				<field hash="54DCF191" type="BinHex"/>
+				<field hash="6EE22A91" type="BinHex"/>
+				<field hash="E3A9FCBD" type="String"/>
+				<field hash="C708D382" type="BinHex"/>
+				<field hash="F8665DF4" type="BinHex"/>
+				<field hash="BD4C91AB" type="BinHex"/>
+				<field hash="8E848B00" type="BinHex"/>
+				<field hash="474E2785" type="BinHex"/>
+				<field hash="643E9AB3" type="BinHex"/>
+				<field hash="726668C5" type="String"/>
+				<field hash="81695B01" type="BinHex"/>
+				<field hash="2F558250" type="String"/>
+				<field hash="537B1FA1" type="BinHex"/>
+				<field hash="CB85487D" type="String"/>
+				<field hash="EF246742" type="BinHex"/>
+				<field hash="FC79F7D1" type="String"/>
+				<field hash="6083FE4B" type="BinHex"/>
+				<field hash="9E9445FB" type="String"/>
+				<field hash="E2BAD80A" type="BinHex"/>
+				<field hash="CD695BF3" type="BinHex"/>
+				<field hash="EEFFDED2" type="BinHex"/>
+				<field hash="2E81A56A" type="BinHex"/>
+				<field hash="56B08C01" type="BinHex"/>
+				<field hash="B20B801F" type="BinHex"/>
+				<field hash="0565C445" type="BinHex"/>
+				<field hash="638D0034" type="BinHex"/>
+				<field hash="2D389C75" type="BinHex"/>
+				<field hash="75F7206D" type="BinHex"/>
+				<field hash="64653B1D" type="BinHex"/>
+				<field hash="4D35E7A1" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="0CA75E80">
+		<object hash="CDC4F17E">
+			<field hash="112D6D37" type="String"/>
+			<field hash="8888036D" type="BinHex"/>
+			<field name="fDistantSoundDistance" type="Float"/>
+			<object hash="921B03E0">
+				<object hash="C6E70B99">
+					<field hash="54DCF191" type="BinHex"/>
+					<field hash="6EE22A91" type="BinHex"/>
+					<field hash="E3A9FCBD" type="String"/>
+					<field hash="C708D382" type="BinHex"/>
+					<field hash="F8665DF4" type="BinHex"/>
+					<field hash="BD4C91AB" type="BinHex"/>
+					<field hash="8E848B00" type="BinHex"/>
+					<field hash="474E2785" type="BinHex"/>
+					<field hash="643E9AB3" type="BinHex"/>
+					<field hash="81695B01" type="BinHex"/>
+					<field hash="537B1FA1" type="BinHex"/>
+					<field hash="CB85487D" type="String"/>
+					<field hash="EF246742" type="BinHex"/>
+					<field hash="FC79F7D1" type="String"/>
+					<field hash="6083FE4B" type="BinHex"/>
+					<field hash="E2BAD80A" type="BinHex"/>
+					<field hash="CD695BF3" type="BinHex"/>
+					<field hash="EEFFDED2" type="BinHex"/>
+					<field hash="2E81A56A" type="BinHex"/>
+					<field hash="56B08C01" type="BinHex"/>
+					<field hash="B20B801F" type="BinHex"/>
+					<field hash="0565C445" type="BinHex"/>
+					<field hash="638D0034" type="BinHex"/>
+					<field hash="2D389C75" type="BinHex"/>
+					<field hash="75F7206D" type="BinHex"/>
+					<field hash="64653B1D" type="BinHex"/>
+					<field hash="4D35E7A1" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

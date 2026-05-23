@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronemalfunctionsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9DA5C45E" type="BinHex"/>
+	<field hash="186A582D" type="BinHex"/>
+	<field hash="ADACCEC0" type="BinHex"/>
+	<field hash="18E8CE53" type="BinHex"/>
+	<field hash="5853521A" type="BinHex"/>
+	<field hash="5D8C5E06" type="BinHex"/>
+	<field hash="779ECAA9" type="BinHex"/>
+</class>

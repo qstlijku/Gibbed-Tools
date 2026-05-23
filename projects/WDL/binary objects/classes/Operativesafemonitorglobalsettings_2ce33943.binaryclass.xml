@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Operativesafemonitorglobalsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="0C15EF03" type="BinHex"/>
+	<field hash="0129A7EB" type="BinHex"/>
+	<field hash="8ED37376" type="BinHex"/>
+	<field hash="167A27A8" type="BinHex"/>
+	<field hash="7CAAB90F" type="BinHex"/>
+	<field hash="0945B2BE" type="BinHex"/>
+	<field hash="77BED4B7" type="BinHex"/>
+	<field hash="B8CB7453" type="BinHex"/>
+	<object hash="EF9D85AB">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="617291EE">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="319641C2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="0054DE4E">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="C6F1167B">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="4882EBE7">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="8E2723D2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="7EB7B553">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="B8127D66">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

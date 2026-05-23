@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclecontrolmoduleParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="2B8DCD46">
+		<field hash="67C26CAC" type="BinHex"/>
+		<field hash="4EBC91B4" type="BinHex"/>
+		<field hash="269DB089" type="BinHex"/>
+		<field hash="4FE20BA7" type="BinHex"/>
+		<field hash="144292BF" type="BinHex"/>
+	</object>
+	<object hash="139F7916">
+		<field hash="F0938972" type="BinHex"/>
+		<field hash="94F821B2" type="BinHex"/>
+		<field hash="EA495D0F" type="BinHex"/>
+		<field hash="5D36BD3E" type="BinHex"/>
+	</object>
+	<object hash="F2D38F25">
+		<field hash="329727C6" type="BinHex"/>
+		<field hash="32F4D3EC" type="BinHex"/>
+		<field hash="E932EA88" type="BinHex"/>
+		<field hash="6EA1BCFA" type="BinHex"/>
+		<field hash="C819AD6B" type="BinHex"/>
+	</object>
+	<object name="Speed">
+		<field hash="D0409CCB" type="BinHex"/>
+		<field hash="40338C21" type="BinHex"/>
+		<field hash="8DD1406A" type="BinHex"/>
+		<field hash="6A673A2D" type="BinHex"/>
+	</object>
+	<object hash="2715B2C0">
+		<field hash="06A874DE" type="BinHex"/>
+		<field hash="C7D943D6" type="BinHex"/>
+		<field hash="D49CA57D" type="BinHex"/>
+		<field hash="A02B6954" type="BinHex"/>
+	</object>
+</class>

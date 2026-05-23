@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="TagconflictconfigurationsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="TagConflictGroups">
+		<object name="TagConflictGroup">
+			<object name="TagConflictGroupEntries">
+				<object name="TagConflictGroupEntry">
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="bUseAllTagsFromCategory" type="Boolean"/>
+					<object name="tagcategoryselectionTagCategorySelection">
+						<field hash="BDB3B8D5" type="String"/>
+						<field hash="401A8276" type="BinHex"/>
+						<field hash="F5391DFF" type="BinHex"/>
+						<object name="Tags"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

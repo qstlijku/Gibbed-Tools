@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Audiomaticssettingsdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="564A7C7B" type="BinHex"/>
+	<field hash="585F04C8" type="BinHex"/>
+	<field hash="4CB9D285" type="BinHex"/>
+	<field hash="70B4EDDC" type="BinHex"/>
+	<field hash="B2447D7B" type="BinHex"/>
+	<field hash="9373EF0E" type="BinHex"/>
+	<field hash="EB301EA7" type="BinHex"/>
+</class>

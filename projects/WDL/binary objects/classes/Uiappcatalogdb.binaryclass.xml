@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UiappcatalogdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selDefaultAppState" type="Enum"/>
+	<field name="uimenupageMenuPage" type="BinHex"/>
+	<field hash="F232683B" type="String"/>
+	<field hash="5E0D8838" type="BinHex"/>
+	<field hash="9A8A148F" type="BinHex"/>
+	<field hash="A4077D7D" type="BinHex"/>
+</class>

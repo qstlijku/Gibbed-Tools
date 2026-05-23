@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Madcameraglobalparams_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="82E4DC2F" type="BinHex"/>
+	<field hash="BEA6C68B" type="BinHex"/>
+	<field hash="C6091196" type="BinHex"/>
+	<field hash="39CDF18D" type="BinHex"/>
+	<field hash="DE01BD2B" type="BinHex"/>
+	<field hash="FB3BC5D5" type="BinHex"/>
+	<field hash="BB74BDA3" type="BinHex"/>
+	<field hash="1C90B6EA" type="BinHex"/>
+	<field hash="24A2C0FE" type="BinHex"/>
+	<field hash="0A37E54A" type="BinHex"/>
+	<field hash="DAF15C23" type="BinHex"/>
+	<field hash="AB904E4D" type="BinHex"/>
+	<field hash="631883E0" type="BinHex"/>
+	<field hash="8855949F" type="BinHex"/>
+	<field hash="D89877B9" type="BinHex"/>
+	<field hash="E74693F6" type="BinHex"/>
+	<field hash="90F83199" type="BinHex"/>
+	<field hash="C845149D" type="BinHex"/>
+	<field hash="F62BBE8B" type="BinHex"/>
+	<field hash="5709D724" type="BinHex"/>
+	<field name="fFadeInLength" type="Float"/>
+	<field name="fFadeOutLength" type="Float"/>
+	<field hash="7BC06354" type="BinHex"/>
+	<field hash="B604ECBE" type="BinHex"/>
+	<field hash="4AB94090" type="BinHex"/>
+	<field hash="29BDC888" type="BinHex"/>
+	<field name="fCollisionRadius" type="Float"/>
+	<field hash="B0B36497" type="BinHex"/>
+	<object hash="C701461F">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+</class>

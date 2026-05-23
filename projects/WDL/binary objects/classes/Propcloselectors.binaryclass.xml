@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PropcloselectorsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="8CB3F203">
+		<object hash="8CB3F203">
+			<field hash="624EEA9D" type="String"/>
+			<field hash="1E60776C" type="BinHex"/>
+			<field name="propPropDbName" type="BinHex"/>
+		</object>
+	</object>
+</class>

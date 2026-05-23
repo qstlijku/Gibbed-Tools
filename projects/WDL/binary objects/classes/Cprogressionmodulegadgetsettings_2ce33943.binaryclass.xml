@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cprogressionmodulegadgetsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Settings">
+		<field hash="0EADEF82" type="BinHex"/>
+		<object name="Gadgets">
+			<object hash="B1F352BC">
+				<field name="text_Name" type="String"/>
+				<field name="Name" type="BinHex"/>
+				<field hash="922A0B72" type="BinHex"/>
+				<field hash="03C6F1A9" type="BinHex"/>
+				<field hash="E6655990" type="String"/>
+				<field name="archArchetype" type="BinHex"/>
+				<field hash="E7BEE37F" type="String"/>
+				<field hash="2D780F68" type="BinHex"/>
+				<field hash="DB1BDD2E" type="BinHex"/>
+				<field hash="7F0A68CE" type="BinHex"/>
+				<object hash="1D38085E">
+					<object hash="80724A45">
+						<field hash="AD6C934B" type="String"/>
+						<field hash="1136F9EB" type="BinHex"/>
+					</object>
+				</object>
+				<object name="Items">
+					<object name="Item">
+						<field name="itemsItem" type="BinHex"/>
+					</object>
+				</object>
+				<object hash="D5541824">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+				<object hash="7BA72580">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object hash="42DDAFC5">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

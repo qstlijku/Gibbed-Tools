@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UimarkersettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="CDB82286" type="String"/>
+	<field name="uimarkerdescriptorDescriptorType" type="BinHex"/>
+	<object name="UIMarkerDescriptor">
+		<field hash="BB5A6C36" type="BinHex"/>
+		<field hash="6004F3CC" type="BinHex"/>
+		<field hash="94D8C2DB" type="BinHex"/>
+		<field name="fScaleFactor" type="Float"/>
+		<object hash="6C7CDCB7">
+			<field name="colorTextColor" type="Vector3"/>
+			<field name="fAlpha" type="Float"/>
+			<object hash="04712EDB">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="A30DE84A">
+			<field name="colorTextColor" type="Vector3"/>
+			<field name="fAlpha" type="Float"/>
+			<object hash="04712EDB">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="1875C772">
+			<field name="colorTextColor" type="Vector3"/>
+			<field name="fAlpha" type="Float"/>
+			<object hash="04712EDB">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="67046CBB">
+			<field name="colorTextColor" type="Vector3"/>
+			<field name="fAlpha" type="Float"/>
+			<object hash="04712EDB">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<field hash="2E0BC466" type="BinHex"/>
+		<field hash="5ADB604A" type="BinHex"/>
+		<field hash="C95013C9" type="BinHex"/>
+		<field hash="98F598B4" type="BinHex"/>
+		<field hash="1D8DBE62" type="BinHex"/>
+		<field hash="EBECC7E6" type="BinHex"/>
+		<field hash="512F9866" type="BinHex"/>
+		<field hash="251FD3E4" type="BinHex"/>
+		<field hash="CD2FAE86" type="BinHex"/>
+		<field hash="73B09423" type="BinHex"/>
+		<field hash="CBE1BC15" type="BinHex"/>
+		<field hash="EC58737F" type="BinHex"/>
+		<field hash="E0423ECA" type="BinHex"/>
+		<field hash="658B60F9" type="BinHex"/>
+		<field hash="C2B923D1" type="BinHex"/>
+		<field hash="7FE77CB3" type="BinHex"/>
+		<field hash="F27DAF38" type="BinHex"/>
+		<field name="fMaxDistanceToHide" type="Float"/>
+		<field name="fMinDistanceToHide" type="Float"/>
+		<field hash="305CA1C1" type="BinHex"/>
+		<field hash="2A2CB6DD" type="BinHex"/>
+		<field hash="A64B58ED" type="BinHex"/>
+		<field hash="78C2BA42" type="BinHex"/>
+		<field hash="17F5FC0C" type="BinHex"/>
+		<field hash="1FF197BF" type="BinHex"/>
+		<field hash="1E756B03" type="BinHex"/>
+		<field hash="3B474FD7" type="BinHex"/>
+		<field hash="9065E0F9" type="BinHex"/>
+		<field hash="D0EE168A" type="BinHex"/>
+		<field hash="37330288" type="BinHex"/>
+		<field hash="DA7186B8" type="BinHex"/>
+		<field hash="0B98784E" type="BinHex"/>
+		<field hash="78A2C90D" type="BinHex"/>
+		<field hash="51FE1AFC" type="BinHex"/>
+		<field hash="3F0A9ABD" type="BinHex"/>
+		<field name="fObjectiveHideDistance" type="Float"/>
+		<field hash="0B1C336D" type="BinHex"/>
+		<field hash="CF73C155" type="BinHex"/>
+		<field hash="B78229DC" type="BinHex"/>
+		<field hash="7452DC7A" type="BinHex"/>
+		<field name="uisoundDisplaySound" type="BinHex"/>
+		<field name="uisoundHoldInteractionSound" type="BinHex"/>
+		<field hash="BA08EED2" type="BinHex"/>
+		<field hash="CFE997B9" type="BinHex"/>
+		<object hash="0061B38F">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<field hash="EC43E394" type="BinHex"/>
+		<field hash="2D1AD958" type="BinHex"/>
+		<field hash="6351621B" type="BinHex"/>
+		<field hash="C09AC4BE" type="BinHex"/>
+		<object hash="EE80C1A0">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<field hash="72EF84A3" type="BinHex"/>
+		<field hash="AC618387" type="BinHex"/>
+		<field hash="7FC81BF2" type="BinHex"/>
+		<field hash="491F8DAB" type="BinHex"/>
+		<field hash="45AA7F48" type="BinHex"/>
+		<field hash="B41C65DD" type="BinHex"/>
+		<field hash="BF641A65" type="BinHex"/>
+		<field hash="BCA5A0A2" type="BinHex"/>
+		<field hash="7C75E556" type="BinHex"/>
+		<field hash="05CF2B9C" type="BinHex"/>
+		<field hash="F2A7A968" type="BinHex"/>
+		<field hash="2241643F" type="BinHex"/>
+		<field hash="CBE687DE" type="BinHex"/>
+		<field hash="C5A85AC1" type="BinHex"/>
+		<field hash="C35D378F" type="BinHex"/>
+		<field hash="6FE58E6F" type="BinHex"/>
+		<field hash="3065260D" type="BinHex"/>
+		<field hash="AD4FB150" type="BinHex"/>
+		<field hash="A3D46AB1" type="BinHex"/>
+		<field hash="12C1DCED" type="BinHex"/>
+		<field hash="4525048A" type="BinHex"/>
+		<field hash="CAC0E374" type="BinHex"/>
+		<field hash="168DA99D" type="BinHex"/>
+		<field hash="A770C575" type="BinHex"/>
+		<field hash="6B622563" type="BinHex"/>
+		<field hash="6EC9F326" type="BinHex"/>
+		<field hash="CBA2146B" type="BinHex"/>
+		<field hash="2AF92D4F" type="BinHex"/>
+		<field hash="29389788" type="BinHex"/>
+		<field hash="E9E8D27C" type="BinHex"/>
+		<field hash="B8A36323" type="BinHex"/>
+		<field hash="EC345BC5" type="BinHex"/>
+		<field hash="2B28D246" type="BinHex"/>
+		<field hash="35E42F60" type="BinHex"/>
+		<field hash="5E5E5781" type="BinHex"/>
+		<field hash="61BDB3FF" type="BinHex"/>
+		<field hash="627C0938" type="BinHex"/>
+		<field hash="A2AC4CCC" type="BinHex"/>
+		<field hash="6A4899C7" type="BinHex"/>
+		<field hash="73AADDFA" type="BinHex"/>
+		<field hash="D49E5D83" type="BinHex"/>
+		<field hash="BDE03363" type="BinHex"/>
+		<field hash="178EB21B" type="BinHex"/>
+		<field hash="0D3226A0" type="BinHex"/>
+		<field hash="74329C5A" type="BinHex"/>
+		<field hash="1177E5AC" type="BinHex"/>
+		<field hash="8BEA096E" type="BinHex"/>
+		<field hash="D8393532" type="BinHex"/>
+		<field hash="A95CB568" type="BinHex"/>
+		<field hash="246889CA" type="BinHex"/>
+		<field hash="1543F5EF" type="BinHex"/>
+		<field hash="C0AD24A7" type="BinHex"/>
+		<field hash="64C39BA9" type="BinHex"/>
+		<field hash="8609BEF2" type="BinHex"/>
+		<field hash="BF90C14C" type="BinHex"/>
+		<field hash="84F79BAF" type="BinHex"/>
+		<field hash="2CD9012A" type="BinHex"/>
+		<field hash="44389176" type="BinHex"/>
+		<field hash="BB3FCABA" type="BinHex"/>
+		<field name="fNearScale" type="Float"/>
+		<field name="fNearScaleDistance" type="Float"/>
+		<field name="fFarScale" type="Float"/>
+		<field name="fFarScaleDistance" type="Float"/>
+		<object name="locstridDistanceText">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

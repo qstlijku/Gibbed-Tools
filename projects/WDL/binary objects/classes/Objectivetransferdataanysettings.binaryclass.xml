@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ObjectivetransferdataanysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="B4945DFB" type="BinHex"/>
+	<field hash="73486B0B" type="BinHex"/>
+	<field hash="CC277B21" type="BinHex"/>
+	<field hash="CCDAB15F" type="BinHex"/>
+	<field hash="45DBECFA" type="BinHex"/>
+	<field hash="6FE996A0" type="BinHex"/>
+	<field hash="B5BF5ABD" type="BinHex"/>
+	<field hash="EECD0408" type="BinHex"/>
+	<field hash="699B8620" type="BinHex"/>
+	<field hash="DA18A9C4" type="BinHex"/>
+	<object hash="DADF8182">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="3CFBA4A2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="14BBAE7D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="FC293553">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="C0F12AD8">
+		<field hash="BEA4E141" type="BinHex"/>
+		<field hash="A568F5FA" type="BinHex"/>
+		<field hash="A7A600BC" type="BinHex"/>
+		<field hash="775E9397" type="BinHex"/>
+		<field hash="11D247E2" type="BinHex"/>
+		<field hash="7F2BC2A8" type="BinHex"/>
+		<field hash="F4CE5E2A" type="BinHex"/>
+		<field hash="4A0C596D" type="BinHex"/>
+		<field hash="3DDB37B8" type="BinHex"/>
+		<field hash="0077F792" type="BinHex"/>
+		<field hash="EAD11C98" type="BinHex"/>
+		<field hash="E4CBB8A6" type="BinHex"/>
+		<field name="fAttractStimRadius" type="Float"/>
+		<object hash="F9528B4E"/>
+		<object hash="C799772D">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="7DA67E02">
+			<object hash="56D9D0AF">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="99E42227">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="4F644398">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="B6620E79">
+			<object hash="3DA1977B">
+				<field hash="3DA1977B" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="03788A3F">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="4D91C3A2">
+		<object hash="F9F702F2">
+			<field hash="E035E191" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="E8F9ADB0">
+		<object hash="7F774473">
+			<field hash="14958AD5" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="26F26887"/>
+	<object hash="18BA0431"/>
+	<object hash="B02478FE"/>
+	<object hash="5D7C10C3"/>
+	<object hash="6D636C8E"/>
+</class>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="NewdetectionconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="0E350E53" type="BinHex"/>
+	<field hash="CB2FE966" type="BinHex"/>
+	<field hash="4C3A043E" type="BinHex"/>
+	<object hash="99DDE906">
+		<object hash="9950BD1C">
+			<object hash="5686D656">
+				<field hash="5600CEFE" type="String"/>
+				<field hash="EF67F825" type="BinHex"/>
+				<field name="bPlayer" type="Boolean"/>
+				<field hash="567F021E" type="BinHex"/>
+				<field hash="5A394545" type="BinHex"/>
+				<field hash="BD945FCE" type="BinHex"/>
+				<field name="bAnimal" type="Boolean"/>
+				<field hash="BEBD7ACB" type="BinHex"/>
+				<field hash="2AC5E8C2" type="BinHex"/>
+				<field hash="1501643B" type="BinHex"/>
+				<field name="fRange" type="Float"/>
+				<field hash="51FA1CA6" type="BinHex"/>
+				<field hash="61F43ED2" type="BinHex"/>
+				<field hash="C6505147" type="BinHex"/>
+				<field hash="B66E4671" type="BinHex"/>
+				<field name="selAttachedBone" type="Enum"/>
+				<field hash="FC625F30" type="BinHex"/>
+				<field hash="5767671B" type="BinHex"/>
+				<field hash="05D009F3" type="BinHex"/>
+				<object hash="647DF050">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="4D8FB7E5">
+		<object hash="9950BD1C">
+			<object hash="5686D656">
+				<field hash="5600CEFE" type="String"/>
+				<field hash="EF67F825" type="BinHex"/>
+				<field name="bPlayer" type="Boolean"/>
+				<field hash="567F021E" type="BinHex"/>
+				<field hash="5A394545" type="BinHex"/>
+				<field hash="BD945FCE" type="BinHex"/>
+				<field name="bAnimal" type="Boolean"/>
+				<field hash="BEBD7ACB" type="BinHex"/>
+				<field hash="2AC5E8C2" type="BinHex"/>
+				<field hash="1501643B" type="BinHex"/>
+				<field name="fRange" type="Float"/>
+				<field hash="51FA1CA6" type="BinHex"/>
+				<field hash="61F43ED2" type="BinHex"/>
+				<field hash="C6505147" type="BinHex"/>
+				<field hash="B66E4671" type="BinHex"/>
+				<field name="selAttachedBone" type="Enum"/>
+				<field hash="FC625F30" type="BinHex"/>
+				<field hash="5767671B" type="BinHex"/>
+				<field hash="05D009F3" type="BinHex"/>
+				<object hash="647DF050">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="60723E97">
+		<object hash="9950BD1C">
+			<object hash="5686D656">
+				<field hash="5600CEFE" type="String"/>
+				<field hash="EF67F825" type="BinHex"/>
+				<field name="bPlayer" type="Boolean"/>
+				<field hash="567F021E" type="BinHex"/>
+				<field hash="5A394545" type="BinHex"/>
+				<field hash="BD945FCE" type="BinHex"/>
+				<field name="bAnimal" type="Boolean"/>
+				<field hash="BEBD7ACB" type="BinHex"/>
+				<field hash="2AC5E8C2" type="BinHex"/>
+				<field hash="1501643B" type="BinHex"/>
+				<field name="fRange" type="Float"/>
+				<field hash="51FA1CA6" type="BinHex"/>
+				<field hash="61F43ED2" type="BinHex"/>
+				<field hash="C6505147" type="BinHex"/>
+				<field hash="B66E4671" type="BinHex"/>
+				<field name="selAttachedBone" type="Enum"/>
+				<field hash="FC625F30" type="BinHex"/>
+				<field hash="5767671B" type="BinHex"/>
+				<field hash="05D009F3" type="BinHex"/>
+				<object hash="647DF050">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="5755A7CD">
+		<object hash="9950BD1C">
+			<object hash="5686D656">
+				<field hash="5600CEFE" type="String"/>
+				<field hash="EF67F825" type="BinHex"/>
+				<field name="bPlayer" type="Boolean"/>
+				<field hash="567F021E" type="BinHex"/>
+				<field hash="5A394545" type="BinHex"/>
+				<field hash="BD945FCE" type="BinHex"/>
+				<field name="bAnimal" type="Boolean"/>
+				<field hash="BEBD7ACB" type="BinHex"/>
+				<field hash="2AC5E8C2" type="BinHex"/>
+				<field hash="1501643B" type="BinHex"/>
+				<field name="fRange" type="Float"/>
+				<field hash="51FA1CA6" type="BinHex"/>
+				<field hash="61F43ED2" type="BinHex"/>
+				<field hash="C6505147" type="BinHex"/>
+				<field hash="B66E4671" type="BinHex"/>
+				<field name="selAttachedBone" type="Enum"/>
+				<field hash="FC625F30" type="BinHex"/>
+				<field hash="5767671B" type="BinHex"/>
+				<field hash="05D009F3" type="BinHex"/>
+				<object hash="647DF050">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

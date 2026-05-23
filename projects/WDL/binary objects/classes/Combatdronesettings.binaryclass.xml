@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CombatdronesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="CF9DAC38" type="BinHex"/>
+	<field hash="59A9C0C8" type="BinHex"/>
+	<field name="fCombatRange" type="Float"/>
+	<field hash="169CB0FC" type="BinHex"/>
+	<field hash="77047AE4" type="BinHex"/>
+	<field hash="B6B162CC" type="BinHex"/>
+	<field hash="2E596AEC" type="BinHex"/>
+	<field hash="347A779A" type="BinHex"/>
+	<field hash="582CA112" type="BinHex"/>
+	<field hash="7800C634" type="BinHex"/>
+	<field hash="A44ED5EB" type="BinHex"/>
+	<field hash="31B35B67" type="BinHex"/>
+	<field hash="BA393937" type="BinHex"/>
+	<field hash="E36447F1" type="BinHex"/>
+	<field hash="7E3A1CAA" type="BinHex"/>
+	<field hash="446BBF50" type="BinHex"/>
+	<field hash="84B64865" type="BinHex"/>
+	<field hash="3B665FBD" type="BinHex"/>
+	<field hash="076B60E4" type="BinHex"/>
+	<field hash="F4FA8DD9" type="BinHex"/>
+	<field hash="1B587CD1" type="BinHex"/>
+	<field hash="68B01FEA" type="BinHex"/>
+	<field hash="6AFFE120" type="BinHex"/>
+	<field hash="70D343F5" type="BinHex"/>
+	<field hash="30AA1803" type="BinHex"/>
+	<field hash="A4F2BDB3" type="BinHex"/>
+	<field hash="84F795F5" type="BinHex"/>
+	<field hash="9224F381" type="BinHex"/>
+	<field hash="BD4499AB" type="BinHex"/>
+	<field hash="DF4828CE" type="BinHex"/>
+	<field hash="CF942A86" type="BinHex"/>
+	<field hash="9EC8E80A" type="BinHex"/>
+	<field hash="E6608AB1" type="BinHex"/>
+	<field hash="39D1D56D" type="String"/>
+	<field hash="7AF71E5C" type="BinHex"/>
+	<field hash="A35BB224" type="BinHex"/>
+	<field hash="13C9FF35" type="String"/>
+	<field hash="50EF3404" type="BinHex"/>
+	<field hash="0BB21ADF" type="BinHex"/>
+	<field hash="2B5EA58A" type="String"/>
+	<field hash="F1C77B2F" type="BinHex"/>
+	<field hash="BF40ACCE" type="BinHex"/>
+	<field hash="27CD53E0" type="String"/>
+	<field hash="DEAB268B" type="BinHex"/>
+	<field hash="5DFF9369" type="BinHex"/>
+	<field hash="D2CDAEC7" type="BinHex"/>
+	<object hash="A2F4B5EB">
+		<field hash="03B15F32" type="BinHex"/>
+		<field hash="3FBC606B" type="BinHex"/>
+		<field hash="5034C1A3" type="BinHex"/>
+		<field hash="6C39FEFA" type="BinHex"/>
+		<field hash="B063CD1D" type="BinHex"/>
+		<field name="fBurstDelayMin" type="Float"/>
+		<field name="fBurstDelayMax" type="Float"/>
+		<field hash="FF6DF290" type="BinHex"/>
+		<field hash="A1BB2881" type="BinHex"/>
+		<field hash="C21D27DF" type="String"/>
+		<field hash="6E22C7DC" type="BinHex"/>
+		<field hash="56ACCAAB" type="BinHex"/>
+		<field name="bIsValid" type="Boolean"/>
+	</object>
+	<object name="Grenade">
+		<field hash="A036E525" type="BinHex"/>
+		<field hash="BF86628B" type="BinHex"/>
+		<field hash="6B595B34" type="BinHex"/>
+		<field hash="9A3372A0" type="BinHex"/>
+		<field hash="13E8C6E7" type="BinHex"/>
+		<field hash="C8790734" type="BinHex"/>
+		<field hash="3723A205" type="BinHex"/>
+		<field hash="8AE851AC" type="BinHex"/>
+		<field hash="41930920" type="BinHex"/>
+		<field hash="BFA1F9DC" type="BinHex"/>
+		<field hash="8E30229F" type="BinHex"/>
+		<field hash="8542ABFF" type="BinHex"/>
+		<object hash="1B7A7E75">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="1183480D">
+		<field hash="160DBF3D" type="BinHex"/>
+		<field name="fDelayMax" type="Float"/>
+		<field hash="B9456FE6" type="BinHex"/>
+		<field hash="D1E4BF9D" type="BinHex"/>
+		<field hash="EE579B93" type="BinHex"/>
+		<field hash="5317D30D" type="BinHex"/>
+		<field hash="6579A0D1" type="BinHex"/>
+		<field hash="59749F88" type="BinHex"/>
+		<field hash="88327E40" type="BinHex"/>
+		<field hash="CCE3645B" type="BinHex"/>
+		<field hash="1B39FB00" type="BinHex"/>
+		<field hash="D4D72F04" type="BinHex"/>
+	</object>
+	<object hash="2551BEB7">
+		<field hash="03B15F32" type="BinHex"/>
+		<field hash="3FBC606B" type="BinHex"/>
+		<field hash="5034C1A3" type="BinHex"/>
+		<field hash="6C39FEFA" type="BinHex"/>
+		<field hash="B063CD1D" type="BinHex"/>
+		<field name="fBurstDelayMin" type="Float"/>
+		<field name="fBurstDelayMax" type="Float"/>
+		<field hash="FF6DF290" type="BinHex"/>
+		<field hash="A1BB2881" type="BinHex"/>
+		<field hash="C21D27DF" type="String"/>
+		<field hash="6E22C7DC" type="BinHex"/>
+		<field hash="56ACCAAB" type="BinHex"/>
+		<field name="bIsValid" type="Boolean"/>
+	</object>
+	<object hash="953C90F7">
+		<field name="fLowHealthPercent" type="Float"/>
+		<field hash="186CE05A" type="BinHex"/>
+		<field hash="7F93E883" type="BinHex"/>
+		<field hash="AA1A2D10" type="BinHex"/>
+		<field hash="3E7A46DD" type="BinHex"/>
+		<field hash="97604B9E" type="BinHex"/>
+	</object>
+	<object hash="2AFC8E6A">
+		<field name="fMin" type="Float"/>
+		<field name="fMax" type="Float"/>
+	</object>
+</class>

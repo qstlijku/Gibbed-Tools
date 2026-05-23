@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PhotocameramenucategoriesParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="C1D6DBC8" type="BinHex"/>
+	<object hash="5D87F641">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="451F87E0">
+		<object name="Item">
+			<field hash="1AFCAE56" type="BinHex"/>
+		</object>
+	</object>
+</class>

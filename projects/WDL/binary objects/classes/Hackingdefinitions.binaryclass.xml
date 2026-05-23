@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackingdefinitionsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="F04D4C91" type="BinHex"/>
+	<object name="Slots">
+		<object hash="FF612A8D">
+			<field hash="4D55D5F9" type="BinHex"/>
+			<object hash="58C09F1E">
+				<object hash="A21E4A6D">
+					<field name="selCategory" type="Enum"/>
+					<field hash="2710B8C4" type="BinHex"/>
+					<field name="fCooldownTime" type="Float"/>
+					<field hash="AA6467FE" type="BinHex"/>
+					<object hash="28F98774">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+					<object name="AvailabilityRule">
+						<field hash="94C08F9B" type="BinHex"/>
+						<field hash="1DF2E0ED" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

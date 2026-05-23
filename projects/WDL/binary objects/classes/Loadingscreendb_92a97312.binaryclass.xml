@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Loadingscreendb_92a97312Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="F84C3300" type="BinHex"/>
+	<object hash="FC2FDBC0">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="SinglePlayer">
+		<object hash="4777F50D">
+			<field hash="485A7ED0" type="BinHex"/>
+			<object name="Backgrounds"/>
+			<object name="Videos">
+				<object name="videosVideo">
+					<field name="videosVideo" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Tips">
+				<object hash="B05A2FC6">
+					<field hash="9DCBE503" type="BinHex"/>
+					<object name="locstridTip">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+					<object name="Available">
+						<field hash="94C08F9B" type="BinHex"/>
+						<field hash="1DF2E0ED" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="1368310C"/>
+	</object>
+	<object hash="12FB0C96">
+		<object hash="4777F50D">
+			<field hash="485A7ED0" type="BinHex"/>
+			<object name="Backgrounds"/>
+			<object name="Videos">
+				<object name="videosVideo">
+					<field name="videosVideo" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Tips">
+				<object hash="B05A2FC6">
+					<field hash="9DCBE503" type="BinHex"/>
+					<object name="locstridTip">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+					<object name="Available">
+						<field hash="94C08F9B" type="BinHex"/>
+						<field hash="1DF2E0ED" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="1368310C">
+			<object name="Entry">
+				<field hash="485A7ED0" type="BinHex"/>
+				<field hash="E935A497" type="BinHex"/>
+				<field hash="6916815A" type="BinHex"/>
+				<object name="Backgrounds"/>
+				<object name="Videos">
+					<object name="videosVideo">
+						<field name="videosVideo" type="BinHex"/>
+					</object>
+				</object>
+				<object name="Tips"/>
+			</object>
+		</object>
+	</object>
+	<object name="FastTravel">
+		<object hash="4777F50D">
+			<field hash="485A7ED0" type="BinHex"/>
+			<object name="Backgrounds"/>
+			<object name="Videos">
+				<object name="videosVideo">
+					<field name="videosVideo" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Tips">
+				<object hash="B05A2FC6">
+					<field hash="9DCBE503" type="BinHex"/>
+					<object name="locstridTip">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+					<object name="Available">
+						<field hash="94C08F9B" type="BinHex"/>
+						<field hash="1DF2E0ED" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="1368310C"/>
+	</object>
+	<object hash="476754F2">
+		<object hash="4777F50D">
+			<field hash="485A7ED0" type="BinHex"/>
+			<object name="Backgrounds"/>
+			<object name="Videos">
+				<object name="videosVideo">
+					<field name="videosVideo" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Tips">
+				<object hash="B05A2FC6">
+					<field hash="9DCBE503" type="BinHex"/>
+					<object name="locstridTip">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+					<object name="Available">
+						<field hash="94C08F9B" type="BinHex"/>
+						<field hash="1DF2E0ED" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="1368310C"/>
+	</object>
+	<object hash="4FD9E07B">
+		<object hash="4777F50D">
+			<field hash="485A7ED0" type="BinHex"/>
+			<object name="Backgrounds"/>
+			<object name="Videos"/>
+			<object name="Tips"/>
+		</object>
+		<object hash="1368310C">
+			<object name="Entry">
+				<field hash="485A7ED0" type="BinHex"/>
+				<field hash="E935A497" type="String"/>
+				<field hash="6916815A" type="BinHex"/>
+				<object name="Backgrounds"/>
+				<object name="Videos">
+					<object name="videosVideo">
+						<field name="videosVideo" type="BinHex"/>
+					</object>
+				</object>
+				<object name="Tips">
+					<object hash="B05A2FC6">
+						<field hash="9DCBE503" type="BinHex"/>
+						<object name="locstridTip">
+							<field name="LocalizationId" type="UInt64"/>
+						</object>
+						<object name="Available">
+							<field hash="94C08F9B" type="BinHex"/>
+							<field hash="1DF2E0ED" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="1B845B09">
+		<object hash="4777F50D">
+			<field hash="485A7ED0" type="BinHex"/>
+			<object name="Backgrounds"/>
+			<object name="Videos">
+				<object name="videosVideo">
+					<field name="videosVideo" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Tips">
+				<object hash="B05A2FC6">
+					<field hash="9DCBE503" type="BinHex"/>
+					<object name="locstridTip">
+						<field name="LocalizationId" type="UInt64"/>
+					</object>
+					<object name="Available">
+						<field hash="94C08F9B" type="BinHex"/>
+						<field hash="1DF2E0ED" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="1368310C">
+			<object name="Entry">
+				<field hash="485A7ED0" type="BinHex"/>
+				<field hash="E935A497" type="String"/>
+				<field hash="6916815A" type="BinHex"/>
+				<object name="Backgrounds"/>
+				<object name="Videos">
+					<object name="videosVideo">
+						<field name="videosVideo" type="BinHex"/>
+					</object>
+				</object>
+				<object name="Tips"/>
+			</object>
+		</object>
+	</object>
+</class>

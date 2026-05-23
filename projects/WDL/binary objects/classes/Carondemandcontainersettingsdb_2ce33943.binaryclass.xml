@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Carondemandcontainersettingsdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fCarDemandCooldown" type="Float"/>
+	<field name="OnReceivedBarkId" type="BinHex"/>
+	<field name="fOnReceivedBarkDelay" type="Float"/>
+	<field name="OnPurchasedBarkId" type="BinHex"/>
+	<field name="fOnPurchasedBarkDelay" type="Float"/>
+	<field name="OnDeliveredBarkId" type="BinHex"/>
+	<field name="fOnDeliveredBarkDelay" type="Float"/>
+	<field name="fMinDistToOtherPlayer" type="Float"/>
+	<field name="vec3CarMarkerOffset" type="Vector3"/>
+	<field name="vec2EnticerSearchMinMaxDist" type="Vector2"/>
+	<field name="mapicondescCarOnDemandIcon" type="BinHex"/>
+	<field name="selBarksPriority" type="Enum"/>
+</class>

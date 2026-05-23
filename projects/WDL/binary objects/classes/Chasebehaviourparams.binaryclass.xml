@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChasebehaviourparamsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bAgentsTryArrest" type="Boolean"/>
+	<field name="bIsSeatedCombatAllowed" type="Boolean"/>
+	<field name="fMaxTargetSpeedForShootingWhileDrivingKPH" type="Float"/>
+	<field name="fTyreShootoutTimeBeforeEnabled" type="Float"/>
+	<field name="fTyreShootoutHitChanceMax" type="Float"/>
+	<field name="fTyreShootoutHitChanceInterpolateTime" type="Float"/>
+	<field name="fTyreShootoutCooldown" type="Float"/>
+	<field name="maneuverdbManeuverDatabase" type="BinHex"/>
+	<field name="chaseperfcfgPerformanceConfig" type="BinHex"/>
+	<field name="fCombatRange" type="Float"/>
+	<field name="fChaseRange" type="Float"/>
+	<object name="PassengerCoordination">
+		<object name="PlayerInVehicle">
+			<field name="uiDesiredOnFootNPCs" type="UInt32"/>
+		</object>
+		<object name="PlayerOnFoot">
+			<field name="uiDesiredOnFootNPCs" type="UInt32"/>
+			<field name="uiDesiredDriverNPCs" type="UInt32"/>
+			<field name="fOnFootCombatDurationForFullDriverOffload" type="Float"/>
+		</object>
+	</object>
+</class>

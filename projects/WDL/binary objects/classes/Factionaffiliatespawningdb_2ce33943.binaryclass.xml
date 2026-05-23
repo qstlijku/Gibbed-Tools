@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Factionaffiliatespawningdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="3F19617E">
+		<object hash="A30EE745">
+			<field name="selAffiliation" type="Enum"/>
+			<field hash="85A32091" type="BinHex"/>
+			<field name="humanconfigHumanConfig" type="BinHex"/>
+		</object>
+	</object>
+</class>

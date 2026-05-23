@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Citylocationatlasconversion_9497a5d0Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Filler">
+		<object hash="F39BEEDB">
+			<field hash="5C43F17E" type="String"/>
+		</object>
+	</object>
+	<object hash="AAFAC1A8">
+		<object hash="F39BEEDB">
+			<field hash="5C43F17E" type="String"/>
+		</object>
+	</object>
+	<object name="Small">
+		<object hash="F39BEEDB">
+			<field hash="5C43F17E" type="String"/>
+		</object>
+	</object>
+	<object name="Medium">
+		<object hash="F39BEEDB">
+			<field hash="5C43F17E" type="String"/>
+		</object>
+	</object>
+	<object name="Large">
+		<object hash="F39BEEDB">
+			<field hash="5C43F17E" type="String"/>
+		</object>
+	</object>
+</class>

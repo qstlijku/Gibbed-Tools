@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="TireBlowoutBhv">
+		<field name="bAmplifyDamage" type="Boolean"/>
+		<field name="fEnginePowerBoostFactor" type="Float"/>
+		<object name="Swerve">
+			<field name="fMinSpeedToSwerve_kmh" type="Float"/>
+			<object name="curveGripRatioOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveCenterOfMassZOffsetOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveBreakRatioOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveAccelerationRatioOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveSteerTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object name="curveSteeringAngleDegOverTime">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="SpintOut">
+			<field name="fMinSpeedToSpinOut_kmh" type="Float"/>
+			<field name="fTireGripRatio" type="Float"/>
+			<field name="fCenterMassZOffset" type="Float"/>
+		</object>
+		<object name="DrivingWithDeflatedTire">
+			<field name="fImmobilizedDriveTime" type="Float"/>
+			<field name="fSlowSpeedDriveTime" type="Float"/>
+			<field name="fSlowSpeedKmh" type="Float"/>
+		</object>
+	</object>
+	<object name="OutOfControl">
+		<field name="vehicleoutofcontrolconfigConfig" type="BinHex"/>
+	</object>
+	<object name="VehicleHacked">
+		<field name="bEngineOverheatPlayerHandBrakeAllowed" type="Boolean"/>
+		<field name="fEngineOverHeatDamagePercentage" type="Float"/>
+		<field name="bWheelLockPlayerHandBrakeAllowed" type="Boolean"/>
+		<field name="bLockBrakesPlayerHandBrakeAllowed" type="Boolean"/>
+		<field name="fLockBrakesHackMaxSpeedToGoBackward" type="Float"/>
+		<field name="fHackedDamageModifier" type="Float"/>
+		<field name="fHackedPlayerDamageModifier" type="Float"/>
+		<field name="fFallHardVerticalSpeed" type="Float"/>
+		<field name="selFallHardStimType" type="Enum"/>
+		<field name="fFallHardStimRadius" type="Float"/>
+		<field name="NitroBatteryConsumption" type="BinHex"/>
+		<field name="fNitroBatteryTimerInterval" type="Float"/>
+		<field name="fAlarmHackDuration" type="Float"/>
+		<field name="fCrashMagnetMaxDuration" type="Float"/>
+		<field name="fCrashMagnetMaxDistance" type="Float"/>
+		<field name="fCrashMagnetMaxAngle" type="Float"/>
+		<field name="fCrashMagnetMinSpeed" type="Float"/>
+		<field name="fDisableCrashMagnetOnCollisionSpeed" type="Float"/>
+		<field name="fCrashMagnetWheelLockMinTurnCos" type="Float"/>
+		<field name="fWheelLockHackMaxSpeedToGoBackwardDuringBrakesHack" type="Float"/>
+		<object name="curveEngineOverheatSwerve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveEngineOverheatAcceleration">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveEngineOverheatHandBrake">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveEngineOverheatPlayerSteerRatio">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveEngineOverheatPlayerAccelBrakeRatio">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveWheelLockSwerve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveWheelLockAcceleration">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveWheelLockHandBrake">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveWheelLockPlayerSteerRatio">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveWheelLockPlayerAccelBrakeRatio">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveLockBrakesSwerve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveLockBrakesAcceleration">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveLockBrakesHandBrake">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveLockBrakesPlayerSteerRatio">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveLockBrakesPlayerAccelBrakeRatio">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="AmplifiedDamage">
+		<object name="curveBollardAmplifiedDamageVSWeight">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="HardCollision">
+		<field name="fCooldown" type="Float"/>
+		<field name="fMinRealtiveCollisionSpeedInKmh" type="Float"/>
+		<field name="fSpeedLostRatio" type="Float"/>
+	</object>
+</class>

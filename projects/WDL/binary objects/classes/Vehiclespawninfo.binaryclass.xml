@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclespawninfoParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="E6655990" type="String"/>
+	<field name="archArchetype" type="BinHex"/>
+	<field name="bIsTraffic" type="Boolean"/>
+	<field hash="23DCA39A" type="BinHex"/>
+	<field name="bIsParking" type="Boolean"/>
+	<field name="bIsParkingEnticer" type="Boolean"/>
+	<field name="bIsBoat" type="Boolean"/>
+	<field hash="CC604703" type="BinHex"/>
+	<field name="selRoadNetworkRailVehicleType" type="Enum"/>
+	<field name="selVehicleType" type="Enum"/>
+	<field name="fMaxInitialDeform" type="Float"/>
+	<field name="fMaxInitialScratches" type="Float"/>
+	<field name="bOverrideDirtValues" type="Boolean"/>
+	<field hash="CDCBF296" type="BinHex"/>
+	<field hash="5600CEFE" type="String"/>
+	<object name="TrafficSpawningContexts">
+		<object name="SpawningContext">
+			<field name="entcontContext" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Parking">
+		<field name="fBaseParkingAngle" type="Float"/>
+		<field name="fRandomParkingAngle" type="Float"/>
+		<field name="fRandomParkingOffsetLow" type="Float"/>
+		<field name="fRandomParkingOffsetHigh" type="Float"/>
+	</object>
+	<object name="Spawning">
+		<field name="fCoolDown" type="Float"/>
+	</object>
+	<object name="Passenger">
+		<object name="PassengerSpec">
+			<field hash="E4C8C438" type="BinHex"/>
+			<field hash="971E88CF" type="BinHex"/>
+		</object>
+		<object name="PeopleSpawnInfo">
+			<field hash="6BC07341" type="BinHex"/>
+			<field hash="BE4849E0" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="CEF4E738">
+		<field hash="39585085" type="BinHex"/>
+		<object hash="D7D008D9">
+			<object name="Flags">
+				<field hash="DB36A3DD" type="BinHex"/>
+				<field name="bBike" type="Boolean"/>
+				<field name="bTruck" type="Boolean"/>
+				<field name="bBus" type="Boolean"/>
+				<field name="bPolice" type="Boolean"/>
+				<field name="bFire" type="Boolean"/>
+				<field name="bAmbulance" type="Boolean"/>
+				<field name="bTaxi" type="Boolean"/>
+			</object>
+		</object>
+	</object>
+</class>

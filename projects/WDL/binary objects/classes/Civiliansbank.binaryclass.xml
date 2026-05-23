@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CiviliansbankParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field name="peopleinfoSpawnInfo" type="BinHex"/>
+			<field name="selBudgetCategory" type="Enum"/>
+			<field name="uiCoefficient" type="UInt32"/>
+		</object>
+	</object>
+	<object hash="55C8C5FE">
+		<object name="Item">
+			<field hash="D0DDE0E4" type="BinHex"/>
+			<field name="peopleinfoSpawnInfo" type="BinHex"/>
+		</object>
+	</object>
+</class>

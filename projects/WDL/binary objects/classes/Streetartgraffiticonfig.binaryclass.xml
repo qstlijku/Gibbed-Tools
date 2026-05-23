@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="StreetartgraffiticonfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="D99ECAC8" type="String"/>
+	<field hash="10246140" type="String"/>
+	<field hash="2494EDD5" type="String"/>
+	<field hash="27F46520" type="BinHex"/>
+	<field hash="CF560511" type="String"/>
+	<field hash="8C70CE20" type="BinHex"/>
+	<field hash="831F5814" type="String"/>
+	<field hash="7EB662B7" type="BinHex"/>
+</class>

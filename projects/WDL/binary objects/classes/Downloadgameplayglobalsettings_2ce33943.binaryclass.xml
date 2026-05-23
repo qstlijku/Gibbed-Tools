@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Downloadgameplayglobalsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fUiLimitRadius" type="Float"/>
+	<field hash="74A7F72F" type="BinHex"/>
+	<field hash="8522248E" type="BinHex"/>
+	<field hash="0E2A009D" type="BinHex"/>
+	<field hash="27A78250" type="BinHex"/>
+	<field hash="CDE9B733" type="BinHex"/>
+	<field hash="3AB0653E" type="BinHex"/>
+	<object name="locstridDownloadDisplayString">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="D45D04DC">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="6ED4B2F3">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="6481B927">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="22D29E30">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="E32213C4">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="3331CBC5">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="1E6D49C1">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

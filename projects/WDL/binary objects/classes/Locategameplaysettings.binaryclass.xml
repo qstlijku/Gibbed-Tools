@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="LocategameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="56A56AE7" type="BinHex"/>
+	<field name="bIsLocatedOnStart" type="Boolean"/>
+	<field name="possyselementMarker" type="BinHex"/>
+	<field name="vecMarkerOffset" type="BinHex"/>
+	<field hash="5172A733" type="BinHex"/>
+	<field hash="3D2D4C42" type="BinHex"/>
+	<field hash="8BCC7361" type="BinHex"/>
+	<object name="locstridOverrideText">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridLocateObjectiveText">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

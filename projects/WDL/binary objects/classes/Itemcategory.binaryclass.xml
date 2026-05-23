@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemcategoryParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bEnable" type="Boolean"/>
+	<field name="sFrameLabel" type="String"/>
+	<field hash="8A187A75" type="BinHex"/>
+	<field name="bIsAShopCategory" type="Boolean"/>
+	<field name="selShopCategoryType" type="BinHex"/>
+	<field name="uCategoryPriority" type="UInt32"/>
+	<field hash="E5C45E25" type="BinHex"/>
+	<object name="locstridItemCategoryNameId">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridItemCategoryDescriptionId">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="62021480">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

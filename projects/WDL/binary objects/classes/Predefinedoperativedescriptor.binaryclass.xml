@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PredefinedoperativedescriptorParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="06AB7B10">
+		<field hash="854AA40F" type="BinHex"/>
+		<field hash="F93CF3D4" type="BinHex"/>
+		<field hash="884A6230" type="BinHex"/>
+		<field hash="8A6FEBAB" type="BinHex"/>
+		<field hash="E571FB3E" type="BinHex"/>
+		<field hash="80879EFD" type="BinHex"/>
+		<field hash="19110FAC" type="BinHex"/>
+		<field hash="8F3B5855" type="BinHex"/>
+		<field hash="F8814F95" type="BinHex"/>
+		<field hash="349DD145" type="String"/>
+		<field hash="0FBA2AD1" type="BinHex"/>
+		<field hash="B05286E4" type="BinHex"/>
+		<field hash="D03A2FA6" type="BinHex"/>
+		<field name="selItemULCIconType" type="Enum"/>
+		<object hash="A4000C90">
+			<field hash="7EB2A23E" type="BinHex"/>
+		</object>
+		<object hash="75E2D008">
+			<object hash="04170D84">
+				<object name="TagCategorySelectionArray"/>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="C82E429D">
+			<object hash="04170D84">
+				<object name="TagCategorySelectionArray"/>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

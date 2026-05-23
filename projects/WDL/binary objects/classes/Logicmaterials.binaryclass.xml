@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="LogicmaterialsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="disId" type="BinHex"/>
+	<field name="physmatPhysicMaterial" type="BinHex"/>
+	<field name="iPiercingResistance" type="Int32"/>
+	<field name="fTransparency" type="Float"/>
+	<field name="wfmWheelFxMaterial" type="BinHex"/>
+	<field name="clrDisplayColor" type="BinHex"/>
+	<field name="bSoundOccluder" type="Boolean"/>
+	<field name="bBlocksExplosions" type="Boolean"/>
+	<field hash="0989CD07" type="String"/>
+	<field hash="E3D7AD23" type="BinHex"/>
+	<object name="sndswvlSoundSwitchValue">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object name="sndswvlWallMaterialSoundSwitchValue">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object name="curveCameraShakeStrength">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRumbleIntensityCurve">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="DirtAccumulator">
+		<field name="fDustAccumulatorFactor" type="Float"/>
+		<field name="fDirtAccMinSpeed" type="Float"/>
+		<field name="fDustBurnoutFactor" type="Float"/>
+		<field name="fMudBurnoutFactor" type="Float"/>
+		<field name="fMudAccumulatorFactor" type="Float"/>
+	</object>
+</class>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DroneconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="PGTConfig">
+		<field hash="64B6E507" type="BinHex"/>
+	</object>
+	<object name="Properties">
+		<field name="bIsBuddyAI" type="Boolean"/>
+		<field name="buddyaisettingsBuddyAISettings" type="BinHex"/>
+		<field name="bIsPlayerAlly" type="Boolean"/>
+		<field name="bCanBeKilledByPlayer" type="Boolean"/>
+		<field name="selMindSet" type="Enum"/>
+		<field hash="3830264B" type="BinHex"/>
+		<field name="bForceRespawnAfterCheckpoint" type="Boolean"/>
+		<field name="stimtableStimEffectTable" type="BinHex"/>
+		<field name="navigationconfigNavigationConfig" type="BinHex"/>
+		<field name="fleebehaviordescriptorFleeConfig" type="BinHex"/>
+		<field name="rewardconfigRewardConfig" type="BinHex"/>
+		<field hash="BC280219" type="BinHex"/>
+		<field hash="A1295865" type="String"/>
+		<field hash="2A0E45E1" type="BinHex"/>
+		<field name="fInitialHealth" type="Float"/>
+		<field name="fScanSelectDistance" type="Float"/>
+		<field name="fScanSelectRadius" type="Float"/>
+		<field name="fScanApproachDistance" type="Float"/>
+		<field name="fStoppingPredictionTime" type="Float"/>
+		<field hash="358B7A58" type="BinHex"/>
+		<field hash="68D9E06B" type="BinHex"/>
+		<field name="vecTagOffset" type="BinHex"/>
+		<field hash="A2E5E788" type="BinHex"/>
+		<field name="accuracyconfigAccuracyConfig" type="BinHex"/>
+		<field hash="85311B71" type="BinHex"/>
+		<field name="selAffiliation" type="Enum"/>
+		<field name="detectionlevelsettingsDetectionLevelSettings" type="BinHex"/>
+		<field hash="142A114A" type="BinHex"/>
+		<field name="bOverrideProfilerSettings" type="Boolean"/>
+		<field hash="928FEFC5" type="BinHex"/>
+		<field hash="CBD4027D" type="BinHex"/>
+		<field hash="3CA7721D" type="BinHex"/>
+		<field hash="1FFDC184" type="BinHex"/>
+		<field hash="4E186EF1" type="BinHex"/>
+		<field hash="27627E2B" type="BinHex"/>
+		<field hash="6FA1AE48" type="BinHex"/>
+		<field hash="0ACE458E" type="BinHex"/>
+		<field hash="B6B9A03B" type="BinHex"/>
+		<field hash="EF86B115" type="BinHex"/>
+		<field hash="07F119EC" type="BinHex"/>
+		<field hash="A26AF625" type="BinHex"/>
+		<field hash="F04E36F0" type="BinHex"/>
+		<field hash="4BF06FC6" type="BinHex"/>
+		<field hash="BDD75B53" type="BinHex"/>
+		<field hash="824A42E3" type="BinHex"/>
+		<field hash="BF8E06A5" type="BinHex"/>
+		<field hash="A14E5203" type="BinHex"/>
+		<field hash="52C44340" type="BinHex"/>
+		<field hash="2CE10DDA" type="BinHex"/>
+		<field hash="DE7ACBC8" type="BinHex"/>
+		<field hash="C94E27E4" type="BinHex"/>
+		<field hash="8A5CD965" type="BinHex"/>
+		<field hash="42631EF0" type="BinHex"/>
+		<field hash="0F8301CC" type="BinHex"/>
+		<field hash="A8A6B1A9" type="BinHex"/>
+		<field hash="CEF658E9" type="BinHex"/>
+		<object name="AIAgentConfig">
+			<field name="selSubcategory" type="Enum"/>
+			<field hash="95CED8F1" type="BinHex"/>
+			<field hash="A51CF583" type="BinHex"/>
+			<field hash="7BA77162" type="BinHex"/>
+			<field hash="A8E85511" type="BinHex"/>
+			<field hash="79025C1E" type="BinHex"/>
+			<field hash="9E66B082" type="BinHex"/>
+			<field hash="806E5806" type="BinHex"/>
+			<field hash="4288D9B2" type="String"/>
+			<field hash="6629F68D" type="BinHex"/>
+			<object name="TagInfo">
+				<field name="selTagIndicatorCategory" type="Enum"/>
+				<field name="selTagIndicatorDefense" type="Enum"/>
+				<field name="selTagIndicatorBehavior" type="Enum"/>
+			</object>
+		</object>
+		<object name="ProximitySettings">
+			<field hash="55B55F6E" type="BinHex"/>
+			<field hash="511D50E4" type="BinHex"/>
+			<field hash="EE9DFEB2" type="BinHex"/>
+			<field hash="72FB8F51" type="BinHex"/>
+		</object>
+		<object name="SpawnSettings">
+			<field hash="80535053" type="BinHex"/>
+			<field hash="DE884A76" type="BinHex"/>
+			<field hash="0DADEA1A" type="BinHex"/>
+			<field hash="AA09DEC6" type="BinHex"/>
+			<field hash="4954601C" type="BinHex"/>
+			<field hash="3221A751" type="BinHex"/>
+			<field name="fUnspawnDistance" type="Float"/>
+		</object>
+		<object hash="AEDDA51D">
+			<field hash="84BBB57E" type="BinHex"/>
+			<field hash="16A57356" type="BinHex"/>
+		</object>
+		<object hash="9A541EB0">
+			<field hash="1907985C" type="BinHex"/>
+			<field hash="D5BF85EE" type="BinHex"/>
+		</object>
+		<object name="PatrolSettings">
+			<field hash="B3166C1B" type="BinHex"/>
+		</object>
+		<object hash="9A32B1F8">
+			<field hash="C83E1601" type="BinHex"/>
+		</object>
+		<object hash="F7773226">
+			<field name="fDistance" type="Float"/>
+			<field name="fHeight" type="Float"/>
+			<field hash="24CC6024" type="BinHex"/>
+			<field hash="41058F95" type="BinHex"/>
+			<field hash="8826CBD3" type="BinHex"/>
+		</object>
+		<object hash="0C147285">
+			<field hash="23F8FE6C" type="String"/>
+			<field hash="60DE355D" type="BinHex"/>
+			<field hash="A24AC9CC" type="String"/>
+			<field hash="ED6892A4" type="BinHex"/>
+			<field hash="A9B95BF2" type="BinHex"/>
+			<field hash="F440D805" type="BinHex"/>
+		</object>
+		<object hash="A58B9116">
+			<field hash="69F7897F" type="BinHex"/>
+			<field hash="0CFD9794" type="BinHex"/>
+			<field hash="22AC372C" type="BinHex"/>
+		</object>
+		<object hash="A2D46794">
+			<field hash="49DE7811" type="BinHex"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PlasmamadtemplatedbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="E942AD8B" type="String"/>
+	<field name="fileAnimationPath" type="String"/>
+	<field hash="6E0F58DD" type="BinHex"/>
+	<field hash="C3FC89BF" type="String"/>
+	<field hash="C09C014A" type="BinHex"/>
+	<field hash="765307C2" type="String"/>
+	<field hash="39715CAA" type="BinHex"/>
+	<field hash="EBA806F3" type="BinHex"/>
+	<object hash="512860DC">
+		<object name="Resource">
+			<field hash="D0B33F4B" type="String"/>
+			<field hash="5B9422CF" type="BinHex"/>
+			<field hash="1B7398F2" type="BinHex"/>
+			<field hash="2F46C789" type="BinHex"/>
+			<field hash="D758B18A" type="BinHex"/>
+			<field hash="D0F20F0F" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="9435A01D">
+		<object hash="5EF1E9DC">
+			<field hash="69948821" type="BinHex"/>
+			<field hash="52FABE29" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="6767B735">
+		<object hash="C3A8F4B7">
+			<field hash="C3A8F4B7" type="BinHex"/>
+		</object>
+	</object>
+</class>

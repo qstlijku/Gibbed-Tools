@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Plasmaanimationgesturelistdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="5630C54C">
+		<object name="Actions">
+			<field name="Actions" type="String"/>
+		</object>
+	</object>
+	<object hash="3B5FD162">
+		<object name="Actions">
+			<field name="Actions" type="String"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RaidwipedronesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="F7ED5D46" type="BinHex"/>
+	<field hash="52427EDC" type="BinHex"/>
+	<field hash="897951E1" type="BinHex"/>
+	<field hash="3A522890" type="BinHex"/>
+	<field hash="B9ACFE3C" type="BinHex"/>
+	<field hash="5C75FA43" type="BinHex"/>
+	<field hash="BAC2658F" type="BinHex"/>
+	<field hash="059607EF" type="BinHex"/>
+	<field hash="4C161BCB" type="BinHex"/>
+	<object name="Beam">
+		<field hash="89306252" type="String"/>
+		<field hash="3F72EE40" type="BinHex"/>
+		<field hash="D0D76CCF" type="String"/>
+		<field hash="6695E0DD" type="BinHex"/>
+		<field hash="45AA589B" type="BinHex"/>
+		<field hash="F6D7F416" type="BinHex"/>
+		<field hash="B48F73D9" type="BinHex"/>
+		<field hash="75789715" type="BinHex"/>
+		<field hash="1EEEC4EC" type="BinHex"/>
+		<field hash="AFFD84EE" type="BinHex"/>
+		<field hash="4D46F87B" type="String"/>
+		<field hash="D4E39621" type="BinHex"/>
+		<field hash="81AA3F3D" type="String"/>
+		<field hash="180F5167" type="BinHex"/>
+		<field hash="843D84F7" type="BinHex"/>
+		<field hash="25123F57" type="BinHex"/>
+		<field hash="8688EFE2" type="BinHex"/>
+	</object>
+</class>

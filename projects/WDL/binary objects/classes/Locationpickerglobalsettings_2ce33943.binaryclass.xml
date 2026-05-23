@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Locationpickerglobalsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Default">
+		<field hash="91FF3360" type="BinHex"/>
+		<object hash="1A743196">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<field hash="82B73BEA" type="BinHex"/>
+			<field hash="4EBA40E5" type="BinHex"/>
+			<object name="Curve">
+				<field hash="15F6C4BB" type="BinHex"/>
+				<field hash="41D68DCC" type="BinHex"/>
+				<field hash="EB769AB7" type="BinHex"/>
+				<field hash="7DDBB295" type="BinHex"/>
+				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fMaxDistance" type="Float"/>
+			</object>
+		</object>
+		<object hash="16F88B47">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object name="Curve">
+				<field hash="3D5372B7" type="BinHex"/>
+				<field hash="AE5C9AB9" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="8EFE48FB">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object hash="81268AFF">
+				<field hash="1C956E3E" type="BinHex"/>
+				<field hash="72DCECA6" type="BinHex"/>
+				<field hash="2C4875B0" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="F5B6A82D">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object name="Curve">
+				<field hash="31F08D14" type="BinHex"/>
+				<field hash="AAF9FF4E" type="BinHex"/>
+			</object>
+			<object hash="6B8EB83B">
+				<object name="TagCategorySelectionArray"/>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="E501BFD8">
+				<object name="TagCategorySelectionArray"/>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="29ABBF46">
+				<object name="TagCategorySelectionArray"/>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="236EB65F">
+				<object name="TagCategorySelectionArray"/>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="9A4BAF88">
+		<field hash="91FF3360" type="BinHex"/>
+		<object hash="1A743196">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<field hash="82B73BEA" type="BinHex"/>
+			<field hash="4EBA40E5" type="BinHex"/>
+			<object name="Curve">
+				<field hash="15F6C4BB" type="BinHex"/>
+				<field hash="41D68DCC" type="BinHex"/>
+				<field hash="EB769AB7" type="BinHex"/>
+				<field hash="7DDBB295" type="BinHex"/>
+				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fMaxDistance" type="Float"/>
+			</object>
+		</object>
+		<object hash="16F88B47">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object name="Curve">
+				<field hash="3D5372B7" type="BinHex"/>
+				<field hash="AE5C9AB9" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="8EFE48FB">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object hash="81268AFF">
+				<field hash="1C956E3E" type="BinHex"/>
+				<field hash="72DCECA6" type="BinHex"/>
+				<field hash="2C4875B0" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="63EF2722">
+		<field hash="91FF3360" type="BinHex"/>
+		<object hash="1A743196">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<field hash="82B73BEA" type="BinHex"/>
+			<field hash="4EBA40E5" type="BinHex"/>
+			<object name="Curve">
+				<field hash="15F6C4BB" type="BinHex"/>
+				<field hash="41D68DCC" type="BinHex"/>
+				<field hash="EB769AB7" type="BinHex"/>
+				<field hash="7DDBB295" type="BinHex"/>
+				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fMaxDistance" type="Float"/>
+			</object>
+		</object>
+		<object hash="8EFE48FB">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object hash="81268AFF">
+				<field hash="1C956E3E" type="BinHex"/>
+				<field hash="72DCECA6" type="BinHex"/>
+				<field hash="2C4875B0" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="F5B6A82D">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object name="Curve">
+				<field hash="31F08D14" type="BinHex"/>
+				<field hash="AAF9FF4E" type="BinHex"/>
+			</object>
+			<object hash="6B8EB83B">
+				<object name="TagCategorySelectionArray">
+					<object name="TagCategorySelection">
+						<field hash="CF68E402" type="String"/>
+						<field name="hid_DTCTH_ClassName" type="BinHex"/>
+						<field hash="BDB3B8D5" type="String"/>
+						<field hash="401A8276" type="BinHex"/>
+						<field hash="F5391DFF" type="BinHex"/>
+						<field name="tagcategoryTagCategory" type="BinHex"/>
+						<object name="Tags">
+							<object name="Tag">
+								<field name="tagTag" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="E501BFD8">
+				<object name="TagCategorySelectionArray"/>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="29ABBF46">
+				<object name="TagCategorySelectionArray">
+					<object name="TagCategorySelection">
+						<field hash="CF68E402" type="String"/>
+						<field name="hid_DTCTH_ClassName" type="BinHex"/>
+						<field hash="BDB3B8D5" type="String"/>
+						<field hash="401A8276" type="BinHex"/>
+						<field hash="F5391DFF" type="BinHex"/>
+						<field name="tagcategoryTagCategory" type="BinHex"/>
+						<object name="Tags">
+							<object name="Tag">
+								<field name="tagTag" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="236EB65F">
+				<object name="TagCategorySelectionArray">
+					<object name="TagCategorySelection">
+						<field hash="CF68E402" type="String"/>
+						<field name="hid_DTCTH_ClassName" type="BinHex"/>
+						<field hash="BDB3B8D5" type="String"/>
+						<field hash="401A8276" type="BinHex"/>
+						<field hash="F5391DFF" type="BinHex"/>
+						<field name="tagcategoryTagCategory" type="BinHex"/>
+						<object name="Tags">
+							<object name="Tag">
+								<field name="tagTag" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="9432FDC1">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object name="Curve">
+				<field hash="31F08D14" type="BinHex"/>
+				<field hash="AAF9FF4E" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="97DC2A5E">
+		<field hash="91FF3360" type="BinHex"/>
+		<object hash="1A743196">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<field hash="82B73BEA" type="BinHex"/>
+			<field hash="4EBA40E5" type="BinHex"/>
+			<object name="Curve">
+				<field hash="15F6C4BB" type="BinHex"/>
+				<field hash="41D68DCC" type="BinHex"/>
+				<field hash="EB769AB7" type="BinHex"/>
+				<field hash="7DDBB295" type="BinHex"/>
+				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fMaxDistance" type="Float"/>
+			</object>
+		</object>
+		<object hash="16F88B47">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object name="Curve">
+				<field hash="3D5372B7" type="BinHex"/>
+				<field hash="AE5C9AB9" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="8EFE48FB">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object hash="81268AFF">
+				<field hash="1C956E3E" type="BinHex"/>
+				<field hash="72DCECA6" type="BinHex"/>
+				<field hash="2C4875B0" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="1C2C85D2">
+		<field hash="91FF3360" type="BinHex"/>
+		<object hash="1A743196">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<field hash="82B73BEA" type="BinHex"/>
+			<field hash="4EBA40E5" type="BinHex"/>
+			<object name="Curve">
+				<field hash="15F6C4BB" type="BinHex"/>
+				<field hash="41D68DCC" type="BinHex"/>
+				<field hash="EB769AB7" type="BinHex"/>
+				<field hash="7DDBB295" type="BinHex"/>
+				<field hash="A4F02E38" type="BinHex"/>
+				<field name="fMaxDistance" type="Float"/>
+			</object>
+		</object>
+		<object hash="16F88B47">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object name="Curve">
+				<field hash="3D5372B7" type="BinHex"/>
+				<field hash="AE5C9AB9" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="8EFE48FB">
+			<field hash="2E5CEE34" type="BinHex"/>
+			<object hash="81268AFF">
+				<field hash="1C956E3E" type="BinHex"/>
+				<field hash="72DCECA6" type="BinHex"/>
+				<field hash="2C4875B0" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="FE497B2F">
+		<field hash="2E5CEE34" type="BinHex"/>
+		<object hash="2AF4B72B">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object name="Curve">
+			<field hash="AF3A054B" type="BinHex"/>
+			<field hash="440DBE48" type="BinHex"/>
+		</object>
+	</object>
+</class>

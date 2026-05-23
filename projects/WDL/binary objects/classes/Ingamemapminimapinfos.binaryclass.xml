@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="IngamemapminimapinfosParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="2E6F474E" type="String"/>
+	<field name="ingameMapID" type="BinHex"/>
+	<field hash="6EA6C704" type="String"/>
+	<field name="fileIngameMapPathID" type="String"/>
+	<field name="bLoadOnStart" type="Boolean"/>
+	<field name="selMapContext" type="Enum"/>
+</class>

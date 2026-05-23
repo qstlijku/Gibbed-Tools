@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UinavigationbehavioursParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9F798D1C" type="String"/>
+	<field hash="A45E7688" type="BinHex"/>
+	<object hash="FC44B86C">
+		<field hash="CE917B59" type="BinHex"/>
+		<field hash="5EE26BB3" type="BinHex"/>
+		<field hash="B859B3D4" type="BinHex"/>
+		<field hash="CF5E8342" type="BinHex"/>
+		<field hash="F8C9552C" type="BinHex"/>
+		<field hash="8FCE65BA" type="BinHex"/>
+		<field hash="A7205AE2" type="BinHex"/>
+	</object>
+</class>

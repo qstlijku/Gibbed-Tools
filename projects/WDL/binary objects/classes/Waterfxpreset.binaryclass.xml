@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WaterfxpresetParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Splash">
+		<field name="vectorSplashOffset" type="BinHex"/>
+		<field hash="0F5F0627" type="String"/>
+		<field name="psSplashResource" type="BinHex"/>
+	</object>
+	<object name="ShallowWater">
+		<field name="fMidRangeWaterDepth" type="Float"/>
+		<field name="fMidRangeWaterMargin" type="Float"/>
+	</object>
+	<object name="Underwater">
+		<field name="vectorUnderwaterOffset" type="BinHex"/>
+		<field hash="016EE498" type="String"/>
+		<field name="psUnderwaterResource" type="BinHex"/>
+	</object>
+</class>

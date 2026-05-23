@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cprogressionmodulecollectiblessettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Settings">
+		<object hash="99CCE36F">
+			<field hash="C50F1A52" type="BinHex"/>
+		</object>
+		<object hash="4E12A6B1">
+			<object name="Descriptor">
+				<field name="text_Name" type="String"/>
+				<field name="Name" type="BinHex"/>
+				<field name="discoverysettingsDiscoverySettings" type="BinHex"/>
+				<field hash="0F47C8F2" type="BinHex"/>
+				<field name="selAreaType" type="Enum"/>
+			</object>
+		</object>
+	</object>
+</class>

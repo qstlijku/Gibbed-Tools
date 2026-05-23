@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FireuiblobdataParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="5FC6F896" type="String"/>
+	<field name="fileBlobResource" type="String"/>
+	<field hash="FCF3D4B6" type="String"/>
+	<field name="fileTextureResource" type="String"/>
+</class>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DecalParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9301DFBD" type="String"/>
+	<field name="matMaterial" type="BinHex"/>
+	<field name="iTextureVariationCount" type="Int32"/>
+	<field name="angRotation" type="Float"/>
+	<field name="angRotationVariance" type="Float"/>
+	<field name="bUniformSize" type="Boolean"/>
+	<field name="fSizeX" type="Float"/>
+	<field name="fSizeXVariance" type="Float"/>
+	<field name="fSizeY" type="Float"/>
+	<field name="fSizeYVariance" type="Float"/>
+	<field name="fGrazingSizeFraction" type="Float"/>
+	<field name="fAlpha" type="Float"/>
+	<field name="fAlphaVariance" type="Float"/>
+	<field hash="1B38275D" type="BinHex"/>
+</class>

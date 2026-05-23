@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CarhackbossabilityconfigdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="647E09CF" type="BinHex"/>
+	<field hash="73DE52CD" type="BinHex"/>
+	<field hash="9704E1FD" type="BinHex"/>
+	<field hash="A774241A" type="BinHex"/>
+	<field hash="41148BFB" type="BinHex"/>
+	<field hash="A4B6A00D" type="BinHex"/>
+	<field hash="42D60FEC" type="BinHex"/>
+	<field hash="0F46EEDC" type="BinHex"/>
+	<field hash="B6FC4337" type="BinHex"/>
+	<field name="vectorColor" type="BinHex"/>
+	<field hash="C732DD40" type="BinHex"/>
+	<field hash="702D62D7" type="BinHex"/>
+	<field hash="87993991" type="BinHex"/>
+	<field hash="FF32A2DA" type="BinHex"/>
+	<field hash="BFF8277E" type="BinHex"/>
+	<field hash="E8F6773D" type="BinHex"/>
+</class>

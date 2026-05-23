@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Stumblcloeventsdata_c3278f95Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="433A2926" type="BinHex"/>
+	<field hash="0A7EE1F8" type="BinHex"/>
+	<object hash="288E0A81">
+		<object hash="83D86F6D">
+			<field hash="A5FBB8A1" type="String"/>
+			<field hash="A69B3054" type="BinHex"/>
+			<field hash="0825D3BC" type="BinHex"/>
+			<object hash="CC15815C">
+				<object hash="169CB9E1">
+					<field name="CloId" type="BinHex"/>
+					<field hash="851CFA3B" type="BinHex"/>
+					<field hash="5C52CAAC" type="BinHex"/>
+					<field hash="FD3C5404" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

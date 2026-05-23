@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ReinforcementconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="F0447D95" type="BinHex"/>
+	<field hash="E8D870A3" type="BinHex"/>
+	<field hash="A1EEF926" type="BinHex"/>
+	<field hash="7A0F9233" type="BinHex"/>
+	<field hash="5F5D2C06" type="BinHex"/>
+	<field hash="DEFA8D11" type="BinHex"/>
+	<field hash="724AF678" type="BinHex"/>
+	<field name="bAllowAutomaticZoneLocking" type="Boolean"/>
+	<field hash="E27B78A9" type="BinHex"/>
+	<field hash="4A790BFD" type="BinHex"/>
+	<field hash="8013BAB9" type="BinHex"/>
+	<object hash="D89CBE7D">
+		<field hash="715FDEEE" type="BinHex"/>
+		<field hash="743CD630" type="BinHex"/>
+		<field hash="6B9663FD" type="BinHex"/>
+		<object hash="BBC64559">
+			<field hash="D36F7537" type="BinHex"/>
+			<field hash="F54E1C5D" type="BinHex"/>
+		</object>
+		<object hash="442B0243">
+			<field hash="1AB6750D" type="BinHex"/>
+			<field hash="4BCAF239" type="BinHex"/>
+		</object>
+	</object>
+	<object name="ReinforcementGameplayBrick">
+		<field hash="62DD4DEE" type="BinHex"/>
+		<field hash="0CBA2766" type="BinHex"/>
+	</object>
+</class>

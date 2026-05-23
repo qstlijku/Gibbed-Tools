@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RelicitemconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="EACB706A" type="String"/>
+	<field hash="96E5ED9B" type="BinHex"/>
+	<field hash="891C87F6" type="BinHex"/>
+	<field hash="9806DB22" type="BinHex"/>
+	<field hash="0C787D3F" type="BinHex"/>
+	<field hash="6DA8D532" type="BinHex"/>
+	<object hash="BE817144">
+		<object hash="1CBCE8E4">
+			<field hash="2D8BDDFE" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="BAD82400">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="C5D8E9AE">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="552249AC">
+		<object hash="057696FA">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="552249AC">
+			<object hash="057696FA">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+	<object hash="0AF1F9F2">
+		<field hash="C50F1A52" type="BinHex"/>
+	</object>
+</class>

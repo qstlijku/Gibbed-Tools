@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Vehicleaidrivingstyledb_8c1e98a8Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="37C685C0" type="BinHex"/>
+	<field hash="6CFAF5DF" type="BinHex"/>
+	<field hash="9523D6B1" type="BinHex"/>
+	<field hash="B227F07E" type="BinHex"/>
+	<field hash="AEAFD96C" type="BinHex"/>
+	<field hash="E92E15C6" type="BinHex"/>
+	<field hash="4477C3CF" type="BinHex"/>
+	<field hash="DD7E9275" type="BinHex"/>
+	<field hash="AA79A2E3" type="BinHex"/>
+	<field hash="341D3740" type="BinHex"/>
+	<field hash="431A07D6" type="BinHex"/>
+	<field hash="B3B94376" type="BinHex"/>
+	<field hash="1041984A" type="BinHex"/>
+</class>

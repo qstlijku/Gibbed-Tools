@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UielementeffectsdbobjectParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="19AD073D" type="String"/>
+	<field hash="EEF4779B" type="BinHex"/>
+	<object hash="BB69836E">
+		<field name="fMovementDuration" type="Float"/>
+		<field name="fAlphaDuration" type="Float"/>
+		<field hash="AD4F7020" type="BinHex"/>
+	</object>
+</class>

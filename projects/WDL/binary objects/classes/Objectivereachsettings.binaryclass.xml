@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ObjectivereachsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="B4945DFB" type="BinHex"/>
+	<field hash="6766A439" type="BinHex"/>
+	<field hash="30FFCE83" type="BinHex"/>
+	<field hash="F6FAF452" type="BinHex"/>
+	<field hash="7A3B23BB" type="BinHex"/>
+	<field hash="9AEAF4C6" type="BinHex"/>
+	<field hash="2C221974" type="BinHex"/>
+	<field hash="2AB602CB" type="BinHex"/>
+	<field hash="1B31E2CF" type="BinHex"/>
+	<field hash="C113446C" type="BinHex"/>
+	<field hash="AA43596B" type="BinHex"/>
+	<object hash="DADF8182">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="3CFBA4A2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="14BBAE7D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="FC293553">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="Target">
+		<field hash="AA658794" type="String"/>
+		<field hash="D64B1A65" type="BinHex"/>
+		<field hash="A6871411" type="String"/>
+		<field hash="3A7D1D8B" type="BinHex"/>
+	</object>
+	<object hash="9B603416">
+		<field hash="5B334899" type="BinHex"/>
+		<field hash="FE7DCB74" type="BinHex"/>
+		<field name="fDuration" type="Float"/>
+		<object hash="E2474051">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="4B95868D">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

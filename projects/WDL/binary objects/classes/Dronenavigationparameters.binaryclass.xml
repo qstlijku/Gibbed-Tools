@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronenavigationparametersParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fNormalSpeed" type="Float"/>
+	<field name="fMaxTurnRateStopped" type="Float"/>
+	<field name="fMinTurnRateStopped" type="Float"/>
+	<field name="fAngleForMinTurnRateStopped" type="Float"/>
+	<field name="fAngleForMaxTurnRateStopped" type="Float"/>
+	<field name="fMaxTurnRateMoving" type="Float"/>
+	<field name="fMinTurnRateMoving" type="Float"/>
+	<field name="fSpeedForMinTurnRateMoving" type="Float"/>
+	<field name="fSpeedForMaxTurnRateMoving" type="Float"/>
+	<field name="fMinYawDiffToAllowMovement" type="Float"/>
+	<field name="fStopDistance" type="Float"/>
+	<field name="fSlowdownDistance" type="Float"/>
+	<field name="fSlowdownMinSpeed" type="Float"/>
+	<field name="fStopMinSpeed" type="Float"/>
+	<field name="fOnTargetStopLength" type="Float"/>
+	<field name="fAcceleration" type="Float"/>
+	<field name="fDeceleration" type="Float"/>
+	<field name="fTurnOnSpotEnterAngleThreshold" type="Float"/>
+	<field name="fTurnOnSpotExitAngleThreshold" type="Float"/>
+	<object hash="C6FDD283">
+		<field hash="EFB589D9" type="BinHex"/>
+		<field hash="8BDE2119" type="BinHex"/>
+		<field hash="F56F5DA4" type="BinHex"/>
+		<field hash="F136D026" type="BinHex"/>
+		<field hash="955D78E6" type="BinHex"/>
+		<field hash="EBEC045B" type="BinHex"/>
+		<field name="fStopDistance" type="Float"/>
+	</object>
+</class>

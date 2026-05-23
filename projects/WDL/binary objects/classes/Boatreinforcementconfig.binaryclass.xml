@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BoatreinforcementconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="uiMaxSpawnedBoats" type="UInt32"/>
+	<field name="uiMaxSpawnedBoatNPC" type="UInt32"/>
+	<field name="uiMaxSpawnedBoatsInUntargetedSearch" type="UInt32"/>
+	<field name="uiMaxSpawnedBoatNPCInUntargetedSearch" type="UInt32"/>
+	<object name="Spawn">
+		<field name="fRnMindistance" type="Float"/>
+		<field name="fRnIdealDistance" type="Float"/>
+		<field name="fOpenWaterMinDistance" type="Float"/>
+		<field name="fOpenWaterIdealDistance" type="Float"/>
+	</object>
+	<object name="Unspawning">
+		<field name="fMinDistFromPlayers" type="Float"/>
+		<field name="fUsefullRange" type="Float"/>
+		<field name="fUsefullRangeWhenEmpty" type="Float"/>
+	</object>
+</class>

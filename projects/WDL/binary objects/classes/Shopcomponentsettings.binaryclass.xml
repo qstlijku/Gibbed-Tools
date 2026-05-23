@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ShopcomponentsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="uiShopCashMin" type="UInt32"/>
+	<field name="uiShopCashMax" type="UInt32"/>
+	<field name="itemsReward" type="BinHex"/>
+	<field hash="43C02807" type="BinHex"/>
+	<field hash="2BE873FC" type="BinHex"/>
+	<object name="locstridInteractionText">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridStealText">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="ShopMenu">
+		<field name="uimenupageMenuPage" type="BinHex"/>
+	</object>
+	<object name="InventoryItems">
+		<object name="Item">
+			<field name="itemsItem" type="BinHex"/>
+		</object>
+	</object>
+</class>

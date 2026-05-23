@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackablenpcgameplayconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Categories">
+		<object name="Attract">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="DisruptCom">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="Distract">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="Explosive">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="PhoneOverheat">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="PoliceSearch">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="CallHitman">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="67D42AFB">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="FC5224E0">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="EA757740">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="9C904B65">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="E06B6B52">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="1C413E67">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="D6BDDD36">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="EC8EBF27">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="A4EB3788">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="21505709">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="0E0B6DDC">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="90389143">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="A9C77BED">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="429279BF">
+			<object name="PossibleProfiles">
+				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
+					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

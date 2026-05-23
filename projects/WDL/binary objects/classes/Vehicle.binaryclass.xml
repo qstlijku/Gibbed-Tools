@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="vehiclechassisChassis" type="BinHex"/>
+	<field name="vehicletweaksTweaks" type="BinHex"/>
+	<field name="vehicleclutchClutch" type="BinHex"/>
+	<object name="Axles">
+		<object name="Axle">
+			<field name="vehicleaxleAxle" type="BinHex"/>
+		</object>
+	</object>
+</class>

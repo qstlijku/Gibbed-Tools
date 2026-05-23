@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DatatransfergameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bCanBeDestroyed" type="Boolean"/>
+	<field name="bIsHackable" type="Boolean"/>
+	<field hash="CC277B21" type="BinHex"/>
+	<field hash="58F65261" type="BinHex"/>
+	<field hash="CCDAB15F" type="BinHex"/>
+	<field hash="699B8620" type="BinHex"/>
+	<field hash="45DBECFA" type="BinHex"/>
+	<field hash="89B4A974" type="BinHex"/>
+	<field hash="6FE996A0" type="BinHex"/>
+	<field hash="B5BF5ABD" type="BinHex"/>
+	<field hash="EECD0408" type="BinHex"/>
+	<field hash="6EFBB928" type="BinHex"/>
+	<field hash="D2227F25" type="BinHex"/>
+	<object hash="03788A3F">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="4D91C3A2"/>
+	<object hash="E8F9ADB0"/>
+	<object hash="26F26887"/>
+	<object hash="18BA0431"/>
+	<object hash="7D9DE536"/>
+	<object hash="275DCCD2"/>
+	<object hash="57C1A347"/>
+	<object hash="59744BDA">
+		<field name="fDuration" type="Float"/>
+		<object hash="E2474051">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="7BDF1BAE">
+		<field hash="5B334899" type="BinHex"/>
+		<field hash="FE7DCB74" type="BinHex"/>
+		<field name="fDuration" type="Float"/>
+		<object hash="E2474051">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="4B95868D">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="BDD8F371">
+		<field hash="5B334899" type="BinHex"/>
+		<field hash="FE7DCB74" type="BinHex"/>
+		<field name="fDuration" type="Float"/>
+		<object hash="E2474051">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="4B95868D">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uiplayerdownpopupsettings_a7c9441eParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9EAB361C" type="BinHex"/>
+	<field hash="D462F119" type="BinHex"/>
+	<field hash="322DA1C8" type="BinHex"/>
+	<field hash="55706143" type="BinHex"/>
+	<field hash="F55F7591" type="BinHex"/>
+</class>

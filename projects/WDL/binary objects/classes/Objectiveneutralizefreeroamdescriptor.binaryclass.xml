@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ObjectiveneutralizefreeroamdescriptorParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="B4945DFB" type="BinHex"/>
+	<field hash="B0F3B395" type="BinHex"/>
+	<field hash="6D5DD14E" type="BinHex"/>
+	<field hash="6EFBB928" type="BinHex"/>
+	<object name="locstridObjectiveLocId">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="42DDAFC5">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="14BBAE7D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="FC293553">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="BFF776AE">
+		<field name="fDuration" type="Float"/>
+		<object hash="E2474051">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="EC302652">
+		<field hash="5B334899" type="BinHex"/>
+		<field hash="FE7DCB74" type="BinHex"/>
+		<field name="fDuration" type="Float"/>
+		<object hash="E2474051">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="4B95868D">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="06523E97">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="E35099E0">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

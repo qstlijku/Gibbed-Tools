@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Photocameraconfig_40469731Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="A12E0CEF" type="String"/>
+	<field name="sPostFx" type="BinHex"/>
+	<field name="fSearchDistanceToFocalLengthRatio" type="Float"/>
+	<field name="fMinEntitySearchRadius" type="Float"/>
+	<field name="fMaxEntitySearchRadius" type="Float"/>
+	<field hash="FBEF7CC0" type="BinHex"/>
+	<field hash="D8A6432B" type="BinHex"/>
+	<field hash="74757482" type="BinHex"/>
+	<field hash="FEF71A94" type="BinHex"/>
+	<field hash="A165784C" type="BinHex"/>
+	<field hash="1D03C354" type="BinHex"/>
+	<field hash="27CEF69B" type="BinHex"/>
+	<field hash="6CE33C74" type="BinHex"/>
+	<field hash="B8CB1300" type="BinHex"/>
+	<field hash="4A50A53D" type="BinHex"/>
+	<field hash="780F2464" type="BinHex"/>
+	<field hash="F798D4AF" type="BinHex"/>
+	<field hash="0A010FF0" type="BinHex"/>
+	<field hash="674F8D4F" type="BinHex"/>
+	<field hash="913D015C" type="BinHex"/>
+	<object name="SoundEffects">
+		<object name="General">
+			<object hash="15049F68">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="C376C278">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object name="TakePicture">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object name="Exit">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object name="Navigation">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="A30165ED">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="59B0C04F">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="F6B5B709">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="6C3D83AC">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="4D762D91">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="16186DDC">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="4EB35402">
+			<object hash="5203AB45">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="F891BD9A">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="178D5299">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="6F9B3D2D">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="CBD968DB">
+			<object name="Enter">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object name="Exit">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="68CD2E7F">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+			<object hash="FAF24F11">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="78068764">
+		<field hash="913D015C" type="BinHex"/>
+		<object hash="F821DCD8">
+			<object hash="E27A2B35">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="B75534E1">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="58EBF16B">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="BE37D98D">
+			<object hash="02A0AEEB">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="E27A2B35">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="B75534E1">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="58EBF16B">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+	<object name="SelfieConfigs">
+		<field name="fEmoteDuration" type="Float"/>
+		<field hash="672B297D" type="BinHex"/>
+		<object hash="B9F4C29C">
+			<field hash="0B15300E" type="BinHex"/>
+			<field hash="7808A15D" type="BinHex"/>
+			<field hash="63B8F7A5" type="BinHex"/>
+			<field hash="AC9B2CAC" type="BinHex"/>
+			<field hash="0ACE9883" type="BinHex"/>
+			<field hash="29663075" type="BinHex"/>
+			<field hash="1D0E73EF" type="BinHex"/>
+			<field hash="0F840582" type="BinHex"/>
+			<field hash="75A3B444" type="BinHex"/>
+			<field hash="BA806F4D" type="BinHex"/>
+			<field hash="A27E5C1F" type="BinHex"/>
+			<field hash="689B5B7A" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="90992C01">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="C0529C52">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="E4CDB78B">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="B47F11B9">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="15D4A8E0">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="52407087">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="17424646">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="F7A6CCB9">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="97BF1DF2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="EC16FB49">
+		<object hash="1B985CAC">
+			<field hash="32841C4B" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="C400BC7E">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="4CEE6DEA">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

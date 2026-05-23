@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Wolfskinitemindexdb_8221ddfeParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="C9E603AE">
+		<object name="Item">
+			<field hash="C0E7C267" type="String"/>
+			<field hash="36B3D2A3" type="BinHex"/>
+			<field hash="AB705E52" type="String"/>
+			<field hash="AC0E2067" type="BinHex"/>
+		</object>
+	</object>
+</class>

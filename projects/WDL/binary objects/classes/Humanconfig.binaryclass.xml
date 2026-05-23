@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HumanconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="peopleinfoPeopleSpawnInfo" type="BinHex"/>
+	<object name="PGTConfig">
+		<field hash="64B6E507" type="BinHex"/>
+	</object>
+	<object name="Properties">
+		<field name="bIsBuddyAI" type="Boolean"/>
+		<field name="buddyaisettingsBuddyAISettings" type="BinHex"/>
+		<field name="bIsPlayerAlly" type="Boolean"/>
+		<field name="bCanBeKilledByPlayer" type="Boolean"/>
+		<field name="selMindSet" type="Enum"/>
+		<field hash="3830264B" type="BinHex"/>
+		<field name="bForceRespawnAfterCheckpoint" type="Boolean"/>
+		<field name="stimtableStimEffectTable" type="BinHex"/>
+		<field name="navigationconfigNavigationConfig" type="BinHex"/>
+		<field name="fleebehaviordescriptorFleeConfig" type="BinHex"/>
+		<field name="rewardconfigRewardConfig" type="BinHex"/>
+		<field name="personalityPersonalityConfig" type="BinHex"/>
+		<field name="hackablenpcgameplayconfigHackableGameplayConfig" type="BinHex"/>
+		<field name="accuracyconfigAccuracyConfig" type="BinHex"/>
+		<field hash="5D20B173" type="BinHex"/>
+		<field name="detectionlevelsettingsDetectionLevelSettings" type="BinHex"/>
+		<field hash="7633C8F8" type="BinHex"/>
+		<field hash="F9B77336" type="BinHex"/>
+		<field hash="142A114A" type="BinHex"/>
+		<field hash="CEF658E9" type="BinHex"/>
+		<object name="AIAgentConfig">
+			<field name="selSubcategory" type="Enum"/>
+			<field hash="95CED8F1" type="BinHex"/>
+			<field hash="A51CF583" type="BinHex"/>
+			<field hash="7BA77162" type="BinHex"/>
+			<field hash="A8E85511" type="BinHex"/>
+			<field hash="79025C1E" type="BinHex"/>
+			<field hash="9E66B082" type="BinHex"/>
+			<field hash="806E5806" type="BinHex"/>
+			<field hash="4288D9B2" type="String"/>
+			<field hash="6629F68D" type="BinHex"/>
+			<object name="TagInfo">
+				<field name="selTagIndicatorCategory" type="Enum"/>
+				<field name="selTagIndicatorDefense" type="Enum"/>
+				<field name="selTagIndicatorBehavior" type="Enum"/>
+			</object>
+		</object>
+		<object name="Inventory">
+			<field name="itemlistWeaponSelectorList" type="BinHex"/>
+			<field name="bSpawnWithEquippable" type="Boolean"/>
+			<field name="selInitWeaponType" type="Enum"/>
+			<field hash="D70FA7FE" type="BinHex"/>
+			<object name="InventoryLoadoutItemLists">
+				<field name="itemlistNormal" type="BinHex"/>
+			</object>
+		</object>
+		<object name="HealthConfig">
+			<field name="fHealth" type="Float"/>
+			<field hash="666EC8BD" type="BinHex"/>
+			<field hash="B9A5C265" type="BinHex"/>
+			<field hash="0AE289E1" type="BinHex"/>
+			<field name="locdmgconfigDamageLocationConfig" type="BinHex"/>
+			<field hash="16496CC0" type="BinHex"/>
+			<field name="fVehicleDamageMultiplier" type="Float"/>
+			<field name="fHeavyVehicleDamageMultiplier" type="Float"/>
+			<object hash="4E6A6D3D">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="3EA4F3D9">
+			<field hash="D2024FDD" type="BinHex"/>
+		</object>
+	</object>
+	<object name="DialogSettings">
+		<field hash="D8C7B5B6" type="String"/>
+		<field name="tmplDialogActor" type="BinHex"/>
+		<field name="dialactorlistDialogActorList" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Progressionmodulemodssettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Categories">
+		<object name="Category">
+			<field name="text_Name" type="String"/>
+			<field name="Name" type="BinHex"/>
+			<field hash="17BE4E5F" type="BinHex"/>
+			<field hash="F9CB2B3F" type="BinHex"/>
+			<object hash="2143522D">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="A2F788A2">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="D36E0C4C">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+	<object hash="34BFEAEF">
+		<object hash="DE59633C">
+			<field name="text_Name" type="String"/>
+			<field name="Name" type="BinHex"/>
+			<field hash="705E184C" type="String"/>
+			<field hash="BB9DC156" type="BinHex"/>
+			<field hash="F9CB2B3F" type="BinHex"/>
+			<object hash="2143522D">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+	<object hash="C32C5DC4">
+		<object hash="2FB915A8">
+			<field name="text_Name" type="String"/>
+			<field name="Name" type="BinHex"/>
+			<field hash="7FCF48FB" type="String"/>
+			<field hash="C395225B" type="BinHex"/>
+			<field hash="4D4C5D51" type="String"/>
+			<field hash="1CD17BA0" type="BinHex"/>
+			<field name="Tier" type="BinHex"/>
+			<field name="Quality" type="BinHex"/>
+			<field hash="82EF1DAE" type="BinHex"/>
+			<field hash="8A5325E3" type="BinHex"/>
+			<field hash="F9CB2B3F" type="BinHex"/>
+			<object name="Modifiers">
+				<object name="Modifier">
+					<field hash="F9B62FE0" type="String"/>
+					<field hash="BA90E4D1" type="BinHex"/>
+					<field hash="6271B625" type="BinHex"/>
+					<field hash="5FAD1D82" type="BinHex"/>
+					<object hash="491D5859">
+						<object name="Override">
+							<field hash="120FA6D9" type="String"/>
+							<field hash="5D2DFDB1" type="BinHex"/>
+							<field name="Value" type="Vector4"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="2143522D">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+	<object hash="58A3278C">
+		<object hash="6FCDA0BA">
+			<field name="text_Name" type="String"/>
+			<field name="Name" type="BinHex"/>
+			<field hash="7FCF48FB" type="String"/>
+			<field hash="C395225B" type="BinHex"/>
+			<field hash="D7536A6F" type="BinHex"/>
+			<field hash="C41AB23D" type="String"/>
+			<field hash="3668F4F3" type="BinHex"/>
+			<field hash="18743876" type="BinHex"/>
+			<object name="Modifiers">
+				<object name="Modifier">
+					<field hash="F9B62FE0" type="String"/>
+					<field hash="BA90E4D1" type="BinHex"/>
+					<field hash="6271B625" type="BinHex"/>
+					<field hash="5FAD1D82" type="BinHex"/>
+					<object hash="491D5859">
+						<object name="Override">
+							<field hash="120FA6D9" type="String"/>
+							<field hash="5D2DFDB1" type="BinHex"/>
+							<field name="Value" type="Vector4"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

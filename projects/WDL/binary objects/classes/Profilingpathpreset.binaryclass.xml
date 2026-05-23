@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ProfilingpathpresetParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="colorLineColor" type="Vector3"/>
+	<field name="fLineColorAlpha" type="Float"/>
+	<field name="fLineSize" type="Float"/>
+	<field hash="89A9EAE1" type="BinHex"/>
+	<field hash="29718740" type="BinHex"/>
+	<field hash="5219EF55" type="BinHex"/>
+	<field hash="2C805B24" type="BinHex"/>
+	<field hash="9B6DAAFA" type="BinHex"/>
+	<field name="selOrientation" type="Enum"/>
+</class>

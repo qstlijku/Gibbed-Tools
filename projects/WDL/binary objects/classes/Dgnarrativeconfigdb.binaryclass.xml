@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DgnarrativeconfigdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="F7B8EB1B">
+		<object name="Trigger">
+			<object hash="59D9FCF2">
+				<field hash="86B954EC" type="BinHex"/>
+				<field hash="98ACEE14" type="BinHex"/>
+				<field name="fCooldown" type="Float"/>
+				<field hash="5E8DFE96" type="BinHex"/>
+				<field hash="997917D6" type="BinHex"/>
+				<object name="Conditions">
+					<object name="Condition">
+						<field hash="6D1E1959" type="String"/>
+						<field name="selType" type="Enum"/>
+						<object name="Object">
+							<field hash="326E0D52" type="BinHex"/>
+							<field hash="8A5B248B" type="BinHex"/>
+							<object hash="C08739C0">
+								<object name="State">
+									<field name="selNPCState" type="Enum"/>
+								</object>
+							</object>
+							<field hash="4BB5CDCF" type="String"/>
+							<field hash="C8AC8EE4" type="BinHex"/>
+							<field hash="F1AC3B08" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object name="Configs">
+				<object hash="F0AEE5CF">
+					<field hash="F0AEE5CF" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

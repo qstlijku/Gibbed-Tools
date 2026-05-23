@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WorldenvironmentsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bUseAsDefault" type="Boolean"/>
+	<field name="fRestingWeatherAdvancingScale" type="Float"/>
+	<field name="fSunLensFlareFadeStartAngle" type="Float"/>
+	<field name="fSunLensFlareFadeEndAngle" type="Float"/>
+	<field name="fSunBelowHorizonFactor" type="Float"/>
+	<field name="fSunStaticShadowThresholdAngle" type="Float"/>
+	<field name="fTimeScale" type="Float"/>
+	<field hash="70455312" type="BinHex"/>
+	<field hash="54E47C2D" type="BinHex"/>
+	<field name="fBlackoutMoonLightingFactor" type="Float"/>
+	<field hash="65EE7F73" type="BinHex"/>
+	<field hash="B7023DA1" type="BinHex"/>
+	<field hash="674EE957" type="BinHex"/>
+	<field hash="94E56ADC" type="BinHex"/>
+	<field name="fileDistantLightsTexture" type="BinHex"/>
+	<field hash="82846CE9" type="BinHex"/>
+	<field name="fileColorRemapVolumeTexture" type="BinHex"/>
+	<field hash="B9F1E0A8" type="BinHex"/>
+	<field hash="4AECB7CC" type="BinHex"/>
+	<field name="fMinAmbient" type="Float"/>
+	<field name="vector4MinAmbientBasisVectorFactors" type="BinHex"/>
+	<field hash="135BFF80" type="BinHex"/>
+	<field name="fMinAmbientBlackoutMultiplier" type="Float"/>
+	<field name="fMinAmbientTintAmount" type="Float"/>
+	<object name="curveVertexAOIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveVertexAOIntensityCG">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="DistantLightsSettings">
+		<field name="fNearSize" type="Float"/>
+		<field name="fSize" type="Float"/>
+		<field name="fIntensityLog2" type="Float"/>
+		<field name="fMinPixelSize" type="Float"/>
+		<field name="fFlickerPerMeter" type="Float"/>
+		<field name="fFadeInStartDistance" type="Float"/>
+		<field name="fFadeInEndDistance" type="Float"/>
+	</object>
+	<object name="HDRColorGrading">
+		<field hash="C1CDF0EA" type="String"/>
+		<field hash="0B0B1CFD" type="BinHex"/>
+		<field hash="C5A4B5B4" type="String"/>
+		<field hash="5C01DBEE" type="BinHex"/>
+		<field hash="A0FE90AE" type="BinHex"/>
+		<field hash="BC5CBCF6" type="BinHex"/>
+		<field hash="DD679A12" type="BinHex"/>
+		<field hash="7D2519DD" type="BinHex"/>
+		<field hash="D5BE35FA" type="BinHex"/>
+		<field hash="168A30E2" type="BinHex"/>
+		<field hash="79226285" type="BinHex"/>
+		<field hash="FFDFDAEC" type="BinHex"/>
+		<object hash="7CBCCBE9">
+			<object name="Ranges">
+				<field name="fStart" type="Float"/>
+				<field name="fEnd" type="Float"/>
+			</object>
+		</object>
+		<object hash="F7C67323">
+			<object hash="1C48F8F3">
+				<field hash="20BCD8C1" type="BinHex"/>
+				<object hash="ACBABB22">
+					<object name="Moods">
+						<object hash="5827A0E0">
+							<object name="Texture">
+								<field hash="1CB97581" type="String"/>
+								<field name="fileTexture" type="BinHex"/>
+								<field hash="FC200229" type="String"/>
+								<field name="fileLUT" type="BinHex"/>
+							</object>
+						</object>
+						<object hash="4854EC71">
+							<object name="Texture">
+								<field hash="1CB97581" type="String"/>
+								<field name="fileTexture" type="BinHex"/>
+								<field hash="FC200229" type="String"/>
+								<field name="fileLUT" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object hash="A75F399D">
+			<object name="Ranges">
+				<field name="fStart" type="Float"/>
+				<field name="fEnd" type="Float"/>
+			</object>
+		</object>
+		<object hash="A07525F4">
+			<object hash="1C48F8F3">
+				<field hash="20BCD8C1" type="BinHex"/>
+				<object hash="ACBABB22">
+					<object name="Moods">
+						<object hash="5827A0E0">
+							<object name="Texture">
+								<field hash="1CB97581" type="String"/>
+								<field name="fileTexture" type="BinHex"/>
+								<field hash="FC200229" type="String"/>
+								<field name="fileLUT" type="BinHex"/>
+							</object>
+						</object>
+						<object hash="4854EC71">
+							<object name="Texture">
+								<field hash="1CB97581" type="String"/>
+								<field name="fileTexture" type="BinHex"/>
+								<field hash="FC200229" type="String"/>
+								<field name="fileLUT" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="FogVolumes">
+		<field name="fAmbientIntensity" type="Float"/>
+		<field name="fAmbientSunShadow" type="Float"/>
+		<field name="fAmbientAttenuationRange" type="Float"/>
+		<field name="bReceiveShadow" type="Boolean"/>
+		<field name="vectorFlowDirection" type="BinHex"/>
+		<field name="fFlowSpeed" type="Float"/>
+		<field name="vectorNoiseWeights" type="BinHex"/>
+		<field name="vectorNoiseFrequencies" type="BinHex"/>
+		<field name="fNoiseScale" type="Float"/>
+		<field name="uiMinFogIntervalDays" type="UInt32"/>
+		<field name="uiMaxFogIntervalDays" type="UInt32"/>
+		<field hash="EC8C359F" type="BinHex"/>
+		<field hash="A2AA447A" type="BinHex"/>
+		<field hash="9FE28C13" type="BinHex"/>
+		<field name="uiFogInitialStartDelayDays" type="UInt32"/>
+		<field hash="B5D8B100" type="BinHex"/>
+		<field hash="5A0B2249" type="BinHex"/>
+		<field hash="1DF2F905" type="BinHex"/>
+		<field name="fileNoiseTexture" type="BinHex"/>
+	</object>
+	<object name="Rain">
+		<field name="fEmitterDistanceOffset" type="Float"/>
+		<field name="fSpeedScaling" type="Float"/>
+		<field hash="6F7230A5" type="BinHex"/>
+		<field name="fileSplashesTexture" type="BinHex"/>
+		<field hash="68F3D8F6" type="BinHex"/>
+		<field name="fileRainDropTexture" type="BinHex"/>
+		<field hash="592C0314" type="BinHex"/>
+		<field name="fileRainStreakTexture" type="BinHex"/>
+		<field hash="033DD975" type="BinHex"/>
+		<field hash="E963B951" type="BinHex"/>
+		<field hash="564E3A2B" type="BinHex"/>
+		<field hash="5BA9F808" type="BinHex"/>
+		<field name="fSplashesSize" type="Float"/>
+		<field name="fSplashesThreshold" type="Float"/>
+		<field name="fSplashesColorIntensity" type="Float"/>
+		<field hash="77B94B4E" type="BinHex"/>
+		<object name="RainEmitters"/>
+		<object name="gradColor">
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+					<field name="Position" type="BinHex"/>
+					<field name="Color" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="Rain">
+			<object name="RainCascades">
+				<field name="fNearCascadeRange" type="Float"/>
+				<field name="fMidCascadeRange" type="Float"/>
+				<field name="fFarCascadeRange" type="Float"/>
+				<field name="fNearCascadeDensity" type="Float"/>
+				<field name="fMidCascadeDensity" type="Float"/>
+				<field name="fFarCascadeDensity" type="Float"/>
+			</object>
+			<field name="fEmitterDistanceOffset" type="Float"/>
+			<field name="fSpeedScaling" type="Float"/>
+			<field hash="6F7230A5" type="BinHex"/>
+			<field name="fileSplashesTexture" type="BinHex"/>
+			<field hash="68F3D8F6" type="BinHex"/>
+			<field name="fileRainDropTexture" type="BinHex"/>
+			<field hash="592C0314" type="BinHex"/>
+			<field name="fileRainStreakTexture" type="BinHex"/>
+			<field hash="033DD975" type="BinHex"/>
+			<field hash="E963B951" type="BinHex"/>
+			<field hash="564E3A2B" type="BinHex"/>
+			<field hash="5BA9F808" type="BinHex"/>
+			<field name="fSplashesSize" type="Float"/>
+			<field name="fSplashesThreshold" type="Float"/>
+			<field name="fSplashesColorIntensity" type="Float"/>
+			<field hash="77B94B4E" type="BinHex"/>
+			<object name="RainEmitters"/>
+			<object name="gradColor">
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+						<field name="Position" type="BinHex"/>
+						<field name="Color" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<field name="fRainScrollingSpeed" type="Float"/>
+			<field name="fRainSkewFactor" type="Float"/>
+			<field name="fRainColorIntensity" type="Float"/>
+			<field name="fRainLightIntensity" type="Float"/>
+			<field name="fRainLightsMinIntensity" type="Float"/>
+			<field name="fRainSpecularPower" type="Float"/>
+			<field name="fRainSpecularLevel" type="Float"/>
+			<field name="fRainFadeOutDistance" type="Float"/>
+			<field name="fRainStreakColorLevel" type="Float"/>
+			<field name="fRainTimeScalePower" type="Float"/>
+			<field name="fRainEVMin" type="Float"/>
+			<field name="fRainEVMax" type="Float"/>
+			<field name="fRainIntensity" type="Float"/>
+			<field name="fRainHighLightBoost" type="Float"/>
+			<field name="fRainIntensityForRippleMaxIntensity" type="Float"/>
+			<field name="fRainIntensityForSplashesMaxIntensity" type="Float"/>
+		</object>
+		<object name="RainCascades">
+			<field name="fNearCascadeRange" type="Float"/>
+			<field name="fMidCascadeRange" type="Float"/>
+			<field name="fFarCascadeRange" type="Float"/>
+			<field name="fNearCascadeDensity" type="Float"/>
+			<field name="fMidCascadeDensity" type="Float"/>
+			<field name="fFarCascadeDensity" type="Float"/>
+		</object>
+	</object>
+	<object hash="FC95E3DD">
+		<field hash="8175AE54" type="BinHex"/>
+		<field hash="CFF60E67" type="BinHex"/>
+		<field hash="583424D8" type="BinHex"/>
+		<field hash="8A2A79A2" type="BinHex"/>
+		<field hash="6FEBDEA8" type="BinHex"/>
+		<field hash="2385D7BE" type="BinHex"/>
+		<field hash="CE2D90F0" type="BinHex"/>
+		<field hash="EC0FBACF" type="BinHex"/>
+		<field hash="08ADE94F" type="BinHex"/>
+		<field hash="606EA942" type="BinHex"/>
+		<field hash="5E7DD8AA" type="BinHex"/>
+	</object>
+	<object name="Water">
+		<field name="fWaterDepth" type="Float"/>
+		<field hash="4F62C196" type="BinHex"/>
+		<field hash="728C0E45" type="BinHex"/>
+		<field hash="1A166CC3" type="BinHex"/>
+		<field hash="EF717D82" type="BinHex"/>
+		<field hash="DC6C7E57" type="BinHex"/>
+		<field hash="0570DC00" type="BinHex"/>
+		<field hash="2A321885" type="BinHex"/>
+		<object hash="4500BAF1">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="5A61A029">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="FEB77CCC">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="BaseWaves">
+			<field name="fReflectionIntensity" type="Float"/>
+			<field name="fFoamTextureScale" type="Float"/>
+			<field hash="1CEE700F" type="BinHex"/>
+			<field name="fileBaseWaveTexture" type="BinHex"/>
+			<field hash="FC6D9E45" type="BinHex"/>
+			<field name="fileFoamTexture" type="BinHex"/>
+			<field hash="E9BC116A" type="BinHex"/>
+			<field name="fileScatteringTexture" type="BinHex"/>
+			<field hash="4C279DDA" type="BinHex"/>
+			<field hash="C700805E" type="BinHex"/>
+			<field hash="E2542E70" type="BinHex"/>
+			<field name="fileWaveIntensityTexture" type="BinHex"/>
+			<field hash="76A365E3" type="BinHex"/>
+			<field name="fileWaterDetailNormalMap" type="BinHex"/>
+			<field name="fDetailNormalMapScale" type="Float"/>
+			<field name="fDetailNormalMapScrolling" type="Float"/>
+			<field name="fDetailNormalMapIntensity" type="Float"/>
+			<field name="fSpecularRoughness" type="Float"/>
+			<field name="fSpecularDetailMapSpeed" type="Float"/>
+			<field name="fSpecularDetailMapScale" type="Float"/>
+			<field name="fSpecularDetailMapBias" type="Float"/>
+			<field name="fSpecularDetailMapNormalLobe" type="Float"/>
+			<field hash="C1099F65" type="BinHex"/>
+			<field hash="DCF949F5" type="BinHex"/>
+			<field hash="FDCCF446" type="BinHex"/>
+			<field hash="61599763" type="BinHex"/>
+			<field hash="FF2B68D2" type="BinHex"/>
+			<field hash="0B0EB878" type="BinHex"/>
+			<field hash="93C405B5" type="BinHex"/>
+			<field hash="AAAAE017" type="BinHex"/>
+			<field hash="C58F3FFF" type="BinHex"/>
+			<field hash="2E181DDA" type="BinHex"/>
+			<field hash="72448895" type="BinHex"/>
+			<field hash="4650EE01" type="BinHex"/>
+			<field hash="AED1FEA9" type="BinHex"/>
+			<field hash="A9203656" type="BinHex"/>
+		</object>
+		<object hash="BFD821C1">
+			<field hash="D4D850D2" type="BinHex"/>
+			<field hash="C9FB067B" type="BinHex"/>
+			<field hash="B8799CA0" type="BinHex"/>
+			<field hash="AB0AFDA9" type="BinHex"/>
+			<field hash="4FBDB286" type="BinHex"/>
+		</object>
+	</object>
+	<object name="WeatherSystem">
+		<field name="fWeatherTransitionTime" type="Float"/>
+		<field name="fToMasterTransitionTime" type="Float"/>
+		<field name="fFromMasterTransitionTime" type="Float"/>
+		<field name="fMasterOverrideTransitionTime" type="Float"/>
+		<field name="fWeatherMasterIdTransitionTime" type="Float"/>
+		<field name="fWeatherMasterStepTransitionTime" type="Float"/>
+		<field name="fCloudTransitionTime" type="Float"/>
+		<field name="uiNumSequencesBeforeRepeat" type="UInt32"/>
+		<field name="uiNumSequencesBeforeRainOrFogRepeat" type="UInt32"/>
+		<field name="fWetnessAccumulationDurationMin" type="Float"/>
+		<field name="fWetnessAccumulationDurationMax" type="Float"/>
+		<field name="fWetnessDryingDuration" type="Float"/>
+		<field hash="9196B6A7" type="BinHex"/>
+		<field hash="AD9B89FE" type="BinHex"/>
+		<field hash="7600DEA9" type="BinHex"/>
+		<field name="fRaindropRippleSize" type="Float"/>
+		<field hash="EB771066" type="BinHex"/>
+		<field hash="9A2DA156" type="BinHex"/>
+		<field hash="A7E386FA" type="BinHex"/>
+		<field hash="9BEEB9A3" type="BinHex"/>
+		<field hash="DC73BB44" type="BinHex"/>
+		<field hash="FED2B61A" type="BinHex"/>
+		<field hash="C2DF8943" type="BinHex"/>
+		<field hash="7225CE04" type="BinHex"/>
+		<field name="fPuddleExtraNormalMapSize" type="Float"/>
+		<field name="fPuddleExtraNormalMapIntensity" type="Float"/>
+		<field name="fPuddleExtraNormalMapSpeed" type="Float"/>
+		<field name="fTopFogWetness" type="Float"/>
+		<field name="fTopFogWetnessMinDensity" type="Float"/>
+		<field name="fTopFogWetnessMaxDensity" type="Float"/>
+		<field name="fTopFogWetnessAccumulationDuration" type="Float"/>
+		<object name="MaterialWetnessSettings">
+			<object name="Wetness">
+				<object name="GenericDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="GenericGround">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object hash="9C8312FB">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object hash="31E1620A">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object hash="DB6F14C2">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object hash="8FFBEB9D">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object hash="25805212">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="TerrainDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="TerrainLowPorosity">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="TerrainMediumPorosity">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="TerrainHighPorosity">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object hash="60F82EAE">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object hash="90410D5F">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object hash="4D696C46">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="ClothDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="ClothImpermeable">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="ClothPermeable">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="SkinDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="BuildingDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="PlantDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="TreeDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="TreeTrunk">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="TreeLeaf">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="CarGenericDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="CarPaintDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="GlassDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="GlassCarWindow">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+				<object name="HairDefault">
+					<field name="fBaseColorMultiplier" type="Float"/>
+					<field name="fRoughnessMultiplier" type="Float"/>
+					<field name="fNormalMapIntensityMultiplier" type="Float"/>
+					<field name="fRaindropRippleIntensity" type="Float"/>
+					<field hash="E449E04A" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="WeatherForecastSettings">
+			<field name="fTemperatureRateOfChange" type="Float"/>
+			<field name="fCloudyTemperatureDelta" type="Float"/>
+			<field name="fRainyTemperatureDelta" type="Float"/>
+			<field name="fRandomTemperatureDelta" type="Float"/>
+			<object name="curveTemperatureCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="3E6B320F">
+		<field name="fSkydomeDawnHour" type="Float"/>
+		<field name="fSkydomeDuskHour" type="Float"/>
+		<field name="fSunAndMoonViewAngle" type="Float"/>
+		<field hash="E3BF4385" type="BinHex"/>
+		<field hash="EB4D6251" type="BinHex"/>
+		<field hash="815B69C2" type="BinHex"/>
+		<field hash="E658182A" type="BinHex"/>
+		<field name="fAmbientValueClampMax" type="Float"/>
+		<field name="fSkySunTurbidity" type="Float"/>
+		<field hash="544AD527" type="BinHex"/>
+		<field name="fileSunFlareTexture" type="BinHex"/>
+		<field hash="36B6B1B5" type="BinHex"/>
+		<field name="fileSunFlareTimeOfDayColorTexture" type="BinHex"/>
+		<field name="fSunFlareTextureSize" type="Float"/>
+		<field name="fSunFlareMaxUniformScale" type="Float"/>
+		<field name="fSunFlareMaxBottomScale" type="Float"/>
+		<field name="fRotationAxisPitch" type="Float"/>
+		<field name="fSunElevationNightMin" type="Float"/>
+		<field name="fSunElevationNightMax" type="Float"/>
+		<field name="fGoldenHourStretchFactor" type="Float"/>
+		<field name="fSunRiseYaw" type="Float"/>
+		<field name="fSunMIEScattering" type="Float"/>
+		<field name="fFakeEarthShadowHeightProjection" type="Float"/>
+		<field name="fFakeEarthShadowHeightSmooth" type="Float"/>
+		<field name="fSunIntensityInertiaAngle" type="Float"/>
+		<field name="fSunShadowInertiaStartAngle" type="Float"/>
+		<field name="fSunShadowInertiaEndAngle" type="Float"/>
+		<field name="angMaxAngleLag" type="Float"/>
+		<field name="angCatchupAngularSpeed" type="Float"/>
+		<field name="vec2CatchupSpeedControlCamAngle" type="Vector2"/>
+		<field name="vec2CatchupSpeedControlCamPos" type="Vector2"/>
+		<field name="angAngleStep" type="Float"/>
+		<field name="fSkyMoonTurbidity" type="Float"/>
+		<field name="clrMoonColor" type="BinHex"/>
+		<field hash="9901C570" type="BinHex"/>
+		<field name="fileMoonTexture" type="BinHex"/>
+		<field name="clrMoonShadowColor" type="BinHex"/>
+		<field name="fMoonShadowIntensity" type="Float"/>
+		<field name="fMoonMIEScattering" type="Float"/>
+		<field name="fMoonInscatteringFactor" type="Float"/>
+		<field name="fMoonPhase" type="Float"/>
+		<field name="fMoonCloudIntensity" type="Float"/>
+		<field name="fNightSkyIntensity" type="Float"/>
+		<field name="clrNightSkyTopColor" type="BinHex"/>
+		<field name="clrNightSkyHorizonColor" type="BinHex"/>
+		<field name="fNightSkyGradientGamma" type="Float"/>
+		<field name="fNightSkyGIFactor" type="Float"/>
+		<field hash="F1AB59B3" type="BinHex"/>
+		<field name="fileLightPollutionTexture" type="BinHex"/>
+		<field name="fLightPollutionFalloff" type="Float"/>
+		<field hash="C8D25F0B" type="BinHex"/>
+		<field name="fileFogRegionTexture" type="BinHex"/>
+		<field name="fFogRegionHeightMax" type="Float"/>
+		<field hash="22F266A8" type="BinHex"/>
+		<field name="fileFog2DNoiseTexture" type="BinHex"/>
+		<field name="fFog2DNoiseScale" type="Float"/>
+		<field hash="BFFD87DE" type="BinHex"/>
+		<field name="fileFog3DNoiseTexture" type="BinHex"/>
+		<field name="fFog3DNoiseScale" type="Float"/>
+		<field name="fBelowHorizonCloudsLighting" type="Float"/>
+		<field name="fAirDensity" type="Float"/>
+		<field name="fAirHeightMax" type="Float"/>
+		<field name="fAirNearSafeDistance" type="Float"/>
+		<field name="fAirNearSafeFalloff" type="Float"/>
+		<field name="clrAirColor" type="BinHex"/>
+		<object name="curveArtisticBrunetonSkySunLobeIntensity">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveArtisticBrunetonSkySunLobeGamma">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveArtisticBrunetonSkyVisualIntensty">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveAerialPerscpectiveFogScattering">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveAerialPerscpectiveFogExtinction">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSkyIntensityForMainView">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="SunRiseTime">
+			<field name="uiHours" type="UInt32"/>
+			<field name="uiMinutes" type="UInt32"/>
+			<field name="uiSeconds" type="UInt32"/>
+		</object>
+		<object name="SunSetTime">
+			<field name="uiHours" type="UInt32"/>
+			<field name="uiMinutes" type="UInt32"/>
+			<field name="uiSeconds" type="UInt32"/>
+		</object>
+		<object name="curveSunSpriteScale">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="gradSunColorHack">
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+					<field name="Position" type="BinHex"/>
+					<field name="Color" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSunColorHackIntensity">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="MoonRiseTime">
+			<field name="uiHours" type="UInt32"/>
+			<field name="uiMinutes" type="UInt32"/>
+			<field name="uiSeconds" type="UInt32"/>
+		</object>
+		<object name="MoonSetTime">
+			<field name="uiHours" type="UInt32"/>
+			<field name="uiMinutes" type="UInt32"/>
+			<field name="uiSeconds" type="UInt32"/>
+		</object>
+		<object name="gradMoonSkyColorGradian">
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+					<field name="Position" type="BinHex"/>
+					<field name="Color" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMoonSpriteScale">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveMoonSpriteIntensityScale">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSSRFallOffDistance">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveSSRFallOffLength">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="821F7D59">
+		<object hash="AED56F58">
+			<object name="Texture">
+				<field hash="FC200229" type="String"/>
+				<field name="fileLUT" type="BinHex"/>
+				<field hash="1CB97581" type="String"/>
+				<field name="fileTexture" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="Wind">
+		<field hash="13E90457" type="BinHex"/>
+		<field name="fileWindGlobalNoiseTexture" type="BinHex"/>
+		<field name="fWindGlobalNoiseTextureRange" type="Float"/>
+		<field name="angWindDirection" type="Float"/>
+		<object name="curveWindBaseSpeedDelta">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="WorldStaticReflection">
+		<field name="bTransitionEnabled" type="Boolean"/>
+		<field name="fileDefaultDayReflectionTexture" type="BinHex"/>
+		<field name="fileDefaultNightReflectionTexture" type="BinHex"/>
+		<field name="fRegularBlendTime" type="Float"/>
+		<field name="fDayNightBlendTime" type="Float"/>
+		<field name="fFakeReflectionScalingStrength" type="Float"/>
+		<field name="fFakeReflectionScalingEndDistance" type="Float"/>
+		<field name="fDayExposureValue" type="Float"/>
+		<field name="fNightExposureValue" type="Float"/>
+		<object name="DayStartTime">
+			<field name="uiHours" type="UInt32"/>
+			<field name="uiMinutes" type="UInt32"/>
+			<field name="uiSeconds" type="UInt32"/>
+		</object>
+		<object name="DayEndTime">
+			<field name="uiHours" type="UInt32"/>
+			<field name="uiMinutes" type="UInt32"/>
+			<field name="uiSeconds" type="UInt32"/>
+		</object>
+		<object hash="DFC0CC86">
+			<object hash="ABE0EC5B">
+				<field hash="9837A931" type="BinHex"/>
+				<field hash="1CB97581" type="String"/>
+				<field name="fileTexture" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="Misc">
+		<field hash="AF28F7B6" type="BinHex"/>
+		<field name="fileWhiteVolume" type="BinHex"/>
+		<field hash="D8287399" type="BinHex"/>
+		<field name="fileBandLimitedNoise" type="BinHex"/>
+		<field name="fSSAOIntensity" type="Float"/>
+		<field name="fConfettiKillVolumeMaxDistance" type="Float"/>
+	</object>
+</class>

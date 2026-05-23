@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Weapontypedb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="07051165">
+		<object hash="5CC9F23E">
+			<field hash="75F24AEE" type="String"/>
+		</object>
+	</object>
+	<object hash="B8F09BF2">
+		<object hash="CDC4F17E">
+			<field hash="E321A276" type="String"/>
+		</object>
+	</object>
+</class>

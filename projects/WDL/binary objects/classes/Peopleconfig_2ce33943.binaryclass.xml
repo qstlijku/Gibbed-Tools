@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Peopleconfig_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="DefaultArchetypes">
+		<field hash="EDF1F778" type="String"/>
+		<field name="archMaleNewArchetype" type="BinHex"/>
+		<field hash="21DA6710" type="String"/>
+		<field name="archFemaleNewArchetype" type="BinHex"/>
+		<field hash="B5626117" type="String"/>
+		<field hash="7EA1B80D" type="BinHex"/>
+		<field hash="DAD37E9A" type="String"/>
+		<field hash="95F125F2" type="BinHex"/>
+	</object>
+</class>

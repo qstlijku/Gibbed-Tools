@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Defaultlightparams_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="DefaultLampList">
+		<object name="DefaultLamp">
+			<field name="driverlightpresetLightPreset" type="BinHex"/>
+			<object name="LightSlotList">
+				<object name="LightSlot">
+					<field name="LightSlot" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UiopdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="D194C4C7" type="BinHex"/>
+	<field hash="388BCDC7" type="BinHex"/>
+	<field hash="F9CB2B3F" type="BinHex"/>
+	<object hash="78B0D2F3">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

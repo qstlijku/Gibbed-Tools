@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PhonecommunicationsettingsdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fStartDelay" type="Float"/>
+	<object name="PhoneCommunicationSettingsData">
+		<field hash="6D1E1959" type="String"/>
+		<field name="selType" type="Enum"/>
+		<object name="Object">
+			<field hash="90075D3D" type="BinHex"/>
+			<field name="bBypassNarrativeQueue" type="Boolean"/>
+			<field name="fUIStartUpDelay" type="Float"/>
+			<field name="bPlayCommunicationIntro" type="Boolean"/>
+			<field hash="5EF7E537" type="BinHex"/>
+			<field hash="D0528801" type="BinHex"/>
+			<field name="videosVideo" type="BinHex"/>
+			<field name="conversationsettingConversation" type="BinHex"/>
+			<field name="bUseEarBudsActivate" type="Boolean"/>
+			<field hash="484EBEC3" type="String"/>
+			<field hash="F414D463" type="BinHex"/>
+			<field hash="FCCB9C11" type="BinHex"/>
+			<field hash="B32D38BE" type="BinHex"/>
+			<field hash="6222365D" type="BinHex"/>
+			<object hash="CD47E3D1">
+				<field hash="319FC44E" type="BinHex"/>
+				<field hash="88A6F624" type="BinHex"/>
+				<object name="locstridName">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object name="locstridDescription">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object hash="565AA9BB">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+			<object hash="37CD8AE9">
+				<object name="Events">
+					<field hash="87E038DB" type="String"/>
+					<field name="sndSoundId" type="BinHex"/>
+					<field hash="8FE662AD" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="36706EE5">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="EBE6B760">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridChannelHeader">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

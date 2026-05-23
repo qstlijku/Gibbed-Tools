@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronebankParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="411691DC" type="String"/>
+	<field name="GroupName" type="BinHex"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field hash="A1295865" type="String"/>
+			<field hash="2A0E45E1" type="BinHex"/>
+			<field hash="25DD4CED" type="BinHex"/>
+			<field hash="572F5755" type="BinHex"/>
+			<field name="uiCoefficient" type="UInt32"/>
+		</object>
+	</object>
+</class>

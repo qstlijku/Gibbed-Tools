@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronewanderstatesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="C39764D5" type="BinHex"/>
+	<field hash="06E8B11D" type="BinHex"/>
+	<field hash="8EC03E17" type="BinHex"/>
+	<field hash="0870DA4E" type="BinHex"/>
+	<object hash="67D2D423">
+		<field hash="F2F9C8AE" type="BinHex"/>
+		<field hash="C6211711" type="BinHex"/>
+		<field hash="1DB53FDF" type="BinHex"/>
+		<field hash="743440BA" type="BinHex"/>
+		<field hash="4BF72E99" type="BinHex"/>
+		<field hash="96D08B70" type="BinHex"/>
+		<field hash="9EAD809E" type="BinHex"/>
+		<field hash="E631E5B2" type="BinHex"/>
+		<field hash="208FAFC0" type="BinHex"/>
+		<field hash="C0424C92" type="BinHex"/>
+		<field hash="FBE66442" type="BinHex"/>
+		<field hash="DE41574A" type="BinHex"/>
+		<field hash="C959B2F7" type="BinHex"/>
+		<field hash="3BFB458E" type="BinHex"/>
+		<field hash="F190898F" type="BinHex"/>
+		<field hash="41421EAD" type="BinHex"/>
+	</object>
+</class>

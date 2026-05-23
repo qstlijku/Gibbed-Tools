@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DroneaudiosettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="AA27FDCB">
+		<object hash="E4B261C7">
+			<field hash="9A4904D5" type="String"/>
+			<field hash="06B30D4F" type="BinHex"/>
+			<field hash="CEF0E3BC" type="BinHex"/>
+			<field hash="CD0303F3" type="BinHex"/>
+			<field hash="E62D80E9" type="String"/>
+			<field hash="6534C3C2" type="BinHex"/>
+			<field hash="42ECCA2C" type="String"/>
+			<field hash="882A263B" type="BinHex"/>
+			<field hash="1A93487F" type="BinHex"/>
+			<field hash="94BCD606" type="BinHex"/>
+			<object hash="A513D48E">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="F7AC80C9" type="String"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="3AA8B630">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="937E11F6">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="F7AC80C9" type="String"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="2A345BF0">
+				<object hash="9A5A8206">
+					<field hash="DEEFE01D" type="String"/>
+					<field hash="14290C0A" type="BinHex"/>
+					<field hash="6534C3C2" type="BinHex"/>
+					<field hash="1A93487F" type="BinHex"/>
+					<object hash="A513D48E">
+						<field hash="94C08F9B" type="BinHex"/>
+						<field hash="F7AC80C9" type="String"/>
+						<field hash="1DF2E0ED" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

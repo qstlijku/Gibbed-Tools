@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FreeformtextdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="sLinkageName" type="String"/>
+	<field hash="2950B5DA" type="BinHex"/>
+	<field name="fDelayBeforeDisplay" type="Float"/>
+	<field name="fDisplayTime" type="Float"/>
+	<field name="fXPositionRatio" type="Float"/>
+	<field name="fYPositionRatio" type="Float"/>
+	<field hash="D52EE75C" type="BinHex"/>
+	<field hash="AB066769" type="BinHex"/>
+	<object hash="079B94D7">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="9E92C56D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="E995F5FB">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="B0B8396E">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

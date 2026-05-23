@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="KartraceraisetupParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fSpeedMultiplier" type="Float"/>
+	<field name="fMaxLateralG" type="Float"/>
+	<object name="Rubberband">
+		<field name="fRubberbandSpeedMin" type="Float"/>
+		<field name="fRubberbandSpeedAverage" type="Float"/>
+		<field name="fRubberbandSpeedMax" type="Float"/>
+		<field name="fRubberbandMinDistanceAhead" type="Float"/>
+		<field name="fRubberbandMaxDistanceAhead" type="Float"/>
+		<field name="fRubberbandMinDistanceBehind" type="Float"/>
+		<field name="fRubberbandMaxDistanceBehind" type="Float"/>
+	</object>
+</class>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FullscreentutorialdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="C4B623C1">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="B1427AEA">
+		<object hash="46F9BE6E">
+			<field hash="A067B1A1" type="BinHex"/>
+		</object>
+	</object>
+</class>

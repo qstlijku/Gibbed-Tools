@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DigitaltripgameplayoverridesdescriptorParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="38268973" type="BinHex"/>
+	<field hash="5AD40287" type="BinHex"/>
+	<field hash="D3C03F14" type="BinHex"/>
+	<field hash="D077D9D8" type="BinHex"/>
+	<field hash="C22696AF" type="BinHex"/>
+	<field hash="3550DE87" type="BinHex"/>
+	<field hash="D1FC3E15" type="BinHex"/>
+	<field hash="BB7D84C9" type="BinHex"/>
+	<field hash="B7E44A80" type="BinHex"/>
+	<field hash="5119AEEA" type="BinHex"/>
+	<field hash="3A7ED1D5" type="BinHex"/>
+	<field hash="3585AFE4" type="BinHex"/>
+	<field hash="7013FC0A" type="BinHex"/>
+	<field hash="C0A9948D" type="BinHex"/>
+	<field hash="F8B0DE53" type="BinHex"/>
+	<field name="fVehicleDamageMultiplier" type="Float"/>
+	<field hash="B8921087" type="BinHex"/>
+	<field hash="D7E616E8" type="BinHex"/>
+	<field hash="083DEDF9" type="BinHex"/>
+	<field hash="2313CDCB" type="BinHex"/>
+	<field hash="95052828" type="BinHex"/>
+	<field hash="487BE69B" type="BinHex"/>
+	<field hash="841BE358" type="BinHex"/>
+	<field hash="2640B76C" type="BinHex"/>
+	<field hash="D1438D90" type="BinHex"/>
+	<field hash="7AE17839" type="BinHex"/>
+	<field name="reinforcementconfigReinforcement" type="BinHex"/>
+	<field hash="9E934F9B" type="BinHex"/>
+	<field hash="907815BB" type="BinHex"/>
+	<field hash="982816FC" type="BinHex"/>
+	<field hash="42BD8DEF" type="BinHex"/>
+	<field hash="CF4F0CA1" type="BinHex"/>
+	<field hash="228BCCE9" type="BinHex"/>
+	<field hash="1C937C5B" type="BinHex"/>
+	<field hash="8502BBF3" type="BinHex"/>
+	<field hash="752255C6" type="BinHex"/>
+	<field hash="FF5C80F5" type="BinHex"/>
+	<field hash="6C69A0FF" type="BinHex"/>
+	<field hash="F2A530FA" type="BinHex"/>
+	<field hash="7AC4D208" type="BinHex"/>
+	<field hash="FCC28D9F" type="BinHex"/>
+	<field hash="5B83111A" type="BinHex"/>
+	<field hash="4CF58142" type="BinHex"/>
+	<field name="fTakedownAngle" type="Float"/>
+	<field hash="6295E2F1" type="BinHex"/>
+	<field hash="44338DE0" type="BinHex"/>
+	<field hash="9579F0FC" type="BinHex"/>
+	<object hash="484DBF35">
+		<field hash="13C82CAF" type="BinHex"/>
+		<field hash="5D6D27AE" type="BinHex"/>
+		<field hash="4AC0EBB1" type="BinHex"/>
+	</object>
+	<object hash="DD322BE1"/>
+	<object hash="F2D6D790"/>
+	<object hash="4CB0DF97">
+		<object hash="AEA6B5E9">
+			<field hash="6DB6F40C" type="String"/>
+			<field name="selDamageType" type="Enum"/>
+			<field hash="13C82CAF" type="BinHex"/>
+			<field hash="5D6D27AE" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="1E9EE763">
+		<object hash="9E8853C5">
+			<field hash="DA49CA17" type="BinHex"/>
+			<field hash="13C82CAF" type="BinHex"/>
+			<field hash="5D6D27AE" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="80C71FE4">
+		<object hash="1E36A780">
+			<field hash="869542D8" type="BinHex"/>
+			<field hash="13C82CAF" type="BinHex"/>
+			<field hash="5D6D27AE" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="792003DA"/>
+	<object hash="C079C042">
+		<object hash="DFB15DC3">
+			<field name="selInteractionType" type="Enum"/>
+		</object>
+	</object>
+	<object name="AssistanceInputParameters">
+		<field name="fSteadyPushingHighDecPerc" type="Float"/>
+		<field name="fSteadyPushingHighIncPerc" type="Float"/>
+		<field name="fSteadyPushingMediumDecPerc" type="Float"/>
+		<field name="fSteadyPushingMediumIncPerc" type="Float"/>
+		<field name="fSteadyPushingNoneDecPerc" type="Float"/>
+		<field name="fSteadyPushingNoneIncPerc" type="Float"/>
+		<field name="fMovingPushingHighDecPerc" type="Float"/>
+		<field name="fMovingPushingHighIncPerc" type="Float"/>
+		<field name="fMovingPushingMediumDecPerc" type="Float"/>
+		<field name="fMovingPushingMediumIncPerc" type="Float"/>
+		<field name="fMovingPushingNoneDecPerc" type="Float"/>
+		<field name="fMovingPushingNoneIncPerc" type="Float"/>
+		<field name="fPushingPercMinimalMultiplier" type="Float"/>
+		<field name="fPushingPercStrongMultiplier" type="Float"/>
+		<field name="fAssistanceDistanceThreshold" type="Float"/>
+		<field name="vec2AssistanceAutoLockRange" type="Vector2"/>
+		<field name="fAssistanceAutoLockRangeMinimalMultiplier" type="Float"/>
+		<field name="fAssistanceAutoLockRangeStrongMultiplier" type="Float"/>
+		<field name="fAssistanceAutoLockDistanceThreshold" type="Float"/>
+		<field name="fAssistanceAutoLockDistanceThresholdMinimalMultiplier" type="Float"/>
+		<field name="fAssistanceAutoLockDistanceThresholdStrongMultiplier" type="Float"/>
+		<field hash="1E238A5D" type="BinHex"/>
+		<field hash="2E16EDDE" type="BinHex"/>
+		<field name="fAssistanceConeThreshold" type="Float"/>
+		<field name="vec2AssistanceCushionInnerRange" type="Vector2"/>
+		<field name="vec2AssistanceCushionOuterRange" type="Vector2"/>
+		<field name="fAssistanceCushionRangeMinimalMultiplier" type="Float"/>
+		<field name="fAssistanceCushionRangeStrongMultiplier" type="Float"/>
+		<field name="vec2AssistanceMagnetInnerRange" type="Vector2"/>
+		<field name="vec2AssistanceMagnetOuterRange" type="Vector2"/>
+		<field name="fAssistanceMagnetRangeMinimalMultiplier" type="Float"/>
+		<field name="fAssistanceMagnetRangeStrongMultiplier" type="Float"/>
+		<field hash="F478EBFB" type="BinHex"/>
+		<field hash="7DC799C9" type="BinHex"/>
+		<field hash="D40D9911" type="BinHex"/>
+		<field hash="A1F3A672" type="BinHex"/>
+	</object>
+	<object hash="520C5B1A">
+		<field hash="B2F0F225" type="BinHex"/>
+		<field name="fBlendInTime" type="Float"/>
+		<field name="fBlendOutTime" type="Float"/>
+		<field hash="5FBDDC82" type="BinHex"/>
+		<field hash="02F4AB8E" type="BinHex"/>
+		<field hash="1C173CB2" type="BinHex"/>
+		<field hash="0B6B899B" type="BinHex"/>
+		<field hash="F32009C3" type="BinHex"/>
+		<field hash="5337CCC9" type="BinHex"/>
+		<field hash="EB637075" type="BinHex"/>
+	</object>
+	<object hash="FAF77FA8">
+		<field hash="36889A14" type="BinHex"/>
+		<field hash="666EFB0C" type="BinHex"/>
+		<field hash="808912F5" type="BinHex"/>
+		<field name="fStrength" type="Float"/>
+		<field hash="4AC2BC8F" type="BinHex"/>
+		<field hash="76CF83D6" type="BinHex"/>
+		<field hash="F5AB753F" type="BinHex"/>
+	</object>
+</class>

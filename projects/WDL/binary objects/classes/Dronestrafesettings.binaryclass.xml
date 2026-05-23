@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronestrafesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bIsEnabled" type="Boolean"/>
+	<field hash="A1E7816B" type="BinHex"/>
+	<field hash="C6211711" type="BinHex"/>
+	<field name="fDuration" type="Float"/>
+	<field hash="D47239F6" type="BinHex"/>
+	<field hash="E87F06AF" type="BinHex"/>
+	<object hash="E0997FE0">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

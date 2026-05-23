@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CompaniondroneactionsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="C5F6BA8E">
+		<field hash="6D1E1959" type="String"/>
+		<field name="selType" type="Enum"/>
+		<object name="Object">
+			<field hash="5D6A4304" type="BinHex"/>
+			<field name="colorLightColor" type="Vector3"/>
+			<field name="fMinDuration" type="Float"/>
+			<field hash="6DB71CC4" type="BinHex"/>
+			<field hash="C8E815D3" type="BinHex"/>
+			<field name="fRange" type="Float"/>
+			<field hash="A1CCE165" type="BinHex"/>
+			<field hash="EECC59B5" type="BinHex"/>
+			<field hash="82FA4454" type="BinHex"/>
+			<field hash="B18F4E82" type="BinHex"/>
+			<field name="fCooldown" type="Float"/>
+			<object hash="8105FB20">
+				<field hash="20BAB1F7" type="BinHex"/>
+				<field hash="91FB4CCD" type="BinHex"/>
+				<field hash="7B05C87D" type="BinHex"/>
+				<field hash="7EEEDB38" type="BinHex"/>
+				<field hash="9E69558D" type="BinHex"/>
+				<field hash="C6211711" type="BinHex"/>
+				<field hash="7CE2BA24" type="BinHex"/>
+				<field hash="EF5A35A3" type="BinHex"/>
+				<field hash="704F1012" type="BinHex"/>
+				<field hash="DC0F6C2F" type="BinHex"/>
+				<field hash="01926FCB" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

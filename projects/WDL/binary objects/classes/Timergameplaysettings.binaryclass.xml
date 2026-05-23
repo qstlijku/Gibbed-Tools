@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="TimergameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fLifeTime" type="Float"/>
+	<field hash="A4407A2C" type="BinHex"/>
+	<field hash="1978D849" type="BinHex"/>
+	<field hash="CC62ABE6" type="BinHex"/>
+	<object hash="C7601B74">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="ACC4F1A5">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="C799772D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="927BEA4F"/>
+</class>

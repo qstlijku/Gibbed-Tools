@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dialogmanagersettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="dialactorlistMaleDialogActor" type="BinHex"/>
+	<field name="dialactorlistFemaleDialogActor" type="BinHex"/>
+	<field name="dialactorlistAllFemaleDialogActor" type="BinHex"/>
+	<field name="dialactorlistInstallPackageDialogActor" type="BinHex"/>
+	<field name="nConcurrentDialogsMax" type="BinHex"/>
+	<field hash="57AB16CD" type="String"/>
+	<field name="sndLawEnforcerStartSquelch" type="BinHex"/>
+	<field hash="BC52E86D" type="String"/>
+	<field name="sndLawEnforcerStopSquelch" type="BinHex"/>
+	<field hash="FAEEA0E9" type="String"/>
+	<field name="sndFactionStartSquelch" type="BinHex"/>
+	<field hash="9E6C8A07" type="String"/>
+	<field name="sndFactionStopSquelch" type="BinHex"/>
+	<field hash="AA87DA97" type="BinHex"/>
+	<field hash="74100883" type="BinHex"/>
+	<field hash="435B7200" type="BinHex"/>
+	<field hash="CB1DAA85" type="BinHex"/>
+	<field hash="34BD1199" type="BinHex"/>
+	<field hash="0D75F5B3" type="BinHex"/>
+	<field hash="4B9B1D8E" type="BinHex"/>
+	<field hash="2F095A14" type="BinHex"/>
+	<field hash="BAF6029C" type="BinHex"/>
+	<field hash="B3557EB4" type="BinHex"/>
+	<field name="tmplPlayerDialogActor" type="BinHex"/>
+	<object name="sndvarRadioBarkRTPC">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object hash="CD52B6C6">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object hash="79A7B134">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object hash="6454FD50">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+</class>

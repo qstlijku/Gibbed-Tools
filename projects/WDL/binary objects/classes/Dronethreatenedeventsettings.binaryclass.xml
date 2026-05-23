@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronethreatenedeventsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="AimedByGun">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+		<field hash="160DBF3D" type="BinHex"/>
+		<field name="fDelayMax" type="Float"/>
+		<field hash="16CA90E7" type="BinHex"/>
+	</object>
+	<object name="BulletMiss">
+		<field name="fCooldownMin" type="Float"/>
+		<field name="fCooldownMax" type="Float"/>
+	</object>
+</class>

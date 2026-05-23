@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ProfilersettingsdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Settings">
+		<field name="profilerinfofilterProfileFilter" type="BinHex"/>
+		<field name="fileProfilerThumbnailOverride" type="String"/>
+		<field name="vectorProfilerSquareTargetOffset" type="BinHex"/>
+		<field name="vectorProfilerLineTargetOffset" type="BinHex"/>
+		<field hash="89EA3FD6" type="BinHex"/>
+		<field name="bIsProfilerSticky" type="Boolean"/>
+		<field hash="8B809CA7" type="BinHex"/>
+		<field hash="4FB156D7" type="BinHex"/>
+		<field hash="E73E3B16" type="BinHex"/>
+		<field hash="8E5E62F4" type="BinHex"/>
+		<field hash="EB37FCE6" type="BinHex"/>
+		<field hash="C6FA3B28" type="BinHex"/>
+		<field hash="0F5CAA36" type="BinHex"/>
+		<field hash="44213BF4" type="BinHex"/>
+		<field hash="C266FD60" type="BinHex"/>
+		<field name="selProfileColorTypeOverride" type="Enum"/>
+		<field hash="CC0C4505" type="BinHex"/>
+		<object name="locsectionidProfile">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="IconLocations"/>
+		<object name="TargetingBoneNames"/>
+	</object>
+</class>

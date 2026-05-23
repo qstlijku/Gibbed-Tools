@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BirdsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selSimpleAnimalType" type="Enum"/>
+	<field name="selStartState" type="Enum"/>
+	<object name="Physics">
+		<field name="fPhantomRadius" type="Float"/>
+		<field name="vectorPhantomOffset" type="BinHex"/>
+	</object>
+	<object name="Threat">
+		<field name="fFleeProximityRange" type="Float"/>
+		<field name="fSearchRanage" type="Float"/>
+		<field name="fThreatSpeed" type="Float"/>
+		<field name="fEventDeathRadius" type="Float"/>
+	</object>
+	<object name="Movement">
+		<field name="fDestinationGroundBuffer" type="Float"/>
+		<field name="fDestinationAirBuffer" type="Float"/>
+		<field name="fFleeAlititude" type="Float"/>
+		<field name="fFleeDisplacement" type="Float"/>
+		<field name="fFlightFleeDisplacement" type="Float"/>
+		<field name="fAccelerationRate" type="Float"/>
+		<field name="fMaxSpeed" type="Float"/>
+		<field name="fTurnRate" type="Float"/>
+		<field name="fPitchTurnRate" type="Float"/>
+		<field name="fRollTurnRate" type="Float"/>
+		<field name="bIsContinuousPath" type="Boolean"/>
+	</object>
+	<object name="MoveStateEntries">
+		<object name="Idle">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="Perched">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="Walk">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="Takeoff">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="Elevate">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="Cruise">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object name="Descend">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+		<object hash="38B17551">
+			<field name="disNomadObjectId" type="BinHex"/>
+			<field name="hidSingleObject" type="Boolean"/>
+			<field name="hidKey" type="BinHex"/>
+			<field name="hidValidationFailed" type="Boolean"/>
+			<field name="hidName" type="BinHex"/>
+			<field hash="F3464B91" type="String"/>
+			<field name="fileMoveStateId" type="String"/>
+		</object>
+	</object>
+</class>

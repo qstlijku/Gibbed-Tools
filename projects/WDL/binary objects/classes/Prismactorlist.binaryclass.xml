@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PrismactorlistParameters">
+	<object hash="72DE4948">
+		<field name="disNomadObjectId" type="BinHex"/>
+		<field name="hidSingleObject" type="Boolean"/>
+		<field name="hidKey" type="BinHex"/>
+		<field name="hidValidationFailed" type="Boolean"/>
+		<field name="text_hidName" type="String"/>
+		<field name="hidName" type="BinHex"/>
+		<field hash="C951F410" type="BinHex"/>
+		<field hash="69F52C47" type="String"/>
+		<field hash="15DBB1B6" type="BinHex"/>
+		<field hash="099348D8" type="BinHex"/>
+		<field hash="0FD5FE67" type="BinHex"/>
+		<field hash="66D922FA" type="BinHex"/>
+		<field hash="5E5E256E" type="BinHex"/>
+		<field hash="17133BAF" type="BinHex"/>
+		<field hash="FAA8EAE1" type="BinHex"/>
+		<field hash="88A43DE7" type="BinHex"/>
+		<field hash="901B07BE" type="BinHex"/>
+		<field hash="7261CB95" type="BinHex"/>
+		<field hash="C3196D52" type="BinHex"/>
+		<field hash="1E810434" type="BinHex"/>
+		<field hash="98656A4F" type="BinHex"/>
+		<field hash="19C7C702" type="BinHex"/>
+		<field hash="A8BF61C5" type="BinHex"/>
+		<field hash="752708A3" type="BinHex"/>
+		<field hash="F3C366D8" type="BinHex"/>
+		<object hash="0C1AEFF4">
+			<field hash="BDB3B8D5" type="String"/>
+			<field hash="401A8276" type="BinHex"/>
+			<field hash="F5391DFF" type="BinHex"/>
+			<object name="Tags"/>
+		</object>
+	</object>
+</class>

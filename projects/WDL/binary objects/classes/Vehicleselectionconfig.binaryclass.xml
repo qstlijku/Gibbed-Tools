@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleselectionconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bCanHijack" type="Boolean"/>
+	<field name="fSearchRadius" type="Float"/>
+	<object name="AllowedVehicles">
+		<object name="Flags">
+			<field name="bBike" type="Boolean"/>
+			<field name="bBoat" type="Boolean"/>
+			<field name="bHeavy" type="Boolean"/>
+			<field name="bHelicopter" type="Boolean"/>
+			<field name="bCar" type="Boolean"/>
+			<field name="bVan" type="Boolean"/>
+			<field name="bTruck" type="Boolean"/>
+			<field name="bBus" type="Boolean"/>
+			<field name="bPolice" type="Boolean"/>
+			<field name="bFire" type="Boolean"/>
+			<field name="bAmbulance" type="Boolean"/>
+			<field name="bTaxi" type="Boolean"/>
+			<field name="bRail" type="Boolean"/>
+			<field name="bToyCar" type="Boolean"/>
+			<field name="bScissorLift" type="Boolean"/>
+			<field name="bFlyingDrone" type="Boolean"/>
+			<field name="bArmoredCar" type="Boolean"/>
+			<field hash="4AA6FDAB" type="BinHex"/>
+			<field hash="043CCDF7" type="BinHex"/>
+			<field hash="E9983839" type="BinHex"/>
+		</object>
+	</object>
+	<object name="ExcludedVehicles">
+		<object name="Flags">
+			<field name="bBike" type="Boolean"/>
+			<field name="bBoat" type="Boolean"/>
+			<field name="bHeavy" type="Boolean"/>
+			<field name="bHelicopter" type="Boolean"/>
+			<field name="bCar" type="Boolean"/>
+			<field name="bVan" type="Boolean"/>
+			<field name="bTruck" type="Boolean"/>
+			<field name="bBus" type="Boolean"/>
+			<field name="bPolice" type="Boolean"/>
+			<field name="bFire" type="Boolean"/>
+			<field name="bAmbulance" type="Boolean"/>
+			<field name="bTaxi" type="Boolean"/>
+			<field name="bRail" type="Boolean"/>
+			<field name="bToyCar" type="Boolean"/>
+			<field name="bScissorLift" type="Boolean"/>
+			<field name="bFlyingDrone" type="Boolean"/>
+			<field name="bArmoredCar" type="Boolean"/>
+			<field hash="4AA6FDAB" type="BinHex"/>
+			<field hash="043CCDF7" type="BinHex"/>
+			<field hash="E9983839" type="BinHex"/>
+		</object>
+	</object>
+</class>

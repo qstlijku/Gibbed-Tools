@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Aiaffiliationsrelationdb_bbab0115Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="m_affiliationsRelationSettings">
+		<object name="AffiliationsRelationSettings">
+			<field name="selAffiliationA" type="Enum"/>
+			<field name="selAffiliationB" type="Enum"/>
+			<field name="selRelation" type="Enum"/>
+		</object>
+	</object>
+</class>

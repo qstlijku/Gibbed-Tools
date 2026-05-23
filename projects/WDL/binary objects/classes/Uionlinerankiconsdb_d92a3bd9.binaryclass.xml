@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uionlinerankiconsdb_d92a3bd9Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="12DF9D3D">
+		<object name="RankIcon">
+			<field hash="A4B85B5D" type="BinHex"/>
+			<field hash="A74BBB12" type="BinHex"/>
+			<field hash="EE82EBF2" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="5D1343A9">
+		<object hash="C5236852">
+			<field hash="A4B85B5D" type="BinHex"/>
+			<field hash="A74BBB12" type="BinHex"/>
+			<field hash="EE82EBF2" type="BinHex"/>
+		</object>
+	</object>
+</class>

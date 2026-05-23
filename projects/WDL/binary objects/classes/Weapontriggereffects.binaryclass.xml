@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WeapontriggereffectsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="28CD52F4" type="BinHex"/>
+	<field hash="57089AE3" type="BinHex"/>
+	<field hash="4CE5E41D" type="BinHex"/>
+	<field hash="085090BF" type="BinHex"/>
+	<field hash="2ACE388C" type="BinHex"/>
+	<field hash="671C188E" type="BinHex"/>
+</class>

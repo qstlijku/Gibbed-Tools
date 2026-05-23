@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Defaultspawningdbglobal_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bValid" type="Boolean"/>
+	<field hash="9BCE5236" type="BinHex"/>
+	<field hash="5A01F91B" type="BinHex"/>
+	<field hash="83512539" type="BinHex"/>
+	<field hash="168B8F17" type="BinHex"/>
+	<field hash="50FFD8C5" type="BinHex"/>
+	<field hash="CFC9536E" type="BinHex"/>
+	<field hash="A78F6D04" type="BinHex"/>
+	<object hash="48B95F9E">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="F767AD07">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="E535C0E7">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="6F60D88D">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="A066BA26">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+</class>

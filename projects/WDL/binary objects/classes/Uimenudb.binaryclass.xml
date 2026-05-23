@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UimenudbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="DE5C275D" type="String"/>
+	<field name="uimenutypeidMenu" type="BinHex"/>
+	<object name="MenuProperties">
+		<field name="selLoadingTileId" type="Enum"/>
+		<field name="fMinLoadingFeedbackTime" type="Float"/>
+		<field hash="152C4BFA" type="BinHex"/>
+		<field name="uimenutileControlReminderTileId" type="BinHex"/>
+		<field name="uisoundOpenSound" type="BinHex"/>
+		<field name="uisoundCloseSound" type="BinHex"/>
+		<field hash="755D24EB" type="BinHex"/>
+		<field hash="ED94EF3B" type="BinHex"/>
+		<field name="selBackgroundTileId" type="Enum"/>
+		<field name="selPageHeaderTileId" type="Enum"/>
+		<field name="uimenupageMainMenuHomepage" type="BinHex"/>
+		<field name="uimenupagePauseMenuHomepage" type="BinHex"/>
+		<field name="uisoundPlayMainMenuSound" type="BinHex"/>
+		<field name="uisoundStopMainMenuSound" type="BinHex"/>
+		<field name="uisoundPlayPauseMenuSound" type="BinHex"/>
+		<field name="uisoundStopPauseMenuSound" type="BinHex"/>
+		<field hash="7F0BFA2C" type="BinHex"/>
+		<field hash="323C1069" type="BinHex"/>
+		<field hash="88CF7E90" type="BinHex"/>
+		<field hash="E36BD742" type="BinHex"/>
+		<field hash="DBB99272" type="BinHex"/>
+		<field hash="149FEE29" type="BinHex"/>
+		<field name="selBreadcrumbTileId" type="Enum"/>
+		<field name="selNotificationTileId" type="Enum"/>
+		<field hash="DF433D8B" type="BinHex"/>
+		<field hash="45BFAA3A" type="BinHex"/>
+		<field name="fNotificationDisplayTime" type="Float"/>
+		<field name="uInitialPageIndex" type="UInt32"/>
+		<field name="uimenutilePageIndexTile" type="BinHex"/>
+		<field name="selHeaderTileId" type="Enum"/>
+		<field hash="1CB4E1FA" type="BinHex"/>
+		<field hash="468BC708" type="BinHex"/>
+		<field hash="E6EE7C75" type="BinHex"/>
+		<field hash="795DAC64" type="BinHex"/>
+		<field hash="9978AB63" type="BinHex"/>
+		<field name="uisoundOpenSmartphoneSound" type="BinHex"/>
+		<field name="uisoundCloseSmartphoneSound" type="BinHex"/>
+		<object name="locstridNotificationMessage">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridAlternateNotificationMessage">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<field hash="449F676A" type="BinHex"/>
+		<field hash="45006548" type="BinHex"/>
+		<field hash="55278C24" type="BinHex"/>
+		<field hash="CB7CDC56" type="BinHex"/>
+		<field hash="F6617ABE" type="BinHex"/>
+		<object hash="7A09B69F">
+			<field name="uimenupageMenuPage" type="BinHex"/>
+			<field hash="0B2E1C63" type="BinHex"/>
+			<object name="locstridName">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+	<object name="PersistentLayerUIResources">
+		<object name="PersistentFeuFile">
+			<field name="filePersistentFeuFiles" type="String"/>
+		</object>
+	</object>
+	<object name="Tiles">
+		<object name="Tile">
+			<field name="uimenutileTile" type="BinHex"/>
+		</object>
+	</object>
+</class>

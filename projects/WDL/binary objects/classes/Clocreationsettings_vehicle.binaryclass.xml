@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Clocreationsettings_vehicleParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="CLOSettings">
+		<field name="bIsMonitored" type="Boolean"/>
+		<field name="cloupsetUpdateSettings" type="BinHex"/>
+		<field name="bUseParentPosAsAnchor" type="Boolean"/>
+		<field name="bIsALeader" type="Boolean"/>
+		<field name="vehicleinfoVehicleSpawnInfo" type="BinHex"/>
+		<field name="vehiclesbankVehiclesBank" type="BinHex"/>
+		<field name="vehicleentityconfigVehicleConfig" type="BinHex"/>
+		<object name="ActivationSettings">
+			<field name="entcontContext" type="BinHex"/>
+			<field name="bIgnoreRestrictionZone" type="Boolean"/>
+		</object>
+		<object name="AttractorSettings">
+			<field name="selAttractorType" type="Enum"/>
+			<object name="StimSettings">
+				<field name="bSendStim" type="Boolean"/>
+				<field name="fStimRadius" type="Float"/>
+				<field name="vectorStimOffset" type="BinHex"/>
+				<field name="fStimFrequency" type="Float"/>
+				<field name="bUseOnlyOnce" type="Boolean"/>
+				<field name="fTimeBeforeResendStimAfterUse" type="Float"/>
+				<object name="AltitudeRestrictions">
+					<field name="bUseMaxAltRestriction" type="Boolean"/>
+				</object>
+				<object name="ConeRestrictions"/>
+			</object>
+			<object name="GotoSettings">
+				<field name="bDoActionOnSpot" type="Boolean"/>
+				<field name="bApplyAnchor" type="Boolean"/>
+				<field name="bUseSepcificSpeed" type="Boolean"/>
+				<field name="fSpecificSpeed" type="Float"/>
+			</object>
+			<object name="UserSettings">
+				<field name="bCivilian" type="Boolean"/>
+				<field hash="5270412C" type="BinHex"/>
+				<field name="bPlayer" type="Boolean"/>
+				<field name="fDisableAttractorOnEntityDuration" type="Float"/>
+				<field hash="D19FD9EF" type="BinHex"/>
+				<field name="bRestrictOnBehaviorStates" type="Boolean"/>
+				<field name="selAffiliation" type="Enum"/>
+				<field hash="808E0DAA" type="BinHex"/>
+				<field hash="F202E357" type="BinHex"/>
+				<field hash="15888F1E" type="BinHex"/>
+			</object>
+		</object>
+		<object name="PatrolSettings">
+			<field name="bIsFromCreationSettings" type="Boolean"/>
+			<field name="selPatrolType" type="Enum"/>
+		</object>
+		<object name="ProximityBhvSettings">
+			<field name="fProximityBhvDistanceMin" type="Float"/>
+			<field name="fProximityBhvDistanceMax" type="Float"/>
+			<field name="ProximityBhvOffset" type="BinHex"/>
+			<field name="bAllowInterruptionOnProximity" type="Boolean"/>
+			<field name="bTriggerOnTimer" type="Boolean"/>
+			<field name="fTriggerOnTimerDelay" type="Float"/>
+			<field name="bTriggerOnProfile" type="Boolean"/>
+			<field name="fTriggerOnProfileDelay" type="Float"/>
+			<field name="bUseParentSettings" type="Boolean"/>
+		</object>
+		<object name="ActionLoopSettings">
+			<field name="fTimerPeriod" type="Float"/>
+		</object>
+	</object>
+</class>

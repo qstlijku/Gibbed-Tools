@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DigitaltrippickupsettingParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="8ECDDD43" type="String"/>
+	<field hash="1237D4D9" type="BinHex"/>
+	<field hash="556C21B8" type="String"/>
+	<field hash="9FAACDAF" type="BinHex"/>
+	<field hash="0865A8FF" type="String"/>
+	<field hash="E23BC8DB" type="BinHex"/>
+	<field hash="534E8533" type="BinHex"/>
+</class>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Soundpropagationmanager_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fFadeInDuration" type="Float"/>
+	<field name="fFadeOutDuration" type="Float"/>
+	<field name="fDebugDisplayUpdateRate" type="Float"/>
+	<field name="fRaycastHitMinDistance" type="Float"/>
+	<field hash="98283CC0" type="BinHex"/>
+	<field name="fOcclusionPerMeterOfThickness" type="Float"/>
+	<field name="fOcclusionPerMeterOfPathDifference" type="Float"/>
+	<field hash="F4807F7E" type="BinHex"/>
+	<field name="fIndoorOutdoorAdditionalOcclusion" type="Float"/>
+	<field name="fVirtualPositionSegmentMinimumLength" type="Float"/>
+	<field name="fVirtualPositionSegmentMaximumLength" type="Float"/>
+	<field name="fHoleSamplingInterval" type="Float"/>
+	<object name="OcclusionLimiter">
+		<field name="MinRange" type="BinHex"/>
+		<field name="MaxRange" type="BinHex"/>
+		<object name="MaxEmittersPerFrame">
+			<field name="Normal" type="BinHex"/>
+			<field name="HighEnd" type="BinHex"/>
+		</object>
+	</object>
+</class>

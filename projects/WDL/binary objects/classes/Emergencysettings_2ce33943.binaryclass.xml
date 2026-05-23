@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Emergencysettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Parameters">
+		<object name="Parameter">
+			<field name="selUnitType" type="Enum"/>
+			<field name="singleclocreationsettingsCloSettings" type="BinHex"/>
+			<field name="iPercentageOfFunnyCloActivation" type="Int32"/>
+			<field name="vehiclebhvsetupVehicleGoToSetup" type="BinHex"/>
+			<field name="fleebehaviordescriptorFleeBhvDescriptor" type="BinHex"/>
+			<field name="iPercentageActivationAmbulance" type="Int32"/>
+			<object name="SpawningParameters">
+				<field name="fDistMaxFromRoad" type="Float"/>
+				<field name="fRoadTrafficMinWidth" type="Float"/>
+				<field name="fDelayBeforeSpawningEmergency" type="Float"/>
+			</object>
+			<object name="UnitConfigList"/>
+		</object>
+	</object>
+</class>

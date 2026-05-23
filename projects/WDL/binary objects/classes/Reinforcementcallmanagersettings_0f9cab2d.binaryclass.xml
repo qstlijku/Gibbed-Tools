@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Reinforcementcallmanagersettings_0f9cab2dParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="reinforcementcallsettingsDefaultCallSettings" type="BinHex"/>
+	<object name="Sounds">
+		<field hash="D8CA3FC4" type="String"/>
+		<field name="sndCallStartSound" type="BinHex"/>
+		<field hash="810FCB38" type="String"/>
+		<field name="sndCallFailSound" type="BinHex"/>
+		<field hash="6050EF30" type="String"/>
+		<field name="sndAlarmCallStartSound" type="BinHex"/>
+		<field hash="A67A300F" type="String"/>
+		<field name="sndAlarmCallFailSound" type="BinHex"/>
+		<field hash="5A3603BC" type="BinHex"/>
+		<field hash="2ADDFA17" type="BinHex"/>
+		<field hash="095DB782" type="BinHex"/>
+		<field hash="F2FAF4E5" type="BinHex"/>
+	</object>
+</class>

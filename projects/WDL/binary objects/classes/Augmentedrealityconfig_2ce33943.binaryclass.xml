@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Augmentedrealityconfig_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="62BD8D98" type="String"/>
+	<field name="fileCameraNoiseTexturePath" type="String"/>
+	<field name="fileColorRemapTexturePath" type="String"/>
+	<field hash="87278278" type="String"/>
+	<field name="fileTextureHitOverlay" type="String"/>
+	<field name="colorGradingColor" type="Vector3"/>
+	<field name="fGradingColorFalloff" type="Float"/>
+	<field name="fGradingColorStrength" type="Float"/>
+	<field name="fHitFadeTime" type="Float"/>
+	<field name="fHitUVShiftStrength" type="Float"/>
+	<field name="fScrollingLineSteps" type="Float"/>
+	<field name="colorScrollingLineColor" type="Vector3"/>
+	<field name="fScrollingLineFalloff" type="Float"/>
+	<field name="fScrollingLineStrength" type="Float"/>
+	<field name="fScrollingLineSpeed" type="Float"/>
+</class>

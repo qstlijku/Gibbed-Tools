@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="HackednpcresponsesParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="2034E837" type="String"/>
+	<field name="hackresponsedataItemType" type="BinHex"/>
+	<object name="Settings">
+		<field hash="176D61E2" type="String"/>
+		<field name="sndPlaySoundOnEntity" type="BinHex"/>
+		<field hash="ED7FBDA3" type="BinHex"/>
+		<field name="selReactionType" type="Enum"/>
+		<field hash="31237D24" type="BinHex"/>
+		<field hash="266925C1" type="BinHex"/>
+		<field name="selType" type="Enum"/>
+		<field name="itemsItem" type="BinHex"/>
+		<field name="selEmotion" type="Enum"/>
+		<field hash="87C420A0" type="String"/>
+		<field hash="3B9E4A00" type="BinHex"/>
+	</object>
+</class>

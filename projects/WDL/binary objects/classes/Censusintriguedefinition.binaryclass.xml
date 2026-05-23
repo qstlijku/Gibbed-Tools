@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CensusintriguedefinitionParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="547A4582" type="BinHex"/>
+	<field hash="9A9EDE52" type="BinHex"/>
+	<field hash="E89C8752" type="BinHex"/>
+	<field hash="225841E0" type="BinHex"/>
+	<object hash="661C7C34">
+		<field hash="6D1E1959" type="String"/>
+		<field name="selType" type="Enum"/>
+		<object name="Object">
+			<field hash="AA46E6D5" type="BinHex"/>
+			<field hash="86F4591D" type="BinHex"/>
+			<field hash="29BF0060" type="BinHex"/>
+			<field hash="60F459F3" type="BinHex"/>
+			<field hash="90D2D7A2" type="BinHex"/>
+			<field hash="C6DB5E06" type="BinHex"/>
+			<field name="bNormal" type="Boolean"/>
+			<field hash="4983EA36" type="BinHex"/>
+			<field hash="9EC29FF0" type="BinHex"/>
+			<field hash="65431F57" type="BinHex"/>
+			<field hash="81954214" type="BinHex"/>
+			<field hash="3629079C" type="BinHex"/>
+			<field hash="5EF623AA" type="BinHex"/>
+			<field hash="A40E0325" type="String"/>
+			<field name="selMissionType" type="Enum"/>
+			<field hash="2714C5EB" type="BinHex"/>
+			<field hash="3CCD7D0D" type="BinHex"/>
+			<field hash="F4AC7D2B" type="BinHex"/>
+			<field hash="BB889310" type="BinHex"/>
+			<field hash="2092D399" type="BinHex"/>
+			<field hash="74DB7F38" type="BinHex"/>
+			<field hash="C72124E9" type="BinHex"/>
+			<field hash="51308FB2" type="BinHex"/>
+			<object hash="7A7D8818">
+				<field hash="94DFA114" type="BinHex"/>
+				<object hash="7A7D8818">
+					<field hash="94DFA114" type="BinHex"/>
+				</object>
+			</object>
+			<object hash="927AC87B">
+				<object name="TagCategorySelectionArray">
+					<object name="TagCategorySelection">
+						<field hash="CF68E402" type="String"/>
+						<field name="hid_DTCTH_ClassName" type="BinHex"/>
+						<field hash="BDB3B8D5" type="String"/>
+						<field hash="401A8276" type="BinHex"/>
+						<field hash="F5391DFF" type="BinHex"/>
+						<field name="tagcategoryTagCategory" type="BinHex"/>
+						<object name="Tags"/>
+					</object>
+				</object>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="B2E4E33E">
+				<object name="TagCategorySelectionArray">
+					<object name="TagCategorySelection">
+						<field hash="CF68E402" type="String"/>
+						<field name="hid_DTCTH_ClassName" type="BinHex"/>
+						<field hash="BDB3B8D5" type="String"/>
+						<field hash="401A8276" type="BinHex"/>
+						<field hash="F5391DFF" type="BinHex"/>
+						<field name="tagcategoryTagCategory" type="BinHex"/>
+						<object name="Tags"/>
+					</object>
+				</object>
+				<object hash="D0C5DABB">
+					<field hash="CF68E402" type="String"/>
+					<field name="hid_DTCTH_ClassName" type="BinHex"/>
+					<object name="TagCategorySelectionDescriptors">
+						<object name="TagCategorySelectionDescriptor">
+							<field name="tagcategoryTagCategory" type="BinHex"/>
+							<field name="bMultiSelect" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="7435B878">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="DBE00538">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

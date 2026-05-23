@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleenginesounddbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Engine">
+		<field hash="48B16D70" type="String"/>
+		<field name="sndEngineThrottleLoop" type="BinHex"/>
+		<field hash="1C48EF34" type="String"/>
+		<field name="sndEngineIgnition" type="BinHex"/>
+		<field hash="5856F3F8" type="String"/>
+		<field name="sndEngineIgnitionFromHack" type="BinHex"/>
+		<field hash="31A327C6" type="String"/>
+		<field name="sndTurnOffEngine" type="BinHex"/>
+		<field hash="3D7BD1D5" type="String"/>
+		<field name="sndEngineReverseStart" type="BinHex"/>
+		<field hash="DCA33E95" type="String"/>
+		<field name="sndEngineReverseStop" type="BinHex"/>
+		<field hash="CA7E3836" type="BinHex"/>
+		<field hash="C465DC4B" type="BinHex"/>
+		<field hash="2DF6B6E1" type="BinHex"/>
+		<field hash="254FF22E" type="BinHex"/>
+		<field hash="6DF56C02" type="BinHex"/>
+		<field hash="4B908E69" type="BinHex"/>
+		<field name="fThrottleRtcpLag" type="Float"/>
+		<object name="curveThrottleStartup">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots"/>
+		</object>
+	</object>
+	<object name="EngineNpc">
+		<field hash="4EBF2D16" type="String"/>
+		<field name="sndAiEngineThrottleLoop" type="BinHex"/>
+		<field hash="17546824" type="String"/>
+		<field name="sndNpcEngineThrottleLoop" type="BinHex"/>
+		<field hash="52A85F77" type="String"/>
+		<field name="sndEngineIgnitionNPC" type="BinHex"/>
+		<field hash="3D0E817C" type="BinHex"/>
+		<field hash="DF0DD3BF" type="BinHex"/>
+		<field hash="9707D121" type="BinHex"/>
+	</object>
+	<object hash="22AF43B5">
+		<field name="fLagRPMdecreasing" type="Float"/>
+		<field name="fLagRPMincreasing" type="Float"/>
+		<field name="vec2RpCffmStartupRange" type="Vector2"/>
+		<object name="curveRpmStartup">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots"/>
+		</object>
+	</object>
+	<object name="Common">
+		<field name="vectorEngineOffset" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="SoundocclusionzoneParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fAmbianceOcclusionValue" type="Float"/>
+	<field hash="13D6CB8F" type="BinHex"/>
+	<field name="bIsIndoor" type="Boolean"/>
+	<object name="sndauxbusAuxiliaryBus">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object name="sndswvlRegionSwitchValue">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object name="Ambiance">
+		<field name="sndregRegionId" type="BinHex"/>
+	</object>
+	<object hash="4657C042">
+		<object name="Sound">
+			<field hash="87E038DB" type="String"/>
+			<field name="sndSoundId" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="37E8F84F">
+		<object name="Sound">
+			<field hash="87E038DB" type="String"/>
+			<field name="sndSoundId" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+	</object>
+</class>

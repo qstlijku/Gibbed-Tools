@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cprogressionmoduleelementssettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Settings">
+		<object name="Elements">
+			<object name="Element">
+				<field name="text_Name" type="String"/>
+				<field name="Name" type="BinHex"/>
+				<object name="IsActive">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+				<object name="Atoms"/>
+				<object hash="C7D6C7FE"/>
+				<object name="Items">
+					<object name="Item">
+						<field name="itemsItem" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

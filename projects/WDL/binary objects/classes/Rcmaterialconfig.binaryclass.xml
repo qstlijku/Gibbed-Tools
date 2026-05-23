@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RcmaterialconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="669F4730">
+		<object hash="3DB160E0">
+			<field hash="0865A8FF" type="String"/>
+			<field hash="E23BC8DB" type="BinHex"/>
+			<field hash="810AF893" type="String"/>
+			<field hash="18AF96C9" type="BinHex"/>
+		</object>
+	</object>
+</class>

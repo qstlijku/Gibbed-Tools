@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BinkmissiontransitiondatabaseParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bEnablePDAExtraction" type="Boolean"/>
+	<field name="sndIntroSoundTrack" type="BinHex"/>
+	<field name="sndOutroSoundTrack" type="BinHex"/>
+	<object name="IntroVideoProperties">
+		<field name="videosBinkVideo" type="BinHex"/>
+	</object>
+	<object name="LoopingVideoProperties">
+		<field name="videosBinkVideo" type="BinHex"/>
+	</object>
+	<object name="OutroVideoProperties">
+		<field name="videosBinkVideo" type="BinHex"/>
+	</object>
+</class>

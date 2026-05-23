@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Hackingrewarditemsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="ItemsOfInterest">
+		<object name="Item">
+			<field name="itemsItem" type="BinHex"/>
+		</object>
+	</object>
+	<object name="ItemsQualityLevel">
+		<object name="Average">
+			<object name="AverageItem">
+				<field name="itemsAverageItem" type="BinHex"/>
+			</object>
+		</object>
+		<object name="Good">
+			<object name="GoodItem">
+				<field name="itemsGoodItem" type="BinHex"/>
+			</object>
+		</object>
+		<object name="VeryGood">
+			<object name="VeryGoodItem">
+				<field name="itemsVeryGoodItem" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

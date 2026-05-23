@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uirewardtrackoverridesdb_10c6a3a2Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="46CE87D7">
+		<object hash="A853DEFA">
+			<field hash="D1287212" type="String"/>
+			<field hash="C2925E16" type="BinHex"/>
+			<field hash="6DD09D90" type="BinHex"/>
+			<field hash="99B426E3" type="BinHex"/>
+			<object name="locstridName">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="7B533307">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

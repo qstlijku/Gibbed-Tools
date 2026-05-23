@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Vehicledefaultlightsparams_abf9dc75Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="DefaultLampList">
+		<object name="DefaultLamp">
+			<field name="vehiclelamppresetLampPreset" type="BinHex"/>
+			<object name="LightSlotList">
+				<object name="LightSlot">
+					<field name="LightSlot" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="OpenCloseHour">
+		<field name="fLowBeamOpeningTime" type="Float"/>
+		<field name="fLowBeamClosingTime" type="Float"/>
+		<field name="fPositionLightsOpeningTime" type="Float"/>
+		<field name="fPositionLightsClosingTime" type="Float"/>
+	</object>
+</class>

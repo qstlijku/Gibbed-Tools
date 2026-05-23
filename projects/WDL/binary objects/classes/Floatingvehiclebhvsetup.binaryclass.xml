@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FloatingvehiclebhvsetupParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selFloatingBhv" type="Enum"/>
+	<object name="Detection">
+		<field name="fLOSReaquisitionTime" type="Float"/>
+		<field name="fLOSFailTime" type="Float"/>
+		<field name="bUseGaugeDetection" type="Boolean"/>
+	</object>
+	<object name="RangeMonitoring">
+		<field name="fWarningDistanceThreshold" type="Float"/>
+		<field name="fMaxDistanceThreshold" type="Float"/>
+		<field name="fTimeOutsideMaxDistanceThreshold" type="Float"/>
+	</object>
+	<object name="Physics">
+		<field name="fSpeedKmh" type="Float"/>
+	</object>
+	<object name="Rubberband">
+		<object name="curveCloseRangeSpeedModifierCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="curveFarRangeSpeedModifierCurve">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="MiscBhv">
+		<field name="bCanShoot" type="Boolean"/>
+		<field name="bCanDriverShoot" type="Boolean"/>
+	</object>
+</class>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Hinttriggermanager_0623d02eParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="2C73599B">
+		<object name="Tutorials">
+			<field hash="ACBB12A1" type="String"/>
+			<field hash="7622CC04" type="BinHex"/>
+			<field name="iPriority" type="Int32"/>
+			<field name="fDisplayTime" type="Float"/>
+			<field hash="279D328F" type="BinHex"/>
+			<field hash="631C0186" type="BinHex"/>
+			<field hash="B2870E8A" type="BinHex"/>
+			<field hash="37D524C3" type="BinHex"/>
+			<field hash="EE8FE6FF" type="String"/>
+			<field hash="6D96A5D4" type="BinHex"/>
+			<field hash="176EF66E" type="BinHex"/>
+			<object hash="A671E6E4">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="EFCD41D4">
+				<object hash="129A2A19"/>
+				<object hash="B278DFAC">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

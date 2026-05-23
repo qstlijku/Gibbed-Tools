@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ColorremapoverridesetdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="SetItems">
+		<object name="SetItem">
+			<field name="fStartHour" type="Float"/>
+			<field name="fEndHour" type="Float"/>
+			<field hash="3DD815A1" type="String"/>
+			<field name="fileColorRemapTexturePath" type="String"/>
+		</object>
+	</object>
+</class>

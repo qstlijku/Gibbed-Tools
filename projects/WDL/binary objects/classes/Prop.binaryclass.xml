@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PropParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="E6655990" type="String"/>
+	<field name="archArchetype" type="BinHex"/>
+	<field hash="5CF95CDD" type="BinHex"/>
+	<field hash="FB1E109F" type="BinHex"/>
+	<field name="selPropSlot" type="Enum"/>
+	<field hash="6C09A6D9" type="BinHex"/>
+	<field name="selDefaultActivityType" type="Enum"/>
+	<field name="bUseIncludeTags" type="Boolean"/>
+	<field name="bUseExcludeTags" type="Boolean"/>
+	<field name="fLinkedPropSpawnChance" type="Float"/>
+	<field name="bRestrictByDistrict" type="Boolean"/>
+	<object name="curveSpawnProbability">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="PropGroup">
+		<field name="selGroup" type="Enum"/>
+	</object>
+	<object name="ModelPart">
+		<field name="hidVersion" type="BinHex"/>
+		<field name="uniqueidnocopyUniqueID" type="BinHex"/>
+		<field name="graphickitpartPart" type="BinHex"/>
+		<field name="selPoseDefinitionId" type="Enum"/>
+		<field name="selPoseDefinitionPathID" type="Enum"/>
+		<field name="facialposedefinitionExtraFacialPoseDefinition" type="BinHex"/>
+		<field hash="7E23AAAE" type="String"/>
+		<field name="selVisualModelOverride" type="Enum"/>
+		<object name="BoneAnchor">
+			<field hash="3BA7D966" type="String"/>
+			<field name="selBoneName" type="Enum"/>
+			<field name="vectorTranslation" type="BinHex"/>
+			<field name="angvecRotation" type="BinHex"/>
+			<field name="vectorNonUniformScale" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Weather">
+		<field name="MinRainIntensity" type="BinHex"/>
+		<field name="MaxRainIntensity" type="BinHex"/>
+	</object>
+	<object name="LinkedProps">
+		<object name="propPropDBKey">
+			<field name="propPropDBKey" type="BinHex"/>
+		</object>
+	</object>
+</class>

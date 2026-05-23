@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronewatchstatesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="163CA2CF" type="BinHex"/>
+	<field hash="DC2758E3" type="BinHex"/>
+	<field hash="E02A67BA" type="BinHex"/>
+	<field hash="CB92FB34" type="BinHex"/>
+	<field hash="2C0D130F" type="BinHex"/>
+	<field hash="10002C56" type="BinHex"/>
+	<field hash="A4D7FA42" type="BinHex"/>
+	<field hash="98DAC51B" type="BinHex"/>
+	<field hash="6C6044F3" type="BinHex"/>
+	<field hash="506D7BAA" type="BinHex"/>
+	<field hash="162AE2B3" type="BinHex"/>
+	<field hash="AEC91DB8" type="BinHex"/>
+</class>

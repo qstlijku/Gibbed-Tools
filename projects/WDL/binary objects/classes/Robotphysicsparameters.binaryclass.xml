@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RobotphysicsparametersParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fMass" type="Float"/>
+	<field name="fRadius" type="Float"/>
+	<field name="fHalfHeight" type="Float"/>
+	<field name="fGroundCheckAdjust" type="Float"/>
+	<field name="fGroundCheckDepth" type="Float"/>
+</class>

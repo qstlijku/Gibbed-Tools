@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BareknucklecrowdsoundconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="0C05F1DA" type="String"/>
+	<field hash="0F65792F" type="BinHex"/>
+	<field hash="03FE7A18" type="BinHex"/>
+	<field hash="A922CB30" type="String"/>
+	<field hash="1578A190" type="BinHex"/>
+	<field hash="01FE4AEE" type="BinHex"/>
+	<field hash="5175C3CD" type="BinHex"/>
+	<field hash="4809BBAA" type="BinHex"/>
+	<field hash="63059763" type="BinHex"/>
+	<field hash="5F08A83A" type="BinHex"/>
+	<field hash="4BCB99DF" type="String"/>
+	<field hash="462C5BFC" type="BinHex"/>
+	<field hash="CB022ED6" type="BinHex"/>
+	<field hash="B3F6B689" type="String"/>
+	<field hash="BE1174AA" type="BinHex"/>
+	<field hash="CFFB4DE5" type="BinHex"/>
+	<object hash="A950116A">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object hash="53148C03">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+	<object hash="B3FC45D1">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+</class>

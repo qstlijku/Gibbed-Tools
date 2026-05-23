@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DigitaltriploadoutsdescriptorParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="7AD4E82F">
+		<object hash="B1D8F7DE">
+			<field hash="BE2B09DE" type="BinHex"/>
+			<field hash="2BE2532C" type="BinHex"/>
+			<field hash="5B28DCC6" type="BinHex"/>
+			<field hash="34FEC729" type="BinHex"/>
+			<object hash="A52A6CAD">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

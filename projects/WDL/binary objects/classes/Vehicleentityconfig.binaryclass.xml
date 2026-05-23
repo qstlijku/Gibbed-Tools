@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicleentityconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="vehicleinfoVehicleSpawnInfo" type="BinHex"/>
+	<field name="selAffiliation" type="Enum"/>
+	<object name="PGTConfig">
+		<field hash="64B6E507" type="BinHex"/>
+	</object>
+	<object name="Properties">
+		<field name="bIsBuddyAI" type="Boolean"/>
+		<field name="bIsPlayerAlly" type="Boolean"/>
+		<field name="selMindSet" type="Enum"/>
+		<field hash="3830264B" type="BinHex"/>
+		<field name="bForceRespawnAfterCheckpoint" type="Boolean"/>
+		<field name="stimtableStimEffectTable" type="BinHex"/>
+		<field hash="17677F66" type="BinHex"/>
+	</object>
+</class>

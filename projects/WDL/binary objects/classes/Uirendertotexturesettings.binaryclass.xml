@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UirendertotexturesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="E6E847F3" type="String"/>
+	<field hash="11B13755" type="BinHex"/>
+	<object hash="C43A8FB2">
+		<field hash="18BA547A" type="String"/>
+		<field name="sMainContainerName" type="String"/>
+		<field name="Width" type="BinHex"/>
+		<field name="Height" type="BinHex"/>
+		<field hash="3458BF5D" type="BinHex"/>
+		<field hash="72C2983D" type="BinHex"/>
+		<field hash="B081E933" type="BinHex"/>
+		<field hash="1FDBEFB3" type="BinHex"/>
+		<field hash="6D39D1BA" type="BinHex"/>
+		<field hash="C960877E" type="BinHex"/>
+		<object hash="59DF4935">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="3852BA81">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="A15BEB3B">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="E55B2841">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="7C5279FB">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="81D039E2">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<field hash="32FE0577" type="BinHex"/>
+		<object hash="4CB3A729">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="10A85614">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="516F9453">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="2DE2CC82">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="66F9C6B2">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="EE208BDD">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="A980F10D">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="94E0D8BD">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="26C004AD">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="8694744F">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="7DE53005">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="35CD9882">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="FE0E57E5">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="EB677341">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="528E80F3">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

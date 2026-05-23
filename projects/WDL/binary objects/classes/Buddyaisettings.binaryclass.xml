@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BuddyaisettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9D9E06AA" type="String"/>
+	<field name="TooFarBark" type="BinHex"/>
+	<field hash="CFB23902" type="String"/>
+	<field name="TooFarPhoneBark" type="BinHex"/>
+	<field hash="8B5C6AFD" type="String"/>
+	<field name="CantEnterVehicleBark" type="BinHex"/>
+	<field name="UnderFireBark" type="BinHex"/>
+	<field hash="A560EDA2" type="String"/>
+	<field name="CantReachPlayerBark" type="BinHex"/>
+	<field name="bIsVisible" type="Boolean"/>
+	<field name="bIsInvincible" type="Boolean"/>
+	<field name="fMaxDelayBetweenBuddyGunshot" type="Float"/>
+	<field hash="3922F6A0" type="BinHex"/>
+	<field hash="630D8787" type="BinHex"/>
+	<object name="StopAndGoFollowEntitySettings">
+		<field name="fDistanceToFollowBarking" type="Float"/>
+		<field name="fDistanceToRestoreNormalFollow" type="Float"/>
+		<field name="TimeBetweenBark" type="BinHex"/>
+		<field name="fDistanceToIdle" type="Float"/>
+		<field hash="11D6055F" type="BinHex"/>
+		<field name="fDistanceToUnspawn" type="Float"/>
+	</object>
+	<object name="StopAndGoFollowEntityStealthSettings">
+		<field name="fDistanceToFollowBarking" type="Float"/>
+		<field name="fDistanceToRestoreNormalFollow" type="Float"/>
+		<field name="TimeBetweenBark" type="BinHex"/>
+		<field name="fDistanceToIdle" type="Float"/>
+		<field hash="11D6055F" type="BinHex"/>
+		<field name="fDistanceToUnspawn" type="Float"/>
+	</object>
+	<object name="StopAndGoFollowPathSettings">
+		<field name="fDistanceToFollowBarking" type="Float"/>
+		<field name="fDistanceToRestoreNormalFollow" type="Float"/>
+		<field name="TimeBetweenBark" type="BinHex"/>
+		<field name="fDistanceToIdle" type="Float"/>
+		<field hash="11D6055F" type="BinHex"/>
+		<field name="fDistanceToUnspawn" type="Float"/>
+	</object>
+	<object name="FollowEntitySettings">
+		<field name="fDistanceToTargetReached" type="Float"/>
+		<field name="fMinDistanceToStart" type="Float"/>
+	</object>
+	<object name="FollowEntityStealthSettings">
+		<field name="fDistanceToTargetReached" type="Float"/>
+		<field name="fMinDistanceToStart" type="Float"/>
+	</object>
+	<object hash="F6BCFC10">
+		<object hash="7382BB40">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="D3380D37">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="20C33FC6">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="AB8463CF">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

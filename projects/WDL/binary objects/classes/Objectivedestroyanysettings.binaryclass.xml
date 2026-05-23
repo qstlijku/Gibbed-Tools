@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ObjectivedestroyanysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="B4945DFB" type="BinHex"/>
+	<field hash="D200052F" type="BinHex"/>
+	<field hash="6D5DD14E" type="BinHex"/>
+	<field hash="0AC2704E" type="BinHex"/>
+	<field hash="C0D9D9D2" type="BinHex"/>
+	<object hash="DADF8182">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="3CFBA4A2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="14BBAE7D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="FC293553">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="4D91C3A2">
+		<object name="Type">
+			<field hash="E035E191" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="26F26887"/>
+	<object hash="E8F9ADB0">
+		<object hash="7F774473">
+			<field hash="14958AD5" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="A2139B40">
+		<field name="fDuration" type="Float"/>
+		<object hash="E2474051">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="F19380B0">
+		<field hash="5B334899" type="BinHex"/>
+		<field hash="FE7DCB74" type="BinHex"/>
+		<field name="fDuration" type="Float"/>
+		<object hash="E2474051">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="4B95868D">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="5D7C10C3"/>
+	<object hash="6D636C8E"/>
+</class>

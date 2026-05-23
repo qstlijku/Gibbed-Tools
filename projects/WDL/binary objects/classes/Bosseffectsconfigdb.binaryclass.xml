@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="BosseffectsconfigdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="7D96FC53" type="BinHex"/>
+	<object name="Effects">
+		<field hash="C6804F8E" type="BinHex"/>
+		<field hash="1BF0C174" type="BinHex"/>
+		<object name="Lights">
+			<object name="Light">
+				<field name="iLightSlot" type="Int32"/>
+				<object hash="80AC1C43">
+					<field hash="87B0EBFA" type="BinHex"/>
+					<field hash="69390B3A" type="BinHex"/>
+					<field name="vectorColor" type="BinHex"/>
+					<field hash="5AC060DC" type="BinHex"/>
+					<field hash="2506A1E6" type="BinHex"/>
+					<field hash="82544900" type="BinHex"/>
+					<field hash="59CB896B" type="BinHex"/>
+					<field hash="53196407" type="BinHex"/>
+					<field name="fBeamLength" type="Float"/>
+					<field hash="564C0DEA" type="BinHex"/>
+					<object name="curveFlashingIntensityCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Effects">
+			<field hash="C6804F8E" type="BinHex"/>
+			<field hash="1BF0C174" type="BinHex"/>
+			<object name="Lights">
+				<object name="Light">
+					<field name="iLightSlot" type="Int32"/>
+					<object hash="80AC1C43">
+						<field hash="87B0EBFA" type="BinHex"/>
+						<field hash="69390B3A" type="BinHex"/>
+						<field name="vectorColor" type="BinHex"/>
+						<field hash="5AC060DC" type="BinHex"/>
+						<field hash="2506A1E6" type="BinHex"/>
+						<field hash="82544900" type="BinHex"/>
+						<field hash="59CB896B" type="BinHex"/>
+						<field hash="53196407" type="BinHex"/>
+						<field name="fBeamLength" type="Float"/>
+						<field hash="564C0DEA" type="BinHex"/>
+						<object name="curveFlashingIntensityCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="6E1478D3">
+		<object hash="6E1478D3">
+			<field hash="F88154EE" type="String"/>
+			<field hash="DC207BD1" type="BinHex"/>
+			<object hash="0E5DE3B3">
+				<field name="iLightSlot" type="Int32"/>
+				<object hash="80AC1C43">
+					<field hash="87B0EBFA" type="BinHex"/>
+					<field hash="69390B3A" type="BinHex"/>
+					<field name="vectorColor" type="BinHex"/>
+					<field hash="5AC060DC" type="BinHex"/>
+					<field hash="2506A1E6" type="BinHex"/>
+					<field hash="82544900" type="BinHex"/>
+					<field hash="59CB896B" type="BinHex"/>
+					<field hash="53196407" type="BinHex"/>
+					<field name="fBeamLength" type="Float"/>
+					<field hash="564C0DEA" type="BinHex"/>
+					<object name="curveFlashingIntensityCurve">
+						<field name="hidNumKnots" type="BinHex"/>
+						<object name="Knots">
+							<object name="Knot">
+								<field name="Value" type="Vector4"/>
+								<field name="Info" type="Vector4"/>
+								<field name="Type" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="0E5DE3B3">
+					<field name="iLightSlot" type="Int32"/>
+					<object hash="80AC1C43">
+						<field hash="87B0EBFA" type="BinHex"/>
+						<field hash="69390B3A" type="BinHex"/>
+						<field name="vectorColor" type="BinHex"/>
+						<field hash="5AC060DC" type="BinHex"/>
+						<field hash="2506A1E6" type="BinHex"/>
+						<field hash="82544900" type="BinHex"/>
+						<field hash="59CB896B" type="BinHex"/>
+						<field hash="53196407" type="BinHex"/>
+						<field name="fBeamLength" type="Float"/>
+						<field hash="564C0DEA" type="BinHex"/>
+						<object name="curveFlashingIntensityCurve">
+							<field name="hidNumKnots" type="BinHex"/>
+							<object name="Knots">
+								<object name="Knot">
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="BinHex"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

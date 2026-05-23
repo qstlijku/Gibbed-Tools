@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Plasmamadblendsettingsdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="B4C5AB83">
+		<object hash="69CE8000">
+			<field name="text_Name" type="String"/>
+			<field name="Name" type="BinHex"/>
+			<field name="selLayerMode" type="Enum"/>
+			<field hash="0EEF913A" type="BinHex"/>
+			<field name="fPelvis" type="Float"/>
+			<field hash="10422CB3" type="BinHex"/>
+			<field hash="A16616C6" type="BinHex"/>
+			<field hash="701DC590" type="BinHex"/>
+			<field hash="F10434E0" type="BinHex"/>
+			<field hash="5E8484EB" type="BinHex"/>
+			<field name="fLeftHand" type="Float"/>
+			<field hash="56ED24B5" type="BinHex"/>
+			<field hash="A8E024C4" type="BinHex"/>
+			<field name="fRightHand" type="Float"/>
+			<field hash="7137D381" type="BinHex"/>
+			<field name="fHead" type="Float"/>
+			<field hash="FAD926C7" type="BinHex"/>
+			<field hash="111E442A" type="BinHex"/>
+			<field name="fLeftFoot" type="Float"/>
+			<field hash="EE132644" type="BinHex"/>
+			<field hash="71D13AA8" type="BinHex"/>
+			<field hash="A7BAC170" type="BinHex"/>
+			<field name="fRightFoot" type="Float"/>
+			<field hash="2CBB417B" type="BinHex"/>
+			<object hash="491D5859">
+				<object name="Override">
+					<object hash="C2AEAD86">
+						<field hash="205A4440" type="BinHex"/>
+						<object hash="4D47FEC8">
+							<field hash="363F5FCE" type="String"/>
+							<field name="pmsPMSName" type="BinHex"/>
+							<field name="selEnumValue" type="Enum"/>
+						</object>
+					</object>
+					<object hash="76F2CDAB">
+						<object hash="820306E5">
+							<field hash="E316A445" type="BinHex"/>
+							<field name="value" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UiingamemapzonesettingParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="366EAE42" type="BinHex"/>
+	<field name="bUseFill" type="Boolean"/>
+	<field name="colorFillColor" type="Vector3"/>
+	<field name="FillColorAlpha" type="BinHex"/>
+	<field name="bUseInnerFill" type="Boolean"/>
+	<field name="colorInnerColor" type="Vector3"/>
+	<field name="InnerColorAlpha" type="BinHex"/>
+	<field name="fInnerRadiusRatio" type="Float"/>
+	<field name="bUseBorder" type="Boolean"/>
+	<field hash="167BB5C0" type="BinHex"/>
+	<field name="colorBorderColor" type="Vector3"/>
+	<field name="BorderColorAlpha" type="BinHex"/>
+	<field hash="44C3A1A5" type="BinHex"/>
+	<field hash="4CAB3F56" type="BinHex"/>
+	<field hash="AA8A08A0" type="BinHex"/>
+	<field hash="4B4737BE" type="BinHex"/>
+	<field name="bUseFx" type="Boolean"/>
+	<field name="colorFxColor" type="Vector3"/>
+	<field name="FxColorAlpha" type="BinHex"/>
+	<field name="colorFxBorderColor" type="Vector3"/>
+	<field name="FxBorderColorAlpha" type="BinHex"/>
+	<field name="colorFxCenterColor" type="Vector3"/>
+	<field name="FxCenterColorAlpha" type="BinHex"/>
+	<field name="fScaleAnimationTime" type="Float"/>
+	<field name="fScaleAnimationDelay" type="Float"/>
+	<field name="fPosAnimationTime" type="Float"/>
+	<field name="fPosAnimationDelay" type="Float"/>
+	<field name="bIsDrawAreaOutsideShape" type="Boolean"/>
+	<field name="fMaxDistanceFromPlayer" type="Float"/>
+	<field hash="1AB0401D" type="BinHex"/>
+	<field hash="13D4B767" type="BinHex"/>
+	<field hash="FB14CDCC" type="BinHex"/>
+	<field hash="4BCD3119" type="BinHex"/>
+	<field name="bIsInnerColorSerialized" type="Boolean"/>
+	<object name="FillIconAnimationTexture">
+		<field name="bIsUsed" type="Boolean"/>
+		<field name="bIsLooping" type="Boolean"/>
+		<field name="selDispensorType" type="Enum"/>
+		<field name="fIconSwapDelay" type="Float"/>
+		<object name="IconTexturesList">
+			<object name="IconTexture">
+				<field hash="33E4567C" type="String"/>
+				<field name="fileIconTexture" type="String"/>
+			</object>
+		</object>
+	</object>
+	<object name="FillIconAnimationColor">
+		<field name="bIsUsed" type="Boolean"/>
+		<field name="bIsLooping" type="Boolean"/>
+		<field name="bIsOneWay" type="Boolean"/>
+		<field name="colorStartColor" type="Vector3"/>
+		<field name="fStartAlpha" type="Float"/>
+		<field name="colorEndColor" type="Vector3"/>
+		<field name="fEndAlpha" type="Float"/>
+		<field name="fColorAnimDelay" type="Float"/>
+		<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+		<field name="bIsDelayedBothWays" type="Boolean"/>
+		<field name="fColorDuration" type="Float"/>
+	</object>
+	<object name="BorderIconAnimationColor">
+		<field name="bIsUsed" type="Boolean"/>
+		<field name="bIsLooping" type="Boolean"/>
+		<field name="bIsOneWay" type="Boolean"/>
+		<field name="colorStartColor" type="Vector3"/>
+		<field name="fStartAlpha" type="Float"/>
+		<field name="colorEndColor" type="Vector3"/>
+		<field name="fEndAlpha" type="Float"/>
+		<field name="fColorAnimDelay" type="Float"/>
+		<field name="fColorAnimDelayBetweenLoop" type="Float"/>
+		<field name="bIsDelayedBothWays" type="Boolean"/>
+		<field name="fColorDuration" type="Float"/>
+	</object>
+</class>

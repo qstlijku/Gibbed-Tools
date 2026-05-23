@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cprogressionmoduleatomssettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Settings">
+		<object hash="52321587">
+			<object hash="353BE5DB">
+				<field name="text_Name" type="String"/>
+				<field name="Name" type="BinHex"/>
+				<field hash="A954A248" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="1D38085E">
+			<object hash="80724A45">
+				<field name="text_Name" type="String"/>
+				<field name="Name" type="BinHex"/>
+				<field hash="C6BB2A91" type="String"/>
+				<field hash="859DE1A0" type="BinHex"/>
+				<field name="Value" type="Vector4"/>
+				<object hash="4AAD7D5D">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+				<object hash="4C4AD12B">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

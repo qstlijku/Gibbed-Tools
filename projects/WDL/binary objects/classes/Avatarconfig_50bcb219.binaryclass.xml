@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Avatarconfig_50bcb219Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="NetSurfing">
+		<field name="fNodeDiscardDistance" type="Float"/>
+		<field name="fNodeUsageDistance" type="Float"/>
+		<field name="fNodeConnectionDistance" type="Float"/>
+		<field name="fNodeUpdatableDistance" type="Float"/>
+		<field name="fNodeSize" type="Float"/>
+		<field name="colorNodeVirtualColor" type="Vector3"/>
+		<field name="fNodeVirtualAlpha" type="Float"/>
+		<field name="colorNodeHackableColor" type="Vector3"/>
+		<field name="fNodeHackableAlpha" type="Float"/>
+		<field name="colorNodeCameraColor" type="Vector3"/>
+		<field name="fNodeCameraAlpha" type="Float"/>
+		<field name="colorNodePlayerColor" type="Vector3"/>
+		<field name="fNodePlayerAlpha" type="Float"/>
+		<field name="colorNodeSelectionColor" type="Vector3"/>
+		<field name="colorLineColor" type="Vector3"/>
+		<field name="fLineAlpha" type="Float"/>
+		<field name="fSpeedNormal" type="Float"/>
+		<field name="fSpeedMax" type="Float"/>
+		<field name="fSpeedMaxExtra" type="Float"/>
+		<field name="fSpeedAccel" type="Float"/>
+		<field name="fSpeedDecel" type="Float"/>
+	</object>
+	<object name="Locomotion">
+		<field name="curvelibJoystickSpeedCurve" type="BinHex"/>
+		<field name="fPlantAngleThreshold" type="Float"/>
+		<field name="fBankingAngleDeadzone" type="Float"/>
+		<field name="fBankingLagCenter" type="Float"/>
+		<field name="fBankingLagOut" type="Float"/>
+		<field name="bIsObstacleAvoidanceActive" type="Boolean"/>
+		<field name="fAvoidanceWalkForce" type="Float"/>
+		<field name="fAvoidanceJogForce" type="Float"/>
+		<field name="fAvoidanceSprintForce" type="Float"/>
+		<field hash="68690570" type="BinHex"/>
+		<field name="bBlockedByObstacleActivated" type="Boolean"/>
+		<field name="bBlockedByCliffsActivated" type="Boolean"/>
+		<field name="bEdgeSlideActivated" type="Boolean"/>
+		<field name="bSurfacePosAdjustmentActivated" type="Boolean"/>
+		<field name="fHighProfileCooldown" type="Float"/>
+		<object name="CollisionStumbleReaction">
+			<field name="bIsStumbleActive" type="Boolean"/>
+			<field name="bIsPolesAndCornersDetectionActive" type="Boolean"/>
+			<field name="fImmunityDelayAfterSmallStumbles" type="Float"/>
+			<field name="fImmunityDelayAfterBigStumbles" type="Float"/>
+			<field name="fMinStressRatioForBigStumbles" type="Float"/>
+			<field name="fFrequentStumbleDelay" type="Float"/>
+			<field name="fObstacleMinHeightForCollisionStumbles" type="Float"/>
+		</object>
+		<object name="Accessories">
+			<field hash="54AC9FDB" type="String"/>
+			<field name="archBaton" type="BinHex"/>
+			<field hash="C76AE73F" type="String"/>
+			<field name="archMonkeyFist" type="BinHex"/>
+			<field hash="9E51B378" type="String"/>
+			<field name="archARPhone" type="BinHex"/>
+			<field hash="D3A36E82" type="String"/>
+			<field name="archSniperScope" type="BinHex"/>
+			<field hash="6DEDC036" type="String"/>
+			<field hash="DBAF4C24" type="BinHex"/>
+			<field name="nExtractFromPDAOverrideMaterialIndex" type="BinHex"/>
+		</object>
+		<object name="IdleCycleBreakers">
+			<field name="fIdleBreakerWalkInterruptDelay" type="Float"/>
+			<field name="fIdleBreakerJogInterruptDelay" type="Float"/>
+			<field name="fIdleBreakerSprintInterruptDelay" type="Float"/>
+			<field name="fIdleBreakerCoverInterruptDelay" type="Float"/>
+			<object hash="15128073">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="340F5AA1">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="GenericActions">
+		<field name="bUseShapeCastSensor" type="Boolean"/>
+		<field name="bIsUsingStepFalling" type="Boolean"/>
+		<field name="bIsPreventingDeadlyDrops" type="Boolean"/>
+		<field name="fAutoInteractMaxHeight" type="Float"/>
+		<field name="bUseJumpOverGaps" type="Boolean"/>
+		<field name="bUseFollowingInteractionDetection" type="Boolean"/>
+		<field name="iRandomSequenceItemCount" type="Int32"/>
+		<field name="fInputMaxFrontAngle" type="Float"/>
+		<field name="fIdleInteractionMinDist" type="Float"/>
+		<field name="fWalkInteractionMinDist" type="Float"/>
+		<field name="fJogInteractionMinDist" type="Float"/>
+		<field name="fSprintInteractionMinDist" type="Float"/>
+		<field hash="BDDB32BA" type="BinHex"/>
+		<field hash="C6C095C8" type="BinHex"/>
+		<field hash="270D3608" type="BinHex"/>
+		<field hash="628B93DB" type="BinHex"/>
+		<field hash="E9B5E13F" type="BinHex"/>
+		<field hash="92AE464D" type="BinHex"/>
+		<field hash="97899AFE" type="BinHex"/>
+		<field hash="3BA528D5" type="BinHex"/>
+		<field name="fClimbDownWalkStartDist1M" type="Float"/>
+		<field name="fClimbDownWalkStartDist3M" type="Float"/>
+		<field name="fClimbDownJogStartDist1M" type="Float"/>
+		<field name="fClimbDownJogStartDist3M" type="Float"/>
+		<field name="fClimbDownSprintStartDist1M" type="Float"/>
+		<field name="fClimbDownSprintStartDist3M" type="Float"/>
+		<field hash="EEEC76F4" type="BinHex"/>
+		<field name="fWallJumpStartDist" type="Float"/>
+		<field name="fStartAngleDiffMax" type="Float"/>
+		<field name="fStartAngleDiffMaxForChaining" type="Float"/>
+		<field name="fClimbOverJogStartDist30_60cm" type="Float"/>
+		<field name="fClimbOverJogStartDist60_80cm" type="Float"/>
+		<field name="fClimbOverSprintStartDist30_60cm" type="Float"/>
+		<field name="fClimbOverSprintStartDist60_80cm" type="Float"/>
+		<field name="fShapecastHitNormalMaxCosAngle" type="Float"/>
+		<field name="fFrontCastHitNormalMaxCosAngle" type="Float"/>
+		<field name="fShapecastFrontHeightOffset" type="Float"/>
+		<field name="fShapecastFrontBaseDist" type="Float"/>
+		<field name="fShapecastFrontSpeedOffset" type="Float"/>
+		<field name="fShapecastDropFrontOffset" type="Float"/>
+		<field name="fRaycastHitMaxDist" type="Float"/>
+		<field name="fLadderClimbUpDistMax" type="Float"/>
+		<field name="fLadder4mEnterHeightLowSpeed" type="Float"/>
+		<field name="fLadder4mEnterHeightHighSpeed" type="Float"/>
+		<field name="fLadder5mEnterHeightLowSpeed" type="Float"/>
+		<field name="fLadder5mEnterHeightHighSpeed" type="Float"/>
+		<field name="fLadder6mEnterHeightLowSpeed" type="Float"/>
+		<field name="fLadder6mEnterHeightHighSpeed" type="Float"/>
+		<field hash="5DBD8D00" type="BinHex"/>
+		<field hash="45DD6101" type="BinHex"/>
+		<field name="fSlideOverMinWidth" type="Float"/>
+		<field name="fSlideOverMaxWidth" type="Float"/>
+		<field name="fSlideOverInterruptDist" type="Float"/>
+		<field name="bClimbDownAnchorUseCurrentSight" type="Boolean"/>
+		<field name="fSwimMaxHeightClimbUpReach" type="Float"/>
+		<object hash="8EE69CED">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="8B211101">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="A835E76C">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object name="AnnotationScan">
+			<field name="fScanBoxAboveDist" type="Float"/>
+			<field name="fScanBoxBelowDist" type="Float"/>
+		</object>
+		<object name="GapJumping">
+			<field name="fJumpOverGapIdealWidthWalk" type="Float"/>
+			<field name="fJumpOverGapIdealWidthJog" type="Float"/>
+			<field name="fJumpOverGapIdealWidthSprint" type="Float"/>
+			<field name="fChainedJumpOverGapIdealWidth" type="Float"/>
+			<object hash="83EFEBBA">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="50D8E315">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="374653BD">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="2D62B18E">
+			<field hash="9CC0E87D" type="BinHex"/>
+		</object>
+		<object name="InteractionChaining">
+			<field name="fInteractionChainingMinTimeInterval" type="Float"/>
+			<object name="ChainMaxHorizontalDistance">
+				<field name="ClimbUp_To_ClimbUp" type="BinHex"/>
+				<field name="ClimbUp_To_ClimbOver" type="BinHex"/>
+				<field name="ClimbUp_To_SlideOver" type="BinHex"/>
+				<field name="ClimbUp_To_ClimbDown" type="BinHex"/>
+				<field name="ClimbUp_To_JumpOver" type="BinHex"/>
+				<field name="ClimbOver_To_ClimbUp" type="BinHex"/>
+				<field name="ClimbOver_To_ClimbOver" type="BinHex"/>
+				<field name="ClimbOver_To_SlideOver" type="BinHex"/>
+				<field name="ClimbOver_To_ClimbDown" type="BinHex"/>
+				<field name="ClimbOver_To_JumpOver" type="BinHex"/>
+				<field name="SlideOver_To_ClimbUp" type="BinHex"/>
+				<field name="SlideOver_To_ClimbOver" type="BinHex"/>
+				<field name="SlideOver_To_SlideOver" type="BinHex"/>
+				<field name="SlideOver_To_ClimbDown" type="BinHex"/>
+				<field name="SlideOver_To_JumpOver" type="BinHex"/>
+				<field name="ClimbDown_To_ClimbUp" type="BinHex"/>
+				<field name="ClimbDown_To_ClimbOver" type="BinHex"/>
+				<field name="ClimbDown_To_SlideOver" type="BinHex"/>
+				<field name="ClimbDown_To_ClimbDown" type="BinHex"/>
+				<field name="ClimbDown_To_JumpOver" type="BinHex"/>
+				<field name="JumpOver_To_ClimbUp" type="BinHex"/>
+				<field name="JumpOver_To_ClimbOver" type="BinHex"/>
+				<field name="JumpOver_To_SlideOver" type="BinHex"/>
+				<field name="JumpOver_To_ClimbDown" type="BinHex"/>
+				<field name="JumpOver_To_JumpOver" type="BinHex"/>
+			</object>
+			<object name="ChainParams">
+				<object name="ChainType">
+					<field name="disNomadObjectId" type="BinHex"/>
+					<field name="hidSingleObject" type="Boolean"/>
+					<field name="hidKey" type="BinHex"/>
+					<field name="hidValidationFailed" type="Boolean"/>
+					<field name="hidName" type="BinHex"/>
+					<field name="selChainType" type="Enum"/>
+					<field name="fMinIntroHeight" type="Float"/>
+					<field name="fMaxIntroHeight" type="Float"/>
+					<field name="fMinHeightDiff" type="Float"/>
+					<field name="fMaxHeightDiff" type="Float"/>
+					<field name="fMaxWidth" type="Float"/>
+					<field name="fMinFreeSpaceAfter" type="Float"/>
+					<field name="bCanBranchFromAnotherChain" type="Boolean"/>
+					<field name="bNeedToFollowAnotherChain" type="Boolean"/>
+					<field name="bCanBranchFromAnyChain" type="Boolean"/>
+					<object name="BranchPreConditions">
+						<object name="LastChain">
+							<field name="disNomadObjectId" type="BinHex"/>
+							<field name="hidSingleObject" type="Boolean"/>
+							<field name="hidKey" type="BinHex"/>
+							<field name="hidValidationFailed" type="Boolean"/>
+							<field name="hidName" type="BinHex"/>
+							<field name="selChainType" type="Enum"/>
+							<field name="fMinIntroHeight" type="Float"/>
+							<field name="fMaxIntroHeight" type="Float"/>
+							<field name="fMinHeightDiff" type="Float"/>
+							<field name="fMaxHeightDiff" type="Float"/>
+							<field name="fMaxWidth" type="Float"/>
+							<field name="fMinFreeSpaceAfter" type="Float"/>
+							<field name="bCanBranchFromAnotherChain" type="Boolean"/>
+							<field name="bNeedToFollowAnotherChain" type="Boolean"/>
+							<field name="bCanBranchFromAnyChain" type="Boolean"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="FallDisplacements">
+			<object name="FallDisplacementsWALK">
+				<field name="Index0" type="BinHex"/>
+				<field name="Index1" type="BinHex"/>
+				<field name="Index2" type="BinHex"/>
+				<field name="Index3" type="BinHex"/>
+				<field name="Index4" type="BinHex"/>
+				<field name="Index5" type="BinHex"/>
+			</object>
+			<object name="FallDisplacementsJOG">
+				<field name="Index0" type="BinHex"/>
+				<field name="Index1" type="BinHex"/>
+				<field name="Index2" type="BinHex"/>
+				<field name="Index3" type="BinHex"/>
+				<field name="Index4" type="BinHex"/>
+				<field name="Index5" type="BinHex"/>
+			</object>
+			<object name="FallDisplacementsSPRINT">
+				<field name="Index0" type="BinHex"/>
+				<field name="Index1" type="BinHex"/>
+				<field name="Index2" type="BinHex"/>
+				<field name="Index3" type="BinHex"/>
+				<field name="Index4" type="BinHex"/>
+				<field name="Index5" type="BinHex"/>
+			</object>
+		</object>
+		<object name="LandingReactionStims">
+			<field name="fLandingReactionStimMinDropHeight" type="Float"/>
+			<field name="fLandingReactionStimRadius" type="Float"/>
+		</object>
+		<object name="FacingStiffness">
+			<field name="fFacingStiffnessNoContact" type="Float"/>
+			<field name="fFacingStiffnessClimbUpWithContact" type="Float"/>
+			<field name="fFacingStiffnessClimbOverWithContact" type="Float"/>
+		</object>
+		<object name="InteractionStressReaction">
+			<field name="fSmallReactionStressThreshold" type="Float"/>
+			<field name="fBigReactionStressThreshold" type="Float"/>
+			<field name="fDelayBetweenReactions" type="Float"/>
+		</object>
+	</object>
+	<object name="TakeDown">
+		<field name="bFrontTakedownAllowedInMP" type="Boolean"/>
+		<field name="fTakedownFrontAngleRadians" type="Float"/>
+		<field name="fTakedownMaxDistanceNormal" type="Float"/>
+		<field name="fTakedownMaxDistanceJog" type="Float"/>
+		<field name="fTakedownMaxDistanceSprint" type="Float"/>
+		<field name="fTakedownMaxDistanceFleeingTarget" type="Float"/>
+		<field name="fTakedownMaxDistanceAiming" type="Float"/>
+		<field name="bUseWallJumpTakeDowns" type="Boolean"/>
+	</object>
+	<object name="MeleeActions">
+		<field name="fAttackerAnchorRotStiffness" type="Float"/>
+		<field name="fAttackerAnchorPosStiffness" type="Float"/>
+		<field name="fAttackerHighContactChanceAnchorRotStiffness" type="Float"/>
+		<field name="fAttackerHighContactChanceAnchorPosStiffness" type="Float"/>
+		<field name="fSmashObjectAttackerAnchorRotStiffness" type="Float"/>
+		<field name="fSmashObjectAttackerAnchorPosStiffness" type="Float"/>
+		<object name="Damage">
+			<field name="LowIntensity" type="BinHex"/>
+			<field name="MediumIntensity" type="BinHex"/>
+			<field name="HighIntensity" type="BinHex"/>
+			<field name="VeryHighIntensity" type="BinHex"/>
+		</object>
+	</object>
+</class>

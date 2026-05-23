@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ConstructiondronesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="9500BF81" type="BinHex"/>
+	<object hash="BAB62E98">
+		<field hash="8DCFD38B" type="BinHex"/>
+		<field hash="E642DF71" type="BinHex"/>
+		<field hash="8CE0DB12" type="BinHex"/>
+		<field hash="BDDBAE0C" type="BinHex"/>
+		<field hash="842BB316" type="BinHex"/>
+		<field hash="06F200A7" type="BinHex"/>
+		<field hash="E807ECC5" type="BinHex"/>
+		<field hash="B4423A0B" type="BinHex"/>
+		<field hash="EFE659D4" type="BinHex"/>
+		<field hash="23EB22DB" type="BinHex"/>
+		<field hash="A723855A" type="BinHex"/>
+		<field hash="4442A553" type="BinHex"/>
+		<object hash="AF221BF5">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="0817A013">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

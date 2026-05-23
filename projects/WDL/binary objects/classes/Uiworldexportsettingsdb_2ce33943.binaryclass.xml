@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uiworldexportsettingsdb_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="E7C5711D">
+		<field hash="E942AD8B" type="String"/>
+		<field name="fileAnimationPath" type="String"/>
+		<field name="sAnchorName" type="BinHex"/>
+		<field name="bUseForceDisplacement" type="Boolean"/>
+		<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
+		<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
+		<field name="bKillLayerAnimations" type="Boolean"/>
+		<field name="fileAnimatedCamera" type="String"/>
+		<field hash="D8266791" type="BinHex"/>
+		<field hash="6E9B1521" type="BinHex"/>
+		<field hash="967C4591" type="BinHex"/>
+		<field hash="FAB2056A" type="BinHex"/>
+		<field hash="98432A3B" type="BinHex"/>
+		<field hash="CD235301" type="BinHex"/>
+		<object name="AnchorPartNames"/>
+	</object>
+</class>

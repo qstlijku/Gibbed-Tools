@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ColorsequencegameplaysettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="0EDE7E32">
+		<field hash="7F099870" type="BinHex"/>
+		<field hash="08258E75" type="BinHex"/>
+		<field hash="D2A4CA33" type="BinHex"/>
+		<field hash="6AB090C9" type="BinHex"/>
+		<field hash="E2B1EEEF" type="BinHex"/>
+		<field hash="67164D9F" type="BinHex"/>
+		<field hash="99C305F5" type="BinHex"/>
+		<field hash="86593E3A" type="BinHex"/>
+		<field hash="58ECE0F8" type="BinHex"/>
+		<field name="fWarningDuration" type="Float"/>
+		<field hash="D0161FAB" type="BinHex"/>
+		<object hash="F9C2FBF4">
+			<object name="Color">
+				<field name="colorColor" type="Vector3"/>
+			</object>
+		</object>
+		<object hash="A83431CE"/>
+		<object hash="CA169828"/>
+		<object hash="B6582A20">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="4560D5E5">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="87CACBC6">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="015EB968">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="CFB6B345">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="10EB4962">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="C7B2E6A7">
+			<object name="EntityId">
+				<field hash="79779987" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

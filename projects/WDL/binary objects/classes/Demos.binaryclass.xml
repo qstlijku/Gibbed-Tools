@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DemosParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+        <field name="text_OperativeTeamName" type="String"/>
+	<field name="OperativeTeamName" type="BinHex"/>
+	<field name="RecruitmentLoopUpresBucketName" type="BinHex"/>
+	<field name="RecruitmentLoopFailureBucketName" type="BinHex"/>
+	<field name="bWillSetStartTime" type="BinHex"/>
+	<field name="iStartTimeHour" type="BinHex"/>
+	<field name="iStartTimeMinutes" type="BinHex"/>
+	<field name="envweatherpresetWeatherPreset" type="BinHex"/>
+	<field name="entSpawnPoint" type="BinHex"/>
+	<object name="AutoUnlockOpNames">
+		<object name="OpName">
+			<field hash="A02277CC" type="String"/>
+			<field hash="B064F79F" type="BinHex"/>
+		</object>
+	</object>
+	<object name="AutoStartOpNames">
+		<object name="OpName">
+			<field hash="A02277CC" type="String"/>
+			<field hash="B064F79F" type="BinHex"/>
+		</object>
+	</object>
+	<object name="AutoCompleteOpNames">
+		<object name="OpName">
+			<field hash="A02277CC" type="String"/>
+			<field hash="B064F79F" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="3B8AAEDE">
+		<object name="progressiontagProgressionTag">
+			<field name="progressiontagProgressionTag" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="ED971982">
+		<object hash="0364FC95">
+			<field hash="C50F1A52" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="885E4641">
+		<field hash="BDB3B8D5" type="String"/>
+		<field hash="401A8276" type="BinHex"/>
+		<field hash="F5391DFF" type="BinHex"/>
+		<field name="tagcategoryTagCategory" type="BinHex"/>
+		<field name="tagTag" type="BinHex"/>
+	</object>
+	<object hash="16D91AAF">
+		<field hash="072D75FD" type="BinHex"/>
+		<field hash="1035175C" type="BinHex"/>
+		<field hash="2E7A750F" type="BinHex"/>
+		<field hash="6CCF0690" type="BinHex"/>
+		<field hash="C938401A" type="BinHex"/>
+		<field hash="9CC0215F" type="BinHex"/>
+	</object>
+</class>

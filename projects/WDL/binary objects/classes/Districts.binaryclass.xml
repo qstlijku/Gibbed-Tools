@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DistrictsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="24ECD02D" type="BinHex"/>
+	<field hash="3BCE0DF9" type="BinHex"/>
+	<field hash="D32EAF81" type="BinHex"/>
+	<field hash="4B3FF7D5" type="BinHex"/>
+	<field hash="0F2916D8" type="BinHex"/>
+	<field name="selPriority" type="Enum"/>
+	<field hash="1F3195C3" type="BinHex"/>
+	<field hash="69638EEA" type="BinHex"/>
+	<field hash="113DA764" type="BinHex"/>
+	<field name="bShouldDisplayOnMap" type="Boolean"/>
+	<field name="selDisplayNameBehavior" type="Enum"/>
+	<field name="entDistrictNameMapIconEntity" type="BinHex"/>
+	<field name="selPoliceAffiliation" type="Enum"/>
+	<field hash="F44A83F1" type="BinHex"/>
+	<object name="locstridDistrictName">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="LivingCityComposition">
+		<object name="VehicleCompositions">
+			<object name="VehicleComposition">
+				<field name="entcontContext" type="BinHex"/>
+				<field name="vehiclecompositionVehicles" type="BinHex"/>
+			</object>
+		</object>
+		<object name="HumanBanks">
+			<object name="HumansBank">
+				<field name="entcontContext" type="BinHex"/>
+				<field name="civbankHumansBank" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="8C10D036">
+			<field name="entcontContext" type="BinHex"/>
+			<field hash="6116A158" type="BinHex"/>
+			<object hash="B3B7E88D">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="8C10D036">
+				<field name="entcontContext" type="BinHex"/>
+				<field hash="6116A158" type="BinHex"/>
+				<object hash="B3B7E88D">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="Environment">
+		<field name="fileDayReflectionTexture" type="BinHex"/>
+		<field name="fileNightReflectionTexture" type="BinHex"/>
+	</object>
+	<object name="HDRColorGrading">
+		<field name="bUseTimeOfDayForColorGradingHDR" type="Boolean"/>
+		<field name="fInnerSpatialRadius" type="Float"/>
+		<field name="fOuterSpatialRadius" type="Float"/>
+		<object name="curveTimeOfDayProgression">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="HDRColorGradingLUTTextures">
+			<object name="HDRColorGradingTexture">
+				<field name="fileHDRColorGradingTexture" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="778B34AE">
+		<object name="Trigger">
+			<field hash="C50F1A52" type="BinHex"/>
+		</object>
+	</object>
+</class>

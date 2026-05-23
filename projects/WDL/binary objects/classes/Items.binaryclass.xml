@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ItemsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="text_itemdescriptorItemDescriptor" type="String"/>
+	<field name="itemdescriptorItemDescriptor" type="BinHex"/>
+	<object name="ItemDescriptor">
+		<field name="discoverysettingsDiscoverySettings" type="BinHex"/>
+		<field name="bIsRewardPartOfMission" type="Boolean"/>
+		<field hash="A9845FC9" type="BinHex"/>
+		<field name="texturedbobjectHeaderImage" type="BinHex"/>
+		<field name="texturedbobjectTileImage" type="BinHex"/>
+		<field hash="0E0529F4" type="BinHex"/>
+		<field name="matoverrideMaterialSetOverride" type="BinHex"/>
+		<field name="bIsSticker" type="Boolean"/>
+		<field name="colorPaintJobColor" type="Vector3"/>
+		<field name="bIsInShop" type="Boolean"/>
+		<field name="uiSellPrice" type="UInt32"/>
+		<field hash="00E1FBE9" type="BinHex"/>
+		<field hash="59115D33" type="BinHex"/>
+		<field hash="D24E31D6" type="BinHex"/>
+		<field hash="EA2DA53F" type="BinHex"/>
+		<field hash="F303571C" type="BinHex"/>
+		<field hash="8F55D1B7" type="BinHex"/>
+		<field hash="A067B1A1" type="BinHex"/>
+		<field hash="16383833" type="BinHex"/>
+		<field hash="E5BE9B9C" type="BinHex"/>
+		<field hash="393D18D2" type="String"/>
+		<field hash="09242F93" type="BinHex"/>
+		<field name="bIsFlyingDrone" type="Boolean"/>
+		<field hash="60C85FE9" type="BinHex"/>
+		<field hash="8A679830" type="BinHex"/>
+		<field hash="8120313B" type="BinHex"/>
+		<field name="selWeaponGrip" type="Enum"/>
+		<field name="fHealth" type="Float"/>
+		<field name="fAlcohol" type="Float"/>
+		<field hash="5CE244A8" type="BinHex"/>
+		<field hash="247060C0" type="BinHex"/>
+		<field hash="95D67F3E" type="BinHex"/>
+		<field name="sBoneName" type="String"/>
+		<field hash="95BFFF8E" type="String"/>
+		<field hash="1E98E20A" type="BinHex"/>
+		<field hash="40046F75" type="String"/>
+		<field hash="EC3B8F76" type="BinHex"/>
+		<field name="fDuration" type="Float"/>
+		<field hash="9033CC82" type="BinHex"/>
+		<field name="selActivityType" type="Enum"/>
+		<field name="progressiontagProgressionTag" type="BinHex"/>
+		<field hash="6C09A6D9" type="BinHex"/>
+		<field name="fTopSpeed" type="Float"/>
+		<field name="fAcceleration" type="Float"/>
+		<field name="fToughness" type="Float"/>
+		<field name="fHandling" type="Float"/>
+		<field name="bIsOffroad" type="Boolean"/>
+		<field name="bUnlockableOnEnter" type="Boolean"/>
+		<field name="bLockedByDefault" type="Boolean"/>
+		<field name="itemcategoryPDAAppCategory" type="BinHex"/>
+		<field name="texturedbobjectDefaultImage" type="BinHex"/>
+		<field name="texturedbobjectSelectedImage" type="BinHex"/>
+		<field name="itemsItem" type="BinHex"/>
+		<field hash="0EADEF82" type="BinHex"/>
+		<field name="bHasUniquePaintJob" type="Boolean"/>
+		<field hash="BBDE2D28" type="BinHex"/>
+		<field hash="6E60D4BB" type="String"/>
+		<field hash="3FBF3FE9" type="BinHex"/>
+		<field name="musiclibraryRewardSpecificSong" type="BinHex"/>
+		<field name="itemsItemInBox" type="BinHex"/>
+		<field name="disItemInBoxHasUnlimitedMaxCountInInventory" type="BinHex"/>
+		<field hash="785FB9EF" type="BinHex"/>
+		<field hash="E780A0C1" type="BinHex"/>
+		<field name="fDownloadDuration" type="Float"/>
+		<field hash="5E4FFA8D" type="BinHex"/>
+		<field name="uPower" type="UInt32"/>
+		<field name="fDamage" type="Float"/>
+		<field name="fFiringRate" type="Float"/>
+		<field name="fRange" type="Float"/>
+		<field name="fStability" type="Float"/>
+		<field name="fReload" type="Float"/>
+		<field name="fAccuracy" type="Float"/>
+		<field hash="B9C059F8" type="BinHex"/>
+		<field name="weaponWeaponParam" type="BinHex"/>
+		<field name="itemsBulletItem" type="BinHex"/>
+		<field name="texturedbobjectInventoryWheelTexture" type="BinHex"/>
+		<field name="texturedbobjectEquipmentModuleTexture" type="BinHex"/>
+		<field name="texturedbobjectAmmoTexture" type="BinHex"/>
+		<field name="texturedbobjectShopTexture" type="BinHex"/>
+		<field hash="7B45D9D0" type="BinHex"/>
+		<field hash="C8DED8AE" type="BinHex"/>
+		<field name="sIconTag" type="BinHex"/>
+		<field hash="C4135CFC" type="BinHex"/>
+		<field hash="1DCB8DB3" type="BinHex"/>
+		<field name="texturedbobjectHeaderTexture" type="BinHex"/>
+		<field hash="01D7834C" type="BinHex"/>
+		<field hash="FA947923" type="BinHex"/>
+		<field name="graphickitmodelModel" type="BinHex"/>
+		<field name="selProjectileType" type="Enum"/>
+		<field name="selAttachedBone" type="Enum"/>
+		<object name="ItemDescription">
+			<field name="selItemULCIconType" type="Enum"/>
+			<object name="locstridItemNameId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridItemDescriptionId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="BFA53E18">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridItemLongDescriptionId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridDedsecAppRewardTag">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object name="ProgressionDescription">
+			<object name="locstridProgressionName">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridProgressionShortDescription">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridProgressionLongDescription">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object name="InventoryProperties">
+			<field name="disItemNotStoredInInventory" type="BinHex"/>
+			<field name="bCanBeAcquiredOnlyOnce" type="Boolean"/>
+			<field name="bUnlimitedCountInInventory" type="Boolean"/>
+			<field name="uiMaxCountInInventory" type="UInt32"/>
+			<field name="iCooldownTime" type="Int32"/>
+		</object>
+		<object hash="310B8EB4">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="4EDFA179">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="FB48BE42">
+			<object hash="2C08A2DD">
+				<field name="itemsItemInBox" type="BinHex"/>
+				<object hash="2B9AE7C5">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+				<object hash="F1F012D5">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="Quantity">
+			<field name="selQuantityType" type="Enum"/>
+			<field name="uiMin" type="UInt32"/>
+			<field name="uiMax" type="UInt32"/>
+			<field name="uiQuantity" type="UInt32"/>
+		</object>
+		<object name="EquipableProperties">
+			<field name="selEquippableType" type="Enum"/>
+			<field hash="7FFF5DE3" type="BinHex"/>
+			<field hash="2EEF2715" type="BinHex"/>
+		</object>
+		<object name="AssetsProperties">
+			<field name="fileItemImageFileName" type="String"/>
+			<field name="sItemIconTextureName" type="String"/>
+			<field name="text_archItemArchetype" type="String"/>
+			<field name="archItemArchetype" type="BinHex"/>
+			<field hash="F142C8CF" type="String"/>
+			<field name="ConstraintForArchetypeLoading" type="BinHex"/>
+		</object>
+		<object name="RewardProperties">
+			<field name="selLootingFeedbackType" type="Enum"/>
+			<field name="texturedbobjectRewardIcon" type="BinHex"/>
+			<field hash="4DC151AA" type="BinHex"/>
+			<field name="fileItemTextureName" type="String"/>
+			<object name="locstridTitleRewardMessage">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridDescriptionRewardMessage">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridSubtextRewardMessage">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="7E952C2F">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="97013718">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="Links">
+			<object name="ItemLink">
+				<field name="itemsItem" type="BinHex"/>
+				<field hash="9301DFBD" type="String"/>
+				<field name="matMaterial" type="BinHex"/>
+				<field hash="44F43ED2" type="String"/>
+				<field name="sMaterialOverrideSlotName" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="2F162B7F">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="ActivityAudioFile">
+			<field hash="780E306D" type="BinHex"/>
+		</object>
+		<object name="ActivityChat">
+			<field name="bIsChatTrigerredByEvents" type="Boolean"/>
+			<object name="locsectionidChat">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object name="ActivityEmail">
+			<object name="locsectionidMail">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object hash="22889001">
+			<object hash="85ECC8E3">
+				<field hash="E0ED5CFB" type="String"/>
+				<field name="sMaterialSlot" type="BinHex"/>
+				<field hash="9301DFBD" type="String"/>
+				<field name="matMaterial" type="BinHex"/>
+			</object>
+		</object>
+		<object name="ActivityConversation">
+			<field hash="1AFF3D7C" type="String"/>
+			<field name="ConversationBark" type="BinHex"/>
+			<field hash="D2F37DB2" type="String"/>
+			<field name="ConversationTrigger" type="BinHex"/>
+			<field name="sndOneSidedConvo" type="BinHex"/>
+		</object>
+		<object name="ItemList">
+			<object name="Item">
+				<field name="bUseCandidateRewards" type="Boolean"/>
+				<field name="bSpawnItem" type="Boolean"/>
+				<field name="bIsPersistent" type="Boolean"/>
+				<field name="itemsItemDBObject" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="D727F2B8">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object name="ModelPart">
+			<field name="hidVersion" type="BinHex"/>
+			<field name="uniqueidnocopyUniqueID" type="BinHex"/>
+			<field name="graphickitpartPart" type="BinHex"/>
+			<field name="selPoseDefinitionId" type="Enum"/>
+			<field name="selPoseDefinitionPathID" type="Enum"/>
+			<field name="facialposedefinitionExtraFacialPoseDefinition" type="BinHex"/>
+			<field hash="7E23AAAE" type="String"/>
+			<field name="selVisualModelOverride" type="Enum"/>
+			<object name="BoneAnchor">
+				<field name="selBoneName" type="Enum"/>
+				<field name="vectorTranslation" type="BinHex"/>
+				<field name="angvecRotation" type="BinHex"/>
+				<field name="vectorNonUniformScale" type="BinHex"/>
+			</object>
+		</object>
+		<object name="ConsumableProperties">
+			<field name="bImmediateConsumption" type="Boolean"/>
+			<field name="sndConsumedSuccess" type="BinHex"/>
+			<field hash="7DC17E10" type="BinHex"/>
+			<field name="sndConsumedFailure" type="BinHex"/>
+			<field hash="83098270" type="BinHex"/>
+			<field name="bPlayAnimationOnConsume" type="Boolean"/>
+			<field name="fCooldownDuration" type="Float"/>
+			<field name="texturedbobjectInventoryWheelTexture" type="BinHex"/>
+			<field name="texturedbobjectEquipmentModuleTexture" type="BinHex"/>
+			<field name="texturedbobjectShopTexture" type="BinHex"/>
+			<object name="locstridConsumedDescription">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object name="DisruptCommSpecific">
+			<field hash="169A8FF6" type="String"/>
+			<field name="sndDisruptionSound" type="BinHex"/>
+			<field hash="3A8460E6" type="BinHex"/>
+			<field name="sCinemaPostFxName" type="BinHex"/>
+			<field hash="93D2AFB5" type="String"/>
+			<field name="psParticleSystem" type="BinHex"/>
+			<field name="vectorParticleSystemRelativeLocation" type="BinHex"/>
+			<field name="fDisruptDuration" type="Float"/>
+			<field name="fEnemyPlayerSlowDownloadFactor" type="Float"/>
+		</object>
+		<object name="ClothBundle">
+			<object name="Cloth">
+				<field name="itemsCloth" type="BinHex"/>
+			</object>
+		</object>
+		<object name="locstridLockedDetails">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="locstridManufacturer">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object name="UniquePaintJob">
+			<field name="texturedbobjectUniquePaintJobImage" type="BinHex"/>
+		</object>
+		<object hash="AFA12BA6">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="0848AF53">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="4908959D">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="95016C96">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="EE5E115B">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="0AD0BFC4">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object hash="794F71E7">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+		<object name="LockedEntities">
+			<object name="LockedEntityId">
+				<field name="entLockedEntityId" type="BinHex"/>
+			</object>
+		</object>
+		<object hash="A47A8ECB">
+			<field hash="BCF4B296" type="BinHex"/>
+		</object>
+	</object>
+</class>

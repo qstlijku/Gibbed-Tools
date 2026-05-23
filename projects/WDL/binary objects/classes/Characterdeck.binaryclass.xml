@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CharacterdeckParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="3474E96D" type="BinHex"/>
+	<field hash="07499774" type="BinHex"/>
+	<field hash="71DBA1A5" type="BinHex"/>
+	<object hash="C50377F9">
+		<object hash="B62637ED">
+			<field hash="B650CB96" type="BinHex"/>
+		</object>
+	</object>
+</class>

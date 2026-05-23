@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Soundglobalsettings_7a8d0305Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="4890D8F3" type="BinHex"/>
+	<field hash="BB0ED401" type="BinHex"/>
+	<field hash="5BB6F188" type="BinHex"/>
+	<object name="sndvarLastGunShotOrExplosionTimeRTPC">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+</class>

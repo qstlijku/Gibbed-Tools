@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uipersoninfodb_d8193427Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="47317235">
+		<object hash="8CD73ABB">
+			<field hash="CF73F172" type="String"/>
+			<field hash="6D1967C2" type="BinHex"/>
+			<field hash="F9CB2B3F" type="BinHex"/>
+			<object name="locstridTitle">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridDescription">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="BF036A1A">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+	<object hash="E3F459A6">
+		<object hash="A9905764">
+			<object hash="239347B9">
+				<field hash="2D2A1CD0" type="String"/>
+				<field hash="C7747CF4" type="BinHex"/>
+				<object hash="2EFBC6D1">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object hash="44166DDE">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object hash="F998CC23">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+			</object>
+		</object>
+		<object hash="6FDD0D89">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="5FC8AB48">
+		<object hash="7CA25B01">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="8D4FD936">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="046FDFD3">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="E839AE2D">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+		<object hash="8E1C3293">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

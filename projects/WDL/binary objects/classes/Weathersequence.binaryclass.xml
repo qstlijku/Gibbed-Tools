@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="WeathersequenceParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fProbabilityWeight" type="Float"/>
+	<field name="uiNumSequencesBeforeRepeat" type="UInt32"/>
+	<field name="bPingPong" type="Boolean"/>
+	<field name="bIsValid" type="Boolean"/>
+	<field hash="AD02841A" type="String"/>
+	<field name="World" type="BinHex"/>
+	<object name="WeatherSteps">
+		<object name="Step">
+			<field name="envweatherpresetPreset" type="BinHex"/>
+			<field name="bEnabled" type="Boolean"/>
+			<object name="DurationMin">
+				<field name="uiHours" type="UInt32"/>
+				<field name="uiMinutes" type="UInt32"/>
+				<field name="uiSeconds" type="UInt32"/>
+			</object>
+			<object name="DurationMax">
+				<field name="uiHours" type="UInt32"/>
+				<field name="uiMinutes" type="UInt32"/>
+				<field name="uiSeconds" type="UInt32"/>
+			</object>
+		</object>
+	</object>
+</class>

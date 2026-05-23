@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="TurretidlemovementsettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="58FD8159" type="BinHex"/>
+	<field hash="1DFFC2DB" type="BinHex"/>
+	<field hash="77443A60" type="BinHex"/>
+	<field hash="91249581" type="BinHex"/>
+	<field hash="8D0F1D17" type="BinHex"/>
+	<field hash="B102224E" type="BinHex"/>
+	<field hash="BF7DCBF7" type="BinHex"/>
+	<field hash="8370F4AE" type="BinHex"/>
+	<field hash="68DCE15B" type="BinHex"/>
+	<field hash="54D1DE02" type="BinHex"/>
+	<field hash="622F184C" type="BinHex"/>
+</class>

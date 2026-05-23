@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Cprogressionmoduleupgradessettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Settings">
+		<object hash="99CCE36F">
+			<field hash="C50F1A52" type="BinHex"/>
+		</object>
+		<object hash="7709AB25">
+			<field hash="C50F1A52" type="BinHex"/>
+		</object>
+		<object hash="1FAD3253">
+			<object name="Upgrade">
+				<field hash="D97A7AA9" type="String"/>
+				<field hash="CCF6E35A" type="BinHex"/>
+				<field hash="582D3A63" type="BinHex"/>
+				<object hash="9886612F">
+					<object name="Level">
+						<field hash="B8143BC2" type="BinHex"/>
+						<field hash="7B8CA066" type="BinHex"/>
+						<object hash="1D38085E">
+							<object hash="80724A45">
+								<field hash="AD6C934B" type="String"/>
+								<field hash="1136F9EB" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

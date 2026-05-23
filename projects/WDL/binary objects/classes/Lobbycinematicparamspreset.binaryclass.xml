@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="LobbycinematicparamspresetParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="0EC57F5C" type="BinHex"/>
+	<field hash="8FECCEFC" type="BinHex"/>
+	<field hash="91A94CBB" type="BinHex"/>
+	<field hash="29EB880E" type="BinHex"/>
+	<field hash="3B9545F7" type="BinHex"/>
+	<field name="fFadeInDuration" type="Float"/>
+	<field name="fFadeOutDuration" type="Float"/>
+	<field hash="7A2904B4" type="BinHex"/>
+	<field hash="7840A2A2" type="BinHex"/>
+	<object hash="BE0EB54D">
+		<field name="vectorCameraPositionOffset" type="BinHex"/>
+		<field name="vectorCameraOrientationOffset" type="BinHex"/>
+		<field name="cameracontextCameraContext" type="BinHex"/>
+		<object name="AnimParams">
+			<field hash="E942AD8B" type="String"/>
+			<field name="fileAnimationPath" type="String"/>
+			<field name="sAnchorName" type="BinHex"/>
+			<field name="bUseForceDisplacement" type="Boolean"/>
+			<field name="vectorAnchorLocalPositionOffset" type="BinHex"/>
+			<field name="vectorAnchorLocalOrientationOffset" type="BinHex"/>
+			<field name="bKillLayerAnimations" type="Boolean"/>
+			<field name="fileAnimatedCamera" type="String"/>
+			<field hash="D8266791" type="BinHex"/>
+			<field hash="6E9B1521" type="BinHex"/>
+			<field hash="967C4591" type="BinHex"/>
+			<field hash="FAB2056A" type="BinHex"/>
+			<field hash="98432A3B" type="BinHex"/>
+			<field hash="CD235301" type="BinHex"/>
+			<object name="AnchorPartNames"/>
+		</object>
+		<object name="BlendInParameters">
+			<field name="bTranIn" type="Boolean"/>
+			<field name="selTranFromContext" type="Enum"/>
+			<field name="selBlendType" type="Enum"/>
+			<field name="fBlendTime" type="Float"/>
+			<field name="vec2BlendCurve" type="Vector2"/>
+			<field name="bReticleLock" type="Boolean"/>
+			<field name="fReticleLockMinDistance" type="Float"/>
+			<field hash="4B2BE286" type="BinHex"/>
+			<field name="bFreezePivotXY" type="Boolean"/>
+			<field name="bFreezePivotZ" type="Boolean"/>
+			<field name="bFreezeRotation" type="Boolean"/>
+			<field name="bTransfertFollow" type="Boolean"/>
+			<field name="bTransfertFieldOfView" type="Boolean"/>
+			<field name="bTransfertAcceleration" type="Boolean"/>
+			<field name="bTransfertYawSpeed" type="Boolean"/>
+			<field name="bAlignPitch" type="Boolean"/>
+			<field name="bAlignRoll" type="Boolean"/>
+			<field name="bAlignYaw" type="Boolean"/>
+			<field name="vectorAlignAngles" type="BinHex"/>
+			<field name="bKillAlignOnInput" type="Boolean"/>
+			<field name="bKillAlignOnMovement" type="Boolean"/>
+			<field name="bKillAlignOnPitch" type="Boolean"/>
+			<field name="fAlignMovementSpeedThreshold" type="Float"/>
+			<field name="fAlignPitchThreshold" type="Float"/>
+			<field name="bAllowInput" type="Boolean"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
+			<object name="MyModifierType">
+				<field name="bNormal" type="Boolean"/>
+				<field name="bAdrenaline" type="Boolean"/>
+				<field name="bProfiling" type="Boolean"/>
+				<field name="bSniperGun" type="Boolean"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
+				<field hash="229C8DC6" type="BinHex"/>
+			</object>
+			<object name="ModifierType">
+				<field name="bNormal" type="Boolean"/>
+				<field name="bAdrenaline" type="Boolean"/>
+				<field name="bProfiling" type="Boolean"/>
+				<field name="bInteract" type="Boolean"/>
+				<field name="bSniperGun" type="Boolean"/>
+				<field name="bProjectileDropable" type="Boolean"/>
+				<field name="bIsHidingInVehicle" type="Boolean"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
+				<field hash="229C8DC6" type="BinHex"/>
+			</object>
+		</object>
+		<object name="BlendOutParameters">
+			<field name="bTranIn" type="Boolean"/>
+			<field name="selTranFromContext" type="Enum"/>
+			<field name="selBlendType" type="Enum"/>
+			<field name="fBlendTime" type="Float"/>
+			<field name="vec2BlendCurve" type="Vector2"/>
+			<field name="bReticleLock" type="Boolean"/>
+			<field name="fReticleLockMinDistance" type="Float"/>
+			<field hash="4B2BE286" type="BinHex"/>
+			<field name="bFreezePivotXY" type="Boolean"/>
+			<field name="bFreezePivotZ" type="Boolean"/>
+			<field name="bFreezeRotation" type="Boolean"/>
+			<field name="bTransfertFollow" type="Boolean"/>
+			<field name="bTransfertFieldOfView" type="Boolean"/>
+			<field name="bTransfertAcceleration" type="Boolean"/>
+			<field name="bTransfertYawSpeed" type="Boolean"/>
+			<field name="bAlignPitch" type="Boolean"/>
+			<field name="bAlignRoll" type="Boolean"/>
+			<field name="bAlignYaw" type="Boolean"/>
+			<field name="vectorAlignAngles" type="BinHex"/>
+			<field name="bKillAlignOnInput" type="Boolean"/>
+			<field name="bKillAlignOnMovement" type="Boolean"/>
+			<field name="bKillAlignOnPitch" type="Boolean"/>
+			<field name="fAlignMovementSpeedThreshold" type="Float"/>
+			<field name="fAlignPitchThreshold" type="Float"/>
+			<field name="bAllowInput" type="Boolean"/>
+			<field hash="FA5A2B90" type="BinHex"/>
+			<field hash="37D093C9" type="BinHex"/>
+			<field hash="B82AC539" type="BinHex"/>
+			<object name="MyModifierType">
+				<field name="bNormal" type="Boolean"/>
+				<field name="bAdrenaline" type="Boolean"/>
+				<field name="bProfiling" type="Boolean"/>
+				<field name="bSniperGun" type="Boolean"/>
+				<field hash="7B359273" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
+				<field hash="229C8DC6" type="BinHex"/>
+			</object>
+			<object name="ModifierType">
+				<field name="bNormal" type="Boolean"/>
+				<field name="bAdrenaline" type="Boolean"/>
+				<field name="bProfiling" type="Boolean"/>
+				<field name="bInteract" type="Boolean"/>
+				<field name="bSniperGun" type="Boolean"/>
+				<field name="bProjectileDropable" type="Boolean"/>
+				<field name="bIsHidingInVehicle" type="Boolean"/>
+				<field hash="1E2DBA80" type="BinHex"/>
+				<field hash="3967D43C" type="BinHex"/>
+				<field hash="0FFF44B8" type="BinHex"/>
+				<field hash="229C8DC6" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="40B3BE3B">
+		<object name="TeleportEntity">
+			<field hash="C160F121" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="CEC80481">
+		<field name="fInitialDelay" type="Float"/>
+		<field hash="6C8A638A" type="BinHex"/>
+		<field hash="5290CDC5" type="BinHex"/>
+		<field hash="9E9DB6CA" type="BinHex"/>
+		<field hash="373F04BA" type="BinHex"/>
+		<field hash="76CCBA66" type="BinHex"/>
+		<field hash="BAC1C169" type="BinHex"/>
+		<field hash="509A2078" type="BinHex"/>
+		<field hash="3F465B5F" type="BinHex"/>
+		<field hash="F34B2050" type="BinHex"/>
+		<field hash="69B5048A" type="BinHex"/>
+	</object>
+</class>

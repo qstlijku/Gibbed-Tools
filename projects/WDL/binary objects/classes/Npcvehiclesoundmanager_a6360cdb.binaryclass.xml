@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Npcvehiclesoundmanager_a6360cdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bEnabled" type="Boolean"/>
+	<field name="fPlayerHighSpeed" type="Float"/>
+	<field name="fSoundBlendDurationIn" type="Float"/>
+	<field name="fBlendDurationHighSpeedIn" type="Float"/>
+	<field name="fSoundBlendDurationOut" type="Float"/>
+	<field name="fBlendDurationHighSpeedOut" type="Float"/>
+	<field name="fPriorityCenterOffset" type="Float"/>
+	<field name="nMaxHornSounds" type="BinHex"/>
+	<field name="vec2RadioVehicleDistances" type="Vector2"/>
+	<field name="sndPlayerGotInCar" type="BinHex"/>
+	<field name="sndPlayerLeftCar" type="BinHex"/>
+	<field hash="B39CEDAC" type="BinHex"/>
+	<field hash="979DA2AD" type="BinHex"/>
+	<field name="vec2SwitchDelayMinMax" type="Vector2"/>
+	<object name="MaxVehiclesToPlay">
+		<field name="Normal" type="BinHex"/>
+		<field name="HighEnd" type="BinHex"/>
+	</object>
+	<object hash="2707FB41">
+		<field name="Normal" type="BinHex"/>
+		<field name="HighEnd" type="BinHex"/>
+	</object>
+	<object name="sndvarVehicleSpeedLocalSoundRtpcVariable">
+		<field name="SoundId" type="BinHex"/>
+		<field hash="EE1824B1" type="String"/>
+	</object>
+</class>

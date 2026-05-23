@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Eventstimsmanager_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="fDelayedStimsTimeBudget">
+		<field name="Normal" type="BinHex"/>
+		<field name="HighEnd" type="BinHex"/>
+	</object>
+	<object name="ShouldAggregateStims">
+		<field name="Normal" type="BinHex"/>
+		<field name="HighEnd" type="BinHex"/>
+	</object>
+	<object name="fAggregationRadius">
+		<field name="Normal" type="BinHex"/>
+		<field name="HighEnd" type="BinHex"/>
+	</object>
+	<object name="fMaxStimLifeTime">
+		<field name="Normal" type="BinHex"/>
+		<field name="HighEnd" type="BinHex"/>
+	</object>
+	<object name="fMergingVolumePercentage">
+		<field name="Normal" type="BinHex"/>
+		<field name="HighEnd" type="BinHex"/>
+	</object>
+</class>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="MaterialoverrideParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="matsetMaterialSet" type="BinHex"/>
+	<object name="Entries">
+		<field hash="6E7A746B" type="String"/>
+		<field name="SlotName" type="BinHex"/>
+		<field hash="71727063" type="String"/>
+		<field name="selMaterial" type="Enum"/>
+		<object name="Entries">
+			<field hash="6E7A746B" type="String"/>
+			<field name="SlotName" type="BinHex"/>
+			<field hash="71727063" type="String"/>
+			<field name="selMaterial" type="Enum"/>
+		</object>
+	</object>
+</class>

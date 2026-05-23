@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Characterdeckselectiongroupdatabase_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Groups">
+		<object name="Group">
+			<field hash="20BCCFCE" type="String"/>
+			<field hash="3530563D" type="BinHex"/>
+			<object hash="EB31FC0C">
+				<object hash="CB5EABB7">
+					<object hash="04170D84">
+						<object name="TagCategorySelectionArray">
+							<object name="TagCategorySelection">
+								<field hash="CF68E402" type="String"/>
+								<field name="hid_DTCTH_ClassName" type="BinHex"/>
+								<field hash="BDB3B8D5" type="String"/>
+								<field hash="401A8276" type="BinHex"/>
+								<field hash="F5391DFF" type="BinHex"/>
+								<field name="tagcategoryTagCategory" type="BinHex"/>
+								<field name="tagTag" type="BinHex"/>
+								<object name="Tags"/>
+							</object>
+						</object>
+						<object hash="D0C5DABB">
+							<field hash="CF68E402" type="String"/>
+							<field name="hid_DTCTH_ClassName" type="BinHex"/>
+							<object name="TagCategorySelectionDescriptors">
+								<object name="TagCategorySelectionDescriptor">
+									<field name="tagcategoryTagCategory" type="BinHex"/>
+									<field name="bMultiSelect" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object hash="10DB7589">
+					<object hash="04170D84">
+						<object name="TagCategorySelectionArray"/>
+						<object hash="D0C5DABB">
+							<field hash="CF68E402" type="String"/>
+							<field name="hid_DTCTH_ClassName" type="BinHex"/>
+							<object name="TagCategorySelectionDescriptors">
+								<object name="TagCategorySelectionDescriptor">
+									<field name="tagcategoryTagCategory" type="BinHex"/>
+									<field name="bMultiSelect" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object hash="623DE936">
+				<object hash="EF9E9909">
+					<field hash="5BB80E97" type="BinHex"/>
+					<field hash="34E182DB" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

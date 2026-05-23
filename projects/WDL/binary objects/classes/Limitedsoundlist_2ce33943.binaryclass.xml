@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Limitedsoundlist_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="TestValue" type="BinHex"/>
+	<object hash="5A9F3061">
+		<object hash="2C608665">
+			<field name="MaxValue" type="BinHex"/>
+			<field hash="9D52DA72" type="String"/>
+			<field hash="1E4B9959" type="BinHex"/>
+		</object>
+	</object>
+</class>

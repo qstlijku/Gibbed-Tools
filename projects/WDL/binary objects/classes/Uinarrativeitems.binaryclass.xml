@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UinarrativeitemsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selType" type="Enum"/>
+	<field hash="43879CB9" type="BinHex"/>
+	<field hash="630D8F12" type="BinHex"/>
+	<object hash="1D41E66D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="E57E520C">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="8EC4140E">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="7BA72580">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="327AD2E4">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="42E98F73">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

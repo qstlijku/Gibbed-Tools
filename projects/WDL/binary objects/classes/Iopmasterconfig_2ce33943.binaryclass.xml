@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Iopmasterconfig_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="IOPSystemicBusEvents">
+		<field name="sndStartIOPSystemicBusEvent" type="BinHex"/>
+		<field name="sndStopIOPSystemicBusEvent" type="BinHex"/>
+		<field hash="D487C0C2" type="BinHex"/>
+		<field hash="C1C1BD07" type="BinHex"/>
+		<object name="DisconnectionScreen">
+			<field hash="E450ED42" type="String"/>
+			<field name="sndIOPDisconnectSound" type="BinHex"/>
+			<field hash="E96C3EF2" type="BinHex"/>
+			<object name="locstridDisconnectHeaderText">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="locstridDisconnectMainText">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

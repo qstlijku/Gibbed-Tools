@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UisounddbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="D45156D3" type="String"/>
+	<field name="sSoundId" type="BinHex"/>
+	<field hash="03810A2C" type="String"/>
+	<field name="sndSoundResource" type="BinHex"/>
+	<field hash="8FE662AD" type="BinHex"/>
+</class>

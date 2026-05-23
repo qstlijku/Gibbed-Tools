@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Uiitemcategoryiconsdb_a914880fParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="0B663334">
+		<field hash="14C74242" type="BinHex"/>
+		<field hash="38E981EF" type="BinHex"/>
+		<object hash="7BA72580">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="D34632D2">
+		<field hash="14C74242" type="BinHex"/>
+		<field hash="38E981EF" type="BinHex"/>
+		<object hash="7BA72580">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="CF1F5D01">
+		<field hash="14C74242" type="BinHex"/>
+		<field hash="38E981EF" type="BinHex"/>
+		<object hash="7BA72580">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="454CBE42">
+		<field hash="14C74242" type="BinHex"/>
+		<field hash="38E981EF" type="BinHex"/>
+		<object hash="7BA72580">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+	<object hash="C23B13A9">
+		<field hash="14C74242" type="BinHex"/>
+		<field hash="38E981EF" type="BinHex"/>
+		<object hash="7BA72580">
+			<field name="LocalizationId" type="UInt64"/>
+		</object>
+	</object>
+</class>

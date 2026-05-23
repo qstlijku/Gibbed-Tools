@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CloudsequenceParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="vectorSunPositionBias" type="BinHex"/>
+	<field name="fCrossFadeStart" type="Float"/>
+	<field name="fCrossFadeEnd" type="Float"/>
+	<object name="TimeOfDaySteps">
+		<object name="Step">
+			<object name="Time">
+				<field name="uiHours" type="UInt32"/>
+				<field name="uiMinutes" type="UInt32"/>
+				<field name="uiSeconds" type="UInt32"/>
+			</object>
+			<object name="PlaneShape">
+				<field name="bEnabled" type="Boolean"/>
+				<field name="fSubsurfacePower" type="Float"/>
+				<field name="fVerticalScale" type="Float"/>
+				<field name="fVerticalOffset" type="Float"/>
+				<object name="LowerLayer">
+					<field hash="96EA533E" type="String"/>
+					<field name="fileAlbedo" type="String"/>
+					<field name="fileNormal" type="String"/>
+					<field name="vector2Tiling" type="BinHex"/>
+					<field name="fSpeed" type="Float"/>
+					<field name="fIntensity" type="Float"/>
+				</object>
+				<object name="UpperLayer">
+					<field hash="96EA533E" type="String"/>
+					<field name="fileAlbedo" type="String"/>
+					<field name="fileNormal" type="String"/>
+					<field name="vector2Tiling" type="BinHex"/>
+					<field name="fSpeed" type="Float"/>
+					<field name="fIntensity" type="Float"/>
+				</object>
+			</object>
+			<object name="RingShape">
+				<field name="bEnabled" type="Boolean"/>
+				<field name="fSubsurfacePower" type="Float"/>
+				<field name="fVerticalScale" type="Float"/>
+				<field name="fVerticalOffset" type="Float"/>
+				<object name="LowerLayer">
+					<field hash="96EA533E" type="String"/>
+					<field name="fileAlbedo" type="String"/>
+					<field name="fileNormal" type="String"/>
+					<field name="vector2Tiling" type="BinHex"/>
+					<field name="fSpeed" type="Float"/>
+					<field name="fIntensity" type="Float"/>
+				</object>
+				<object name="UpperLayer">
+					<field hash="96EA533E" type="String"/>
+					<field name="fileAlbedo" type="String"/>
+					<field name="fileNormal" type="String"/>
+					<field name="vector2Tiling" type="BinHex"/>
+					<field name="fSpeed" type="Float"/>
+					<field name="fIntensity" type="Float"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="curvePlaneShapeIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="curveRingShapeIntensity">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradSubsurfaceLowerLayerColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+				<field name="Position" type="BinHex"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradSubsurfaceUpperLayerColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+				<field name="Position" type="BinHex"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradAmbientColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+				<field name="Position" type="BinHex"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object name="gradSubsurfaceBorderColor">
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+				<field name="Position" type="BinHex"/>
+				<field name="Color" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

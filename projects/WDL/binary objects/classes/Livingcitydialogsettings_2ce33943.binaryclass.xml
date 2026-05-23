@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Livingcitydialogsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="OneSideConvo">
+		<field name="dialactorlistMaleDialogActor" type="BinHex"/>
+		<field name="dialactorlistFemaleDialogActor" type="BinHex"/>
+		<field hash="39699C12" type="String"/>
+		<field name="bark" type="BinHex"/>
+		<field name="fCoolDown" type="Float"/>
+		<field name="fMaxDistToPlayer" type="Float"/>
+		<field name="fAverageDuration" type="Float"/>
+		<field name="fRestrictionRadius" type="Float"/>
+		<field name="iMaxTwoSidedConvoInRadius" type="Int32"/>
+		<field name="iMaxOneSidedConvoInRadius" type="Int32"/>
+	</object>
+	<object name="DialogActorSettingsWithTags">
+		<object name="DialogActorSettingsWithTag">
+			<field name="sName" type="String"/>
+			<field name="tmplDialogActor" type="BinHex"/>
+			<field name="dialactorlistDialogActorsList" type="BinHex"/>
+			<object name="Tags">
+				<object name="tagcategoryselectionTag">
+					<field hash="BDB3B8D5" type="String"/>
+					<field hash="401A8276" type="BinHex"/>
+					<field hash="F5391DFF" type="BinHex"/>
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="tagTag" type="BinHex"/>
+				</object>
+			</object>
+			<object name="Districts"/>
+			<object name="LivingCityArea"/>
+		</object>
+	</object>
+</class>

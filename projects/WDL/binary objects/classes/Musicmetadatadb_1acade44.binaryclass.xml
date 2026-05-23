@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Musicmetadatadb_1acade44Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="B5A06EB1">
+		<object hash="DF79FF53">
+			<field hash="0020DA50" type="String"/>
+			<field name="Metadata" type="BinHex"/>
+			<object hash="E5B9EEE8">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="4081CD67">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object hash="0AC2780D">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

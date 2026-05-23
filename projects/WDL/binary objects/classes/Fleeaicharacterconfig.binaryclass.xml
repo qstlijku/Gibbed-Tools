@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="FleeaicharacterconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="VehicleSearchCriterias">
+		<field name="bSearchOnStart" type="Boolean"/>
+		<field name="fSearchInFrontDistance" type="Float"/>
+		<field name="fSearchMinimumThreathDistance" type="Float"/>
+		<field name="fSearchRetryTime" type="Float"/>
+	</object>
+	<object name="Dodge">
+		<field name="bEmitDodge" type="Boolean"/>
+		<field name="vec2DodgeBox" type="Vector2"/>
+		<field name="vec2AvoidBox" type="Vector2"/>
+	</object>
+	<object name="Cooldown">
+		<field name="bEnableCooldown" type="Boolean"/>
+		<object name="Anxious">
+			<field name="fDelayOnStart" type="Float"/>
+			<field name="fDistanceToThreat" type="Float"/>
+			<field name="fFaceThreatTime" type="Float"/>
+			<field name="fDistanceToEscalate" type="Float"/>
+		</object>
+		<object name="Panic">
+			<field name="fDelayOnStart" type="Float"/>
+			<field name="fDistanceToThreat" type="Float"/>
+			<field name="fFaceThreatTime" type="Float"/>
+			<field name="fDistanceToEscalate" type="Float"/>
+		</object>
+	</object>
+	<object name="Rubberbanding">
+		<object name="curveSpeedOverDistance">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="StopAndFire">
+			<field name="bEnabled" type="Boolean"/>
+			<field hash="C8C0D33E" type="BinHex"/>
+			<field name="fDelayOnStart" type="Float"/>
+			<field name="fDelayForNextAction" type="Float"/>
+			<field name="vec2DelayToTrigger" type="Vector2"/>
+			<object name="curveProbabilityOverDistance">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="BlindFire">
+			<field name="bEnabled" type="Boolean"/>
+			<field hash="C8C0D33E" type="BinHex"/>
+			<field name="fDelayOnStart" type="Float"/>
+			<field name="fDelayForNextAction" type="Float"/>
+			<field name="vec2DelayToTrigger" type="Vector2"/>
+			<object name="curveProbabilityOverDistance">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object name="Stumble">
+			<field name="bEnabled" type="Boolean"/>
+			<field hash="C8C0D33E" type="BinHex"/>
+			<field name="fDelayOnStart" type="Float"/>
+			<field name="fDelayForNextAction" type="Float"/>
+			<field name="vec2DelayToTrigger" type="Vector2"/>
+			<object name="curveProbabilityOverDistance">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="NavigationRequests">
+		<field name="selGoToVehicleInteractiveMode" type="Enum"/>
+		<field name="selFleeInteractiveMode" type="Enum"/>
+		<field name="selFollowInteractiveMode" type="Enum"/>
+		<field name="selWanderInteractiveMode" type="Enum"/>
+		<field name="bWanderAnimDriven" type="Boolean"/>
+	</object>
+</class>

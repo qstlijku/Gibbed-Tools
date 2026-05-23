@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="InteldefinitionParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="7F76B01D" type="BinHex"/>
+	<field hash="B82DDB11" type="BinHex"/>
+	<field hash="4DD49886" type="BinHex"/>
+	<field hash="7C2D66C8" type="BinHex"/>
+	<field hash="DCF6DD59" type="BinHex"/>
+	<field hash="635CFC68" type="BinHex"/>
+	<field hash="5DBBC8BA" type="BinHex"/>
+	<field hash="999CDDE5" type="BinHex"/>
+	<field hash="CD783321" type="BinHex"/>
+	<field hash="FA267F8A" type="BinHex"/>
+	<field hash="BC14A8C8" type="BinHex"/>
+	<field hash="647D9BAC" type="BinHex"/>
+	<field hash="82570ADE" type="BinHex"/>
+	<field hash="9AAB4660" type="BinHex"/>
+	<field hash="167225BF" type="BinHex"/>
+	<field hash="B44BC7ED" type="BinHex"/>
+	<field hash="D9FF567A" type="BinHex"/>
+	<field hash="819351BA" type="BinHex"/>
+	<object hash="2C9495CF">
+		<field hash="94C08F9B" type="BinHex"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object name="locstridTitle">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object name="locstridDescription">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="7B6786F7">
+		<object hash="E8BFFB32">
+			<field hash="E8BFFB32" type="BinHex"/>
+		</object>
+	</object>
+</class>

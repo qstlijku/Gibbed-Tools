@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Dg scenesParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="6E167DD5">
+		<field hash="EC36C366" type="String"/>
+		<field hash="0668A342" type="BinHex"/>
+		<object name="Actors">
+			<object name="Actor">
+				<field hash="918C4185" type="String"/>
+				<field name="RoleID" type="BinHex"/>
+				<field hash="6D1E1959" type="String"/>
+				<field name="selType" type="Enum"/>
+				<object name="Object">
+					<field hash="6CD78C8B" type="String"/>
+					<field hash="68FEE4B2" type="BinHex"/>
+					<field hash="51F9763A" type="BinHex"/>
+					<field hash="E6D06F75" type="BinHex"/>
+					<field hash="99372FEC" type="BinHex"/>
+					<field hash="B19B129D" type="BinHex"/>
+					<field hash="38D5BC9A" type="BinHex"/>
+					<field hash="15B6414A" type="BinHex"/>
+					<field name="vehiclesbankVehicleBank" type="BinHex"/>
+					<field hash="230EE452" type="BinHex"/>
+					<field hash="BFF000FC" type="BinHex"/>
+					<object hash="4B4C2524">
+						<object name="TagCategorySelectionArray">
+							<object name="TagCategorySelection">
+								<field hash="CF68E402" type="String"/>
+								<field name="hid_DTCTH_ClassName" type="BinHex"/>
+								<field hash="BDB3B8D5" type="String"/>
+								<field hash="401A8276" type="BinHex"/>
+								<field hash="F5391DFF" type="BinHex"/>
+								<field name="tagcategoryTagCategory" type="BinHex"/>
+								<object name="Tags">
+									<object name="Tag">
+										<field name="tagTag" type="BinHex"/>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object hash="D0C5DABB">
+							<field hash="CF68E402" type="String"/>
+							<field name="hid_DTCTH_ClassName" type="BinHex"/>
+							<object name="TagCategorySelectionDescriptors">
+								<object name="TagCategorySelectionDescriptor">
+									<field name="tagcategoryTagCategory" type="BinHex"/>
+									<field name="bMultiSelect" type="Boolean"/>
+								</object>
+							</object>
+						</object>
+					</object>
+					<field hash="D08DE62B" type="BinHex"/>
+					<field hash="87F01422" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="StaticRoles">
+			<object hash="F26BFC40">
+				<object hash="77FF01C3">
+					<object hash="307E4CED">
+					<field hash="0C97F65C" type="String"/>
+					<field hash="307E4CED" type="BinHex"/>
+				</object>
+				</object>
+			</object>
+			<object hash="D81584DC">
+				<object hash="77FF01C3">
+					<object hash="307E4CED">
+					<field hash="0C97F65C" type="String"/>
+					<field hash="307E4CED" type="BinHex"/>
+				</object>
+				</object>
+			</object>
+			<object hash="1A215861">
+				<object hash="77FF01C3">
+					<object hash="307E4CED">
+					<field hash="0C97F65C" type="String"/>
+					<field hash="307E4CED" type="BinHex"/>
+				</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="7F5ADDDB">
+		<object hash="101016AE">
+			<object name="Variation">
+				<field hash="25880B16" type="String"/>
+				<field hash="D7FA4DD8" type="BinHex"/>
+				<field hash="0B4664A1" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+	<object hash="CB6BD97F">
+		<object hash="FA60AA07">
+			<object name="Anchor">
+				<field hash="4D4C05E3" type="String"/>
+				<field hash="C7E41869" type="BinHex"/>
+				<field hash="DAF43240" type="BinHex"/>
+				<object name="Data">
+					<field name="selType" type="Enum"/>
+					<field hash="5637A976" type="String"/>
+					<field hash="E0752564" type="BinHex"/>
+				</object>
+				<object hash="B6D2301A">
+					<object hash="DEFD2065">
+						<field hash="29A450C3" type="String"/>
+						<field hash="DEFD2065" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="280E6F52">
+		<object name="Stage">
+			<field hash="56A9B936" type="BinHex"/>
+			<object hash="77FF01C3">
+				<object hash="307E4CED">
+					<field hash="0C97F65C" type="String"/>
+					<field hash="307E4CED" type="BinHex"/>
+				</object>
+				<object hash="F75B2554">
+					<field hash="9F94591C" type="String"/>
+					<field hash="8FD2D94F" type="BinHex"/>
+					<field hash="F73E7168" type="String"/>
+					<field hash="FAD9B34B" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

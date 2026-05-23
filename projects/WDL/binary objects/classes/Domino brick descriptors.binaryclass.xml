@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Domino brick descriptorsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="597DE161" type="String"/>
+	<field hash="E5278BC1" type="BinHex"/>
+	<field hash="33C3E988" type="String"/>
+	<field hash="B96BF402" type="BinHex"/>
+</class>

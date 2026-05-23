@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="CouriermissionconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="6C387910" type="String"/>
+	<field hash="7C7EF943" type="BinHex"/>
+	<field hash="C770AA9C" type="BinHex"/>
+	<field hash="FC8F1EFD" type="BinHex"/>
+	<field hash="68F4896C" type="BinHex"/>
+	<field name="fProbability" type="Float"/>
+	<field hash="27B12770" type="BinHex"/>
+	<field name="bIsTimed" type="Boolean"/>
+	<field hash="C46E7ED2" type="BinHex"/>
+	<field hash="B672A309" type="BinHex"/>
+	<field hash="5538914F" type="BinHex"/>
+	<field hash="EEEABC66" type="BinHex"/>
+	<field hash="4F834E7C" type="BinHex"/>
+	<field hash="85DB3F4D" type="BinHex"/>
+	<field hash="DD17622C" type="BinHex"/>
+	<field hash="B337162F" type="String"/>
+	<field hash="5969760B" type="BinHex"/>
+	<field hash="B984782D" type="BinHex"/>
+	<field hash="75890322" type="BinHex"/>
+	<object hash="C68B6D90">
+		<object hash="3C557746">
+			<object name="Event">
+				<field name="selEventType" type="Enum"/>
+			</object>
+			<object name="Response">
+				<field hash="43551782" type="BinHex"/>
+				<field name="fDelay" type="Float"/>
+				<field name="sndSound" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+				<field hash="08B5B327" type="String"/>
+				<field hash="5E01097A" type="BinHex"/>
+				<field hash="85DB3F4D" type="BinHex"/>
+				<object hash="16F60A5C">
+					<field name="LocalizationId" type="UInt64"/>
+				</object>
+				<object hash="E51940B4">
+					<field hash="C9F97BD7" type="BinHex"/>
+					<field hash="9F488989" type="BinHex"/>
+					<field hash="75C3042F" type="BinHex"/>
+					<field hash="4C7B4397" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object hash="947631C4">
+		<field hash="1B0382C7" type="String"/>
+		<field name="TimerName" type="BinHex"/>
+		<field name="selTimerType" type="Enum"/>
+		<field hash="ECD7B703" type="BinHex"/>
+		<field hash="BAF9A998" type="BinHex"/>
+		<field hash="25C3F7B5" type="BinHex"/>
+		<field hash="02C7AB12" type="BinHex"/>
+		<field name="fTime" type="Float"/>
+		<object hash="E51940B4">
+			<field hash="C9F97BD7" type="BinHex"/>
+			<field hash="9F488989" type="BinHex"/>
+			<field hash="75C3042F" type="BinHex"/>
+			<field hash="4C7B4397" type="BinHex"/>
+		</object>
+	</object>
+	<object name="Timers"/>
+	<object hash="1ED26BA7">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Wolfskindbsettings_02fbf0c5Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="text_archDefaultArchetype" type="String"/>
+	<field name="archDefaultArchetype" type="BinHex"/>
+	<field hash="420100FF" type="BinHex"/>
+	<object hash="33B64ACE">
+		<object hash="7653AE0B">
+			<field hash="7653AE0B" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="69785132">
+		<object hash="7653AE0B">
+			<field hash="7653AE0B" type="BinHex"/>
+		</object>
+	</object>
+</class>

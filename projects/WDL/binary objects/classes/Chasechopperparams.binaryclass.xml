@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ChasechopperparamsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bIsChopperShooterCombatAllowed" type="Boolean"/>
+	<field name="bAllowCloseCombatFallback" type="Boolean"/>
+	<object name="Overshoot">
+		<field name="fPlayerRange" type="Float"/>
+		<field name="fCooldownTime" type="Float"/>
+		<field name="fOvershootTime" type="Float"/>
+	</object>
+	<object name="Overtake">
+		<field name="fPlayerRange" type="Float"/>
+		<field name="fCooldownTime" type="Float"/>
+		<field name="fInterceptionPointWaitTime" type="Float"/>
+		<field name="fMinTimeAhead" type="Float"/>
+		<field name="fMaxTimeAhead" type="Float"/>
+		<field name="fUpdateTimeout" type="Float"/>
+		<field name="fEarlyRecoverTime" type="Float"/>
+	</object>
+</class>

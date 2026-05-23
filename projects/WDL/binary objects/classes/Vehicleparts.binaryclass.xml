@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclepartsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bBulletHitAffectVehicleTotalDamage" type="Boolean"/>
+	<field hash="3D2C2341" type="BinHex"/>
+	<field name="bBreakFromDeform" type="Boolean"/>
+	<field hash="E6984D37" type="BinHex"/>
+	<field name="bCanHang" type="Boolean"/>
+	<field name="bCanDetach" type="Boolean"/>
+	<field name="bCanDestroy" type="Boolean"/>
+	<field hash="765BD487" type="BinHex"/>
+	<field name="bIsChangingSoundOcclusion" type="Boolean"/>
+	<field name="bPartIsDamagable" type="Boolean"/>
+	<field name="selGameplayType" type="Enum"/>
+	<field name="vehiclepartsdamageDamageParams" type="BinHex"/>
+	<field name="logmatDefaultEffectMaterial" type="BinHex"/>
+	<field name="sRotatingReferencePart" type="BinHex"/>
+	<object hash="5C3AD49F">
+		<field hash="29D38BCF" type="BinHex"/>
+		<field hash="28B7504F" type="BinHex"/>
+		<field hash="0C2D622A" type="BinHex"/>
+		<field hash="66BF654D" type="BinHex"/>
+		<field hash="B340F3EB" type="BinHex"/>
+	</object>
+	<object hash="30F716AD">
+		<field hash="E284549B" type="BinHex"/>
+		<field hash="13416A1C" type="BinHex"/>
+		<field hash="9437F90A" type="BinHex"/>
+		<field hash="1CE3FE2F" type="BinHex"/>
+		<field hash="E4C2FE57" type="BinHex"/>
+		<field hash="BAA4D7EC" type="BinHex"/>
+		<field hash="5496D8DB" type="BinHex"/>
+		<field hash="A859F3C3" type="BinHex"/>
+		<field hash="639F2096" type="String"/>
+		<field hash="32020667" type="BinHex"/>
+		<field hash="41084B3D" type="BinHex"/>
+		<field hash="945313B1" type="BinHex"/>
+	</object>
+	<object name="DetachParams">
+		<field hash="13F7D5A0" type="String"/>
+		<field name="sndDetachSound" type="BinHex"/>
+		<field hash="91139130" type="BinHex"/>
+		<field hash="6207F45F" type="String"/>
+		<field name="psDetachParticle" type="BinHex"/>
+		<field name="bDetachParticleUseVelocity" type="Boolean"/>
+		<field hash="95692E8B" type="String"/>
+		<field name="sDetachParticleBoneName" type="BinHex"/>
+		<field name="fFloatingScale" type="Float"/>
+		<field name="fWaterFriction" type="Float"/>
+		<field name="fPushAwaySpeedOnDetach" type="Float"/>
+	</object>
+	<object name="TextureStateChanges">
+		<object name="TextureStateChange">
+			<field hash="8A6739BA" type="String"/>
+			<field name="psParticle" type="BinHex"/>
+			<field hash="463EA461" type="String"/>
+			<field name="sndSound" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+			<field name="fHealthPercentageThreshold" type="Float"/>
+			<field name="bParticleUseVelocity" type="Boolean"/>
+			<field name="sParticleBoneName" type="BinHex"/>
+			<field name="bBreakAssociatedLight" type="Boolean"/>
+		</object>
+	</object>
+	<object name="TextureStateSwitchParams">
+		<field name="nTextureStateIndexForRemovingCollision" type="BinHex"/>
+	</object>
+	<object name="DamageParams">
+		<field name="fCollisionExtraRadius" type="Float"/>
+		<field name="bAlwaysBreakFromDebrisCollision" type="Boolean"/>
+		<field name="fMaximumHealth" type="Float"/>
+		<field name="fCollisionDamageScale" type="Float"/>
+		<field name="fBulletDamageScale" type="Float"/>
+		<field name="fExplosionDamageScale" type="Float"/>
+		<field name="fRandomDamageScaleAmplitude" type="Float"/>
+	</object>
+	<object name="PhysicsParams">
+		<field name="fMass" type="Float"/>
+		<field name="fInertiaScale" type="Float"/>
+		<field name="vectorCenterOfMassOffset" type="BinHex"/>
+	</object>
+	<object name="VehicleSelfExplosion">
+		<field name="fNoStateChangeChance" type="Float"/>
+		<field name="fNoHangingChance" type="Float"/>
+		<field name="fMinImpulse" type="Float"/>
+		<field name="fMaxImpulse" type="Float"/>
+		<field name="bDetachOnEngineBurn" type="Boolean"/>
+	</object>
+	<object hash="78A68473">
+		<field hash="5C5E13CF" type="String"/>
+		<field hash="C5FB7D95" type="BinHex"/>
+		<field hash="4398331E" type="BinHex"/>
+		<field hash="D0BCC861" type="String"/>
+		<field hash="8121EE90" type="BinHex"/>
+	</object>
+	<object hash="787C54E3">
+		<object name="RollMaterialsRange">
+			<field name="fActivationThreshold" type="Float"/>
+			<field name="fImpactMagnitudeRangeMin" type="Float"/>
+			<field name="fImpactMagnitudeRangeMax" type="Float"/>
+			<object name="ImpactMaterials">
+				<object name="ImpactMaterial">
+					<field name="matimpImpactMaterial" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="HitMaterialsRange">
+			<field name="fActivationThreshold" type="Float"/>
+			<field name="fImpactMagnitudeRangeMin" type="Float"/>
+			<field name="fImpactMagnitudeRangeMax" type="Float"/>
+			<object name="ImpactMaterials">
+				<object name="ImpactMaterial">
+					<field name="matimpImpactMaterial" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="GlanceMaterialsRange">
+			<field name="fActivationThreshold" type="Float"/>
+			<field name="fImpactMagnitudeRangeMin" type="Float"/>
+			<field name="fImpactMagnitudeRangeMax" type="Float"/>
+			<object name="ImpactMaterials">
+				<object name="ImpactMaterial">
+					<field name="matimpImpactMaterial" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object name="OtherMaterialsRange">
+			<field name="fActivationThreshold" type="Float"/>
+			<field name="fImpactMagnitudeRangeMin" type="Float"/>
+			<field name="fImpactMagnitudeRangeMax" type="Float"/>
+			<object name="ImpactMaterials">
+				<object name="ImpactMaterial">
+					<field name="matimpImpactMaterial" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

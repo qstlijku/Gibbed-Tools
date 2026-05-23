@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PoseanimationmaskParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selMaskType" type="Enum"/>
+	<object name="Poses">
+		<object name="Pose">
+			<field hash="97769D74" type="String"/>
+			<field name="Pose" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="4A18A424">
+		<object name="Slider">
+			<field hash="DDE78CC2" type="String"/>
+			<field name="Slider" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="E5DC2400">
+		<object name="Slider">
+			<field hash="DDE78CC2" type="String"/>
+			<field name="Slider" type="BinHex"/>
+		</object>
+	</object>
+</class>

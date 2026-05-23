@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Taggingglobalsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fMaxDistance" type="Float"/>
+	<field hash="4125FC18" type="BinHex"/>
+	<field name="fReticleTaggingDuration" type="Float"/>
+	<field hash="9EBC53F1" type="BinHex"/>
+	<field hash="8BA9FDD1" type="BinHex"/>
+	<object name="TagSounds">
+		<field hash="E83F119A" type="String"/>
+		<field name="sndOnGenericTagAddedSound" type="BinHex"/>
+		<field hash="0801B758" type="String"/>
+		<field name="sndOnEnemyTagAddedSound" type="BinHex"/>
+		<field hash="6FB111A9" type="String"/>
+		<field name="sndOnPoliceTagAddedSound" type="BinHex"/>
+		<field hash="69E1EEC5" type="BinHex"/>
+		<field hash="53B8F4C7" type="BinHex"/>
+		<field hash="E6C91021" type="BinHex"/>
+	</object>
+	<object name="AutoTagSpecialEffects">
+		<field hash="463EA461" type="String"/>
+		<field name="sndSound" type="BinHex"/>
+		<field hash="8FE662AD" type="BinHex"/>
+		<field hash="93D2AFB5" type="String"/>
+		<field name="psParticleSystem" type="BinHex"/>
+		<field name="vectorParticleSystemRelativeLocation" type="BinHex"/>
+	</object>
+</class>

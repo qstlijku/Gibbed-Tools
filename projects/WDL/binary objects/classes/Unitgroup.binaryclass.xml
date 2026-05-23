@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UnitgroupParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bValid" type="Boolean"/>
+	<object name="Groups">
+		<object name="Group">
+			<field hash="F9435574" type="BinHex"/>
+			<field name="selAffiliation" type="Enum"/>
+			<field hash="E1FCBFF2" type="BinHex"/>
+			<field hash="CA822405" type="BinHex"/>
+			<object hash="95571E44">
+				<object hash="E73EB69D">
+					<field hash="47746101" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

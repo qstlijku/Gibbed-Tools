@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehicletransmissionsounddbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Clutch">
+		<field name="sndClutchIn" type="BinHex"/>
+		<field name="sndClutchOut" type="BinHex"/>
+		<field hash="08C992E3" type="String"/>
+		<field name="sndClutchInHandbrake" type="BinHex"/>
+		<field hash="F2F7D97F" type="String"/>
+		<field name="sndClutchOutHandbrake" type="BinHex"/>
+		<field hash="750A2561" type="String"/>
+		<field name="sndClutchSlipping" type="BinHex"/>
+		<field hash="23ABD29F" type="BinHex"/>
+		<field hash="2E751D43" type="BinHex"/>
+		<field hash="CB0A40CD" type="BinHex"/>
+		<field hash="DDDDCCBD" type="BinHex"/>
+		<field hash="52AFC436" type="BinHex"/>
+		<object name="ClutchLockUp">
+			<field name="bUseClutchLockUpFluctuation" type="Boolean"/>
+			<field name="fRpmAmplitude" type="Float"/>
+			<field name="fTime" type="Float"/>
+			<field name="fFrequency" type="Float"/>
+		</object>
+	</object>
+	<object name="FakeRevLimiter">
+		<field name="bUseFakeRevLimiter" type="Boolean"/>
+		<field name="fAmplitude" type="Float"/>
+		<field name="fPeriod" type="Float"/>
+		<field name="fMaxSpeed" type="Float"/>
+		<object name="curveLimiterShape">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object name="FakeTopGear">
+		<field name="bUseFakeTopGear" type="Boolean"/>
+		<field name="fRealRpmMinFactor" type="Float"/>
+		<object name="FakeGears">
+			<object name="FakeGear">
+				<field name="fRealRpmMinFactor" type="Float"/>
+				<field name="fRealRpmMaxFactor" type="Float"/>
+				<field name="fRealRpmDownShiftFactor" type="Float"/>
+				<field name="fStartRpmFactor" type="Float"/>
+				<field name="fEndRpmFactor" type="Float"/>
+				<field name="fActiveRpmRate" type="Float"/>
+				<field name="fGearChangeRpmRate" type="Float"/>
+			</object>
+		</object>
+	</object>
+	<object name="Gear">
+		<field name="sndGearShift" type="BinHex"/>
+		<field name="sndNpcGearShiftUp" type="BinHex"/>
+		<field name="sndNpcGearShiftDown" type="BinHex"/>
+		<field hash="674A360B" type="BinHex"/>
+		<field hash="E371E97A" type="BinHex"/>
+		<field hash="172B55EA" type="BinHex"/>
+		<object name="NpcGears">
+			<object name="m_npcSoundGears">
+				<field hash="E206FBB0" type="BinHex"/>
+				<field hash="EEACA8D2" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ObjectiveprotectandtransferdescriptorParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="B4945DFB" type="BinHex"/>
+	<field hash="55C0E5C4" type="BinHex"/>
+	<field hash="28C89757" type="BinHex"/>
+	<field hash="DCC84C20" type="BinHex"/>
+	<field hash="6783D424" type="BinHex"/>
+	<field hash="A9CF5995" type="BinHex"/>
+	<field hash="D6347692" type="BinHex"/>
+	<object name="locstridObjectiveLocId">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="42DDAFC5">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="14BBAE7D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="FC293553">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="C75CBA91">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="C394A204">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="252A4153">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

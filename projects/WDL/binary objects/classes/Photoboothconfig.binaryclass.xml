@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PhotoboothconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="912B9231" type="BinHex"/>
+	<field hash="958ABA6E" type="BinHex"/>
+	<field hash="266B2B95" type="BinHex"/>
+	<field hash="8F60E08D" type="BinHex"/>
+	<field hash="A8DB87BC" type="BinHex"/>
+	<field hash="73C8BB96" type="BinHex"/>
+	<field hash="C6CBC191" type="BinHex"/>
+	<field hash="893D0FC1" type="BinHex"/>
+	<field hash="BAA7AE19" type="String"/>
+	<field hash="6CCD579B" type="BinHex"/>
+	<field hash="4479C7BB" type="BinHex"/>
+	<field hash="07C0A78B" type="String"/>
+	<field hash="B1822B99" type="BinHex"/>
+	<field hash="2F7E717C" type="String"/>
+	<field hash="0BDF5E43" type="BinHex"/>
+	<field hash="E47E77E2" type="String"/>
+	<field hash="6F596A66" type="BinHex"/>
+	<field hash="59EDC5D2" type="String"/>
+	<field hash="D2CAD856" type="BinHex"/>
+	<field hash="C1EC97F3" type="String"/>
+	<field hash="4ACB8A77" type="BinHex"/>
+	<field hash="BACEEDDA" type="String"/>
+	<field hash="C6E0702B" type="BinHex"/>
+	<field hash="435B3D0D" type="String"/>
+	<field hash="C0427E26" type="BinHex"/>
+	<field hash="F2301AC0" type="String"/>
+	<field hash="6B95749A" type="BinHex"/>
+	<field hash="BF86C09D" type="BinHex"/>
+	<field hash="B6DE8700" type="BinHex"/>
+	<field hash="3789279E" type="BinHex"/>
+	<field hash="EEC4E3A9" type="BinHex"/>
+	<field hash="7EBDFB1B" type="BinHex"/>
+	<field hash="FE87722D" type="BinHex"/>
+	<field hash="51D17A44" type="BinHex"/>
+	<field hash="DE3AD001" type="BinHex"/>
+	<object hash="02F5DE2F">
+		<object hash="97275596">
+			<field hash="BE9EFCB9" type="String"/>
+			<field hash="35B9E13D" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="D35D2011">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="6BCB0211">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="F7A6CCB9">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

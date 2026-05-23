@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Soundwallasettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="fSearchRadius" type="Float"/>
+	<object name="SoundSettings">
+		<field hash="65628D45" type="String"/>
+		<field hash="FCC7E31F" type="BinHex"/>
+		<field hash="8481B18B" type="String"/>
+		<field hash="1D24DFD1" type="BinHex"/>
+		<field hash="1A07014C" type="BinHex"/>
+		<field hash="03BAF64C" type="BinHex"/>
+		<object hash="0259AFB7">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="013AD302">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="910E121F">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="D2B5A631">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="BE7B30E4">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="C51F0FB9">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="29B0BDFF">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="BB33AAE9">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="28EA2CD0">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="02815B03">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+		<object hash="0385240F">
+			<field name="SoundId" type="BinHex"/>
+			<field hash="EE1824B1" type="String"/>
+		</object>
+	</object>
+	<object hash="153612A1">
+		<field hash="88750BC4" type="BinHex"/>
+		<field hash="417F16FB" type="BinHex"/>
+		<field hash="92144868" type="BinHex"/>
+	</object>
+</class>

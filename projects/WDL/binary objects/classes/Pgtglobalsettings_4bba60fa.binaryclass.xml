@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Pgtglobalsettings_4bba60faParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="reinforcementconfigDefaultReinforcementConfig" type="BinHex"/>
+	<object hash="5060F35A">
+		<field hash="479F79FA" type="BinHex"/>
+		<field hash="4A3385ED" type="BinHex"/>
+		<object hash="5060F35A">
+			<field hash="479F79FA" type="BinHex"/>
+			<field hash="4A3385ED" type="BinHex"/>
+		</object>
+	</object>
+</class>

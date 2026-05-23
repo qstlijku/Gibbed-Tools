@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VoiceannouncementsdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="8FC97D48" type="BinHex"/>
+	<field hash="4D0C6DBB" type="BinHex"/>
+	<field hash="3B9030FC" type="BinHex"/>
+	<field hash="89034724" type="BinHex"/>
+	<field hash="A0F7D65D" type="BinHex"/>
+	<field hash="2E66E6E7" type="BinHex"/>
+	<object hash="BB3CFF35">
+		<object hash="6A160539">
+			<field hash="87E038DB" type="String"/>
+			<field name="sndSoundId" type="BinHex"/>
+			<field hash="8FE662AD" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="EA13B1A4">
+		<field hash="33F8BE54" type="String"/>
+		<field hash="70DE7565" type="BinHex"/>
+		<field hash="F10B1618" type="BinHex"/>
+		<field hash="B2B79D21" type="BinHex"/>
+		<field hash="F3284AF9" type="BinHex"/>
+		<field hash="64D615D2" type="BinHex"/>
+		<field hash="EA472568" type="BinHex"/>
+		<object hash="0D634BAC">
+			<object hash="6A160539">
+				<field hash="87E038DB" type="String"/>
+				<field name="sndSoundId" type="BinHex"/>
+				<field hash="8FE662AD" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

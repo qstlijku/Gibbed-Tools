@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RoadblockreinforcementconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="bRoadBlocksAllowed" type="Boolean"/>
+	<field name="fMinRoadBlockDist" type="Float"/>
+	<field name="fMaxRoadBlockDist" type="Float"/>
+</class>

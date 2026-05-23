@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="VehiclesbankParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="411691DC" type="String"/>
+	<field name="GroupName" type="BinHex"/>
+	<object name="Bank">
+		<object name="Entry">
+			<field name="vehicleinfoVehicleSpawnInfo" type="BinHex"/>
+			<object name="Coeff">
+				<field name="Normal" type="BinHex"/>
+				<field name="HighEnd" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

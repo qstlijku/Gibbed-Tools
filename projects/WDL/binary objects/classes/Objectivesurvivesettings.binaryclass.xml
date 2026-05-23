@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="ObjectivesurvivesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="B4945DFB" type="BinHex"/>
+	<field name="reinforcementconfigReinforcementConfig" type="BinHex"/>
+	<field name="selAffiliation" type="Enum"/>
+	<field hash="32692229" type="BinHex"/>
+	<field hash="BD266559" type="BinHex"/>
+	<field hash="89E6A2C4" type="BinHex"/>
+	<field hash="9FF746DB" type="BinHex"/>
+	<field hash="6972E194" type="BinHex"/>
+	<field hash="E1F8001E" type="BinHex"/>
+	<field hash="9755BED9" type="BinHex"/>
+	<field hash="78285E2C" type="BinHex"/>
+	<field hash="93765F12" type="BinHex"/>
+	<field hash="F3F00C6C" type="BinHex"/>
+	<field hash="2017DADA" type="BinHex"/>
+	<field hash="454622CD" type="BinHex"/>
+	<field hash="8CE1BDC2" type="BinHex"/>
+	<field hash="C12F359A" type="BinHex"/>
+	<field hash="5F74C9FF" type="BinHex"/>
+	<field hash="5DA2C4AE" type="BinHex"/>
+	<object hash="DADF8182">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="3CFBA4A2">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="14BBAE7D">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="FC293553">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="1F5C1EAD">
+		<field hash="D64B1A65" type="BinHex"/>
+		<field hash="3A7D1D8B" type="BinHex"/>
+	</object>
+	<object hash="96AC6E00">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+	<object hash="5A261C9F">
+		<field name="LocalizationId" type="UInt64"/>
+	</object>
+</class>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Radiobroadcastsettings_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="uiCooldownEnterCarMin" type="UInt32"/>
+	<field name="uiCooldownEnterCarMax" type="UInt32"/>
+	<field name="uiCooldownIntervalMin" type="UInt32"/>
+	<field name="uiCooldownIntervalMax" type="UInt32"/>
+	<field name="uiBroadcastActWeight" type="UInt32"/>
+	<object name="ActRadioBlogs"/>
+</class>

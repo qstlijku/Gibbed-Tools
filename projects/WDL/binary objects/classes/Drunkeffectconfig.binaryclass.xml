@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DrunkeffectconfigParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="4E1CE5C6" type="BinHex"/>
+	<field hash="82493459" type="BinHex"/>
+	<field hash="BE440B00" type="BinHex"/>
+	<field hash="EE841791" type="BinHex"/>
+	<field hash="C40ACFBD" type="BinHex"/>
+	<field hash="C15C47BF" type="BinHex"/>
+	<field hash="9F1CD7E8" type="BinHex"/>
+	<field hash="86F5D470" type="BinHex"/>
+	<field hash="EB011BD1" type="BinHex"/>
+	<field hash="F2E81849" type="BinHex"/>
+	<field hash="48C04378" type="BinHex"/>
+	<field hash="512940E0" type="BinHex"/>
+	<field hash="D0AB015B" type="BinHex"/>
+	<field hash="07342DDB" type="BinHex"/>
+	<field hash="7F588371" type="BinHex"/>
+	<field hash="5B205B4C" type="BinHex"/>
+	<field hash="8F4A4646" type="BinHex"/>
+	<field hash="6151817F" type="BinHex"/>
+	<field hash="37EF5ED9" type="BinHex"/>
+	<field hash="5953AC65" type="BinHex"/>
+	<field name="vectorShakeTranslationAmplitude" type="BinHex"/>
+	<field hash="36D217A8" type="BinHex"/>
+	<field name="vectorShakeRotationAmplitude" type="BinHex"/>
+	<field hash="B8C16D95" type="BinHex"/>
+	<field hash="A2E94226" type="BinHex"/>
+	<field hash="0491C7D3" type="BinHex"/>
+	<field hash="42C130EB" type="BinHex"/>
+	<field hash="7ECC0FB2" type="BinHex"/>
+	<field hash="4280DD1D" type="BinHex"/>
+	<field name="fFOVFactor" type="Float"/>
+	<field hash="1D0A295C" type="BinHex"/>
+	<field hash="1F5F057D" type="BinHex"/>
+	<field hash="4331D3A2" type="BinHex"/>
+	<field hash="5822639F" type="BinHex"/>
+	<object hash="2F2C8CD5">
+		<field name="hidNumKnots" type="BinHex"/>
+		<object name="Knots">
+			<object name="Knot">
+				<field name="Value" type="Vector4"/>
+				<field name="Info" type="Vector4"/>
+				<field name="Type" type="BinHex"/>
+			</object>
+		</object>
+	</object>
+</class>

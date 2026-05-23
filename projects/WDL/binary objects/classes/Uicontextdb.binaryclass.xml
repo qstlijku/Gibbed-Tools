@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UicontextdbParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="B70517D9" type="String"/>
+	<field hash="BAE2D5FA" type="BinHex"/>
+	<field hash="1B8CC9EA" type="String"/>
+	<field hash="54AE9282" type="BinHex"/>
+	<object hash="2C703970">
+		<object hash="AE08272C">
+			<field name="uielementsettingsUIElementSetting" type="BinHex"/>
+			<field name="uilayoutdbobjectLayoutSetting" type="BinHex"/>
+			<field hash="6BC4255E" type="BinHex"/>
+		</object>
+	</object>
+</class>

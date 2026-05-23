@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Vehiclecombatconfigmanager_38ffef86Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="68678339" type="BinHex"/>
+	<field hash="4A4A0932" type="BinHex"/>
+	<field hash="D3435888" type="BinHex"/>
+	<field hash="A444681E" type="BinHex"/>
+	<field hash="3A20FDBD" type="BinHex"/>
+	<field hash="4D27CD2B" type="BinHex"/>
+</class>

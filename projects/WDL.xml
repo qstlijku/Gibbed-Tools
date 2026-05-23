@@ -1,0 +1,7 @@
+<project>
+	<name>WDL</name>
+	<dependencies>
+		<dependency>Shared</dependency>
+	</dependencies>
+	<list_location>WDL</list_location>
+</project>

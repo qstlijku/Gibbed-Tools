@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="DronechasesettingsParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="OnFoot">
+		<field hash="130BE6A7" type="BinHex"/>
+		<field hash="F90B5E37" type="BinHex"/>
+		<field hash="02580C4D" type="BinHex"/>
+		<field hash="9DFA6C7C" type="BinHex"/>
+		<field hash="9E098C33" type="BinHex"/>
+		<field hash="E360D891" type="BinHex"/>
+		<field hash="C1BB0AAF" type="BinHex"/>
+		<field hash="726D34F1" type="BinHex"/>
+		<field hash="D34FE138" type="BinHex"/>
+		<field hash="1F429A37" type="BinHex"/>
+		<field hash="3FFD2854" type="BinHex"/>
+		<field hash="F3F0535B" type="BinHex"/>
+		<field hash="447C36DF" type="BinHex"/>
+		<field hash="B13731DE" type="BinHex"/>
+		<field hash="F4A3F192" type="BinHex"/>
+		<field hash="15FEAAF4" type="BinHex"/>
+		<field hash="EABD8E0D" type="BinHex"/>
+		<field hash="76949D21" type="BinHex"/>
+		<field hash="22E62D52" type="BinHex"/>
+		<field hash="2115CD1D" type="BinHex"/>
+		<field hash="F4A0CC25" type="BinHex"/>
+		<field hash="38ADB72A" type="BinHex"/>
+		<field hash="017C0518" type="BinHex"/>
+		<field hash="2E596AEC" type="BinHex"/>
+		<field hash="347A779A" type="BinHex"/>
+		<field hash="77047AE4" type="BinHex"/>
+	</object>
+	<object name="InVehicle">
+		<field name="fMinSpeed" type="Float"/>
+		<field hash="2C07B9C1" type="BinHex"/>
+		<field hash="00696F21" type="BinHex"/>
+		<field hash="44A47D77" type="BinHex"/>
+		<field hash="6491D2F3" type="BinHex"/>
+		<field hash="282FF3A7" type="BinHex"/>
+		<field hash="EB557483" type="BinHex"/>
+		<field hash="0DECC349" type="BinHex"/>
+		<field hash="712CA4C5" type="BinHex"/>
+		<field hash="67A496E7" type="BinHex"/>
+		<field hash="4F5A9958" type="BinHex"/>
+		<field hash="E1313E9F" type="BinHex"/>
+		<field hash="EABD8E0D" type="BinHex"/>
+		<field hash="F0F3785B" type="BinHex"/>
+		<field name="fHeight" type="Float"/>
+		<field hash="8F21565A" type="BinHex"/>
+		<field hash="446811BA" type="BinHex"/>
+		<field hash="43A29BAB" type="BinHex"/>
+		<field hash="3D7F872D" type="BinHex"/>
+		<field hash="3C242A86" type="BinHex"/>
+		<field hash="4853D05D" type="BinHex"/>
+		<field hash="5F0CA26F" type="BinHex"/>
+		<field hash="1EA2C6B2" type="BinHex"/>
+		<field hash="32911FEE" type="BinHex"/>
+		<field hash="B13731DE" type="BinHex"/>
+		<field hash="010F7BE3" type="BinHex"/>
+		<field hash="15FEAAF4" type="BinHex"/>
+		<field hash="4962A129" type="BinHex"/>
+		<field hash="7C9C6C9C" type="BinHex"/>
+		<field hash="7289142F" type="BinHex"/>
+		<field hash="88759667" type="BinHex"/>
+		<field hash="0A724148" type="BinHex"/>
+		<object hash="CC5A42B2">
+			<field hash="32E1279C" type="BinHex"/>
+			<field hash="CF27A22C" type="BinHex"/>
+			<field hash="89BA62B3" type="String"/>
+			<field hash="EF67F825" type="BinHex"/>
+			<object name="curveCurve">
+				<field name="hidNumKnots" type="BinHex"/>
+				<object name="Knots">
+					<object name="Knot">
+						<field name="Value" type="Vector4"/>
+						<field name="Info" type="Vector4"/>
+						<field name="Type" type="BinHex"/>
+					</object>
+				</object>
+			</object>
+			<object hash="7A851247">
+				<field hash="94C08F9B" type="BinHex"/>
+				<field hash="1DF2E0ED" type="BinHex"/>
+			</object>
+			<object hash="CC5A42B2">
+				<field hash="32E1279C" type="BinHex"/>
+				<field hash="CF27A22C" type="BinHex"/>
+				<field hash="89BA62B3" type="String"/>
+				<field hash="EF67F825" type="BinHex"/>
+				<object name="curveCurve">
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="Vector4"/>
+							<field name="Info" type="Vector4"/>
+							<field name="Type" type="BinHex"/>
+						</object>
+					</object>
+				</object>
+				<object hash="7A851247">
+					<field hash="94C08F9B" type="BinHex"/>
+					<field hash="1DF2E0ED" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="1FA85D9D">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="7E660B4D">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="4682E27B">
+			<field name="hidNumKnots" type="BinHex"/>
+			<object name="Knots">
+				<object name="Knot">
+					<field name="Value" type="Vector4"/>
+					<field name="Info" type="Vector4"/>
+					<field name="Type" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+		<object hash="652D038B">
+			<field hash="94C08F9B" type="BinHex"/>
+			<field hash="1DF2E0ED" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="F4B97DB9">
+		<field hash="15ED0B67" type="BinHex"/>
+		<field hash="6491D2F3" type="BinHex"/>
+		<field hash="AFBBB889" type="BinHex"/>
+		<field hash="FCA46308" type="BinHex"/>
+		<field hash="32911FEE" type="BinHex"/>
+		<field hash="B13731DE" type="BinHex"/>
+	</object>
+</class>

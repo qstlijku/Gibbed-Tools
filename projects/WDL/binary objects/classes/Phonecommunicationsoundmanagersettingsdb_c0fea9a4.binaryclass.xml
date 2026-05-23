@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Phonecommunicationsoundmanagersettingsdb_c0fea9a4Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="ActorArchetypes">
+		<object name="Actor">
+			<field name="archArchetype" type="BinHex"/>
+			<field name="tmplDialogActor" type="BinHex"/>
+			<object name="locstridActorName">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+	</object>
+</class>

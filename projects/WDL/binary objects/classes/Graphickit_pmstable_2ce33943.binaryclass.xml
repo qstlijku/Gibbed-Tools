@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Graphickit_pmstable_2ce33943Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object name="Table">
+		<object name="Entry">
+			<object name="Tag">
+				<object name="tagcategoryselectionTag">
+					<field hash="BDB3B8D5" type="String"/>
+					<field hash="401A8276" type="BinHex"/>
+					<field hash="F5391DFF" type="BinHex"/>
+					<field name="tagcategoryTagCategory" type="BinHex"/>
+					<field name="tagTag" type="BinHex"/>
+				</object>
+			</object>
+			<object name="PMSList">
+				<object hash="2448C6A4">
+					<field hash="363F5FCE" type="String"/>
+					<field name="pmsPMSName" type="BinHex"/>
+					<field name="selEnumValue" type="Enum"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>
