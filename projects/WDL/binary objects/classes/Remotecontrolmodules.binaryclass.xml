@@ -1298,7 +1298,7 @@
 						</object>
 					</object>
 					<object name="MobileBones">
-						<field name="text_BoneName" type="BinHex"/>
+						<field name="text_BoneName" type="String"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="selPosReference" type="BinHex"/>
 						<field name="vectorStartPos" type="BinHex"/>
@@ -4854,7 +4854,7 @@
 			<field name="fFireRate" type="BinHex"/>
 			<field name="fMaxFireAngleInRad" type="BinHex"/>
 			<field name="fMaxCannonOffsetFireAngleRad" type="BinHex"/>
-			<field name="text_GunBoneName" type="BinHex"/>
+			<field name="text_GunBoneName" type="String"/>
 			<field name="GunBoneName" type="BinHex"/>
 			<field name="text_fileTurretLayeredMovePath" type="String"/>
 			<field name="fileTurretLayeredMovePath" type="BinHex"/>
@@ -5012,7 +5012,7 @@
 			<field name="bUseTargetLockOn" type="BinHex"/>
 			<field name="fLockonReticleSize" type="BinHex"/>
 			<field name="vector2LockonStimDelayRange" type="BinHex"/>
-			<field name="text_AimingBeamOriginBoneName" type="BinHex"/>
+			<field name="text_AimingBeamOriginBoneName" type="String"/>
 			<field name="AimingBeamOriginBoneName" type="BinHex"/>
 			<field name="fAimingBeamDuration" type="BinHex"/>
 			<field name="fAimingBeamOpacity" type="BinHex"/>
@@ -5446,10 +5446,10 @@
 				</object>
 			</object>
 			<object name="BonesToHideNames">
-				<field name="text_BoneName" type="BinHex"/>
+				<field name="text_BoneName" type="String"/>
 				<field name="BoneName" type="BinHex"/>
 				<object name="BonesToHideNames">
-					<field name="text_BoneName" type="BinHex"/>
+					<field name="text_BoneName" type="String"/>
 					<field name="BoneName" type="BinHex"/>
 				</object>
 			</object>

@@ -24,10 +24,10 @@
 	<field hash="AC2A4DE6" type="BinHex"/>
 	<field hash="CFD364DF" type="BinHex"/>
 	<object name="ExplosionStim">
-		<field name="text_hidEventName" type="BinHex"/>
+		<field name="text_hidEventName" type="String"/>
 		<field name="hidEventName" type="BinHex"/>
 		<field name="hidTargetEntityId" type="BinHex"/>
-		<field name="text_sDetail" type="BinHex"/>
+		<field name="text_sDetail" type="String"/>
 		<field name="sDetail" type="BinHex"/>
 		<field name="selType" type="BinHex"/>
 		<field name="bShowCone" type="Boolean"/>

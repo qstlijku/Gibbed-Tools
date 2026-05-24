@@ -61,7 +61,7 @@
 		<field hash="E1E72825" type="BinHex"/>
 		<object name="ActivityFailRewardRule">
 			<field name="rulesmithidRule" type="BinHex"/>
-			<field name="text_rulesmithconstValue" type="BinHex"/>
+			<field name="text_rulesmithconstValue" type="String"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>

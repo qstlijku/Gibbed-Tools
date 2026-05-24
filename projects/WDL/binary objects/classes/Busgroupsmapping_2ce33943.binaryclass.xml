@@ -10,7 +10,7 @@
 	<field name="MusicGroupName" type="BinHex"/>
 	<field name="text_LicencedMusicGroupName" type="String"/>
 	<field name="LicencedMusicGroupName" type="BinHex"/>
-	<field name="text_SfxGroupName" type="BinHex"/>
+	<field name="text_SfxGroupName" type="String"/>
 	<field name="SfxGroupName" type="BinHex"/>
 	<field name="text_VoiceGroupName" type="String"/>
 	<field name="VoiceGroupName" type="BinHex"/>
