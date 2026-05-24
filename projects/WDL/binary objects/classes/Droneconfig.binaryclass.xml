@@ -132,7 +132,7 @@
 			<field name="dronestrafesettingsAimedByGun" type="BinHex"/>
 			<field name="dronestrafesettingsLockOn" type="BinHex"/>
 		</object>
-		<object hash="A2D46794">
+		<object name="GenericCombatDroneSettings">
 			<field hash="49DE7811" type="BinHex"/>
 		</object>
 	</object>

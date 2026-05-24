@@ -321,9 +321,9 @@
 			</object>
 		</object>
 	</object>
-	<object hash="FE497B2F">
+	<object name="BucketEvaluator">
 		<field name="fFactor" type="BinHex"/>
-		<object hash="2AF4B72B">
+		<object name="AreBucket2LocationsAvailableForDynamicLocationCastingRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>

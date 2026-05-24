@@ -13,7 +13,7 @@
 	<field name="fSunBelowHorizonFactor" type="Float"/>
 	<field name="fSunStaticShadowThresholdAngle" type="Float"/>
 	<field name="fTimeScale" type="Float"/>
-	<field hash="70455312" type="BinHex"/>
+	<field name="text_WorldId" type="BinHex"/>
 	<field name="WorldId" type="BinHex"/>
 	<field name="fBlackoutMoonLightingFactor" type="Float"/>
 	<field name="fileLightIesAtlas" type="BinHex"/>

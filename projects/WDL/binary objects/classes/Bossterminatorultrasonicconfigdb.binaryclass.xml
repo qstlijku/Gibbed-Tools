@@ -58,7 +58,7 @@
 			<field name="bRestrictToEntities" type="Boolean"/>
 		</object>
 	</object>
-	<object hash="C51ACE2A">
+	<object name="HitReactionStimParams">
 		<field name="stims" type="BinHex"/>
 		<field name="vectorLocalTranslationOffset" type="Vector3"/>
 		<field name="vectorWorldTranslationOffset" type="Vector3"/>

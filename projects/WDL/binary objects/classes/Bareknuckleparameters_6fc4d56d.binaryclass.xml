@@ -101,7 +101,7 @@
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="114E1BC6">
+	<object name="CharacterAbilities">
 		<object name="Ability">
 			<field hash="5FF686ED" type="BinHex"/>
 		</object>

@@ -36,7 +36,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="DB7B75D5">
+			<object name="AlertNearbyGuards_HackEscalation_DeactivatedRC">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -84,11 +84,11 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="992ABA8B">
+			<object name="BeeSwarmAttack">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="112D3294">
+			<object name="BeeSwarmAttackVictim">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -468,7 +468,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="2F9E2A77">
+			<object name="FollowRejoin">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -616,7 +616,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="8465F47B">
+			<object name="HostileGadget">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -636,7 +636,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="909045EB">
+			<object name="ImpressiveVehicle">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -968,11 +968,11 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="F86FD10D">
+			<object name="RCDeactivationTakedownActivation">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="431BCDA5">
+			<object name="RCDeactivationTakedownPersistent">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -1120,11 +1120,11 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="AA523E05">
+			<object name="SeeBeeSwarmAttack">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="7F174590">
+			<object name="SeeBeeSwarmDefend">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -1499,7 +1499,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="DB7B75D5">
+			<object name="AlertNearbyGuards_HackEscalation_DeactivatedRC">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -1717,7 +1717,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="992ABA8B">
+			<object name="BeeSwarmAttack">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -1735,7 +1735,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="112D3294">
+			<object name="BeeSwarmAttackVictim">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 					<field name="fDelay" type="Float"/>
@@ -3459,7 +3459,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="2F9E2A77">
+			<object name="FollowRejoin">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -4132,7 +4132,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="8465F47B">
+			<object name="HostileGadget">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -4219,7 +4219,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="909045EB">
+			<object name="ImpressiveVehicle">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -5713,7 +5713,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="F86FD10D">
+			<object name="RCDeactivationTakedownActivation">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 					<field name="fDelay" type="Float"/>
@@ -5729,7 +5729,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="431BCDA5">
+			<object name="RCDeactivationTakedownPersistent">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 					<field name="fDelay" type="Float"/>
@@ -6394,7 +6394,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="AA523E05">
+			<object name="SeeBeeSwarmAttack">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 					<field name="fDelay" type="Float"/>
@@ -6413,7 +6413,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="7F174590">
+			<object name="SeeBeeSwarmDefend">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 					<field name="fDelay" type="Float"/>
@@ -7575,7 +7575,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="DB7B75D5">
+			<object name="AlertNearbyGuards_HackEscalation_DeactivatedRC">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -7623,11 +7623,11 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="992ABA8B">
+			<object name="BeeSwarmAttack">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="112D3294">
+			<object name="BeeSwarmAttackVictim">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -8007,7 +8007,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="2F9E2A77">
+			<object name="FollowRejoin">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -8155,7 +8155,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="8465F47B">
+			<object name="HostileGadget">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -8175,7 +8175,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="909045EB">
+			<object name="ImpressiveVehicle">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -8507,11 +8507,11 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="F86FD10D">
+			<object name="RCDeactivationTakedownActivation">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="431BCDA5">
+			<object name="RCDeactivationTakedownPersistent">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -8659,11 +8659,11 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="AA523E05">
+			<object name="SeeBeeSwarmAttack">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="7F174590">
+			<object name="SeeBeeSwarmDefend">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -9031,7 +9031,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="DB7B75D5">
+			<object name="AlertNearbyGuards_HackEscalation_DeactivatedRC">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -9245,7 +9245,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="992ABA8B">
+			<object name="BeeSwarmAttack">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -9263,7 +9263,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="112D3294">
+			<object name="BeeSwarmAttackVictim">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -10947,7 +10947,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="2F9E2A77">
+			<object name="FollowRejoin">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -11612,7 +11612,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="8465F47B">
+			<object name="HostileGadget">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -11696,7 +11696,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="909045EB">
+			<object name="ImpressiveVehicle">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -13187,7 +13187,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="F86FD10D">
+			<object name="RCDeactivationTakedownActivation">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -13205,7 +13205,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="431BCDA5">
+			<object name="RCDeactivationTakedownPersistent">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -13862,7 +13862,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="AA523E05">
+			<object name="SeeBeeSwarmAttack">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -13880,7 +13880,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="7F174590">
+			<object name="SeeBeeSwarmDefend">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -15022,7 +15022,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="DB7B75D5">
+			<object name="AlertNearbyGuards_HackEscalation_DeactivatedRC">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -15070,11 +15070,11 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="992ABA8B">
+			<object name="BeeSwarmAttack">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="112D3294">
+			<object name="BeeSwarmAttackVictim">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -15454,7 +15454,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="2F9E2A77">
+			<object name="FollowRejoin">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -15602,7 +15602,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="8465F47B">
+			<object name="HostileGadget">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -15622,7 +15622,7 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="909045EB">
+			<object name="ImpressiveVehicle">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -15954,11 +15954,11 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="F86FD10D">
+			<object name="RCDeactivationTakedownActivation">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="431BCDA5">
+			<object name="RCDeactivationTakedownPersistent">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -16106,11 +16106,11 @@
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="AA523E05">
+			<object name="SeeBeeSwarmAttack">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
-			<object hash="7F174590">
+			<object name="SeeBeeSwarmDefend">
 				<field name="fIncidentMaxDelay" type="Float"/>
 				<field name="fReactionMaxDelay" type="Float"/>
 			</object>
@@ -16478,7 +16478,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="DB7B75D5">
+			<object name="AlertNearbyGuards_HackEscalation_DeactivatedRC">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -16692,7 +16692,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="992ABA8B">
+			<object name="BeeSwarmAttack">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -16710,7 +16710,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="112D3294">
+			<object name="BeeSwarmAttackVictim">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -18393,7 +18393,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="2F9E2A77">
+			<object name="FollowRejoin">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -19059,7 +19059,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="8465F47B">
+			<object name="HostileGadget">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -19143,7 +19143,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="909045EB">
+			<object name="ImpressiveVehicle">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -20633,7 +20633,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="F86FD10D">
+			<object name="RCDeactivationTakedownActivation">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -20651,7 +20651,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="431BCDA5">
+			<object name="RCDeactivationTakedownPersistent">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -21308,7 +21308,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="AA523E05">
+			<object name="SeeBeeSwarmAttack">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>
@@ -21326,7 +21326,7 @@
 					<field name="fAccumulationDuration" type="Float"/>
 				</object>
 			</object>
-			<object hash="7F174590">
+			<object name="SeeBeeSwarmDefend">
 				<object name="CoolDownSettings">
 					<field name="bCheckCoolDown" type="Boolean"/>
 				</object>

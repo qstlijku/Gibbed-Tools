@@ -25,7 +25,7 @@
 			<field hash="FCCB9C11" type="BinHex"/>
 			<field hash="B32D38BE" type="BinHex"/>
 			<field hash="6222365D" type="BinHex"/>
-			<object hash="CD47E3D1">
+			<object name="DataDrive">
 				<field hash="319FC44E" type="BinHex"/>
 				<field hash="88A6F624" type="BinHex"/>
 				<object name="locstridName">
@@ -38,7 +38,7 @@
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="37CD8AE9">
+			<object name="AudioEventsAndTypes">
 				<object name="Events">
 					<field name="text_sndSoundId" type="String"/>
 					<field name="sndSoundId" type="BinHex"/>

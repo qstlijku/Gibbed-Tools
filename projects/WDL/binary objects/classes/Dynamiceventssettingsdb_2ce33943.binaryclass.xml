@@ -18,7 +18,7 @@
 		<field hash="0407BD52" type="BinHex"/>
 		<field hash="309B3C9C" type="BinHex"/>
 	</object>
-	<object hash="9B898DDC">
+	<object name="AreaConfig">
 		<field name="disNomadObjectId" type="BinHex"/>
 		<field name="hidSingleObject" type="Boolean"/>
 		<field name="hidKey" type="BinHex"/>
@@ -46,20 +46,20 @@
 					<field name="opslistOpConfig" type="BinHex"/>
 					<field hash="383A2DE4" type="BinHex"/>
 					<field hash="5733EC84" type="BinHex"/>
-					<object hash="2972EADD"/>
-					<object hash="3B308B7B"/>
+					<object name="LocationCustomizations"/>
+					<object name="NarrativeEvents"/>
 				</object>
 			</object>
-			<object hash="2972EADD"/>
-			<object hash="3B308B7B">
-				<object hash="51C1C375">
+			<object name="LocationCustomizations"/>
+			<object name="NarrativeEvents">
+				<object name="NarrativeEvent">
 					<field name="disNomadObjectId" type="BinHex"/>
 					<field name="hidSingleObject" type="Boolean"/>
 					<field name="hidKey" type="BinHex"/>
 					<field name="hidValidationFailed" type="Boolean"/>
 					<field name="hidName" type="BinHex"/>
 					<field name="selType" type="Enum"/>
-					<object hash="A0FD370C">
+					<object name="PhoneComm">
 						<field name="disNomadObjectId" type="BinHex"/>
 						<field name="hidSingleObject" type="Boolean"/>
 						<field name="hidKey" type="BinHex"/>
@@ -67,8 +67,8 @@
 						<field name="hidName" type="BinHex"/>
 						<field hash="45BC8C01" type="BinHex"/>
 						<field hash="88562607" type="BinHex"/>
-						<object hash="12187E17">
-							<object hash="A0FD370C">
+						<object name="PhoneComms">
+							<object name="PhoneComm">
 								<field hash="C4492787" type="BinHex"/>
 							</object>
 						</object>
@@ -77,8 +77,8 @@
 			</object>
 		</object>
 	</object>
-	<object hash="2972EADD">
-		<object hash="A449352C">
+	<object name="LocationCustomizations">
+		<object name="LocationCustomization">
 			<field name="disNomadObjectId" type="BinHex"/>
 			<field name="hidSingleObject" type="Boolean"/>
 			<field name="hidKey" type="BinHex"/>
@@ -111,5 +111,5 @@
 			</object>
 		</object>
 	</object>
-	<object hash="3B308B7B"/>
+	<object name="NarrativeEvents"/>
 </class>

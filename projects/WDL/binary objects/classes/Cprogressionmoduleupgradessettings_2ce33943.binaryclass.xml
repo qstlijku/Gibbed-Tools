@@ -10,7 +10,7 @@
 		<object name="InitTrigger">
 			<field name="rulesmithidRuleId" type="BinHex"/>
 		</object>
-		<object hash="7709AB25">
+		<object name="EquipGadgetTrigger">
 			<field name="rulesmithidRuleId" type="BinHex"/>
 		</object>
 		<object name="Upgrades">
@@ -21,7 +21,7 @@
 				<object name="Levels">
 					<object name="Level">
 						<field name="Cost" type="BinHex"/>
-						<field hash="7B8CA066" type="BinHex"/>
+						<field name="OnlineCost" type="BinHex"/>
 						<object name="Atoms">
 							<object name="Atom">
 								<field name="text_progressionatomAtomId" type="String"/>

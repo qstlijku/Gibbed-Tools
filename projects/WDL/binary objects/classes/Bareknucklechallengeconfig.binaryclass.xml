@@ -6,8 +6,8 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="48E8A430">
-		<object hash="55F80BF2">
+	<object name="Challenges">
+		<object name="Challenge">
 			<field hash="518E87E0" type="String"/>
 			<field hash="B366247D" type="BinHex"/>
 			<field hash="9DE85A8F" type="BinHex"/>
@@ -15,19 +15,19 @@
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="13864B62">
+			<object name="FailRule">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="D557CB9A">
+			<object name="DesiredValueRule">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="6F0CA46A">
+			<object name="RewardValueRule">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="010D5578">
+			<object name="DesiredTimeValue">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>

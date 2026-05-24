@@ -35,7 +35,7 @@
 		<field name="fDisplayProfileDelay" type="BinHex"/>
 		<field name="fDisappearProfileDelay" type="BinHex"/>
 	</object>
-	<object hash="B0C20042">
+	<object name="StateChangeSound">
 		<field hash="E302FBA4" type="BinHex"/>
 		<field hash="BF3F1DD0" type="String"/>
 		<field hash="FC19D6E1" type="BinHex"/>
@@ -56,7 +56,7 @@
 		<field name="fMinPropagandaDelay" type="BinHex"/>
 		<field name="fMaxPropagandaDelay" type="BinHex"/>
 	</object>
-	<object hash="076A0B0B">
+	<object name="HintSystemParameters">
 		<field hash="A420F543" type="BinHex"/>
 		<field hash="E6F4293E" type="BinHex"/>
 	</object>

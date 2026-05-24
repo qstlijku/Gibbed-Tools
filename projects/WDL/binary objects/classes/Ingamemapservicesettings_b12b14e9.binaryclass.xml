@@ -108,7 +108,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="A421998D">
+	<object name="BoroughLiberation">
 		<field hash="7208902D" type="BinHex"/>
 		<field hash="708FEC03" type="BinHex"/>
 		<field hash="644FCD94" type="BinHex"/>
@@ -121,7 +121,7 @@
 				<field hash="8032EE01" type="BinHex"/>
 				<field hash="B1C509F1" type="BinHex"/>
 				<field name="mapicondescMapIconDescription" type="BinHex"/>
-				<object hash="E03E9C14">
+				<object name="VisibilityRule">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>

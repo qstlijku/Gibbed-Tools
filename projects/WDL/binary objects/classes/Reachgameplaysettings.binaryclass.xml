@@ -44,7 +44,7 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="6309E902">
+	<object name="WaitingForOtherPartyEscapeCriticalMessage">
 		<field name="bIsActivated" type="BinHex"/>
 		<field name="bIsCriticalWarning" type="BinHex"/>
 		<field name="fDuration" type="Float"/>

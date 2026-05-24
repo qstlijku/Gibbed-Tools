@@ -17,7 +17,7 @@
 	<object name="locstridTitle">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="AFF3FED5">
+	<object name="UpgradeDescriptions">
 		<object name="UpgradeDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>

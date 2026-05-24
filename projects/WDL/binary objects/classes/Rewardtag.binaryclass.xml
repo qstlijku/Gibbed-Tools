@@ -10,8 +10,8 @@
 	<field hash="EC304E8C" type="BinHex"/>
 	<field hash="F0680818" type="BinHex"/>
 	<field hash="CA5D6F4A" type="Boolean"/>
-	<field hash="EA87E6BE" type="String"/>
-	<object hash="EF8D3F4E">
+	<field name="TagDisplayName" type="String"/>
+	<object name="TagWeightRule">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="Boolean"/>
 	</object>

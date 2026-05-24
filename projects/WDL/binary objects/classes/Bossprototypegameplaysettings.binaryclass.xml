@@ -89,7 +89,7 @@
 								<field name="entEntityID" type="BinHex"/>
 							</object>
 						</object>
-						<object hash="CA169828"/>
+						<object name="LockedEntitieIDs"/>
 						<object name="locstridSequenceSuccessLogTitleLocId">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
@@ -108,7 +108,7 @@
 						<object name="locstridSequenceBadInputMsgLocId">
 							<field name="LocalizationId" type="UInt64"/>
 						</object>
-						<object hash="C7B2E6A7">
+						<object name="ObjectiveMarkerHighlightEntities">
 							<object name="EntityId">
 								<field name="entEntityID" type="BinHex"/>
 							</object>
@@ -157,12 +157,12 @@
 					<field hash="D8BB27FF" type="BinHex"/>
 					<field hash="94E20542" type="BinHex"/>
 					<field hash="0D568F58" type="BinHex"/>
-					<object hash="7C0A1024">
+					<object name="SoundAndTypeStartBeepingSound">
 						<field name="text_sndSoundId" type="String"/>
 						<field name="sndSoundId" type="BinHex"/>
 						<field name="sndtpSoundType" type="BinHex"/>
 					</object>
-					<object hash="F7E415F2">
+					<object name="SoundAndTypeStopBeepingSound">
 						<field name="text_sndSoundId" type="String"/>
 						<field name="sndSoundId" type="BinHex"/>
 						<field name="sndtpSoundType" type="BinHex"/>
@@ -188,7 +188,7 @@
 				<field name="entScreenEntityId" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="42CA6C21">
+		<object name="RoomStageTransitionsAndTypes">
 			<object name="BarkStageTransistion">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>

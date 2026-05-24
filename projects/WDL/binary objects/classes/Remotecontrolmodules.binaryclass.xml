@@ -103,7 +103,7 @@
 					<field name="SoundId" type="BinHex"/>
 					<field name="SoundGuid" type="String"/>
 				</object>
-				<object hash="E90D8687">
+				<object name="TargetingBeam">
 					<field name="AimingBeamOriginBoneName" type="BinHex"/>
 					<field name="fAimingBeamOpacity" type="BinHex"/>
 					<field name="archAimingBeamArchetype" type="BinHex"/>
@@ -1298,7 +1298,7 @@
 						</object>
 					</object>
 					<object name="MobileBones">
-						<field hash="795F32D4" type="BinHex"/>
+						<field name="text_BoneName" type="BinHex"/>
 						<field name="BoneName" type="BinHex"/>
 						<field name="selPosReference" type="BinHex"/>
 						<field name="vectorStartPos" type="BinHex"/>
@@ -2732,7 +2732,7 @@
 					</object>
 				</object>
 			</object>
-			<object hash="91B07382">
+			<object name="WarningLightCarryParams">
 				<field name="fIntensityMultiplier" type="BinHex"/>
 				<field name="bOverrideColor" type="BinHex"/>
 				<field name="vectorColor" type="BinHex"/>
@@ -4583,11 +4583,11 @@
 					</object>
 				</object>
 			</object>
-			<object hash="11F71295">
+			<object name="ExplosionRadius">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="3B4328A3">
+			<object name="ExplosionDamage">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
@@ -4623,8 +4623,8 @@
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 			<field name="bPreviewMode" type="BinHex"/>
-			<field hash="5E7E8173" type="String"/>
-			<field hash="93AAE768" type="BinHex"/>
+			<field name="text_InventoryCustomizationId" type="String"/>
+			<field name="InventoryCustomizationId" type="BinHex"/>
 			<field name="ActionMap" type="String"/>
 			<field name="uiBatteryUsedForAttract" type="UInt32"/>
 			<field name="fEscalatingSoundInputMaxDelay" type="Float"/>
@@ -4854,7 +4854,7 @@
 			<field name="fFireRate" type="BinHex"/>
 			<field name="fMaxFireAngleInRad" type="BinHex"/>
 			<field name="fMaxCannonOffsetFireAngleRad" type="BinHex"/>
-			<field hash="AA4C4896" type="BinHex"/>
+			<field name="text_GunBoneName" type="BinHex"/>
 			<field name="GunBoneName" type="BinHex"/>
 			<field name="text_fileTurretLayeredMovePath" type="String"/>
 			<field name="fileTurretLayeredMovePath" type="BinHex"/>
@@ -4993,10 +4993,10 @@
 			<field hash="F8EDEE04" type="BinHex"/>
 			<field hash="1B772C81" type="BinHex"/>
 			<field hash="54591364" type="BinHex"/>
-			<field hash="FE875717" type="String"/>
-			<field hash="42DD3DB7" type="BinHex"/>
-			<field hash="1F894ACA" type="String"/>
-			<field hash="A3D3206A" type="BinHex"/>
+			<field name="text_HumanAITargetBoneName" type="String"/>
+			<field name="HumanAITargetBoneName" type="BinHex"/>
+			<field name="text_DroneAITargetBoneName" type="String"/>
+			<field name="DroneAITargetBoneName" type="BinHex"/>
 			<field hash="12D2D336" type="String"/>
 			<field hash="5DF0885E" type="BinHex"/>
 			<field hash="0A0082B1" type="BinHex"/>
@@ -5012,7 +5012,7 @@
 			<field name="bUseTargetLockOn" type="BinHex"/>
 			<field name="fLockonReticleSize" type="BinHex"/>
 			<field name="vector2LockonStimDelayRange" type="BinHex"/>
-			<field hash="28AB67AA" type="BinHex"/>
+			<field name="text_AimingBeamOriginBoneName" type="BinHex"/>
 			<field name="AimingBeamOriginBoneName" type="BinHex"/>
 			<field name="fAimingBeamDuration" type="BinHex"/>
 			<field name="fAimingBeamOpacity" type="BinHex"/>
@@ -5446,10 +5446,10 @@
 				</object>
 			</object>
 			<object name="BonesToHideNames">
-				<field hash="795F32D4" type="BinHex"/>
+				<field name="text_BoneName" type="BinHex"/>
 				<field name="BoneName" type="BinHex"/>
 				<object name="BonesToHideNames">
-					<field hash="795F32D4" type="BinHex"/>
+					<field name="text_BoneName" type="BinHex"/>
 					<field name="BoneName" type="BinHex"/>
 				</object>
 			</object>

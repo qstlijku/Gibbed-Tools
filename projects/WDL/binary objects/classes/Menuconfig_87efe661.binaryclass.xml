@@ -264,7 +264,7 @@
 	<object name="CarOnDemand">
 		<field name="uisoundCarOnDemandOrderConfirmationSound" type="BinHex"/>
 	</object>
-	<object hash="EBDDB459">
+	<object name="RightScrollBars">
 		<field hash="CBD0AA2C" type="BinHex"/>
 	</object>
 </class>

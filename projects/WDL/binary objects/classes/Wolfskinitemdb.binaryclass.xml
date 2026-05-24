@@ -8,15 +8,15 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="25323A27" type="String"/>
 	<field hash="D7407CE9" type="BinHex"/>
-	<object hash="3C3DF4E2">
+	<object name="SubItemDBs">
 		<object name="Item">
-			<field hash="B857F415" type="String"/>
+			<field name="text_Item" type="String"/>
 			<field name="text_Slot" type="String"/>
 			<field name="Slot" type="BinHex"/>
 			<field hash="9BA44234" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="0D5FE2C6">
+	<object name="MissingSubItemDBs">
 		<object name="Item">
 			<field name="text_Slot" type="String"/>
 			<field name="Slot" type="BinHex"/>

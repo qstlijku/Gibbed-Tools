@@ -6,15 +6,15 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="5046EC2F">
+	<object name="ZombieConfigs">
 		<field hash="66F05089" type="BinHex"/>
 		<field hash="C40E7B3B" type="BinHex"/>
 		<field hash="81480833" type="BinHex"/>
 		<field hash="8CF7FED8" type="BinHex"/>
 	</object>
-	<object hash="3BEA6323">
-		<object hash="56CC73C6">
-			<object hash="5858C99B">
+	<object name="ZombieDensityInfo">
+		<object name="ZombieSpawningDensityPaths">
+			<object name="PathEntry">
 				<field hash="8081AD7F" type="BinHex"/>
 				<field hash="D1781622" type="BinHex"/>
 				<field hash="2BEDF6D8" type="BinHex"/>
@@ -54,23 +54,23 @@
 						<field name="value" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="A8AECBFD">
+				<object name="ExoticCluster">
 					<object hash="2CA7A61E">
 						<field hash="1ECCC144" type="BinHex"/>
 						<object hash="068F5E31">
-							<field hash="6229FB91" type="BinHex"/>
-							<field hash="A2F5D860" type="BinHex"/>
-							<field hash="5B4BEC5C" type="BinHex"/>
+							<field name="MinDistanceBetweenSpawnPerPath" type="BinHex"/>
+							<field name="StartNoSpawnDistancePerPath" type="BinHex"/>
+							<field name="EndNoSpawnDistancePerPath" type="BinHex"/>
 						</object>
 						<object hash="389377C9">
-							<object hash="D373B3F7">
+							<object name="ArchetypeEntry">
 								<field hash="C585E3A2" type="BinHex"/>
 								<field hash="1ECCC144" type="BinHex"/>
 							</object>
 						</object>
 					</object>
 				</object>
-				<object hash="E9560B1D">
+				<object name="ZombieArchetypeDensity">
 					<object hash="C06EDBFC">
 						<field hash="7346CAD2" type="BinHex"/>
 						<object hash="129094A1">
@@ -145,13 +145,13 @@
 			</object>
 		</object>
 	</object>
-	<object hash="CB8803B6">
-		<object hash="0061BFF2">
-			<object hash="5858C99B">
+	<object name="EventSpawningDensity">
+		<object name="EventSpawningDensityPaths">
+			<object name="PathEntry">
 				<object hash="E63DFB77">
-					<field hash="6229FB91" type="BinHex"/>
-					<field hash="A2F5D860" type="BinHex"/>
-					<field hash="5B4BEC5C" type="BinHex"/>
+					<field name="MinDistanceBetweenSpawnPerPath" type="BinHex"/>
+					<field name="StartNoSpawnDistancePerPath" type="BinHex"/>
+					<field name="EndNoSpawnDistancePerPath" type="BinHex"/>
 				</object>
 				<object hash="2E97937A">
 					<field name="hidNumKnots" type="BinHex"/>
@@ -166,12 +166,12 @@
 			</object>
 		</object>
 	</object>
-	<object hash="FD498DFE">
-		<object hash="7C150070">
-			<object hash="5858C99B">
-				<field hash="6229FB91" type="BinHex"/>
-				<field hash="A2F5D860" type="BinHex"/>
-				<field hash="5B4BEC5C" type="BinHex"/>
+	<object name="VehicleSpawningDensity">
+		<object name="VehicleSpawningDensityPaths">
+			<object name="PathEntry">
+				<field name="MinDistanceBetweenSpawnPerPath" type="BinHex"/>
+				<field name="StartNoSpawnDistancePerPath" type="BinHex"/>
+				<field name="EndNoSpawnDistancePerPath" type="BinHex"/>
 			</object>
 		</object>
 	</object>

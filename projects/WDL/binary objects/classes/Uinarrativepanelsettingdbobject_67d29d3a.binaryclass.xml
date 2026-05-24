@@ -17,7 +17,7 @@
 		<field hash="9954B5F8" type="BinHex"/>
 		<field hash="65F4749C" type="BinHex"/>
 		<field hash="E6F4B0E2" type="BinHex"/>
-		<object hash="9CA4BDD6"/>
+		<object name="ElementEffectDbObjs"/>
 	</object>
 	<object name="NarrativePhoneCall">
 		<field name="sndCardShowSFX" type="BinHex"/>
@@ -28,6 +28,6 @@
 		<field hash="9954B5F8" type="BinHex"/>
 		<field hash="65F4749C" type="BinHex"/>
 		<field hash="E6F4B0E2" type="BinHex"/>
-		<object hash="9CA4BDD6"/>
+		<object name="ElementEffectDbObjs"/>
 	</object>
 </class>

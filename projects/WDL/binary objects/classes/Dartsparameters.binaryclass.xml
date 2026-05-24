@@ -200,7 +200,7 @@
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="296DE179">
+	<object name="DartsHumanConfigs">
 		<object name="HumanConfigs">
 			<field name="humanconfigHumanConfig" type="BinHex"/>
 		</object>
@@ -217,7 +217,7 @@
 	<object hash="43F7101E">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="15950EA8">
+	<object name="NoSkillStrategy">
 		<field hash="3D2E29B7" type="BinHex"/>
 		<field hash="012316EE" type="BinHex"/>
 		<field hash="E9C04866" type="BinHex"/>
@@ -227,9 +227,9 @@
 		<field hash="797673FC" type="BinHex"/>
 		<field hash="3EB30648" type="BinHex"/>
 		<field hash="4D1889AA" type="BinHex"/>
-		<object hash="FB64B8A3"/>
+		<object name="TargetNumbers"/>
 	</object>
-	<object hash="0C798277">
+	<object name="AmateurStrategy">
 		<field hash="3D2E29B7" type="BinHex"/>
 		<field hash="012316EE" type="BinHex"/>
 		<field hash="E9C04866" type="BinHex"/>
@@ -239,9 +239,9 @@
 		<field hash="797673FC" type="BinHex"/>
 		<field hash="3EB30648" type="BinHex"/>
 		<field hash="4D1889AA" type="BinHex"/>
-		<object hash="FB64B8A3"/>
+		<object name="TargetNumbers"/>
 	</object>
-	<object hash="267ECB92">
+	<object name="ExpertStrategy">
 		<field hash="3D2E29B7" type="BinHex"/>
 		<field hash="012316EE" type="BinHex"/>
 		<field hash="E9C04866" type="BinHex"/>
@@ -251,9 +251,9 @@
 		<field hash="797673FC" type="BinHex"/>
 		<field hash="3EB30648" type="BinHex"/>
 		<field hash="4D1889AA" type="BinHex"/>
-		<object hash="FB64B8A3"/>
+		<object name="TargetNumbers"/>
 	</object>
-	<object hash="0CA1B640">
+	<object name="ProfessionalStrategy">
 		<field hash="3D2E29B7" type="BinHex"/>
 		<field hash="012316EE" type="BinHex"/>
 		<field hash="E9C04866" type="BinHex"/>
@@ -263,21 +263,21 @@
 		<field hash="797673FC" type="BinHex"/>
 		<field hash="3EB30648" type="BinHex"/>
 		<field hash="4D1889AA" type="BinHex"/>
-		<object hash="FB64B8A3"/>
+		<object name="TargetNumbers"/>
 	</object>
-	<object hash="38862EAB">
+	<object name="Rank1Probabilities">
 		<field hash="EFEBA3CC" type="BinHex"/>
 		<field hash="57B4A8CC" type="BinHex"/>
 		<field hash="9975DCF1" type="BinHex"/>
 		<field hash="B7A7DD3E" type="BinHex"/>
 	</object>
-	<object hash="44E70B70">
+	<object name="Rank2Probabilities">
 		<field hash="EFEBA3CC" type="BinHex"/>
 		<field hash="57B4A8CC" type="BinHex"/>
 		<field hash="9975DCF1" type="BinHex"/>
 		<field hash="B7A7DD3E" type="BinHex"/>
 	</object>
-	<object hash="D9E8EA06">
+	<object name="Rank3Probabilities">
 		<field hash="EFEBA3CC" type="BinHex"/>
 		<field hash="57B4A8CC" type="BinHex"/>
 		<field hash="9975DCF1" type="BinHex"/>

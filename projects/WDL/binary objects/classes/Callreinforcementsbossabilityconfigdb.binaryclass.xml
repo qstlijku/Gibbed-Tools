@@ -10,6 +10,6 @@
 	<field name="fCountdownTime" type="BinHex"/>
 	<field name="reinforcementconfigReinforcementConfig" type="BinHex"/>
 	<field hash="BDC9CB8F" type="BinHex"/>
-	<field hash="B88985AE" type="String"/>
-	<field hash="14B665AD" type="BinHex"/>
+	<field name="text_CustomLightsName" type="String"/>
+	<field name="CustomLightsName" type="BinHex"/>
 </class>

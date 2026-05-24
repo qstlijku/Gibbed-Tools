@@ -62,7 +62,7 @@
 			<field name="SoundGuid" type="String"/>
 		</object>
 		<object name="GearTagValues">
-			<object hash="B8F4FB8D">
+			<object name="GearTagSwitch">
 				<object name="tagcategoryselectionAudioSwitchTag">
 					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>

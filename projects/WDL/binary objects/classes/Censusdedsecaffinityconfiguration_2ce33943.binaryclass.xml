@@ -20,7 +20,7 @@
 			<field name="censusactormemorydefinitionMemory" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="A52D5834">
+	<object name="OccupationGroupsToForceNegativeAffinity">
 		<object name="tagcategoryselectionTag">
 			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
@@ -29,8 +29,8 @@
 			<field name="tagTag" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="219A8D0D"/>
-	<object hash="D7943110">
+	<object name="OccupationGroupsToForcePositiveAffinity"/>
+	<object name="OccupationGroupsThatDoNotWantBoroughUprising">
 		<object name="tagcategoryselectionTag">
 			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>

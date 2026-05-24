@@ -29,8 +29,8 @@
 			</object>
 			<object name="SoundList">
 				<object name="Sound">
-					<object hash="0CB9782D">
-						<object hash="AA65A997">
+					<object name="SoundPtrAndTypeList">
+						<object name="SoundPtrAndTypeToPlay">
 							<field hash="1B1A3141" type="BinHex"/>
 							<field hash="8FE662AD" type="Boolean"/>
 							<field hash="87E038DB" type="BinHex"/>

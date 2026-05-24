@@ -16,8 +16,8 @@
 				<field name="bOnlineOnly" type="BinHex"/>
 				<field name="text_archArchetype" type="String"/>
 				<field name="archArchetype" type="BinHex"/>
-				<field hash="E7BEE37F" type="String"/>
-				<field hash="2D780F68" type="BinHex"/>
+				<field name="text_MaterialSlotId" type="String"/>
+				<field name="MaterialSlotId" type="BinHex"/>
 				<field name="texturedbobjectThumbnailIcon" type="BinHex"/>
 				<field hash="7F0A68CE" type="BinHex"/>
 				<object name="Atoms">

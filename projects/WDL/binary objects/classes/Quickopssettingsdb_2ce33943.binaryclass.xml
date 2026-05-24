@@ -12,8 +12,8 @@
 			<field name="opslistOpConfig" type="BinHex"/>
 			<field hash="9275492E" type="BinHex"/>
 			<field name="bIsEnabled" type="Boolean"/>
-			<object hash="3DDB1C89">
-				<object hash="0CE32E30">
+			<object name="OpTexts">
+				<object name="OpText">
 					<object name="locstridOpName">
 						<field name="LocalizationId" type="UInt64"/>
 					</object>

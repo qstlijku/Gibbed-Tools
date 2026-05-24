@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="654678D9">
+	<object name="AudioMaticsThemes">
 		<object hash="6E604E5E">
 			<field hash="6E604E5E" type="BinHex"/>
 		</object>

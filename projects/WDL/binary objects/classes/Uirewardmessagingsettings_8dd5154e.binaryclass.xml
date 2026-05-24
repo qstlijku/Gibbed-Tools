@@ -30,7 +30,7 @@
 	<object name="OnlineXP">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="A4A5D470">
+	<object name="PremiumOperative">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object name="ProgressionBooster">
@@ -39,7 +39,7 @@
 	<object name="RecruitAvailable">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="1ABEBE30">
+	<object name="PositiveAffinityChange">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object name="Relic">
@@ -54,7 +54,7 @@
 	<object name="TeamTraitDiscovered">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="BF035A79">
+	<object name="TechPoint">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 	<object name="TraitDiscovered">
@@ -75,10 +75,10 @@
 	<object name="RaidModeUnlocked">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="F9AEA347">
+	<object name="UpgradeUnlocked">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
-	<object hash="E63A46EA">
+	<object name="NewOperative">
 		<field name="texturedbobjectIcon" type="BinHex"/>
 	</object>
 </class>

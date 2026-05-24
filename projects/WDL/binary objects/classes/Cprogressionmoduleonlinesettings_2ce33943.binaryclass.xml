@@ -15,21 +15,21 @@
 		<field name="PremiumCurrencyId" type="String"/>
 		<field name="OnlineTokenId" type="String"/>
 		<field name="OnlineCryptoId" type="String"/>
-		<field hash="EBBD1C48" type="BinHex"/>
-		<field hash="2B2F1C71" type="String"/>
+		<field name="OnlineXPId" type="BinHex"/>
+		<field name="SinglePlayerCryptoId" type="String"/>
 		<field name="ModPartId" type="String"/>
 		<field name="ProgressionBoosterId" type="String"/>
 		<field name="TeamSlotId" type="String"/>
-		<field hash="4F0939C9" type="String"/>
-		<field hash="56C7EBB0" type="String"/>
-		<field hash="EE70C7B2" type="String"/>
+		<field name="UpgradeId" type="String"/>
+		<field name="UpgradeMetaId" type="String"/>
+		<field name="UpgradeLevelMetaId" type="String"/>
 		<field name="CryptoId" type="String"/>
 		<field name="PremiumStoreShopId" type="String"/>
 		<object name="CanSyncOnlineData">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="909CF7CA">
+		<object name="ItemTriggers">
 			<object name="Trigger">
 				<field name="ItemId" type="String"/>
 				<object name="Trigger">

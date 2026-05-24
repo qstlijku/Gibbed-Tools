@@ -67,7 +67,7 @@
 		<field name="vec2MapIconScale_UpperValue" type="Vector2"/>
 		<field name="iMapPriority" type="Int32"/>
 	</object>
-	<object hash="F1981F96">
+	<object name="WideViewDrone">
 		<field name="fMapDistance_LowerValue" type="Float"/>
 		<field name="fMapDistance_UpperValue" type="Float"/>
 		<field name="MapPitch_LowerValue" type="BinHex"/>

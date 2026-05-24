@@ -55,7 +55,7 @@
 					<field name="bOverMap" type="Boolean"/>
 				</object>
 			</object>
-			<object hash="8C8C0EDA">
+			<object name="PcSpecificSection">
 				<field hash="2CAC6CB7" type="BinHex"/>
 				<field hash="6DF786D7" type="BinHex"/>
 				<field hash="1549AA7B" type="BinHex"/>

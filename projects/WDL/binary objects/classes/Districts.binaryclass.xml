@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="24ECD02D" type="BinHex"/>
+	<field name="DistrictNameId" type="BinHex"/>
 	<field hash="3BCE0DF9" type="BinHex"/>
 	<field hash="D32EAF81" type="BinHex"/>
 	<field hash="4B3FF7D5" type="BinHex"/>
@@ -36,17 +36,17 @@
 				<field name="civbankHumansBank" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8C10D036">
+		<object name="DroneBanks">
 			<field name="entcontContext" type="BinHex"/>
 			<field name="dronebankDronesBank" type="BinHex"/>
-			<object hash="B3B7E88D">
+			<object name="RestrictionsRule">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
-			<object hash="8C10D036">
+			<object name="DroneBanks">
 				<field name="entcontContext" type="BinHex"/>
 				<field name="dronebankDronesBank" type="BinHex"/>
-				<object hash="B3B7E88D">
+				<object name="RestrictionsRule">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
@@ -77,7 +77,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="778B34AE">
+	<object name="Completion">
 		<object name="Trigger">
 			<field name="rulesmithidRuleId" type="BinHex"/>
 		</object>

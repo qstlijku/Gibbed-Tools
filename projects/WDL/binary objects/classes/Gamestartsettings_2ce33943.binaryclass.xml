@@ -7,11 +7,11 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Census">
-		<object hash="666FFD17">
+		<object name="SuppressMemoryApplicationOnRecruitment">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="495D42C2">
+		<object name="SuppressRecruitmentTalkers">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -29,7 +29,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="FD169131">
+		<object name="ProfilerEncrypted">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -87,13 +87,13 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="441492D4">
+		<object name="BoroughUprisingEnabled">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Celebration">
-		<object hash="6AA5F4DC">
+		<object name="IsRecruitmentPromptDisabled">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>

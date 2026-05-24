@@ -69,11 +69,11 @@
 			</object>
 		</object>
 	</object>
-	<object hash="6E1478D3">
-		<object hash="6E1478D3">
-			<field hash="F88154EE" type="String"/>
-			<field hash="DC207BD1" type="BinHex"/>
-			<object hash="0E5DE3B3">
+	<object name="CustomLights">
+		<object name="CustomLights">
+			<field name="text_LightId" type="String"/>
+			<field name="LightId" type="BinHex"/>
+			<object name="CustomLightsList">
 				<field name="iLightSlot" type="Int32"/>
 				<object name="LightParams">
 					<field name="fIntensityMultiplier" type="BinHex"/>
@@ -97,7 +97,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="0E5DE3B3">
+				<object name="CustomLightsList">
 					<field name="iLightSlot" type="Int32"/>
 					<object name="LightParams">
 						<field name="fIntensityMultiplier" type="BinHex"/>

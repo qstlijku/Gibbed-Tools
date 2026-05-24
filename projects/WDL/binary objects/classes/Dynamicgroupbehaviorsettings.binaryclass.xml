@@ -56,8 +56,8 @@
 			</object>
 			<field name="fMinCooldownToSelectSameCivilian" type="BinHex"/>
 			<field name="fMaxCooldownToSelectSameCivilian" type="BinHex"/>
-			<object hash="83515D32">
-				<object hash="0FBD30B4">
+			<object name="AdditionalConditions">
+				<object name="AdditionalConditionsRule">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
@@ -76,7 +76,7 @@
 						</object>
 			<object name="RescuerExclusionTags"/>
 			<object name="PrisonerExclusionTags"/>
-			<object hash="542F69C4">
+			<object name="IsValidRescuerRule">
 							<field name="rulesmithidRule" type="BinHex"/>
 							<field name="rulesmithconstValue" type="BinHex"/>
 						</object>
@@ -129,7 +129,7 @@
 						</object>
 						<object name="RescuerExclusionTags"/>
 						<object name="PrisonerExclusionTags"/>
-						<object hash="542F69C4">
+						<object name="IsValidRescuerRule">
 							<field name="rulesmithidRule" type="BinHex"/>
 							<field name="rulesmithconstValue" type="BinHex"/>
 						</object>

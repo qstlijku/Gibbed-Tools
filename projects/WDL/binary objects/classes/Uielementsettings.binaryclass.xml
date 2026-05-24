@@ -237,8 +237,8 @@
 		<field hash="AF95F5B4" type="BinHex"/>
 		<field hash="426FFF60" type="String"/>
 		<field hash="88A91377" type="BinHex"/>
-		<object hash="9CA4BDD6">
-			<object hash="F83DCDDA">
+		<object name="ElementEffectDbObjs">
+			<object name="UIElementEffectsDbObject">
 				<field hash="FA8EF405" type="BinHex"/>
 			</object>
 		</object>
@@ -260,24 +260,24 @@
 		<object hash="7052CECE">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F74037DF">
+		<object name="CaretSpecificInfo">
 			<field hash="F20A6744" type="BinHex"/>
 		</object>
-		<object hash="661B0C07">
+		<object name="EmojiNumberToUiTagsGroup">
 			<field hash="830B954E" type="BinHex"/>
-			<object hash="012D0C68">
+			<object name="EmojiNumberToUiTags">
 				<field name="uiEmoticonUnicodeSymbol" type="BinHex"/>
 				<field hash="615826CF" type="BinHex"/>
-				<object hash="012D0C68">
+				<object name="EmojiNumberToUiTags">
 					<field name="uiEmoticonUnicodeSymbol" type="BinHex"/>
 					<field hash="615826CF" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="F0A71153">
+		<object name="PredefinedMessagesGroup">
 			<object name="OasisID"/>
 		</object>
-		<object hash="A7AF06AF">
+		<object name="TexturesGroup">
 			<field hash="D0E519C5" type="BinHex"/>
 			<field hash="1CD79F66" type="BinHex"/>
 			<field hash="CFF5251F" type="BinHex"/>
@@ -473,7 +473,7 @@
 		<object hash="BAF924A2">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4E2E9369">
+		<object name="RcDrone">
 			<field hash="15EFBDE8" type="BinHex"/>
 			<field hash="B6BEFB08" type="BinHex"/>
 		</object>
@@ -543,8 +543,8 @@
 		<object hash="F2745137">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A6973721">
-			<object hash="5619AE75">
+		<object name="NotificationStatusTexts">
+			<object name="NotificationTypeText">
 				<field hash="FFB19CEA" type="BinHex"/>
 				<object name="locstridLocId">
 					<field name="LocalizationId" type="UInt64"/>
@@ -606,12 +606,12 @@
 		<object name="ForceShield">
 			<field name="texturedbobjectIcon" type="BinHex"/>
 		</object>
-		<object hash="B5F80C46">
+		<object name="ARCloak">
 			<field name="texturedbobjectIcon" type="BinHex"/>
 		</object>
-		<object hash="37C9A764">
+		<object name="RankPlacesIds">
 			<field name="LocalizationId" type="UInt64"/>
-			<object hash="37C9A764">
+			<object name="RankPlacesIds">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -765,35 +765,35 @@
 		<object hash="3F2A97CB">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9CA372A0">
-			<object hash="9DC13845">
+		<object name="AudioHooks">
+			<object name="PerkCelebration">
 				<field hash="C3BB10E1" type="BinHex"/>
 				<field hash="AB912015" type="BinHex"/>
 				<field hash="CBE335DF" type="BinHex"/>
 			</object>
-			<object hash="F0DFE409">
+			<object name="ChallengeCompleteCelebration">
 				<field hash="C3BB10E1" type="BinHex"/>
 				<field hash="CBE335DF" type="BinHex"/>
 			</object>
-			<object hash="2B78C6D6">
+			<object name="BoroughMissionStartCelebration">
 				<field hash="C3BB10E1" type="BinHex"/>
 				<field hash="CBE335DF" type="BinHex"/>
 			</object>
-			<object hash="A39F3501">
+			<object name="BoroughMissionCompleteCelebration">
 				<field hash="C3BB10E1" type="BinHex"/>
 				<field hash="CBE335DF" type="BinHex"/>
 			</object>
-			<object hash="536E498D">
-				<object hash="06354352">
+			<object name="TextCelebration">
+				<object name="NeutralEffect">
 					<field hash="C3BB10E1" type="BinHex"/>
 					<field hash="CBE335DF" type="BinHex"/>
 				</object>
-				<object hash="3908A2AB">
+				<object name="NegativeEffect">
 					<field hash="C3BB10E1" type="BinHex"/>
 					<field hash="CBE335DF" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="5463C900">
+			<object name="ChapterCelebration">
 				<object name="Started">
 					<field hash="C3BB10E1" type="BinHex"/>
 					<field hash="CBE335DF" type="BinHex"/>
@@ -803,15 +803,15 @@
 					<field hash="CBE335DF" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="BDDC3A78">
+			<object name="RaidCompleteCelebration">
 				<field hash="C3BB10E1" type="BinHex"/>
 				<field hash="CBE335DF" type="BinHex"/>
 			</object>
-			<object hash="D337523C">
+			<object name="RankUpCelebration">
 				<field hash="C3BB10E1" type="BinHex"/>
 				<field hash="CBE335DF" type="BinHex"/>
 			</object>
-			<object hash="9901B8CB">
+			<object name="RecruitmentCelebration">
 				<field hash="C3BB10E1" type="BinHex"/>
 				<field hash="CBE335DF" type="BinHex"/>
 			</object>
@@ -844,7 +844,7 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="79774D5D">
+	<object name="IsAvailableForPlatform">
 		<field hash="D90B475B" type="BinHex"/>
 		<field hash="A937F1FD" type="BinHex"/>
 		<field hash="D202274A" type="BinHex"/>

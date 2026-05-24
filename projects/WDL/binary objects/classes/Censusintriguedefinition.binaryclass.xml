@@ -37,9 +37,9 @@
 			<field name="selForcedOnSuccessActorStatus" type="BinHex"/>
 			<field name="objectivedestroyObjectiveDestroyDescriptor" type="BinHex"/>
 			<field name="objectivetransferdataStageBasedTransferDataObjectiveDescriptor" type="BinHex"/>
-			<object hash="7A7D8818">
+			<object name="Scenes">
 				<field name="dgsceneScene" type="BinHex"/>
-				<object hash="7A7D8818">
+				<object name="Scenes">
 					<field name="dgsceneScene" type="BinHex"/>
 				</object>
 			</object>

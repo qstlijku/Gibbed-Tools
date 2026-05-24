@@ -24,7 +24,7 @@
 			<field name="humanconfigHumanConfig" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="BA829EAF">
+	<object name="AllowMeleeWeapon">
 		<field hash="94C08F9B" type="Boolean"/>
 		<field hash="1DF2E0ED" type="BinHex"/>
 	</object>
@@ -103,7 +103,7 @@
 				<field name="humanconfigHumanConfig" type="BinHex"/>
 			</object>
 			<object name="ExtraSpawnHumanConfigVector">
-				<object hash="A8202CE6">
+				<object name="ExtraSpawnConfig">
 					<field name="humanconfigHumanConfig" type="BinHex"/>
 				</object>
 			</object>
@@ -114,7 +114,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="D1FED5F8">
+	<object name="UselessInformationVector">
 		<object hash="37A71640">
 			<field name="LocalizationId" type="BinHex"/>
 		</object>

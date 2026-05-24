@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="DD9592DF" type="BinHex"/>
 	<field hash="666FFDDA" type="BinHex"/>
-	<field hash="2D66C3DD" type="BinHex"/>
+	<field name="IntelDuration" type="BinHex"/>
 	<object name="LeverageAndIntrigueConfiguration">
 		<field name="censusmetaintrigueresolutionbucketInitialIntrigueAndLeverageBucket" type="BinHex"/>
 		<field name="censusmetaintrigueresolutionbucketOnFailureBucket" type="BinHex"/>
@@ -37,35 +37,35 @@
 				<field hash="3A743018" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="216E9E63">
+		<object name="HvcLeverageData">
 			<field hash="2074DB1A" type="BinHex"/>
 			<field hash="73F0EDD4" type="BinHex"/>
-			<object hash="46C347E3">
-				<object hash="0DB37092">
+			<object name="LeverageWhiteList">
+				<object name="Leverages">
 					<field hash="2E960056" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="B6D28C02">
-				<object hash="0DB37092">
+			<object name="LeverageBlackList">
+				<object name="Leverages">
 					<field hash="2E960056" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="216E9E63">
+			<object name="HvcLeverageData">
 				<field hash="2074DB1A" type="BinHex"/>
 				<field hash="73F0EDD4" type="BinHex"/>
-				<object hash="46C347E3">
-					<object hash="0DB37092">
+				<object name="LeverageWhiteList">
+					<object name="Leverages">
 						<field hash="2E960056" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="B6D28C02">
-					<object hash="0DB37092">
+				<object name="LeverageBlackList">
+					<object name="Leverages">
 						<field hash="2E960056" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
-		<object hash="BBEA5CAA">
+		<object name="ImmediatelyRecruitableBarks">
 			<object hash="57C6F889">
 				<field hash="57C6F889" type="BinHex"/>
 			</object>
@@ -750,14 +750,14 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="0D7B2065">
+		<object name="RecruitmentData">
 			<object hash="E8B39356">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object hash="7909D583">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="6B45EE3E">
+			<object name="OnlineRecruitmentCompletedCelebration">
 				<object hash="30DCA9AE">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -835,7 +835,7 @@
 		<field name="iMaxNumRelationshipContractsPerActor" type="BinHex"/>
 		<field name="iMaxNumPersonalContractsPerActor" type="BinHex"/>
 		<field hash="1AFB3C23" type="BinHex"/>
-		<object hash="D49D8F63">
+		<object name="CryptoRewardAmountOnNemesisNeutralization">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -863,8 +863,8 @@
 		<field name="censusactormemorydefinitionPositiveOperativeRetirementMemory" type="BinHex"/>
 		<field name="censusactormemorydefinitionNegativeOperativeRetirementMemory" type="BinHex"/>
 	</object>
-	<object hash="8DD9FA72">
-		<object hash="9B090AB1">
+	<object name="AuthoredNames">
+		<object name="AuthoredFieldValueDefinition">
 			<field hash="A44F95CA" type="BinHex"/>
 			<field hash="32CF8029" type="String"/>
 			<object name="locstridLocalizationID">
@@ -872,8 +872,8 @@
 			</object>
 		</object>
 	</object>
-	<object hash="238E639D">
-		<object hash="9B090AB1">
+	<object name="AuthoredSurnames">
+		<object name="AuthoredFieldValueDefinition">
 			<field hash="A44F95CA" type="BinHex"/>
 			<field hash="32CF8029" type="BinHex"/>
 			<object name="locstridLocalizationID">

@@ -85,16 +85,16 @@
 			<field name="Normal" type="BinHex"/>
 			<field name="HighEnd" type="BinHex"/>
 		</object>
-		<object hash="6BFB8B70">
+		<object name="GroupBehaviorSettings">
 			<field name="fileStrategyCategory" type="BinHex"/>
 			<object name="BlackboardInitializers"/>
 		</object>
-		<object hash="2349FBD4"/>
-		<object hash="C82A51B2"/>
-		<object hash="613BCBB4"/>
-		<object hash="47E8375B"/>
-		<object hash="EBD59801"/>
-		<object hash="D2978206"/>
-		<object hash="3DC327E2"/>
+		<object name="layerConversationKey"/>
+		<object name="layerQuitOnConversationFinished"/>
+		<object name="layerDistanceToTriggerConversation"/>
+		<object name="layerPlasmaTemplateInitialCycleOverride"/>
+		<object name="layerPlasmaTemplateOverride"/>
+		<object name="layerConversationSettings"/>
+		<object name="LayerGroupBehaviorSettings"/>
 	</object>
 </class>

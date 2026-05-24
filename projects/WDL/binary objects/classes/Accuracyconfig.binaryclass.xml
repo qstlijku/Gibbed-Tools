@@ -151,7 +151,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="BADB150C">
+		<object name="ChaseDroneTargetFactors">
 			<field name="fBaseHitThreshold" type="BinHex"/>
 			<field name="fMovingTowardMultiplier" type="BinHex"/>
 			<field name="fMovingAwayMultiplier" type="BinHex"/>
@@ -183,7 +183,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="DA70A31D">
+		<object name="RushingTargetFactors">
 			<field name="fBaseHitThreshold" type="BinHex"/>
 			<field name="fMovingTowardMultiplier" type="BinHex"/>
 			<field name="fMovingAwayMultiplier" type="BinHex"/>

@@ -284,7 +284,7 @@
 		<field name="fNearbyOpInRangeTimerDuration" type="BinHex"/>
 		<field name="fNearbyOpSameObjectiveTimeoutDuration" type="BinHex"/>
 	</object>
-	<object hash="C429B966">
+	<object name="LeverageOpsConfiguration">
 		<field hash="1DF85377" type="BinHex"/>
 	</object>
 	<object name="X404OpsConfiguration">
@@ -324,7 +324,7 @@
 		<field name="fObjectiveHighlightAreaYMin" type="BinHex"/>
 		<field name="fObjectiveHighlightAreaYMax" type="BinHex"/>
 		<field hash="7B8DEEA7" type="BinHex"/>
-		<object hash="3BCABA9A">
+		<object name="ShouldAnotherOpBeTrackedWhenOpEnds">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -347,7 +347,7 @@
 	<object hash="9C806D63">
 		<field hash="34B9A36D" type="BinHex"/>
 	</object>
-	<object hash="694893D2">
+	<object name="OperativeSwapTalkerSceneConversation">
 		<field name="conversationinteractionConversationSettings" type="BinHex"/>
 	</object>
 	<object name="History">

@@ -19,13 +19,13 @@
 	<field hash="429B6785" type="BinHex"/>
 	<field hash="24721231" type="String"/>
 	<object hash="EC17D712">
-		<field hash="3851F4E1" type="BinHex"/>
+		<field name="LocalizationId" type="BinHex"/>
 	</object>
-	<object hash="4BB12327">
-		<object hash="03BDBC6D">
+	<object name="StageDescriptors">
+		<object name="Stage">
 			<field hash="6D1E1959" type="String"/>
 			<field hash="49BF3666" type="BinHex"/>
-			<object hash="AF01AEDA">
+			<object name="Object">
 				<field hash="A4F71B0E" type="BinHex"/>
 				<field hash="B3B8E507" type="BinHex"/>
 				<field hash="DE1AB0F3" type="BinHex"/>
@@ -157,7 +157,7 @@
 				<field hash="A9140885" type="BinHex"/>
 				<field hash="EA32C3B4" type="BinHex"/>
 				<field hash="90816675" type="BinHex"/>
-				<field hash="21C3CE28" type="BinHex"/>
+				<field name="ActiveTransmittersMaxAmount" type="BinHex"/>
 				<field hash="3C43A48E" type="BinHex"/>
 				<field hash="16E3E663" type="BinHex"/>
 				<field hash="BEE01492" type="BinHex"/>
@@ -177,13 +177,13 @@
 				<field hash="0781458F" type="BinHex"/>
 				<field hash="06726888" type="BinHex"/>
 				<field hash="0E5995A7" type="BinHex"/>
-				<object hash="B636BFEA">
+				<object name="PlayerSpawning">
 					<field hash="6D1E1959" type="String"/>
 					<field hash="49BF3666" type="BinHex"/>
-					<object hash="AF01AEDA">
+					<object name="Object">
 						<field hash="FDA2FE62" type="BinHex"/>
-						<object hash="DB429F3B">
-							<object hash="F63C9D7F">
+						<object name="SpawnPoints">
+							<object name="SpawnPoint">
 								<field hash="E53C9A94" type="Vector3"/>
 								<field hash="A03ED4C1" type="Vector3"/>
 								<field hash="FC7F9AB5" type="BinHex"/>
@@ -191,68 +191,68 @@
 						</object>
 					</object>
 				</object>
-				<object hash="24541004">
+				<object name="TagsZOffsets">
 					<object hash="1B67AEE9">
 						<field hash="1B67AEE9" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="3CB0EB33">
+				<object name="Camera">
 					<field hash="E53C9A94" type="Vector3"/>
 					<field hash="A03ED4C1" type="Vector3"/>
 					<field hash="FC7F9AB5" type="BinHex"/>
 				</object>
-				<object hash="725C06C7">
-					<object hash="3DAAA90B">
+				<object name="ButtonSettings">
+					<object name="Button">
 						<field hash="203B20D2" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="DB429F3B">
-					<object hash="F63C9D7F">
+				<object name="SpawnPoints">
+					<object name="SpawnPoint">
 						<field hash="E53C9A94" type="Vector3"/>
 						<field hash="A03ED4C1" type="Vector3"/>
 						<field hash="FC7F9AB5" type="BinHex"/>
 					</object>
 				</object>
 				<object hash="81C51592">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="8AC76577">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="031CDAD7">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="E9FA3375">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="8281D6E3">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="DC2AEE6A">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="DA14BDA7">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="06E699A9">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="9B1AFDE6">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="C36EF7CE">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="BECB416D">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="8B0A0E2C">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="11DB7719">
+				<object name="Avatar">
 					<field hash="49BF3666" type="BinHex"/>
 					<field hash="6D1E1959" type="String"/>
-					<object hash="AF01AEDA">
+					<object name="Object">
 						<field hash="B3B8E507" type="BinHex"/>
 						<field hash="59E68523" type="BinHex"/>
 						<field hash="843B3676" type="Vector3"/>
@@ -264,33 +264,33 @@
 						<field hash="905736ED" type="Boolean"/>
 						<object hash="349D9E46">
 							<field hash="AECEF355" type="BinHex"/>
-							<object hash="F32C0E1C">
+							<object name="Knots">
 								<object hash="9A152447">
-									<field hash="DCB67730" type="Vector4"/>
-									<field hash="6BBB9E69" type="Vector4"/>
-									<field hash="2CECF817" type="Boolean"/>
+									<field name="Value" type="Vector4"/>
+									<field name="Info" type="Vector4"/>
+									<field name="Type" type="Boolean"/>
 								</object>
 							</object>
 						</object>
 						<object hash="3E3E5DB4">
-							<field hash="3851F4E1" type="BinHex"/>
+							<field name="LocalizationId" type="BinHex"/>
 						</object>
-						<object hash="25A7F066">
+						<object name="GameplayModifiers">
 							<field hash="31FF0259" type="BinHex"/>
 							<field hash="ABDC41FE" type="BinHex"/>
 							<field hash="17F1F526" type="BinHex"/>
 						</object>
 					</object>
 				</object>
-				<object hash="E6008288">
+				<object name="RoundSpawn">
 					<field hash="6D1E1959" type="String"/>
 					<field hash="49BF3666" type="BinHex"/>
-					<object hash="AF01AEDA">
+					<object name="Object">
 						<field hash="FDA2FE62" type="BinHex"/>
 						<field hash="D59D2B24" type="BinHex"/>
 						<field hash="0E2278C3" type="BinHex"/>
-						<object hash="DB429F3B">
-							<object hash="F63C9D7F">
+						<object name="SpawnPoints">
+							<object name="SpawnPoint">
 								<field hash="E53C9A94" type="Vector3"/>
 								<field hash="A03ED4C1" type="Vector3"/>
 								<field hash="FC7F9AB5" type="BinHex"/>
@@ -299,232 +299,232 @@
 					</object>
 				</object>
 				<object hash="0B01ED9A">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="7CCA27F2">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="0A316959">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="C6CB9758">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="EFC254C5">
 					<field hash="94C14C7F" type="BinHex"/>
 					<field hash="6CA5F8CD" type="BinHex"/>
 					<field hash="CCCA8C8F" type="BinHex"/>
-					<object hash="AB6282A8">
-						<object hash="46323CCB">
+					<object name="AllowedPickups">
+						<object name="Pickup">
 							<field hash="4A9C7E00" type="BinHex"/>
 						</object>
 					</object>
 				</object>
 				<object hash="CD43D272">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="93C0452E">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="5DAF0503">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="14B4BD59">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="955A0B1A">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="74714965">
+				<object name="BarkPlayerDie">
 					<field hash="4890E7CD" type="BinHex"/>
 					<field hash="F4BFF979" type="BinHex"/>
 				</object>
-				<object hash="220B8D7F">
+				<object name="BarkPlayerKill">
 					<field hash="4890E7CD" type="BinHex"/>
 					<field hash="F4BFF979" type="BinHex"/>
 				</object>
-				<object hash="041C26FB">
-					<object hash="63EF9231">
+				<object name="BarksTimeStamp">
+					<object name="TimeStampBark">
 						<field hash="0567315B" type="BinHex"/>
 						<field hash="F4BFF979" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="307DFD68">
-					<object hash="C31A8637">
+				<object name="BarksTimePercentage">
+					<object name="TimePercentageBark">
 						<field hash="0673298D" type="BinHex"/>
 						<field hash="F4BFF979" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="B818BC1C">
+				<object name="PlayAreaCenter">
 					<field hash="E53C9A94" type="Vector3"/>
 					<field hash="A03ED4C1" type="Vector3"/>
 					<field hash="FC7F9AB5" type="BinHex"/>
 				</object>
-				<object hash="55D2577C">
-					<object hash="D81B23E2">
+				<object name="AttackerSpawns">
+					<object name="AttackerSpawn">
 						<field hash="E53C9A94" type="Vector3"/>
 						<field hash="A03ED4C1" type="Vector3"/>
 						<field hash="FC7F9AB5" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="C25D02CE">
-					<object hash="859719E9">
+				<object name="DefenderSpawns">
+					<object name="DefenderSpawn">
 						<field hash="E53C9A94" type="Vector3"/>
 						<field hash="A03ED4C1" type="Vector3"/>
 						<field hash="FC7F9AB5" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="52FF8AE3">
+				<object name="LargeZoneRadius">
 					<field hash="7078CEB1" type="BinHex"/>
 					<field hash="64F05131" type="BinHex"/>
 					<field hash="01A271E5" type="BinHex"/>
 				</object>
-				<object hash="3D99BA31">
+				<object name="MediumZoneRadius">
 					<field hash="7078CEB1" type="BinHex"/>
 					<field hash="64F05131" type="BinHex"/>
 					<field hash="01A271E5" type="BinHex"/>
 				</object>
-				<object hash="6BF21783">
+				<object name="SmallZoneRadius">
 					<field hash="7078CEB1" type="BinHex"/>
 					<field hash="64F05131" type="BinHex"/>
 					<field hash="01A271E5" type="BinHex"/>
 				</object>
-				<object hash="9E677D67">
+				<object name="TinyZoneRadius">
 					<field hash="7078CEB1" type="BinHex"/>
 					<field hash="64F05131" type="BinHex"/>
 					<field hash="01A271E5" type="BinHex"/>
 				</object>
-				<object hash="EA0B9959">
+				<object name="VehiclesForInvaderSpawn">
 				</object>
 				<object hash="8ED58196">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="43277F58">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="5B0C303E">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="06800A35">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="A005E5F8">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="E632719F">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="88C32E9E">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="1EBA480C">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="F2B5D239">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="D01D6A19">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="92374F5F">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="81013A37">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="61E2D123">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="F066F1DB">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="219C55B4">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="D6459CA6">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="3FEB667A">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="0E74BED8">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="6D76EBC7">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="20D6E012">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="47932029">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="45509E9D">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="B3D52543">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="3B58EDB6">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="4044F2A9">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="2BC69464">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="48C8DD87">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="971621C1">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="B0207953">
+				<object name="DownloadDuration">
 					<object hash="41A523BD">
 						<field hash="41A523BD" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="8DD441AF">
-					<object hash="D3262A4A">
-						<field hash="4DD2729F" type="String"/>
-						<field hash="FB90FE8D" type="BinHex"/>
-						<object hash="7817CFAF">
+				<object name="Configs">
+					<object name="Config">
+						<field name="text_ConfigId" type="String"/>
+						<field name="ConfigId" type="BinHex"/>
+						<object name="HumanConfigs">
 							<object hash="C0490BF7">
 								<field hash="C0490BF7" type="BinHex"/>
 							</object>
 						</object>
-						<object hash="D2009417">
+						<object name="DroneConfigs">
 							<object hash="25DD4CED">
 								<field hash="25DD4CED" type="BinHex"/>
 							</object>
 						</object>
 					</object>
 				</object>
-				<object hash="1C08796A">
-					<object hash="6B727804">
-						<field hash="4DD2729F" type="String"/>
-						<field hash="FB90FE8D" type="BinHex"/>
+				<object name="ReinforcementConfigs">
+					<object name="ReinforcementConfig">
+						<field name="text_ConfigId" type="String"/>
+						<field name="ConfigId" type="BinHex"/>
 						<field hash="808BF799" type="BinHex"/>
-						<object hash="D2009417">
+						<object name="DroneConfigs">
 							<object hash="25DD4CED">
 								<field hash="25DD4CED" type="BinHex"/>
 							</object>
 						</object>
-						<object hash="2440D569">
+						<object name="PassangerConfigs">
 							<object hash="EC3D15BA">
 								<field hash="EC3D15BA" type="BinHex"/>
 							</object>
 						</object>
 					</object>
 				</object>
-				<object hash="A7869E11">
-					<object hash="EED200B1">
-						<field hash="F2BEF630" type="String"/>
-						<field hash="44FC7A22" type="BinHex"/>
+				<object name="ReinforcementWaves">
+					<object name="ReinforcementWave">
+						<field name="text_WaveName" type="String"/>
+						<field name="WaveName" type="BinHex"/>
 						<field hash="C2C22409" type="BinHex"/>
-						<object hash="485BB638">
-							<object hash="E6EA03F2">
+						<object name="Rules">
+							<object name="Rule">
 								<field hash="F002C408" type="String"/>
 								<field hash="3AC4281F" type="BinHex"/>
 								<field hash="67D45B1E" type="BinHex"/>
@@ -533,40 +533,40 @@
 					</object>
 				</object>
 				<object hash="D87E1B04">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="2A82299D">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="74E458E5">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="DC0A1E67">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="67B6CA38">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="AA134F85">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="DD31DF6F">
-					<object hash="33C9D63A">
-						<field hash="698D3548" type="String"/>
-						<field hash="BF396750" type="BinHex"/>
+				<object name="Transmitters">
+					<object name="Transmitter">
+						<field name="text_id" type="String"/>
+						<field name="id" type="BinHex"/>
 						<field hash="E53C9A94" type="Vector3"/>
 						<field hash="55F239B9" type="Vector3"/>
 						<field hash="A97B526D" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="E0BA053F">
-					<object hash="6086515F">
-						<field hash="698D3548" type="String"/>
-						<field hash="BF396750" type="BinHex"/>
+				<object name="Bases">
+					<object name="Base">
+						<field name="text_id" type="String"/>
+						<field name="id" type="BinHex"/>
 						<field hash="E53C9A94" type="Vector3"/>
 					</object>
 				</object>
-				<object hash="8630199F">
+				<object name="BaseCommonConfig">
 					<field hash="25DD4CED" type="BinHex"/>
 					<field hash="F481EE6B" type="BinHex"/>
 					<field hash="8436B4DB" type="BinHex"/>
@@ -576,25 +576,25 @@
 					<field hash="AF50A637" type="BinHex"/>
 					<field hash="297C491E" type="BinHex"/>
 					<field hash="8D38A02C" type="BinHex"/>
-					<object hash="BC0B8C24">
+					<object name="TransmissionFinishedSound">
 						<field hash="34FC1E04" type="BinHex"/>
 						<field hash="8FE662AD" type="Boolean"/>
 					</object>
-					<object hash="215716FD">
+					<object name="BeamEntity">
 						<field hash="E6655990" type="BinHex"/>
 						<field hash="9A4BC461" type="BinHex"/>
 						<field hash="9BE6E8FB" type="Vector3"/>
 						<field hash="D79BA938" type="Vector3"/>
 						<field hash="99298BDA" type="Vector3"/>
 					</object>
-					<object hash="86023980">
+					<object name="InteractionRadiusEntity">
 						<field hash="E6655990" type="BinHex"/>
 						<field hash="9A4BC461" type="BinHex"/>
 						<field hash="9BE6E8FB" type="Vector3"/>
 						<field hash="D79BA938" type="Vector3"/>
 						<field hash="99298BDA" type="Vector3"/>
 					</object>
-					<object hash="CC96E126">
+					<object name="UploadRadiusEntity">
 						<field hash="E6655990" type="BinHex"/>
 						<field hash="9A4BC461" type="BinHex"/>
 						<field hash="9BE6E8FB" type="Vector3"/>
@@ -602,22 +602,22 @@
 						<field hash="99298BDA" type="Vector3"/>
 					</object>
 					<object hash="FDBB91AF">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 					<object hash="25538B75">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 					<object hash="98258C38">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 					<object hash="634513B3">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 					<object hash="CF303728">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="3A614E5E">
+				<object name="RevealingBaseCommonConfig">
 					<field hash="25DD4CED" type="BinHex"/>
 					<field hash="F481EE6B" type="BinHex"/>
 					<field hash="8436B4DB" type="BinHex"/>
@@ -627,26 +627,26 @@
 					<field hash="AF50A637" type="BinHex"/>
 					<field hash="297C491E" type="BinHex"/>
 					<field hash="8D38A02C" type="BinHex"/>
-					<object hash="BC0B8C24">
+					<object name="TransmissionFinishedSound">
 						<field hash="24BA9E57" type="BinHex"/>
 						<field hash="34FC1E04" type="BinHex"/>
 						<field hash="8FE662AD" type="Boolean"/>
 					</object>
-					<object hash="215716FD">
+					<object name="BeamEntity">
 						<field hash="E6655990" type="BinHex"/>
 						<field hash="9A4BC461" type="BinHex"/>
 						<field hash="9BE6E8FB" type="Vector3"/>
 						<field hash="D79BA938" type="Vector3"/>
 						<field hash="99298BDA" type="Vector3"/>
 					</object>
-					<object hash="86023980">
+					<object name="InteractionRadiusEntity">
 						<field hash="E6655990" type="BinHex"/>
 						<field hash="9A4BC461" type="BinHex"/>
 						<field hash="9BE6E8FB" type="Vector3"/>
 						<field hash="D79BA938" type="Vector3"/>
 						<field hash="99298BDA" type="Vector3"/>
 					</object>
-					<object hash="CC96E126">
+					<object name="UploadRadiusEntity">
 						<field hash="E6655990" type="BinHex"/>
 						<field hash="9A4BC461" type="BinHex"/>
 						<field hash="9BE6E8FB" type="Vector3"/>
@@ -654,24 +654,24 @@
 						<field hash="99298BDA" type="Vector3"/>
 					</object>
 					<object hash="FDBB91AF">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 					<object hash="25538B75">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 					<object hash="98258C38">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 					<object hash="634513B3">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 					<object hash="CF303728">
-						<field hash="3851F4E1" type="BinHex"/>
+						<field name="LocalizationId" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="66CE8589">
-					<field hash="2183139A" type="Boolean"/>
-					<field hash="E224E8DA" type="BinHex"/>
+				<object name="ScoreConfig">
+					<field name="PointsTransmitterPickUp" type="Boolean"/>
+					<field name="PointsTransmitterUpload" type="BinHex"/>
 				</object>
 				<object hash="F0D6BA1D">
 					<field hash="C99D6CE9" type="BinHex"/>
@@ -680,10 +680,10 @@
 					<field hash="CC1A721D" type="Boolean"/>
 				</object>
 				<object hash="ADD433B4">
-					<field hash="3851F4E1" type="BinHex"/>
+					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="A862AE11">
-					<object hash="05547F56">
+				<object name="KillstreakRewards">
+					<object name="KillstreakPickup">
 						<field hash="81A741D0" type="BinHex"/>
 						<field hash="BB96D4A0" type="BinHex"/>
 						<field hash="FBA79F5C" type="BinHex"/>
@@ -692,10 +692,10 @@
 			</object>
 		</object>
 	</object>
-	<object hash="68226076">
+	<object name="OverrideSpawnCategoryBudget">
 		<field hash="106567B3" type="BinHex"/>
-		<object hash="C0FB2C20">
-			<object hash="920347C3">
+		<object name="SpawnBudgetOverrideCategoryList">
+			<object name="SpawnBudgetOverrideCategory">
 				<field hash="EE3C4838" type="BinHex"/>
 				<field hash="EF3C09C8" type="BinHex"/>
 				<field hash="18CAFC43" type="BinHex"/>
@@ -703,7 +703,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="836DEAF2">
+	<object name="Weather">
 		<field hash="A5DCDBBB" type="BinHex"/>
 		<field hash="60A2C454" type="BinHex"/>
 	</object>

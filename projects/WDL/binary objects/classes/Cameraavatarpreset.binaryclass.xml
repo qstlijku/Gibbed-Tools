@@ -10131,7 +10131,7 @@
 		</object>
 		<object name="ModifierList"/>
 	</object>
-	<object hash="1BA7603F">
+	<object name="AvatarInteractingClimbDownIn">
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="ContextBlendList">
 			<object name="ContextBlendElement">
@@ -10191,7 +10191,7 @@
 		</object>
 		<object name="ModifierList"/>
 	</object>
-	<object hash="9EAC67DD">
+	<object name="AvatarInteractingClimbDownOut">
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="ContextBlendList">
 			<object name="ContextBlendElement">
@@ -10251,7 +10251,7 @@
 		</object>
 		<object name="ModifierList"/>
 	</object>
-	<object hash="A2EAF149">
+	<object name="AvatarInteractingClimbUpIn">
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="ContextBlendList">
 			<object name="ContextBlendElement">
@@ -10311,7 +10311,7 @@
 		</object>
 		<object name="ModifierList"/>
 	</object>
-	<object hash="2773FE45">
+	<object name="AvatarInteractingClimbUpOut">
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="ContextBlendList">
 			<object name="ContextBlendElement">
@@ -10371,7 +10371,7 @@
 		</object>
 		<object name="ModifierList"/>
 	</object>
-	<object hash="F3BCA00F">
+	<object name="AvatarInteractingClimbOverIn">
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="ContextBlendList">
 			<object name="ContextBlendElement">
@@ -10431,7 +10431,7 @@
 		</object>
 		<object name="ModifierList"/>
 	</object>
-	<object hash="B89D4CB1">
+	<object name="AvatarInteractingClimbOverOut">
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="ContextBlendList">
 			<object name="ContextBlendElement">
@@ -10491,7 +10491,7 @@
 		</object>
 		<object name="ModifierList"/>
 	</object>
-	<object hash="8D1CC248">
+	<object name="AvatarInteractingSlideOver">
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="ContextBlendList">
 			<object name="ContextBlendElement">
@@ -10551,7 +10551,7 @@
 		</object>
 		<object name="ModifierList"/>
 	</object>
-	<object hash="82EF1812">
+	<object name="AvatarInteractingJumpOver">
 		<field name="cameracontextCameraContext" type="BinHex"/>
 		<object name="ContextBlendList">
 			<object name="ContextBlendElement">

@@ -10,9 +10,9 @@
 	<field name="discoverysettingsLocateObjectiveDiscoverySettings" type="BinHex"/>
 	<field name="discoverysettingsOpStarterDiscoverySettings" type="BinHex"/>
 	<field name="discoverysettingsTalkersDiscoverySettings" type="BinHex"/>
-	<field hash="915E07DE" type="BinHex"/>
-	<field hash="9F4B7F6D" type="BinHex"/>
-	<object hash="92FAE546">
+	<field name="DiscoveryMapInnerRadius" type="BinHex"/>
+	<field name="DiscoveryMapOuterRadius" type="BinHex"/>
+	<object name="DiscoveryMapEnabled">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>

@@ -17,15 +17,15 @@
 	<field name="bDisableDefenseZone" type="BinHex"/>
 	<field hash="4A790BFD" type="BinHex"/>
 	<field hash="8013BAB9" type="BinHex"/>
-	<object hash="D89CBE7D">
+	<object name="CombatAndTargetPosition">
 		<field hash="715FDEEE" type="BinHex"/>
 		<field hash="743CD630" type="BinHex"/>
 		<field hash="6B9663FD" type="BinHex"/>
-		<object hash="BBC64559">
+		<object name="KeepAliveTargetPosition">
 			<field hash="D36F7537" type="BinHex"/>
 			<field hash="F54E1C5D" type="BinHex"/>
 		</object>
-		<object hash="442B0243">
+		<object name="CheatTargetPosition">
 			<field hash="1AB6750D" type="BinHex"/>
 			<field hash="4BCAF239" type="BinHex"/>
 		</object>

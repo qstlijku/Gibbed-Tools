@@ -12,8 +12,8 @@
 	<field name="bLoopSequence" type="BinHex"/>
 	<field name="fMinimumDelayBetweenAnnouncements" type="BinHex"/>
 	<field name="fMaximumDelayBetweenAnnouncements" type="BinHex"/>
-	<object hash="BB3CFF35">
-		<object hash="6A160539">
+	<object name="VoiceAnnouncementsAndTypes">
+		<object name="VoiceAnnouncement">
 			<field name="text_sndSoundId" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
@@ -28,7 +28,7 @@
 		<field name="fOppressedMinimumDelayBetweenAnnouncements" type="BinHex"/>
 		<field name="fOppressedMaximumDelayBetweenAnnouncements" type="BinHex"/>
 		<object hash="0D634BAC">
-			<object hash="6A160539">
+			<object name="VoiceAnnouncement">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>

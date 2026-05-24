@@ -7,18 +7,18 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="IsEnabled" type="BinHex"/>
-	<object hash="AA884E7A">
+	<object name="OnlineOnboardingList">
 		<object hash="342CB585">
 			<field hash="342CB585" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="6427F01E">
+	<object name="OnlineOnboardingHintList">
 		<object hash="B80CFA26">
 			<field hash="B80CFA26" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="40A0B956">
-		<field hash="67E000DC" type="BinHex"/>
+	<object name="IntroductionCinematic">
+		<field name="UseBink" type="BinHex"/>
 		<field hash="25067F29" type="BinHex"/>
 		<field name="entIntroSequenceCenterSceneEntityId" type="BinHex"/>
 		<field name="text_fileIntroSequenceResourcePath" type="String"/>
@@ -40,7 +40,7 @@
 		<field hash="E50CB7D2" type="BinHex"/>
 		<field hash="9AE4F8AA" type="BinHex"/>
 	</object>
-	<object hash="D711AAEE">
+	<object name="ExitHackerspacePosition">
 		<field hash="324EE216" type="BinHex"/>
 	</object>
 </class>

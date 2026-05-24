@@ -191,7 +191,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="CB3EEB6B">
+		<object name="RushingTargetShooting">
 			<field hash="38513CBD" type="BinHex"/>
 			<field hash="5E761E88" type="BinHex"/>
 			<field hash="2ACA41B8" type="BinHex"/>

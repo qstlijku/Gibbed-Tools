@@ -171,7 +171,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="2E6F2B10">
+	<object name="MusicLanguage">
 		<object hash="2EC9A100">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>

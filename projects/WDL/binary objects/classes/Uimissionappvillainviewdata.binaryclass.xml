@@ -13,7 +13,7 @@
 	<object name="locstridDescriptionLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="37C75110">
+	<object name="VillainNames">
 		<object name="Name">
 			<object hash="C8BC4AD9">
 				<field name="LocalizationId" type="UInt64"/>

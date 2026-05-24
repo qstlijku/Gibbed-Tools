@@ -137,7 +137,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="652D038B">
+		<object name="CanShootRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>

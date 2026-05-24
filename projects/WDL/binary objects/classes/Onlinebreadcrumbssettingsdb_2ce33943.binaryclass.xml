@@ -33,7 +33,7 @@
 			<field name="opslistOpConfigDbObject" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="C64E762D">
+	<object name="WarningPopupMaxShowing">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>

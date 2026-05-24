@@ -219,7 +219,7 @@
 						</object>
 					</object>
 				</object>
-				<object hash="652D038B">
+				<object name="CanShootRule">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
@@ -605,7 +605,7 @@
 				<field name="fBeamExtension" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="4B64141C">
+		<object name="NewsDroneSettings">
 			<field name="disNomadObjectId" type="BinHex"/>
 			<field name="hidSingleObject" type="Boolean"/>
 			<field name="hidKey" type="BinHex"/>
@@ -956,8 +956,8 @@
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<object hash="DCAAD227">
-				<object hash="B6319366">
+			<object name="TargetTypeSettings">
+				<object name="HijackedRC">
 					<field hash="338CD79A" type="BinHex"/>
 					<field hash="61D71851" type="BinHex"/>
 					<field name="fWaitForAlertGuardsTimeMin" type="BinHex"/>
@@ -991,7 +991,7 @@
 						<field name="rulesmithconstValue" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="6FEC4DB5">
+				<object name="DeactivatedRC">
 					<field hash="338CD79A" type="BinHex"/>
 					<field hash="61D71851" type="BinHex"/>
 					<field name="fWaitForAlertGuardsTimeMin" type="BinHex"/>

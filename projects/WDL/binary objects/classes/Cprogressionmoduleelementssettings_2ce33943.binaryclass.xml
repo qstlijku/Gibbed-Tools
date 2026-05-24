@@ -16,7 +16,7 @@
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
 				<object name="Atoms"/>
-				<object hash="C7D6C7FE"/>
+				<object name="GlobalAtoms"/>
 				<object name="Items">
 					<object name="Item">
 						<field name="itemsItem" type="BinHex"/>

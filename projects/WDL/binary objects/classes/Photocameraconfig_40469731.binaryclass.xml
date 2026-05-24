@@ -28,12 +28,12 @@
 	<field name="fSharingErrorMsgDuration" type="BinHex"/>
 	<object name="SoundEffects">
 		<object name="General">
-			<object hash="15049F68">
+			<object name="ToggleEditMode">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="C376C278">
+			<object name="SwitchMode">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
@@ -53,54 +53,54 @@
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="A30165ED">
+			<object name="Focus">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="59B0C04F">
+			<object name="ZoomStart">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="F6B5B709">
+			<object name="ZoomEnd">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="6C3D83AC">
+			<object name="Gesture">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="4D762D91">
+			<object name="ChangeAngleStart">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="16186DDC">
+			<object name="ChangeAndleEnd">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
 		</object>
 		<object name="EditMode">
-			<object hash="5203AB45">
+			<object name="ResetSettings">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="F891BD9A">
+			<object name="ChangeValueStart">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="178D5299">
+			<object name="ChangeValueEnd">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="6F9B3D2D">
+			<object name="ToggleValue">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
@@ -117,12 +117,12 @@
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="68CD2E7F">
+			<object name="MovementStart">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>
 			</object>
-			<object hash="FAF24F11">
+			<object name="MovementEnd">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
 				<field name="sndtpSoundType" type="BinHex"/>

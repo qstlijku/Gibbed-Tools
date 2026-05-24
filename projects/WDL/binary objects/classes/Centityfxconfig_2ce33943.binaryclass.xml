@@ -556,7 +556,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="89B6D047">
+	<object name="SurviveGrenadeRevive">
 		<object name="StartStage">
 			<field name="sndSound" type="BinHex"/>
 			<object name="Particles"/>

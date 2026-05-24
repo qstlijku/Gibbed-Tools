@@ -29,7 +29,7 @@
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="Target">
-		<field hash="AA658794" type="BinHex"/>
+		<field name="text_TargetSceneID" type="BinHex"/>
 		<field name="TargetSceneID" type="BinHex"/>
 		<field name="text_TargetRole" type="String"/>
 		<field name="TargetRole" type="BinHex"/>

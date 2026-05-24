@@ -11,7 +11,7 @@
 	<field name="lookatsettingDefaultLookAt" type="BinHex"/>
 	<field name="selConversationName" type="Enum"/>
 	<field name="bDisableDefaultLayeredAnimations" type="Boolean"/>
-	<object hash="9EAA2820">
+	<object name="PlasmaConversationSettings">
 		<field name="text_SceneTemplate" type="String"/>
 		<field name="SceneTemplate" type="BinHex"/>
 		<field hash="1588B4F3" type="BinHex"/>

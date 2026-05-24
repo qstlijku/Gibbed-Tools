@@ -364,7 +364,7 @@
 		<field name="cloactBackUpAction" type="BinHex"/>
 		<field hash="A8E79A6B" type="BinHex"/>
 	</object>
-	<object hash="1BF72385">
+	<object name="PlasmaConversationOverrides">
 		<field hash="AA47CFB7" type="BinHex"/>
 		<field hash="EB7919AF" type="BinHex"/>
 		<field hash="42F4E689" type="BinHex"/>

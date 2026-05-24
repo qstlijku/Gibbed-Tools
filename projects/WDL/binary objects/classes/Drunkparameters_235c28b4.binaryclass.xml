@@ -69,8 +69,8 @@
 	<field name="fBagleyDartsPhoneCommCooldown" type="BinHex"/>
 	<field name="phonecommunicationsettingsBagleyDarts" type="BinHex"/>
 	<field name="phonecommunicationsettingsBagleyRandom" type="BinHex"/>
-	<object hash="63211B98"/>
-	<object hash="F788165F"/>
+	<object name="DeniedTags"/>
+	<object name="AllowedTags"/>
 	<object name="locstridNotificationLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
@@ -97,7 +97,7 @@
 		<field name="SoundId" type="BinHex"/>
 		<field name="SoundGuid" type="String"/>
 	</object>
-	<object hash="EEEB99CC">
+	<object name="AllowOperativePassOut">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>

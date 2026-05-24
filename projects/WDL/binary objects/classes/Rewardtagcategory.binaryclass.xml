@@ -13,7 +13,7 @@
 			<field hash="0AB3E082" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="37D0AFD0">
+	<object name="TagCategoryWeightRule">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="Boolean"/>
 	</object>

@@ -6,8 +6,8 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="46CE87D7">
-		<object hash="A853DEFA">
+	<object name="RewardOverrideInfos">
+		<object name="RewardOverrideInfo">
 			<field hash="D1287212" type="String"/>
 			<field hash="C2925E16" type="BinHex"/>
 			<field name="texturedbobjectSmallImage" type="BinHex"/>

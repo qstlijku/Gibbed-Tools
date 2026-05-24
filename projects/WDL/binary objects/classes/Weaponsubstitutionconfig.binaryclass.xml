@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="85728937" type="BinHex"/>
-	<object hash="2D114E9E">
+	<object name="SelectionRule">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>

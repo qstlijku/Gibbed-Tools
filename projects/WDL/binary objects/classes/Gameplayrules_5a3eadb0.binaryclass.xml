@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="MeleeRules">
-		<field hash="833EB54B" type="BinHex"/>
+		<field name="UnbreakableCloakTime" type="BinHex"/>
 		<object name="InstantDownRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -104,7 +104,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="1A76B06E">
+		<object name="SchockWaveDisorientedTime">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -160,7 +160,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="74D0AED2">
+		<object name="LateDodgeWindowLower">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -168,7 +168,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="8FFE1D8D">
+		<object name="ArrestTakedownAvailable">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -192,7 +192,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="ACF1D509">
+		<object name="RCDeactivationTakedownAvailable">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -224,7 +224,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="90CF32F2">
+		<object name="HasBareKnucklePunchAttack">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -252,7 +252,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="4921C317">
+		<object name="ForceNonLethalGunTakedown">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -387,7 +387,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="440F2151">
+		<object name="ShockHackDamage">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -422,39 +422,39 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="F603362E">
+		<object name="CanTargetDeadBodies">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="A1306383">
+		<object name="WeaponReloadSpeedMultiplier">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="3CE355DA">
+		<object name="IsCivilianGoodAtMelee">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="E8DD0A3B">
+		<object name="CanExecuteVFXRUle">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="F9E52EE4">
+		<object name="CanActivateDynamicIntels">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="A52FBA1C">
+		<object name="IntelActivationFrequencyForHints">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="6ECE22CC">
+		<object name="IsPlayerAccessEnabled">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="86251F1E">
+		<object name="CanPropagateVirusHackToTargetFilter">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="880DD4D8">
+		<object name="GetProfessionalHitmanTakedownAtomID">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="text_rulesmithconstValue" type="String"/>
 			<field name="rulesmithconstValue" type="BinHex"/>

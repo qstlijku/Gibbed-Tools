@@ -7,428 +7,428 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="FeedbackNames">
-		<object hash="8F33CEE3">
+		<object name="UnassignedLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="OrbisPadLocalization">
-			<object hash="381062C6">
+			<object name="UpLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A83E0254">
+			<object name="DownLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E1C20A03">
+			<object name="LeftLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="83DC9B62">
+			<object name="RightLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DF7C65BE">
+			<object name="LeftStickXLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="1420B61B">
+			<object name="LeftStickYLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0B278803">
+			<object name="RightStickXLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="C07B5BA6">
+			<object name="RightStickYLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0C361E57">
+			<object name="LeftTriggerLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="B9328A8B">
+			<object name="RightTriggerLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="AA750E03">
+			<object name="ALocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="2CE17CAD">
+			<object name="BLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8EAC5D50">
+			<object name="XLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="45F08EF5">
+			<object name="YLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="34509F7D">
+			<object name="StartLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0DF24082">
+			<object name="BackLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="06162F42">
+			<object name="LeftBumperLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D24DC2FF">
+			<object name="RightBumperLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="17A95545">
+			<object name="LeftStickLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="F7740A26">
+			<object name="RightStickLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="511350DB">
+			<object name="PadLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="BF1604F2">
+			<object name="PadUpDownLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="4DC125BE">
+			<object name="PadLeftRightLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A7A721C9">
+			<object name="LleftThumbLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0378AECB">
+			<object name="RightThumbLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object name="DurangoPadLocalization">
-			<object hash="381062C6">
+			<object name="UpLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A83E0254">
+			<object name="DownLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E1C20A03">
+			<object name="LeftLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="83DC9B62">
+			<object name="RightLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DF7C65BE">
+			<object name="LeftStickXLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="1420B61B">
+			<object name="LeftStickYLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0B278803">
+			<object name="RightStickXLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="C07B5BA6">
+			<object name="RightStickYLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0C361E57">
+			<object name="LeftTriggerLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="B9328A8B">
+			<object name="RightTriggerLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="AA750E03">
+			<object name="ALocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="2CE17CAD">
+			<object name="BLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8EAC5D50">
+			<object name="XLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="45F08EF5">
+			<object name="YLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="34509F7D">
+			<object name="StartLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0DF24082">
+			<object name="BackLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="06162F42">
+			<object name="LeftBumperLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D24DC2FF">
+			<object name="RightBumperLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="17A95545">
+			<object name="LeftStickLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="F7740A26">
+			<object name="RightStickLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="511350DB">
+			<object name="PadLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="BF1604F2">
+			<object name="PadUpDownLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="4DC125BE">
+			<object name="PadLeftRightLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A7A721C9">
+			<object name="LleftThumbLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0378AECB">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-		</object>
-		<object hash="89A433F1">
-			<object hash="381062C6">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="A83E0254">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="E1C20A03">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="83DC9B62">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="DF7C65BE">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="1420B61B">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="0B278803">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="C07B5BA6">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="0C361E57">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="B9328A8B">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="AA750E03">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="2CE17CAD">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="8EAC5D50">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="45F08EF5">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="34509F7D">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="0DF24082">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="06162F42">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="D24DC2FF">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="17A95545">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="F7740A26">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="511350DB">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="BF1604F2">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="4DC125BE">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="A7A721C9">
-				<field name="LocalizationId" type="UInt64"/>
-			</object>
-			<object hash="0378AECB">
+			<object name="RightThumbLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="008FF8B7">
-			<object hash="381062C6">
+		<object name="SteamPadLocalization">
+			<object name="UpLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A83E0254">
+			<object name="DownLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E1C20A03">
+			<object name="LeftLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="83DC9B62">
+			<object name="RightLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DF7C65BE">
+			<object name="LeftStickXLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="1420B61B">
+			<object name="LeftStickYLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0B278803">
+			<object name="RightStickXLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="C07B5BA6">
+			<object name="RightStickYLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0C361E57">
+			<object name="LeftTriggerLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="B9328A8B">
+			<object name="RightTriggerLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="AA750E03">
+			<object name="ALocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="2CE17CAD">
+			<object name="BLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8EAC5D50">
+			<object name="XLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="45F08EF5">
+			<object name="YLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="34509F7D">
+			<object name="StartLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0DF24082">
+			<object name="BackLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="06162F42">
+			<object name="LeftBumperLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D24DC2FF">
+			<object name="RightBumperLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="17A95545">
+			<object name="LeftStickLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="F7740A26">
+			<object name="RightStickLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="511350DB">
+			<object name="PadLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="BF1604F2">
+			<object name="PadUpDownLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="4DC125BE">
+			<object name="PadLeftRightLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A7A721C9">
+			<object name="LleftThumbLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0378AECB">
+			<object name="RightThumbLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="1C820746">
-			<object hash="381062C6">
+		<object name="YetiPadLocalization">
+			<object name="UpLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A83E0254">
+			<object name="DownLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E1C20A03">
+			<object name="LeftLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="83DC9B62">
+			<object name="RightLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DF7C65BE">
+			<object name="LeftStickXLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="1420B61B">
+			<object name="LeftStickYLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0B278803">
+			<object name="RightStickXLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="C07B5BA6">
+			<object name="RightStickYLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0C361E57">
+			<object name="LeftTriggerLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="B9328A8B">
+			<object name="RightTriggerLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="AA750E03">
+			<object name="ALocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="2CE17CAD">
+			<object name="BLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8EAC5D50">
+			<object name="XLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="45F08EF5">
+			<object name="YLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="34509F7D">
+			<object name="StartLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0DF24082">
+			<object name="BackLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="06162F42">
+			<object name="LeftBumperLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D24DC2FF">
+			<object name="RightBumperLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="17A95545">
+			<object name="LeftStickLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="F7740A26">
+			<object name="RightStickLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="511350DB">
+			<object name="PadLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="BF1604F2">
+			<object name="PadUpDownLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="4DC125BE">
+			<object name="PadLeftRightLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A7A721C9">
+			<object name="LleftThumbLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="0378AECB">
+			<object name="RightThumbLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+		</object>
+		<object name="SwitchPadLocalization">
+			<object name="UpLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="DownLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="LeftLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="RightLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="LeftStickXLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="LeftStickYLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="RightStickXLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="RightStickYLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="LeftTriggerLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="RightTriggerLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="ALocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="BLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="XLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="YLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="StartLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="BackLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="LeftBumperLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="RightBumperLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="LeftStickLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="RightStickLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="PadLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="PadUpDownLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="PadLeftRightLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="LleftThumbLocId">
+				<field name="LocalizationId" type="UInt64"/>
+			</object>
+			<object name="RightThumbLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object name="MouseLocalization">
-			<object hash="E1C20A03">
+			<object name="LeftLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="83DC9B62">
+			<object name="RightLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="C51B7A46">
+			<object name="MiddleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A5A6A42F">
+			<object name="Btn4LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="6EFA778A">
+			<object name="Btn5LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E86E0524">
+			<object name="Btn6LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="2332D681">
+			<object name="Btn7LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D2646454">
+			<object name="Btn8LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="DA230102">
+			<object name="WheelUpLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D313C2CF">
+			<object name="WheelDownLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 	</object>
-	<object hash="EFA0B7E6">
+	<object name="LanguageNames">
 		<object name="czech">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>

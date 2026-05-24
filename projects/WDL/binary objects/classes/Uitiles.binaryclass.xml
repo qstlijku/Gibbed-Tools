@@ -24,10 +24,10 @@
 		<field hash="5756CD61" type="BinHex"/>
 		<field hash="1D08481C" type="BinHex"/>
 		<field name="bIsFocusable" type="Boolean"/>
-		<field hash="A7D99004" type="BinHex"/>
-		<field hash="7D36F84E" type="BinHex"/>
+		<field name="LeftArrowPositionX" type="BinHex"/>
+		<field name="RightArrowPositionX" type="BinHex"/>
 		<field name="uiPageIndex" type="UInt32"/>
-		<field hash="60FA6429" type="String"/>
+		<field name="MovieClipName" type="String"/>
 		<field name="fIconSpacing" type="Float"/>
 		<field name="selFilterType" type="BinHex"/>
 		<field hash="55E5B292" type="BinHex"/>
@@ -47,7 +47,7 @@
 		<field hash="3F090390" type="BinHex"/>
 		<field hash="A61D6951" type="BinHex"/>
 		<field name="texturedbobjectImage" type="BinHex"/>
-		<field hash="35B07D0F" type="String"/>
+		<field name="LinkageName" type="String"/>
 		<field hash="2D3BBC37" type="BinHex"/>
 		<field hash="8262CA84" type="BinHex"/>
 		<field hash="C34B3B7D" type="BinHex"/>
@@ -74,9 +74,9 @@
 		<field name="fMaxValue" type="Float"/>
 		<field hash="4163243E" type="BinHex"/>
 		<field hash="630E9B47" type="BinHex"/>
-		<field hash="E3433F1A" type="BinHex"/>
+		<field name="NumberOfTabs" type="BinHex"/>
 		<field hash="6352C03F" type="BinHex"/>
-		<field hash="359D665A" type="BinHex"/>
+		<field name="SeparationWidthBetweenTabs" type="BinHex"/>
 		<field hash="37AFF6BD" type="BinHex"/>
 		<field hash="AF9D94F8" type="BinHex"/>
 		<field hash="DDB2C7E6" type="BinHex"/>
@@ -121,7 +121,7 @@
 		<field name="selButtonColorType" type="Enum"/>
 		<field name="texturedbobjectBackgroundImage" type="BinHex"/>
 		<field hash="327CE368" type="String"/>
-		<field hash="F0436E36" type="BinHex"/>
+		<field name="DefaultElitePassCost" type="BinHex"/>
 		<field hash="F4BC06E3" type="BinHex"/>
 		<field hash="34D50042" type="BinHex"/>
 		<field hash="0B17B4D7" type="BinHex"/>
@@ -130,23 +130,23 @@
 		<field hash="5F638E26" type="BinHex"/>
 		<field hash="428F4E5E" type="String"/>
 		<field hash="A742D458" type="BinHex"/>
-		<field hash="CB45B82B" type="BinHex"/>
-		<field hash="A95CA7D6" type="BinHex"/>
-		<field hash="5874D666" type="BinHex"/>
-		<field hash="BD96C128" type="BinHex"/>
+		<field name="MaxDesaturation" type="BinHex"/>
+		<field name="NoDesaturation" type="BinHex"/>
+		<field name="FocusedAlpha" type="BinHex"/>
+		<field name="UnfocusedAlpha" type="BinHex"/>
 		<field name="bArrowsEnabled" type="Boolean"/>
 		<field name="bOverrideDefaultColor" type="Boolean"/>
 		<field name="uiTopCapYOffset" type="UInt32"/>
 		<field name="uiBottomCapYOffset" type="UInt32"/>
 		<field hash="33489D88" type="BinHex"/>
-		<object hash="1731809B">
+		<object name="ArabicLanguageUISupport">
 			<field hash="B8C1C7F6" type="BinHex"/>
 			<field hash="A44C3169" type="BinHex"/>
 			<field hash="E42F70A5" type="BinHex"/>
 			<field hash="2126E98F" type="BinHex"/>
 		</object>
-		<object hash="9CA4BDD6">
-			<object hash="F83DCDDA">
+		<object name="ElementEffectDbObjs">
+			<object name="UIElementEffectsDbObject">
 				<field hash="FA8EF405" type="BinHex"/>
 			</object>
 		</object>
@@ -162,7 +162,7 @@
 		<object hash="A481C44D">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="FD066D97">
+		<object name="ProcessingUnitLoadValues">
 			<object hash="23A8FD91">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -173,7 +173,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="A8625071">
+		<object name="ProcessingUnitLoadValuesColor">
 			<field hash="5291F967" type="BinHex"/>
 			<field hash="B26882B7" type="BinHex"/>
 			<field hash="A1718DC7" type="BinHex"/>
@@ -250,13 +250,13 @@
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 		</object>
-		<object hash="61A9399F">
+		<object name="BackgroundWidth">
 			<field hash="90CF6735" type="BinHex"/>
 			<field hash="21429238" type="BinHex"/>
 			<field hash="74B311CA" type="BinHex"/>
 			<field name="fDefault" type="BinHex"/>
 		</object>
-		<object hash="3EC1E5FF">
+		<object name="BackgroundHeight">
 			<field hash="90CF6735" type="BinHex"/>
 			<field hash="74B311CA" type="BinHex"/>
 			<field hash="21429238" type="BinHex"/>
@@ -272,7 +272,7 @@
 		<object name="locstridLocalizationId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9A25EB1F">
+		<object name="BackgroundProperties">
 			<field name="fWidth" type="Float"/>
 			<field name="fHeight" type="Float"/>
 		</object>
@@ -336,7 +336,7 @@
 		<object hash="B008934D">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="58AEE74B">
+		<object name="CategoryGroups">
 			<object hash="E8016D88">
 				<field hash="E8016D88" type="BinHex"/>
 			</object>
@@ -365,7 +365,7 @@
 		<object name="locstridHeaderTitleLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9BABBBC2">
+		<object name="DPSList">
 			<object hash="C00BA114">
 				<field hash="6784A868" type="String"/>
 			</object>
@@ -447,16 +447,16 @@
 		<object name="locstridFiringRateStatText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B5803577">
-			<object hash="7FE4F889">
+		<object name="ItemTypeLocalizations">
+			<object name="ItemType">
 				<field hash="6D7625CD" type="String"/>
 				<object name="locstridLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 		</object>
-		<object hash="FDE88856">
-			<object hash="53FCDD25">
+		<object name="ItemCountLocalizations">
+			<object name="ItemCount">
 				<object name="locstridLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -465,7 +465,7 @@
 		<object hash="DAE69C62">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="40508C52">
+		<object name="Localizations">
 			<object name="Localization">
 				<object hash="BC50FA30">
 					<field name="LocalizationId" type="UInt64"/>
@@ -804,8 +804,8 @@
 		<object name="locstridSettingName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="CF928CD3">
-			<object hash="76CF329B">
+		<object name="OnlineOptionsList">
+			<object name="OnlineOptionData">
 				<field hash="1BA6D696" type="String"/>
 				<field hash="58801DA7" type="BinHex"/>
 				<object name="locstridTitleLocId">
@@ -816,8 +816,8 @@
 				</object>
 			</object>
 		</object>
-		<object hash="8E59B017">
-			<object hash="370ED59A">
+		<object name="OptionsList">
+			<object name="OptionId">
 				<field hash="39084267" type="String"/>
 				<field hash="C4A178C4" type="BinHex"/>
 				<field hash="BA2EFF26" type="String"/>
@@ -829,13 +829,13 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="975DEF54">
-			<object hash="18366951">
+		<object name="SettingImages">
+			<object name="SettingsImages">
 				<field hash="A862A81F" type="BinHex"/>
-				<object hash="053B0B8A"/>
+				<object name="CustomTexts"/>
 			</object>
 		</object>
-		<object hash="92CEC073">
+		<object name="SettingDescriptions">
 			<object hash="D847A1D8">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -861,7 +861,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="2300DD6D"/>
+		<object name="SettingThumbnails"/>
 		<object name="OnSlideActions"/>
 		<object hash="80E64DF1">
 			<field name="LocalizationId" type="UInt64"/>
@@ -896,17 +896,17 @@
 		<object hash="53EE9CB1">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="AA9EFCDF">
+		<object name="TabsLocIds">
 			<object hash="BFA73E52">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="AA9EFCDF">
+			<object name="TabsLocIds">
 				<object hash="BFA73E52">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 		</object>
-		<object hash="0152AC2C"/>
+		<object name="TabsImages"/>
 		<object hash="72AEC3A6">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -937,7 +937,7 @@
 		<object hash="F19C56DE">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1EFE913F">
+		<object name="InfoDisplayInformationImage">
 			<field name="texturedbobjectImage" type="BinHex"/>
 		</object>
 		<object hash="8524816A">
@@ -952,7 +952,7 @@
 		<object hash="AAD726A8">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A496FCB4">
+		<object name="InfoDisplayInformation">
 			<field hash="CE7F8381" type="BinHex"/>
 			<object name="locstridTitleLocId">
 				<field name="LocalizationId" type="UInt64"/>
@@ -961,7 +961,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="51050E31">
+		<object name="ActionStatusLocIds">
 			<object name="locstridOffline">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -981,7 +981,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="6E04662C">
+		<object name="Tooltip">
 			<field hash="5AF26B64" type="BinHex"/>
 			<field hash="CE786312" type="BinHex"/>
 			<field hash="3468663A" type="BinHex"/>
@@ -1088,15 +1088,15 @@
 		<object hash="2EF5BB71">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="848B7745">
+		<object name="ListGradientSupport">
 			<field name="sMovieClipName" type="String"/>
 		</object>
-		<object hash="514353A9">
-			<object hash="9239E364">
+		<object name="ContentTileTemplates">
+			<object name="ContentTileTemplate">
 				<field hash="EA4A9855" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="AF2FB1E8">
+		<object name="EmptyContentLayout">
 			<field hash="7B638C8B" type="BinHex"/>
 			<field hash="0A523205" type="BinHex"/>
 			<field hash="72BB66A4" type="BinHex"/>
@@ -1108,11 +1108,11 @@
 			<field hash="0EF9D754" type="BinHex"/>
 			<field hash="4C0BEE49" type="BinHex"/>
 			<field hash="515C30C9" type="BinHex"/>
-			<object hash="73A6C3BE">
+			<object name="ArabicSpecificData">
 				<field hash="79FEE7C2" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="69998BF2">
+		<object name="TextContentLayout">
 			<field hash="7B638C8B" type="BinHex"/>
 			<field hash="0A523205" type="BinHex"/>
 			<field hash="72BB66A4" type="BinHex"/>
@@ -1124,11 +1124,11 @@
 			<field hash="0EF9D754" type="BinHex"/>
 			<field hash="4C0BEE49" type="BinHex"/>
 			<field hash="515C30C9" type="BinHex"/>
-			<object hash="73A6C3BE">
+			<object name="ArabicSpecificData">
 				<field hash="79FEE7C2" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="E2C13F9A">
+		<object name="ImageContentLayout">
 			<field hash="7B638C8B" type="BinHex"/>
 			<field hash="0A523205" type="BinHex"/>
 			<field hash="72BB66A4" type="BinHex"/>
@@ -1140,11 +1140,11 @@
 			<field hash="0EF9D754" type="BinHex"/>
 			<field hash="4C0BEE49" type="BinHex"/>
 			<field hash="515C30C9" type="BinHex"/>
-			<object hash="73A6C3BE">
+			<object name="ArabicSpecificData">
 				<field hash="79FEE7C2" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="41CC588D">
+		<object name="AudioContentLayout">
 			<field hash="7B638C8B" type="BinHex"/>
 			<field hash="0A523205" type="BinHex"/>
 			<field hash="72BB66A4" type="BinHex"/>
@@ -1156,11 +1156,11 @@
 			<field hash="0EF9D754" type="BinHex"/>
 			<field hash="4C0BEE49" type="BinHex"/>
 			<field hash="515C30C9" type="BinHex"/>
-			<object hash="73A6C3BE">
+			<object name="ArabicSpecificData">
 				<field hash="79FEE7C2" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="49FD5639">
+		<object name="VideoContentLayout">
 			<field hash="7B638C8B" type="BinHex"/>
 			<field hash="0A523205" type="BinHex"/>
 			<field hash="72BB66A4" type="BinHex"/>
@@ -1172,11 +1172,11 @@
 			<field hash="0EF9D754" type="BinHex"/>
 			<field hash="4C0BEE49" type="BinHex"/>
 			<field hash="515C30C9" type="BinHex"/>
-			<object hash="73A6C3BE">
+			<object name="ArabicSpecificData">
 				<field hash="79FEE7C2" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="74B600B5">
+		<object name="ObjectContentLayout">
 			<field hash="7B638C8B" type="BinHex"/>
 			<field hash="0A523205" type="BinHex"/>
 			<field hash="72BB66A4" type="BinHex"/>
@@ -1188,11 +1188,11 @@
 			<field hash="0EF9D754" type="BinHex"/>
 			<field hash="4C0BEE49" type="BinHex"/>
 			<field hash="515C30C9" type="BinHex"/>
-			<object hash="73A6C3BE">
+			<object name="ArabicSpecificData">
 				<field hash="79FEE7C2" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="23A8AD41">
+		<object name="ObjectImageContentLayout">
 			<field hash="7B638C8B" type="BinHex"/>
 			<field hash="0A523205" type="BinHex"/>
 			<field hash="72BB66A4" type="BinHex"/>
@@ -1204,11 +1204,11 @@
 			<field hash="0EF9D754" type="BinHex"/>
 			<field hash="4C0BEE49" type="BinHex"/>
 			<field hash="515C30C9" type="BinHex"/>
-			<object hash="73A6C3BE">
+			<object name="ArabicSpecificData">
 				<field hash="79FEE7C2" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="9DA52E9B">
+		<object name="ObjectLargeContentLayout">
 			<field hash="7B638C8B" type="BinHex"/>
 			<field hash="0A523205" type="BinHex"/>
 			<field hash="72BB66A4" type="BinHex"/>
@@ -1220,14 +1220,14 @@
 			<field hash="0EF9D754" type="BinHex"/>
 			<field hash="4C0BEE49" type="BinHex"/>
 			<field hash="515C30C9" type="BinHex"/>
-			<object hash="73A6C3BE">
+			<object name="ArabicSpecificData">
 				<field hash="79FEE7C2" type="BinHex"/>
 			</object>
 		</object>
 		<object hash="7245D3BA">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="3088B68C"/>
+		<object name="ScrambleSymbols"/>
 		<object name="Categories">
 			<object name="Category">
 				<field name="selCategory" type="Enum"/>
@@ -1360,7 +1360,7 @@
 		<object hash="E56CD14C">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1D1DBAB0">
+		<object name="ListMaskingSupport">
 			<field hash="CAA41449" type="BinHex"/>
 			<field hash="47AF92A2" type="BinHex"/>
 			<field name="sMovieClipName" type="String"/>

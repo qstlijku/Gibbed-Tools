@@ -7,71 +7,71 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="7ACEC481" type="BinHex"/>
-	<object hash="CC925CF3">
+	<object name="DetectionRadius">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="0652AEDE">
+	<object name="DetectionFov">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="60020A40">
+	<object name="CloseDetectionRadius">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="7BB83B25">
+	<object name="SprintDetectionRadius">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="412978E9">
+	<object name="GrabWarmupRange">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="CC33C563">
+	<object name="GrabWarmupTime">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="4E1687DD">
+	<object name="GrabRange">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="13B232D9">
+	<object name="GrabCancelRange">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="5B39E347">
+	<object name="GrabStruggleDuration">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="DD78166A">
+	<object name="LethalGrabStruggleDuration">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="D5A76D95">
+	<object name="GrabGlobalCooldown">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="EB79632E">
+	<object name="GrabGlobalCooldownVariation">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="46AE090B">
+	<object name="DisractTime">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="634B8BF0">
+	<object name="IgnoreTargetTimeOnDisract">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="7C49BB1B">
+	<object name="WanderMinWalkTime">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="B044C014">
+	<object name="WanderMaxWalkTime">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="09BA8872">
+	<object name="ScreamerStimRadius">
 		<field name="rulesmithidRule" type="Boolean"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>

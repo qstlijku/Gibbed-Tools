@@ -12,8 +12,8 @@
 	<field name="uimenupagetypeidMenuPage" type="BinHex"/>
 	<field name="uimenutileGridContainer" type="BinHex"/>
 	<field name="bShowLoadingFeedback" type="Boolean"/>
-	<object hash="47EA91B7">
-		<object hash="8E127609">
+	<object name="GridContainers">
+		<object name="Grid">
 			<field name="uimenutileTile" type="BinHex"/>
 		</object>
 	</object>
@@ -413,7 +413,7 @@
 		<field hash="FEDFBF28" type="BinHex"/>
 		<field hash="63B1979D" type="BinHex"/>
 		<field name="scenetotexturestudioobjectDetailsViewStudioObject" type="BinHex"/>
-		<field hash="20C92D37" type="BinHex"/>
+		<field name="EnabledHeaderCollapseExpansion" type="BinHex"/>
 		<field hash="5E721ED6" type="BinHex"/>
 		<field hash="716211C7" type="BinHex"/>
 		<field hash="32058DA8" type="BinHex"/>
@@ -459,7 +459,7 @@
 		<field hash="D6FDB915" type="BinHex"/>
 		<field hash="AA3E8CAD" type="BinHex"/>
 		<field hash="195ECAC3" type="BinHex"/>
-		<field hash="85549E73" type="BinHex"/>
+		<field name="SessionInvitePopupDuration" type="BinHex"/>
 		<field hash="4E0B85EA" type="BinHex"/>
 		<field hash="F155300D" type="BinHex"/>
 		<field hash="9E6DB53E" type="BinHex"/>
@@ -654,7 +654,7 @@
 		<object hash="D208CD56">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F7AE03A9">
+		<object name="GamePlayTabSettingsTiles">
 			<field hash="9FB2F290" type="BinHex"/>
 			<field hash="FA386724" type="BinHex"/>
 			<field hash="5530EC03" type="BinHex"/>
@@ -667,7 +667,7 @@
 			<field hash="C37E1F45" type="BinHex"/>
 			<field hash="13E526EE" type="BinHex"/>
 		</object>
-		<object hash="5EB99693">
+		<object name="ThirdPartyTabSettingsTiles">
 			<field hash="58D51D28" type="BinHex"/>
 			<field hash="A214356B" type="BinHex"/>
 			<field hash="045C6B1A" type="BinHex"/>
@@ -681,7 +681,7 @@
 			<field hash="BA46EC92" type="BinHex"/>
 			<field hash="1E6309BC" type="BinHex"/>
 		</object>
-		<object hash="C8D91093">
+		<object name="EngineLanguageLocalizationImagesLinks">
 			<field hash="2E20F9E6" type="BinHex"/>
 			<field hash="A1B93E35" type="BinHex"/>
 			<field hash="D987FCE7" type="BinHex"/>
@@ -734,8 +734,8 @@
 		<object hash="40548A34">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8510DFA7">
-			<object hash="CD504759">
+		<object name="KeyLocationClasses">
+			<object name="Classes">
 				<field name="texturedbobjectIconTexture" type="BinHex"/>
 				<object hash="D55C1629">
 					<field name="text_UITagCategorySelectionClassID" type="String"/>
@@ -847,7 +847,7 @@
 		<object hash="03AFA3B4">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F37E4219">
+		<object name="LockedContentLocalization">
 			<object hash="0A36C1FF">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -883,7 +883,7 @@
 			<field hash="655196D5" type="BinHex"/>
 			<field hash="491212F9" type="BinHex"/>
 		</object>
-		<object hash="A421998D">
+		<object name="BoroughLiberation">
 			<field hash="685027E4" type="BinHex"/>
 			<field hash="8F31B734" type="BinHex"/>
 			<field hash="4CF19EAB" type="BinHex"/>
@@ -898,7 +898,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="1DDB5314">
+		<object name="BoroughOnboarding">
 			<field hash="715B0BB7" type="BinHex"/>
 			<field hash="0BE96070" type="BinHex"/>
 			<field hash="D89EF2C3" type="BinHex"/>
@@ -914,7 +914,7 @@
 			<field name="fBorderSizeX" type="BinHex"/>
 			<field name="fBorderSizeY" type="BinHex"/>
 		</object>
-		<object hash="661B8991">
+		<object name="PCSpecific">
 			<field hash="ECDB5101" type="BinHex"/>
 			<field hash="29FB29D4" type="BinHex"/>
 			<field hash="1DF60077" type="BinHex"/>
@@ -1100,11 +1100,11 @@
 		<object hash="25478EE5">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="45CBD759">
+		<object name="BackgroundTileData">
 			<field hash="714ED6EC" type="BinHex"/>
 			<field hash="F5A4E666" type="BinHex"/>
 		</object>
-		<object hash="C5B0D490">
+		<object name="MissionTileData">
 			<field hash="714ED6EC" type="BinHex"/>
 			<field hash="F5A4E666" type="BinHex"/>
 		</object>
@@ -1117,11 +1117,11 @@
 		<object hash="323570FF">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B588201E">
+		<object name="IsGameStartComplete">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="8C4ACF4D">
+		<object name="ShouldDisplayEquipPrompt">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -1131,7 +1131,7 @@
 		<object hash="3179F280">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1D12DC2A">
+		<object name="CategoryLabels">
 			<object hash="5FC52D2F">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -1145,7 +1145,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="08E64A06">
+		<object name="IsDeepProfileLockedByExoticMission">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -1203,8 +1203,8 @@
 		<object hash="5BCD6947">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="29B8A78E">
-			<object hash="9E6AE165">
+		<object name="Tooltips">
+			<object name="RetireTile">
 				<object hash="EA26ACED">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -1227,7 +1227,7 @@
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="553A61C8">
+			<object name="LoadoutTile">
 				<object hash="E4E7F4C2">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -1238,7 +1238,7 @@
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="53713CFC">
+			<object name="AbilityTile">
 				<object hash="A21F79B1">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -1253,8 +1253,8 @@
 				</object>
 			</object>
 		</object>
-		<object hash="89EA9068">
-			<object hash="36D1F8CC">
+		<object name="ProfileActionTiles">
+			<object name="ProfileActionTile">
 				<field hash="35902A4F" type="BinHex"/>
 			</object>
 		</object>
@@ -1305,14 +1305,14 @@
 		<object hash="D0F2233B">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="BED8E87A">
+		<object name="IsCollectiblesLeftForDiscover">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="9A8D4FA8">
-			<object hash="3D966ED4">
+		<object name="Layouts">
+			<object name="Layout">
 				<field hash="2FE606F7" type="String"/>
-				<object hash="BF4CE9B0">
+				<object name="CustomCategoryTiles">
 					<object name="Category">
 						<field hash="3CA7E5C9" type="String"/>
 						<field hash="3B38D788" type="BinHex"/>
@@ -1320,8 +1320,8 @@
 				</object>
 			</object>
 		</object>
-		<object hash="CB5A0929">
-			<object hash="D2E021CE">
+		<object name="OpSections">
+			<object name="Sections">
 				<field hash="432D25AD" type="BinHex"/>
 				<field hash="2E71AB19" type="BinHex"/>
 				<field hash="2D9E8E50" type="BinHex"/>
@@ -1334,13 +1334,13 @@
 				</object>
 			</object>
 		</object>
-		<object hash="19A7572A">
+		<object name="OpTypeInfos">
 			<field hash="F14E1C8D" type="BinHex"/>
 			<field name="texturedbobjectTexture" type="BinHex"/>
 			<object name="locstridName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="19A7572A">
+			<object name="OpTypeInfos">
 				<field hash="F14E1C8D" type="BinHex"/>
 				<field name="texturedbobjectTexture" type="BinHex"/>
 				<object name="locstridName">
@@ -1348,15 +1348,15 @@
 				</object>
 			</object>
 		</object>
-		<object hash="D0D589E9">
-			<object hash="6CEF83A0">
+		<object name="OpLinesOrder">
+			<object name="OpLines">
 				<field hash="0CB6506C" type="BinHex"/>
 			</object>
 		</object>
 		<object hash="F750CEDA">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4259C963">
+		<object name="RewardTypes">
 			<object name="Rewards">
 				<field name="selRewardType" type="BinHex"/>
 				<field name="texturedbobjectIconTexture" type="BinHex"/>
@@ -1414,7 +1414,7 @@
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="BinHex"/>
 		</object>
-		<object hash="57E03EBF">
+		<object name="ShowOnMapButton">
 			<field hash="21301645" type="BinHex"/>
 			<field hash="EBD06E25" type="BinHex"/>
 			<field hash="13283096" type="BinHex"/>
@@ -1422,7 +1422,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="48497135">
+		<object name="SortButton">
 			<object hash="8D17AF52">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -1452,7 +1452,7 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="77EDA1C8">
-			<object hash="5D2A0586">
+			<object name="Option">
 				<field hash="1BA6D696" type="String"/>
 				<field hash="58801DA7" type="BinHex"/>
 				<field hash="39084267" type="String"/>
@@ -1565,8 +1565,8 @@
 		<object hash="2FF9FC3B">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8E59B017">
-			<object hash="5D2A0586">
+		<object name="OptionsList">
+			<object name="Option">
 				<field hash="1BA6D696" type="String"/>
 				<field hash="58801DA7" type="BinHex"/>
 				<field hash="BA2EFF26" type="String"/>
@@ -1583,50 +1583,50 @@
 				</object>
 			</object>
 		</object>
-		<object hash="A3B168F9">
-			<object hash="FCF230B8">
+		<object name="Subpages">
+			<object name="HomeSinglePlayerSubpageDescriptor">
 				<field hash="760523DD" type="BinHex"/>
 				<object hash="DD02FA1B">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="FF2485B4">
+			<object name="HomePublicSandboxSubpageDescriptor">
 				<field hash="760523DD" type="BinHex"/>
 				<object hash="DD02FA1B">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="08ACDB4F">
+			<object name="HomeRaidLeaderSubpageDescriptor">
 				<field hash="760523DD" type="BinHex"/>
 				<object hash="DD02FA1B">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="2515F0F1">
+			<object name="HomeRaidSubpageDescriptor">
 				<field hash="760523DD" type="BinHex"/>
 				<object hash="DD02FA1B">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="7F489186">
+			<object name="OptionsSessionOptionsSubpageDescriptor">
 				<field hash="760523DD" type="BinHex"/>
 				<object hash="DD02FA1B">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="142369FD">
+			<object name="HomeDigitalTripSubpageDescriptor">
 				<field hash="760523DD" type="BinHex"/>
 				<object hash="DD02FA1B">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="5391768F">
+			<object name="HomeDigitalTripLeaderSubpageDescriptor">
 				<field hash="760523DD" type="BinHex"/>
 				<object hash="DD02FA1B">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
-			<object hash="F20F1F30">
+			<object name="OptionsDigitalTripSubpageDescriptor">
 				<field hash="760523DD" type="BinHex"/>
 				<object hash="DD02FA1B">
 					<field name="LocalizationId" type="UInt64"/>
@@ -1684,9 +1684,9 @@
 		<object hash="14C4D4B5">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="47CE86EE">
+		<object name="ListTiles">
 			<field hash="3E0EC448" type="BinHex"/>
-			<object hash="47CE86EE">
+			<object name="ListTiles">
 				<field hash="3E0EC448" type="BinHex"/>
 			</object>
 		</object>
@@ -1702,19 +1702,19 @@
 		<object hash="FC029BAD">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="29D84EFD">
+		<object name="RaidPopupOptions">
 			<field name="uimenutileControlReminderTileId" type="BinHex"/>
-			<object hash="600F9F98">
+			<object name="UnnavigableTiles">
 				<object name="Tile">
 					<field name="uimenutileTile" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="8D269D36">
+			<object name="NavigableTiles">
 				<object name="Tile">
 					<field name="uimenutileTile" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="62E06392">
+			<object name="TilesToHidePCOnly">
 				<object name="Tile">
 					<field name="uimenutileTile" type="BinHex"/>
 				</object>
@@ -1738,37 +1738,37 @@
 		<object hash="B077642B">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="62D399CD">
+		<object name="TextContentInfo">
 			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="0D0DC282">
+		<object name="ImageContentInfo">
 			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="618784B9">
+		<object name="AudioContentInfo">
 			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="E174CD02">
+		<object name="VideoContentInfo">
 			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="0032855C">
+		<object name="CinemaContentInfo">
 			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="2BD0358F">
+		<object name="ObjectContentInfo">
 			<field name="texturedbobjectIconSource" type="BinHex"/>
 			<object hash="3DE9C467">
 				<field name="LocalizationId" type="UInt64"/>
@@ -1834,7 +1834,7 @@
 		<object hash="46087886">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="ECC4A302">
+		<object name="InventoryInfo">
 			<field hash="71CB79AC" type="BinHex"/>
 			<field hash="E7F0933F" type="BinHex"/>
 			<object hash="0FBD4185">
@@ -1844,7 +1844,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="F80A6986">
+		<object name="SkinsInfo">
 			<field hash="71CB79AC" type="BinHex"/>
 			<field hash="E7F0933F" type="BinHex"/>
 			<object hash="0FBD4185">
@@ -1893,20 +1893,20 @@
 		<object name="locstridDurabilityLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="7184B4A7">
+		<object name="FloorObject">
 			<field name="text_archArchetype" type="String"/>
 			<field name="archArchetype" type="BinHex"/>
 			<field hash="F54802C3" type="BinHex"/>
 			<field name="angvecRotation" type="BinHex"/>
 		</object>
-		<object hash="6321AB1C">
+		<object name="BackgroundObject">
 			<field name="archArchetype" type="BinHex"/>
 			<field hash="F54802C3" type="BinHex"/>
 			<field name="angvecRotation" type="BinHex"/>
 		</object>
-		<object hash="E12E930D">
+		<object name="VehicleCategories">
 			<field hash="87EB77C7" type="BinHex"/>
-			<object hash="E12E930D">
+			<object name="VehicleCategories">
 				<field hash="87EB77C7" type="BinHex"/>
 			</object>
 		</object>
@@ -1964,8 +1964,8 @@
 		<object hash="4F8DFAEE">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="395D3B7A">
-			<object hash="51E2C8B6">
+		<object name="ArenaNames">
+			<object name="ArenaName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>

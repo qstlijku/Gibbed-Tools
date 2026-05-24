@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="6E167DD5">
-		<field hash="EC36C366" type="String"/>
-		<field hash="0668A342" type="BinHex"/>
+	<object name="Template">
+		<field name="text_DefaultTargetRoleID" type="String"/>
+		<field name="DefaultTargetRoleID" type="BinHex"/>
 		<object name="Actors">
 			<object name="Actor">
 				<field name="text_RoleID" type="String"/>
@@ -60,7 +60,7 @@
 			</object>
 		</object>
 		<object name="StaticRoles">
-			<object hash="F26BFC40">
+			<object name="OptionalReplace">
 				<object name="Roles">
 					<object hash="307E4CED">
 					<field hash="0C97F65C" type="String"/>
@@ -68,7 +68,7 @@
 				</object>
 				</object>
 			</object>
-			<object hash="D81584DC">
+			<object name="MandatoryAdd">
 				<object name="Roles">
 					<object hash="307E4CED">
 					<field hash="0C97F65C" type="String"/>
@@ -76,7 +76,7 @@
 				</object>
 				</object>
 			</object>
-			<object hash="1A215861">
+			<object name="OptionalAdd">
 				<object name="Roles">
 					<object hash="307E4CED">
 					<field hash="0C97F65C" type="String"/>
@@ -86,17 +86,17 @@
 			</object>
 		</object>
 	</object>
-	<object hash="7F5ADDDB">
-		<object hash="101016AE">
+	<object name="NarrativeVariations">
+		<object name="NarrativeVariationsList">
 			<object name="Variation">
-				<field hash="25880B16" type="String"/>
-				<field hash="D7FA4DD8" type="BinHex"/>
+				<field name="text_FriendlyName" type="String"/>
+				<field name="FriendlyName" type="BinHex"/>
 				<field hash="0B4664A1" type="BinHex"/>
 			</object>
 		</object>
 	</object>
-	<object hash="CB6BD97F">
-		<object hash="FA60AA07">
+	<object name="AnchorSettings">
+		<object name="Anchors">
 			<object name="Anchor">
 				<field hash="4D4C05E3" type="String"/>
 				<field hash="C7E41869" type="BinHex"/>
@@ -106,7 +106,7 @@
 					<field hash="5637A976" type="String"/>
 					<field hash="E0752564" type="BinHex"/>
 				</object>
-				<object hash="B6D2301A">
+				<object name="UseInNarrativeVariations">
 					<object hash="DEFD2065">
 						<field hash="29A450C3" type="String"/>
 						<field hash="DEFD2065" type="BinHex"/>
@@ -124,8 +124,8 @@
 					<field hash="307E4CED" type="BinHex"/>
 				</object>
 				<object name="Role">
-					<field hash="9F94591C" type="String"/>
-					<field hash="8FD2D94F" type="BinHex"/>
+					<field name="text_SceneRoleID" type="String"/>
+					<field name="SceneRoleID" type="BinHex"/>
 					<field hash="F73E7168" type="String"/>
 					<field hash="FAD9B34B" type="BinHex"/>
 				</object>

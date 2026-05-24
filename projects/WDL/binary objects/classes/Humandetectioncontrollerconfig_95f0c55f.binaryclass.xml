@@ -28,8 +28,8 @@
 		<field name="ShootingTicketAvailableThreat" type="BinHex"/>
 		<field name="AnimalThreat" type="BinHex"/>
 		<field name="PlayerControlledRCThreat" type="BinHex"/>
-		<field hash="3F2EE32F" type="BinHex"/>
-		<field hash="6D9CFF37" type="BinHex"/>
+		<field name="DeliveryPriorityTargetThreat" type="BinHex"/>
+		<field name="OpenWorldSeeArmedDistance" type="BinHex"/>
 		<object name="ChaseTargetThreat">
 			<field name="ForPoliceSniperInLOS" type="BinHex"/>
 			<field name="ForPoliceSniperOutOfLOS" type="BinHex"/>

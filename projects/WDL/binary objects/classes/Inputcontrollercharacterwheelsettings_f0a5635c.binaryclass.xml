@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="54DF9CBB">
+	<object name="GadgetHUDSounds">
 		<field hash="C378B64B" type="BinHex"/>
 		<field hash="53915A4B" type="BinHex"/>
 	</object>
-	<object hash="B5ADCAFB">
+	<object name="CharacterWheelSounds">
 		<field hash="FB68B150" type="BinHex"/>
 		<field hash="B96E8589" type="BinHex"/>
 		<field hash="8C43D68A" type="BinHex"/>

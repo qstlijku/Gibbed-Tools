@@ -165,7 +165,7 @@
 		<field name="fVehiclePartBulletDamageChanceScaleMin" type="Float"/>
 		<field name="fVehiclePartBulletDamageChanceScaleMax" type="Float"/>
 	</object>
-	<object hash="FD681DDB">
+	<object name="SecondaryMotionParameters">
 		<field hash="7B6B3700" type="BinHex"/>
 		<field hash="71CFBDD5" type="BinHex"/>
 	</object>

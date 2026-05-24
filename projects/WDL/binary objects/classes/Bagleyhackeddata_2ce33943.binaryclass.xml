@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="5858FB62">
+	<object name="HackedStates">
 		<field hash="2669ECB6" type="BinHex"/>
 		<field hash="EE53D842" type="BinHex"/>
 		<field hash="12B7A2E4" type="BinHex"/>
@@ -32,7 +32,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="5858FB62">
+		<object name="HackedStates">
 			<field hash="2669ECB6" type="BinHex"/>
 			<field hash="EE53D842" type="BinHex"/>
 			<field hash="12B7A2E4" type="BinHex"/>

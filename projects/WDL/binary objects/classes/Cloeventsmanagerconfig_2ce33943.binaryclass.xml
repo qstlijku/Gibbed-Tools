@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="9AFDAF92">
+	<object name="AddedToMinimapSFX">
 		<field name="text_sndSoundId" type="String"/>
 		<field name="sndSoundId" type="BinHex"/>
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
-	<object hash="D5FCA943">
+	<object name="PlayerProximityCheckConfigForMemoryAssignment">
 		<field hash="4E0644CB" type="BinHex"/>
 		<field name="fRadius" type="Float"/>
 		<field hash="782861D2" type="BinHex"/>

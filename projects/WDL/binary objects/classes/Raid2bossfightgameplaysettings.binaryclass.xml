@@ -168,14 +168,14 @@
 			<field hash="7F85FD51" type="String"/>
 			<field hash="D3BA1D52" type="BinHex"/>
 			<field hash="690A1AA0" type="BinHex"/>
-			<object hash="D41D3B26">
-				<object hash="A5F4B35B">
+			<object name="LinksBattery">
+				<object name="LinkBatteryData">
 					<field hash="F005A4F6" type="String"/>
 					<field hash="8C2B3907" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="22807B8C">
-				<object hash="6DC30E26">
+			<object name="LinksHologram">
+				<object name="LinkHologramData">
 					<field hash="A477B1C7" type="String"/>
 					<field hash="6EB15DD0" type="BinHex"/>
 				</object>

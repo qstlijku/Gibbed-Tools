@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="ECCC4B5F">
+	<object name="AreNonGameFinaleOpsLocked">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="E1B92E3B">
+	<object name="GameFinaleOpsList">
 		<object name="opslistOpConfigDbObject">
 			<field name="opslistOpConfigDbObject" type="BinHex"/>
 		</object>

@@ -13,7 +13,7 @@
 	<field hash="EDB2B954" type="BinHex"/>
 	<field name="fullscreentutorialFullscreenTutorial" type="BinHex"/>
 	<field hash="A791AA8B" type="BinHex"/>
-	<object hash="99671462">
+	<object name="SoundHooks">
 		<object hash="BE0966A9">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="BinHex"/>
@@ -31,35 +31,35 @@
 			<field name="SoundGuid" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="9D71A22D">
-		<object hash="A50F7E7F">
+	<object name="ZombieRewardItemTags">
+		<object name="ZombieRewardItemTagsEntry">
 			<field hash="46C93851" type="BinHex"/>
-			<object hash="0759BC73">
+			<object name="RewardTags">
 				<object name="Tag">
 					<field hash="0AB3E082" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="66396B5A">
+	<object name="WeaponRewardInitialBulletRule">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="1A36CE52">
-		<object hash="9984EEE0">
+	<object name="GameStartRewardSettings">
+		<object name="GameStartRewardTierTags">
 			<object name="Tag">
 				<field hash="0AB3E082" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="5789C9E2">
+		<object name="GameStartRewardSelectionTotalTime">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="558A45C6">
+	<object name="ZombieOpRewardSettings">
 		<field hash="04E0EA67" type="BinHex"/>
 		<field hash="E1E72825" type="BinHex"/>
-		<object hash="BF3A63FB">
+		<object name="ActivityFailRewardRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="text_rulesmithconstValue" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -68,7 +68,7 @@
 	<object hash="746B0C4B">
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
-	<object hash="E7179833">
+	<object name="CallToActionPulseParameters">
 		<field name="fIntensity" type="BinHex"/>
 		<field name="fSpeed" type="BinHex"/>
 		<field hash="381447E5" type="BinHex"/>

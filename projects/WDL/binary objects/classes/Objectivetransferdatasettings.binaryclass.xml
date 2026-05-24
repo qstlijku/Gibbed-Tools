@@ -57,7 +57,7 @@
 		<field name="fBoostCoefByPlayer" type="BinHex"/>
 		<field name="bSendAttractStimOnDownloadStart" type="BinHex"/>
 		<field name="fAttractStimRadius" type="Float"/>
-		<object hash="F9528B4E"/>
+		<object name="MissingPlayerLocationIds"/>
 		<object name="locstridPauseWarningLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>

@@ -69,7 +69,7 @@
 		<field name="selAlignmentReference" type="Enum"/>
 		<field name="fAlignmentLag" type="Float"/>
 	</object>
-	<object hash="D246C2B2">
+	<object name="FollowOscillation">
 		<field hash="1630123D" type="BinHex"/>
 		<object hash="FF25481C">
 			<field name="hidNumKnots" type="BinHex"/>

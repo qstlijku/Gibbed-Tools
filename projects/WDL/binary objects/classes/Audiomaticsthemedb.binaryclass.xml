@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="iWeight" type="BinHex"/>
-	<object hash="81274CF6">
-		<object hash="96304B81">
+	<object name="AudioMaticsSounds">
+		<object name="AudioMaticsSound">
 			<field name="text_sndSoundId" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>

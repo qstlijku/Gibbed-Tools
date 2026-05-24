@@ -182,7 +182,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="DB7B75D5">
+		<object name="AlertNearbyGuards_HackEscalation_DeactivatedRC">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -482,7 +482,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="992ABA8B">
+		<object name="BeeSwarmAttack">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -507,7 +507,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="112D3294">
+		<object name="BeeSwarmAttackVictim">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -2928,7 +2928,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="2F9E2A77">
+		<object name="FollowRejoin">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3869,7 +3869,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="8465F47B">
+		<object name="HostileGadget">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -3994,7 +3994,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="909045EB">
+		<object name="ImpressiveVehicle">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6118,7 +6118,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="F86FD10D">
+		<object name="RCDeactivationTakedownActivation">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -6143,7 +6143,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="431BCDA5">
+		<object name="RCDeactivationTakedownPersistent">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7070,7 +7070,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="AA523E05">
+		<object name="SeeBeeSwarmAttack">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>
@@ -7095,7 +7095,7 @@
 				<field name="sPanicBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="7F174590">
+		<object name="SeeBeeSwarmDefend">
 			<field name="iGoodReputationReactionProba" type="Int32"/>
 			<field name="bUseEmitterAsInstigator" type="Boolean"/>
 			<field name="bAlwaysHandle" type="Boolean"/>

@@ -97,28 +97,28 @@
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="2CBE6240">
-		<object hash="BBA122C9">
+	<object name="PlayerAccess">
+		<object name="DetectionTimeMultiplierAware">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="29CFB97E">
+		<object name="DetectionTimeMultiplierUnaware">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="068F6A7E">
+		<object name="DetectionTimeMultiplierSuspiciousAction">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="6DD2FFEF">
+		<object name="DetectionDistanceAware">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="12734240">
+		<object name="DetectionDistanceUnaware">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="CB15AB98">
+		<object name="DetectionDistanceSuspiciousAction">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>

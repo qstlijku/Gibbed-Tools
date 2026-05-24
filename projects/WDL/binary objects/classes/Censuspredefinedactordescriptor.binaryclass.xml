@@ -115,7 +115,7 @@
 			<field name="censusactormemorydefinitionMemory" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="F5AD024F">
+	<object name="ExtendedProfilerEntries">
 		<object name="Entry">
 			<object name="locstridLocId">
 				<field name="LocalizationId" type="UInt64"/>

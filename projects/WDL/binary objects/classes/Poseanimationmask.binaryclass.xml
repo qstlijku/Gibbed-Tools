@@ -19,7 +19,7 @@
 			<field name="Slider" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="E5DC2400">
+	<object name="AdditiveSliders">
 		<object name="Slider">
 			<field name="text_Slider" type="String"/>
 			<field name="Slider" type="BinHex"/>

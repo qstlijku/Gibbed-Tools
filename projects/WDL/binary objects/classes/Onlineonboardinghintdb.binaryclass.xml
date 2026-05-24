@@ -10,7 +10,7 @@
 	<field name="itemsTutorialItem" type="BinHex"/>
 	<field hash="6301134D" type="BinHex"/>
 	<field name="selType" type="Enum"/>
-	<object hash="66B4F2F3">
+	<object name="TimerTriggerRule">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>

@@ -105,8 +105,8 @@
 			<field name="uiNumPerkSlots" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="4B0AB934">
-		<object hash="4B0AB934">
+	<object name="ForcedProgressionElements">
+		<object name="ForcedProgressionElements">
 			<field name="text_progressionelementProgressionElement" type="String"/>
 			<field name="progressionelementProgressionElement" type="BinHex"/>
 			<object name="Filter">

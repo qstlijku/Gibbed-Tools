@@ -12,7 +12,7 @@
 	</object>
 	<object name="SinglePlayer">
 		<object name="CommonData">
-			<field hash="485A7ED0" type="BinHex"/>
+			<field name="CommonDataRequired" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
 				<object name="videosVideo">
@@ -36,7 +36,7 @@
 	</object>
 	<object name="OpSwap">
 		<object name="CommonData">
-			<field hash="485A7ED0" type="BinHex"/>
+			<field name="CommonDataRequired" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
 				<object name="videosVideo">
@@ -58,7 +58,7 @@
 		</object>
 		<object name="ContextualData">
 			<object name="Entry">
-				<field hash="485A7ED0" type="BinHex"/>
+				<field name="CommonDataRequired" type="BinHex"/>
 				<field name="ContextualID" type="BinHex"/>
 				<field hash="6916815A" type="BinHex"/>
 				<object name="Backgrounds"/>
@@ -73,7 +73,7 @@
 	</object>
 	<object name="FastTravel">
 		<object name="CommonData">
-			<field hash="485A7ED0" type="BinHex"/>
+			<field name="CommonDataRequired" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
 				<object name="videosVideo">
@@ -97,7 +97,7 @@
 	</object>
 	<object name="MultiSandbox">
 		<object name="CommonData">
-			<field hash="485A7ED0" type="BinHex"/>
+			<field name="CommonDataRequired" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
 				<object name="videosVideo">
@@ -121,14 +121,14 @@
 	</object>
 	<object name="MultiInstanceMode">
 		<object name="CommonData">
-			<field hash="485A7ED0" type="BinHex"/>
+			<field name="CommonDataRequired" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos"/>
 			<object name="Tips"/>
 		</object>
 		<object name="ContextualData">
 			<object name="Entry">
-				<field hash="485A7ED0" type="BinHex"/>
+				<field name="CommonDataRequired" type="BinHex"/>
 				<field name="ContextualID" type="String"/>
 				<field hash="6916815A" type="BinHex"/>
 				<object name="Backgrounds"/>
@@ -154,7 +154,7 @@
 	</object>
 	<object name="MultiRaidBrief">
 		<object name="CommonData">
-			<field hash="485A7ED0" type="BinHex"/>
+			<field name="CommonDataRequired" type="BinHex"/>
 			<object name="Backgrounds"/>
 			<object name="Videos">
 				<object name="videosVideo">
@@ -176,7 +176,7 @@
 		</object>
 		<object name="ContextualData">
 			<object name="Entry">
-				<field hash="485A7ED0" type="BinHex"/>
+				<field name="CommonDataRequired" type="BinHex"/>
 				<field name="ContextualID" type="String"/>
 				<field hash="6916815A" type="BinHex"/>
 				<object name="Backgrounds"/>

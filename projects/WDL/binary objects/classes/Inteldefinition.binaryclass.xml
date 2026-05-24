@@ -34,7 +34,7 @@
 	<object name="locstridDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="7B6786F7">
+	<object name="AttendanceDefinitionsForFullSchedule">
 		<object name="censusattendancedefinitionAttendance">
 			<field name="censusattendancedefinitionAttendance" type="BinHex"/>
 		</object>

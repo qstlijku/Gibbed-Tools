@@ -38,12 +38,12 @@
 		<field hash="EFBAD9C1" type="BinHex"/>
 		<field hash="57214160" type="String"/>
 		<field hash="4767C133" type="BinHex"/>
-		<field hash="11580684" type="String"/>
-		<field hash="6D769B75" type="BinHex"/>
+		<field name="text_PlayerVFXBone" type="String"/>
+		<field name="PlayerVFXBone" type="BinHex"/>
 		<field hash="7EED4111" type="String"/>
 		<field hash="E217488B" type="BinHex"/>
-		<field hash="2F6FA0A0" type="String"/>
-		<field hash="DD1DE66E" type="BinHex"/>
+		<field name="text_EnemyVFXBone" type="String"/>
+		<field name="EnemyVFXBone" type="BinHex"/>
 		<field hash="ED5458BD" type="BinHex"/>
 		<field hash="0F938F45" type="BinHex"/>
 		<field name="fConnectionDuration" type="Float"/>
@@ -67,8 +67,8 @@
 		<field hash="0FA98877" type="BinHex"/>
 		<field hash="C0F8D72F" type="String"/>
 		<field hash="43E19404" type="BinHex"/>
-		<field hash="1BDBD3FE" type="String"/>
-		<field hash="0B9D53AD" type="BinHex"/>
+		<field name="text_VFXBoneName" type="String"/>
+		<field name="VFXBoneName" type="BinHex"/>
 		<field hash="CC075402" type="BinHex"/>
 		<field name="fDrunkLevel" type="BinHex"/>
 		<field name="iNumDrinksIncrement" type="BinHex"/>
@@ -122,15 +122,15 @@
 			<field name="bPlayEmoteOnUse" type="BinHex"/>
 			<field name="emoteEmote" type="BinHex"/>
 		</object>
-		<object hash="F189D7E8">
+		<object name="UsageRules">
 			<field hash="17529DB5" type="BinHex"/>
 			<field hash="1B70525B" type="BinHex"/>
 			<field hash="84F82F47" type="BinHex"/>
 			<field hash="F2901FC3" type="BinHex"/>
 			<field hash="7E83788A" type="BinHex"/>
 		</object>
-		<object hash="618F5209">
-			<object hash="EBC7AA8B">
+		<object name="Multipliers">
+			<object name="Multiplier">
 				<field hash="662E0ABF" type="BinHex"/>
 				<field name="fMultiplier" type="Float"/>
 				<field hash="4C26C009" type="BinHex"/>
@@ -138,8 +138,8 @@
 				<field hash="7E22C3EC" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="B28E240F">
-			<object hash="3C4557EC">
+		<object name="ActionPayouts">
+			<object name="ActionPayout">
 				<field name="text_progressionplayeractionAction" type="String"/>
 				<field name="progressionplayeractionAction" type="BinHex"/>
 				<field hash="08BFA198" type="BinHex"/>
@@ -157,24 +157,24 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="365F34FC">
+		<object name="RulesmithRuleTriggerSiphonCrypto">
 			<field name="rulesmithidRuleId" type="BinHex"/>
 		</object>
-		<object hash="A948B88B">
+		<object name="ReductionPercent">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="61366DE0">
+		<object name="AbilityList">
 			<object name="Ability">
 				<field hash="8EAEE8BA" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="1500A355">
-			<field hash="ACADD370" type="String"/>
-			<field hash="BCEB5323" type="BinHex"/>
-			<field hash="63D31201" type="String"/>
-			<field hash="E0CA512A" type="BinHex"/>
-			<object hash="5EA2C901">
+		<object name="FistFX">
+			<field name="text_FistVFXBone" type="String"/>
+			<field name="FistVFXBone" type="BinHex"/>
+			<field name="text_DirectionalBone" type="String"/>
+			<field name="DirectionalBone" type="BinHex"/>
+			<object name="RampUp">
 				<field hash="CF050DDE" type="String"/>
 				<field hash="56A06384" type="BinHex"/>
 				<field hash="C81BAE53" type="String"/>
@@ -184,7 +184,7 @@
 				<field hash="B0FFB57B" type="BinHex"/>
 				<field hash="94CCDB59" type="BinHex"/>
 			</object>
-			<object hash="629F60A1">
+			<object name="Hit">
 				<field hash="BCD5D5F9" type="String"/>
 				<field hash="761339EE" type="BinHex"/>
 				<field hash="59286502" type="String"/>
@@ -192,14 +192,14 @@
 				<field hash="2B839BE9" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="13890902">
+		<object name="ImplosionFX">
 			<field hash="103D1A52" type="String"/>
 			<field hash="2CD4A0E3" type="BinHex"/>
 			<field hash="F85A34E0" type="String"/>
 			<field hash="61FF5ABA" type="BinHex"/>
 			<field hash="331C7EE6" type="BinHex"/>
 		</object>
-		<object hash="6D4A1B35">
+		<object name="ShockwaveFX">
 			<field name="text_psShockwaveParticles" type="String"/>
 			<field name="psShockwaveParticles" type="BinHex"/>
 			<field name="text_sndShockwaveSound" type="String"/>
@@ -226,7 +226,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="76EDE49A">
+		<object name="ShockwaveDisorientRadius">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -246,7 +246,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="B18DD72C">
+		<object name="PropagationTime">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -258,19 +258,19 @@
 			<field name="scriptedhackeffectdbHackEffect" type="BinHex"/>
 			<field name="fOverrideProbability" type="BinHex"/>
 		</object>
-		<object hash="0CA0FB2D">
+		<object name="HackEffectToughness">
 			<field name="scriptedhackeffectdbHackEffect" type="BinHex"/>
 			<field name="fOverrideProbability" type="BinHex"/>
 		</object>
-		<object hash="9F41D9B7">
+		<object name="HackEffectMultiplayer">
 			<field name="scriptedhackeffectdbHackEffect" type="BinHex"/>
 			<field name="fOverrideProbability" type="BinHex"/>
 		</object>
-		<object hash="41F10355">
+		<object name="MaxTargets">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="A3F04350">
+		<object name="HasToughnessUpgrade">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -318,13 +318,13 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="0803734B">
+		<object name="SpawnFollowersHumanConfigs">
 			<field name="humanconfigHumanConfig" type="BinHex"/>
-			<object hash="0803734B">
+			<object name="SpawnFollowersHumanConfigs">
 				<field name="humanconfigHumanConfig" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="DAB8E605">
+		<object name="MaskHologram">
 			<field hash="316298A0" type="String"/>
 			<field hash="CCCBA203" type="BinHex"/>
 			<field hash="58F69813" type="String"/>
@@ -380,7 +380,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="1EFA9442">
+		<object name="AimingBeam">
 			<field name="text_AimingBeamOriginBoneName" type="String"/>
 			<field name="AimingBeamOriginBoneName" type="BinHex"/>
 			<field name="fAimingBeamOpacity" type="BinHex"/>
@@ -432,15 +432,15 @@
 			<field name="text_archArchetype" type="String"/>
 			<field name="archArchetype" type="BinHex"/>
 		</object>
-		<object hash="009DD9BE">
+		<object name="CanJamWeapon">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="B75E07E5">
+		<object name="CanBetrayDrones">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="70527600">
+		<object name="CanShootRockets">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -467,7 +467,7 @@
 			<field name="sndtpLockingOnCompleteType" type="BinHex"/>
 			<field name="sndtpLockingOnCancelType" type="BinHex"/>
 		</object>
-		<object hash="71B99564">
+		<object name="ShockExplosion">
 			<field hash="726B84E8" type="BinHex"/>
 			<field hash="E0741223" type="String"/>
 			<field hash="6ADC0FA9" type="BinHex"/>
@@ -476,7 +476,7 @@
 		<object name="Animation">
 			<field hash="80E2E8C1" type="BinHex"/>
 		</object>
-		<object hash="960F1863">
+		<object name="SwarmSounds">
 			<field hash="5C7C8231" type="BinHex"/>
 			<field hash="E8073D3F" type="BinHex"/>
 			<field hash="101BC3DA" type="String"/>

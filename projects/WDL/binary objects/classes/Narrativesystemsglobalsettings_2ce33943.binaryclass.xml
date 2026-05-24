@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="22A12BD6">
+	<object name="GlobalDedSecNarrative">
 		<field hash="87B6A75A" type="BinHex"/>
-		<object hash="B745ED0F">
+		<object name="DedSecNarrativeEnabledRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>

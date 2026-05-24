@@ -121,7 +121,7 @@
 				<field name="bDisableWorldSpawning" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="9D8F399E">
+		<object name="ExitWorldProperties">
 			<object name="TimeOfDay">
 				<field name="bEnableTimeOfDay" type="BinHex"/>
 				<field name="uiHour" type="UInt32"/>

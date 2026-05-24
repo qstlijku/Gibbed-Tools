@@ -10,5 +10,5 @@
 	<object name="locstridPlaylistName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="37CD8AE9"/>
+	<object name="AudioEventsAndTypes"/>
 </class>

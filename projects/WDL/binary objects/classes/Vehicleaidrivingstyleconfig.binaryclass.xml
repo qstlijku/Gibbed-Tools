@@ -42,7 +42,7 @@
 		<field name="fTransmissionRatioHeatFactor" type="BinHex"/>
 		<field name="fGlobalTyreFrictionScale" type="BinHex"/>
 	</object>
-	<object hash="8D601631">
+	<object name="NoPhysicsMovement">
 		<field hash="D2474DF2" type="BinHex"/>
 	</object>
 </class>

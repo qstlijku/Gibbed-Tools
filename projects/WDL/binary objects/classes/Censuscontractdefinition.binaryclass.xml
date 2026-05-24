@@ -19,7 +19,7 @@
 		<object name="locstridNameFemale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="5C8BAB15">
+		<object name="IsRoleDescriptionPossessive">
 			<field hash="827D2CB8" type="BinHex"/>
 			<field hash="2DC61F13" type="BinHex"/>
 			<field hash="75DA29B9" type="BinHex"/>
@@ -50,7 +50,7 @@
 		<object name="locstridFormerRivalNameFemale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="386CF679">
+		<object name="IsFormerRoleDescriptionPossessive">
 			<field hash="827D2CB8" type="BinHex"/>
 			<field hash="2DC61F13" type="BinHex"/>
 			<field hash="75DA29B9" type="BinHex"/>
@@ -113,7 +113,7 @@
 		<object name="locstridNameFemale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="5C8BAB15">
+		<object name="IsRoleDescriptionPossessive">
 			<field hash="827D2CB8" type="BinHex"/>
 			<field hash="2DC61F13" type="BinHex"/>
 			<field hash="75DA29B9" type="BinHex"/>
@@ -144,7 +144,7 @@
 		<object name="locstridFormerRivalNameFemale">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="386CF679">
+		<object name="IsFormerRoleDescriptionPossessive">
 			<field hash="827D2CB8" type="BinHex"/>
 			<field hash="2DC61F13" type="BinHex"/>
 			<field hash="75DA29B9" type="BinHex"/>

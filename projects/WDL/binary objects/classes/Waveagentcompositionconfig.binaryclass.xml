@@ -23,7 +23,7 @@
 							<field name="fRandomWeight" type="BinHex"/>
 							<field name="DesiredCount" type="BinHex"/>
 							<field name="selVehicleSettings" type="Enum"/>
-							<field hash="76AA17E6" type="BinHex"/>
+							<field name="RequiredCompositionPassengerCount" type="BinHex"/>
 						</object>
 					</object>
 				</object>

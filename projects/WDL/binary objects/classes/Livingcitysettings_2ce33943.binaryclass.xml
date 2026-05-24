@@ -49,7 +49,7 @@
 	<object name="VehicleEntityMapIconConfig">
 		<field name="mapicondescEntityIcon" type="BinHex"/>
 	</object>
-	<object hash="9E1E3EE4">
+	<object name="AllyEntityMapIconConfig">
 		<field name="mapicondescEntityIcon" type="BinHex"/>
 	</object>
 	<object name="DynamicCLO">
@@ -204,7 +204,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="3AF6AC69">
+		<object name="PersonalConfigSelector">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -349,7 +349,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="5A0253F9">
+		<object name="OppressedDefaultMoodStateParams">
 			<field hash="BDA80455" type="BinHex"/>
 			<field hash="C8D340E5" type="BinHex"/>
 			<object name="ExcludedTags">

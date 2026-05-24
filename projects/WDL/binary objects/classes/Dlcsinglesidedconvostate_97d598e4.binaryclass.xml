@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="8FCA2CBF">
+	<object name="DLC1AllowedState">
 		<object name="State">
 			<field hash="D1215A9B" type="BinHex"/>
 		</object>

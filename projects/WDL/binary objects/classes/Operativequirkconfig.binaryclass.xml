@@ -112,7 +112,7 @@
 								<field name="drunkeffectconfigDrunkEffect" type="BinHex"/>
 							</object>
 						</object>
-						<object hash="260F17D4">
+						<object name="RulesmithRulePettyThief">
 							<field hash="C50F1A52" type="BinHex"/>
 						</object>
 					</object>

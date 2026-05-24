@@ -55,12 +55,12 @@
 	<object name="locstridDownloadBlockedString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F9528B4E"/>
+	<object name="MissingPlayerLocationIds"/>
 	<object name="IgnoreDistanceRule">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="A4D38395">
+	<object name="CanTargetProgressPhysicalDownloadRule">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>

@@ -18,8 +18,8 @@
 			<field name="selRainIntensity" type="Enum"/>
 		</object>
 	</object>
-	<object hash="83515D32">
-		<object hash="0FBD30B4">
+	<object name="AdditionalConditions">
+		<object name="AdditionalConditionsRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>

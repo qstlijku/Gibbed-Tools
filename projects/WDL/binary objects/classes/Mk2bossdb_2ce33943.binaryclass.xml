@@ -16,8 +16,8 @@
 	<field hash="B7B27163" type="BinHex"/>
 	<field hash="3C7075F8" type="BinHex"/>
 	<field hash="AB16CAD0" type="BinHex"/>
-	<field hash="9D761716" type="BinHex"/>
-	<field hash="17DE0A9C" type="BinHex"/>
+	<field name="text_AOEBlastParticlesBoneName" type="BinHex"/>
+	<field name="AOEBlastParticlesBoneName" type="BinHex"/>
 	<field hash="1F04BDF0" type="BinHex"/>
 	<field hash="12E37FD3" type="BinHex"/>
 	<field hash="FE7C5FB0" type="BinHex"/>
@@ -59,16 +59,16 @@
 		<field name="SoundId" type="BinHex"/>
 		<field name="SoundGuid" type="BinHex"/>
 	</object>
-	<object hash="7AEC6A05">
-		<object hash="22DAEA5A">
-			<field hash="E81C064D" type="BinHex"/>
-			<field hash="22DAEA5A" type="BinHex"/>
+	<object name="RightRocketBoneNames">
+		<object name="RocketBoneName">
+			<field name="text_RocketBoneName" type="BinHex"/>
+			<field name="RocketBoneName" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="EC3F2DE3">
-		<object hash="22DAEA5A">
-			<field hash="E81C064D" type="BinHex"/>
-			<field hash="22DAEA5A" type="BinHex"/>
+	<object name="LeftRocketBoneNames">
+		<object name="RocketBoneName">
+			<field name="text_RocketBoneName" type="BinHex"/>
+			<field name="RocketBoneName" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="82215180">
@@ -97,20 +97,20 @@
 		<field hash="E47C549B" type="BinHex"/>
 		<field hash="D6D0B253" type="BinHex"/>
 	</object>
-	<object hash="F29B2BE8">
-		<object hash="F641D606">
+	<object name="WeakSpots">
+		<object name="WeakSpot">
 			<field name="text_sTag" type="BinHex"/>
 			<field name="sTag" type="BinHex"/>
 			<field hash="571382A2" type="BinHex"/>
-			<field hash="65912C6B" type="BinHex"/>
-			<field hash="FC344231" type="BinHex"/>
+			<field name="text_HealthBarBoneName" type="BinHex"/>
+			<field name="HealthBarBoneName" type="BinHex"/>
 			<field hash="7B8D020A" type="BinHex"/>
 			<field hash="804EF21B" type="BinHex"/>
 			<field hash="56240B99" type="BinHex"/>
 			<field hash="1BF2B4F4" type="BinHex"/>
 			<field hash="F1ACD4D0" type="BinHex"/>
-			<field hash="AA554BDD" type="BinHex"/>
-			<field hash="160F217D" type="BinHex"/>
+			<field name="text_DestroyedParticleBone" type="BinHex"/>
+			<field name="DestroyedParticleBone" type="BinHex"/>
 			<field hash="0E59F8CC" type="BinHex"/>
 			<field hash="82E46F0E" type="BinHex"/>
 			<field name="text_sMaterialSlot" type="BinHex"/>
@@ -119,18 +119,18 @@
 			<field name="matActiveMaterial" type="BinHex"/>
 			<field hash="8ED99171" type="BinHex"/>
 			<field hash="B2302BC0" type="BinHex"/>
-			<object hash="69C6B530">
+			<object name="BoneNames">
 				<object name="BoneName">
 					<field name="text_BoneName" type="BinHex"/>
 					<field name="BoneName" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="7EE6D1F8">
-				<object hash="7EE6D1F8">
+			<object name="Armor">
+				<object name="Armor">
 					<field hash="CD4DEDC6" type="BinHex"/>
 					<field hash="466AF042" type="BinHex"/>
-					<field hash="14F68208" type="BinHex"/>
-					<field hash="68D81FF9" type="BinHex"/>
+					<field name="text_ArmorBoneName" type="BinHex"/>
+					<field name="ArmorBoneName" type="BinHex"/>
 					<field hash="B44CDAC0" type="BinHex"/>
 					<field hash="62262342" type="BinHex"/>
 				</object>

@@ -75,7 +75,7 @@
 		<field hash="EA9412BE" type="BinHex"/>
 		<field hash="B5C21099" type="BinHex"/>
 		<field hash="0E71F616" type="BinHex"/>
-		<object hash="8AF00FCC">
+		<object name="DefaultUniformTag">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -112,17 +112,17 @@
 				<field name="Name" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="90EA088F">
+		<object name="DefaultWeaponSet">
 			<object name="itemsItem">
 				<field name="itemsItem" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="7A97B5DE">
+		<object name="ShouldApplyDefaultWeaponRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="CC9B0EA0">
-			<object hash="981345E1">
+		<object name="WeaponProgressionElements">
+			<object name="WeaponProgressionElement">
 				<field name="selWeaponType" type="Enum"/>
 				<field name="text_progressionelementProgressionElement" type="String"/>
 				<field name="progressionelementProgressionElement" type="BinHex"/>
@@ -164,20 +164,20 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="CDBB6E3D">
+		<object name="OnlineRecruitTeamCapacity">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="312A9B64">
+		<object name="TeamAbilityGlobalParams">
 			<field hash="184508FB" type="String"/>
 			<field hash="0002F0C2" type="BinHex"/>
-			<object hash="749F5ADF">
+			<object name="CanCheckAnyTeamAbilityThisFrame">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="1F35DDEC">
-			<object hash="F3C6F82D">
+		<object name="TeamAbilities">
+			<object name="TeamAbility">
 				<field hash="8ADB24BD" type="String"/>
 				<field hash="7D82541B" type="BinHex"/>
 				<field hash="EA679354" type="String"/>
@@ -185,15 +185,15 @@
 				<field hash="09E12483" type="String"/>
 				<field hash="A5298C6C" type="BinHex"/>
 				<field hash="433A8BF6" type="BinHex"/>
-				<object hash="3C4DFB6B">
+				<object name="CanBeProvider">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
-				<object hash="DED2BFD0">
+				<object name="CanBeConsumer">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
-				<object hash="CB8C780B">
+				<object name="CanCheckThisFrame">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
@@ -205,7 +205,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="A1C661C2">
+		<object name="CanRespawnOnDeathDuringGamestart">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -213,7 +213,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="BA2FCCA5">
+		<object name="CanOperativeBeCaptured">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -229,11 +229,11 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="E69819C8">
+		<object name="InvincibilityAfterRespawnDuration">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="01D03201">
+		<object name="InvisibilityAfterRespawnDuration">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -241,15 +241,15 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="71450B31">
+		<object name="CanRespawnInForbiddenZone">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="1801475A">
+		<object name="IsVoluntaryOpSwapEnabled">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="4256920C">
+		<object name="OwnedVehicleWorldPosSysMaxDistance">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>

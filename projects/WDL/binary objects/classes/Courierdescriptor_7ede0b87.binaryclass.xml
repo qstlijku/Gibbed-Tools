@@ -64,7 +64,7 @@
 			<field name="couriermissionconfigMissionType" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="8E319F4E">
+	<object name="RecommendedMissionTypes">
 		<object name="MissionType">
 			<field name="couriermissionconfigMissionType" type="BinHex"/>
 		</object>
@@ -120,7 +120,7 @@
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="AE269E2C">
+	<object name="MissionOnlineLevelGetter">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>

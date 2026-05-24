@@ -262,7 +262,7 @@
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="DE33A725">
+	<object name="PreemptiveBlockDuration">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
@@ -286,11 +286,11 @@
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="C8B881A8">
+	<object name="DodgeAttackPercentage">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="74A41FD9">
+	<object name="GrapplePercentage">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
@@ -328,8 +328,8 @@
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="16817114">
-		<object hash="ED94B74B">
+	<object name="PostDodgeAction">
+		<object name="Nothing">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -346,8 +346,8 @@
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="5616B620">
-		<object hash="ED94B74B">
+	<object name="PostPushActions">
+		<object name="Nothing">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -364,8 +364,8 @@
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="B6D9E2E3">
-		<object hash="ED94B74B">
+	<object name="PostCounterStrikeActions">
+		<object name="Nothing">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -1200,7 +1200,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="31938CDB">
+	<object name="TauntTrigger">
 		<field name="rulesmithidRuleId" type="BinHex"/>
 	</object>
 </class>

@@ -83,7 +83,7 @@
 				</object>
 			</object>
 			<object name="Online">
-				<object hash="EE578B76">
+				<object name="CloneActorMinDisplacement">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>

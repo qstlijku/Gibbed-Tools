@@ -116,7 +116,7 @@
 			<field name="LocalizationId" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="2105DD39">
+	<object name="MissionAreaTracking">
 		<field hash="462FD608" type="BinHex"/>
 		<field hash="BB255F80" type="BinHex"/>
 		<field hash="794232AA" type="BinHex"/>

@@ -46,7 +46,7 @@
 		<object name="BareKnuckleWin">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="112D3294">
+		<object name="BeeSwarmAttackVictim">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="BlindingFlash">
@@ -220,7 +220,7 @@
 		<object name="FollowMe">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="2F9E2A77">
+		<object name="FollowRejoin">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="ForceCombatNoLKPUpdate">
@@ -271,7 +271,7 @@
 		<object name="HorrificDeath">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="8465F47B">
+		<object name="HostileGadget">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="HumanNoiseDisgusting">
@@ -283,7 +283,7 @@
 		<object name="ImportantObjectAlert">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="909045EB">
+		<object name="ImpressiveVehicle">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="IncomingClimber">
@@ -439,10 +439,10 @@
 		<object name="RCBroadcast">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="F86FD10D">
+		<object name="RCDeactivationTakedownActivation">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="431BCDA5">
+		<object name="RCDeactivationTakedownPersistent">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="RCDestroyed">
@@ -487,7 +487,7 @@
 		<object name="RestrainedCalloutSafe">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="59C539AD">
+		<object name="RestrainedNPCOnly">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="RingOfSteelActivation">
@@ -535,10 +535,10 @@
 		<object name="SecurityAlarmNoise">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="AA523E05">
+		<object name="SeeBeeSwarmAttack">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="7F174590">
+		<object name="SeeBeeSwarmDefend">
 			<field name="stims" type="BinHex"/>
 		</object>
 		<object name="SeeHackedDistract">
@@ -658,7 +658,7 @@
 		<object name="WorldActivityScaryHead">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="992ABA8B">
+		<object name="BeeSwarmAttack">
 			<field name="stims" type="BinHex"/>
 		</object>
 	</object>
@@ -681,11 +681,11 @@
 			<field name="stims" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="B9757E0F">
-		<object hash="0EA9D9CD">
+	<object name="DataDefinedStims">
+		<object name="GuardingPrisoner">
 			<field name="stims" type="BinHex"/>
 		</object>
-		<object hash="17D3D780">
+		<object name="GuardingDeadbody">
 			<field name="stims" type="BinHex"/>
 		</object>
 	</object>

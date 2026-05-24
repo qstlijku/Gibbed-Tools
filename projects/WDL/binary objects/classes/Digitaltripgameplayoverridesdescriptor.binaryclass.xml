@@ -75,8 +75,8 @@
 			<field name="fHeadshotDamageMultiplier" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="80C71FE4">
-		<object hash="1E36A780">
+	<object name="AgentSubcategoryDamageOverrides">
+		<object name="AgentSubcategoryOverride">
 			<field name="selAgentSubcategory" type="BinHex"/>
 			<field name="fBodyshotDamageMultiplier" type="BinHex"/>
 			<field name="fHeadshotDamageMultiplier" type="BinHex"/>

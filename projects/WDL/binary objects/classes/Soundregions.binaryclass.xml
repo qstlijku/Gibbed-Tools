@@ -20,7 +20,7 @@
 			<field name="text_sndRandomFxSound" type="String"/>
 			<field name="sndRandomFxSound" type="BinHex"/>
 			<field hash="2B355191" type="BinHex"/>
-			<object hash="9B529A9A"/>
+			<object name="AmbianceSoundsAndTypes"/>
 			<object name="WindGustSettings">
 				<field name="sndWindGustSound" type="BinHex"/>
 				<field hash="0CE02618" type="BinHex"/>

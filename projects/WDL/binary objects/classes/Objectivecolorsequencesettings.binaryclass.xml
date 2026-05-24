@@ -19,7 +19,7 @@
 	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="85401542">
+	<object name="ColorSequenceOverrideSettings">
 		<object name="ColorSequenceData">
 			<field name="fDisplayColorTime" type="BinHex"/>
 			<field name="iSequenceLength" type="BinHex"/>
@@ -38,7 +38,7 @@
 				</object>
 			</object>
 			<object name="SequenceEntitieIDs"/>
-			<object hash="CA169828"/>
+			<object name="LockedEntitieIDs"/>
 			<object name="locstridSequenceSuccessLogTitleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -57,7 +57,7 @@
 			<object name="locstridSequenceBadInputMsgLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="C7B2E6A7">
+			<object name="ObjectiveMarkerHighlightEntities">
 				<object name="EntityId">
 					<field name="entEntityID" type="BinHex"/>
 				</object>

@@ -31,11 +31,11 @@
 			<field name="reinforcementgameplaydescriptorHuman" type="BinHex"/>
 			<field name="reinforcementgameplaydescriptorDrone" type="BinHex"/>
 		</object>
-		<object hash="C584F191">
+		<object name="GameplayStartedDialog">
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
-		<object hash="CB530087">
+		<object name="GameplayFinishedDialog">
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>

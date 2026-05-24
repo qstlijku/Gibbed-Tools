@@ -129,7 +129,7 @@
 				</object>
 			</object>
 		</object>
-		<object hash="A3056B3C">
+		<object name="SceneLight">
 			<field hash="BF6DB2D7" type="BinHex"/>
 			<field hash="EBD3D101" type="BinHex"/>
 			<object name="Light">

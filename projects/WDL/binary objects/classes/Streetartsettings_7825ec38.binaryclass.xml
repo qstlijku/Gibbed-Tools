@@ -71,18 +71,18 @@
 	<object name="locstridSkipOverviewLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="11D1AA52">
+	<object name="ChallengeCompletedTrigger">
 		<field name="rulesmithidRuleId" type="BinHex"/>
 	</object>
-	<object hash="B6B32503">
+	<object name="LocationCompletedTrigger">
 		<field name="rulesmithidRuleId" type="BinHex"/>
 	</object>
-	<object hash="B6634E85">
+	<object name="LocationCompletedCryptoGetter">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="48E8A430">
-		<object hash="55F80BF2">
+	<object name="Challenges">
+		<object name="Challenge">
 			<field hash="2D544CD9" type="BinHex"/>
 			<field hash="1CC4D505" type="BinHex"/>
 		</object>

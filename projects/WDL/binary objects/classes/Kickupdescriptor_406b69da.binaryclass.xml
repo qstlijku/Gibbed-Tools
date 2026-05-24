@@ -510,7 +510,7 @@
 			<field name="itemsTutorialItem" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="7B244045">
+	<object name="TutorialItemsMP">
 		<object name="TutorialItem">
 			<field name="itemsTutorialItem" type="BinHex"/>
 		</object>
@@ -595,7 +595,7 @@
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="71FA243A">
+	<object name="DrunkLevelThreshold">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>

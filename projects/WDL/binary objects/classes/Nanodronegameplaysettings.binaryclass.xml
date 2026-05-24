@@ -46,12 +46,12 @@
 		<field hash="D8BB27FF" type="BinHex"/>
 		<field hash="94E20542" type="BinHex"/>
 		<field hash="0D568F58" type="BinHex"/>
-		<object hash="7C0A1024">
+		<object name="SoundAndTypeStartBeepingSound">
 			<field name="text_sndSoundId" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
-		<object hash="F7E415F2">
+		<object name="SoundAndTypeStopBeepingSound">
 			<field name="text_sndSoundId" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>

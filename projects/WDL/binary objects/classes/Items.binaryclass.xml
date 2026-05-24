@@ -135,22 +135,22 @@
 			<field name="uiMaxCountInInventory" type="UInt32"/>
 			<field name="iCooldownTime" type="Int32"/>
 		</object>
-		<object hash="310B8EB4">
+		<object name="ItemUnlockCondition">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="4EDFA179">
+		<object name="ItemShownInMenusCondition">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="FB48BE42">
-			<object hash="2C08A2DD">
+		<object name="RuleItemsList">
+			<object name="RuleBasedItem">
 				<field name="itemsItemInBox" type="BinHex"/>
-				<object hash="2B9AE7C5">
+				<object name="CanUseItem">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
-				<object hash="F1F012D5">
+				<object name="CanUseItem2">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>
 				</object>
@@ -190,7 +190,7 @@
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="7E952C2F">
+		<object name="CanUseWeapon">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -246,7 +246,7 @@
 				<field name="itemsItemDBObject" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="D727F2B8">
+		<object name="CanUseClothingItemRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -306,23 +306,23 @@
 		<object name="UniquePaintJob">
 			<field name="texturedbobjectUniquePaintJobImage" type="BinHex"/>
 		</object>
-		<object hash="AFA12BA6">
+		<object name="ShouldRefillWeapon">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="0848AF53">
+		<object name="ShouldRefillHealth">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="4908959D">
+		<object name="ShouldRefillCurrentWeaponClip">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="95016C96">
+		<object name="ShouldResetClassAbilityCooldown">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="EE5E115B">
+		<object name="AmmoRefillAmount">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -330,7 +330,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="794F71E7">
+		<object name="MaxBulletCountOverride">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -339,7 +339,7 @@
 				<field name="entLockedEntityId" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="A47A8ECB">
+		<object name="CharacterWheelProperties">
 			<field name="texturedbobjectTexture" type="BinHex"/>
 		</object>
 	</object>

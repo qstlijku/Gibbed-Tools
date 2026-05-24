@@ -37,7 +37,7 @@
 		<object name="locstridFailure">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<field hash="32FE0577" type="BinHex"/>
+		<field name="InitializationDuration" type="BinHex"/>
 		<object name="locstridScreenOff">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>

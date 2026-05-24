@@ -133,21 +133,21 @@
 				</object>
 			</object>
 		</object>
-		<object hash="90389143">
+		<object name="Shock">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="A9C77BED">
+		<object name="Disorient">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>
 				</object>
 			</object>
 		</object>
-		<object hash="429279BF">
+		<object name="Confuse">
 			<object name="PossibleProfiles">
 				<object name="hackablenpcprofilesetupHackableNPCProfileSetup">
 					<field name="hackablenpcprofilesetupHackableNPCProfileSetup" type="BinHex"/>

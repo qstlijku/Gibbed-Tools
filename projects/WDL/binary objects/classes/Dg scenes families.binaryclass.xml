@@ -9,7 +9,7 @@
 	<field hash="AB079B47" type="BinHex"/>
 	<field hash="A235C8C8" type="String"/>
 	<field hash="103D1006" type="BinHex"/>
-	<object hash="9F42217F">
+	<object name="SceneDbs">
 		<object hash="EA4F616E">
 			<field hash="EA4F616E" type="BinHex"/>
 		</object>
