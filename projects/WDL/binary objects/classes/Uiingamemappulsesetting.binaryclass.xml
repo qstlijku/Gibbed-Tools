@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class name="DebugannotationicondefinitionsParameters">
+<class name="UiingamemappulsesettingParameters">
 	<field name="disNomadObjectId" type="BinHex"/>
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field name="fileTextureResource" type="BinHex"/>
+	<field hash="F38E0FEC" type="BinHex"/>
+	<field hash="0F00CAB0" type="BinHex"/>
+	<object hash="4E71DF26">
+		<object hash="A0B5C529">
+			<field hash="F545FFA5" type="BinHex"/>
+		</object>
+	</object>
 </class>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class name="DebugannotationicondefinitionsParameters">
+<class name="Unknown_B0968FC8A9306DF6Parameters">
 	<field name="disNomadObjectId" type="BinHex"/>
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field name="fileTextureResource" type="BinHex"/>
+	<field hash="0D769233" type="BinHex"/>
+	<field hash="319F2882" type="BinHex"/>
 </class>

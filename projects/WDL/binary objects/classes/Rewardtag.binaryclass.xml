@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="RewardtagParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field hash="054D5307" type="BinHex"/>
+	<field hash="EC304E8C" type="BinHex"/>
+	<field hash="F0680818" type="BinHex"/>
+	<field hash="CA5D6F4A" type="Boolean"/>
+	<field hash="EA87E6BE" type="String"/>
+	<object hash="EF8D3F4E">
+		<field hash="94C08F9B" type="Boolean"/>
+		<field hash="1DF2E0ED" type="Boolean"/>
+	</object>
+</class>

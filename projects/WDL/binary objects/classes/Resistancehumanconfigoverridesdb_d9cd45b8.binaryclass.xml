@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="Resistancehumanconfigoverridesdb_d9cd45b8Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="78482470">
+		<field hash="94C08F9B" type="Boolean"/>
+		<field hash="1DF2E0ED" type="BinHex"/>
+	</object>
+	<object hash="2AC81606">
+		<object hash="EE5E368D">
+			<field hash="7079CAEB" type="BinHex"/>
+			<field hash="B64DD28E" type="BinHex"/>
+			<object hash="87DBE419">
+				<object hash="DC2DBBC4">
+					<field hash="62A63B00" type="BinHex"/>
+					<field hash="B6361E6A" type="BinHex"/>
+					<field hash="63243E40" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

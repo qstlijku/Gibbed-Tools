@@ -3,7 +3,7 @@
 	<field name="disNomadObjectId" type="BinHex"/>
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
-	<field hash="A788914C" type="Boolean"/>
+	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selRailwayLineId" type="BinHex"/>

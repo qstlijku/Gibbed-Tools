@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <class name="DigitaltripmodedescriptorParameters">
-	<field hash="1FE8D41C" type="BinHex"/>
-	<field hash="61FC6B02" type="Boolean"/>
-	<field hash="389F6DA7" type="BinHex"/>
-	<field hash="A788914C" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
-	<field hash="B9295CC7" type="BinHex"/>
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
 	<field hash="CE0E0397" type="BinHex"/>
 	<field hash="884DF232" type="BinHex"/>
 	<field hash="E9A0EBFE" type="BinHex"/>
