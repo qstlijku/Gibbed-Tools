@@ -8,71 +8,71 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="7ACEC481" type="BinHex"/>
 	<object hash="CC925CF3">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="0652AEDE">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="60020A40">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="7BB83B25">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="412978E9">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="CC33C563">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="4E1687DD">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="13B232D9">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="5B39E347">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="DD78166A">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="D5A76D95">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="EB79632E">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="46AE090B">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="634B8BF0">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="7C49BB1B">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="B044C014">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="09BA8872">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 </class>

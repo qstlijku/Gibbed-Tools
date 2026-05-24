@@ -6,6 +6,6 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="0D769233" type="BinHex"/>
-	<field hash="319F2882" type="BinHex"/>
+	<field name="text_archArCloakArchetype" type="BinHex"/>
+	<field name="archArCloakArchetype" type="BinHex"/>
 </class>

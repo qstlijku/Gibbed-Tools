@@ -11,66 +11,66 @@
 	<field hash="5CA80352" type="BinHex"/>
 	<field hash="C1A8D19F" type="BinHex"/>
 	<field hash="EDB2B954" type="BinHex"/>
-	<field hash="B11EAF46" type="BinHex"/>
+	<field name="fullscreentutorialFullscreenTutorial" type="BinHex"/>
 	<field hash="A791AA8B" type="BinHex"/>
 	<object hash="99671462">
 		<object hash="BE0966A9">
-			<field hash="B8824CA5" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundId" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object hash="B408856D">
-			<field hash="B8824CA5" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundId" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object hash="8DBDB488">
-			<field hash="B8824CA5" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundId" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 		<object hash="8DADF58A">
-			<field hash="B8824CA5" type="BinHex"/>
-			<field hash="EE1824B1" type="BinHex"/>
+			<field name="SoundId" type="BinHex"/>
+			<field name="SoundGuid" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="9D71A22D">
 		<object hash="A50F7E7F">
 			<field hash="46C93851" type="BinHex"/>
 			<object hash="0759BC73">
-				<object hash="3BC4F163">
+				<object name="Tag">
 					<field hash="0AB3E082" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 	</object>
 	<object hash="66396B5A">
-		<field hash="94C08F9B" type="BinHex"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="BinHex"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="1A36CE52">
 		<object hash="9984EEE0">
-			<object hash="3BC4F163">
+			<object name="Tag">
 				<field hash="0AB3E082" type="BinHex"/>
 			</object>
 		</object>
 		<object hash="5789C9E2">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="558A45C6">
 		<field hash="04E0EA67" type="BinHex"/>
 		<field hash="E1E72825" type="BinHex"/>
 		<object hash="BF3A63FB">
-			<field hash="94C08F9B" type="BinHex"/>
-			<field hash="F7AC80C9" type="BinHex"/>
-			<field hash="1DF2E0ED" type="BinHex"/>
+			<field name="rulesmithidRule" type="BinHex"/>
+			<field name="text_rulesmithconstValue" type="BinHex"/>
+			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="746B0C4B">
-		<field hash="3851F4E1" type="BinHex"/>
+		<field name="LocalizationId" type="BinHex"/>
 	</object>
 	<object hash="E7179833">
-		<field hash="B23932DE" type="BinHex"/>
-		<field hash="67AA6B0B" type="BinHex"/>
+		<field name="fIntensity" type="BinHex"/>
+		<field name="fSpeed" type="BinHex"/>
 		<field hash="381447E5" type="BinHex"/>
 	</object>
 </class>

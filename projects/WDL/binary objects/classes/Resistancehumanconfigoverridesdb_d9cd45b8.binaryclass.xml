@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object hash="78482470">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object hash="2AC81606">
 		<object hash="EE5E368D">
@@ -18,7 +18,7 @@
 				<object hash="DC2DBBC4">
 					<field hash="62A63B00" type="BinHex"/>
 					<field hash="B6361E6A" type="BinHex"/>
-					<field hash="63243E40" type="BinHex"/>
+					<field name="Archetype" type="BinHex"/>
 				</object>
 			</object>
 		</object>

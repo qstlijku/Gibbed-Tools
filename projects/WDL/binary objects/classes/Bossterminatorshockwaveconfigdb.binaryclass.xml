@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="928474CD" type="BinHex"/>
-	<field hash="8B477D66" type="BinHex"/>
-	<field hash="FC8FEEED" type="BinHex"/>
+	<field name="fCooldown" type="BinHex"/>
+	<field name="fTriggerRange" type="BinHex"/>
 	<field hash="74D29942" type="BinHex"/>
 	<field hash="8D5910CA" type="BinHex"/>
 	<field hash="408D76D1" type="BinHex"/>
@@ -17,71 +17,71 @@
 	<field hash="61FE2BFD" type="BinHex"/>
 	<field hash="AC2A4DE6" type="BinHex"/>
 	<field hash="D3EEBC66" type="BinHex"/>
-	<object hash="F366E3BF">
-		<field hash="6A7B97EB" type="Vector3"/>
-		<field hash="8BEE4649" type="BinHex"/>
-		<object hash="D59E2D65">
-			<field hash="92210DFC" type="BinHex"/>
-			<field hash="60534B32" type="BinHex"/>
-			<field hash="DCC35857" type="BinHex"/>
-			<field hash="FC25E1F1" type="BinHex"/>
-			<field hash="D884CECE" type="BinHex"/>
-			<field hash="49BF3666" type="BinHex"/>
-			<field hash="49B0624B" type="Boolean"/>
-			<field hash="48FBA6CF" type="BinHex"/>
-			<field hash="D2AC5658" type="BinHex"/>
-			<field hash="E0D1302A" type="BinHex"/>
-			<field hash="C0266433" type="BinHex"/>
-			<field hash="91E18332" type="BinHex"/>
-			<field hash="D74C58C9" type="BinHex"/>
-			<field hash="409F16D4" type="BinHex"/>
-			<field hash="1D879524" type="BinHex"/>
-			<field hash="6B427A9B" type="BinHex"/>
-			<field hash="6AFAEE0C" type="BinHex"/>
-			<field hash="381348A9" type="BinHex"/>
-			<object hash="642926D0">
-				<field hash="F8186C6E" type="BinHex"/>
+	<object name="Explosion">
+		<field name="ExplosionCenter" type="Vector3"/>
+		<field name="ExplosionImpulseDividerHACK" type="BinHex"/>
+		<object name="ExplosionStim">
+			<field name="text_hidEventName" type="BinHex"/>
+			<field name="hidEventName" type="BinHex"/>
+			<field name="hidTargetEntityId" type="BinHex"/>
+			<field name="text_sDetail" type="BinHex"/>
+			<field name="sDetail" type="BinHex"/>
+			<field name="selType" type="BinHex"/>
+			<field name="bShowCone" type="Boolean"/>
+			<field name="bUseOcclusion" type="BinHex"/>
+			<field name="fDamage" type="BinHex"/>
+			<field name="curvelibDamageFalloff" type="BinHex"/>
+			<field name="fPhysImpulse" type="BinHex"/>
+			<field name="fPhysImpulseFalloffFactor" type="BinHex"/>
+			<field name="fShockWaveSpeed" type="BinHex"/>
+			<field name="fWindStartRadius" type="BinHex"/>
+			<field name="fWindEndRadius" type="BinHex"/>
+			<field name="fWindStartItensity" type="BinHex"/>
+			<field name="fWindEndIntensity" type="BinHex"/>
+			<field name="fWindTime" type="BinHex"/>
+			<object name="RadiusSettings">
+				<field name="fRadius" type="BinHex"/>
 			</object>
-			<object hash="CD6848E5">
-				<field hash="236D1FE4" type="BinHex"/>
-				<field hash="666F5C66" type="BinHex"/>
+			<object name="AltitudeSliceSettings">
+				<field name="fMaxAlt" type="BinHex"/>
+				<field name="fMinAlt" type="BinHex"/>
 			</object>
-			<object hash="7AAD4D04">
-				<field hash="F26659EE" type="BinHex"/>
-				<field hash="EA50B2B5" type="BinHex"/>
-				<field hash="F5446607" type="BinHex"/>
+			<object name="LevelSettings">
+				<field name="fLevel" type="BinHex"/>
+				<field name="bFalloff" type="BinHex"/>
+				<field name="fFalloffMinLevel" type="BinHex"/>
 			</object>
-			<object hash="FE5832C2">
-				<field hash="C5C298B5" type="Boolean"/>
+			<object name="EntityRestrictions">
+				<field name="bRestrictToEntities" type="Boolean"/>
 			</object>
 		</object>
-		<object hash="859000DB">
-			<object hash="2C3872D7">
-				<field hash="92210DFC" type="BinHex"/>
-				<field hash="60534B32" type="BinHex"/>
-				<field hash="DCC35857" type="BinHex"/>
-				<field hash="D884CECE" type="BinHex"/>
-				<field hash="49BF3666" type="Boolean"/>
-				<field hash="49B0624B" type="Boolean"/>
-				<object hash="642926D0">
-					<field hash="F8186C6E" type="BinHex"/>
+		<object name="ExtraStims">
+			<object name="Stim">
+				<field name="text_hidEventName" type="BinHex"/>
+				<field name="hidEventName" type="BinHex"/>
+				<field name="hidTargetEntityId" type="BinHex"/>
+				<field name="sDetail" type="BinHex"/>
+				<field name="selType" type="Boolean"/>
+				<field name="bShowCone" type="Boolean"/>
+				<object name="RadiusSettings">
+					<field name="fRadius" type="BinHex"/>
 				</object>
-				<object hash="CD6848E5">
-					<field hash="236D1FE4" type="BinHex"/>
-					<field hash="666F5C66" type="BinHex"/>
+				<object name="AltitudeSliceSettings">
+					<field name="fMaxAlt" type="BinHex"/>
+					<field name="fMinAlt" type="BinHex"/>
 				</object>
-				<object hash="7AAD4D04">
-					<field hash="F26659EE" type="BinHex"/>
-					<field hash="EA50B2B5" type="Boolean"/>
-					<field hash="F5446607" type="BinHex"/>
+				<object name="LevelSettings">
+					<field name="fLevel" type="BinHex"/>
+					<field name="bFalloff" type="Boolean"/>
+					<field name="fFalloffMinLevel" type="BinHex"/>
 				</object>
-				<object hash="FE5832C2">
-					<field hash="C5C298B5" type="Boolean"/>
+				<object name="EntityRestrictions">
+					<field name="bRestrictToEntities" type="Boolean"/>
 				</object>
 			</object>
 		</object>
 	</object>
-	<object hash="54E3BA55">
+	<object name="VFX">
 		<field hash="BA2CF89F" type="BinHex"/>
 		<field hash="1613189C" type="BinHex"/>
 	</object>

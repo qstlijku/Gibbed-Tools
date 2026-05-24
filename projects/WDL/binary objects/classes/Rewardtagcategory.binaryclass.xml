@@ -8,13 +8,13 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="85790912" type="BinHex"/>
 	<field hash="8B50F4C6" type="Boolean"/>
-	<object hash="CF8E3B18">
-		<object hash="3BC4F163">
+	<object name="Tags">
+		<object name="Tag">
 			<field hash="0AB3E082" type="BinHex"/>
 		</object>
 	</object>
 	<object hash="37D0AFD0">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="Boolean"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="Boolean"/>
 	</object>
 </class>

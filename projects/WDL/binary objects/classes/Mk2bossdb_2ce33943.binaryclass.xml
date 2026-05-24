@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="163D4D3B" type="BinHex"/>
 	<field hash="D3BB3CC8" type="BinHex"/>
-	<field hash="67AA6B0B" type="BinHex"/>
+	<field name="fSpeed" type="BinHex"/>
 	<field hash="5E55EC7A" type="BinHex"/>
 	<field hash="E395E6DD" type="BinHex"/>
 	<field hash="894DEBEB" type="BinHex"/>
@@ -53,11 +53,11 @@
 	<field hash="615E7EE5" type="BinHex"/>
 	<field hash="892395EF" type="BinHex"/>
 	<object hash="53C3B138">
-		<field hash="3851F4E1" type="BinHex"/>
+		<field name="LocalizationId" type="BinHex"/>
 	</object>
 	<object hash="5DDAAD2F">
-		<field hash="B8824CA5" type="BinHex"/>
-		<field hash="EE1824B1" type="BinHex"/>
+		<field name="SoundId" type="BinHex"/>
+		<field name="SoundGuid" type="BinHex"/>
 	</object>
 	<object hash="7AEC6A05">
 		<object hash="22DAEA5A">
@@ -72,7 +72,7 @@
 		</object>
 	</object>
 	<object hash="82215180">
-		<field hash="3851F4E1" type="BinHex"/>
+		<field name="LocalizationId" type="BinHex"/>
 	</object>
 	<object hash="01E2A9A3">
 		<field hash="7748700C" type="BinHex"/>
@@ -99,8 +99,8 @@
 	</object>
 	<object hash="F29B2BE8">
 		<object hash="F641D606">
-			<field hash="9B35862A" type="BinHex"/>
-			<field hash="9C4BF81F" type="BinHex"/>
+			<field name="text_sTag" type="BinHex"/>
+			<field name="sTag" type="BinHex"/>
 			<field hash="571382A2" type="BinHex"/>
 			<field hash="65912C6B" type="BinHex"/>
 			<field hash="FC344231" type="BinHex"/>
@@ -113,16 +113,16 @@
 			<field hash="160F217D" type="BinHex"/>
 			<field hash="0E59F8CC" type="BinHex"/>
 			<field hash="82E46F0E" type="BinHex"/>
-			<field hash="E0ED5CFB" type="BinHex"/>
-			<field hash="9CC3C10A" type="BinHex"/>
-			<field hash="440B839D" type="BinHex"/>
-			<field hash="DDAEEDC7" type="BinHex"/>
+			<field name="text_sMaterialSlot" type="BinHex"/>
+			<field name="sMaterialSlot" type="BinHex"/>
+			<field name="text_matActiveMaterial" type="BinHex"/>
+			<field name="matActiveMaterial" type="BinHex"/>
 			<field hash="8ED99171" type="BinHex"/>
 			<field hash="B2302BC0" type="BinHex"/>
 			<object hash="69C6B530">
-				<object hash="CF1DBEC6">
-					<field hash="795F32D4" type="BinHex"/>
-					<field hash="CF1DBEC6" type="BinHex"/>
+				<object name="BoneName">
+					<field name="text_BoneName" type="BinHex"/>
+					<field name="BoneName" type="BinHex"/>
 				</object>
 			</object>
 			<object hash="7EE6D1F8">

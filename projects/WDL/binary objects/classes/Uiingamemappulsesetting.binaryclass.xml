@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field hash="F38E0FEC" type="BinHex"/>
 	<field hash="0F00CAB0" type="BinHex"/>
-	<object hash="4E71DF26">
+	<object name="Waves">
 		<object hash="A0B5C529">
 			<field hash="F545FFA5" type="BinHex"/>
 		</object>

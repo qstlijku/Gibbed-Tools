@@ -33,25 +33,25 @@
 				<object hash="042A616B">
 					<object hash="042A616B">
 						<field hash="E743E888" type="BinHex"/>
-						<field hash="1D775834" type="BinHex"/>
+						<field name="value" type="BinHex"/>
 					</object>
 				</object>
 				<object hash="FB3D897A">
 					<object hash="FB3D897A">
 						<field hash="E743E888" type="BinHex"/>
-						<field hash="1D775834" type="BinHex"/>
+						<field name="value" type="BinHex"/>
 					</object>
 				</object>
 				<object hash="2FEF1864">
 					<object hash="9AAE36E9">
 						<field hash="E743E888" type="BinHex"/>
-						<field hash="1D775834" type="BinHex"/>
+						<field name="value" type="BinHex"/>
 					</object>
 				</object>
 				<object hash="18945B92">
 					<object hash="923E0372">
 						<field hash="E743E888" type="BinHex"/>
-						<field hash="1D775834" type="BinHex"/>
+						<field name="value" type="BinHex"/>
 					</object>
 				</object>
 				<object hash="A8AECBFD">
@@ -154,12 +154,12 @@
 					<field hash="5B4BEC5C" type="BinHex"/>
 				</object>
 				<object hash="2E97937A">
-					<field hash="AECEF355" type="BinHex"/>
-					<object hash="F32C0E1C">
-						<object hash="9A152447">
-							<field hash="DCB67730" type="BinHex"/>
-							<field hash="6BBB9E69" type="BinHex"/>
-							<field hash="2CECF817" type="BinHex"/>
+					<field name="hidNumKnots" type="BinHex"/>
+					<object name="Knots">
+						<object name="Knot">
+							<field name="Value" type="BinHex"/>
+							<field name="Info" type="BinHex"/>
+							<field name="Type" type="BinHex"/>
 						</object>
 					</object>
 				</object>

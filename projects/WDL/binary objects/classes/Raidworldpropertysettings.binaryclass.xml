@@ -7,25 +7,25 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field hash="9C9B45E0" type="BinHex"/>
-	<object hash="24EB848D">
-		<object hash="5209DDAD">
-			<field hash="226C0F6A" type="BinHex"/>
-			<field hash="8F674981" type="BinHex"/>
-			<field hash="D4C5181B" type="BinHex"/>
+	<object name="WorldProperties">
+		<object name="TimeOfDay">
+			<field name="bEnableTimeOfDay" type="BinHex"/>
+			<field name="uiHour" type="BinHex"/>
+			<field name="bDisableTimeScaling" type="BinHex"/>
 		</object>
-		<object hash="836DEAF2">
-			<field hash="A5DCDBBB" type="BinHex"/>
-			<field hash="60A2C454" type="BinHex"/>
+		<object name="Weather">
+			<field name="bEnableWeather" type="BinHex"/>
+			<field name="envweatherpresetWeatherPreset" type="BinHex"/>
 		</object>
-		<object hash="D9CDFBF8">
-			<field hash="6972E194" type="BinHex"/>
+		<object name="Felony">
+			<field name="bDisableFelony" type="BinHex"/>
 		</object>
-		<object hash="469D5DD5">
-			<field hash="27238BE6" type="Boolean"/>
+		<object name="WorldSpawning">
+			<field name="bDisableWorldSpawning" type="Boolean"/>
 			<field hash="AB6DDE58" type="Boolean"/>
 		</object>
 	</object>
-	<object hash="390F3628">
-		<field hash="3851F4E1" type="BinHex"/>
+	<object name="locstridDisplayName">
+		<field name="LocalizationId" type="BinHex"/>
 	</object>
 </class>
