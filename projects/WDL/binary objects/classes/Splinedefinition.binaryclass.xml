@@ -11,7 +11,7 @@
 	<field name="bUseLogic" type="Boolean"/>
 	<field name="minimaproadtypeMinimapRoadType" type="BinHex"/>
 	<object name="LoftProp">
-		<field name="disName" type="String"/>
+		<field name="disName" type="BinHex"/>
 		<object name="LoftElements">
 			<object name="LoftElement">
 				<field name="splineloftLoftElement" type="BinHex"/>
@@ -24,7 +24,7 @@
 		</object>
 	</object>
 	<object name="SpawnProp">
-		<field name="disName" type="String"/>
+		<field name="disName" type="BinHex"/>
 		<object name="SpawnInfos">
 			<object name="SpawnInfo">
 				<field name="bSpawnAtRangeExtremity" type="Boolean"/>
@@ -45,7 +45,7 @@
 				<field name="bStayVertical" type="Boolean"/>
 				<field name="sRandomSeed" type="BinHex"/>
 				<field name="archArchetypeToSpawn" type="BinHex"/>
-				<field name="prefabPrefabToSpawn" type="String"/>
+				<field name="prefabPrefabToSpawn" type="BinHex"/>
 				<field name="fileProxyObject" type="BinHex"/>
 				<field name="selIntersectionSpawnRule" type="BinHex"/>
 				<field name="bCullAsCorner" type="Boolean"/>
@@ -55,8 +55,8 @@
 				<field name="bPreserveSpacingOnXOffset" type="Boolean"/>
 				<field name="bUseProjectedLength" type="Boolean"/>
 				<field name="bIsKilledByMorphBox" type="Boolean"/>
-				<field name="text_fileProxyObject" type="String"/>
-				<field name="text_archArchetypeToSpawn" type="String"/>
+				<field name="text_fileProxyObject" type="BinHex"/>
+				<field name="text_archArchetypeToSpawn" type="BinHex"/>
 				<object name="EntityOverrideBehavior">
 					<field name="bAllowOverride" type="Boolean"/>
 					<field name="folder" type="BinHex"/>
