@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="MaterialBanks">
 		<object name="MaterialBank">
@@ -13,10 +13,10 @@
 			<field name="logmatLogicMaterialV2" type="BinHex"/>
 			<object name="MaterialSlots">
 				<object name="MaterialSlot">
-					<field hash="6E7A746B" type="String"/>
+					<field name="text_SlotName" type="String"/>
 					<field name="SlotName" type="BinHex"/>
 					<field name="matMaterial" type="BinHex"/>
-					<field hash="9301DFBD" type="String"/>
+					<field name="text_matMaterial" type="String"/>
 				</object>
 			</object>
 		</object>

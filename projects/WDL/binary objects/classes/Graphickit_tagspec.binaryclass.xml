@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="graphickitmodelModel" type="BinHex"/>
 	<field name="graphickitcollectionCollection" type="BinHex"/>
@@ -12,7 +12,7 @@
 		<object name="IncludeTags">
 			<object name="Tag">
 				<object name="tagcategoryselectionTag">
-					<field hash="BDB3B8D5" type="BinHex"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -23,7 +23,7 @@
 		<object name="ExcludeTags">
 			<object name="Tag">
 				<object name="tagcategoryselectionTag">
-					<field hash="BDB3B8D5" type="BinHex"/>
+					<field name="text_UITagCategorySelectionClassID" type="String"/>
 					<field name="UITagCategorySelectionClassID" type="BinHex"/>
 					<field name="tagcategoryUITagCategory" type="BinHex"/>
 					<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -35,7 +35,7 @@
 			<object name="ConstraintAny">
 				<object name="Tags">
 					<object name="tagcategoryselectionTag">
-						<field hash="BDB3B8D5" type="BinHex"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>

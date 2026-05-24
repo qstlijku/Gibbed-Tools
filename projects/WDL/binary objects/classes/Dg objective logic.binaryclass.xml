@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selNodeType" type="BinHex"/>
 	<field name="bIsFreeroamCompatible" type="Boolean"/>
@@ -16,7 +16,7 @@
 		<object name="Entries">
 			<object name="Entry">
 				<field name="BrickID" type="String"/>
-				<field hash="0C3FB1A7" type="String"/>
+				<field name="text_dgbrickselectionDGBrickSettingsClassNameId" type="String"/>
 				<field name="dgbrickselectionDGBrickSettingsClassNameId" type="BinHex"/>
 				<field name="dgbricksettingsfilterFilter" type="BinHex"/>
 			</object>
@@ -29,9 +29,9 @@
 					<object name="tagcategoryselectionblackboardTags">
 						<object name="TagCategorySelectionArray">
 							<object name="TagCategorySelection">
-								<field hash="CF68E402" type="String"/>
+								<field name="text_hid_DTCTH_ClassName" type="String"/>
 								<field name="hid_DTCTH_ClassName" type="BinHex"/>
-								<field hash="BDB3B8D5" type="String"/>
+								<field name="text_UITagCategorySelectionClassID" type="String"/>
 								<field name="UITagCategorySelectionClassID" type="BinHex"/>
 								<field name="tagcategoryUITagCategory" type="BinHex"/>
 								<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -44,7 +44,7 @@
 							</object>
 						</object>
 						<object name="TagDescriptorUI">
-							<field hash="CF68E402" type="BinHex"/>
+							<field name="text_hid_DTCTH_ClassName" type="String"/>
 							<field name="hid_DTCTH_ClassName" type="BinHex"/>
 							<object name="TagCategorySelectionDescriptors">
 								<object name="TagCategorySelectionDescriptor">
@@ -70,10 +70,10 @@
 				<field name="sPlaceholder" type="BinHex"/>
 				<field name="fPlaceholderDuration" type="Float"/>
 				<object name="EventSettings">
-					<field hash="6D1E1959" type="String"/>
+					<field name="text_selType" type="String"/>
 					<field name="selType" type="BinHex"/>
 					<object name="Object">
-						<field hash="92210DFC" type="String"/>
+						<field name="text_hidEventName" type="String"/>
 						<field name="hidEventName" type="BinHex"/>
 						<field name="bCheckRemote" type="Boolean"/>
 						<field name="iOrderOfCompletionIndex" type="BinHex"/>
@@ -81,15 +81,15 @@
 						<object name="Target">
 							<field name="TargetSceneID" type="BinHex"/>
 							<field name="TargetRole" type="BinHex"/>
-							<field hash="AA658794" type="String"/>
-							<field hash="A6871411" type="String"/>
+							<field name="text_TargetSceneID" type="String"/>
+							<field name="text_TargetRole" type="String"/>
 						</object>
 					</object>
 				</object>
 				<object name="NarrativeElementsSettings">
 					<object name="Entry">
 						<object name="NarrativeElement">
-							<field hash="6D1E1959" type="String"/>
+							<field name="text_selType" type="String"/>
 							<field name="selType" type="BinHex"/>
 							<object name="Object">
 								<field name="Id" type="BinHex"/>
@@ -117,9 +117,9 @@
 	<object name="tagcategoryselectionblackboardTags">
 		<object name="TagCategorySelectionArray">
 			<object name="TagCategorySelection">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -132,7 +132,7 @@
 			</object>
 		</object>
 		<object name="TagDescriptorUI">
-			<field hash="CF68E402" type="BinHex"/>
+			<field name="text_hid_DTCTH_ClassName" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">

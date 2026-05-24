@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field hash="A788914C" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bCableCar" type="Boolean"/>
 	<field name="bMuniTrain" type="Boolean"/>

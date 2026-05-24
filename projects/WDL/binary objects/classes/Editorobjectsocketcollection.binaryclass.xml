@@ -4,12 +4,12 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="editorobjectsocketcategoryCategory" type="BinHex"/>
 	<object name="CollectionItemNodes">
 		<object name="CollectionItemNode">
-			<field hash="23630F59" type="BinHex"/>
+			<field name="text_fileProxyObject" type="String"/>
 			<field name="fileProxyObject" type="BinHex"/>
 			<field name="vectorPosition" type="Vector3"/>
 			<field name="angvecRotation" type="Vector3"/>
@@ -17,7 +17,7 @@
 			<field name="socketitemidUniqueID" type="BinHex"/>
 			<object name="SubCollectionItemNodes">
 				<object name="CollectionItemNode">
-					<field hash="23630F59" type="String"/>
+					<field name="text_fileProxyObject" type="String"/>
 					<field name="fileProxyObject" type="BinHex"/>
 					<field name="vectorPosition" type="Vector3"/>
 					<field name="angvecRotation" type="Vector3"/>
@@ -25,7 +25,7 @@
 					<field name="socketitemidUniqueID" type="BinHex"/>
 					<object name="SubCollectionItemNodes">
 						<object name="CollectionItemNode">
-							<field hash="23630F59" type="String"/>
+							<field name="text_fileProxyObject" type="String"/>
 							<field name="fileProxyObject" type="BinHex"/>
 							<field name="vectorPosition" type="Vector3"/>
 							<field name="angvecRotation" type="Vector3"/>
@@ -33,7 +33,7 @@
 							<field name="socketitemidUniqueID" type="BinHex"/>
 							<object name="SubCollectionItemNodes">
 								<object name="CollectionItemNode">
-									<field hash="23630F59" type="BinHex"/>
+									<field name="text_fileProxyObject" type="String"/>
 									<field name="fileProxyObject" type="BinHex"/>
 									<field name="vectorPosition" type="Vector3"/>
 									<field name="angvecRotation" type="Vector3"/>

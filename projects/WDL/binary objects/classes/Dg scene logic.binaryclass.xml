@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bIsCompatibleWithOpGenerator" type="Boolean"/>
 	<object name="Entries">
@@ -15,7 +15,7 @@
 				<object name="Entries">
 					<object name="Entry">
 						<field name="BrickID" type="String"/>
-						<field hash="0C3FB1A7" type="String"/>
+						<field name="text_dgbrickselectionDGBrickSettingsClassNameId" type="String"/>
 						<field name="dgbrickselectionDGBrickSettingsClassNameId" type="BinHex"/>
 						<field name="dgbricksettingsfilterFilter" type="BinHex"/>
 					</object>
@@ -23,9 +23,9 @@
 			</object>
 			<object name="Scenes">
 				<object name="Scene">
-					<field hash="858A200E" type="String"/>
+					<field name="text_BrickID" type="String"/>
 					<field name="BrickID" type="BinHex"/>
-					<field hash="B1AD7E9C" type="String"/>
+					<field name="text_SceneID" type="String"/>
 					<field name="SceneID" type="BinHex"/>
 					<field name="dgsceneScene" type="BinHex"/>
 				</object>
@@ -39,10 +39,10 @@
 				<field name="sPlaceholder" type="BinHex"/>
 				<field name="fPlaceholderDuration" type="Float"/>
 				<object name="EventSettings">
-					<field hash="6D1E1959" type="String"/>
+					<field name="text_selType" type="String"/>
 					<field name="selType" type="BinHex"/>
 					<object name="Object">
-						<field hash="92210DFC" type="String"/>
+						<field name="text_hidEventName" type="String"/>
 						<field name="hidEventName" type="BinHex"/>
 						<object name="Target">
 							<field name="TargetSceneID" type="BinHex"/>
@@ -53,7 +53,7 @@
 				<object name="NarrativeElementsSettings">
 					<object name="Entry">
 						<object name="NarrativeElement">
-							<field hash="6D1E1959" type="BinHex"/>
+							<field name="text_selType" type="String"/>
 							<field name="selType" type="BinHex"/>
 							<object name="Object">
 								<field name="Id" type="BinHex"/>

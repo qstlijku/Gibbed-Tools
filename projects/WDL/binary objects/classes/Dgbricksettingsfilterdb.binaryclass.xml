@@ -4,10 +4,10 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="Filter">
-		<field hash="6D1E1959" type="String"/>
+		<field name="text_selType" type="String"/>
 		<field name="selType" type="BinHex"/>
 		<object name="Object">
 			<object name="Members">

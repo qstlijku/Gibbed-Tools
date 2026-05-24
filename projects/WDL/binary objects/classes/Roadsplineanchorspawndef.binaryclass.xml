@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="SpawnInfos">
 		<object name="SpawnInfo">
@@ -17,7 +17,7 @@
 			<field name="fileProxyObject" type="BinHex"/>
 			<field name="prefabPrefabToSpawn" type="BinHex"/>
 			<field name="archArchetypeToSpawn" type="BinHex"/>
-			<field hash="23630F59" type="BinHex"/>
+			<field name="text_fileProxyObject" type="String"/>
 			<object name="GizmoParams">
 				<field name="bAllowRotation" type="Boolean"/>
 				<field name="bAllowMove" type="Boolean"/>

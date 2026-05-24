@@ -4,17 +4,17 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="DynamicallyTypedBranches">
 		<object name="Branch">
-			<field hash="6D1E1959" type="String"/>
+			<field name="text_selType" type="String"/>
 			<field name="selType" type="BinHex"/>
 			<object name="Object">
 				<field name="sComment" type="String"/>
 				<field name="selEventType" type="BinHex"/>
 				<field name="EventSubType" type="BinHex"/>
-				<field hash="61646701" type="String"/>
+				<field name="text_fileBehaviorCategory" type="String"/>
 				<field name="fileBehaviorCategory" type="BinHex"/>
 				<field name="bIsBail" type="Boolean"/>
 				<field name="selBailPriority" type="BinHex"/>
@@ -34,17 +34,17 @@
 				</object>
 				<object name="BranchPreconditions">
 					<object name="Precondition">
-						<field hash="6D1E1959" type="String"/>
+						<field name="text_selType" type="String"/>
 						<field name="selType" type="BinHex"/>
 						<object name="Object">
-							<field hash="F1B1D97B" type="String"/>
+							<field name="text_sName" type="String"/>
 							<field name="sName" type="BinHex"/>
 							<field name="iShouldEqual" type="BinHex"/>
 							<field name="bShouldEqual" type="Boolean"/>
-							<field hash="5E144F40" type="BinHex"/>
+							<field name="text_sBlackboardKey" type="String"/>
 							<field name="sBlackboardKey" type="BinHex"/>
 							<field name="bSucceedIfTrue" type="Boolean"/>
-							<field hash="122C9A00" type="String"/>
+							<field name="text_sKey" type="String"/>
 							<field name="sKey" type="BinHex"/>
 							<field name="iReferenceValue" type="BinHex"/>
 							<field name="selOperator" type="BinHex"/>

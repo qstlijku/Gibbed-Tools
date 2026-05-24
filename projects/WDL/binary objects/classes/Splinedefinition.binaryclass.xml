@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bLegacy" type="Boolean"/>
 	<field name="bUseVisual" type="Boolean"/>
@@ -55,8 +55,8 @@
 				<field name="bPreserveSpacingOnXOffset" type="Boolean"/>
 				<field name="bUseProjectedLength" type="Boolean"/>
 				<field name="bIsKilledByMorphBox" type="Boolean"/>
-				<field hash="23630F59" type="BinHex"/>
-				<field hash="42367171" type="BinHex"/>
+				<field name="text_fileProxyObject" type="String"/>
+				<field name="text_archArchetypeToSpawn" type="String"/>
 				<object name="EntityOverrideBehavior">
 					<field name="bAllowOverride" type="Boolean"/>
 					<field name="folder" type="BinHex"/>

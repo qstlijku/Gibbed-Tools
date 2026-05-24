@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="selActionID" type="BinHex"/>
 	<object name="Considerations">
@@ -16,7 +16,7 @@
 		<object name="Considerations">
 			<object name="Considerations">
 				<field name="bEnabled" type="Boolean"/>
-				<field hash="F96FAF0D" type="String"/>
+				<field name="text_Name" type="String"/>
 				<field name="Name" type="BinHex"/>
 				<field name="bIsBonus" type="Boolean"/>
 				<field name="fBonus" type="Float"/>

@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bRunInForeground" type="Boolean"/>
 	<object name="HasQuirk">
@@ -15,7 +15,7 @@
 		<object name="Effects">
 			<field name="fChance" type="Float"/>
 			<object name="Condition">
-				<field hash="6D1E1959" type="String"/>
+				<field name="text_selType" type="String"/>
 				<field name="selType" type="BinHex"/>
 				<object name="Object">
 					<field name="fDelayMinTime" type="Float"/>
@@ -30,8 +30,8 @@
 					<field name="sPawnEventName" type="BinHex"/>
 					<field name="selConditionEventType" type="BinHex"/>
 					<field name="bIsFireAndForget" type="Boolean"/>
-					<field hash="E974FCF7" type="String"/>
-					<field hash="B90829B3" type="BinHex"/>
+					<field name="text_sPawnEventName" type="String"/>
+					<field name="text_sProgressionActionName" type="String"/>
 					<field name="fMinReticleDistance" type="Float"/>
 					<field name="fMinCameraZAngle" type="Float"/>
 					<field name="fCooldown" type="Float"/>
@@ -41,7 +41,7 @@
 					</object>
 					<object name="Conditions">
 						<object name="Conditions">
-							<field hash="6D1E1959" type="BinHex"/>
+							<field name="text_selType" type="String"/>
 							<field name="selType" type="BinHex"/>
 							<object name="Object">
 								<field name="fDelayMinTime" type="Float"/>
@@ -61,7 +61,7 @@
 			</object>
 			<object name="Actions">
 				<object name="Actions">
-					<field hash="6D1E1959" type="String"/>
+					<field name="text_selType" type="String"/>
 					<field name="selType" type="BinHex"/>
 					<object name="Object">
 						<field name="fChance" type="Float"/>
@@ -89,7 +89,7 @@
 						</object>
 						<object name="SoundEvents">
 							<object name="Sounds">
-								<field hash="463EA461" type="BinHex"/>
+								<field name="text_sndSound" type="String"/>
 								<field name="sndSound" type="BinHex"/>
 								<field hash="8FE662AD" type="Boolean"/>
 								<field name="bUseGenderBasedSounds" type="Boolean"/>

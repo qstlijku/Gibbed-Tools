@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="emoteOverrideTauntEmote" type="BinHex"/>
 	<field hash="32F2E15B" type="BinHex"/>
@@ -16,7 +16,7 @@
 	<object name="BarkInfo">
 		<object name="Barks">
 			<object name="Bark">
-				<field hash="AC5CD011" type="String"/>
+				<field name="text_BarkId" type="String"/>
 				<field name="BarkId" type="BinHex"/>
 				<field name="bIsOneTimeUse" type="Boolean"/>
 				<object name="LocalTriggerCooldown">
@@ -36,7 +36,7 @@
 					<object name="Considerations">
 						<object name="Considerations">
 							<field name="bEnabled" type="Boolean"/>
-							<field hash="F96FAF0D" type="String"/>
+							<field name="text_Name" type="String"/>
 							<field name="Name" type="BinHex"/>
 							<field name="bIsBonus" type="Boolean"/>
 							<field name="fBonus" type="Float"/>
@@ -112,7 +112,7 @@
 					<object name="Considerations">
 						<object name="Considerations">
 							<field name="bEnabled" type="Boolean"/>
-							<field hash="F96FAF0D" type="String"/>
+							<field name="text_Name" type="String"/>
 							<field name="Name" type="BinHex"/>
 							<field name="bIsBonus" type="Boolean"/>
 							<field name="fBonus" type="Float"/>
@@ -164,7 +164,7 @@
 					<object name="Considerations">
 						<object name="Considerations">
 							<field name="bEnabled" type="Boolean"/>
-							<field hash="F96FAF0D" type="String"/>
+							<field name="text_Name" type="String"/>
 							<field name="Name" type="BinHex"/>
 							<field name="bIsBonus" type="Boolean"/>
 							<field name="fBonus" type="Float"/>
@@ -212,7 +212,7 @@
 					<object name="Considerations">
 						<object name="Considerations">
 							<field name="bEnabled" type="Boolean"/>
-							<field hash="F96FAF0D" type="String"/>
+							<field name="text_Name" type="String"/>
 							<field name="Name" type="BinHex"/>
 							<field name="bIsBonus" type="Boolean"/>
 							<field name="fBonus" type="Float"/>
@@ -392,7 +392,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -434,7 +434,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -476,7 +476,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -518,7 +518,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -560,7 +560,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -602,7 +602,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -644,7 +644,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -686,7 +686,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="BinHex"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -728,7 +728,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="BinHex"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -770,7 +770,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -821,7 +821,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -872,7 +872,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -914,7 +914,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -956,7 +956,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -998,7 +998,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -1040,7 +1040,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -1082,7 +1082,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -1124,7 +1124,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>
@@ -1166,7 +1166,7 @@
 			<object name="Considerations">
 				<object name="Considerations">
 					<field name="bEnabled" type="Boolean"/>
-					<field hash="F96FAF0D" type="String"/>
+					<field name="text_Name" type="String"/>
 					<field name="Name" type="BinHex"/>
 					<field name="bIsBonus" type="Boolean"/>
 					<field name="fBonus" type="Float"/>

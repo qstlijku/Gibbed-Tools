@@ -4,11 +4,11 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bIsWater" type="Boolean"/>
 	<field name="bIsVisible" type="Boolean"/>
-	<field hash="32E3D337" type="String"/>
+	<field name="text_fileFlowTexture" type="String"/>
 	<field name="fileFlowTexture" type="BinHex"/>
 	<field name="colorWaterColor" type="Vector3"/>
 	<field name="fFlowSpeed" type="Float"/>

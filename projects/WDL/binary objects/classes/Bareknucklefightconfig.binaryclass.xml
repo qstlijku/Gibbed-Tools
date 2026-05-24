@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bareknucklearenaArenaConfig" type="BinHex"/>
 	<field name="bareknucklefightmodifiersModifierConfig" type="BinHex"/>
@@ -40,7 +40,7 @@
 			<object name="IncludeTags">
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
-						<field hash="BDB3B8D5" type="BinHex"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -51,7 +51,7 @@
 			<object name="ExcludeTags">
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
-						<field hash="BDB3B8D5" type="BinHex"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -72,20 +72,20 @@
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
 	<object name="IntroMadCinematic">
-		<field hash="F8C7825F" type="String"/>
+		<field name="text_fileFile" type="String"/>
 		<field name="fileFile" type="BinHex"/>
 		<field name="SceneTemplate" type="BinHex"/>
 		<field name="iDialogTemplate" type="Boolean"/>
 	</object>
 	<object name="OutroWinMadCinematic">
-		<field hash="F8C7825F" type="String"/>
+		<field name="text_fileFile" type="String"/>
 		<field name="fileFile" type="BinHex"/>
 		<field name="SceneTemplate" type="BinHex"/>
 		<field name="iDialogTemplate" type="Boolean"/>
 	</object>
 	<object name="RestartIntroCinematics">
 		<object name="RestartIntroCinematic">
-			<field hash="F8C7825F" type="String"/>
+			<field name="text_fileFile" type="String"/>
 			<field name="fileFile" type="BinHex"/>
 			<field name="SceneTemplate" type="BinHex"/>
 			<field name="iDialogTemplate" type="Boolean"/>
@@ -98,7 +98,7 @@
 			<field name="selExtraCreationType" type="BinHex"/>
 			<field name="droneconfigDroneConfig" type="BinHex"/>
 			<field name="archProjectileArchetype" type="BinHex"/>
-			<field hash="CEFF26C0" type="BinHex"/>
+			<field name="text_archProjectileArchetype" type="String"/>
 			<object name="SpawnConfig">
 				<field name="humanconfigHumanConfig" type="BinHex"/>
 			</object>

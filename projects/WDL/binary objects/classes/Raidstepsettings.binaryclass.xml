@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="opslistRaidStepOpConfig" type="BinHex"/>
 	<field name="RaidStepConsoleCommands" type="BinHex"/>
@@ -95,8 +95,8 @@
 			<field name="sndMixingStateStop" type="BinHex"/>
 			<field name="sndtpMixingStateStartType" type="BinHex"/>
 			<field name="sndtpMixingStateStopType" type="BinHex"/>
-			<field hash="D5C86B7B" type="String"/>
-			<field hash="D7CDA3D2" type="String"/>
+			<field name="text_sndMixingStateStart" type="String"/>
+			<field name="text_sndMixingStateStop" type="String"/>
 		</object>
 		<object name="UI">
 			<field name="bEnableKeyLocation" type="Boolean"/>

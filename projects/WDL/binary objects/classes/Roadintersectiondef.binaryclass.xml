@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bLegacy" type="Boolean"/>
 	<object name="FilletProp">
@@ -84,12 +84,12 @@
 				<field name="bStayVertical" type="Boolean"/>
 				<field name="archArchetypeToSpawn" type="BinHex"/>
 				<field name="prefabPrefabToSpawn" type="String"/>
-				<field hash="23630F59" type="String"/>
+				<field name="text_fileProxyObject" type="String"/>
 				<field name="fileProxyObject" type="BinHex"/>
 				<field name="bSpawnOnClosed" type="Boolean"/>
 				<field name="fFilletPosT" type="Float"/>
 				<field name="bUseFilletOrientation" type="Boolean"/>
-				<field hash="42367171" type="BinHex"/>
+				<field name="text_archArchetypeToSpawn" type="String"/>
 				<field name="selLogicType" type="BinHex"/>
 				<field name="fStartOffsetDist" type="Float"/>
 				<field name="fEndOffsetDist" type="Float"/>

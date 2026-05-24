@@ -4,7 +4,7 @@
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
-	<field hash="9D8873F8" type="String"/>
+	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="HumanIdentity">
 		<field name="selGender" type="BinHex"/>
@@ -45,9 +45,9 @@
 	<object name="tagcategoryselectionblackboardTagsBlackboard">
 		<object name="TagCategorySelectionArray">
 			<object name="TagCategorySelection">
-				<field hash="CF68E402" type="String"/>
+				<field name="text_hid_DTCTH_ClassName" type="String"/>
 				<field name="hid_DTCTH_ClassName" type="BinHex"/>
-				<field hash="BDB3B8D5" type="String"/>
+				<field name="text_UITagCategorySelectionClassID" type="String"/>
 				<field name="UITagCategorySelectionClassID" type="BinHex"/>
 				<field name="tagcategoryUITagCategory" type="BinHex"/>
 				<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -60,7 +60,7 @@
 			</object>
 		</object>
 		<object name="TagDescriptorUI">
-			<field hash="CF68E402" type="BinHex"/>
+			<field name="text_hid_DTCTH_ClassName" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionDescriptors">
 				<object name="TagCategorySelectionDescriptor">
@@ -82,7 +82,7 @@
 			<object name="IncludeTags">
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
-						<field hash="BDB3B8D5" type="BinHex"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -93,7 +93,7 @@
 			<object name="ExcludeTags">
 				<object name="Tag">
 					<object name="tagcategoryselectionTag">
-						<field hash="BDB3B8D5" type="BinHex"/>
+						<field name="text_UITagCategorySelectionClassID" type="String"/>
 						<field name="UITagCategorySelectionClassID" type="BinHex"/>
 						<field name="tagcategoryUITagCategory" type="BinHex"/>
 						<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -105,7 +105,7 @@
 				<object name="ConstraintAny">
 					<object name="Tags">
 						<object name="tagcategoryselectionTag">
-							<field hash="BDB3B8D5" type="BinHex"/>
+							<field name="text_UITagCategorySelectionClassID" type="String"/>
 							<field name="UITagCategorySelectionClassID" type="BinHex"/>
 							<field name="tagcategoryUITagCategory" type="BinHex"/>
 							<field name="tagcategoryTagCategory" type="BinHex"/>
@@ -123,7 +123,7 @@
 	</object>
 	<object name="CharacterCards">
 		<object name="CharacterCardName">
-			<field hash="0AC11821" type="String"/>
+			<field name="text_charactercardnameCharacterCardName" type="String"/>
 			<field name="charactercardnameCharacterCardName" type="BinHex"/>
 		</object>
 	</object>
