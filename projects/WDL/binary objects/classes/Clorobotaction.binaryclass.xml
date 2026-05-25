@@ -24,7 +24,7 @@
 		<field name="bHasExitAnim" type="Boolean"/>
 		<field name="bLoopSpawnAnim" type="Boolean"/>
 		<field name="bLoopAttractAnim" type="Boolean"/>
-		<field hash="F41EFDC2" type="BinHex"/>
+		<field name="propselCLOPropSelector" type="BinHex"/>
 		<field name="bProximityBehavior" type="Boolean"/>
 		<field name="selBhvPriority" type="Enum"/>
 		<field name="bDespawnOnUse" type="BinHex"/>

@@ -606,7 +606,7 @@
 			<object name="Object">
 				<field hash="46C93851" type="BinHex"/>
 				<field name="iScore" type="BinHex"/>
-				<object hash="D1476C4E">
+				<object name="locstridGoalTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object name="locstridGoalDescription">
@@ -634,7 +634,7 @@
 			<object name="Object">
 				<field hash="46C93851" type="BinHex"/>
 				<field name="iTargetTime" type="BinHex"/>
-				<object hash="D1476C4E">
+				<object name="locstridGoalTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object name="locstridGoalDescription">
@@ -657,7 +657,7 @@
 			<object name="Object">
 				<field hash="46C93851" type="BinHex"/>
 				<field name="iTargetTime" type="BinHex"/>
-				<object hash="D1476C4E">
+				<object name="locstridGoalTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object name="locstridGoalDescription">

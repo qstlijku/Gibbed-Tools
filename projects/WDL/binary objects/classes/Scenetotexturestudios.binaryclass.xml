@@ -6,23 +6,23 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="101D25D0" type="BinHex"/>
-	<field hash="83008599" type="BinHex"/>
-	<field hash="2A37528A" type="BinHex"/>
-	<field hash="1ADB622B" type="BinHex"/>
-	<field hash="F0D31BAE" type="BinHex"/>
+	<field name="fFov" type="BinHex"/>
+	<field name="fCamDistanceFromSceneCenter" type="BinHex"/>
+	<field name="fSecondLayerScaling" type="BinHex"/>
+	<field name="bEnableShadow" type="BinHex"/>
+	<field name="bEnableTemporalFiltering" type="BinHex"/>
 	<field name="fExposureValue" type="BinHex"/>
-	<field hash="8D0A40C9" type="BinHex"/>
-	<field hash="F0ABEF4B" type="BinHex"/>
-	<field hash="6D6FEF19" type="BinHex"/>
-	<field hash="59C3B82C" type="BinHex"/>
-	<field hash="322DAAC0" type="BinHex"/>
-	<field hash="45004630" type="BinHex"/>
+	<field name="bOrthogonalCamera" type="BinHex"/>
+	<field name="fCamAngle" type="BinHex"/>
+	<field name="fCamHeight" type="BinHex"/>
+	<field name="fCamXOffset" type="BinHex"/>
+	<field name="sSceneToTextureObjectName" type="BinHex"/>
+	<field name="selViewportWireframeMode" type="BinHex"/>
 	<field hash="FD914198" type="BinHex"/>
 	<field hash="87B7E81A" type="BinHex"/>
 	<field name="CustomEnvironmentMapIndex" type="BinHex"/>
-	<field hash="0BD03994" type="String"/>
-	<field hash="88C97ABF" type="BinHex"/>
+	<field name="text_archExtraObject" type="String"/>
+	<field name="archExtraObject" type="BinHex"/>
 	<object name="Lights">
 		<object name="Light">
 			<field name="bEnabled" type="Boolean"/>
@@ -130,8 +130,8 @@
 			</object>
 		</object>
 		<object name="SceneLight">
-			<field hash="BF6DB2D7" type="BinHex"/>
-			<field hash="EBD3D101" type="BinHex"/>
+			<field name="vecLightPosition" type="BinHex"/>
+			<field name="vecLightDirection" type="BinHex"/>
 			<object name="Light">
 				<field name="bEnabled" type="Boolean"/>
 				<field name="selType" type="Enum"/>

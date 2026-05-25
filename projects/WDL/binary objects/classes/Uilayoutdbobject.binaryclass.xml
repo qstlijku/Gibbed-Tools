@@ -56,10 +56,10 @@
 				</object>
 			</object>
 			<object name="PcSpecificSection">
-				<field hash="2CAC6CB7" type="BinHex"/>
-				<field hash="6DF786D7" type="BinHex"/>
-				<field hash="1549AA7B" type="BinHex"/>
-				<field hash="7337ABAF" type="BinHex"/>
+				<field name="bUseDefaultScaleBehaviourOnPC" type="BinHex"/>
+				<field name="bUseDefaultPositioningBehaviourOnPC" type="BinHex"/>
+				<field name="bUsingDesignResolution" type="BinHex"/>
+				<field name="bIsSafeframeMenuEnabled" type="BinHex"/>
 			</object>
 		</object>
 	</object>

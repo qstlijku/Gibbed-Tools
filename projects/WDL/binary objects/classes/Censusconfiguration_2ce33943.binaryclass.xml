@@ -778,7 +778,7 @@
 	</object>
 	<object name="PredefinedFilters">
 		<object name="Filter">
-			<field hash="F1B1D97B" type="BinHex"/>
+			<field name="text_sName" type="BinHex"/>
 			<field name="sName" type="BinHex"/>
 			<object name="Filter">
 				<object name="tagcategoryselectionblackboardProfile">
@@ -844,9 +844,9 @@
 		<object name="NameOverrides">
 			<object name="Override">
 				<field name="tagNameOverrideTag" type="BinHex"/>
-				<field hash="782FDA60" type="BinHex"/>
+				<field name="text_sCensusProfileFieldNameOverride" type="BinHex"/>
 				<field name="sCensusProfileFieldNameOverride" type="BinHex"/>
-				<field hash="8DC73186" type="BinHex"/>
+				<field name="text_sCensusProfileFieldSurnameOverride" type="BinHex"/>
 				<field name="sCensusProfileFieldSurnameOverride" type="BinHex"/>
 				<field name="uiNameCensusFieldId" type="BinHex"/>
 				<field name="uiSurnameCensusFieldId" type="BinHex"/>

@@ -7,13 +7,13 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="PGTConfig">
-		<field hash="64B6E507" type="Boolean"/>
+		<field name="bIsLongRange" type="Boolean"/>
 	</object>
 	<object name="Properties">
 		<field name="bIsBuddyAI" type="Boolean"/>
 		<field name="bIsPlayerAlly" type="Boolean"/>
 		<field name="selMindSet" type="BinHex"/>
-		<field hash="3830264B" type="Boolean"/>
+		<field name="bIsFactionAffiliate" type="Boolean"/>
 		<field name="bForceRespawnAfterCheckpoint" type="Boolean"/>
 		<field name="stimtableStimEffectTable" type="BinHex"/>
 		<field name="navigationconfigNavigationConfig" type="BinHex"/>

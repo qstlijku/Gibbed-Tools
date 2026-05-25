@@ -25,8 +25,8 @@
 		</object>
 	</object>
 	<object name="AllowMeleeWeapon">
-		<field hash="94C08F9B" type="Boolean"/>
-		<field hash="1DF2E0ED" type="BinHex"/>
+		<field name="rulesmithidRule" type="Boolean"/>
+		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
 	<object name="Wolfskin">
 		<field name="disNomadObjectId" type="BinHex"/>

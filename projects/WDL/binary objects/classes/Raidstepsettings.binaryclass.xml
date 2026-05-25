@@ -120,7 +120,7 @@
 		<field hash="462FD608" type="BinHex"/>
 		<field hash="BB255F80" type="BinHex"/>
 		<field hash="794232AA" type="BinHex"/>
-		<field hash="A78A963A" type="BinHex"/>
+		<field name="bHideMissionAreaOnEnter" type="BinHex"/>
 		<object hash="507C5606">
 			<field name="LocalizationId" type="BinHex"/>
 		</object>

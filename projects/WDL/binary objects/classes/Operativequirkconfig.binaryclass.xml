@@ -91,7 +91,7 @@
 							<object name="Sounds">
 								<field name="text_sndSound" type="String"/>
 								<field name="sndSound" type="BinHex"/>
-								<field hash="8FE662AD" type="Boolean"/>
+								<field name="sndtpSoundType" type="Boolean"/>
 								<field name="bUseGenderBasedSounds" type="Boolean"/>
 								<field name="bIsMale" type="Boolean"/>
 							</object>
@@ -113,7 +113,7 @@
 							</object>
 						</object>
 						<object name="RulesmithRulePettyThief">
-							<field hash="C50F1A52" type="BinHex"/>
+							<field name="rulesmithidRuleId" type="BinHex"/>
 						</object>
 					</object>
 				</object>

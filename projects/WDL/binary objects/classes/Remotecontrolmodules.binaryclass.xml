@@ -4916,7 +4916,7 @@
 			<field name="sndtpAbilitySelectedType" type="BinHex"/>
 			<field name="sndtpReloadSoundType" type="BinHex"/>
 			<field name="sndtpReloadDoneSoundType" type="BinHex"/>
-			<field hash="B2A9FD02" type="String"/>
+			<field name="text_psOverchargeParticles" type="String"/>
 			<field name="text_archProjectileArchetype" type="String"/>
 			<field name="archProjectileArchetype" type="BinHex"/>
 			<field name="text_psMuzzleFlashFx" type="String"/>
@@ -5059,7 +5059,7 @@
 			<field name="sndLaunchSound" type="BinHex"/>
 			<field name="text_sndAbilitySelected" type="String"/>
 			<field name="sndAbilitySelected" type="BinHex"/>
-			<field hash="B77BF821" type="String"/>
+			<field name="text_sndReloadSound" type="String"/>
 			<field name="text_sndAboutToOverheatStartSound" type="String"/>
 			<field name="sndAboutToOverheatStartSound" type="BinHex"/>
 			<field name="text_sndAboutToOverheatStopSound" type="String"/>

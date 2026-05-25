@@ -6,14 +6,14 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="57E07B01" type="BinHex"/>
-	<field hash="1D5AF72C" type="BinHex"/>
+	<field name="selOPSwapQuality" type="BinHex"/>
+	<field name="opswapcameraparamsCameraParamsDB" type="BinHex"/>
 	<object name="BronzeOpSwapParams">
-		<field hash="71F8E574" type="BinHex"/>
+		<field name="singleclocreationsettingsOpSwapSingleCLOCreationSettings" type="BinHex"/>
 	</object>
 	<object name="SilverOpSwapParams">
-		<field hash="54940D59" type="BinHex"/>
-		<field hash="651B1ED8" type="BinHex"/>
+		<field name="cloactCLOAction" type="BinHex"/>
+		<field name="cloactlistCLOActionList" type="BinHex"/>
 	</object>
 	<object name="CameraParams">
 		<field name="text_fileAnimatedCamera" type="String"/>
@@ -23,14 +23,14 @@
 		<field name="fCameraNearDistance" type="BinHex"/>
 		<field name="angvecCameraAngle" type="BinHex"/>
 		<field name="vecCameraOffset" type="BinHex"/>
-		<field hash="D82C9F24" type="BinHex"/>
-		<field hash="81694604" type="BinHex"/>
-		<field hash="1C4D586A" type="BinHex"/>
-		<object hash="798534BF">
+		<field name="bDisableCameraCollision" type="BinHex"/>
+		<field name="bEnableBlendOutDistance" type="BinHex"/>
+		<field name="fBlendOutDistance" type="BinHex"/>
+		<object name="depthOfFieldParams">
 			<field name="bEnable" type="Boolean"/>
 			<field name="fIntensity" type="Float"/>
-			<field hash="08FBF9CB" type="BinHex"/>
-			<field hash="04EA13F0" type="BinHex"/>
+			<field name="fNearDofIntensity" type="BinHex"/>
+			<field name="fFarDofIntensity" type="BinHex"/>
 			<field name="fFocusDistance" type="Float"/>
 			<field name="fFocalLength" type="Float"/>
 			<field name="fFStop" type="Float"/>
@@ -40,12 +40,12 @@
 		</object>
 	</object>
 	<object name="Audio">
-		<field hash="5F6AE353" type="BinHex"/>
+		<field name="phonecommunicationsettingsTeamSpeakPhoneCommSetting" type="BinHex"/>
 	</object>
 	<object name="BaseParams">
-		<field hash="B7640E13" type="BinHex"/>
-		<field hash="FD6A274C" type="BinHex"/>
-		<field hash="D0657CB7" type="BinHex"/>
+		<field name="bIsAlwaysAvailable" type="BinHex"/>
+		<field name="fCoolDownInMinutes" type="BinHex"/>
+		<field name="selTimeOfDayAllowed" type="BinHex"/>
 		<field name="selRainIntensity" type="Enum"/>
 	</object>
 </class>

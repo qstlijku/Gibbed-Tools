@@ -8,5 +8,5 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fileTextureResource" type="String"/>
 	<field name="sStrippedFileName" type="String"/>
-	<field hash="C2A7DBE9" type="BinHex"/>
+	<field name="bUseResourceContainer" type="BinHex"/>
 </class>

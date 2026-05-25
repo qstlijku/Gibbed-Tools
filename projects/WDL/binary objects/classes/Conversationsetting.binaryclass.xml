@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="23C6BE91" type="BinHex"/>
+	<field name="bIsPlasmaConversation" type="BinHex"/>
 	<field name="selInterruptPriority" type="Enum"/>
 	<field name="lookatsettingDefaultLookAt" type="BinHex"/>
 	<field name="selConversationName" type="Enum"/>
@@ -14,10 +14,10 @@
 	<object name="PlasmaConversationSettings">
 		<field name="text_SceneTemplate" type="String"/>
 		<field name="SceneTemplate" type="BinHex"/>
-		<field hash="1588B4F3" type="BinHex"/>
-		<field hash="B8802CE5" type="BinHex"/>
-		<field hash="CB2113A0" type="BinHex"/>
-		<field hash="3C3697FF" type="BinHex"/>
+		<field name="plasmaDialogTemplateId" type="BinHex"/>
+		<field name="bGenerateCameraCuts" type="BinHex"/>
+		<field name="bAllowCameraFlip" type="BinHex"/>
+		<field name="bHoldBlackScreenOnExit" type="BinHex"/>
 	</object>
 	<object name="AnimatedConversationLines"/>
 	<object name="ResumingAnimatedLines"/>

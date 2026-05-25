@@ -18,7 +18,7 @@
 		<field hash="0218A106" type="BinHex"/>
 		<field hash="28C07520" type="BinHex"/>
 		<field hash="2608FC8C" type="BinHex"/>
-		<field hash="7173BFA6" type="BinHex"/>
-		<field hash="1045B1D1" type="BinHex"/>
+		<field name="uisoundShortcutSuccessfulActivationSound" type="BinHex"/>
+		<field name="uisoundShortcutFailedActivationSound" type="BinHex"/>
 	</object>
 </class>

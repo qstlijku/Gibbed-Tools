@@ -13,17 +13,17 @@
 		<field name="vectorProfilerLineTargetOffset" type="BinHex"/>
 		<field name="vectorProfilerSoftLockIconOffset" type="BinHex"/>
 		<field name="bIsProfilerSticky" type="Boolean"/>
-		<field hash="8B809CA7" type="BinHex"/>
+		<field name="bProfilerApplyTargetOffsetToBonePos" type="BinHex"/>
 		<field name="vectorProfilerScoringQuadSizeModifier" type="BinHex"/>
 		<field name="vectorProfilerScoringQuadCenterOffset" type="BinHex"/>
 		<field name="vectorProfilerScoringQuadSizeModifierVehicle" type="BinHex"/>
 		<field name="vectorProfilerScoringQuadCenterOffsetVehicle" type="BinHex"/>
 		<field name="bProfilerHighSpeedTargetable" type="BinHex"/>
-		<field hash="0F5CAA36" type="BinHex"/>
+		<field name="bProfilerTargetOnlyInHighSpeed" type="BinHex"/>
 		<field name="fProfilerAdditionalTargetScore" type="BinHex"/>
 		<field name="fProfilerAdditionalTargetScoreVehicle" type="BinHex"/>
 		<field name="selProfileColorTypeOverride" type="Enum"/>
-		<field hash="CC0C4505" type="BinHex"/>
+		<field name="selIngredientProfilerCategory" type="BinHex"/>
 		<object name="locsectionidProfile">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>

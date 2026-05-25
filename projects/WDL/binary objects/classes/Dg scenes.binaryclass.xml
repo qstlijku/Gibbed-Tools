@@ -16,17 +16,17 @@
 				<field name="text_selType" type="String"/>
 				<field name="selType" type="Enum"/>
 				<object name="Object">
-					<field hash="6CD78C8B" type="String"/>
-					<field hash="68FEE4B2" type="BinHex"/>
-					<field hash="51F9763A" type="BinHex"/>
-					<field hash="E6D06F75" type="BinHex"/>
-					<field hash="99372FEC" type="BinHex"/>
-					<field hash="B19B129D" type="BinHex"/>
-					<field hash="38D5BC9A" type="BinHex"/>
+					<field name="text_archOverrideArchetype" type="String"/>
+					<field name="selSubtype" type="BinHex"/>
+					<field name="vehicleentityconfigOverrideConfig" type="BinHex"/>
+					<field name="selPlasmaRole" type="BinHex"/>
+					<field name="selAffiliationType" type="BinHex"/>
+					<field name="humanconfigOverrideConfig" type="BinHex"/>
+					<field name="droneconfigOverrideConfig" type="BinHex"/>
 					<field name="aispawningtypeArchetype" type="BinHex"/>
 					<field name="vehiclesbankVehicleBank" type="BinHex"/>
-					<field hash="230EE452" type="BinHex"/>
-					<field hash="BFF000FC" type="BinHex"/>
+					<field name="castedcharactersCastedCharacter" type="BinHex"/>
+					<field name="censusattendancedefinitionAttendanceDef" type="BinHex"/>
 					<object name="tagcategoryselectionblackboardFeatureTags">
 						<object name="TagCategorySelectionArray">
 							<object name="TagCategorySelection">
@@ -54,33 +54,33 @@
 							</object>
 						</object>
 					</object>
-					<field hash="D08DE62B" type="BinHex"/>
-					<field hash="87F01422" type="BinHex"/>
+					<field name="archOverrideArchetype" type="BinHex"/>
+					<field name="dgsceneingredientIngredient" type="BinHex"/>
 				</object>
 			</object>
 		</object>
 		<object name="StaticRoles">
 			<object name="OptionalReplace">
 				<object name="Roles">
-					<object hash="307E4CED">
-					<field hash="0C97F65C" type="String"/>
-					<field hash="307E4CED" type="BinHex"/>
+					<object name="seldgsceneroleRoleId">
+					<field name="text_seldgsceneroleRoleId" type="String"/>
+					<field name="seldgsceneroleRoleId" type="BinHex"/>
 				</object>
 				</object>
 			</object>
 			<object name="MandatoryAdd">
 				<object name="Roles">
-					<object hash="307E4CED">
-					<field hash="0C97F65C" type="String"/>
-					<field hash="307E4CED" type="BinHex"/>
+					<object name="seldgsceneroleRoleId">
+					<field name="text_seldgsceneroleRoleId" type="String"/>
+					<field name="seldgsceneroleRoleId" type="BinHex"/>
 				</object>
 				</object>
 			</object>
 			<object name="OptionalAdd">
 				<object name="Roles">
-					<object hash="307E4CED">
-					<field hash="0C97F65C" type="String"/>
-					<field hash="307E4CED" type="BinHex"/>
+					<object name="seldgsceneroleRoleId">
+					<field name="text_seldgsceneroleRoleId" type="String"/>
+					<field name="seldgsceneroleRoleId" type="BinHex"/>
 				</object>
 				</object>
 			</object>
@@ -91,25 +91,25 @@
 			<object name="Variation">
 				<field name="text_FriendlyName" type="String"/>
 				<field name="FriendlyName" type="BinHex"/>
-				<field hash="0B4664A1" type="BinHex"/>
+				<field name="dgnarrativeNarrativeConfig" type="BinHex"/>
 			</object>
 		</object>
 	</object>
 	<object name="AnchorSettings">
 		<object name="Anchors">
 			<object name="Anchor">
-				<field hash="4D4C05E3" type="String"/>
-				<field hash="C7E41869" type="BinHex"/>
-				<field hash="DAF43240" type="BinHex"/>
+				<field name="text_seldgsceneroleLinkedActor" type="String"/>
+				<field name="seldgsceneroleLinkedActor" type="BinHex"/>
+				<field name="bUseInAllVariations" type="BinHex"/>
 				<object name="Data">
 					<field name="selType" type="Enum"/>
-					<field hash="5637A976" type="String"/>
-					<field hash="E0752564" type="BinHex"/>
+					<field name="text_sSubType" type="String"/>
+					<field name="sSubType" type="BinHex"/>
 				</object>
 				<object name="UseInNarrativeVariations">
-					<object hash="DEFD2065">
-						<field hash="29A450C3" type="String"/>
-						<field hash="DEFD2065" type="BinHex"/>
+					<object name="seldgscenenarrativevariationVariationName">
+						<field name="text_seldgscenenarrativevariationVariationName" type="String"/>
+						<field name="seldgscenenarrativevariationVariationName" type="BinHex"/>
 					</object>
 				</object>
 			</object>
@@ -117,17 +117,17 @@
 	</object>
 	<object name="Stages">
 		<object name="Stage">
-			<field hash="56A9B936" type="BinHex"/>
+			<field name="dgstageStage" type="BinHex"/>
 			<object name="Roles">
-				<object hash="307E4CED">
-					<field hash="0C97F65C" type="String"/>
-					<field hash="307E4CED" type="BinHex"/>
+				<object name="seldgsceneroleRoleId">
+					<field name="text_seldgsceneroleRoleId" type="String"/>
+					<field name="seldgsceneroleRoleId" type="BinHex"/>
 				</object>
 				<object name="Role">
 					<field name="text_SceneRoleID" type="String"/>
 					<field name="SceneRoleID" type="BinHex"/>
-					<field hash="F73E7168" type="String"/>
-					<field hash="FAD9B34B" type="BinHex"/>
+					<field name="text_dgstagerolelinkStageRoleID" type="String"/>
+					<field name="dgstagerolelinkStageRoleID" type="BinHex"/>
 				</object>
 			</object>
 		</object>

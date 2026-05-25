@@ -14,14 +14,14 @@
 		<field name="fCameraNearDistance" type="BinHex"/>
 		<field name="angvecCameraAngle" type="BinHex"/>
 		<field name="vecCameraOffset" type="BinHex"/>
-		<field hash="D82C9F24" type="BinHex"/>
-		<field hash="81694604" type="BinHex"/>
-		<field hash="1C4D586A" type="BinHex"/>
-		<object hash="798534BF">
+		<field name="bDisableCameraCollision" type="BinHex"/>
+		<field name="bEnableBlendOutDistance" type="BinHex"/>
+		<field name="fBlendOutDistance" type="BinHex"/>
+		<object name="depthOfFieldParams">
 			<field name="bEnable" type="Boolean"/>
 			<field name="fIntensity" type="Float"/>
-			<field hash="08FBF9CB" type="BinHex"/>
-			<field hash="04EA13F0" type="BinHex"/>
+			<field name="fNearDofIntensity" type="BinHex"/>
+			<field name="fFarDofIntensity" type="BinHex"/>
 			<field name="fFocusDistance" type="Float"/>
 			<field name="fFocalLength" type="Float"/>
 			<field name="fFStop" type="Float"/>

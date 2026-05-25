@@ -48,12 +48,12 @@
 							<field name="sKey" type="BinHex"/>
 							<field name="iReferenceValue" type="BinHex"/>
 							<field name="selOperator" type="BinHex"/>
-							<field hash="9208EB25" type="BinHex"/>
+							<field name="selRole" type="BinHex"/>
 							<field hash="C44926F4" type="BinHex"/>
 							<field name="uiShouldEqual" type="Boolean"/>
 							<object name="IsValid">
-								<field hash="94C08F9B" type="BinHex"/>
-								<field hash="1DF2E0ED" type="BinHex"/>
+								<field name="rulesmithidRule" type="BinHex"/>
+								<field name="rulesmithconstValue" type="BinHex"/>
 							</object>
 						</object>
 					</object>

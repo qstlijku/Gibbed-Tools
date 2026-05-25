@@ -28,7 +28,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="27942400">
+	<object name="tagcategoryselectionblackboardoverrideTagCategorySelectionBlackboardOverride">
 		<object name="TagCategorySelectionOverrideArray">
 			<object name="TagCategoryOverrideSelection">
 				<field name="text_hid_DTCTH_ClassName" type="String"/>
@@ -46,7 +46,7 @@
 				<object name="ExcludedTags"/>
 			</object>
 		</object>
-		<object hash="F91DC750">
+		<object name="TagCategorySelectionBlackboardSourceUI">
 			<field name="text_hid_DTCTH_ClassName" type="String"/>
 			<field name="hid_DTCTH_ClassName" type="BinHex"/>
 			<object name="TagCategorySelectionArray">

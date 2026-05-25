@@ -13,16 +13,16 @@
 		<field name="uiYPosition" type="UInt32"/>
 		<field name="uiWidth" type="UInt32"/>
 		<field name="uiHeight" type="UInt32"/>
-		<field hash="05F30593" type="BinHex"/>
-		<field hash="75EF8C2E" type="BinHex"/>
-		<field hash="3F09FB91" type="BinHex"/>
-		<field hash="B3A37643" type="BinHex"/>
-		<field hash="9E6F281F" type="BinHex"/>
-		<field hash="C4E5DCFF" type="BinHex"/>
+		<field name="uimovieclipeffectsmappingMovieClipEffects" type="BinHex"/>
+		<field name="bNoZTweenOnFocus" type="BinHex"/>
+		<field name="bUseDefaultAnimOnFocus" type="BinHex"/>
+		<field name="texturedbobjectDefaultIcon" type="BinHex"/>
+		<field name="texturedbobjectToggledOffIcon" type="BinHex"/>
+		<field name="selProfileActionType" type="BinHex"/>
 		<field name="sMovieClipName" type="String"/>
-		<field hash="C1BA0B6A" type="BinHex"/>
-		<field hash="5756CD61" type="BinHex"/>
-		<field hash="1D08481C" type="BinHex"/>
+		<field name="selNewsType" type="BinHex"/>
+		<field name="selNavigationBehavior" type="BinHex"/>
+		<field name="bIsUseSpecificTilesAlignmentForArabic" type="BinHex"/>
 		<field name="bIsFocusable" type="Boolean"/>
 		<field name="LeftArrowPositionX" type="BinHex"/>
 		<field name="RightArrowPositionX" type="BinHex"/>
@@ -30,36 +30,36 @@
 		<field name="MovieClipName" type="String"/>
 		<field name="fIconSpacing" type="Float"/>
 		<field name="selFilterType" type="BinHex"/>
-		<field hash="55E5B292" type="BinHex"/>
+		<field name="fDestinationWidth" type="BinHex"/>
 		<field hash="793E69AB" type="BinHex"/>
 		<field hash="E9B5337C" type="BinHex"/>
-		<field hash="33A8173F" type="String"/>
-		<field hash="AF917B1F" type="BinHex"/>
-		<field hash="76B90657" type="BinHex"/>
+		<field name="sDebugText" type="String"/>
+		<field name="bShowBackground" type="BinHex"/>
+		<field name="selVarietyType" type="BinHex"/>
 		<field name="uimenupageWardrobeCategoryPage" type="BinHex"/>
 		<field name="selIndexDisplayType" type="Enum"/>
 		<field name="itemcategoryShopItemCategory" type="BinHex"/>
 		<field name="fItemImageWidth" type="BinHex"/>
 		<field name="fItemImageHeight" type="BinHex"/>
 		<field name="uimenupageShopPage" type="BinHex"/>
-		<field hash="B50A1A4E" type="BinHex"/>
+		<field name="fUnlockPadding" type="BinHex"/>
 		<field hash="D214239F" type="String"/>
-		<field hash="3F090390" type="BinHex"/>
+		<field name="iTextBoxSpacing" type="BinHex"/>
 		<field hash="A61D6951" type="BinHex"/>
 		<field name="texturedbobjectImage" type="BinHex"/>
 		<field name="LinkageName" type="String"/>
-		<field hash="2D3BBC37" type="BinHex"/>
+		<field name="uCurrencySpacing" type="BinHex"/>
 		<field hash="8262CA84" type="BinHex"/>
 		<field hash="C34B3B7D" type="BinHex"/>
 		<field name="fIntroDuration" type="Float"/>
 		<field name="uMaxNewsCount" type="UInt32"/>
-		<field hash="B6175AFD" type="BinHex"/>
-		<field hash="688AA80C" type="BinHex"/>
-		<field hash="BFFE3139" type="BinHex"/>
+		<field name="uisoundOpenLinkSound" type="BinHex"/>
+		<field name="uisoundUnavailabeLinkSound" type="BinHex"/>
+		<field name="uisoundUbisoftClubLinkSound" type="BinHex"/>
 		<field name="selMediaResourceType" type="Enum"/>
-		<field hash="66341BBB" type="BinHex"/>
-		<field hash="FCA2220A" type="BinHex"/>
-		<field hash="DA198417" type="BinHex"/>
+		<field name="texturedbobjectHdrPreviewImage" type="BinHex"/>
+		<field name="texturedbobjectSdrPreviewImage" type="BinHex"/>
+		<field name="texturedbobjectHdrPreviewLUT" type="BinHex"/>
 		<field name="fNbSecTextShown" type="Float"/>
 		<field name="uisoundOnEnterEpilepsy" type="BinHex"/>
 		<field hash="D52EE75C" type="BinHex"/>
@@ -72,64 +72,64 @@
 		<field name="fInitialValue" type="Float"/>
 		<field name="fMinValue" type="Float"/>
 		<field name="fMaxValue" type="Float"/>
-		<field hash="4163243E" type="BinHex"/>
-		<field hash="630E9B47" type="BinHex"/>
+		<field name="selTileComponentSliderDirection" type="BinHex"/>
+		<field name="iComponentSpacing" type="BinHex"/>
 		<field name="NumberOfTabs" type="BinHex"/>
-		<field hash="6352C03F" type="BinHex"/>
+		<field name="uXStartPositionOfTabs" type="BinHex"/>
 		<field name="SeparationWidthBetweenTabs" type="BinHex"/>
-		<field hash="37AFF6BD" type="BinHex"/>
-		<field hash="AF9D94F8" type="BinHex"/>
-		<field hash="DDB2C7E6" type="BinHex"/>
+		<field name="selNavigationBarType" type="BinHex"/>
+		<field name="selNavigationBarAlignment" type="BinHex"/>
+		<field name="strContainerASLinkageName" type="BinHex"/>
 		<field hash="A38FB75E" type="BinHex"/>
-		<field hash="2E9F2C02" type="BinHex"/>
-		<field hash="E814E6B2" type="String"/>
-		<field hash="4E72280B" type="BinHex"/>
-		<field hash="825FDB51" type="String"/>
-		<field hash="7FF6E1F2" type="BinHex"/>
-		<field hash="3463B3CA" type="String"/>
-		<field hash="C9CA8969" type="BinHex"/>
-		<field hash="3AE456DA" type="BinHex"/>
-		<field hash="C2ADBAE7" type="BinHex"/>
-		<field hash="3AFD30BF" type="BinHex"/>
-		<field hash="9AF38CE4" type="BinHex"/>
-		<field hash="47AF92A2" type="BinHex"/>
-		<field hash="8255C0BD" type="BinHex"/>
-		<field hash="A5F4821A" type="BinHex"/>
-		<field hash="47B73AF9" type="BinHex"/>
+		<field name="bHasOptionsShownInDisplay" type="BinHex"/>
+		<field name="text_uionlinesettingsoptionstypeOptionType" type="String"/>
+		<field name="uionlinesettingsoptionstypeOptionType" type="BinHex"/>
+		<field name="text_uiraidsettingsbuttonsButtonId" type="String"/>
+		<field name="uiraidsettingsbuttonsButtonId" type="BinHex"/>
+		<field name="text_uimultiplayeractionActionType" type="String"/>
+		<field name="uimultiplayeractionActionType" type="BinHex"/>
+		<field name="strIconASLinkageName" type="BinHex"/>
+		<field name="sText" type="BinHex"/>
+		<field name="sMessageText" type="BinHex"/>
+		<field name="bIsMaskVisible" type="BinHex"/>
+		<field name="selRenderSpecificMask" type="BinHex"/>
+		<field name="uimenutileScrollbarTileTemplate" type="BinHex"/>
+		<field name="bPassOnRightStickInputValue" type="BinHex"/>
+		<field name="fTextScrambleAnimationInTime" type="BinHex"/>
 		<field hash="67B3F927" type="BinHex"/>
 		<field hash="8CB4C44F" type="BinHex"/>
 		<field hash="A0858E02" type="BinHex"/>
-		<field hash="DA047174" type="BinHex"/>
-		<field hash="8B7B61CF" type="String"/>
+		<field name="bScrambleTextKeepSpaceChar" type="BinHex"/>
+		<field name="sScrambleTextColor" type="String"/>
 		<field hash="33E9BA2D" type="BinHex"/>
 		<field hash="CAAE6182" type="BinHex"/>
 		<field hash="84A5ACFD" type="BinHex"/>
-		<field hash="3CC190F6" type="BinHex"/>
-		<field hash="F1B5C6CD" type="BinHex"/>
-		<field hash="133AF51F" type="BinHex"/>
-		<field hash="88996FF9" type="BinHex"/>
-		<field hash="FF38BA75" type="BinHex"/>
-		<field hash="390B9DDD" type="BinHex"/>
-		<field hash="1B448EEE" type="BinHex"/>
+		<field name="fIconsVerticalOffset" type="BinHex"/>
+		<field name="texturedbobjectLeftNavigationTexture" type="BinHex"/>
+		<field name="texturedbobjectRightNavigationTexture" type="BinHex"/>
+		<field name="bShowLevel" type="BinHex"/>
+		<field name="bShowClass" type="BinHex"/>
+		<field name="bShowPerks" type="BinHex"/>
+		<field name="bShowStatusText" type="BinHex"/>
 		<field name="bShowIcon" type="Boolean"/>
-		<field hash="DCB4613D" type="BinHex"/>
-		<field hash="4C98C78E" type="BinHex"/>
-		<field hash="C80E2DB5" type="BinHex"/>
-		<field hash="C9411631" type="BinHex"/>
+		<field name="selControlReminderAlignment" type="BinHex"/>
+		<field name="fContentMargin" type="BinHex"/>
+		<field name="fButtonSpacing" type="BinHex"/>
+		<field name="bHideInactiveControls" type="BinHex"/>
 		<field hash="5983CDB1" type="BinHex"/>
 		<field name="selBackgroundColorType" type="Enum"/>
 		<field name="selButtonColorType" type="Enum"/>
 		<field name="texturedbobjectBackgroundImage" type="BinHex"/>
-		<field hash="327CE368" type="String"/>
+		<field name="sASLinkageName" type="String"/>
 		<field name="DefaultElitePassCost" type="BinHex"/>
-		<field hash="F4BC06E3" type="BinHex"/>
-		<field hash="34D50042" type="BinHex"/>
-		<field hash="0B17B4D7" type="BinHex"/>
-		<field hash="AA46F6C2" type="BinHex"/>
+		<field name="texturedbobjectCategoryImage" type="BinHex"/>
+		<field name="bHasStyleLayer" type="BinHex"/>
+		<field name="uicolorpalettesettingsCategoryDefaultColor" type="BinHex"/>
+		<field name="bIsTitleColored" type="BinHex"/>
 		<field name="sLinkageName" type="String"/>
 		<field hash="5F638E26" type="BinHex"/>
-		<field hash="428F4E5E" type="String"/>
-		<field hash="A742D458" type="BinHex"/>
+		<field name="sTextDPSSuffix" type="String"/>
+		<field name="bIsNeedArabicAdaptation" type="BinHex"/>
 		<field name="MaxDesaturation" type="BinHex"/>
 		<field name="NoDesaturation" type="BinHex"/>
 		<field name="FocusedAlpha" type="BinHex"/>
@@ -140,14 +140,14 @@
 		<field name="uiBottomCapYOffset" type="UInt32"/>
 		<field hash="33489D88" type="BinHex"/>
 		<object name="ArabicLanguageUISupport">
-			<field hash="B8C1C7F6" type="BinHex"/>
-			<field hash="A44C3169" type="BinHex"/>
-			<field hash="E42F70A5" type="BinHex"/>
-			<field hash="2126E98F" type="BinHex"/>
+			<field name="bSetArabicPositioningMode" type="BinHex"/>
+			<field name="bSetSpecificPositionForArabic" type="BinHex"/>
+			<field name="uiArabicXPositionFromRightEdgeOfScreen" type="BinHex"/>
+			<field name="uiArabicYPositionFromTopEdgeOfScreen" type="BinHex"/>
 		</object>
 		<object name="ElementEffectDbObjs">
 			<object name="UIElementEffectsDbObject">
-				<field hash="FA8EF405" type="BinHex"/>
+				<field name="uielementeffectsdbobject" type="BinHex"/>
 			</object>
 		</object>
 		<object name="locstridNextPage">
@@ -156,35 +156,35 @@
 		<object name="locstridPrevPage">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A787FF32">
+		<object name="locstridGPUTitleText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A481C44D">
+		<object name="locstridCPUTitleText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="ProcessingUnitLoadValues">
-			<object hash="23A8FD91">
+			<object name="locstridMinor">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="locstridMedium">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E1157DA2">
+			<object name="locstridMajor">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object name="ProcessingUnitLoadValuesColor">
-			<field hash="5291F967" type="BinHex"/>
-			<field hash="B26882B7" type="BinHex"/>
-			<field hash="A1718DC7" type="BinHex"/>
+			<field name="colorMinorValueColor" type="BinHex"/>
+			<field name="colorMediumValueColor" type="BinHex"/>
+			<field name="colorMajorValueColor" type="BinHex"/>
 		</object>
 		<object name="locstrid">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="488E8AF3">
+		<object name="locstridMinorImpactTitleText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4A874070">
+		<object name="locstridMajorImpactTitleText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridTitleText">
@@ -199,17 +199,17 @@
 		<object name="locstridRbButtonLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="0168214D">
+		<object name="locstridFilterHeader">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="766E6F33">
+		<object name="locstridFilterHeaderReset">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="Localization">
-			<object hash="BC50FA30">
+			<object name="locstridAffinityTitleLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-			<object hash="D7277F8E">
+			<object name="locstridNewMissionLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			<object hash="9B133ADA">
@@ -234,7 +234,7 @@
 			<object hash="892F5ACD">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-			<object hash="642051CC">
+			<object name="locstridRemoveWaypointLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			<object hash="506B37D9">
@@ -252,19 +252,19 @@
 		</object>
 		<object name="BackgroundWidth">
 			<field hash="90CF6735" type="BinHex"/>
-			<field hash="21429238" type="BinHex"/>
+			<field name="fNewMission" type="BinHex"/>
 			<field hash="74B311CA" type="BinHex"/>
 			<field name="fDefault" type="BinHex"/>
 		</object>
 		<object name="BackgroundHeight">
 			<field hash="90CF6735" type="BinHex"/>
 			<field hash="74B311CA" type="BinHex"/>
-			<field hash="21429238" type="BinHex"/>
+			<field name="fNewMission" type="BinHex"/>
 			<field name="fDefault" type="BinHex"/>
-			<field hash="C8558E80" type="BinHex"/>
-			<field hash="99D4F681" type="BinHex"/>
-			<field hash="0EDCB619" type="BinHex"/>
-			<field hash="6B8E96CD" type="BinHex"/>
+			<field name="fRewards" type="BinHex"/>
+			<field name="fSingleContactIntrigue" type="BinHex"/>
+			<field name="fTwoContactIntrigue" type="BinHex"/>
+			<field name="fThreeContactIntrigue" type="BinHex"/>
 		</object>
 		<object hash="A27B5342">
 			<field name="LocalizationId" type="UInt64"/>
@@ -279,28 +279,28 @@
 		<object name="locstridStyleName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="FC25062F">
+		<object name="locstridPurchaseActionLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9A1B82A7">
+		<object name="locstridPurchasedLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="14D2F22A">
+		<object name="locstridCostHeaderLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="6009E648">
+		<object name="locstridCostLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="9461A65A">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9F27C05F">
+		<object name="locstridCostUnaffordableLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="C5C3237F">
+		<object name="locstridAvailableFundsHeaderLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="23FF5443">
+		<object name="locstridAvailableFundsLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="A4A97666">
@@ -321,7 +321,7 @@
 		<object hash="13AB132B">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="3C9A239E">
+		<object name="locstridUpgradeLockedLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="645F5612">
@@ -341,7 +341,7 @@
 				<field hash="E8016D88" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="80E522C5">
+		<object name="locstridOperativeCompromisedLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="626BA8C6">
@@ -366,8 +366,8 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="DPSList">
-			<object hash="C00BA114">
-				<field hash="6784A868" type="String"/>
+			<object name="DPS">
+				<field name="sDPS" type="String"/>
 			</object>
 		</object>
 		<object name="locstridSellItemsLocId">
@@ -402,7 +402,7 @@
 		<object name="locstridOwned">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9CDD3841">
+		<object name="locstridSeasonLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="9D138287">
@@ -411,13 +411,13 @@
 		<object name="locstridTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F342ADF9">
+		<object name="locstridSubtitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9A23189D">
+		<object name="locstridGetWDCredits">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B0A81319">
+		<object name="locstridGetOnlineCurrency">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridPurchase">
@@ -426,10 +426,10 @@
 		<object hash="53A18B5C">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="AB0A9371">
+		<object name="locstridLocked">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B7A7EB40">
+		<object name="locstridEquipped">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridDamageStatText">
@@ -449,7 +449,7 @@
 		</object>
 		<object name="ItemTypeLocalizations">
 			<object name="ItemType">
-				<field hash="6D7625CD" type="String"/>
+				<field name="sTypeId" type="String"/>
 				<object name="locstridLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -462,15 +462,15 @@
 				</object>
 			</object>
 		</object>
-		<object hash="DAE69C62">
+		<object name="locstridBoosterExpiry">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="Localizations">
 			<object name="Localization">
-				<object hash="BC50FA30">
+				<object name="locstridAffinityTitleLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="D7277F8E">
+				<object name="locstridNewMissionLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object hash="9B133ADA">
@@ -495,7 +495,7 @@
 				<object hash="892F5ACD">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="642051CC">
+				<object name="locstridRemoveWaypointLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object hash="506B37D9">
@@ -516,58 +516,58 @@
 				</object>
 			</object>
 		</object>
-		<object hash="C2A131E3">
+		<object name="locstridCurrencyTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="66C05020">
+		<object name="locstridFreeAmount">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A243CBF8">
+		<object name="locstridAddedAmount">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="7C5AD7FB">
+		<object name="locstridFeaturedOfferHintTextLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4241078C">
+		<object name="locstridPurchasedTextLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A9D49F4C">
+		<object name="locstridDiscountTextLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridTrack">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A1487B40">
+		<object name="locstridUntrack">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="6BFEB0B7">
+		<object name="locstridOpenCTOSDB">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F4F4360F">
+		<object name="locstridActiveLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="129E7FFA">
+		<object name="locstridNewLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="052CDE87">
+		<object name="locstridPerksDividerHeaderText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F7D8A99E">
+		<object name="locstridStatsDividerHeaderText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F8F1B876">
+		<object name="locstridStat1LabelText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="13C60375">
+		<object name="locstridStat2LabelText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="FC04684B">
+		<object name="locstridStat3LabelText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1ED87332">
+		<object name="locstridStat4LabelText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F11A180C">
+		<object name="locstridStat5LabelText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="D7953E62">
@@ -576,13 +576,13 @@
 		<object hash="BA08D610">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B19C4039">
+		<object name="locstridOpenLinkText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="7C6AF07D">
+		<object name="locstridNewsOfflineText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="5AB1CF7C">
+		<object name="locstridStatTitleLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="6CE2A8FA">
@@ -591,28 +591,28 @@
 		<object hash="399D3810">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="363100B9">
+		<object name="locstridXpLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E819F7AB">
+		<object name="locstridSwapOperativeLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="0B529F49">
+		<object name="locstridRecruitViewMission">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="CA896F12">
+		<object name="locstridSwapUnavailableLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="489A3863">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8AD0E308">
+		<object name="locstridInCombatLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="E6D8A077">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F7CAF377">
+		<object name="locstridPremiumOperativeLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="5AA386C8">
@@ -633,22 +633,22 @@
 			<field hash="DD3893D8" type="BinHex"/>
 			<field hash="CCA291B2" type="BinHex"/>
 		</object>
-		<object hash="745659FE">
+		<object name="locstridOnlineInPartyLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="82671912">
+		<object name="locstridOnlineMultiplayerLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="6F07FF60">
+		<object name="locstridOnlineSingleplayerLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="3D172002">
+		<object name="locstridOnlineUplayLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A744989B">
+		<object name="locstridOfflineLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="BE595DD4">
+		<object name="locstridResetTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="C4BD2B75">
@@ -657,88 +657,88 @@
 		<object hash="B36D3071">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D24BF4B2">
+		<object name="locstridRaidNameAndNumberText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="95A1B4D7">
+		<object name="locstridStartingRaidText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="C00E5176">
+		<object name="locstridCurrentStepProgress">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridDifficulty">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="367A5AA7">
+		<object name="locstridRewardsTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="ACCEEADA">
+		<object name="locstridPlaythroughRewardText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="FA3320D3">
+		<object name="locstridStepRewardText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="5C9E8308">
+		<object name="locstridAlternateStepRewardText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="97F8A010">
+		<object name="locstridCryptoText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="3E94D694">
+		<object name="locstridRaidNameAndNumberString">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="497F2D4D">
+		<object name="locstridRecommendedLevelString">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridRewardTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8536DA48">
+		<object name="locstridAcquiredRewardText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E8D80150">
+		<object name="locstridCompletionRewardLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="AD5D9E66">
+		<object name="locstridBestPotentialRewardLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="03AAEDE7">
+		<object name="locstridRaidNoProgressLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9B6DCD3A">
+		<object name="locstridRaidProgressLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="CAA93E05">
+		<object name="locstridRaidDifficultyLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="804692C3">
+		<object name="locstridResistanceTitleLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A2B9B3AD">
+		<object name="locstridResistanceLevelLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="6D322E2F">
+		<object name="locstridResistanceBonusLevelLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="CB40E84B">
+		<object name="locstridResistanceProgressLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="627907DC">
+		<object name="locstridStatusActiveLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="822DAEF9">
+		<object name="locstridStatusInactiveLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8EFDCDAA">
+		<object name="locstridWorseDescriptionLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D440C186">
+		<object name="locstridInstallingLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B5982ACF">
+		<object name="locstridInstalledLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="DCAB3FF6">
+		<object name="locstridAccessGrantedLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridOpenLinkButton">
@@ -750,7 +750,7 @@
 		<object name="locstridCycleRightButton">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1262225C">
+		<object name="locstridNewsfeedTileName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridPressStartOasisLineId">
@@ -792,7 +792,7 @@
 		<object name="locstridInstallItOnText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="93AC7D6C">
+		<object name="locstridSaveNotificationText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridEpilepsyWarningOasisId">
@@ -806,8 +806,8 @@
 		</object>
 		<object name="OnlineOptionsList">
 			<object name="OnlineOptionData">
-				<field hash="1BA6D696" type="String"/>
-				<field hash="58801DA7" type="BinHex"/>
+				<field name="text_uionlinesettingsoptionsOptionId" type="String"/>
+				<field name="uionlinesettingsoptionsOptionId" type="BinHex"/>
 				<object name="locstridTitleLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -818,10 +818,10 @@
 		</object>
 		<object name="OptionsList">
 			<object name="OptionId">
-				<field hash="39084267" type="String"/>
-				<field hash="C4A178C4" type="BinHex"/>
-				<field hash="BA2EFF26" type="String"/>
-				<field hash="71ED263C" type="BinHex"/>
+				<field name="text_uiraidsettingsoptionsOptionId" type="String"/>
+				<field name="uiraidsettingsoptionsOptionId" type="BinHex"/>
+				<field name="text_uidsisettingsoptionsOptionId" type="String"/>
+				<field name="uidsisettingsoptionsOptionId" type="BinHex"/>
 			</object>
 		</object>
 		<object name="SettingValues">
@@ -831,12 +831,12 @@
 		</object>
 		<object name="SettingImages">
 			<object name="SettingsImages">
-				<field hash="A862A81F" type="BinHex"/>
+				<field name="texturedbobjectPreviewImage" type="BinHex"/>
 				<object name="CustomTexts"/>
 			</object>
 		</object>
 		<object name="SettingDescriptions">
-			<object hash="D847A1D8">
+			<object name="locstridSettingDescription">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -863,51 +863,51 @@
 		</object>
 		<object name="SettingThumbnails"/>
 		<object name="OnSlideActions"/>
-		<object hash="80E64DF1">
+		<object name="locstridLastScoreTextLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="5EDF91DB">
+		<object name="locstridHighScoreTextLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="63F1E5AB">
+		<object name="locstridKickUpHeaderLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="03F3B5D1">
+		<object name="locstridRankLevelLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="31C7E7F8">
+		<object name="locstridCurrencyLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9AC25431">
+		<object name="locstridUpgradePointsLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="DA43950B">
+		<object name="locstridOnlineRankLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="88EB5D45">
+		<object name="locstridOnlineXPRatioLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="0FFC3EDB">
+		<object name="locstridOnlineTokensLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A13C0893">
+		<object name="locstridLeftButtonText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="53EE9CB1">
+		<object name="locstridRightButtonText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="TabsLocIds">
-			<object hash="BFA73E52">
+			<object name="locstridTabText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="TabsLocIds">
-				<object hash="BFA73E52">
+				<object name="locstridTabText">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 		</object>
 		<object name="TabsImages"/>
-		<object hash="72AEC3A6">
+		<object name="locstridFilterLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="96A2634C">
@@ -925,35 +925,35 @@
 		<object hash="35612BCF">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="37AF6C9E">
+		<object name="locstridEquippedLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="55D6A991">
+		<object name="locstridNoPlayerLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="62076A41">
+		<object name="locstridNameDisplay">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F19C56DE">
+		<object name="locstridToggledOffNameDisplay">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="InfoDisplayInformationImage">
 			<field name="texturedbobjectImage" type="BinHex"/>
 		</object>
-		<object hash="8524816A">
+		<object name="locstridDateFormatString">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="763C46A4">
+		<object name="locstridCountdownFormatString">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E8DB46C7">
+		<object name="locstridNoActiveModifierTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="AAD726A8">
+		<object name="locstridNoActiveModifierDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="InfoDisplayInformation">
-			<field hash="CE7F8381" type="BinHex"/>
+			<field name="bUseNewsCarousel" type="BinHex"/>
 			<object name="locstridTitleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -965,62 +965,62 @@
 			<object name="locstridOffline">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="F72B0297">
+			<object name="locstridLoading">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="48011728">
+			<object name="locstridMatchmaking">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="C9A813D0">
+			<object name="locstridSearchingTimer">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="AB0A9371">
+			<object name="locstridLocked">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8FC9270E">
+			<object name="locstridLockedVoteInProgress">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object name="Tooltip">
-			<field hash="5AF26B64" type="BinHex"/>
-			<field hash="CE786312" type="BinHex"/>
-			<field hash="3468663A" type="BinHex"/>
-			<field hash="436F56AC" type="BinHex"/>
-			<object hash="DFF29B61">
+			<field name="sTooltipLabel" type="BinHex"/>
+			<field name="selTooltipPosition" type="BinHex"/>
+			<field name="iTooltipOffsetX" type="BinHex"/>
+			<field name="iTooltipOffsetY" type="BinHex"/>
+			<object name="locstridTooltipTitle">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="locstridTooltipText">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="1E20AF9B">
+			<object name="locstridTooltipControls">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
-		<object hash="DD15EA47">
+		<object name="locstridOnlineFriendsCountLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridButtonText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="B6EF18D6">
+		<object name="locstridDisabledText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="78155EC8">
+		<object name="locstridPlayerCountLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="46AE79D7">
+		<object name="locstridPlayersFullLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A6BF9B82">
+		<object name="locstridMinimumPlayerCount">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8BAB3809">
+		<object name="locstridRecommendedPlayerCount">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="6799DA8E">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="82248E72">
+		<object name="locstridTimerPresentation">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="F25079D1">
@@ -1032,10 +1032,10 @@
 		<object hash="D012F9D6">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="BCEAF8E8">
+		<object name="locstridDigitalTripNameString">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="3A5C4945">
+		<object name="locstridComingSoon">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="TileActions">
@@ -1093,135 +1093,135 @@
 		</object>
 		<object name="ContentTileTemplates">
 			<object name="ContentTileTemplate">
-				<field hash="EA4A9855" type="BinHex"/>
+				<field name="uimenutileContentTileTemplate" type="BinHex"/>
 			</object>
 		</object>
 		<object name="EmptyContentLayout">
-			<field hash="7B638C8B" type="BinHex"/>
-			<field hash="0A523205" type="BinHex"/>
-			<field hash="72BB66A4" type="BinHex"/>
-			<field hash="05BC5632" type="BinHex"/>
-			<field hash="AC8843D2" type="BinHex"/>
-			<field hash="3661F9A8" type="BinHex"/>
-			<field hash="81F42483" type="BinHex"/>
-			<field hash="79FEE7C2" type="BinHex"/>
-			<field hash="0EF9D754" type="BinHex"/>
-			<field hash="4C0BEE49" type="BinHex"/>
-			<field hash="515C30C9" type="BinHex"/>
+			<field name="bMediaVisibility" type="BinHex"/>
+			<field name="bAudioVisibility" type="BinHex"/>
+			<field name="fMediaPositionX" type="BinHex"/>
+			<field name="fMediaPositionY" type="BinHex"/>
+			<field name="fMediaWidth" type="BinHex"/>
+			<field name="fMediaHeight" type="BinHex"/>
+			<field name="bTextVisibility" type="BinHex"/>
+			<field name="fTextPositionX" type="BinHex"/>
+			<field name="fTextPositionY" type="BinHex"/>
+			<field name="fTextWidth" type="BinHex"/>
+			<field name="fTextHeight" type="BinHex"/>
 			<object name="ArabicSpecificData">
-				<field hash="79FEE7C2" type="BinHex"/>
+				<field name="fTextPositionX" type="BinHex"/>
 			</object>
 		</object>
 		<object name="TextContentLayout">
-			<field hash="7B638C8B" type="BinHex"/>
-			<field hash="0A523205" type="BinHex"/>
-			<field hash="72BB66A4" type="BinHex"/>
-			<field hash="05BC5632" type="BinHex"/>
-			<field hash="AC8843D2" type="BinHex"/>
-			<field hash="3661F9A8" type="BinHex"/>
-			<field hash="81F42483" type="BinHex"/>
-			<field hash="79FEE7C2" type="BinHex"/>
-			<field hash="0EF9D754" type="BinHex"/>
-			<field hash="4C0BEE49" type="BinHex"/>
-			<field hash="515C30C9" type="BinHex"/>
+			<field name="bMediaVisibility" type="BinHex"/>
+			<field name="bAudioVisibility" type="BinHex"/>
+			<field name="fMediaPositionX" type="BinHex"/>
+			<field name="fMediaPositionY" type="BinHex"/>
+			<field name="fMediaWidth" type="BinHex"/>
+			<field name="fMediaHeight" type="BinHex"/>
+			<field name="bTextVisibility" type="BinHex"/>
+			<field name="fTextPositionX" type="BinHex"/>
+			<field name="fTextPositionY" type="BinHex"/>
+			<field name="fTextWidth" type="BinHex"/>
+			<field name="fTextHeight" type="BinHex"/>
 			<object name="ArabicSpecificData">
-				<field hash="79FEE7C2" type="BinHex"/>
+				<field name="fTextPositionX" type="BinHex"/>
 			</object>
 		</object>
 		<object name="ImageContentLayout">
-			<field hash="7B638C8B" type="BinHex"/>
-			<field hash="0A523205" type="BinHex"/>
-			<field hash="72BB66A4" type="BinHex"/>
-			<field hash="05BC5632" type="BinHex"/>
-			<field hash="AC8843D2" type="BinHex"/>
-			<field hash="3661F9A8" type="BinHex"/>
-			<field hash="81F42483" type="BinHex"/>
-			<field hash="79FEE7C2" type="BinHex"/>
-			<field hash="0EF9D754" type="BinHex"/>
-			<field hash="4C0BEE49" type="BinHex"/>
-			<field hash="515C30C9" type="BinHex"/>
+			<field name="bMediaVisibility" type="BinHex"/>
+			<field name="bAudioVisibility" type="BinHex"/>
+			<field name="fMediaPositionX" type="BinHex"/>
+			<field name="fMediaPositionY" type="BinHex"/>
+			<field name="fMediaWidth" type="BinHex"/>
+			<field name="fMediaHeight" type="BinHex"/>
+			<field name="bTextVisibility" type="BinHex"/>
+			<field name="fTextPositionX" type="BinHex"/>
+			<field name="fTextPositionY" type="BinHex"/>
+			<field name="fTextWidth" type="BinHex"/>
+			<field name="fTextHeight" type="BinHex"/>
 			<object name="ArabicSpecificData">
-				<field hash="79FEE7C2" type="BinHex"/>
+				<field name="fTextPositionX" type="BinHex"/>
 			</object>
 		</object>
 		<object name="AudioContentLayout">
-			<field hash="7B638C8B" type="BinHex"/>
-			<field hash="0A523205" type="BinHex"/>
-			<field hash="72BB66A4" type="BinHex"/>
-			<field hash="05BC5632" type="BinHex"/>
-			<field hash="AC8843D2" type="BinHex"/>
-			<field hash="3661F9A8" type="BinHex"/>
-			<field hash="81F42483" type="BinHex"/>
-			<field hash="79FEE7C2" type="BinHex"/>
-			<field hash="0EF9D754" type="BinHex"/>
-			<field hash="4C0BEE49" type="BinHex"/>
-			<field hash="515C30C9" type="BinHex"/>
+			<field name="bMediaVisibility" type="BinHex"/>
+			<field name="bAudioVisibility" type="BinHex"/>
+			<field name="fMediaPositionX" type="BinHex"/>
+			<field name="fMediaPositionY" type="BinHex"/>
+			<field name="fMediaWidth" type="BinHex"/>
+			<field name="fMediaHeight" type="BinHex"/>
+			<field name="bTextVisibility" type="BinHex"/>
+			<field name="fTextPositionX" type="BinHex"/>
+			<field name="fTextPositionY" type="BinHex"/>
+			<field name="fTextWidth" type="BinHex"/>
+			<field name="fTextHeight" type="BinHex"/>
 			<object name="ArabicSpecificData">
-				<field hash="79FEE7C2" type="BinHex"/>
+				<field name="fTextPositionX" type="BinHex"/>
 			</object>
 		</object>
 		<object name="VideoContentLayout">
-			<field hash="7B638C8B" type="BinHex"/>
-			<field hash="0A523205" type="BinHex"/>
-			<field hash="72BB66A4" type="BinHex"/>
-			<field hash="05BC5632" type="BinHex"/>
-			<field hash="AC8843D2" type="BinHex"/>
-			<field hash="3661F9A8" type="BinHex"/>
-			<field hash="81F42483" type="BinHex"/>
-			<field hash="79FEE7C2" type="BinHex"/>
-			<field hash="0EF9D754" type="BinHex"/>
-			<field hash="4C0BEE49" type="BinHex"/>
-			<field hash="515C30C9" type="BinHex"/>
+			<field name="bMediaVisibility" type="BinHex"/>
+			<field name="bAudioVisibility" type="BinHex"/>
+			<field name="fMediaPositionX" type="BinHex"/>
+			<field name="fMediaPositionY" type="BinHex"/>
+			<field name="fMediaWidth" type="BinHex"/>
+			<field name="fMediaHeight" type="BinHex"/>
+			<field name="bTextVisibility" type="BinHex"/>
+			<field name="fTextPositionX" type="BinHex"/>
+			<field name="fTextPositionY" type="BinHex"/>
+			<field name="fTextWidth" type="BinHex"/>
+			<field name="fTextHeight" type="BinHex"/>
 			<object name="ArabicSpecificData">
-				<field hash="79FEE7C2" type="BinHex"/>
+				<field name="fTextPositionX" type="BinHex"/>
 			</object>
 		</object>
 		<object name="ObjectContentLayout">
-			<field hash="7B638C8B" type="BinHex"/>
-			<field hash="0A523205" type="BinHex"/>
-			<field hash="72BB66A4" type="BinHex"/>
-			<field hash="05BC5632" type="BinHex"/>
-			<field hash="AC8843D2" type="BinHex"/>
-			<field hash="3661F9A8" type="BinHex"/>
-			<field hash="81F42483" type="BinHex"/>
-			<field hash="79FEE7C2" type="BinHex"/>
-			<field hash="0EF9D754" type="BinHex"/>
-			<field hash="4C0BEE49" type="BinHex"/>
-			<field hash="515C30C9" type="BinHex"/>
+			<field name="bMediaVisibility" type="BinHex"/>
+			<field name="bAudioVisibility" type="BinHex"/>
+			<field name="fMediaPositionX" type="BinHex"/>
+			<field name="fMediaPositionY" type="BinHex"/>
+			<field name="fMediaWidth" type="BinHex"/>
+			<field name="fMediaHeight" type="BinHex"/>
+			<field name="bTextVisibility" type="BinHex"/>
+			<field name="fTextPositionX" type="BinHex"/>
+			<field name="fTextPositionY" type="BinHex"/>
+			<field name="fTextWidth" type="BinHex"/>
+			<field name="fTextHeight" type="BinHex"/>
 			<object name="ArabicSpecificData">
-				<field hash="79FEE7C2" type="BinHex"/>
+				<field name="fTextPositionX" type="BinHex"/>
 			</object>
 		</object>
 		<object name="ObjectImageContentLayout">
-			<field hash="7B638C8B" type="BinHex"/>
-			<field hash="0A523205" type="BinHex"/>
-			<field hash="72BB66A4" type="BinHex"/>
-			<field hash="05BC5632" type="BinHex"/>
-			<field hash="AC8843D2" type="BinHex"/>
-			<field hash="3661F9A8" type="BinHex"/>
-			<field hash="81F42483" type="BinHex"/>
-			<field hash="79FEE7C2" type="BinHex"/>
-			<field hash="0EF9D754" type="BinHex"/>
-			<field hash="4C0BEE49" type="BinHex"/>
-			<field hash="515C30C9" type="BinHex"/>
+			<field name="bMediaVisibility" type="BinHex"/>
+			<field name="bAudioVisibility" type="BinHex"/>
+			<field name="fMediaPositionX" type="BinHex"/>
+			<field name="fMediaPositionY" type="BinHex"/>
+			<field name="fMediaWidth" type="BinHex"/>
+			<field name="fMediaHeight" type="BinHex"/>
+			<field name="bTextVisibility" type="BinHex"/>
+			<field name="fTextPositionX" type="BinHex"/>
+			<field name="fTextPositionY" type="BinHex"/>
+			<field name="fTextWidth" type="BinHex"/>
+			<field name="fTextHeight" type="BinHex"/>
 			<object name="ArabicSpecificData">
-				<field hash="79FEE7C2" type="BinHex"/>
+				<field name="fTextPositionX" type="BinHex"/>
 			</object>
 		</object>
 		<object name="ObjectLargeContentLayout">
-			<field hash="7B638C8B" type="BinHex"/>
-			<field hash="0A523205" type="BinHex"/>
-			<field hash="72BB66A4" type="BinHex"/>
-			<field hash="05BC5632" type="BinHex"/>
-			<field hash="AC8843D2" type="BinHex"/>
-			<field hash="3661F9A8" type="BinHex"/>
-			<field hash="81F42483" type="BinHex"/>
-			<field hash="79FEE7C2" type="BinHex"/>
-			<field hash="0EF9D754" type="BinHex"/>
-			<field hash="4C0BEE49" type="BinHex"/>
-			<field hash="515C30C9" type="BinHex"/>
+			<field name="bMediaVisibility" type="BinHex"/>
+			<field name="bAudioVisibility" type="BinHex"/>
+			<field name="fMediaPositionX" type="BinHex"/>
+			<field name="fMediaPositionY" type="BinHex"/>
+			<field name="fMediaWidth" type="BinHex"/>
+			<field name="fMediaHeight" type="BinHex"/>
+			<field name="bTextVisibility" type="BinHex"/>
+			<field name="fTextPositionX" type="BinHex"/>
+			<field name="fTextPositionY" type="BinHex"/>
+			<field name="fTextWidth" type="BinHex"/>
+			<field name="fTextHeight" type="BinHex"/>
 			<object name="ArabicSpecificData">
-				<field hash="79FEE7C2" type="BinHex"/>
+				<field name="fTextPositionX" type="BinHex"/>
 			</object>
 		</object>
 		<object hash="7245D3BA">
@@ -1231,16 +1231,16 @@
 		<object name="Categories">
 			<object name="Category">
 				<field name="selCategory" type="Enum"/>
-				<field hash="2418BC6B" type="BinHex"/>
+				<field name="texturedbobjectCategoryTexture" type="BinHex"/>
 				<object name="locstridTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 		</object>
-		<object hash="1FE0DF28">
+		<object name="locstridOpponentMatchLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="C152F49D">
+		<object name="locstridPracticeMatchLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="7110E380">
@@ -1249,7 +1249,7 @@
 		<object hash="B7AC7A19">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="768011B4">
+		<object name="locstridPracticeLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="03A01054">
@@ -1258,40 +1258,40 @@
 		<object hash="AD2EAF34">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="2CDC52C7">
+		<object name="locstridDartsHeaderLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="AA03E8C7">
+		<object name="locstridPerksHeader">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="8D4EF008">
+		<object name="locstridLevelText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="643EA5AA">
+		<object name="locstridPowerScore">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4CDF1A3B">
+		<object name="locstridClassLevel">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E2921A3B">
+		<object name="locstridCurrentPerson">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridPlayerName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="2EC50631">
+		<object name="locstridControlTextInFelony">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="DD3DF4BB">
+		<object name="locstridControlTextForInjured">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="A1B3C55D">
+		<object name="locstridControlTextForCaptured">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F01C3731">
+		<object name="locstridPreviousOperativeTextLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D39FA33E">
+		<object name="locstridNextOperativeTextLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridAccept">
@@ -1309,64 +1309,64 @@
 		<object name="locstridDescriptionLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="EC4DC2D9">
+		<object name="locstridAccessLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="AF7B12FB">
+		<object name="locstridChallengeCountLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D429178C">
+		<object name="locstridTotalOfLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="58A1E1D9">
+		<object name="locstridStoreLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="91320912">
+		<object name="locstridChallengeUnavailableLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="CFC9EFF7">
+		<object name="locstridChallengeRatioLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="43AE0F80">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="30EBDECB">
+		<object name="locstridCategoryLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="D415B6FA">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="30C8B3DE">
+		<object name="locstridRemainingDaysTimeLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D1AF2A8A">
+		<object name="locstridRemainingHoursTimeLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4F2B633F">
+		<object name="locstridRemainingMinutesTimeLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D2786814">
+		<object name="locstridRemainingSecondsTimeLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="F0F4545F">
+		<object name="locstridExpiredsTimeLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="locstridTextLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D63933C5">
+		<object name="locstridVehicleTitleLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E56CD14C">
+		<object name="locstridInsufficientFundsLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="ListMaskingSupport">
-			<field hash="CAA41449" type="BinHex"/>
-			<field hash="47AF92A2" type="BinHex"/>
+			<field name="bApplyMask" type="BinHex"/>
+			<field name="selRenderSpecificMask" type="BinHex"/>
 			<field name="sMovieClipName" type="String"/>
-			<field hash="7817AA30" type="BinHex"/>
+			<field name="bShowDebugMask" type="BinHex"/>
 		</object>
-		<object hash="75622FE3">
+		<object name="locstridEditOperativeLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="9969FF80">
@@ -1387,13 +1387,13 @@
 		<object name="locstridAmmoFullLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="32C31C68">
+		<object name="locstridSaveButtonText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="3F88B80B">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D2184BA2">
+		<object name="locstridFightersDraft">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="SubTiles">
@@ -1401,13 +1401,13 @@
 				<field name="uimenutileSubTile" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="6F0E905A">
+		<object name="locstridRewardHeaderLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="DE420C30">
+		<object name="locstridBonusRewardHeaderLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="1D6BB9C1">
+		<object name="locstridTournamentLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="2717FD83">

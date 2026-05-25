@@ -8,9 +8,9 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="bSoundOnlyForPlayers" type="Boolean"/>
 	<field name="sndEnterSound" type="BinHex"/>
-	<field hash="984C5378" type="Boolean"/>
+	<field name="sndtpEnterSoundType" type="Boolean"/>
 	<field name="sndExitSound" type="BinHex"/>
-	<field hash="0474141C" type="Boolean"/>
+	<field name="sndtpExitSoundType" type="Boolean"/>
 	<object name="TileConfigs">
 		<object name="TileConfig">
 			<field name="archTileArchetype" type="BinHex"/>
@@ -31,9 +31,9 @@
 				<object name="Sound">
 					<object name="SoundPtrAndTypeList">
 						<object name="SoundPtrAndTypeToPlay">
-							<field hash="1B1A3141" type="BinHex"/>
-							<field hash="8FE662AD" type="Boolean"/>
-							<field hash="87E038DB" type="BinHex"/>
+							<field name="sndSoundId" type="BinHex"/>
+							<field name="sndtpSoundType" type="Boolean"/>
+							<field name="text_sndSoundId" type="BinHex"/>
 						</object>
 					</object>
 				</object>

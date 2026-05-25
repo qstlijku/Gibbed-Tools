@@ -13,7 +13,7 @@
 		<field name="fLifetime" type="BinHex"/>
 		<field name="fProbability" type="Float"/>
 		<field name="selType" type="Enum"/>
-		<field hash="185C9CB7" type="BinHex"/>
+		<field name="fDroneSpeed" type="BinHex"/>
 		<field name="fTriggerRadius" type="Float"/>
 		<field hash="9FC3F06C" type="String"/>
 		<field hash="8F85703F" type="BinHex"/>

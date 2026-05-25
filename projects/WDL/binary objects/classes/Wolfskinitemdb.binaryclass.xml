@@ -6,26 +6,26 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="25323A27" type="String"/>
-	<field hash="D7407CE9" type="BinHex"/>
+	<field name="text_fileItemPath" type="String"/>
+	<field name="fileItemPath" type="BinHex"/>
 	<object name="SubItemDBs">
 		<object name="Item">
 			<field name="text_Item" type="String"/>
 			<field name="text_Slot" type="String"/>
 			<field name="Slot" type="BinHex"/>
-			<field hash="9BA44234" type="BinHex"/>
+			<field name="wolfskinitemdbDBItem" type="BinHex"/>
 		</object>
 	</object>
 	<object name="MissingSubItemDBs">
 		<object name="Item">
 			<field name="text_Slot" type="String"/>
 			<field name="Slot" type="BinHex"/>
-			<field hash="9BA44234" type="BinHex"/>
+			<field name="wolfskinitemdbDBItem" type="BinHex"/>
 			<field name="text_Item" type="String"/>
 			<field name="Item" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="9C863B86">
+	<object name="ItemTags">
 		<object name="Tag">
 			<object name="tagcategoryselectionTag">
 				<field name="text_UITagCategorySelectionClassID" type="String"/>

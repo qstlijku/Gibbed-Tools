@@ -11,36 +11,36 @@
 	<object name="ItemDescriptor">
 		<field name="discoverysettingsDiscoverySettings" type="BinHex"/>
 		<field name="bIsRewardPartOfMission" type="Boolean"/>
-		<field hash="A9845FC9" type="BinHex"/>
+		<field name="opslistOpDatabaseID" type="BinHex"/>
 		<field name="texturedbobjectHeaderImage" type="BinHex"/>
 		<field name="texturedbobjectTileImage" type="BinHex"/>
-		<field hash="0E0529F4" type="BinHex"/>
+		<field name="bIsCompatibleWithAllVehicles" type="BinHex"/>
 		<field name="matoverrideMaterialSetOverride" type="BinHex"/>
 		<field name="bIsSticker" type="Boolean"/>
 		<field name="colorPaintJobColor" type="Vector3"/>
 		<field name="bIsInShop" type="Boolean"/>
 		<field name="uiSellPrice" type="UInt32"/>
-		<field hash="00E1FBE9" type="BinHex"/>
-		<field hash="59115D33" type="BinHex"/>
-		<field hash="D24E31D6" type="BinHex"/>
-		<field hash="EA2DA53F" type="BinHex"/>
-		<field hash="F303571C" type="BinHex"/>
-		<field hash="8F55D1B7" type="BinHex"/>
+		<field name="texturedbobjectTutorialImage" type="BinHex"/>
+		<field name="bHasLimitedDuration" type="BinHex"/>
+		<field name="bIsTutorialMenuItem" type="BinHex"/>
+		<field name="selTutorialCategory" type="BinHex"/>
+		<field name="selFrequencyFlag" type="BinHex"/>
+		<field name="bHasShortcutToTutorialMenu" type="BinHex"/>
 		<field name="itemsTutorialItem" type="BinHex"/>
-		<field hash="16383833" type="BinHex"/>
-		<field hash="E5BE9B9C" type="BinHex"/>
+		<field name="bHasShortcutToMenus" type="BinHex"/>
+		<field name="uimenupageMenuShortcut" type="BinHex"/>
 		<field hash="393D18D2" type="String"/>
 		<field hash="09242F93" type="BinHex"/>
 		<field name="bIsFlyingDrone" type="Boolean"/>
-		<field hash="60C85FE9" type="BinHex"/>
-		<field hash="8A679830" type="BinHex"/>
-		<field hash="8120313B" type="BinHex"/>
+		<field name="selAttackingAttachedBone" type="BinHex"/>
+		<field name="selSpecificWeapon" type="BinHex"/>
+		<field name="selWeaponInHand" type="BinHex"/>
 		<field name="selWeaponGrip" type="Enum"/>
 		<field name="fHealth" type="Float"/>
 		<field name="fAlcohol" type="Float"/>
 		<field name="emoteEmote" type="BinHex"/>
-		<field hash="247060C0" type="BinHex"/>
-		<field hash="95D67F3E" type="BinHex"/>
+		<field name="texturedbobjectDisplayTexture" type="BinHex"/>
+		<field name="texturedbobjectLockedTexture" type="BinHex"/>
 		<field name="sBoneName" type="String"/>
 		<field name="text_archArchetypeSmall" type="String"/>
 		<field name="archArchetypeSmall" type="BinHex"/>
@@ -70,10 +70,10 @@
 		<field name="musiclibraryRewardSpecificSong" type="BinHex"/>
 		<field name="itemsItemInBox" type="BinHex"/>
 		<field name="disItemInBoxHasUnlimitedMaxCountInInventory" type="BinHex"/>
-		<field hash="785FB9EF" type="BinHex"/>
-		<field hash="E780A0C1" type="BinHex"/>
+		<field name="bDownloadable" type="BinHex"/>
+		<field name="selDownloadRadiusSize" type="BinHex"/>
 		<field name="fDownloadDuration" type="Float"/>
-		<field hash="5E4FFA8D" type="BinHex"/>
+		<field name="bAvailableOnNPCDeath" type="BinHex"/>
 		<field name="uPower" type="UInt32"/>
 		<field name="fDamage" type="Float"/>
 		<field name="fFiringRate" type="Float"/>
@@ -88,14 +88,14 @@
 		<field name="texturedbobjectEquipmentModuleTexture" type="BinHex"/>
 		<field name="texturedbobjectAmmoTexture" type="BinHex"/>
 		<field name="texturedbobjectShopTexture" type="BinHex"/>
-		<field hash="7B45D9D0" type="BinHex"/>
-		<field hash="C8DED8AE" type="BinHex"/>
+		<field name="texturedbobjectShopLockedTexture" type="BinHex"/>
+		<field name="texturedbobjectLoadoutTexture" type="BinHex"/>
 		<field name="sIconTag" type="BinHex"/>
-		<field hash="C4135CFC" type="BinHex"/>
+		<field name="itemsAlternativeItem" type="BinHex"/>
 		<field hash="1DCB8DB3" type="BinHex"/>
 		<field name="texturedbobjectHeaderTexture" type="BinHex"/>
-		<field hash="01D7834C" type="BinHex"/>
-		<field hash="FA947923" type="BinHex"/>
+		<field name="bAppliedToAllWeapons" type="BinHex"/>
+		<field name="selRarity" type="BinHex"/>
 		<field name="graphickitmodelModel" type="BinHex"/>
 		<field name="selProjectileType" type="Enum"/>
 		<field name="selAttachedBone" type="Enum"/>
@@ -107,7 +107,7 @@
 			<object name="locstridItemDescriptionId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="BFA53E18">
+			<object name="locstridItemDescriptionIdKeyboard">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="locstridItemLongDescriptionId">
@@ -164,8 +164,8 @@
 		</object>
 		<object name="EquipableProperties">
 			<field name="selEquippableType" type="Enum"/>
-			<field hash="7FFF5DE3" type="BinHex"/>
-			<field hash="2EEF2715" type="BinHex"/>
+			<field name="bIsGadget" type="BinHex"/>
+			<field name="characterabilityCharacterAbility" type="BinHex"/>
 		</object>
 		<object name="AssetsProperties">
 			<field name="fileItemImageFileName" type="String"/>
@@ -178,7 +178,7 @@
 		<object name="RewardProperties">
 			<field name="selLootingFeedbackType" type="Enum"/>
 			<field name="texturedbobjectRewardIcon" type="BinHex"/>
-			<field hash="4DC151AA" type="BinHex"/>
+			<field name="texturedbobjectRewardImage" type="BinHex"/>
 			<field name="fileItemTextureName" type="String"/>
 			<object name="locstridTitleRewardMessage">
 				<field name="LocalizationId" type="UInt64"/>

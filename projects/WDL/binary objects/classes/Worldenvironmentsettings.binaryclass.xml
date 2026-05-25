@@ -19,9 +19,9 @@
 	<field name="fileLightIesAtlas" type="BinHex"/>
 	<field name="bEnableLocalExposure" type="BinHex"/>
 	<field name="bRemapLocalExposure" type="BinHex"/>
-	<field hash="94E56ADC" type="BinHex"/>
+	<field name="text_fileDistantLightsTexture" type="BinHex"/>
 	<field name="fileDistantLightsTexture" type="BinHex"/>
-	<field hash="82846CE9" type="BinHex"/>
+	<field name="text_fileColorRemapVolumeTexture" type="BinHex"/>
 	<field name="fileColorRemapVolumeTexture" type="BinHex"/>
 	<field name="fMinGILevel" type="BinHex"/>
 	<field name="fMaxGIBooster" type="BinHex"/>
@@ -153,21 +153,21 @@
 		<field name="uiFogInitialStartDelayDays" type="UInt32"/>
 		<field name="uiFogForecastHours" type="BinHex"/>
 		<field name="fFogSmoothFadeTimeSeconds" type="BinHex"/>
-		<field hash="1DF2F905" type="BinHex"/>
+		<field name="text_fileNoiseTexture" type="BinHex"/>
 		<field name="fileNoiseTexture" type="BinHex"/>
 	</object>
 	<object name="Rain">
 		<field name="fEmitterDistanceOffset" type="Float"/>
 		<field name="fSpeedScaling" type="Float"/>
-		<field hash="6F7230A5" type="BinHex"/>
+		<field name="text_fileSplashesTexture" type="BinHex"/>
 		<field name="fileSplashesTexture" type="BinHex"/>
-		<field hash="68F3D8F6" type="BinHex"/>
+		<field name="text_fileRainDropTexture" type="BinHex"/>
 		<field name="fileRainDropTexture" type="BinHex"/>
-		<field hash="592C0314" type="BinHex"/>
+		<field name="text_fileRainStreakTexture" type="BinHex"/>
 		<field name="fileRainStreakTexture" type="BinHex"/>
-		<field hash="033DD975" type="BinHex"/>
+		<field name="text_fileRainFlowTexture" type="BinHex"/>
 		<field name="fileRainFlowTexture" type="BinHex"/>
-		<field hash="564E3A2B" type="BinHex"/>
+		<field name="text_fileRainHeightNoiseTexture" type="BinHex"/>
 		<field name="fileRainHeightNoiseTexture" type="BinHex"/>
 		<field name="fSplashesSize" type="Float"/>
 		<field name="fSplashesThreshold" type="Float"/>
@@ -196,15 +196,15 @@
 			</object>
 			<field name="fEmitterDistanceOffset" type="Float"/>
 			<field name="fSpeedScaling" type="Float"/>
-			<field hash="6F7230A5" type="BinHex"/>
+			<field name="text_fileSplashesTexture" type="BinHex"/>
 			<field name="fileSplashesTexture" type="BinHex"/>
-			<field hash="68F3D8F6" type="BinHex"/>
+			<field name="text_fileRainDropTexture" type="BinHex"/>
 			<field name="fileRainDropTexture" type="BinHex"/>
-			<field hash="592C0314" type="BinHex"/>
+			<field name="text_fileRainStreakTexture" type="BinHex"/>
 			<field name="fileRainStreakTexture" type="BinHex"/>
-			<field hash="033DD975" type="BinHex"/>
+			<field name="text_fileRainFlowTexture" type="BinHex"/>
 			<field name="fileRainFlowTexture" type="BinHex"/>
-			<field hash="564E3A2B" type="BinHex"/>
+			<field name="text_fileRainHeightNoiseTexture" type="BinHex"/>
 			<field name="fileRainHeightNoiseTexture" type="BinHex"/>
 			<field name="fSplashesSize" type="Float"/>
 			<field name="fSplashesThreshold" type="Float"/>
@@ -303,17 +303,17 @@
 		<object name="BaseWaves">
 			<field name="fReflectionIntensity" type="Float"/>
 			<field name="fFoamTextureScale" type="Float"/>
-			<field hash="1CEE700F" type="BinHex"/>
+			<field name="text_fileBaseWaveTexture" type="BinHex"/>
 			<field name="fileBaseWaveTexture" type="BinHex"/>
-			<field hash="FC6D9E45" type="BinHex"/>
+			<field name="text_fileFoamTexture" type="BinHex"/>
 			<field name="fileFoamTexture" type="BinHex"/>
-			<field hash="E9BC116A" type="BinHex"/>
+			<field name="text_fileScatteringTexture" type="BinHex"/>
 			<field name="fileScatteringTexture" type="BinHex"/>
-			<field hash="4C279DDA" type="BinHex"/>
+			<field name="text_fileCausticTexture" type="BinHex"/>
 			<field name="fileCausticTexture" type="BinHex"/>
-			<field hash="E2542E70" type="BinHex"/>
+			<field name="text_fileWaveIntensityTexture" type="BinHex"/>
 			<field name="fileWaveIntensityTexture" type="BinHex"/>
-			<field hash="76A365E3" type="BinHex"/>
+			<field name="text_fileWaterDetailNormalMap" type="BinHex"/>
 			<field name="fileWaterDetailNormalMap" type="BinHex"/>
 			<field name="fDetailNormalMapScale" type="Float"/>
 			<field name="fDetailNormalMapScrolling" type="Float"/>
@@ -605,9 +605,9 @@
 		<field name="fLightPollutionIlluminance" type="BinHex"/>
 		<field name="fAmbientValueClampMax" type="Float"/>
 		<field name="fSkySunTurbidity" type="Float"/>
-		<field hash="544AD527" type="BinHex"/>
+		<field name="text_fileSunFlareTexture" type="BinHex"/>
 		<field name="fileSunFlareTexture" type="BinHex"/>
-		<field hash="36B6B1B5" type="BinHex"/>
+		<field name="text_fileSunFlareTimeOfDayColorTexture" type="BinHex"/>
 		<field name="fileSunFlareTimeOfDayColorTexture" type="BinHex"/>
 		<field name="fSunFlareTextureSize" type="Float"/>
 		<field name="fSunFlareMaxUniformScale" type="Float"/>
@@ -630,7 +630,7 @@
 		<field name="angAngleStep" type="Float"/>
 		<field name="fSkyMoonTurbidity" type="Float"/>
 		<field name="clrMoonColor" type="BinHex"/>
-		<field hash="9901C570" type="BinHex"/>
+		<field name="text_fileMoonTexture" type="BinHex"/>
 		<field name="fileMoonTexture" type="BinHex"/>
 		<field name="clrMoonShadowColor" type="BinHex"/>
 		<field name="fMoonShadowIntensity" type="Float"/>
@@ -643,16 +643,16 @@
 		<field name="clrNightSkyHorizonColor" type="BinHex"/>
 		<field name="fNightSkyGradientGamma" type="Float"/>
 		<field name="fNightSkyGIFactor" type="Float"/>
-		<field hash="F1AB59B3" type="BinHex"/>
+		<field name="text_fileLightPollutionTexture" type="BinHex"/>
 		<field name="fileLightPollutionTexture" type="BinHex"/>
 		<field name="fLightPollutionFalloff" type="Float"/>
-		<field hash="C8D25F0B" type="BinHex"/>
+		<field name="text_fileFogRegionTexture" type="BinHex"/>
 		<field name="fileFogRegionTexture" type="BinHex"/>
 		<field name="fFogRegionHeightMax" type="Float"/>
-		<field hash="22F266A8" type="BinHex"/>
+		<field name="text_fileFog2DNoiseTexture" type="BinHex"/>
 		<field name="fileFog2DNoiseTexture" type="BinHex"/>
 		<field name="fFog2DNoiseScale" type="Float"/>
-		<field hash="BFFD87DE" type="BinHex"/>
+		<field name="text_fileFog3DNoiseTexture" type="BinHex"/>
 		<field name="fileFog3DNoiseTexture" type="BinHex"/>
 		<field name="fFog3DNoiseScale" type="Float"/>
 		<field name="fBelowHorizonCloudsLighting" type="Float"/>
@@ -835,7 +835,7 @@
 		</object>
 	</object>
 	<object name="Wind">
-		<field hash="13E90457" type="BinHex"/>
+		<field name="text_fileWindGlobalNoiseTexture" type="BinHex"/>
 		<field name="fileWindGlobalNoiseTexture" type="BinHex"/>
 		<field name="fWindGlobalNoiseTextureRange" type="Float"/>
 		<field name="angWindDirection" type="Float"/>
@@ -879,9 +879,9 @@
 		</object>
 	</object>
 	<object name="Misc">
-		<field hash="AF28F7B6" type="BinHex"/>
+		<field name="text_fileWhiteVolume" type="BinHex"/>
 		<field name="fileWhiteVolume" type="BinHex"/>
-		<field hash="D8287399" type="BinHex"/>
+		<field name="text_fileBandLimitedNoise" type="BinHex"/>
 		<field name="fileBandLimitedNoise" type="BinHex"/>
 		<field name="fSSAOIntensity" type="Float"/>
 		<field name="fConfettiKillVolumeMaxDistance" type="Float"/>

@@ -11,7 +11,7 @@
 		<field name="text_selType" type="String"/>
 		<field name="selType" type="Enum"/>
 		<object name="Object">
-			<field hash="90075D3D" type="BinHex"/>
+			<field name="bForceMajorNarrativeElement" type="BinHex"/>
 			<field name="bBypassNarrativeQueue" type="Boolean"/>
 			<field name="fUIStartUpDelay" type="Float"/>
 			<field name="bPlayCommunicationIntro" type="Boolean"/>
@@ -20,14 +20,14 @@
 			<field name="videosVideo" type="BinHex"/>
 			<field name="conversationsettingConversation" type="BinHex"/>
 			<field name="bUseEarBudsActivate" type="Boolean"/>
-			<field hash="484EBEC3" type="String"/>
-			<field hash="F414D463" type="BinHex"/>
-			<field hash="FCCB9C11" type="BinHex"/>
-			<field hash="B32D38BE" type="BinHex"/>
+			<field name="text_fileCinematicSequence" type="String"/>
+			<field name="fileCinematicSequence" type="BinHex"/>
+			<field name="plasmaPlasmaDialogTemplateId" type="BinHex"/>
+			<field name="bShowTeamSpeakUI" type="BinHex"/>
 			<field hash="6222365D" type="BinHex"/>
 			<object name="DataDrive">
-				<field hash="319FC44E" type="BinHex"/>
-				<field hash="88A6F624" type="BinHex"/>
+				<field name="selDataDriveBehavior" type="BinHex"/>
+				<field name="selDataDriveCategoryOverride" type="BinHex"/>
 				<object name="locstridName">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
@@ -45,10 +45,10 @@
 					<field name="sndtpSoundType" type="BinHex"/>
 				</object>
 			</object>
-			<object hash="36706EE5">
+			<object name="locstridSpeaker0NameOverride">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="EBE6B760">
+			<object name="locstridSpeaker1NameOverride">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="locstridChannelHeader">

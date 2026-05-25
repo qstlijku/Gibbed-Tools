@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="AB079B47" type="BinHex"/>
-	<field hash="A235C8C8" type="String"/>
-	<field hash="103D1006" type="BinHex"/>
+	<field name="selDGSceneFamilyType" type="BinHex"/>
+	<field name="sDisplayName" type="String"/>
+	<field name="bSupportIngredientTransferData" type="BinHex"/>
 	<object name="SceneDbs">
-		<object hash="EA4F616E">
-			<field hash="EA4F616E" type="BinHex"/>
+		<object name="dgsceneDGScene">
+			<field name="dgsceneDGScene" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -7,14 +7,14 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="DistrictNameId" type="BinHex"/>
-	<field hash="3BCE0DF9" type="BinHex"/>
-	<field hash="D32EAF81" type="BinHex"/>
+	<field name="texturedbobjectKeyLocationPanelImage" type="BinHex"/>
+	<field name="texturedbobjectBoroughPanelImage" type="BinHex"/>
 	<field hash="4B3FF7D5" type="BinHex"/>
-	<field hash="0F2916D8" type="BinHex"/>
+	<field name="texturedbobjectBoroughHudPanelImage" type="BinHex"/>
 	<field name="selPriority" type="Enum"/>
-	<field hash="1F3195C3" type="BinHex"/>
-	<field hash="69638EEA" type="BinHex"/>
-	<field hash="113DA764" type="BinHex"/>
+	<field name="bIsHackerspace" type="BinHex"/>
+	<field name="selInitialDiscoveryState" type="BinHex"/>
+	<field name="bShowLabelOnMap" type="BinHex"/>
 	<field name="bShouldDisplayOnMap" type="Boolean"/>
 	<field name="selDisplayNameBehavior" type="Enum"/>
 	<field name="entDistrictNameMapIconEntity" type="BinHex"/>
