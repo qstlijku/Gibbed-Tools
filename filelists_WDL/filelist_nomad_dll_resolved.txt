@@ -1,0 +1,10 @@
+generated\databases\generic\bossterminatorshockwaveconfigdb.lib
+generated\databases\generic\bossterminatorultrasonicconfigdb.lib
+generated\databases\generic\dlcsinglesidedconvostate_97d598e4.obj
+generated\databases\generic\raidworldpropertysettings.lib
+generated\databases\generic\resistancehumanconfigoverridesdb_d9cd45b8.obj
+generated\databases\generic\rewardtag.lib
+generated\databases\generic\rewardtagcategory.lib
+generated\databases\generic\uiingamemappulsesetting.lib
+generated\databases\generic\zombiecomposition.lib
+generated\databases\generic\zombieconfig.lib

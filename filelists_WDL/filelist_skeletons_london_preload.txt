@@ -1,0 +1,8 @@
+graphics\characters\robots\spider_aiden\spider_drone_01_ref.skeleton
+graphics\cinematics\cin_wrenchmask_02.skeleton
+graphics\gameplay_ingredients\drone\drone_aiden_vehicle_01_ref.skeleton
+graphics\gameplay_ingredients\drone\drone_satellite_vehicle_01_ref.skeleton
+graphics\weapons\melee\rescue_tool\rescue_tool.skeleton
+graphics\weapons\melee\wrench_sledgehammer\melee_weapon.skeleton
+graphics\weapons\pistols\aidens_revolver\pistolpart.skeleton
+graphics\weapons\pistols\hiddengun_01\pistolpart.skeleton

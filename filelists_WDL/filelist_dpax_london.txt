@@ -1,0 +1,3 @@
+animations\scriptedevents\narrative\scenes\opl_603_s120_tkr_connie_meet\f00-000-00_opl603-s120-tkr-connie-meet-aiden_mplyr.dpax
+animations\scriptedevents\narrative\scenes\opl_603_s120_tkr_connie_meet\f00-000-00_opl603-s120-tkr-connie-meet_fnpc.dpax
+animations\scriptedevents\narrative\scenes\res_601_s010_tkr_smuggler\f00-000-00_res601-s010-tkr-smuggler_fnpc.dpax

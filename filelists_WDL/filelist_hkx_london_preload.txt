@@ -1,0 +1,4 @@
+graphics\weapons\melee\hiddenblade_darcy_01\hiddenblade_darcy_01.hkx
+graphics\weapons\melee\rescue_tool\rescue_tool.hkx
+graphics\weapons\pistols\aidens_revolver\pistolpart.hkx
+graphics\weapons\pistols\hiddengun_01\pistolpart.hkx

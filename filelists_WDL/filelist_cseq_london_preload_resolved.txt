@@ -1,0 +1,12 @@
+sequences\dlc1\dlc_checkpoint_visual_fx_black.cseq
+sequences\toughguy\dash_loop_in.cseq
+sequences\mina_abilities\mina_control_fadin.cseq
+sequences\toughguy\dash_loop.cseq
+sequences\mina_abilities\mina_control.cseq
+sequences\mina_abilities\mina_Loop.cseq
+sequences\focus_loop.cseq
+sequences\toughguy\dash_loop_out.cseq
+sequences\focus_in.cseq
+sequences\dlc1\DLC_Checkpoint_Visual_FX.cseq
+sequences\focus_out.cseq
+sequences\mina_abilities\mina_control_fadout.cseq

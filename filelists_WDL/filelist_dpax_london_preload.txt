@@ -1,0 +1,7 @@
+animations\civilians\scenarios\b02-079-01_zombie-walk-v1_fcivi.dpax
+animations\civilians\scenarios\b02-079-01_zombie-walk-v1_mcivi.dpax
+animations\civilians\scenarios\b02-079-01_zombie-walk-v2_fcivi.dpax
+animations\civilians\scenarios\b02-079-01_zombie-walk-v2_mcivi.dpax
+animations\civilians\scenarios\b02-079-01_zombie-walk-v3_fcivi.dpax
+animations\locomotion\idle\f00-000-00_female-fulb-idle-h_fplyr_000f_norm_nowep.dpax
+animations\locomotion\idle\f00-000-00_trained-idle-v2_fplyr_000f_norm_nowep.dpax
