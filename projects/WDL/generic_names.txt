@@ -3640,6 +3640,7 @@ choreographyshootingpatternsRushingTargetPattern
 choreographyshootingpatternsShootingPattern
 choreographyshootingpatternsSuppressivePattern
 ChoreographyUnits
+chs
 Cinema
 cinemacolorgradingColorGrading
 CinemaContentInfo

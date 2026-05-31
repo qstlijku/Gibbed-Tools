@@ -486,7 +486,7 @@
 		<object name="locJSwIndex">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D1F86D42">
+		<object name="chs">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="fakeLongEnglish">
