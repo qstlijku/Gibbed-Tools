@@ -41,17 +41,17 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
 	<object name="locstridVehicleHealthBarHeader">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="06523E97">
+	<object name="locstridNoCivilianKilledFailLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E35099E0">
+	<object name="locstridNeutralizeConditionsFailLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

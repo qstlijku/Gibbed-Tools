@@ -9,7 +9,7 @@
 	<field name="bRegisterOnGameStart" type="BinHex"/>
 	<field name="fCooldownAfterLaunch" type="BinHex"/>
 	<field name="fCooldownBetweenEvaluations" type="BinHex"/>
-	<field hash="E5C9DE0A" type="BinHex"/>
+	<field name="selBoroughUprisingState" type="BinHex"/>
 	<object name="EvaluatorSettings">
 		<field name="text_selType" type="String"/>
 		<field name="selType" type="Enum"/>

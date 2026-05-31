@@ -30,7 +30,7 @@
 		<field name="bHasShortcutToMenus" type="BinHex"/>
 		<field name="uimenupageMenuShortcut" type="BinHex"/>
 		<field hash="393D18D2" type="String"/>
-		<field hash="09242F93" type="BinHex"/>
+		<field name="hintmanagermenuparamscallbackMenuParamsCallback" type="BinHex"/>
 		<field name="bIsFlyingDrone" type="Boolean"/>
 		<field name="selAttackingAttachedBone" type="BinHex"/>
 		<field name="selSpecificWeapon" type="BinHex"/>
@@ -64,9 +64,9 @@
 		<field name="itemsItem" type="BinHex"/>
 		<field name="scenetotexturestudioobjectDetailsViewStudioObject" type="BinHex"/>
 		<field name="bHasUniquePaintJob" type="Boolean"/>
-		<field hash="BBDE2D28" type="BinHex"/>
+		<field name="bCanCustomizePaintJob" type="BinHex"/>
 		<field hash="6E60D4BB" type="String"/>
-		<field hash="3FBF3FE9" type="BinHex"/>
+		<field name="predefrewardoperativedescwithemptyRewardOperative" type="BinHex"/>
 		<field name="musiclibraryRewardSpecificSong" type="BinHex"/>
 		<field name="itemsItemInBox" type="BinHex"/>
 		<field name="disItemInBoxHasUnlimitedMaxCountInInventory" type="BinHex"/>
@@ -81,7 +81,7 @@
 		<field name="fStability" type="Float"/>
 		<field name="fReload" type="Float"/>
 		<field name="fAccuracy" type="Float"/>
-		<field hash="B9C059F8" type="BinHex"/>
+		<field name="bIsExotic" type="BinHex"/>
 		<field name="weaponWeaponParam" type="BinHex"/>
 		<field name="itemsBulletItem" type="BinHex"/>
 		<field name="texturedbobjectInventoryWheelTexture" type="BinHex"/>
@@ -92,7 +92,7 @@
 		<field name="texturedbobjectLoadoutTexture" type="BinHex"/>
 		<field name="sIconTag" type="BinHex"/>
 		<field name="itemsAlternativeItem" type="BinHex"/>
-		<field hash="1DCB8DB3" type="BinHex"/>
+		<field name="weaponsubstitutionconfigWeaponSubstitutionConfig" type="BinHex"/>
 		<field name="texturedbobjectHeaderTexture" type="BinHex"/>
 		<field name="bAppliedToAllWeapons" type="BinHex"/>
 		<field name="selRarity" type="BinHex"/>
@@ -194,7 +194,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="97013718">
+		<object name="locstridCategoryNameId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="Links">
@@ -206,11 +206,11 @@
 				<field name="sMaterialOverrideSlotName" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="2F162B7F">
+		<object name="locstridLockedUiText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="ActivityAudioFile">
-			<field hash="780E306D" type="BinHex"/>
+			<field name="musiceventsAudioFile" type="BinHex"/>
 		</object>
 		<object name="ActivityChat">
 			<field name="bIsChatTrigerredByEvents" type="Boolean"/>
@@ -269,9 +269,9 @@
 		<object name="ConsumableProperties">
 			<field name="bImmediateConsumption" type="Boolean"/>
 			<field name="sndConsumedSuccess" type="BinHex"/>
-			<field hash="7DC17E10" type="BinHex"/>
+			<field name="sndtpConsumedSuccessType" type="BinHex"/>
 			<field name="sndConsumedFailure" type="BinHex"/>
-			<field hash="83098270" type="BinHex"/>
+			<field name="sndtpConsumedFailureType" type="BinHex"/>
 			<field name="bPlayAnimationOnConsume" type="Boolean"/>
 			<field name="fCooldownDuration" type="Float"/>
 			<field name="texturedbobjectInventoryWheelTexture" type="BinHex"/>
@@ -284,7 +284,7 @@
 		<object name="DisruptCommSpecific">
 			<field name="text_sndDisruptionSound" type="String"/>
 			<field name="sndDisruptionSound" type="BinHex"/>
-			<field hash="3A8460E6" type="BinHex"/>
+			<field name="sndtpDisruptionSoundType" type="BinHex"/>
 			<field name="sCinemaPostFxName" type="BinHex"/>
 			<field name="text_psParticleSystem" type="String"/>
 			<field name="psParticleSystem" type="BinHex"/>
@@ -326,7 +326,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="0AD0BFC4">
+		<object name="bAllowPickupWhileFull">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>

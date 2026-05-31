@@ -77,7 +77,7 @@
 			<object name="Sounds">
 				<field name="text_sndNewsJingleSound" type="String"/>
 				<field name="sndNewsJingleSound" type="BinHex"/>
-				<field hash="D0A89BB2" type="BinHex"/>
+				<field name="sndtpNewsJingleSoundType" type="BinHex"/>
 				<field name="fNewsStartBarkDelayMin" type="BinHex"/>
 				<field name="fNewsStartBarkDelayMax" type="BinHex"/>
 				<field name="fNewsReminderBarkIntervalMin" type="BinHex"/>

@@ -29,12 +29,12 @@
 	<field name="mapicondescStreetArt" type="BinHex"/>
 	<field name="mapicondescKickUp" type="BinHex"/>
 	<field name="mapicondescCourier" type="BinHex"/>
-	<field hash="3F69836F" type="BinHex"/>
+	<field name="mapicondescPhotoBooth" type="BinHex"/>
 	<field name="mapicondescMicroDrone" type="BinHex"/>
 	<field name="mapicondescInteractionButton" type="BinHex"/>
 	<field name="mapicondescInteractionLock" type="BinHex"/>
 	<field name="mapicondescDroneDeliveryPackage" type="BinHex"/>
-	<field hash="A51229A1" type="BinHex"/>
-	<field hash="C06FFEAF" type="BinHex"/>
-	<field hash="D83A7547" type="BinHex"/>
+	<field name="mapicondescActivateSatelliteCapsule" type="BinHex"/>
+	<field name="mapicondescScramblerLock" type="BinHex"/>
+	<field name="mapicondescScramblerKey" type="BinHex"/>
 </class>

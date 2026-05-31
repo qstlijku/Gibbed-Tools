@@ -7,13 +7,13 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bIsProductionReady" type="BinHex"/>
-	<field hash="C64ED928" type="BinHex"/>
+	<field name="bAllowedInMultiplayer" type="BinHex"/>
 	<field name="selTrigger" type="BinHex"/>
-	<field hash="A2699203" type="BinHex"/>
+	<field name="fTriggerCooldownDuration" type="BinHex"/>
 	<field name="selRepeatMode" type="BinHex"/>
 	<field name="selPlayMode" type="BinHex"/>
-	<field hash="E45075D2" type="BinHex"/>
-	<field hash="1830772C" type="BinHex"/>
+	<field name="fPlayerAttention_RequestDuration" type="BinHex"/>
+	<field name="fPlayerAttention_AttentionDuration" type="BinHex"/>
 	<field name="phonecommunicationsettingsPhoneCommEntry" type="BinHex"/>
 	<field name="sBarkName" type="BinHex"/>
 	<field name="fBarkDelay" type="Float"/>

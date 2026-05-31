@@ -6,5 +6,5 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="8E4E9764" type="BinHex"/>
+	<field name="bCanCaptureNews" type="BinHex"/>
 </class>

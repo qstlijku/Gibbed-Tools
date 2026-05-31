@@ -30,11 +30,11 @@
 	<field name="fFadeOutLength" type="Float"/>
 	<field name="fMinBlackScreenLength" type="BinHex"/>
 	<field name="fSkipButtonDuration" type="BinHex"/>
-	<field hash="4AB94090" type="BinHex"/>
+	<field name="fFadeOutDelay" type="BinHex"/>
 	<field name="fHeadLookatTransitionDuration" type="BinHex"/>
 	<field name="fCollisionRadius" type="Float"/>
 	<field name="fCollisionBlendOutTime" type="BinHex"/>
-	<object hash="C701461F">
+	<object name="sndvarFadeToBlackRTPC">
 		<field name="SoundId" type="BinHex"/>
 		<field name="SoundGuid" type="String"/>
 	</object>

@@ -13,7 +13,7 @@
 	<field name="fRaycastHitMaxDistance" type="BinHex"/>
 	<field name="fOcclusionPerMeterOfThickness" type="Float"/>
 	<field name="fOcclusionPerMeterOfPathDifference" type="Float"/>
-	<field hash="F4807F7E" type="BinHex"/>
+	<field name="fBlendedPathOnePriorityFactor" type="BinHex"/>
 	<field name="fIndoorOutdoorAdditionalOcclusion" type="Float"/>
 	<field name="fVirtualPositionSegmentMinimumLength" type="Float"/>
 	<field name="fVirtualPositionSegmentMaximumLength" type="Float"/>

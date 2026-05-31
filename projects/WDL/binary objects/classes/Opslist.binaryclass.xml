@@ -9,13 +9,13 @@
 	<field name="brickflowBrickFlowConfig" type="BinHex"/>
 	<field name="uiopdbUIContent" type="BinHex"/>
 	<field name="oplineconfigOpLine" type="BinHex"/>
-	<field hash="D65B1412" type="BinHex"/>
+	<field name="opchapterOpChapter" type="BinHex"/>
 	<field name="oplineuidataOpLineUIDataOnOpCompletion" type="BinHex"/>
-	<field hash="DE4F8D2E" type="BinHex"/>
+	<field name="uimissionappvillainviewdataUIMissionsAppVillainViewDataOnOpCompletion" type="BinHex"/>
 	<field name="bShouldPlayOpCompletionDedSecNarrative" type="BinHex"/>
 	<field name="sTrackingName" type="String"/>
 	<field name="districtBorough" type="BinHex"/>
-	<field hash="587240B1" type="BinHex"/>
+	<field name="sPS5ObjectID" type="BinHex"/>
 	<object name="RewardsSettings">
 		<object name="CryptoCurrency">
 			<field name="rulesmithidRule" type="BinHex"/>

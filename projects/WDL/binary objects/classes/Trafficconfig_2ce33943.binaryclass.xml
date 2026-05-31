@@ -19,11 +19,11 @@
 		<field name="fDodgeSidewalkIn" type="Float"/>
 	</object>
 	<object name="TrafficLights">
-		<field hash="FDCD50A4" type="BinHex"/>
-		<field hash="063A71B8" type="BinHex"/>
-		<field hash="0040E305" type="BinHex"/>
-		<field hash="FCDE271D" type="BinHex"/>
-		<field hash="9FF0E2AC" type="BinHex"/>
+		<field name="fGreenLightMinDuration" type="BinHex"/>
+		<field name="fGreenLightCrosswalkLengthScalar" type="BinHex"/>
+		<field name="fYellowLightMinDuration" type="BinHex"/>
+		<field name="fYellowLightCrosswalkLengthScalar" type="BinHex"/>
+		<field name="fLightCycleChangeDuration" type="BinHex"/>
 	</object>
 	<object name="WaterTrafficSpeed">
 		<field name="fWaterSpeedLimitSlow" type="Float"/>
@@ -73,8 +73,8 @@
 		<field name="fMinDistanceToCrossroad" type="Float"/>
 		<field name="fTrafficCarsInitialOffsetCff" type="Float"/>
 		<field name="fTrafficBoatsInitialOffsetCff" type="Float"/>
-		<field hash="E36E9DA0" type="BinHex"/>
-		<field hash="1C7EE929" type="BinHex"/>
+		<field name="iMaxPoliceInVehicleInDefiantBorough" type="BinHex"/>
+		<field name="iMaxPoliceInVehicleInOppressedBorough" type="BinHex"/>
 		<object name="DefaultCivilianDensity">
 			<field name="disNomadObjectId" type="BinHex"/>
 			<field name="hidSingleObject" type="Boolean"/>

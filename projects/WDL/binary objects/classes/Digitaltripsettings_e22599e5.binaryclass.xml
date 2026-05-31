@@ -7,25 +7,25 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fInvitePopupDuration" type="BinHex"/>
-	<field hash="6E9F5187" type="BinHex"/>
+	<field name="fFriendBonusPecentage" type="BinHex"/>
 	<field name="fMaxNoTeleportDistance" type="BinHex"/>
 	<field name="selVmcOverrideMode" type="BinHex"/>
 	<object name="Modes">
 		<object name="Mode">
 			<field name="selModeType" type="BinHex"/>
 			<field name="texturedbobjectModeImage" type="BinHex"/>
-			<field hash="3DDE7265" type="BinHex"/>
+			<field name="texturedbobjectAdvertisingImage" type="BinHex"/>
 			<field name="selTeamMode" type="BinHex"/>
-			<field hash="F028A6DC" type="BinHex"/>
+			<field name="bIsSandboxMode" type="BinHex"/>
 			<field name="iMinPlayersForAutoStart" type="BinHex"/>
-			<field hash="78807C8E" type="BinHex"/>
+			<field name="iMinPlayersForPrivateStart" type="BinHex"/>
 			<field name="iMaxPlayers" type="BinHex"/>
-			<field hash="4E5B63C6" type="BinHex"/>
+			<field name="selActivityStatus" type="BinHex"/>
 			<field name="selMissionMessageType" type="BinHex"/>
 			<field name="fullscreentutorialFullscreenTutorial" type="BinHex"/>
-			<field hash="6B101017" type="String"/>
-			<field hash="045A2A4B" type="String"/>
-			<field hash="32B935C9" type="BinHex"/>
+			<field name="sEndGameRewardsId" type="String"/>
+			<field name="sDailyBonudRewardsId" type="String"/>
+			<field name="bUseBonusRewardCategory" type="BinHex"/>
 			<field name="digitaltripoverridedescriptorGameplayOverrides" type="BinHex"/>
 			<field name="shopcomponentsettingsCustomizationSettings" type="BinHex"/>
 			<field name="digitaltriploadoutsdescriptorLoadouts" type="BinHex"/>
@@ -56,16 +56,16 @@
 			<object name="locstridInviteContent">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D75EEE4E">
+			<object name="locstridMinimapName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="E3961947">
+			<object name="locstridMinimapModeName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="6E44C232">
+			<object name="locstridMinimapRequirements">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="9675B0B4">
+			<object name="locstridMinimapDescription">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="Descriptors">
@@ -78,18 +78,18 @@
 	<object name="ModesQuickPlay">
 			<field name="selModeType" type="BinHex"/>
 			<field name="texturedbobjectModeImage" type="BinHex"/>
-			<field hash="3DDE7265" type="BinHex"/>
+			<field name="texturedbobjectAdvertisingImage" type="BinHex"/>
 			<field name="selTeamMode" type="BinHex"/>
-			<field hash="F028A6DC" type="BinHex"/>
+			<field name="bIsSandboxMode" type="BinHex"/>
 			<field name="iMinPlayersForAutoStart" type="BinHex"/>
-			<field hash="78807C8E" type="BinHex"/>
+			<field name="iMinPlayersForPrivateStart" type="BinHex"/>
 			<field name="iMaxPlayers" type="BinHex"/>
-			<field hash="4E5B63C6" type="BinHex"/>
+			<field name="selActivityStatus" type="BinHex"/>
 			<field name="selMissionMessageType" type="BinHex"/>
 			<field name="fullscreentutorialFullscreenTutorial" type="BinHex"/>
-			<field hash="6B101017" type="String"/>
-			<field hash="045A2A4B" type="String"/>
-			<field hash="32B935C9" type="BinHex"/>
+			<field name="sEndGameRewardsId" type="String"/>
+			<field name="sDailyBonudRewardsId" type="String"/>
+			<field name="bUseBonusRewardCategory" type="BinHex"/>
 			<field name="digitaltripoverridedescriptorGameplayOverrides" type="BinHex"/>
 			<field name="shopcomponentsettingsCustomizationSettings" type="BinHex"/>
 			<field name="digitaltriploadoutsdescriptorLoadouts" type="BinHex"/>
@@ -120,16 +120,16 @@
 		<object name="locstridInviteContent">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="D75EEE4E">
+		<object name="locstridMinimapName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="E3961947">
+		<object name="locstridMinimapModeName">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="6E44C232">
+		<object name="locstridMinimapRequirements">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="9675B0B4">
+		<object name="locstridMinimapDescription">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="Descriptors"/>

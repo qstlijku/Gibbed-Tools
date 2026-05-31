@@ -13,7 +13,7 @@
 	<field name="angCameraMaximumYawAngle" type="BinHex"/>
 	<field name="vectorCameraOBBSize" type="BinHex"/>
 	<field name="fDomeFollowMovementFactor" type="BinHex"/>
-	<field hash="893D0FC1" type="BinHex"/>
+	<field name="iMaxAvailableSeats" type="BinHex"/>
 	<field name="text_archOperativeArchetype" type="String"/>
 	<field name="archOperativeArchetype" type="BinHex"/>
 	<field name="bUseHighlightOnOperative" type="BinHex"/>
@@ -33,14 +33,14 @@
 	<field name="sndChangeCamera" type="BinHex"/>
 	<field name="text_sndRandomizeSetup" type="String"/>
 	<field name="sndRandomizeSetup" type="BinHex"/>
-	<field hash="BF86C09D" type="BinHex"/>
-	<field hash="B6DE8700" type="BinHex"/>
-	<field hash="3789279E" type="BinHex"/>
-	<field hash="EEC4E3A9" type="BinHex"/>
-	<field hash="7EBDFB1B" type="BinHex"/>
-	<field hash="FE87722D" type="BinHex"/>
-	<field hash="51D17A44" type="BinHex"/>
-	<field hash="DE3AD001" type="BinHex"/>
+	<field name="sndtpEnterType" type="BinHex"/>
+	<field name="sndtpExitType" type="BinHex"/>
+	<field name="sndtpSelectOperativeType" type="BinHex"/>
+	<field name="sndtpChangeOperativeType" type="BinHex"/>
+	<field name="sndtpChangeAnimationType" type="BinHex"/>
+	<field name="sndtpChangeMaskType" type="BinHex"/>
+	<field name="sndtpChangeCameraType" type="BinHex"/>
+	<field name="sndtpRandomizeSetupType" type="BinHex"/>
 	<object name="EmoteAnimations">
 		<object name="EmoteAnimation">
 			<field name="text_fileEmoteAnimation" type="String"/>

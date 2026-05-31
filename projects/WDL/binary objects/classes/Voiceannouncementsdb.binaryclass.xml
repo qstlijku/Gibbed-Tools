@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="sndPreAnnouncementSound" type="BinHex"/>
-	<field hash="4D0C6DBB" type="BinHex"/>
+	<field name="sndtpPreAnnouncementSoundType" type="BinHex"/>
 	<field name="bRandomizeSequence" type="BinHex"/>
 	<field name="bLoopSequence" type="BinHex"/>
 	<field name="fMinimumDelayBetweenAnnouncements" type="BinHex"/>
@@ -22,12 +22,12 @@
 	<object name="OppressedBoroughData">
 		<field name="text_sndOppressedPreAnnouvementSound" type="String"/>
 		<field name="sndOppressedPreAnnouvementSound" type="BinHex"/>
-		<field hash="F10B1618" type="BinHex"/>
+		<field name="sndtpOppressedPreAnnouvementSoundType" type="BinHex"/>
 		<field name="bOppressedRandomizeSequence" type="BinHex"/>
 		<field name="bOppressedLoop" type="BinHex"/>
 		<field name="fOppressedMinimumDelayBetweenAnnouncements" type="BinHex"/>
 		<field name="fOppressedMaximumDelayBetweenAnnouncements" type="BinHex"/>
-		<object hash="0D634BAC">
+		<object name="oppressedVoiceAnnouncementsAndTypes">
 			<object name="VoiceAnnouncement">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>

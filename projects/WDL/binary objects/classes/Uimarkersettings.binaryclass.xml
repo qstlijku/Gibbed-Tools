@@ -63,7 +63,7 @@
 		<field name="uicolorpalettesettingsNeutralColor" type="BinHex"/>
 		<field name="uicolorpalettesettingsDeadColor" type="BinHex"/>
 		<field name="uicolorpalettesettingsEnemyColor" type="BinHex"/>
-		<field hash="78C2BA42" type="BinHex"/>
+		<field name="uicolorpalettesettingsInGroupColor" type="BinHex"/>
 		<field name="uicolorpalettesettingsCoopColor" type="BinHex"/>
 		<field name="uicolorpalettesettingsLocalColor" type="BinHex"/>
 		<field name="iNearDistance" type="BinHex"/>

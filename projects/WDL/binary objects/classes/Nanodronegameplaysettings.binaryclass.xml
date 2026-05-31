@@ -39,13 +39,13 @@
 		<field name="text_sndUnmuteExternalSounds" type="String"/>
 		<field name="sndUnmuteExternalSounds" type="BinHex"/>
 		<field hash="CE3502BF" type="String"/>
-		<field hash="45121F3B" type="BinHex"/>
+		<field name="sndStartAlarmSound" type="BinHex"/>
 		<field hash="D4B87072" type="String"/>
-		<field hash="4D1D1E28" type="BinHex"/>
-		<field hash="C78075BA" type="BinHex"/>
-		<field hash="D8BB27FF" type="BinHex"/>
-		<field hash="94E20542" type="BinHex"/>
-		<field hash="0D568F58" type="BinHex"/>
+		<field name="sndStopAlarmSound" type="BinHex"/>
+		<field name="sndtpMuteExternalSoundsType" type="BinHex"/>
+		<field name="sndtpUnmuteExternalSoundsType" type="BinHex"/>
+		<field name="sndtpStartAlarmSoundType" type="BinHex"/>
+		<field name="sndtpStopAlarmSoundType" type="BinHex"/>
 		<object name="SoundAndTypeStartBeepingSound">
 			<field name="text_sndSoundId" type="String"/>
 			<field name="sndSoundId" type="BinHex"/>

@@ -51,7 +51,7 @@
 		<field name="sndStartSoundID" type="BinHex"/>
 		<field name="text_sndStartNPCSoundID" type="String"/>
 		<field name="sndStartNPCSoundID" type="BinHex"/>
-		<field hash="C8AC786D" type="BinHex"/>
-		<field hash="CFD8566A" type="BinHex"/>
+		<field name="sndtpStartSoundIDType" type="BinHex"/>
+		<field name="sndtpStartNPCSoundIDType" type="BinHex"/>
 	</object>
 </class>

@@ -9,8 +9,8 @@
 	<object name="ContextualTagDistributions">
 		<object name="ContextualTagDistribution">
 			<field name="entcontContext" type="BinHex"/>
-			<field hash="D9C9390D" type="Boolean"/>
-			<field hash="56176307" type="Boolean"/>
+			<field name="bMultiplayerRulesOverride" type="Boolean"/>
+			<field name="bMultiplayerHVCRulesOverride" type="Boolean"/>
 			<object name="Rules">
 				<object name="RuleNode">
 					<field name="selTagCategory" type="BinHex"/>

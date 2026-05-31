@@ -60,7 +60,7 @@
 			<object name="Entry">
 				<field name="CommonDataRequired" type="BinHex"/>
 				<field name="ContextualID" type="BinHex"/>
-				<field hash="6916815A" type="BinHex"/>
+				<field name="tagContextualTag" type="BinHex"/>
 				<object name="Backgrounds"/>
 				<object name="Videos">
 					<object name="videosVideo">
@@ -130,7 +130,7 @@
 			<object name="Entry">
 				<field name="CommonDataRequired" type="BinHex"/>
 				<field name="ContextualID" type="String"/>
-				<field hash="6916815A" type="BinHex"/>
+				<field name="tagContextualTag" type="BinHex"/>
 				<object name="Backgrounds"/>
 				<object name="Videos">
 					<object name="videosVideo">
@@ -178,7 +178,7 @@
 			<object name="Entry">
 				<field name="CommonDataRequired" type="BinHex"/>
 				<field name="ContextualID" type="String"/>
-				<field hash="6916815A" type="BinHex"/>
+				<field name="tagContextualTag" type="BinHex"/>
 				<object name="Backgrounds"/>
 				<object name="Videos">
 					<object name="videosVideo">

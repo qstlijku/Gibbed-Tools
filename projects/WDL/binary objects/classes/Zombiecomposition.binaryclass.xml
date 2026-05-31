@@ -6,5 +6,5 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="59960845" type="BinHex"/>
+	<field name="selPriorityMult" type="BinHex"/>
 </class>

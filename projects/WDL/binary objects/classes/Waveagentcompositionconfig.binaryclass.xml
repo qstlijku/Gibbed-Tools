@@ -14,8 +14,8 @@
 			</object>
 			<object name="AgentCompositionEntries">
 				<object name="AgentCompositionEntry">
-					<field hash="C48C6356" type="BinHex"/>
-					<field hash="1568085B" type="BinHex"/>
+					<field name="fInitialSpawnTimer" type="BinHex"/>
+					<field name="fRefillTimer" type="BinHex"/>
 					<object name="AgentSubcategorySettings">
 						<object name="AgentSubcategoryData">
 							<field name="selAgentSubcategory" type="BinHex"/>

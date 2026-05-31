@@ -16,10 +16,10 @@
 	<field name="fPickingRadius" type="BinHex"/>
 	<field name="bPauseOncallForReinforcements" type="BinHex"/>
 	<field name="vectorColor" type="BinHex"/>
-	<field hash="C732DD40" type="BinHex"/>
-	<field hash="702D62D7" type="BinHex"/>
-	<field hash="87993991" type="BinHex"/>
-	<field hash="FF32A2DA" type="BinHex"/>
-	<field hash="BFF8277E" type="BinHex"/>
-	<field hash="E8F6773D" type="BinHex"/>
+	<field name="fDurationOfIconAboveHackedVehicle" type="BinHex"/>
+	<field name="fDurationOfLinkBetweenBossAndHackedVehicle" type="BinHex"/>
+	<field name="fDurationOfHacking" type="BinHex"/>
+	<field name="fDurationOfPostHackDelay" type="BinHex"/>
+	<field name="fMaxDistanceToHideCarHackIcon" type="BinHex"/>
+	<field name="fMinDistanceToHideCarHackIcon" type="BinHex"/>
 </class>

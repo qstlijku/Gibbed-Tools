@@ -21,7 +21,7 @@
 		<field name="fFollowRearMaxDistance" type="BinHex"/>
 		<field name="fPointRadius" type="BinHex"/>
 		<field name="fDelayBetweenWeaponFireAttempts" type="BinHex"/>
-		<field hash="F4A3F192" type="BinHex"/>
+		<field name="fForceShootDelay" type="BinHex"/>
 		<field name="fDelayBetweenWeaponFireAttemptsWhenHacked" type="BinHex"/>
 		<field name="fOrbitYawIncrement" type="BinHex"/>
 		<field name="fOrbitSpeed" type="BinHex"/>
@@ -32,7 +32,7 @@
 		<field name="fFollowHoldPosStiffness" type="BinHex"/>
 		<field name="fMeleeHeight" type="BinHex"/>
 		<field name="fCombatHeight" type="BinHex"/>
-		<field hash="77047AE4" type="BinHex"/>
+		<field name="fShootRangeIfUnreachableTarget" type="BinHex"/>
 	</object>
 	<object name="InVehicle">
 		<field name="fMinSpeed" type="Float"/>
@@ -60,7 +60,7 @@
 		<field name="fWeaponFiredSpeedPenalty" type="BinHex"/>
 		<field name="fFirstWeaponFireDelay" type="BinHex"/>
 		<field name="fDelayBetweenWeaponFireAttempts" type="BinHex"/>
-		<field hash="010F7BE3" type="BinHex"/>
+		<field name="fDelayBetweenHitShots" type="BinHex"/>
 		<field name="fDelayBetweenWeaponFireAttemptsWhenHacked" type="BinHex"/>
 		<field name="iMaxDronesInFront" type="BinHex"/>
 		<field name="fLerpDonutInnerRadius" type="BinHex"/>

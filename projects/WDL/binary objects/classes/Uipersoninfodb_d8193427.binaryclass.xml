@@ -17,7 +17,7 @@
 			<object name="locstridDescription">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="BF036A1A">
+			<object name="locstridOverrideDescription">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>

@@ -18,6 +18,6 @@
 		<field name="bIsFactionAffiliate" type="BinHex"/>
 		<field name="bForceRespawnAfterCheckpoint" type="Boolean"/>
 		<field name="stimtableStimEffectTable" type="BinHex"/>
-		<field hash="17677F66" type="BinHex"/>
+		<field name="selCompositionVehicleType" type="BinHex"/>
 	</object>
 </class>

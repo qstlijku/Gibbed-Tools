@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fObjectSpeedMultiplier" type="Float"/>
 	<object name="CoreData">
-		<field hash="F1DAA2B6" type="BinHex"/>
+		<field name="sndtpUbiLogoSoundType" type="BinHex"/>
 		<object name="sndvarBusVolumeRTPC">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
@@ -57,7 +57,7 @@
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="874D3D8D">
+		<object name="sndvarListenerToCameraRTPC">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="BinHex"/>
 		</object>
@@ -76,7 +76,7 @@
 		<object name="Multiplayer">
 			<field name="text_sndMicrophoneInputEvent" type="String"/>
 			<field name="sndMicrophoneInputEvent" type="BinHex"/>
-			<field hash="ED621470" type="BinHex"/>
+			<field name="sndtpMicrophoneInputSoundType" type="BinHex"/>
 		</object>
 		<object name="DTest">
 			<field name="text_sndTestSound" type="String"/>

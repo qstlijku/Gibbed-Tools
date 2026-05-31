@@ -12,9 +12,9 @@
 	<field name="bCanMatchVisibleActivities" type="BinHex"/>
 	<field name="bCanMatchNPCDoorActivities" type="BinHex"/>
 	<field name="bCanBeAssignedToOperatives" type="BinHex"/>
-	<field hash="57C37A99" type="BinHex"/>
+	<field name="bCanMatchLocationsWithPGTs" type="BinHex"/>
 	<field name="bHasDifferentRoleUIData" type="BinHex"/>
-	<field hash="225841E0" type="BinHex"/>
+	<field name="censusdeepprofilericondefinitionDeepProfilerIcon" type="BinHex"/>
 	<object name="UIDataRoleA">
 		<field name="bIsAllowedToReferenceAssociate" type="BinHex"/>
 		<object name="locstridCurrentlyHappening">

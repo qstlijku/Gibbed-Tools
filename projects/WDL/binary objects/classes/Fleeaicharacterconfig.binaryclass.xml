@@ -45,7 +45,7 @@
 		</object>
 		<object name="StopAndFire">
 			<field name="bEnabled" type="Boolean"/>
-			<field hash="C8C0D33E" type="BinHex"/>
+			<field name="bAdvancedAIOnly" type="BinHex"/>
 			<field name="fDelayOnStart" type="Float"/>
 			<field name="fDelayForNextAction" type="Float"/>
 			<field name="vec2DelayToTrigger" type="Vector2"/>
@@ -62,7 +62,7 @@
 		</object>
 		<object name="BlindFire">
 			<field name="bEnabled" type="Boolean"/>
-			<field hash="C8C0D33E" type="BinHex"/>
+			<field name="bAdvancedAIOnly" type="BinHex"/>
 			<field name="fDelayOnStart" type="Float"/>
 			<field name="fDelayForNextAction" type="Float"/>
 			<field name="vec2DelayToTrigger" type="Vector2"/>
@@ -79,7 +79,7 @@
 		</object>
 		<object name="Stumble">
 			<field name="bEnabled" type="Boolean"/>
-			<field hash="C8C0D33E" type="BinHex"/>
+			<field name="bAdvancedAIOnly" type="BinHex"/>
 			<field name="fDelayOnStart" type="Float"/>
 			<field name="fDelayForNextAction" type="Float"/>
 			<field name="vec2DelayToTrigger" type="Vector2"/>

@@ -19,11 +19,11 @@
 			</object>
 			<field name="text_sndRandomFxSound" type="String"/>
 			<field name="sndRandomFxSound" type="BinHex"/>
-			<field hash="2B355191" type="BinHex"/>
+			<field name="sndtpRandomFxSoundType" type="BinHex"/>
 			<object name="AmbianceSoundsAndTypes"/>
 			<object name="WindGustSettings">
 				<field name="sndWindGustSound" type="BinHex"/>
-				<field hash="0CE02618" type="BinHex"/>
+				<field name="sndtpWindGustSoundType" type="BinHex"/>
 				<field name="fWindGustMinWindSpeed" type="Float"/>
 				<field name="fWindGustMaxWindSpeed" type="Float"/>
 				<object name="DelayBetweenGusts">

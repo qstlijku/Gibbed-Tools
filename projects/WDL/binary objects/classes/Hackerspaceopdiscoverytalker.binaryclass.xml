@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="CLO" type="BinHex"/>
-	<field hash="57A37C78" type="BinHex"/>
-	<field hash="EFB87847" type="BinHex"/>
+	<field name="fMinimumDiscoveryInterval" type="BinHex"/>
+	<field name="iMaximumSimultaneousOps" type="BinHex"/>
 	<object name="ActivationRule">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>

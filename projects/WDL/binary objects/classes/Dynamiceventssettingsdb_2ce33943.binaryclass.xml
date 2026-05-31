@@ -7,16 +7,16 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="bEnabled" type="Boolean"/>
-	<field hash="E476117F" type="BinHex"/>
+	<field name="itemsTutorialTip" type="BinHex"/>
 	<object name="Timeouts">
 		<field name="disNomadObjectId" type="BinHex"/>
 		<field name="hidSingleObject" type="Boolean"/>
 		<field name="hidKey" type="BinHex"/>
 		<field name="hidValidationFailed" type="Boolean"/>
 		<field name="hidName" type="BinHex"/>
-		<field hash="A8B379A5" type="BinHex"/>
-		<field hash="0407BD52" type="BinHex"/>
-		<field hash="309B3C9C" type="BinHex"/>
+		<field name="fSpawnTimeout" type="BinHex"/>
+		<field name="fActivateTimeout" type="BinHex"/>
+		<field name="fExpirationTimeout" type="BinHex"/>
 	</object>
 	<object name="AreaConfig">
 		<field name="disNomadObjectId" type="BinHex"/>
@@ -24,9 +24,9 @@
 		<field name="hidKey" type="BinHex"/>
 		<field name="hidValidationFailed" type="Boolean"/>
 		<field name="hidName" type="BinHex"/>
-		<field hash="6CE456BF" type="BinHex"/>
-		<field hash="92E1DE0E" type="BinHex"/>
-		<field hash="229DEFE6" type="BinHex"/>
+		<field name="fBeforeStartedRadius" type="BinHex"/>
+		<field name="fStartedRadius" type="BinHex"/>
+		<field name="fLeaveRadius" type="BinHex"/>
 	</object>
 	<object name="DynamicEventsSettings">
 		<object name="DynamicEventSettings">
@@ -35,7 +35,7 @@
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="5733EC84" type="BinHex"/>
+			<field name="bOverrideAreaConfig" type="BinHex"/>
 			<object name="Variations">
 				<object name="Variation">
 					<field name="disNomadObjectId" type="BinHex"/>
@@ -44,8 +44,8 @@
 					<field name="hidValidationFailed" type="Boolean"/>
 					<field name="hidName" type="BinHex"/>
 					<field name="opslistOpConfig" type="BinHex"/>
-					<field hash="383A2DE4" type="BinHex"/>
-					<field hash="5733EC84" type="BinHex"/>
+					<field name="bIsFreeRoam" type="BinHex"/>
+					<field name="bOverrideAreaConfig" type="BinHex"/>
 					<object name="LocationCustomizations"/>
 					<object name="NarrativeEvents"/>
 				</object>
@@ -65,11 +65,11 @@
 						<field name="hidKey" type="BinHex"/>
 						<field name="hidValidationFailed" type="Boolean"/>
 						<field name="hidName" type="BinHex"/>
-						<field hash="45BC8C01" type="BinHex"/>
-						<field hash="88562607" type="BinHex"/>
+						<field name="bUseUniquePhoneCommOnFirstPlay" type="BinHex"/>
+						<field name="phonecommunicationsettingsUniquePhoneCommOnFirstPlay" type="BinHex"/>
 						<object name="PhoneComms">
 							<object name="PhoneComm">
-								<field hash="C4492787" type="BinHex"/>
+								<field name="phonecommunicationsettingsPhoneComm" type="BinHex"/>
 							</object>
 						</object>
 					</object>
@@ -84,9 +84,9 @@
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="D22772A7" type="BinHex"/>
-			<field hash="9061376E" type="BinHex"/>
-			<object hash="EDC76697">
+			<field name="bOverrideFreeRoamAreaConfig" type="BinHex"/>
+			<field name="bOverrideLayersToLoad" type="BinHex"/>
+			<object name="tagcategoryselectionblackboardNamedLocation">
 				<object name="TagCategorySelectionArray">
 					<object name="TagCategorySelection">
 						<field name="text_hid_DTCTH_ClassName" type="String"/>

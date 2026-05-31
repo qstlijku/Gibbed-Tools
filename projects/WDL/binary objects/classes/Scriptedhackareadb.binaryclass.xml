@@ -13,8 +13,8 @@
 		<field name="fLifeTime" type="Float"/>
 		<field name="bClearEffectOnLeave" type="BinHex"/>
 		<field name="fRadius" type="Float"/>
-		<field hash="C28B0D1D" type="BinHex"/>
-		<field hash="EC9D1DD7" type="BinHex"/>
+		<field name="fZValue" type="BinHex"/>
+		<field name="bUseSphericalArea" type="BinHex"/>
 		<field name="vec3LocalCameraOffset" type="BinHex"/>
 		<field name="vec3LocalCameraOffsetVehicle" type="BinHex"/>
 		<field name="bUseDirIncar" type="BinHex"/>

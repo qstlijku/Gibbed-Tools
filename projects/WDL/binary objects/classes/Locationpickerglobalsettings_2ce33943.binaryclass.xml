@@ -328,8 +328,8 @@
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="Curve">
-			<field hash="AF3A054B" type="BinHex"/>
-			<field hash="440DBE48" type="BinHex"/>
+			<field name="fRelativeWeightForBucket1Locations" type="BinHex"/>
+			<field name="fRelativeWeightForBucket2Locations" type="BinHex"/>
 		</object>
 	</object>
 </class>

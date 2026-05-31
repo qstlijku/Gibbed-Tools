@@ -8,14 +8,14 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fGameOverTimeBeforeBlackScreen" type="Float"/>
 	<field name="fGameOverTimeBeforeRespawn" type="Float"/>
-	<field hash="41C7E321" type="BinHex"/>
-	<field hash="B3A4C1B2" type="BinHex"/>
-	<field hash="215C6F50" type="BinHex"/>
-	<field hash="410342F0" type="BinHex"/>
-	<field hash="5D24903E" type="BinHex"/>
-	<field hash="2321CB3E" type="BinHex"/>
-	<field hash="A2D66885" type="BinHex"/>
-	<field hash="CBEA8C5B" type="BinHex"/>
+	<field name="fNormalDeathTimeBeforeBlackScreen" type="BinHex"/>
+	<field name="fNormalDeathTimeBeforeRespawn" type="BinHex"/>
+	<field name="fDeathInVehicleTimeBeforeBlackScreen" type="BinHex"/>
+	<field name="fDeathInVehicleTimeBeforeRespawn" type="BinHex"/>
+	<field name="fArrestTimeBeforeBlackScreen" type="BinHex"/>
+	<field name="fArrestTimeBeforeRespawn" type="BinHex"/>
+	<field name="fInjuredInVehicleTimeBeforeBlackScreen" type="BinHex"/>
+	<field name="fInjuredInVehicleTimeBeforeRespawn" type="BinHex"/>
 	<field name="fTimeShiftRatio" type="Float"/>
 	<field name="fTimeShiftTransitionDuration" type="Float"/>
 	<field name="vec2TimeShiftTransitionSCurve" type="Vector2"/>

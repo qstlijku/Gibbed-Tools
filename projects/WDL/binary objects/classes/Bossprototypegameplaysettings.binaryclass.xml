@@ -15,7 +15,7 @@
 		<field name="fScreenStartupDelay" type="BinHex"/>
 		<field name="fMicrodroneHintDelay" type="BinHex"/>
 		<field name="fFirstRoomMessageDelay" type="BinHex"/>
-		<field hash="32129942" type="BinHex"/>
+		<field name="fWarningTerminalActiveDelay" type="BinHex"/>
 		<field name="sndRoomActivationSound" type="BinHex"/>
 		<field name="sndRoomFailSound" type="BinHex"/>
 		<field name="text_sndBossScreenUpdate" type="String"/>
@@ -36,28 +36,28 @@
 		<field name="sndUnmuteSoundEvents" type="BinHex"/>
 		<field name="sndBulletAttenuationStartEvent" type="BinHex"/>
 		<field name="sndBulletAttenuationStopEvent" type="BinHex"/>
-		<field hash="30BE88F0" type="BinHex"/>
-		<field hash="16DAD58D" type="BinHex"/>
-		<field hash="6CBB9C1F" type="BinHex"/>
-		<field hash="00703724" type="BinHex"/>
-		<field hash="14986013" type="BinHex"/>
-		<field hash="19DB13C8" type="BinHex"/>
-		<field hash="5FA0584A" type="BinHex"/>
-		<field hash="C6C82545" type="BinHex"/>
-		<field hash="06A83669" type="BinHex"/>
-		<field hash="D58CBEC5" type="BinHex"/>
-		<field hash="BB93C023" type="BinHex"/>
-		<field hash="C97FF75E" type="BinHex"/>
-		<field hash="81DF76C4" type="BinHex"/>
-		<field hash="1B21A4C4" type="BinHex"/>
-		<field hash="7FEE1232" type="BinHex"/>
+		<field name="sndtpRoomActivationSoundType" type="BinHex"/>
+		<field name="sndtpRoomFailSoundType" type="BinHex"/>
+		<field name="sndtpBossScreenUpdateType" type="BinHex"/>
+		<field name="sndtpRoomWipeAttackStartedType" type="BinHex"/>
+		<field name="sndtpRoomWipeAttackAbortedType" type="BinHex"/>
+		<field name="sndtpRoomWeakspotOpenType" type="BinHex"/>
+		<field name="sndtpDPSStageStartType" type="BinHex"/>
+		<field name="sndtpDPSStageStopType" type="BinHex"/>
+		<field name="sndtpMuteSoundEventsType" type="BinHex"/>
+		<field name="sndtpUnmuteSoundEventsType" type="BinHex"/>
+		<field name="sndtpBulletAttenuationStartEventType" type="BinHex"/>
+		<field name="sndtpBulletAttenuationStopEventType" type="BinHex"/>
+		<field name="fDelayDialogWipeStarted" type="BinHex"/>
+		<field name="fDelayDialogWipeAborted" type="BinHex"/>
+		<field name="fDelayDialogRoomStageTransition" type="BinHex"/>
 		<field name="fReinforcementLightsDuration" type="BinHex"/>
 		<field name="entGameplayResetterId" type="BinHex"/>
 		<field name="fWarningDuration" type="Float"/>
 		<field name="fWipeDroneWipeChargeDuration" type="BinHex"/>
 		<field name="fWipeLowHealthWipeChargeDuration" type="BinHex"/>
 		<field name="fWipeNoRoomsWipeChargeDuration" type="BinHex"/>
-		<field hash="23AE2FA8" type="BinHex"/>
+		<field name="fRoomWeakspotDialogDelay" type="BinHex"/>
 		<field name="fDPSDuration" type="BinHex"/>
 		<field name="fDPSMaxDamageRatio" type="BinHex"/>
 		<field name="fGameplayReadyStartDelay" type="BinHex"/>
@@ -78,7 +78,7 @@
 						<field name="entResetEntityID" type="BinHex"/>
 						<field name="entSequenceDisplayEntityId" type="BinHex"/>
 						<field name="fWarningDuration" type="Float"/>
-						<field hash="D0161FAB" type="BinHex"/>
+						<field name="entObjectiveMarkerEntity" type="BinHex"/>
 						<object name="SequenceColors">
 							<object name="Color">
 								<field name="colorColor" type="Vector3"/>
@@ -151,12 +151,12 @@
 					<field name="sndMuteExternalSounds" type="BinHex"/>
 					<field name="text_sndUnmuteExternalSounds" type="String"/>
 					<field name="sndUnmuteExternalSounds" type="BinHex"/>
-					<field hash="45121F3B" type="BinHex"/>
-					<field hash="4D1D1E28" type="BinHex"/>
-					<field hash="C78075BA" type="BinHex"/>
-					<field hash="D8BB27FF" type="BinHex"/>
-					<field hash="94E20542" type="BinHex"/>
-					<field hash="0D568F58" type="BinHex"/>
+					<field name="sndStartAlarmSound" type="BinHex"/>
+					<field name="sndStopAlarmSound" type="BinHex"/>
+					<field name="sndtpMuteExternalSoundsType" type="BinHex"/>
+					<field name="sndtpUnmuteExternalSoundsType" type="BinHex"/>
+					<field name="sndtpStartAlarmSoundType" type="BinHex"/>
+					<field name="sndtpStopAlarmSoundType" type="BinHex"/>
 					<object name="SoundAndTypeStartBeepingSound">
 						<field name="text_sndSoundId" type="String"/>
 						<field name="sndSoundId" type="BinHex"/>

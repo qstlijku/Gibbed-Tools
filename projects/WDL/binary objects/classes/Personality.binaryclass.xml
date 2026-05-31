@@ -192,11 +192,11 @@
 			</object>
 		</object>
 		<object name="RushingTargetShooting">
-			<field hash="38513CBD" type="BinHex"/>
-			<field hash="5E761E88" type="BinHex"/>
-			<field hash="2ACA41B8" type="BinHex"/>
-			<field hash="28B12C6F" type="BinHex"/>
-			<field hash="4651C61C" type="BinHex"/>
+			<field name="bRushingTargetShootingEnabled" type="BinHex"/>
+			<field name="fRushingTargetShootingMinDistance" type="BinHex"/>
+			<field name="fRushingTargetShootingMinDotProduct" type="BinHex"/>
+			<field name="fRushingTargetShootingDuration" type="BinHex"/>
+			<field name="fRushingTargetShootingActivationDelay" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Detection">

@@ -47,8 +47,8 @@
 			<field name="bIsElite" type="BinHex"/>
 			<field name="bIsBoss" type="BinHex"/>
 			<field name="bIsUnique" type="BinHex"/>
-			<field hash="9E66B082" type="BinHex"/>
-			<field hash="806E5806" type="BinHex"/>
+			<field name="bIsOCO" type="BinHex"/>
+			<field name="bShowHackReminder" type="BinHex"/>
 			<object name="TagInfo">
 				<field name="selTagIndicatorCategory" type="Enum"/>
 				<field name="selTagIndicatorDefense" type="Enum"/>

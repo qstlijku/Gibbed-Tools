@@ -10,16 +10,16 @@
 		<field name="text_fileVisionLossPostFxTexture" type="String"/>
 		<field name="fileVisionLossPostFxTexture" type="BinHex"/>
 		<field name="fVisionLossDelay" type="BinHex"/>
-		<field hash="4F8638C6" type="BinHex"/>
-		<field hash="3E219F6A" type="BinHex"/>
-		<field hash="D169EFBA" type="BinHex"/>
+		<field name="fVisionBlurredDuration" type="BinHex"/>
+		<field name="fMindBreakStartTime" type="BinHex"/>
+		<field name="fMindBreakDuration" type="BinHex"/>
 		<field name="fVisionGainSpeed" type="BinHex"/>
 		<field name="fVisionLossCriticalratio" type="BinHex"/>
 		<field name="text_psCriticalVisionLossFX" type="String"/>
 		<field name="psCriticalVisionLossFX" type="BinHex"/>
 		<field name="psPlayerVisionLossFX" type="BinHex"/>
 		<field hash="C634AB0C" type="String"/>
-		<field hash="0CF2471B" type="BinHex"/>
+		<field name="psLostVisionFX" type="BinHex"/>
 		<field name="fVisionLossStartAlpha" type="BinHex"/>
 		<field name="fVisionLossEndAlpha" type="BinHex"/>
 		<field name="fVisionLossRatioOnGhostExplosion" type="BinHex"/>
@@ -36,11 +36,11 @@
 		<field name="sndAmbientSoundStop" type="BinHex"/>
 		<field name="sndtpAmbientSoundStopType" type="BinHex"/>
 		<field hash="12B79C25" type="String"/>
-		<field hash="EF1EA686" type="BinHex"/>
-		<field hash="A2BBCC1F" type="BinHex"/>
+		<field name="sndLocalPlayerDeathSoundStart" type="BinHex"/>
+		<field name="sndtpLocalPlayerDeathSoundStartType" type="BinHex"/>
 		<field hash="7F9249A9" type="String"/>
-		<field hash="B45190B3" type="BinHex"/>
-		<field hash="BFA50A5F" type="BinHex"/>
+		<field name="sndLocalPlayerDeathSoundStop" type="BinHex"/>
+		<field name="sndtpLocalPlayerDeathSoundStopType" type="BinHex"/>
 		<field name="fBoundingWall3DSoundGroundOffset" type="BinHex"/>
 		<field name="text_sndBoundingWallSoundStart" type="String"/>
 		<field name="sndBoundingWallSoundStart" type="BinHex"/>
@@ -63,10 +63,10 @@
 		<field name="text_BarkLowVision" type="String"/>
 		<field name="BarkLowVision" type="BinHex"/>
 		<field name="fFinalFadeToBlackExtraDuration" type="BinHex"/>
-		<field hash="112891F3" type="BinHex"/>
-		<field hash="575A7387" type="BinHex"/>
+		<field name="scriptedeventgameplaypresetFailureCinematicPreset" type="BinHex"/>
+		<field name="bSpawnEntityInScriptedEvent" type="BinHex"/>
 		<field name="bClearWorldSpawningOnStart" type="BinHex"/>
-		<field hash="7D092087" type="BinHex"/>
+		<field name="bOverrideWorldPropertySettingsOnExit" type="BinHex"/>
 		<object name="curveBlurredVision">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">

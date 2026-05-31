@@ -6,8 +6,8 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="F659849C" type="BinHex"/>
-	<field hash="7B9F925B" type="BinHex"/>
+	<field name="iCurrencyMediumQuantityThreshold" type="BinHex"/>
+	<field name="iCurrencyLargeQuantityThreshold" type="BinHex"/>
 	<object name="DSICurrency">
 		<field name="texturedbobjectSmallImage" type="BinHex"/>
 		<field name="texturedbobjectBigImage" type="BinHex"/>

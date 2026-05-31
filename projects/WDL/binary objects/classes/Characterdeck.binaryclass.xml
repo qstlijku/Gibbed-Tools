@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="3474E96D" type="BinHex"/>
-	<field hash="07499774" type="BinHex"/>
-	<field hash="71DBA1A5" type="BinHex"/>
+	<field name="itemsOnlineRecruitmentKey" type="BinHex"/>
+	<field name="uiOnlineRecruitmentCost" type="BinHex"/>
+	<field name="bAreExtraProgressionElementsAllowed" type="BinHex"/>
 	<object name="Cards">
 		<object name="Card">
 			<field name="charactercardCard" type="BinHex"/>

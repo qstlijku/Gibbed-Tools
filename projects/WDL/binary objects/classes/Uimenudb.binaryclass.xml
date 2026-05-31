@@ -11,12 +11,12 @@
 	<object name="MenuProperties">
 		<field name="selLoadingTileId" type="Enum"/>
 		<field name="fMinLoadingFeedbackTime" type="Float"/>
-		<field hash="152C4BFA" type="BinHex"/>
+		<field name="bIsMaskingWorld" type="BinHex"/>
 		<field name="uimenutileControlReminderTileId" type="BinHex"/>
 		<field name="uisoundOpenSound" type="BinHex"/>
 		<field name="uisoundCloseSound" type="BinHex"/>
-		<field hash="755D24EB" type="BinHex"/>
-		<field hash="ED94EF3B" type="BinHex"/>
+		<field name="uisoundOpenGallerySound" type="BinHex"/>
+		<field name="uisoundCloseGallerySound" type="BinHex"/>
 		<field name="selBackgroundTileId" type="Enum"/>
 		<field name="selPageHeaderTileId" type="Enum"/>
 		<field name="uimenupageMainMenuHomepage" type="BinHex"/>
@@ -25,11 +25,11 @@
 		<field name="uisoundStopMainMenuSound" type="BinHex"/>
 		<field name="uisoundPlayPauseMenuSound" type="BinHex"/>
 		<field name="uisoundStopPauseMenuSound" type="BinHex"/>
-		<field hash="7F0BFA2C" type="BinHex"/>
-		<field hash="323C1069" type="BinHex"/>
+		<field name="uisoundOnlinePlayPauseMenuSound" type="BinHex"/>
+		<field name="uisoundOnlineStopPauseMenuSound" type="BinHex"/>
 		<field name="videosMainMenuBackgroundVideo" type="BinHex"/>
-		<field hash="E36BD742" type="BinHex"/>
-		<field hash="DBB99272" type="BinHex"/>
+		<field name="texturedbobjectMainMenuBackgroundVideoTransparentOverlay" type="BinHex"/>
+		<field name="texturedbobjectMainMenuBackgroundImage" type="BinHex"/>
 		<field name="fIdleTimeBeforeIdlePageIsShown" type="BinHex"/>
 		<field name="selBreadcrumbTileId" type="Enum"/>
 		<field name="selNotificationTileId" type="Enum"/>

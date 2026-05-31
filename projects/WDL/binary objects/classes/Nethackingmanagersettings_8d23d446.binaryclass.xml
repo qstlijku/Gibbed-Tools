@@ -29,7 +29,7 @@
 	<field name="nethackingconfigRemoteControl" type="BinHex"/>
 	<field name="nethackingconfigRemoteControl_Self" type="BinHex"/>
 	<field name="nethackingconfigRemoteControl_Ally" type="BinHex"/>
-	<field hash="A4446261" type="BinHex"/>
+	<field name="nethackingconfigRemoteControl_Group" type="BinHex"/>
 	<field name="nethackingconfigRemoteControl_Enemy" type="BinHex"/>
 	<field name="nethackingconfigRemoteControl_WasControlled" type="BinHex"/>
 	<field name="nethackingconfigSecurityCamera" type="BinHex"/>

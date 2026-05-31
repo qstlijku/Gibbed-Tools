@@ -34,7 +34,7 @@
 	<object name="GenericBroadcastPrograms">
 		<object name="GenericBroadcastProgram">
 			<field name="fileBink" type="String"/>
-			<field hash="82948C4D" type="BinHex"/>
+			<field name="fileBink4K" type="BinHex"/>
 			<field name="bUsePerFrameLightData" type="BinHex"/>
 			<field name="fSubtitleDisplayTime" type="Float"/>
 			<field name="bIsBinkStreamed" type="Boolean"/>
@@ -54,7 +54,7 @@
 	<object name="ShopBroadcastPrograms">
 		<object name="ShopBroadcastProgram">
 			<field name="fileBink" type="String"/>
-			<field hash="82948C4D" type="BinHex"/>
+			<field name="fileBink4K" type="BinHex"/>
 			<field name="bUsePerFrameLightData" type="BinHex"/>
 			<field name="fSubtitleDisplayTime" type="Float"/>
 			<field name="bIsBinkStreamed" type="Boolean"/>
@@ -73,7 +73,7 @@
 	</object>
 	<object name="BarBroadcastPrograms">
 		<field name="fileBink" type="String"/>
-		<field hash="82948C4D" type="BinHex"/>
+		<field name="fileBink4K" type="BinHex"/>
 		<field name="bUsePerFrameLightData" type="BinHex"/>
 		<field name="fSubtitleDisplayTime" type="Float"/>
 		<field name="bIsBinkStreamed" type="Boolean"/>
@@ -90,7 +90,7 @@
 		</object>
 		<object name="BarBroadcastPrograms">
 			<field name="fileBink" type="String"/>
-			<field hash="82948C4D" type="BinHex"/>
+			<field name="fileBink4K" type="BinHex"/>
 			<field name="bUsePerFrameLightData" type="BinHex"/>
 			<field name="fSubtitleDisplayTime" type="Float"/>
 			<field name="bIsBinkStreamed" type="Boolean"/>

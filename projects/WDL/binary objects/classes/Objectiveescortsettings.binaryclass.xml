@@ -27,7 +27,7 @@
 	<object name="locstridBuddyNotFollowingObjectiveOverride">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F207359D">
+	<object name="locstridTargetKilledFailLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridTargetLostFailLocId">

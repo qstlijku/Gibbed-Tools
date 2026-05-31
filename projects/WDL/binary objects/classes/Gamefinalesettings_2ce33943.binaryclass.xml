@@ -15,7 +15,7 @@
 			<field name="opslistOpConfigDbObject" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="0F2036DC">
+	<object name="locstridOpAbandonPromptMessage">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

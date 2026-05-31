@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="CoversGroups">
 		<field name="vectorGroupSize" type="BinHex"/>
-		<field hash="DBC1384F" type="BinHex"/>
+		<field name="iNoCoverGroupsExtend" type="BinHex"/>
 	</object>
 	<object name="PointSelection">
 		<object name="curveDistanceXYWeightFactorCurve">

@@ -31,7 +31,7 @@
 	<field name="fParticlesStartDelay" type="BinHex"/>
 	<field name="fParticlesDuration" type="BinHex"/>
 	<field name="sndOnPingedSound" type="BinHex"/>
-	<field hash="23537C6F" type="BinHex"/>
+	<field name="sndtpOnPingedSoundType" type="BinHex"/>
 	<field name="fPingFeedbackMaxDistance" type="BinHex"/>
 	<field name="fPingFeedbackMaxOccludedDistance" type="BinHex"/>
 	<field name="bProfilableOccludable" type="BinHex"/>

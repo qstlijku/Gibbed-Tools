@@ -10,7 +10,7 @@
 	<field hash="EF5A6F2E" type="BinHex"/>
 	<field name="fRaidStartCountdownTimer" type="BinHex"/>
 	<field name="fRaidEndTimer" type="BinHex"/>
-	<field hash="5E2121AD" type="BinHex"/>
+	<field name="fDirectActionEndTimer" type="BinHex"/>
 	<field name="fRaidWaitForHostPositionTimer" type="BinHex"/>
 	<field name="fRaidCompelteReturnToSandboxTimer" type="BinHex"/>
 	<object name="IsAvailableRule">
@@ -38,7 +38,7 @@
 	<object name="locstridFailLocIdPlayerOoB">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="69EF0F6C">
+	<object name="locstridFailLocIdObjectiveOoB">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridFailLocIdDeathByGorgonDrone">
@@ -56,7 +56,7 @@
 	<object name="locstridFailLocIdDeathByWipeDroneCountReach">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FB4A583C">
+	<object name="locstridFailLocIdDeathBySuperMindjack">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridFailLocIdMindjackVisionLost">
@@ -71,7 +71,7 @@
 	<object name="locstridDifficultyLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="807E1878">
+	<object name="locstridWaitingForPlayerLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="RaidLobbySettings">

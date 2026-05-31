@@ -13,7 +13,7 @@
 	<field name="iNumberOfNonSpecificTargetNeutralizationNeeded" type="BinHex"/>
 	<field name="bAreHumanTargets" type="BinHex"/>
 	<field name="bUseOnlineNotifications" type="BinHex"/>
-	<field hash="CB8E77FC" type="BinHex"/>
+	<field name="selNeutralizeHealthBarDisplayMode" type="BinHex"/>
 	<object name="AffiliationFlags">
 		<object name="ValidAffiliationFlag">
 			<field name="selFlag" type="BinHex"/>
@@ -35,11 +35,11 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="01709002">
+	<object name="locstridHealthBarHeader">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

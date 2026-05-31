@@ -6,13 +6,13 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="8D97F4A3" type="BinHex"/>
+	<field name="iUpgradeIndex" type="BinHex"/>
 	<field name="texturedbobjectIconTexture" type="BinHex"/>
 	<field name="texturedbobjectUpgradeImage" type="BinHex"/>
 	<field name="videosBinkVideoResource" type="BinHex"/>
-	<field hash="8126348F" type="BinHex"/>
-	<field hash="BD62AFE1" type="BinHex"/>
-	<field hash="03BB9D63" type="BinHex"/>
+	<field name="bIsSinglePlayerOnly" type="BinHex"/>
+	<field name="bIsOnlineUpgrade" type="BinHex"/>
+	<field name="bIsGadgetUpgrade" type="BinHex"/>
 	<field name="selCategory" type="Enum"/>
 	<object name="locstridTitle">
 		<field name="LocalizationId" type="UInt64"/>

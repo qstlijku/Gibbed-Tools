@@ -12,11 +12,11 @@
 	</object>
 	<object name="ResistanceHumanConfigOverrideSettings">
 		<object name="OverrideSettings">
-			<field hash="7079CAEB" type="BinHex"/>
+			<field name="humanconfigBaseHumanConfig" type="BinHex"/>
 			<field name="OptionalLocationID" type="BinHex"/>
 			<object name="ResistanceOverrides">
 				<object name="ResistanceOverride">
-					<field hash="62A63B00" type="BinHex"/>
+					<field name="humanconfigResistanceHumanConfig" type="BinHex"/>
 					<field name="ChanceOfSpawning" type="BinHex"/>
 					<field name="Archetype" type="BinHex"/>
 				</object>

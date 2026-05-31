@@ -12,11 +12,11 @@
 	<field name="fDeactivationDistanceForArrest" type="BinHex"/>
 	<field name="uiWantedLevelForTrigger" type="BinHex"/>
 	<field name="uiWantedLevelForTriggerArrest" type="BinHex"/>
-	<field hash="4021AFB8" type="BinHex"/>
+	<field name="fTimerUpdateHeatInsideZone" type="BinHex"/>
 	<field name="sndCheckpointActivationSound" type="BinHex"/>
-	<field hash="D45BB6B8" type="BinHex"/>
+	<field name="sndtpCheckpointActivationSoundType" type="BinHex"/>
 	<field name="sndTargetDetectedSound" type="BinHex"/>
-	<field hash="23335519" type="BinHex"/>
+	<field name="sndtpTargetDetectedSoundType" type="BinHex"/>
 	<field name="text_TargetDetectedBark" type="String"/>
 	<field name="TargetDetectedBark" type="BinHex"/>
 	<object name="RandomNPCFelony">
@@ -28,21 +28,21 @@
 	<object name="Profiler">
 		<field name="text_sndProfileGrantedSound" type="String"/>
 		<field name="sndProfileGrantedSound" type="BinHex"/>
-		<field hash="A969CA31" type="BinHex"/>
+		<field name="sndtpProfileGrantedSoundType" type="BinHex"/>
 		<field name="text_sndProfileDeniedSound" type="String"/>
 		<field name="sndProfileDeniedSound" type="BinHex"/>
-		<field hash="1FC21215" type="BinHex"/>
+		<field name="sndtpProfileDeniedSoundType" type="BinHex"/>
 		<field name="fDisplayProfileDelay" type="BinHex"/>
 		<field name="fDisappearProfileDelay" type="BinHex"/>
 	</object>
 	<object name="StateChangeSound">
-		<field hash="E302FBA4" type="BinHex"/>
+		<field name="sndtpCheckpointStateSoundType" type="BinHex"/>
 		<field hash="BF3F1DD0" type="String"/>
-		<field hash="FC19D6E1" type="BinHex"/>
+		<field name="sndCheckpointStateInactiveSound" type="BinHex"/>
 		<field hash="8D4C64BE" type="String"/>
-		<field hash="C26E3FD6" type="BinHex"/>
+		<field name="sndCheckpointStateWarningSound" type="BinHex"/>
 		<field hash="D1CAB116" type="String"/>
-		<field hash="1B21EEBA" type="BinHex"/>
+		<field name="sndCheckpointStateAggressiveSound" type="BinHex"/>
 	</object>
 	<object name="Propaganda">
 		<field name="text_PropagandaDialog" type="String"/>
@@ -57,7 +57,7 @@
 		<field name="fMaxPropagandaDelay" type="BinHex"/>
 	</object>
 	<object name="HintSystemParameters">
-		<field hash="A420F543" type="BinHex"/>
-		<field hash="E6F4293E" type="BinHex"/>
+		<field name="fHintCheckDelay" type="BinHex"/>
+		<field name="fHintCheckDistance" type="BinHex"/>
 	</object>
 </class>

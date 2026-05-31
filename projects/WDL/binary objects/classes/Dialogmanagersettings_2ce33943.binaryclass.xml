@@ -19,16 +19,16 @@
 	<field name="sndFactionStartSquelch" type="BinHex"/>
 	<field name="text_sndFactionStopSquelch" type="String"/>
 	<field name="sndFactionStopSquelch" type="BinHex"/>
-	<field hash="AA87DA97" type="BinHex"/>
-	<field hash="74100883" type="BinHex"/>
-	<field hash="435B7200" type="BinHex"/>
-	<field hash="CB1DAA85" type="BinHex"/>
-	<field hash="34BD1199" type="BinHex"/>
-	<field hash="0D75F5B3" type="BinHex"/>
-	<field hash="4B9B1D8E" type="BinHex"/>
-	<field hash="2F095A14" type="BinHex"/>
-	<field hash="BAF6029C" type="BinHex"/>
-	<field hash="B3557EB4" type="BinHex"/>
+	<field name="sndtpLawEnforcerStartSquelchType" type="BinHex"/>
+	<field name="sndtpLawEnforcerStopSquelchType" type="BinHex"/>
+	<field name="sndtpFactionStartSquelchType" type="BinHex"/>
+	<field name="sndtpFactionStopSquelchType" type="BinHex"/>
+	<field name="sndtpDialogGameType" type="BinHex"/>
+	<field name="sndtpDialogDominoType" type="BinHex"/>
+	<field name="sndtpDialogTalkerType" type="BinHex"/>
+	<field name="sndtpDialogNarrativeType" type="BinHex"/>
+	<field name="sndtpDialogPhoneType" type="BinHex"/>
+	<field name="sndtpDialogCienmaType" type="BinHex"/>
 	<field name="tmplPlayerDialogActor" type="BinHex"/>
 	<object name="sndvarRadioBarkRTPC">
 		<field name="SoundId" type="BinHex"/>

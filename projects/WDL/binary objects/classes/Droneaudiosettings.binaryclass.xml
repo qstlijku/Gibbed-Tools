@@ -16,8 +16,8 @@
 			<field name="sndOnEntrySound" type="BinHex"/>
 			<field name="text_sndOnExitSound" type="String"/>
 			<field name="sndOnExitSound" type="BinHex"/>
-			<field hash="1A93487F" type="BinHex"/>
-			<field hash="94BCD606" type="BinHex"/>
+			<field name="sndtpOnEntrySoundType" type="BinHex"/>
+			<field name="sndtpOnExitSoundType" type="BinHex"/>
 			<object name="OnEntryBark">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="text_rulesmithconstValue" type="String"/>
@@ -37,7 +37,7 @@
 					<field name="text_selLastAIState" type="String"/>
 					<field name="selLastAIState" type="BinHex"/>
 					<field name="sndOnEntrySound" type="BinHex"/>
-					<field hash="1A93487F" type="BinHex"/>
+					<field name="sndtpOnEntrySoundType" type="BinHex"/>
 					<object name="OnEntryBark">
 						<field name="rulesmithidRule" type="BinHex"/>
 						<field name="text_rulesmithconstValue" type="String"/>

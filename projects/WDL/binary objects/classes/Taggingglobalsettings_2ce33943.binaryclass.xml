@@ -7,10 +7,10 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fMaxDistance" type="Float"/>
-	<field hash="4125FC18" type="BinHex"/>
+	<field name="fMaxDistanceForFullBadge" type="BinHex"/>
 	<field name="fReticleTaggingDuration" type="Float"/>
-	<field hash="9EBC53F1" type="BinHex"/>
-	<field hash="8BA9FDD1" type="BinHex"/>
+	<field name="selTagOutlineColor" type="BinHex"/>
+	<field name="selTagOutlineColorCombat" type="BinHex"/>
 	<object name="TagSounds">
 		<field name="text_sndOnGenericTagAddedSound" type="String"/>
 		<field name="sndOnGenericTagAddedSound" type="BinHex"/>
@@ -18,9 +18,9 @@
 		<field name="sndOnEnemyTagAddedSound" type="BinHex"/>
 		<field name="text_sndOnPoliceTagAddedSound" type="String"/>
 		<field name="sndOnPoliceTagAddedSound" type="BinHex"/>
-		<field hash="69E1EEC5" type="BinHex"/>
-		<field hash="53B8F4C7" type="BinHex"/>
-		<field hash="E6C91021" type="BinHex"/>
+		<field name="sndtpOnGenericTagAddedSoundType" type="BinHex"/>
+		<field name="sndtpOnEnemyTagAddedSoundType" type="BinHex"/>
+		<field name="sndtpOnPoliceTagAddedSoundType" type="BinHex"/>
 	</object>
 	<object name="AutoTagSpecialEffects">
 		<field name="text_sndSound" type="String"/>

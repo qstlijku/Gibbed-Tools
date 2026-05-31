@@ -16,10 +16,10 @@
 		<field name="sndChaseStoppedSound" type="BinHex"/>
 		<field name="sndSearchStartedSound" type="BinHex"/>
 		<field name="sndSearchStoppedSound" type="BinHex"/>
-		<field hash="5E5D4F71" type="BinHex"/>
-		<field hash="F69C94C5" type="BinHex"/>
-		<field hash="4D6E45D0" type="BinHex"/>
-		<field hash="E5AF9E64" type="BinHex"/>
+		<field name="sndtpChaseStartedSoundType" type="BinHex"/>
+		<field name="sndtpChaseStoppedSoundType" type="BinHex"/>
+		<field name="sndtpSearchStartedSoundType" type="BinHex"/>
+		<field name="sndtpSearchStoppedSoundType" type="BinHex"/>
 	</object>
 	<object name="SquelchSounds">
 		<field name="text_sndChopperStartSquelch" type="String"/>
@@ -32,11 +32,11 @@
 		<field name="sndOperator911StartSquelch" type="BinHex"/>
 		<field name="text_sndBoatStartSquelch" type="String"/>
 		<field name="sndBoatStartSquelch" type="BinHex"/>
-		<field hash="52340F67" type="BinHex"/>
-		<field hash="2809C204" type="BinHex"/>
-		<field hash="6BE2002B" type="BinHex"/>
-		<field hash="6F2AECA9" type="BinHex"/>
-		<field hash="58C6280E" type="BinHex"/>
+		<field name="sndtpChopperStartSquelchType" type="BinHex"/>
+		<field name="sndtpPatrolStartSquelchType" type="BinHex"/>
+		<field name="sndtpDispatchStartSquelchType" type="BinHex"/>
+		<field name="sndtpOperator911StartSquelchType" type="BinHex"/>
+		<field name="sndtpBoatStartSquelchType" type="BinHex"/>
 		<field name="text_sndChopperStopSquelch" type="String"/>
 		<field name="sndChopperStopSquelch" type="BinHex"/>
 		<field name="text_sndPatrolStopSquelch" type="String"/>
@@ -47,11 +47,11 @@
 		<field name="sndOperator911StopSquelch" type="BinHex"/>
 		<field name="text_sndBoatStopSquelch" type="String"/>
 		<field name="sndBoatStopSquelch" type="BinHex"/>
-		<field hash="A56B915E" type="BinHex"/>
-		<field hash="F2FC5AD5" type="BinHex"/>
-		<field hash="70D71FBD" type="BinHex"/>
-		<field hash="631D883B" type="BinHex"/>
-		<field hash="57E2DFD0" type="BinHex"/>
+		<field name="sndtpChopperStopSquelchType" type="BinHex"/>
+		<field name="sndtpPatrolStopSquelchType" type="BinHex"/>
+		<field name="sndtpDispatchStopSquelchType" type="BinHex"/>
+		<field name="sndtpOperator911StopSquelchType" type="BinHex"/>
+		<field name="sndtpBoatStopSquelchType" type="BinHex"/>
 	</object>
 	<object name="SoundArchetypes">
 		<object name="PilotArchetypes">

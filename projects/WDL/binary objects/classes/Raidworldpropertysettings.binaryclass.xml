@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9C9B45E0" type="BinHex"/>
+	<field name="bIsHeavyFogGameplay" type="BinHex"/>
 	<object name="WorldProperties">
 		<object name="TimeOfDay">
 			<field name="bEnableTimeOfDay" type="BinHex"/>
@@ -22,7 +22,7 @@
 		</object>
 		<object name="WorldSpawning">
 			<field name="bDisableWorldSpawning" type="Boolean"/>
-			<field hash="AB6DDE58" type="Boolean"/>
+			<field name="bDisableCLOEventsSpawning" type="Boolean"/>
 		</object>
 	</object>
 	<object name="locstridDisplayName">

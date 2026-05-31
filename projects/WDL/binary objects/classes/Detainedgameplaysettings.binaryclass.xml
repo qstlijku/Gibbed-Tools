@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="085C6F1E" type="BinHex"/>
+	<field name="bPrisonerIsPlayerAlly" type="BinHex"/>
 	<field name="selPrisonerReactionOnRelease" type="BinHex"/>
 	<field name="fleebehaviordescriptorPrisonerReleaseFleeBhvDescriptor" type="BinHex"/>
 	<field name="bUsePGTArenaAsDefaultFleeThreat" type="BinHex"/>

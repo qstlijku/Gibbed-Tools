@@ -10,5 +10,5 @@
 	<field name="chaseboatparamsBoats" type="BinHex"/>
 	<field name="chasesearchparamsTargetedSearch" type="BinHex"/>
 	<field name="chasesearchparamsUntargetedSearch" type="BinHex"/>
-	<field hash="B7107160" type="BinHex"/>
+	<field name="drvstylecfgVehicleDrivingStyleOverride" type="BinHex"/>
 </class>

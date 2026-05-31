@@ -39,7 +39,7 @@
 				<field name="bPlayOnAnnouncer" type="BinHex"/>
 				<field name="bPlayOnLocalPlayer" type="BinHex"/>
 				<field name="bIs2D" type="BinHex"/>
-				<field hash="0B3BE899" type="BinHex"/>
+				<field name="selTarget" type="BinHex"/>
 				<field name="text_Bark" type="String"/>
 				<field name="Bark" type="BinHex"/>
 				<object name="MinMaxInterval">

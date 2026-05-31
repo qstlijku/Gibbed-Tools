@@ -13,8 +13,8 @@
 	<field name="bIsConcussionShot" type="BinHex"/>
 	<field name="bIsGasGun" type="BinHex"/>
 	<field name="bIsPaintBallGun" type="BinHex"/>
-	<field hash="041C0444" type="BinHex"/>
-	<field hash="2BD1A142" type="BinHex"/>
+	<field name="bIsOverchargedGunshot" type="BinHex"/>
+	<field name="weapontriggereffectsTriggerEffect" type="BinHex"/>
 	<field name="fWeaponLength" type="BinHex"/>
 	<field name="selWeaponPerkType" type="Enum"/>
 	<field name="bManualEnableAutomatic" type="Boolean"/>
@@ -472,7 +472,7 @@
 	</object>
 	<object name="ShootingPatterns">
 		<field name="choreographyshootingpatternsSuppressivePattern" type="BinHex"/>
-		<field hash="11854978" type="BinHex"/>
+		<field name="choreographyshootingpatternsRushingTargetPattern" type="BinHex"/>
 		<object name="Patterns">
 			<object name="choreographyshootingpatternsShootingPattern">
 				<field name="choreographyshootingpatternsShootingPattern" type="BinHex"/>

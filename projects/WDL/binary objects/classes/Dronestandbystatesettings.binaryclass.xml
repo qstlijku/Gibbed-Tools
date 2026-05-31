@@ -12,6 +12,6 @@
 	<field name="sndStandbyStartSound" type="BinHex"/>
 	<field name="text_sndStandbyStopSound" type="String"/>
 	<field name="sndStandbyStopSound" type="BinHex"/>
-	<field hash="011CA015" type="BinHex"/>
-	<field hash="36646AA8" type="BinHex"/>
+	<field name="sndtpStandbyStartSoundType" type="BinHex"/>
+	<field name="sndtpStandbyStopSoundType" type="BinHex"/>
 </class>

@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="text_scriptedhackeffectselHackEffectType" type="String"/>
 	<field name="scriptedhackeffectselHackEffectType" type="BinHex"/>
-	<field hash="EDD87BE7" type="BinHex"/>
+	<field name="psVFX" type="BinHex"/>
 	<object name="HackEffect">
 		<field name="fLifetime" type="BinHex"/>
 		<field name="fProbability" type="Float"/>
@@ -16,19 +16,19 @@
 		<field name="fDroneSpeed" type="BinHex"/>
 		<field name="fTriggerRadius" type="Float"/>
 		<field hash="9FC3F06C" type="String"/>
-		<field hash="8F85703F" type="BinHex"/>
+		<field name="psThemisVFX" type="BinHex"/>
 		<field hash="8E897F8B" type="String"/>
-		<field hash="172C11D1" type="BinHex"/>
-		<field hash="B0872E10" type="BinHex"/>
-		<field hash="5B0A754D" type="BinHex"/>
-		<field hash="BD6ADAAC" type="BinHex"/>
-		<field hash="07FB0F0E" type="BinHex"/>
-		<field hash="F5DB21AB" type="BinHex"/>
+		<field name="sndTargetingSound" type="BinHex"/>
+		<field name="sndtpTargetingSoundType" type="BinHex"/>
+		<field name="vectorVFXMinAngle" type="BinHex"/>
+		<field name="vectorVFXMaxAngle" type="BinHex"/>
+		<field name="fDeathDelay" type="BinHex"/>
+		<field name="selEffectStim" type="BinHex"/>
 		<field name="bLoopEffect" type="BinHex"/>
 		<field name="EffectTeamSpeak" type="BinHex"/>
 		<field name="bReverseLogic" type="BinHex"/>
 		<field name="selRepelType" type="BinHex"/>
-		<field hash="F20C73E5" type="BinHex"/>
+		<field name="bIsSilent" type="BinHex"/>
 		<field name="bLooping" type="Boolean"/>
 		<object name="RequiredFlags">
 			<object name="RequiredFlagsList">
@@ -57,8 +57,8 @@
 				<field name="selCategory" type="Enum"/>
 				<field name="fDelayTime" type="BinHex"/>
 				<field name="fDelayTimeRandMax" type="BinHex"/>
-				<field hash="F20C73E5" type="BinHex"/>
-				<field hash="B76535CC" type="BinHex"/>
+				<field name="bIsSilent" type="BinHex"/>
+				<field name="bIsWaitEvent" type="BinHex"/>
 			</object>
 		</object>
 	</object>

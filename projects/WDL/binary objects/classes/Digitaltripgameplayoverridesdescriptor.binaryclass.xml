@@ -16,7 +16,7 @@
 	<field name="fReviveTimeOverride" type="BinHex"/>
 	<field name="fBleedingOutTimeOverride" type="BinHex"/>
 	<field name="bExplodeOnEnemyPlayers" type="BinHex"/>
-	<field hash="3A7ED1D5" type="BinHex"/>
+	<field name="bEnemiesARCloakInvisibility" type="BinHex"/>
 	<field name="bDisableSpiderBotARCloak" type="BinHex"/>
 	<field name="bEnemiesTargetedBySpiderTurret" type="BinHex"/>
 	<field name="fMaximumSpiderTurretRange" type="BinHex"/>
@@ -25,34 +25,34 @@
 	<field name="bOpSwapPermittedInForbiddenZone" type="BinHex"/>
 	<field name="bOpSwapFroceScheduledSpawn" type="BinHex"/>
 	<field name="bOnlineMenuOnly" type="BinHex"/>
-	<field hash="2313CDCB" type="BinHex"/>
+	<field name="bWorldMapMenuOnly" type="BinHex"/>
 	<field name="bDrunkEffectDisabled" type="BinHex"/>
 	<field name="bRandomDeath" type="BinHex"/>
 	<field name="bDisableRingOfSteel" type="BinHex"/>
 	<field name="bDisableFelonyAndEngagementSharing" type="BinHex"/>
-	<field hash="D1438D90" type="BinHex"/>
-	<field hash="7AE17839" type="BinHex"/>
+	<field name="iFelonyMaxLevel" type="BinHex"/>
+	<field name="fFelonyDuration" type="BinHex"/>
 	<field name="reinforcementconfigReinforcement" type="BinHex"/>
 	<field name="bDisableInteractions" type="BinHex"/>
 	<field name="bDisableHack" type="BinHex"/>
 	<field name="bEnemyPlayerVehicleHackingEnabled" type="BinHex"/>
-	<field hash="42BD8DEF" type="BinHex"/>
-	<field hash="CF4F0CA1" type="BinHex"/>
-	<field hash="228BCCE9" type="BinHex"/>
+	<field name="bEnemyPlayerHackingEnabled" type="BinHex"/>
+	<field name="fCarHackDuration" type="BinHex"/>
+	<field name="bForceHackReminderWhileAiming" type="BinHex"/>
 	<field name="bDisableEnticerVehicleCLOs" type="BinHex"/>
 	<field name="bEnableAimAssistOnEnemyPlayer" type="BinHex"/>
 	<field name="bEnableAimAssistParamsOverride" type="BinHex"/>
 	<field name="bDisableWaypointSharing" type="BinHex"/>
-	<field hash="6C69A0FF" type="BinHex"/>
-	<field hash="F2A530FA" type="BinHex"/>
-	<field hash="7AC4D208" type="BinHex"/>
-	<field hash="FCC28D9F" type="BinHex"/>
-	<field hash="5B83111A" type="BinHex"/>
-	<field hash="4CF58142" type="BinHex"/>
+	<field name="bPlayerProfilingEnabled" type="BinHex"/>
+	<field name="bInputProfilerDisabled" type="BinHex"/>
+	<field name="bPlayerProfilerCardDisabled" type="BinHex"/>
+	<field name="bQuickHackCardDisabled" type="BinHex"/>
+	<field name="bCanConnectWhileStunned" type="BinHex"/>
+	<field name="bMeleeOverrides" type="BinHex"/>
 	<field name="fTakedownAngle" type="Float"/>
-	<field hash="6295E2F1" type="BinHex"/>
-	<field hash="44338DE0" type="BinHex"/>
-	<field hash="9579F0FC" type="BinHex"/>
+	<field name="fTakedownMaxDistance" type="BinHex"/>
+	<field name="bDisableInventoryItemLock" type="BinHex"/>
+	<field name="bDisableSpecialMinimapTriggers" type="BinHex"/>
 	<object name="DefaultDamageOverride">
 		<field name="fBodyshotDamageMultiplier" type="BinHex"/>
 		<field name="fHeadshotDamageMultiplier" type="BinHex"/>

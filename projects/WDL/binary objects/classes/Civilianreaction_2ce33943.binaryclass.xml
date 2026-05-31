@@ -8686,7 +8686,7 @@
 		<field name="emotionAfraidEmotion" type="BinHex"/>
 		<field name="emotionHappyEmotion" type="BinHex"/>
 		<field name="emotionStressedEmotion" type="BinHex"/>
-		<field hash="2A0899E0" type="BinHex"/>
+		<field name="emotionOppressedEmotion" type="BinHex"/>
 		<field name="emotionProtestEmotion" type="BinHex"/>
 		<field name="emotionDeadEmotion" type="BinHex"/>
 		<field name="emotionUnconsciousEmotion" type="BinHex"/>

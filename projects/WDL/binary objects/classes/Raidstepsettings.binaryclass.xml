@@ -8,10 +8,10 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="opslistRaidStepOpConfig" type="BinHex"/>
 	<field name="RaidStepConsoleCommands" type="BinHex"/>
-	<field hash="6500A300" type="BinHex"/>
-	<field hash="87B3D3EC" type="BinHex"/>
+	<field name="iMinimumPlayerCount" type="BinHex"/>
+	<field name="iRecommendedPlayerCount" type="BinHex"/>
 	<field name="phonecommunicationsettingsIntroductionTeamSpeak" type="BinHex"/>
-	<field hash="DC4E7DF4" type="BinHex"/>
+	<field name="bDisableCoverDamageFromDeadVehicles" type="BinHex"/>
 	<object name="PlayerClasses">
 		<field name="Player1Commands" type="BinHex"/>
 		<field name="Player2Commands" type="BinHex"/>
@@ -20,7 +20,7 @@
 	</object>
 	<object name="RaidLobbySettings">
 		<field name="sLobbyLayerName" type="String"/>
-		<field hash="D2337D77" type="BinHex"/>
+		<field name="scriptedeventgameplaypresetLobbyScriptedEventPreset" type="BinHex"/>
 		<field name="lobbyparamspresetLoobbyParamsPresetOverride" type="BinHex"/>
 		<field name="lobbyoutroparamspresetLobbyOutroParamsPresetOverride" type="BinHex"/>
 		<field name="bShouldOpenLobbyDoor" type="Boolean"/>
@@ -117,11 +117,11 @@
 		</object>
 	</object>
 	<object name="MissionAreaTracking">
-		<field hash="462FD608" type="BinHex"/>
-		<field hash="BB255F80" type="BinHex"/>
-		<field hash="794232AA" type="BinHex"/>
+		<field name="entMissionArea" type="BinHex"/>
+		<field name="fOutOfAreaTimerDuration" type="BinHex"/>
+		<field name="selOutOfAreaTimeoutBehaviour" type="BinHex"/>
 		<field name="bHideMissionAreaOnEnter" type="BinHex"/>
-		<object hash="507C5606">
+		<object name="locstridAreaLeftWarningMessage">
 			<field name="LocalizationId" type="BinHex"/>
 		</object>
 	</object>

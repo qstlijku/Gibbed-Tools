@@ -7,37 +7,37 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="squadbhvparamsSquadBhvParams" type="BinHex"/>
-	<field hash="16A4A8C2" type="BinHex"/>
+	<field name="fallbacktrackingconfigFallbackTrackingConfig" type="BinHex"/>
 	<object name="HeatLevel0WaveSettings">
 		<field name="bIsInfinite" type="BinHex"/>
 		<field name="fDesiredTimeToReachTarget" type="BinHex"/>
-		<field hash="F42BE461" type="BinHex"/>
-		<field hash="A5D25F3C" type="BinHex"/>
-		<field hash="7F3F1F6F" type="BinHex"/>
-		<field hash="2EC6A432" type="BinHex"/>
-		<field hash="5B8011DA" type="BinHex"/>
-		<field hash="0A79AA87" type="BinHex"/>
-		<field hash="42C820AD" type="BinHex"/>
-		<field hash="85C7F284" type="BinHex"/>
+		<field name="fOnFootMinSpawnDistance" type="BinHex"/>
+		<field name="fOnFootMaxSpawnDistance" type="BinHex"/>
+		<field name="fDroneMinSpawnDistance" type="BinHex"/>
+		<field name="fDroneMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMinSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleUnspawnSelectionCooldown" type="BinHex"/>
+		<field name="bCollectInterceptPoints" type="BinHex"/>
 		<object name="Waves"/>
 	</object>
 	<object name="HeatLevel1WaveSettings">
 		<field name="bIsInfinite" type="BinHex"/>
 		<field name="fDesiredTimeToReachTarget" type="BinHex"/>
-		<field hash="F42BE461" type="BinHex"/>
-		<field hash="A5D25F3C" type="BinHex"/>
-		<field hash="7F3F1F6F" type="BinHex"/>
-		<field hash="2EC6A432" type="BinHex"/>
-		<field hash="5B8011DA" type="BinHex"/>
-		<field hash="0A79AA87" type="BinHex"/>
-		<field hash="42C820AD" type="BinHex"/>
-		<field hash="85C7F284" type="BinHex"/>
+		<field name="fOnFootMinSpawnDistance" type="BinHex"/>
+		<field name="fOnFootMaxSpawnDistance" type="BinHex"/>
+		<field name="fDroneMinSpawnDistance" type="BinHex"/>
+		<field name="fDroneMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMinSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleUnspawnSelectionCooldown" type="BinHex"/>
+		<field name="bCollectInterceptPoints" type="BinHex"/>
 		<object name="Waves">
 			<object name="Wave">
 				<field name="waveagentcompositionconfigAgentCompositionConfig" type="BinHex"/>
 				<field name="bUseInitialSpawnDelay" type="BinHex"/>
 				<field name="fInitialSpawnDelay" type="BinHex"/>
-				<field hash="ACC5424B" type="BinHex"/>
+				<field name="fSpawnUnitCooldown" type="BinHex"/>
 				<field name="bUseTimeCondition" type="BinHex"/>
 				<field name="fTimeUntilNextWave" type="BinHex"/>
 				<field name="bUseRemainingRatioCondition" type="BinHex"/>
@@ -68,20 +68,20 @@
 	<object name="HeatLevel2WaveSettings">
 		<field name="bIsInfinite" type="BinHex"/>
 		<field name="fDesiredTimeToReachTarget" type="BinHex"/>
-		<field hash="F42BE461" type="BinHex"/>
-		<field hash="A5D25F3C" type="BinHex"/>
-		<field hash="7F3F1F6F" type="BinHex"/>
-		<field hash="2EC6A432" type="BinHex"/>
-		<field hash="5B8011DA" type="BinHex"/>
-		<field hash="0A79AA87" type="BinHex"/>
-		<field hash="42C820AD" type="BinHex"/>
-		<field hash="85C7F284" type="BinHex"/>
+		<field name="fOnFootMinSpawnDistance" type="BinHex"/>
+		<field name="fOnFootMaxSpawnDistance" type="BinHex"/>
+		<field name="fDroneMinSpawnDistance" type="BinHex"/>
+		<field name="fDroneMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMinSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleUnspawnSelectionCooldown" type="BinHex"/>
+		<field name="bCollectInterceptPoints" type="BinHex"/>
 		<object name="Waves">
 			<object name="Wave">
 				<field name="waveagentcompositionconfigAgentCompositionConfig" type="BinHex"/>
 				<field name="bUseInitialSpawnDelay" type="BinHex"/>
 				<field name="fInitialSpawnDelay" type="BinHex"/>
-				<field hash="ACC5424B" type="BinHex"/>
+				<field name="fSpawnUnitCooldown" type="BinHex"/>
 				<field name="bUseTimeCondition" type="BinHex"/>
 				<field name="fTimeUntilNextWave" type="BinHex"/>
 				<field name="bUseRemainingRatioCondition" type="BinHex"/>
@@ -112,20 +112,20 @@
 	<object name="HeatLevel3WaveSettings">
 		<field name="bIsInfinite" type="BinHex"/>
 		<field name="fDesiredTimeToReachTarget" type="BinHex"/>
-		<field hash="F42BE461" type="BinHex"/>
-		<field hash="A5D25F3C" type="BinHex"/>
-		<field hash="7F3F1F6F" type="BinHex"/>
-		<field hash="2EC6A432" type="BinHex"/>
-		<field hash="5B8011DA" type="BinHex"/>
-		<field hash="0A79AA87" type="BinHex"/>
-		<field hash="42C820AD" type="BinHex"/>
-		<field hash="85C7F284" type="BinHex"/>
+		<field name="fOnFootMinSpawnDistance" type="BinHex"/>
+		<field name="fOnFootMaxSpawnDistance" type="BinHex"/>
+		<field name="fDroneMinSpawnDistance" type="BinHex"/>
+		<field name="fDroneMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMinSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleUnspawnSelectionCooldown" type="BinHex"/>
+		<field name="bCollectInterceptPoints" type="BinHex"/>
 		<object name="Waves">
 			<object name="Wave">
 				<field name="waveagentcompositionconfigAgentCompositionConfig" type="BinHex"/>
 				<field name="bUseInitialSpawnDelay" type="BinHex"/>
 				<field name="fInitialSpawnDelay" type="BinHex"/>
-				<field hash="ACC5424B" type="BinHex"/>
+				<field name="fSpawnUnitCooldown" type="BinHex"/>
 				<field name="bUseTimeCondition" type="BinHex"/>
 				<field name="fTimeUntilNextWave" type="BinHex"/>
 				<field name="bUseRemainingRatioCondition" type="BinHex"/>
@@ -156,20 +156,20 @@
 	<object name="HeatLevel4WaveSettings">
 		<field name="bIsInfinite" type="BinHex"/>
 		<field name="fDesiredTimeToReachTarget" type="BinHex"/>
-		<field hash="F42BE461" type="BinHex"/>
-		<field hash="A5D25F3C" type="BinHex"/>
-		<field hash="7F3F1F6F" type="BinHex"/>
-		<field hash="2EC6A432" type="BinHex"/>
-		<field hash="5B8011DA" type="BinHex"/>
-		<field hash="0A79AA87" type="BinHex"/>
-		<field hash="42C820AD" type="BinHex"/>
-		<field hash="85C7F284" type="BinHex"/>
+		<field name="fOnFootMinSpawnDistance" type="BinHex"/>
+		<field name="fOnFootMaxSpawnDistance" type="BinHex"/>
+		<field name="fDroneMinSpawnDistance" type="BinHex"/>
+		<field name="fDroneMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMinSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleUnspawnSelectionCooldown" type="BinHex"/>
+		<field name="bCollectInterceptPoints" type="BinHex"/>
 		<object name="Waves">
 			<object name="Wave">
 				<field name="waveagentcompositionconfigAgentCompositionConfig" type="BinHex"/>
 				<field name="bUseInitialSpawnDelay" type="BinHex"/>
 				<field name="fInitialSpawnDelay" type="BinHex"/>
-				<field hash="ACC5424B" type="BinHex"/>
+				<field name="fSpawnUnitCooldown" type="BinHex"/>
 				<field name="bUseTimeCondition" type="BinHex"/>
 				<field name="fTimeUntilNextWave" type="BinHex"/>
 				<field name="bUseRemainingRatioCondition" type="BinHex"/>
@@ -200,20 +200,20 @@
 	<object name="HeatLevel5WaveSettings">
 		<field name="bIsInfinite" type="BinHex"/>
 		<field name="fDesiredTimeToReachTarget" type="BinHex"/>
-		<field hash="F42BE461" type="BinHex"/>
-		<field hash="A5D25F3C" type="BinHex"/>
-		<field hash="7F3F1F6F" type="BinHex"/>
-		<field hash="2EC6A432" type="BinHex"/>
-		<field hash="5B8011DA" type="BinHex"/>
-		<field hash="0A79AA87" type="BinHex"/>
-		<field hash="42C820AD" type="BinHex"/>
-		<field hash="85C7F284" type="BinHex"/>
+		<field name="fOnFootMinSpawnDistance" type="BinHex"/>
+		<field name="fOnFootMaxSpawnDistance" type="BinHex"/>
+		<field name="fDroneMinSpawnDistance" type="BinHex"/>
+		<field name="fDroneMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMinSpawnDistance" type="BinHex"/>
+		<field name="fVehicleMaxSpawnDistance" type="BinHex"/>
+		<field name="fVehicleUnspawnSelectionCooldown" type="BinHex"/>
+		<field name="bCollectInterceptPoints" type="BinHex"/>
 		<object name="Waves">
 			<object name="Wave">
 				<field name="waveagentcompositionconfigAgentCompositionConfig" type="BinHex"/>
 				<field name="bUseInitialSpawnDelay" type="BinHex"/>
 				<field name="fInitialSpawnDelay" type="BinHex"/>
-				<field hash="ACC5424B" type="BinHex"/>
+				<field name="fSpawnUnitCooldown" type="BinHex"/>
 				<field name="bUseTimeCondition" type="BinHex"/>
 				<field name="fTimeUntilNextWave" type="BinHex"/>
 				<field name="bUseRemainingRatioCondition" type="BinHex"/>

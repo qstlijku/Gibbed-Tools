@@ -55,7 +55,7 @@
 	<field name="texturedbobjectTBoneLeftWeapon" type="BinHex"/>
 	<field name="texturedbobjectTBoneRightWeapon" type="BinHex"/>
 	<field name="texturedbobjectTBoneBackWeapon" type="BinHex"/>
-	<field hash="7959EDAD" type="BinHex"/>
+	<field name="texturedbobjectToughness" type="BinHex"/>
 	<field name="texturedbobjectHitman" type="BinHex"/>
 	<field name="texturedbobjectIngredientTriggerAccessPoint" type="BinHex"/>
 	<field name="texturedbobjectIngredientTriggerElectric" type="BinHex"/>
@@ -78,7 +78,7 @@
 	<field name="texturedbobjectPuppet" type="BinHex"/>
 	<field name="texturedbobjectEngineer" type="BinHex"/>
 	<field name="texturedbobjectCloneAccess" type="BinHex"/>
-	<field hash="07EC1954" type="BinHex"/>
+	<field name="texturedbobjectKillNPC" type="BinHex"/>
 	<field name="texturedbobjectGunLock" type="BinHex"/>
 	<field name="texturedbobjectExoSuitLock" type="BinHex"/>
 	<field name="texturedbobjectARGlasses" type="BinHex"/>
@@ -122,9 +122,9 @@
 	<field name="texturedbobjectIngredientEnable" type="BinHex"/>
 	<field name="texturedbobjectNoDamageEngineOverheat" type="BinHex"/>
 	<field name="texturedbobjectHitThePlayerHack" type="BinHex"/>
-	<field hash="B6DB01E8" type="BinHex"/>
+	<field name="texturedbobjectForceOpenHack" type="BinHex"/>
 	<field name="texturedbobjectForceCloseHack" type="BinHex"/>
 	<field name="texturedbobjectARBetray" type="BinHex"/>
 	<field name="texturedbobjectRCDeactivationTakedown" type="BinHex"/>
-	<field hash="204E251C" type="BinHex"/>
+	<field name="texturedbobjectShock" type="BinHex"/>
 </class>

@@ -27,7 +27,7 @@
 	<field name="bCanPlayBark2D" type="BinHex"/>
 	<field name="fPlayerUIRotation" type="BinHex"/>
 	<field name="fOpponentUIRotation" type="BinHex"/>
-	<field hash="3F0C449D" type="BinHex"/>
+	<field name="fLogMessageDuration" type="BinHex"/>
 	<object name="ReticleParameters">
 		<field name="fTargetDiameter" type="BinHex"/>
 		<field name="fTargetVisibleTimer" type="BinHex"/>
@@ -205,82 +205,82 @@
 			<field name="humanconfigHumanConfig" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="3CD42F7F">
+	<object name="locstridPlayerJoinedTitle">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="F154D4CD">
+	<object name="locstridPlayerJoinedSubtitle">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="54E12208">
+	<object name="locstridPlayerLeftTitle">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="43F7101E">
+	<object name="locstridPlayerLeftSubtitle">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="NoSkillStrategy">
-		<field hash="3D2E29B7" type="BinHex"/>
-		<field hash="012316EE" type="BinHex"/>
-		<field hash="E9C04866" type="BinHex"/>
-		<field hash="32F2578E" type="BinHex"/>
-		<field hash="8153F564" type="BinHex"/>
-		<field hash="3A88AC52" type="BinHex"/>
-		<field hash="797673FC" type="BinHex"/>
-		<field hash="3EB30648" type="BinHex"/>
-		<field hash="4D1889AA" type="BinHex"/>
+		<field name="iThrowNumberMin" type="BinHex"/>
+		<field name="iThrowNumberMax" type="BinHex"/>
+		<field name="iCheckOutThreshold" type="BinHex"/>
+		<field name="fErrorSize" type="BinHex"/>
+		<field name="fErrorStepSize" type="BinHex"/>
+		<field name="fEheckOutErrorSize" type="BinHex"/>
+		<field name="fCheckOutErrorStepSize" type="BinHex"/>
+		<field name="iRewardIndex" type="BinHex"/>
+		<field name="selRank" type="BinHex"/>
 		<object name="TargetNumbers"/>
 	</object>
 	<object name="AmateurStrategy">
-		<field hash="3D2E29B7" type="BinHex"/>
-		<field hash="012316EE" type="BinHex"/>
-		<field hash="E9C04866" type="BinHex"/>
-		<field hash="32F2578E" type="BinHex"/>
-		<field hash="8153F564" type="BinHex"/>
-		<field hash="3A88AC52" type="BinHex"/>
-		<field hash="797673FC" type="BinHex"/>
-		<field hash="3EB30648" type="BinHex"/>
-		<field hash="4D1889AA" type="BinHex"/>
+		<field name="iThrowNumberMin" type="BinHex"/>
+		<field name="iThrowNumberMax" type="BinHex"/>
+		<field name="iCheckOutThreshold" type="BinHex"/>
+		<field name="fErrorSize" type="BinHex"/>
+		<field name="fErrorStepSize" type="BinHex"/>
+		<field name="fEheckOutErrorSize" type="BinHex"/>
+		<field name="fCheckOutErrorStepSize" type="BinHex"/>
+		<field name="iRewardIndex" type="BinHex"/>
+		<field name="selRank" type="BinHex"/>
 		<object name="TargetNumbers"/>
 	</object>
 	<object name="ExpertStrategy">
-		<field hash="3D2E29B7" type="BinHex"/>
-		<field hash="012316EE" type="BinHex"/>
-		<field hash="E9C04866" type="BinHex"/>
-		<field hash="32F2578E" type="BinHex"/>
-		<field hash="8153F564" type="BinHex"/>
-		<field hash="3A88AC52" type="BinHex"/>
-		<field hash="797673FC" type="BinHex"/>
-		<field hash="3EB30648" type="BinHex"/>
-		<field hash="4D1889AA" type="BinHex"/>
+		<field name="iThrowNumberMin" type="BinHex"/>
+		<field name="iThrowNumberMax" type="BinHex"/>
+		<field name="iCheckOutThreshold" type="BinHex"/>
+		<field name="fErrorSize" type="BinHex"/>
+		<field name="fErrorStepSize" type="BinHex"/>
+		<field name="fEheckOutErrorSize" type="BinHex"/>
+		<field name="fCheckOutErrorStepSize" type="BinHex"/>
+		<field name="iRewardIndex" type="BinHex"/>
+		<field name="selRank" type="BinHex"/>
 		<object name="TargetNumbers"/>
 	</object>
 	<object name="ProfessionalStrategy">
-		<field hash="3D2E29B7" type="BinHex"/>
-		<field hash="012316EE" type="BinHex"/>
-		<field hash="E9C04866" type="BinHex"/>
-		<field hash="32F2578E" type="BinHex"/>
-		<field hash="8153F564" type="BinHex"/>
-		<field hash="3A88AC52" type="BinHex"/>
-		<field hash="797673FC" type="BinHex"/>
-		<field hash="3EB30648" type="BinHex"/>
-		<field hash="4D1889AA" type="BinHex"/>
+		<field name="iThrowNumberMin" type="BinHex"/>
+		<field name="iThrowNumberMax" type="BinHex"/>
+		<field name="iCheckOutThreshold" type="BinHex"/>
+		<field name="fErrorSize" type="BinHex"/>
+		<field name="fErrorStepSize" type="BinHex"/>
+		<field name="fEheckOutErrorSize" type="BinHex"/>
+		<field name="fCheckOutErrorStepSize" type="BinHex"/>
+		<field name="iRewardIndex" type="BinHex"/>
+		<field name="selRank" type="BinHex"/>
 		<object name="TargetNumbers"/>
 	</object>
 	<object name="Rank1Probabilities">
-		<field hash="EFEBA3CC" type="BinHex"/>
-		<field hash="57B4A8CC" type="BinHex"/>
-		<field hash="9975DCF1" type="BinHex"/>
-		<field hash="B7A7DD3E" type="BinHex"/>
+		<field name="fNoSkillProbability" type="BinHex"/>
+		<field name="fAmateurProbability" type="BinHex"/>
+		<field name="fExportProbability" type="BinHex"/>
+		<field name="fProfessionalProbability" type="BinHex"/>
 	</object>
 	<object name="Rank2Probabilities">
-		<field hash="EFEBA3CC" type="BinHex"/>
-		<field hash="57B4A8CC" type="BinHex"/>
-		<field hash="9975DCF1" type="BinHex"/>
-		<field hash="B7A7DD3E" type="BinHex"/>
+		<field name="fNoSkillProbability" type="BinHex"/>
+		<field name="fAmateurProbability" type="BinHex"/>
+		<field name="fExportProbability" type="BinHex"/>
+		<field name="fProfessionalProbability" type="BinHex"/>
 	</object>
 	<object name="Rank3Probabilities">
-		<field hash="EFEBA3CC" type="BinHex"/>
-		<field hash="57B4A8CC" type="BinHex"/>
-		<field hash="9975DCF1" type="BinHex"/>
-		<field hash="B7A7DD3E" type="BinHex"/>
+		<field name="fNoSkillProbability" type="BinHex"/>
+		<field name="fAmateurProbability" type="BinHex"/>
+		<field name="fExportProbability" type="BinHex"/>
+		<field name="fProfessionalProbability" type="BinHex"/>
 	</object>
 </class>

@@ -27,10 +27,10 @@
 	<object name="locstridExplosionCountdownWarning">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="A3356C9E">
+	<object name="locstridMainVehicleDriverObjective">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="76796D65">
+	<object name="locstridEscortPlayersObjective">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

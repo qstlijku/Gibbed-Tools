@@ -9,7 +9,7 @@
 	<field name="bSkipPackaging" type="Boolean"/>
 	<object name="BroadcastData">
 		<field name="fileBink" type="String"/>
-		<field hash="82948C4D" type="String"/>
+		<field name="fileBink4K" type="String"/>
 		<field name="bUsePerFrameLightData" type="BinHex"/>
 		<field name="fSubtitleDisplayTime" type="Float"/>
 		<field name="bIsBinkStreamed" type="Boolean"/>
@@ -20,7 +20,7 @@
 			<object name="Sound">
 				<field name="text_sndSoundId" type="String"/>
 				<field name="sndSoundId" type="BinHex"/>
-				<field hash="F67F93E3" type="BinHex"/>
+				<field name="sndtpSoundIdType" type="BinHex"/>
 			</object>
 		</object>
 		<object name="locstridDefaultLocalizationID">

@@ -10,5 +10,5 @@
 	<field name="mapicondescEntityToUseToUnlockUnlockIcon" type="BinHex"/>
 	<field name="mapicondescLockedEntityLockIcon" type="BinHex"/>
 	<field name="mapicondescLockedEntityUnlockIcon" type="BinHex"/>
-	<field hash="A998FF6A" type="BinHex"/>
+	<field name="fLockLinkDurationAfterFocusStop" type="BinHex"/>
 </class>

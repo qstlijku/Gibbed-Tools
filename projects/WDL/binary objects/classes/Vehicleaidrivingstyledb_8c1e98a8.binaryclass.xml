@@ -18,5 +18,5 @@
 	<field name="drvstylecfgFelonyLvl4" type="BinHex"/>
 	<field name="drvstylecfgFelonyLvl5" type="BinHex"/>
 	<field name="drvstylecfgChaseNoFelonyDefault" type="BinHex"/>
-	<field hash="1041984A" type="BinHex"/>
+	<field name="drvstylecfgFelonyAmbient" type="BinHex"/>
 </class>

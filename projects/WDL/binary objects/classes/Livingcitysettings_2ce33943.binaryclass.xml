@@ -190,7 +190,7 @@
 					<field name="text_archDroneArchetype" type="String"/>
 					<field name="archDroneArchetype" type="BinHex"/>
 					<field name="droneconfigDroneConfig" type="BinHex"/>
-					<field hash="572F5755" type="BinHex"/>
+					<field name="entcontSpawningContext" type="BinHex"/>
 					<field name="uiCoefficient" type="UInt32"/>
 				</object>
 			</object>
@@ -350,8 +350,8 @@
 			</object>
 		</object>
 		<object name="OppressedDefaultMoodStateParams">
-			<field hash="BDA80455" type="BinHex"/>
-			<field hash="C8D340E5" type="BinHex"/>
+			<field name="selDefaultMoodState" type="BinHex"/>
+			<field name="fApplyDefaultMoodStateProbability" type="BinHex"/>
 			<object name="ExcludedTags">
 				<object name="Tag">
 					<field name="tagTag" type="BinHex"/>

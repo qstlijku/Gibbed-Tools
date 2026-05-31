@@ -6,23 +6,23 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="928474CD" type="BinHex"/>
+	<field name="fAimingDuration" type="BinHex"/>
 	<field name="fCooldown" type="BinHex"/>
 	<field name="fRange" type="BinHex"/>
-	<field hash="DCC1C196" type="BinHex"/>
+	<field name="fMinWidth" type="BinHex"/>
 	<field name="fMaxWidth" type="BinHex"/>
 	<field name="fSphereRadius" type="BinHex"/>
 	<field name="fMinDamage" type="BinHex"/>
 	<field name="fMaxDamage" type="BinHex"/>
-	<field hash="D8438303" type="BinHex"/>
-	<field hash="74D29942" type="BinHex"/>
+	<field name="fTrackingSpeed" type="BinHex"/>
+	<field name="fHeatFromAttack" type="BinHex"/>
 	<field hash="8D5910CA" type="BinHex"/>
-	<field hash="408D76D1" type="BinHex"/>
+	<field name="sPreparingAttackRumbleId" type="BinHex"/>
 	<field hash="1DA38016" type="BinHex"/>
-	<field hash="9EBAC33D" type="BinHex"/>
+	<field name="sAttackRumbleId" type="BinHex"/>
 	<field hash="61FE2BFD" type="BinHex"/>
-	<field hash="AC2A4DE6" type="BinHex"/>
-	<field hash="CFD364DF" type="BinHex"/>
+	<field name="sAttackAftermathRumbleId" type="BinHex"/>
+	<field name="fAttackAftermathRumbleRadius" type="BinHex"/>
 	<object name="ExplosionStim">
 		<field name="text_hidEventName" type="String"/>
 		<field name="hidEventName" type="BinHex"/>
@@ -63,12 +63,12 @@
 		<field name="vectorLocalTranslationOffset" type="Vector3"/>
 		<field name="vectorWorldTranslationOffset" type="Vector3"/>
 		<field name="bIsPersistent" type="Boolean"/>
-		<field hash="9ACF21EB" type="Boolean"/>
+		<field name="bUseRuleSmithRadiusOverride" type="Boolean"/>
 	</object>
 	<object name="VFX">
 		<field hash="F6CB677A" type="BinHex"/>
-		<field hash="6F6E0920" type="BinHex"/>
+		<field name="psAimingParticles" type="BinHex"/>
 		<field hash="CAA5A5DC" type="BinHex"/>
-		<field hash="49BCE6F7" type="BinHex"/>
+		<field name="psShotParticles" type="BinHex"/>
 	</object>
 </class>

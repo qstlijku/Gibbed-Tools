@@ -6,17 +6,17 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="928474CD" type="BinHex"/>
+	<field name="fAimingDuration" type="BinHex"/>
 	<field name="fCooldown" type="BinHex"/>
 	<field name="fTriggerRange" type="BinHex"/>
-	<field hash="74D29942" type="BinHex"/>
+	<field name="fHeatFromAttack" type="BinHex"/>
 	<field hash="8D5910CA" type="BinHex"/>
-	<field hash="408D76D1" type="BinHex"/>
+	<field name="sPreparingAttackRumbleId" type="BinHex"/>
 	<field hash="1DA38016" type="BinHex"/>
-	<field hash="9EBAC33D" type="BinHex"/>
+	<field name="sAttackRumbleId" type="BinHex"/>
 	<field hash="61FE2BFD" type="BinHex"/>
-	<field hash="AC2A4DE6" type="BinHex"/>
-	<field hash="D3EEBC66" type="BinHex"/>
+	<field name="sAttackAftermathRumbleId" type="BinHex"/>
+	<field name="sAttackAftermathRumbleRadius" type="BinHex"/>
 	<object name="Explosion">
 		<field name="ExplosionCenter" type="Vector3"/>
 		<field name="ExplosionImpulseDividerHACK" type="BinHex"/>
@@ -83,6 +83,6 @@
 	</object>
 	<object name="VFX">
 		<field hash="BA2CF89F" type="BinHex"/>
-		<field hash="1613189C" type="BinHex"/>
+		<field name="psRangeParticles" type="BinHex"/>
 	</object>
 </class>

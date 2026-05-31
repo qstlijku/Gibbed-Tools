@@ -12,7 +12,7 @@
 		<field name="bUseParentPosAsAnchor" type="Boolean"/>
 		<field name="bIsALeader" type="Boolean"/>
 		<field name="conversationsettingConversationSettings" type="BinHex"/>
-		<field hash="C99C84C6" type="BinHex"/>
+		<field name="pacingeventconfigPacingEventConfig" type="BinHex"/>
 		<object name="ActivationSettings">
 			<field name="entcontContext" type="BinHex"/>
 			<field name="bIgnoreRestrictionZone" type="Boolean"/>

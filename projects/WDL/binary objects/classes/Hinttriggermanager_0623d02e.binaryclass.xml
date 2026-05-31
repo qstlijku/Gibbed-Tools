@@ -13,8 +13,8 @@
 			<field name="iPriority" type="Int32"/>
 			<field name="fDisplayTime" type="Float"/>
 			<field name="bIsFullscreen" type="BinHex"/>
-			<field hash="631C0186" type="BinHex"/>
-			<field hash="B2870E8A" type="BinHex"/>
+			<field name="bOncePerSession" type="BinHex"/>
+			<field name="bAllowOnInactiveOperatives" type="BinHex"/>
 			<field name="itemsTutorial" type="BinHex"/>
 			<field name="text_CompletedAction" type="String"/>
 			<field name="CompletedAction" type="BinHex"/>

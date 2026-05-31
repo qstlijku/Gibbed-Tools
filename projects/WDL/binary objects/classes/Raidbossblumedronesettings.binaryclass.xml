@@ -23,7 +23,7 @@
 		<field name="bSwitchTargetInMachinegunSequence" type="BinHex"/>
 		<field name="bSwitchTargetOnChoosingRocketLaunchers" type="BinHex"/>
 		<field name="bUseDoubleTargeting" type="BinHex"/>
-		<field hash="63DFB428" type="BinHex"/>
+		<field name="bTargetRemoteControlledUnits" type="BinHex"/>
 		<field name="fDualTargetingMaxAngle" type="BinHex"/>
 		<field name="fDualTargetingSwitchSideMinAngle" type="BinHex"/>
 	</object>

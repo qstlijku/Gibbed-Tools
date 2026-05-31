@@ -8,8 +8,8 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="TargetTypeSettings">
 		<object name="HijackedRC">
-			<field hash="338CD79A" type="BinHex"/>
-			<field hash="61D71851" type="BinHex"/>
+			<field name="bCanAlertIfNoGuard" type="BinHex"/>
+			<field name="bCanConcludeInCombat" type="BinHex"/>
 			<field name="fWaitForAlertGuardsTimeMin" type="BinHex"/>
 			<field name="fWaitForAlertGuardsTimeMax" type="BinHex"/>
 			<field name="fWaitForCombatWarningNoAlertTimeMin" type="BinHex"/>
@@ -18,10 +18,10 @@
 			<field name="fWaitForCombatWarningAfterAlertTimeMax" type="BinHex"/>
 			<field name="fWaitForCombatTimeMin" type="BinHex"/>
 			<field name="fWaitForCombatTimeMax" type="BinHex"/>
-			<field hash="9CDFA112" type="BinHex"/>
-			<field hash="A0D29E4B" type="BinHex"/>
-			<field hash="F66822B5" type="BinHex"/>
-			<field hash="CA651DEC" type="BinHex"/>
+			<field name="fWaitForCombatTimeNoGuardMin" type="BinHex"/>
+			<field name="fWaitForCombatTimeNoGuardMax" type="BinHex"/>
+			<field name="fWaitForNoCombatConclusionTimeMin" type="BinHex"/>
+			<field name="fWaitForNoCombatConclusionTimeMax" type="BinHex"/>
 			<field name="fAbandonTimeMin" type="BinHex"/>
 			<field name="fAbandonTimeMax" type="BinHex"/>
 			<field name="fFollowSpeed" type="BinHex"/>
@@ -40,8 +40,8 @@
 			</object>
 		</object>
 		<object name="DeactivatedRC">
-			<field hash="338CD79A" type="BinHex"/>
-			<field hash="61D71851" type="BinHex"/>
+			<field name="bCanAlertIfNoGuard" type="BinHex"/>
+			<field name="bCanConcludeInCombat" type="BinHex"/>
 			<field name="fWaitForAlertGuardsTimeMin" type="BinHex"/>
 			<field name="fWaitForAlertGuardsTimeMax" type="BinHex"/>
 			<field name="fWaitForCombatWarningNoAlertTimeMin" type="BinHex"/>
@@ -50,10 +50,10 @@
 			<field name="fWaitForCombatWarningAfterAlertTimeMax" type="BinHex"/>
 			<field name="fWaitForCombatTimeMin" type="BinHex"/>
 			<field name="fWaitForCombatTimeMax" type="BinHex"/>
-			<field hash="9CDFA112" type="BinHex"/>
-			<field hash="A0D29E4B" type="BinHex"/>
-			<field hash="F66822B5" type="BinHex"/>
-			<field hash="CA651DEC" type="BinHex"/>
+			<field name="fWaitForCombatTimeNoGuardMin" type="BinHex"/>
+			<field name="fWaitForCombatTimeNoGuardMax" type="BinHex"/>
+			<field name="fWaitForNoCombatConclusionTimeMin" type="BinHex"/>
+			<field name="fWaitForNoCombatConclusionTimeMax" type="BinHex"/>
 			<field name="fAbandonTimeMin" type="BinHex"/>
 			<field name="fAbandonTimeMax" type="BinHex"/>
 			<field name="fFollowSpeed" type="BinHex"/>

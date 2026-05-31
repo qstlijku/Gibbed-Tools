@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="OpTypeBehaviors">
 		<object name="LeverageOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -17,7 +17,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -26,7 +26,7 @@
 			</object>
 		</object>
 		<object name="OpLineOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -35,7 +35,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -44,7 +44,7 @@
 			</object>
 		</object>
 		<object name="StandAloneOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -53,7 +53,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -62,7 +62,7 @@
 			</object>
 		</object>
 		<object name="FAAOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -71,7 +71,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -80,7 +80,7 @@
 			</object>
 		</object>
 		<object name="PublicEventOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -89,7 +89,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -98,7 +98,7 @@
 			</object>
 		</object>
 		<object name="RaidOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -107,7 +107,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -116,7 +116,7 @@
 			</object>
 		</object>
 		<object name="X404Ops">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -125,7 +125,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -134,7 +134,7 @@
 			</object>
 		</object>
 		<object name="RevengeOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -143,7 +143,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -152,7 +152,7 @@
 			</object>
 		</object>
 		<object name="OnlineBreadcrumbingOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -161,7 +161,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -170,7 +170,7 @@
 			</object>
 		</object>
 		<object name="DynamicEventsOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -179,7 +179,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -188,7 +188,7 @@
 			</object>
 		</object>
 		<object name="OnlineCoopOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -197,7 +197,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -206,7 +206,7 @@
 			</object>
 		</object>
 		<object name="OnlineQuickOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -215,7 +215,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -224,7 +224,7 @@
 			</object>
 		</object>
 		<object name="OnlineStoryOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -233,7 +233,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -242,7 +242,7 @@
 			</object>
 		</object>
 		<object name="BoroughUprisingOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -251,7 +251,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -260,7 +260,7 @@
 			</object>
 		</object>
 		<object name="BoroughUprisingActivityOps">
-			<field hash="F34D00B0" type="BinHex"/>
+			<field name="selProductionStatus" type="BinHex"/>
 			<field name="bIsAllowedInSinglePlayer" type="BinHex"/>
 			<field name="bIsRepeatable" type="BinHex"/>
 			<field name="bBypassesOpDiscovery" type="BinHex"/>
@@ -269,7 +269,7 @@
 			<field name="bSuspendedUntilFirstTrack" type="BinHex"/>
 			<field name="selUIOpType" type="BinHex"/>
 			<field name="uMaxNrOpsOfThisType" type="BinHex"/>
-			<field hash="77E35304" type="BinHex"/>
+			<field name="uMaxNrOpsInstanceOfThisType" type="BinHex"/>
 			<object name="locstridMissionsAppSubCategoryName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -285,7 +285,7 @@
 		<field name="fNearbyOpSameObjectiveTimeoutDuration" type="BinHex"/>
 	</object>
 	<object name="LeverageOpsConfiguration">
-		<field hash="1DF85377" type="BinHex"/>
+		<field name="censusactormemorydefinitionDebugRecruitingMemoryDef" type="BinHex"/>
 	</object>
 	<object name="X404OpsConfiguration">
 		<object name="locstridX404MainSwitchEntryText">
@@ -323,7 +323,7 @@
 		<field name="fObjectiveHighlightAreaXMax" type="BinHex"/>
 		<field name="fObjectiveHighlightAreaYMin" type="BinHex"/>
 		<field name="fObjectiveHighlightAreaYMax" type="BinHex"/>
-		<field hash="7B8DEEA7" type="BinHex"/>
+		<field name="uimissionappvillainviewdataDefaultMissionsAppVillainViewData" type="BinHex"/>
 		<object name="ShouldAnotherOpBeTrackedWhenOpEnds">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -345,7 +345,7 @@
 		<field name="missionsoftquitmanagerparametersMissionSoftQuitManagerDefaultData" type="BinHex"/>
 	</object>
 	<object hash="9C806D63">
-		<field hash="34B9A36D" type="BinHex"/>
+		<field name="fIOPBinkLength" type="BinHex"/>
 	</object>
 	<object name="OperativeSwapTalkerSceneConversation">
 		<field name="conversationinteractionConversationSettings" type="BinHex"/>

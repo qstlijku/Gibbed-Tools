@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="85790912" type="BinHex"/>
-	<field hash="8B50F4C6" type="Boolean"/>
+	<field name="uiMaxCategoryItemsCount" type="BinHex"/>
+	<field name="bUsesTagCategoryWeightRule" type="Boolean"/>
 	<object name="Tags">
 		<object name="Tag">
-			<field hash="0AB3E082" type="BinHex"/>
+			<field name="rewardtagTag" type="BinHex"/>
 		</object>
 	</object>
 	<object name="TagCategoryWeightRule">

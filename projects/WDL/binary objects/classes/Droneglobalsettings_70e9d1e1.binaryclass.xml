@@ -107,7 +107,7 @@
 	</object>
 	<object name="CombatDroneGlobalSettings">
 		<field name="fGrenadeSquadTimeout" type="BinHex"/>
-		<field hash="3452C465" type="BinHex"/>
+		<field name="fCanDetectRemoteControlledDroneDelay" type="BinHex"/>
 		<field name="fStopCombatingDisconnectedDroneDelay" type="BinHex"/>
 		<object name="RocketSettings">
 			<object name="HomingRocketTargetTypes">
@@ -142,7 +142,7 @@
 				<field name="fFollowRearMaxDistance" type="BinHex"/>
 				<field name="fPointRadius" type="BinHex"/>
 				<field name="fDelayBetweenWeaponFireAttempts" type="BinHex"/>
-				<field hash="F4A3F192" type="BinHex"/>
+				<field name="fForceShootDelay" type="BinHex"/>
 				<field name="fDelayBetweenWeaponFireAttemptsWhenHacked" type="BinHex"/>
 				<field name="fOrbitYawIncrement" type="BinHex"/>
 				<field name="fOrbitSpeed" type="BinHex"/>
@@ -153,7 +153,7 @@
 				<field name="fFollowHoldPosStiffness" type="BinHex"/>
 				<field name="fMeleeHeight" type="BinHex"/>
 				<field name="fCombatHeight" type="BinHex"/>
-				<field hash="77047AE4" type="BinHex"/>
+				<field name="fShootRangeIfUnreachableTarget" type="BinHex"/>
 			</object>
 			<object name="InVehicle">
 				<field name="fMinSpeed" type="Float"/>
@@ -181,7 +181,7 @@
 				<field name="fWeaponFiredSpeedPenalty" type="BinHex"/>
 				<field name="fFirstWeaponFireDelay" type="BinHex"/>
 				<field name="fDelayBetweenWeaponFireAttempts" type="BinHex"/>
-				<field hash="010F7BE3" type="BinHex"/>
+				<field name="fDelayBetweenHitShots" type="BinHex"/>
 				<field name="fDelayBetweenWeaponFireAttemptsWhenHacked" type="BinHex"/>
 				<field name="iMaxDronesInFront" type="BinHex"/>
 				<field name="fLerpDonutInnerRadius" type="BinHex"/>
@@ -243,7 +243,7 @@
 			<field name="fCombatSpeed" type="BinHex"/>
 			<field name="fCombatRange" type="Float"/>
 			<field name="fShootRange" type="BinHex"/>
-			<field hash="77047AE4" type="BinHex"/>
+			<field name="fShootRangeIfUnreachableTarget" type="BinHex"/>
 			<field name="fShootTimeBeforeFiring" type="BinHex"/>
 			<field name="fMeleeHeight" type="BinHex"/>
 			<field name="fCombatHeight" type="BinHex"/>
@@ -260,7 +260,7 @@
 			<field name="fLookAtValidLKPDelayMax" type="BinHex"/>
 			<field name="bCanFireRockets" type="BinHex"/>
 			<field name="bCanThrowGrenades" type="BinHex"/>
-			<field hash="68B01FEA" type="BinHex"/>
+			<field name="selMoveAndShootType" type="BinHex"/>
 			<field name="bCanSupress" type="BinHex"/>
 			<field name="fSupressDistance" type="BinHex"/>
 			<field name="fSupressDelay" type="BinHex"/>
@@ -292,7 +292,7 @@
 				<field name="fLookAtTurnSpeedModifier" type="BinHex"/>
 				<field name="fPreShootDelay" type="BinHex"/>
 				<field name="sndPreShootSound" type="BinHex"/>
-				<field hash="56ACCAAB" type="BinHex"/>
+				<field name="sndtpPreShootSoundType" type="BinHex"/>
 				<field name="bIsValid" type="Boolean"/>
 			</object>
 			<object name="Grenade">
@@ -344,7 +344,7 @@
 				<field name="fLookAtTurnSpeedModifier" type="BinHex"/>
 				<field name="fPreShootDelay" type="BinHex"/>
 				<field name="sndPreShootSound" type="BinHex"/>
-				<field hash="56ACCAAB" type="BinHex"/>
+				<field name="sndtpPreShootSoundType" type="BinHex"/>
 				<field name="bIsValid" type="Boolean"/>
 			</object>
 			<object name="LowHealthModifiers">
@@ -420,7 +420,7 @@
 			<field name="fDefaultfollowSpeed" type="BinHex"/>
 			<field name="fSprintfollowSpeed" type="BinHex"/>
 			<field name="fFollowHeight" type="BinHex"/>
-			<field hash="2A2CD381" type="BinHex"/>
+			<field name="fBlindFollowHeight" type="BinHex"/>
 			<field name="fFollowSpeedSelfDestruct" type="BinHex"/>
 			<field name="fSelfDestructTriggerRange" type="BinHex"/>
 			<field name="fSelfDestructBuildupDuration" type="BinHex"/>
@@ -428,9 +428,9 @@
 			<field name="fInitialHoverDuration" type="BinHex"/>
 			<field name="fPreSelfDestructSoundTriggerRange" type="BinHex"/>
 			<field name="fLocalPlayerInRange" type="BinHex"/>
-			<field hash="7CBBD975" type="BinHex"/>
-			<field hash="9FBD98FF" type="BinHex"/>
-			<field hash="4CC3743D" type="BinHex"/>
+			<field name="bShowExplosionIcon" type="BinHex"/>
+			<field name="bHasMaxKamikazeDuration" type="BinHex"/>
+			<field name="fMaxKamikazeDuration" type="BinHex"/>
 		</object>
 		<object name="RaidBossBlumeDroneSettings">
 			<field name="disNomadObjectId" type="BinHex"/>
@@ -455,7 +455,7 @@
 				<field name="bSwitchTargetInMachinegunSequence" type="BinHex"/>
 				<field name="bSwitchTargetOnChoosingRocketLaunchers" type="BinHex"/>
 				<field name="bUseDoubleTargeting" type="BinHex"/>
-				<field hash="63DFB428" type="BinHex"/>
+				<field name="bTargetRemoteControlledUnits" type="BinHex"/>
 				<field name="fDualTargetingMaxAngle" type="BinHex"/>
 				<field name="fDualTargetingSwitchSideMinAngle" type="BinHex"/>
 			</object>
@@ -611,7 +611,7 @@
 			<field name="hidKey" type="BinHex"/>
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
-			<field hash="8E4E9764" type="BinHex"/>
+			<field name="bCanCaptureNews" type="BinHex"/>
 		</object>
 		<object name="TurretSettings">
 			<field name="disNomadObjectId" type="BinHex"/>
@@ -722,8 +722,8 @@
 			<field name="fActivationDelayMax" type="Float"/>
 			<field name="sndStandbyStartSound" type="BinHex"/>
 			<field name="sndStandbyStopSound" type="BinHex"/>
-			<field hash="011CA015" type="BinHex"/>
-			<field hash="36646AA8" type="BinHex"/>
+			<field name="sndtpStandbyStartSoundType" type="BinHex"/>
+			<field name="sndtpStandbyStopSoundType" type="BinHex"/>
 		</object>
 		<object name="DroneWanderStateSettings">
 			<field name="disNomadObjectId" type="BinHex"/>
@@ -958,8 +958,8 @@
 			<field name="hidName" type="BinHex"/>
 			<object name="TargetTypeSettings">
 				<object name="HijackedRC">
-					<field hash="338CD79A" type="BinHex"/>
-					<field hash="61D71851" type="BinHex"/>
+					<field name="bCanAlertIfNoGuard" type="BinHex"/>
+					<field name="bCanConcludeInCombat" type="BinHex"/>
 					<field name="fWaitForAlertGuardsTimeMin" type="BinHex"/>
 					<field name="fWaitForAlertGuardsTimeMax" type="BinHex"/>
 					<field name="fWaitForCombatWarningNoAlertTimeMin" type="BinHex"/>
@@ -968,10 +968,10 @@
 					<field name="fWaitForCombatWarningAfterAlertTimeMax" type="BinHex"/>
 					<field name="fWaitForCombatTimeMin" type="BinHex"/>
 					<field name="fWaitForCombatTimeMax" type="BinHex"/>
-					<field hash="9CDFA112" type="BinHex"/>
-					<field hash="A0D29E4B" type="BinHex"/>
-					<field hash="F66822B5" type="BinHex"/>
-					<field hash="CA651DEC" type="BinHex"/>
+					<field name="fWaitForCombatTimeNoGuardMin" type="BinHex"/>
+					<field name="fWaitForCombatTimeNoGuardMax" type="BinHex"/>
+					<field name="fWaitForNoCombatConclusionTimeMin" type="BinHex"/>
+					<field name="fWaitForNoCombatConclusionTimeMax" type="BinHex"/>
 					<field name="fAbandonTimeMin" type="BinHex"/>
 					<field name="fAbandonTimeMax" type="BinHex"/>
 					<field name="fFollowSpeed" type="BinHex"/>
@@ -992,8 +992,8 @@
 					</object>
 				</object>
 				<object name="DeactivatedRC">
-					<field hash="338CD79A" type="BinHex"/>
-					<field hash="61D71851" type="BinHex"/>
+					<field name="bCanAlertIfNoGuard" type="BinHex"/>
+					<field name="bCanConcludeInCombat" type="BinHex"/>
 					<field name="fWaitForAlertGuardsTimeMin" type="BinHex"/>
 					<field name="fWaitForAlertGuardsTimeMax" type="BinHex"/>
 					<field name="fWaitForCombatWarningNoAlertTimeMin" type="BinHex"/>
@@ -1002,10 +1002,10 @@
 					<field name="fWaitForCombatWarningAfterAlertTimeMax" type="BinHex"/>
 					<field name="fWaitForCombatTimeMin" type="BinHex"/>
 					<field name="fWaitForCombatTimeMax" type="BinHex"/>
-					<field hash="9CDFA112" type="BinHex"/>
-					<field hash="A0D29E4B" type="BinHex"/>
-					<field hash="F66822B5" type="BinHex"/>
-					<field hash="CA651DEC" type="BinHex"/>
+					<field name="fWaitForCombatTimeNoGuardMin" type="BinHex"/>
+					<field name="fWaitForCombatTimeNoGuardMax" type="BinHex"/>
+					<field name="fWaitForNoCombatConclusionTimeMin" type="BinHex"/>
+					<field name="fWaitForNoCombatConclusionTimeMax" type="BinHex"/>
 					<field name="fAbandonTimeMin" type="BinHex"/>
 					<field name="fAbandonTimeMax" type="BinHex"/>
 					<field name="fFollowSpeed" type="BinHex"/>

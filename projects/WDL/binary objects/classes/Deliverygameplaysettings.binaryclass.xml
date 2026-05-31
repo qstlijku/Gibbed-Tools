@@ -16,7 +16,7 @@
 	<field name="bUseMeetingAtDestination" type="BinHex"/>
 	<field name="bShouldLeaveInWanderUponDelivery" type="BinHex"/>
 	<field name="bShouldLeaveInFleeUponDelivery" type="BinHex"/>
-	<field hash="D4AE10FE" type="BinHex"/>
+	<field name="bIsGoingToBeTalker" type="BinHex"/>
 	<field name="bUsePGTArenaAsFleeThreat" type="BinHex"/>
 	<field name="fleebehaviordescriptorBuddyFleeBhvDescriptor" type="BinHex"/>
 	<field name="sBuddyDeliverBarkTriggerName" type="BinHex"/>
@@ -39,7 +39,7 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
@@ -50,7 +50,7 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

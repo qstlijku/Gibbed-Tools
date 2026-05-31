@@ -6,38 +6,38 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="24059F66" type="BinHex"/>
+	<field name="fHintCheckCooldown" type="BinHex"/>
 	<object name="BoroughsData">
 		<object name="BoroughData">
-			<field hash="E68E3C54" type="BinHex"/>
+			<field name="districtBoroughDistrictDB" type="BinHex"/>
 			<field name="UprisingOpMissionId" type="BinHex"/>
 			<object name="BoroughCompletionTeamspeaks"/>
 			<object name="CollectibleSpecificData">
-				<field hash="E6940193" type="BinHex"/>
-				<field hash="2D0DA3EA" type="BinHex"/>
-				<field hash="5E33AB16" type="BinHex"/>
-				<field hash="9174302B" type="BinHex"/>
-				<field hash="3D86F7BE" type="BinHex"/>
-				<field hash="B49A97C0" type="BinHex"/>
+				<field name="entActivityEntityId" type="BinHex"/>
+				<field name="itemsHintItemDb" type="BinHex"/>
+				<field name="fHintDistance" type="BinHex"/>
+				<field name="phonecommunicationsettingsTeamspeak" type="BinHex"/>
+				<field name="fTeamspeakDelay" type="BinHex"/>
+				<field name="bCollectedOnGameStart" type="BinHex"/>
 				<object name="CollectibleSpecificData">
-					<field hash="E6940193" type="BinHex"/>
-					<field hash="2D0DA3EA" type="BinHex"/>
-					<field hash="5E33AB16" type="BinHex"/>
-					<field hash="9174302B" type="BinHex"/>
-					<field hash="3D86F7BE" type="BinHex"/>
-					<field hash="B49A97C0" type="BinHex"/>
+					<field name="entActivityEntityId" type="BinHex"/>
+					<field name="itemsHintItemDb" type="BinHex"/>
+					<field name="fHintDistance" type="BinHex"/>
+					<field name="phonecommunicationsettingsTeamspeak" type="BinHex"/>
+					<field name="fTeamspeakDelay" type="BinHex"/>
+					<field name="bCollectedOnGameStart" type="BinHex"/>
 				</object>
 			</object>
 			<object name="DistrictsDiscoveryStateTriggeredByUprisingSettings">
 				<object name="DiscoveryTriggeredByUprisingSettings">
-					<field hash="89F8FA7F" type="BinHex"/>
+					<field name="districtDistrictDB" type="BinHex"/>
 					<field hash="FEA4A0D2" type="String"/>
-					<field hash="CEBD9793" type="BinHex"/>
+					<field name="progressioncollectablescategoriesfilterCategory" type="BinHex"/>
 				</object>
 			</object>
 			<object name="DistrictsDiscoveryStateTriggeredByUprising">
-				<object hash="E68E3C54">
-					<field hash="E68E3C54" type="BinHex"/>
+				<object name="districtBoroughDistrictDB">
+					<field name="districtBoroughDistrictDB" type="BinHex"/>
 				</object>
 			</object>
 		</object>

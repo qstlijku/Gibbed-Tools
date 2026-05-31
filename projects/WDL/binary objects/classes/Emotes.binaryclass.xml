@@ -7,5 +7,5 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="iBound" type="BinHex"/>
-	<field hash="8A7E0C6A" type="BinHex"/>
+	<field name="bIsInterruptible" type="BinHex"/>
 </class>

@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="oplineuidataInitialUIData" type="BinHex"/>
 	<field name="selOpLineEnumId" type="BinHex"/>
-	<field hash="0C787D3F" type="BinHex"/>
+	<field name="selDataDriveCategory" type="BinHex"/>
 	<object name="locstridMissionsAppSubCategoryName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>

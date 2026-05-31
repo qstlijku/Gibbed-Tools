@@ -29,7 +29,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -42,7 +42,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -135,7 +135,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -347,7 +347,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -360,7 +360,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -477,7 +477,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -618,7 +618,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -795,7 +795,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -822,9 +822,9 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
-					<field hash="2244E418" type="BinHex"/>
-					<field hash="8C1790DB" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
+					<field name="fSlowWalkingCloseDistance" type="BinHex"/>
+					<field name="fSlowWalkingMoveSpeed" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -845,9 +845,9 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
-					<field hash="2244E418" type="BinHex"/>
-					<field hash="8C1790DB" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
+					<field name="fSlowWalkingCloseDistance" type="BinHex"/>
+					<field name="fSlowWalkingMoveSpeed" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -922,7 +922,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -973,7 +973,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -1095,7 +1095,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -1108,7 +1108,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -1297,7 +1297,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -1438,7 +1438,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -1615,7 +1615,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -1677,7 +1677,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -1690,7 +1690,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -1782,7 +1782,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -1795,7 +1795,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -1881,7 +1881,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -1894,7 +1894,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2053,7 +2053,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2074,7 +2074,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2106,7 +2106,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -2119,7 +2119,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2182,7 +2182,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2202,7 +2202,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -2215,7 +2215,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2272,7 +2272,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2305,7 +2305,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2338,7 +2338,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2359,7 +2359,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2385,7 +2385,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -2398,7 +2398,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2466,7 +2466,7 @@
 				<field name="bOnSpotOnly" type="Boolean"/>
 				<field name="bCanGoOnRoad" type="Boolean"/>
 				<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-				<field hash="C6EFEA0B" type="BinHex"/>
+				<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				<object name="StatesSettings">
 					<field name="selState" type="Enum"/>
 					<field name="fMinDuration" type="Float"/>
@@ -2479,7 +2479,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -2608,7 +2608,7 @@
 					<field name="bOnSpotOnly" type="Boolean"/>
 					<field name="bCanGoOnRoad" type="Boolean"/>
 					<field name="bForceComfortZoneMaxRadius" type="BinHex"/>
-					<field hash="C6EFEA0B" type="BinHex"/>
+					<field name="bUseSlowWalkingIfClose" type="BinHex"/>
 				</object>
 			</object>
 		</object>

@@ -12,8 +12,8 @@
 		<field name="sndWallaPlaySound" type="BinHex"/>
 		<field name="text_sndWallaStopSound" type="String"/>
 		<field name="sndWallaStopSound" type="BinHex"/>
-		<field hash="1A07014C" type="BinHex"/>
-		<field hash="03BAF64C" type="BinHex"/>
+		<field name="sndtpWallaPlaySoundType" type="BinHex"/>
+		<field name="sndtpWallaStopSoundType" type="BinHex"/>
 		<object name="sndvarCellSizeRTPC">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>

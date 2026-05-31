@@ -43,7 +43,7 @@
 				<object name="LocationMusicSoundId">
 					<field name="text_sndEndEvent" type="String"/>
 					<field name="sndEndEvent" type="BinHex"/>
-					<field hash="00A914DB" type="BinHex"/>
+					<field name="sndtpEndEventType" type="BinHex"/>
 					<object name="sndpairPlayStopEvents">
 						<field name="text_dissndStart" type="String"/>
 						<field name="dissndStart" type="BinHex"/>

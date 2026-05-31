@@ -6,37 +6,37 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="FA9B3127" type="BinHex"/>
-	<field hash="FAAABFAA" type="BinHex"/>
-	<field hash="5CA80352" type="BinHex"/>
-	<field hash="C1A8D19F" type="BinHex"/>
-	<field hash="EDB2B954" type="BinHex"/>
+	<field name="bCustomRewardGenerationEnabled" type="BinHex"/>
+	<field name="rewardtagcategoryZombieRewardTagWeightHierarchy" type="BinHex"/>
+	<field name="rewardconfigDebugZombieRewardConfig" type="BinHex"/>
+	<field name="bUseDefaultMinimumNumberOfPackages" type="BinHex"/>
+	<field name="uDefaultMinimumNumberOfPackages" type="BinHex"/>
 	<field name="fullscreentutorialFullscreenTutorial" type="BinHex"/>
-	<field hash="A791AA8B" type="BinHex"/>
+	<field name="fVictoryPackageEnabledProbability" type="BinHex"/>
 	<object name="SoundHooks">
-		<object hash="BE0966A9">
+		<object name="sndstgrZombieModeState">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="BinHex"/>
 		</object>
-		<object hash="B408856D">
+		<object name="sndstvlZombieModeStateOn">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="BinHex"/>
 		</object>
-		<object hash="8DBDB488">
+		<object name="sndstvlZombieModeStateOff">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="BinHex"/>
 		</object>
-		<object hash="8DADF58A">
+		<object name="sndvarZombieModeRTPC">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="BinHex"/>
 		</object>
 	</object>
 	<object name="ZombieRewardItemTags">
 		<object name="ZombieRewardItemTagsEntry">
-			<field hash="46C93851" type="BinHex"/>
+			<field name="itemsRewardItem" type="BinHex"/>
 			<object name="RewardTags">
 				<object name="Tag">
-					<field hash="0AB3E082" type="BinHex"/>
+					<field name="rewardtagTag" type="BinHex"/>
 				</object>
 			</object>
 		</object>
@@ -48,7 +48,7 @@
 	<object name="GameStartRewardSettings">
 		<object name="GameStartRewardTierTags">
 			<object name="Tag">
-				<field hash="0AB3E082" type="BinHex"/>
+				<field name="rewardtagTag" type="BinHex"/>
 			</object>
 		</object>
 		<object name="GameStartRewardSelectionTotalTime">
@@ -57,20 +57,20 @@
 		</object>
 	</object>
 	<object name="ZombieOpRewardSettings">
-		<field hash="04E0EA67" type="BinHex"/>
-		<field hash="E1E72825" type="BinHex"/>
+		<field name="strActivityFailCategory" type="BinHex"/>
+		<field name="strActivityCompletedCategory" type="BinHex"/>
 		<object name="ActivityFailRewardRule">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="text_rulesmithconstValue" type="String"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="746B0C4B">
+	<object name="locstridZombiePackageObtainedMessage">
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
 	<object name="CallToActionPulseParameters">
 		<field name="fIntensity" type="BinHex"/>
 		<field name="fSpeed" type="BinHex"/>
-		<field hash="381447E5" type="BinHex"/>
+		<field name="vectorColour" type="BinHex"/>
 	</object>
 </class>

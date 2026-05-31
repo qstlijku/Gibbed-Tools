@@ -147,7 +147,7 @@
 	<object name="locstridTBoneBackWeapon">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="61286701">
+	<object name="locstridARBetrayToughness">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridHitman">
@@ -216,7 +216,7 @@
 	<object name="locstridCloneAccess">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="99359C93">
+	<object name="locstridKillNPC">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridGunLock">
@@ -231,13 +231,13 @@
 	<object name="locstridLeverage">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3AC92DC6">
+	<object name="locstridProvoke">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="766B5D30">
+	<object name="locstridBite">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="8DD83EEC">
+	<object name="locstridShock">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridRCJumperDockSpawn">

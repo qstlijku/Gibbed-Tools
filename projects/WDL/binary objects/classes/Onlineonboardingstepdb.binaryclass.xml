@@ -8,11 +8,11 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="selType" type="Enum"/>
 	<field name="selState" type="Enum"/>
-	<field hash="6301134D" type="BinHex"/>
+	<field name="phonecommunicationsettingsNarrativenPhoneCommunication" type="BinHex"/>
 	<field name="districtDistrict" type="BinHex"/>
 	<field hash="D6C380EE" type="String"/>
-	<field hash="AAED1D1F" type="BinHex"/>
-	<field hash="E6EDA391" type="BinHex"/>
+	<field name="sActivityName" type="BinHex"/>
+	<field name="needsRequest" type="BinHex"/>
 	<object name="StepMissions">
 		<object name="opslistOpConfigDbObject">
 			<field name="opslistOpConfigDbObject" type="BinHex"/>

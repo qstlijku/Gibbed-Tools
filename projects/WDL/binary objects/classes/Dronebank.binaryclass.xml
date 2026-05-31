@@ -13,7 +13,7 @@
 			<field name="text_archDroneArchetype" type="String"/>
 			<field name="archDroneArchetype" type="BinHex"/>
 			<field name="droneconfigDroneConfig" type="BinHex"/>
-			<field hash="572F5755" type="BinHex"/>
+			<field name="entcontSpawningContext" type="BinHex"/>
 			<field name="uiCoefficient" type="UInt32"/>
 		</object>
 	</object>

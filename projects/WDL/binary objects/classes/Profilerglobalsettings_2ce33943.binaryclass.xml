@@ -88,7 +88,7 @@
 	<field name="uMaxExposeHitmanHackAtSameTime" type="UInt32"/>
 	<field name="fExplosionHackRadiusModifier" type="Float"/>
 	<field name="globalcooldownsconfigDefaultGlobalCooldownConfg" type="BinHex"/>
-	<field hash="C1814A07" type="BinHex"/>
+	<field name="fOnlineHackBlockTime" type="BinHex"/>
 	<field name="fAutoTakedownBatteryCost" type="Float"/>
 	<field name="fVrNodeTriggerBatteryCost" type="Float"/>
 	<field name="fActivateFlatbedPlatformBatteryCost" type="Float"/>
@@ -108,12 +108,12 @@
 	<field name="mapicondescVRLockIcon" type="BinHex"/>
 	<field name="mapicondescLockBoxLockIcon" type="BinHex"/>
 	<field name="mapicondescMicroDroneLockIcon" type="BinHex"/>
-	<field hash="16F564B4" type="BinHex"/>
+	<field name="mapicondescScramblerLockIcon" type="BinHex"/>
 	<field name="mapicondescBreachLockIcon" type="BinHex"/>
 	<field name="mapicondescAccessCodeUnLockIcon" type="BinHex"/>
 	<field name="mapicondescVRUnLockIcon" type="BinHex"/>
 	<field name="mapicondescLockBoxUnLockIcon" type="BinHex"/>
-	<field hash="C0DF1568" type="BinHex"/>
+	<field name="mapicondescScramblerUnLockIcon" type="BinHex"/>
 	<field name="sndHackingContextualSoundId" type="BinHex"/>
 	<field name="sndtpHackingContextualSoundType" type="BinHex"/>
 	<field name="text_sndHackingDistractSoundId" type="String"/>
@@ -205,8 +205,8 @@
 	<field name="sndHackingDroneDropCargoSelectedSound" type="BinHex"/>
 	<field name="sndtpHackingDroneDropCargoSelectedSoundType" type="BinHex"/>
 	<field hash="043E600C" type="String"/>
-	<field hash="706FCF27" type="BinHex"/>
-	<field hash="E2E632B2" type="BinHex"/>
+	<field name="sndHackingRCDeactivationTakedownSelectedSound" type="BinHex"/>
+	<field name="sndtpHackingRCDeactivationTakedownSelectedSoundType" type="BinHex"/>
 	<field name="text_sndHackingLeverageSoundId" type="String"/>
 	<field name="sndHackingLeverageSoundId" type="BinHex"/>
 	<field name="sndtpHackingLeverageSoundType" type="BinHex"/>
@@ -243,8 +243,8 @@
 	<field name="text_sndInvalidHackSelectedSound" type="String"/>
 	<field name="sndInvalidHackSelectedSound" type="BinHex"/>
 	<field name="sndtpInvalidHackSelectedSoundType" type="BinHex"/>
-	<field hash="78790608" type="BinHex"/>
-	<field hash="816D4DD3" type="BinHex"/>
+	<field name="sndUnavailableHackSelectedSound" type="BinHex"/>
+	<field name="sndtpUnavailableHackSelectedSoundType" type="BinHex"/>
 	<field name="sndRewardSelectedSound" type="BinHex"/>
 	<field name="sndtpRewardSelectedSoundType" type="BinHex"/>
 	<field name="sndStartOpSelectedSound" type="BinHex"/>
@@ -257,12 +257,12 @@
 	<field name="fProfilerPanelTimeForFirstOpen" type="Float"/>
 	<field name="text_sndProfilerHasKeyIntelSoundId" type="String"/>
 	<field name="sndProfilerHasKeyIntelSoundId" type="BinHex"/>
-	<field hash="58745A8F" type="BinHex"/>
+	<field name="sndtpProfilerHasKeyIntelSoundType" type="BinHex"/>
 	<field name="text_sndProfilerFailedSoundId" type="String"/>
 	<field name="sndProfilerFailedSoundId" type="BinHex"/>
-	<field hash="13940B2C" type="BinHex"/>
+	<field name="sndtpProfilerFailedSoundType" type="BinHex"/>
 	<field name="sndProfilerCardClosedSoundId" type="BinHex"/>
-	<field hash="510400CC" type="BinHex"/>
+	<field name="sndtpProfilerCardClosedSoundType" type="BinHex"/>
 	<field name="fMinimumBreachDistance" type="Float"/>
 	<field name="fTimeToBreachProtectedEntity" type="Float"/>
 	<field name="sndBreachingHackableStartSoundId" type="BinHex"/>
@@ -367,7 +367,7 @@
 			<field name="HighResPortraitSaveSizeHeight" type="BinHex"/>
 			<field name="PictureWithPoseProbability" type="BinHex"/>
 			<field name="CustomEnvironmentMapIndex" type="BinHex"/>
-			<field hash="FD914198" type="BinHex"/>
+			<field name="cinemacolorgradingColorGrading" type="BinHex"/>
 			<object name="ZoomPresets">
 				<object name="ZoomPreset">
 					<field name="fCamHeightOffset" type="Float"/>
@@ -460,7 +460,7 @@
 			<field name="HighResPortraitSaveSizeHeight" type="BinHex"/>
 			<field name="PictureWithPoseProbability" type="BinHex"/>
 			<field name="CustomEnvironmentMapIndex" type="BinHex"/>
-			<field hash="FD914198" type="BinHex"/>
+			<field name="cinemacolorgradingColorGrading" type="BinHex"/>
 			<object name="ZoomPresets">
 				<object name="ZoomPreset">
 					<field name="fCamHeightOffset" type="Float"/>
@@ -912,7 +912,7 @@
 		<field name="fProfilingRange" type="Float"/>
 		<field name="fCameraProfilingRange" type="Float"/>
 		<field name="fMaxHardLockRange" type="BinHex"/>
-		<field hash="4E3E1A86" type="BinHex"/>
+		<field name="fSecurityCameraIconDisplayDistance" type="BinHex"/>
 		<field name="fMaxCameraHardLockRange" type="BinHex"/>
 		<field name="fMaxCameraHackingDistance" type="BinHex"/>
 	</object>
@@ -1001,22 +1001,22 @@
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="00A2E917">
+	<object name="locstridLockIconDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="77A01E34">
+	<object name="locstridAccessCodeLockIconDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="7DEDDAC7">
+	<object name="locstridVrLockIconDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="9491ABD2">
+	<object name="locstridMicroDroneLockIconDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="FF493301">
+	<object name="locstridScramblerLockIconDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="BAA23DED">
+	<object name="locstridBreachLockIconDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="HackingDroneDockChaseDroneSoundId">

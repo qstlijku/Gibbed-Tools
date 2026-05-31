@@ -38,8 +38,8 @@
 			<field name="bIsElite" type="BinHex"/>
 			<field name="bIsBoss" type="BinHex"/>
 			<field name="bIsUnique" type="BinHex"/>
-			<field hash="9E66B082" type="BinHex"/>
-			<field hash="806E5806" type="BinHex"/>
+			<field name="bIsOCO" type="BinHex"/>
+			<field name="bShowHackReminder" type="BinHex"/>
 			<field name="text_sBossID" type="String"/>
 			<field name="sBossID" type="BinHex"/>
 			<object name="TagInfo">

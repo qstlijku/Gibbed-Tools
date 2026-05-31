@@ -17,7 +17,7 @@
 		<field name="entResetEntityID" type="BinHex"/>
 		<field name="entSequenceDisplayEntityId" type="BinHex"/>
 		<field name="fWarningDuration" type="Float"/>
-		<field hash="D0161FAB" type="BinHex"/>
+		<field name="entObjectiveMarkerEntity" type="BinHex"/>
 		<object name="SequenceColors">
 			<object name="Color">
 				<field name="colorColor" type="Vector3"/>

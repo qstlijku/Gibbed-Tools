@@ -11,8 +11,8 @@
 	<object name="PosSysDescriptor">
 		<field name="vectorPositionOffset" type="BinHex"/>
 		<field name="bIsOccludable" type="BinHex"/>
-		<field hash="26D5EB4A" type="BinHex"/>
-		<field hash="8590B02D" type="BinHex"/>
+		<field name="fOcclusionThresholdIN" type="BinHex"/>
+		<field name="fOcclusionThresholdOUT" type="BinHex"/>
 		<field name="bDisplayInWorld" type="Boolean"/>
 		<field name="bDisplayInMiniMap" type="Boolean"/>
 		<field name="bDisplayInWorldMap" type="Boolean"/>
@@ -47,15 +47,15 @@
 		<field name="fFarScale" type="Float"/>
 		<field name="fFarScaleDistance" type="Float"/>
 		<field name="selOnlineActivityType" type="Enum"/>
-		<field hash="C26617A1" type="BinHex"/>
-		<field hash="1F8279E1" type="BinHex"/>
+		<field name="selOnlineActivitySubType" type="BinHex"/>
+		<field name="bHaveIndex" type="BinHex"/>
 		<field name="uiIndex" type="BinHex"/>
-		<field hash="5D8BAD1D" type="BinHex"/>
-		<field hash="B43A138E" type="BinHex"/>
-		<field hash="E70A0ED8" type="BinHex"/>
-		<field hash="EB771E6F" type="BinHex"/>
-		<field hash="8146DCD8" type="BinHex"/>
-		<field hash="3A1DFAF9" type="BinHex"/>
+		<field name="bIsPostLaunchContent" type="BinHex"/>
+		<field name="bVisibleDuringCombat" type="BinHex"/>
+		<field name="bVisibleDuringFelony" type="BinHex"/>
+		<field name="bVisibleWhenPlayerIsInRedZone" type="BinHex"/>
+		<field name="bVisibleDuringCelebration" type="BinHex"/>
+		<field name="bVisibleDuringOnboarding" type="BinHex"/>
 		<object name="locstridDefaultDescriptionText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>

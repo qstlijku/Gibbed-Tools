@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="F6B8680F" type="BinHex"/>
+	<field name="fRiftOpenWarningCriticalMessageDuration" type="BinHex"/>
 	<object name="TeleportEntities">
 		<object name="TeleportEntity">
 			<field name="entTeleportEntity" type="BinHex"/>
@@ -26,7 +26,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="F7833824">
+	<object name="locstridRiftOpenCriticalMessage">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="StateArchetype">
@@ -70,9 +70,9 @@
 		<field name="sndAmbientSoundStop" type="BinHex"/>
 		<field name="sndtpAmbientSoundStartType" type="BinHex"/>
 		<field name="sndtpAmbientSoundStopType" type="BinHex"/>
-		<field hash="B0349D5A" type="BinHex"/>
-		<field hash="BFE60BB1" type="BinHex"/>
-		<field hash="07A4A601" type="BinHex"/>
+		<field name="fClosedRiftRTPCValue" type="BinHex"/>
+		<field name="fOpenedRiftRTPCValue" type="BinHex"/>
+		<field name="fUnlockedRiftRTPCValue" type="BinHex"/>
 		<field name="text_sndRiftOpensSound" type="String"/>
 		<field name="sndRiftOpensSound" type="BinHex"/>
 		<field name="text_sndRiftClosesSound" type="String"/>
@@ -83,12 +83,12 @@
 		<field name="sndBulletHitSound" type="BinHex"/>
 		<field name="text_sndRiftDestroyedSound" type="String"/>
 		<field name="sndRiftDestroyedSound" type="BinHex"/>
-		<field hash="CB47FEE2" type="BinHex"/>
-		<field hash="2370DAB0" type="BinHex"/>
-		<field hash="A40B996D" type="BinHex"/>
-		<field hash="CC0119E6" type="BinHex"/>
+		<field name="sndtpRiftOpensSoundType" type="BinHex"/>
+		<field name="sndtpRiftClosesSoundType" type="BinHex"/>
+		<field name="sndtpEscapeTransitionBeginSoundType" type="BinHex"/>
+		<field name="sndtpGhostPurgeSoundType" type="BinHex"/>
 		<field name="sndtpBulletHitSoundType" type="BinHex"/>
-		<field hash="DF6B359B" type="BinHex"/>
+		<field name="sndtpRiftDestroyedSoundType" type="BinHex"/>
 		<object name="sndvarAmbientSoundRtpc">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>

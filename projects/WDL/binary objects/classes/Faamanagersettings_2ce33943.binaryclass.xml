@@ -220,7 +220,7 @@
 	</object>
 	<object name="GeneratorHistory">
 		<field name="uiGameplayHistoryMaxSize" type="BinHex"/>
-		<field hash="DF1E42B6" type="BinHex"/>
+		<field name="uiGameplayCategoryHistoryMaxSize" type="BinHex"/>
 		<field name="uiFirstChapterPlotHistoryMaxSize" type="BinHex"/>
 	</object>
 </class>

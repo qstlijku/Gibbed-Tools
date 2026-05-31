@@ -20,29 +20,29 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="IsRoleDescriptionPossessive">
-			<field hash="827D2CB8" type="BinHex"/>
-			<field hash="2DC61F13" type="BinHex"/>
-			<field hash="75DA29B9" type="BinHex"/>
-			<field hash="C0904738" type="BinHex"/>
-			<field hash="4B64C7E7" type="BinHex"/>
-			<field hash="DFC2D09F" type="BinHex"/>
-			<field hash="D2835E60" type="BinHex"/>
-			<field hash="CEDD95B7" type="BinHex"/>
-			<field hash="BBAA2CF7" type="BinHex"/>
-			<field hash="2279EAB5" type="BinHex"/>
-			<field hash="E1E2D702" type="BinHex"/>
-			<field hash="61533492" type="BinHex"/>
-			<field hash="A0B82974" type="BinHex"/>
-			<field hash="B2ABD78E" type="BinHex"/>
-			<field hash="D0F327B9" type="BinHex"/>
-			<field hash="0775B44D" type="BinHex"/>
-			<field hash="D80BB00C" type="BinHex"/>
-			<field hash="5F33C610" type="BinHex"/>
-			<field hash="8C30B73F" type="BinHex"/>
-			<field hash="1B4FF806" type="BinHex"/>
-			<field hash="1A71D636" type="BinHex"/>
-			<field hash="99EF42B8" type="BinHex"/>
-			<field hash="2982BF16" type="BinHex"/>
+			<field name="bLang_Czech" type="BinHex"/>
+			<field name="bLang_Danish" type="BinHex"/>
+			<field name="bLang_Dutch" type="BinHex"/>
+			<field name="bLang_English" type="BinHex"/>
+			<field name="bLang_Finnish" type="BinHex"/>
+			<field name="bLang_French" type="BinHex"/>
+			<field name="bLang_German" type="BinHex"/>
+			<field name="bLang_Hungarian" type="BinHex"/>
+			<field name="bLang_Italian" type="BinHex"/>
+			<field name="bLang_Japanese" type="BinHex"/>
+			<field name="bLang_Korean" type="BinHex"/>
+			<field name="bLang_Norwegian" type="BinHex"/>
+			<field name="bLang_Polish" type="BinHex"/>
+			<field name="bLang_Portuguese_Brazil" type="BinHex"/>
+			<field name="bLang_Portuguese_Portugal" type="BinHex"/>
+			<field name="bLang_Russian" type="BinHex"/>
+			<field name="bLang_Spanish" type="BinHex"/>
+			<field name="bLang_Swedish" type="BinHex"/>
+			<field name="bLang_Traditional_Chinese" type="BinHex"/>
+			<field name="bLang_Simplified_Chinese" type="BinHex"/>
+			<field name="bLang_Fake_Long_English" type="BinHex"/>
+			<field name="bLang_Spanish_Mexico" type="BinHex"/>
+			<field name="bLang_Arabic" type="BinHex"/>
 		</object>
 		<object name="locstridFormerRivalNameMale">
 			<field name="LocalizationId" type="UInt64"/>
@@ -51,29 +51,29 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="IsFormerRoleDescriptionPossessive">
-			<field hash="827D2CB8" type="BinHex"/>
-			<field hash="2DC61F13" type="BinHex"/>
-			<field hash="75DA29B9" type="BinHex"/>
-			<field hash="C0904738" type="BinHex"/>
-			<field hash="4B64C7E7" type="BinHex"/>
-			<field hash="DFC2D09F" type="BinHex"/>
-			<field hash="D2835E60" type="BinHex"/>
-			<field hash="CEDD95B7" type="BinHex"/>
-			<field hash="BBAA2CF7" type="BinHex"/>
-			<field hash="2279EAB5" type="BinHex"/>
-			<field hash="E1E2D702" type="BinHex"/>
-			<field hash="61533492" type="BinHex"/>
-			<field hash="A0B82974" type="BinHex"/>
-			<field hash="B2ABD78E" type="BinHex"/>
-			<field hash="D0F327B9" type="BinHex"/>
-			<field hash="0775B44D" type="BinHex"/>
-			<field hash="D80BB00C" type="BinHex"/>
-			<field hash="5F33C610" type="BinHex"/>
-			<field hash="8C30B73F" type="BinHex"/>
-			<field hash="1B4FF806" type="BinHex"/>
-			<field hash="1A71D636" type="BinHex"/>
-			<field hash="99EF42B8" type="BinHex"/>
-			<field hash="2982BF16" type="BinHex"/>
+			<field name="bLang_Czech" type="BinHex"/>
+			<field name="bLang_Danish" type="BinHex"/>
+			<field name="bLang_Dutch" type="BinHex"/>
+			<field name="bLang_English" type="BinHex"/>
+			<field name="bLang_Finnish" type="BinHex"/>
+			<field name="bLang_French" type="BinHex"/>
+			<field name="bLang_German" type="BinHex"/>
+			<field name="bLang_Hungarian" type="BinHex"/>
+			<field name="bLang_Italian" type="BinHex"/>
+			<field name="bLang_Japanese" type="BinHex"/>
+			<field name="bLang_Korean" type="BinHex"/>
+			<field name="bLang_Norwegian" type="BinHex"/>
+			<field name="bLang_Polish" type="BinHex"/>
+			<field name="bLang_Portuguese_Brazil" type="BinHex"/>
+			<field name="bLang_Portuguese_Portugal" type="BinHex"/>
+			<field name="bLang_Russian" type="BinHex"/>
+			<field name="bLang_Spanish" type="BinHex"/>
+			<field name="bLang_Swedish" type="BinHex"/>
+			<field name="bLang_Traditional_Chinese" type="BinHex"/>
+			<field name="bLang_Simplified_Chinese" type="BinHex"/>
+			<field name="bLang_Fake_Long_English" type="BinHex"/>
+			<field name="bLang_Spanish_Mexico" type="BinHex"/>
+			<field name="bLang_Arabic" type="BinHex"/>
 		</object>
 		<object name="Constraints">
 			<object name="tagcategoryselectionblackboardProfile">
@@ -114,29 +114,29 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="IsRoleDescriptionPossessive">
-			<field hash="827D2CB8" type="BinHex"/>
-			<field hash="2DC61F13" type="BinHex"/>
-			<field hash="75DA29B9" type="BinHex"/>
-			<field hash="C0904738" type="BinHex"/>
-			<field hash="4B64C7E7" type="BinHex"/>
-			<field hash="DFC2D09F" type="BinHex"/>
-			<field hash="D2835E60" type="BinHex"/>
-			<field hash="CEDD95B7" type="BinHex"/>
-			<field hash="BBAA2CF7" type="BinHex"/>
-			<field hash="2279EAB5" type="BinHex"/>
-			<field hash="E1E2D702" type="BinHex"/>
-			<field hash="61533492" type="BinHex"/>
-			<field hash="A0B82974" type="BinHex"/>
-			<field hash="B2ABD78E" type="BinHex"/>
-			<field hash="D0F327B9" type="BinHex"/>
-			<field hash="0775B44D" type="BinHex"/>
-			<field hash="D80BB00C" type="BinHex"/>
-			<field hash="5F33C610" type="BinHex"/>
-			<field hash="8C30B73F" type="BinHex"/>
-			<field hash="1B4FF806" type="BinHex"/>
-			<field hash="1A71D636" type="BinHex"/>
-			<field hash="99EF42B8" type="BinHex"/>
-			<field hash="2982BF16" type="BinHex"/>
+			<field name="bLang_Czech" type="BinHex"/>
+			<field name="bLang_Danish" type="BinHex"/>
+			<field name="bLang_Dutch" type="BinHex"/>
+			<field name="bLang_English" type="BinHex"/>
+			<field name="bLang_Finnish" type="BinHex"/>
+			<field name="bLang_French" type="BinHex"/>
+			<field name="bLang_German" type="BinHex"/>
+			<field name="bLang_Hungarian" type="BinHex"/>
+			<field name="bLang_Italian" type="BinHex"/>
+			<field name="bLang_Japanese" type="BinHex"/>
+			<field name="bLang_Korean" type="BinHex"/>
+			<field name="bLang_Norwegian" type="BinHex"/>
+			<field name="bLang_Polish" type="BinHex"/>
+			<field name="bLang_Portuguese_Brazil" type="BinHex"/>
+			<field name="bLang_Portuguese_Portugal" type="BinHex"/>
+			<field name="bLang_Russian" type="BinHex"/>
+			<field name="bLang_Spanish" type="BinHex"/>
+			<field name="bLang_Swedish" type="BinHex"/>
+			<field name="bLang_Traditional_Chinese" type="BinHex"/>
+			<field name="bLang_Simplified_Chinese" type="BinHex"/>
+			<field name="bLang_Fake_Long_English" type="BinHex"/>
+			<field name="bLang_Spanish_Mexico" type="BinHex"/>
+			<field name="bLang_Arabic" type="BinHex"/>
 		</object>
 		<object name="locstridFormerRivalNameMale">
 			<field name="LocalizationId" type="UInt64"/>
@@ -145,29 +145,29 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="IsFormerRoleDescriptionPossessive">
-			<field hash="827D2CB8" type="BinHex"/>
-			<field hash="2DC61F13" type="BinHex"/>
-			<field hash="75DA29B9" type="BinHex"/>
-			<field hash="C0904738" type="BinHex"/>
-			<field hash="4B64C7E7" type="BinHex"/>
-			<field hash="DFC2D09F" type="BinHex"/>
-			<field hash="D2835E60" type="BinHex"/>
-			<field hash="CEDD95B7" type="BinHex"/>
-			<field hash="BBAA2CF7" type="BinHex"/>
-			<field hash="2279EAB5" type="BinHex"/>
-			<field hash="E1E2D702" type="BinHex"/>
-			<field hash="61533492" type="BinHex"/>
-			<field hash="A0B82974" type="BinHex"/>
-			<field hash="B2ABD78E" type="BinHex"/>
-			<field hash="D0F327B9" type="BinHex"/>
-			<field hash="0775B44D" type="BinHex"/>
-			<field hash="D80BB00C" type="BinHex"/>
-			<field hash="5F33C610" type="BinHex"/>
-			<field hash="8C30B73F" type="BinHex"/>
-			<field hash="1B4FF806" type="BinHex"/>
-			<field hash="1A71D636" type="BinHex"/>
-			<field hash="99EF42B8" type="BinHex"/>
-			<field hash="2982BF16" type="BinHex"/>
+			<field name="bLang_Czech" type="BinHex"/>
+			<field name="bLang_Danish" type="BinHex"/>
+			<field name="bLang_Dutch" type="BinHex"/>
+			<field name="bLang_English" type="BinHex"/>
+			<field name="bLang_Finnish" type="BinHex"/>
+			<field name="bLang_French" type="BinHex"/>
+			<field name="bLang_German" type="BinHex"/>
+			<field name="bLang_Hungarian" type="BinHex"/>
+			<field name="bLang_Italian" type="BinHex"/>
+			<field name="bLang_Japanese" type="BinHex"/>
+			<field name="bLang_Korean" type="BinHex"/>
+			<field name="bLang_Norwegian" type="BinHex"/>
+			<field name="bLang_Polish" type="BinHex"/>
+			<field name="bLang_Portuguese_Brazil" type="BinHex"/>
+			<field name="bLang_Portuguese_Portugal" type="BinHex"/>
+			<field name="bLang_Russian" type="BinHex"/>
+			<field name="bLang_Spanish" type="BinHex"/>
+			<field name="bLang_Swedish" type="BinHex"/>
+			<field name="bLang_Traditional_Chinese" type="BinHex"/>
+			<field name="bLang_Simplified_Chinese" type="BinHex"/>
+			<field name="bLang_Fake_Long_English" type="BinHex"/>
+			<field name="bLang_Spanish_Mexico" type="BinHex"/>
+			<field name="bLang_Arabic" type="BinHex"/>
 		</object>
 		<object name="Constraints">
 			<object name="tagcategoryselectionblackboardProfile">

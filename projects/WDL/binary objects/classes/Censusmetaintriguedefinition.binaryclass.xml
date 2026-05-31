@@ -11,7 +11,7 @@
 	<field name="bRequiresScheduledAppointment" type="BinHex"/>
 	<field name="selForcedAssociateStatus" type="BinHex"/>
 	<object name="Prerequisites">
-		<field hash="3F639403" type="BinHex"/>
+		<field name="selRequiredActorStatus" type="BinHex"/>
 		<field name="bApplicableIfActorArrested" type="BinHex"/>
 		<field name="bApplicableIfActorInjured" type="BinHex"/>
 		<field name="bApplicableIfActorHasNormalStatus" type="BinHex"/>
@@ -83,7 +83,7 @@
 			<field name="bImportantResolution" type="BinHex"/>
 			<field name="phonecommunicationsettingsProximityWaitTeamSpeak" type="BinHex"/>
 			<field name="phonecommunicationsettingsProximityLocatedTeamSpeak" type="BinHex"/>
-			<field hash="48B335F5" type="BinHex"/>
+			<field name="phonecommunicationsettingsLocationEntryTeamSpeak" type="BinHex"/>
 			<object name="OnSuccess">
 				<field name="censusactormemorydefinitionMemoryToApply" type="BinHex"/>
 				<field name="censusactormemorydefinitionIntrigueTargetMemoryToApply" type="BinHex"/>

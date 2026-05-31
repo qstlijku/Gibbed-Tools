@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="1FD17E14" type="BinHex"/>
-	<field hash="ADC4D68A" type="BinHex"/>
-	<field hash="DCBF4CE7" type="BinHex"/>
+	<field name="tagHVCOccupationTag" type="BinHex"/>
+	<field name="selOnAccessGameplayTrigger" type="BinHex"/>
+	<field name="selOnBeingProfiledTrigger" type="BinHex"/>
 	<object name="OnEnteringLocationTriggers">
 		<object name="OnEnteringLocationTrigger">
 			<field name="selTrigger" type="BinHex"/>

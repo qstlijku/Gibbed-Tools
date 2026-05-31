@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="6A49D8F0" type="BinHex"/>
+	<field name="fMaxFallbackRatio" type="BinHex"/>
 	<object hash="EEC96444">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -22,10 +22,10 @@
 		</object>
 	</object>
 	<object hash="99CE54D2">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -36,10 +36,10 @@
 		</object>
 	</object>
 	<object hash="00C70568">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -50,10 +50,10 @@
 		</object>
 	</object>
 	<object hash="77C035FE">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -64,10 +64,10 @@
 		</object>
 	</object>
 	<object hash="E9A4A05D">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -78,10 +78,10 @@
 		</object>
 	</object>
 	<object hash="9EA390CB">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -92,10 +92,10 @@
 		</object>
 	</object>
 	<object hash="07AAC171">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -106,10 +106,10 @@
 		</object>
 	</object>
 	<object hash="70ADF1E7">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -120,10 +120,10 @@
 		</object>
 	</object>
 	<object hash="E012EC76">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -134,10 +134,10 @@
 		</object>
 	</object>
 	<object hash="9715DCE0">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -148,10 +148,10 @@
 		</object>
 	</object>
 	<object hash="9C9FA28D">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -162,10 +162,10 @@
 		</object>
 	</object>
 	<object hash="EB98921B">
-		<field hash="56719EF5" type="BinHex"/>
-		<field hash="9A7CE5FA" type="BinHex"/>
-		<field hash="2440FA6D" type="BinHex"/>
-		<field hash="B433EA87" type="BinHex"/>
+		<field name="fMinTrueTime" type="BinHex"/>
+		<field name="fMaxTrueTime" type="BinHex"/>
+		<field name="fMinFalseTime" type="BinHex"/>
+		<field name="fMaxFalseTime" type="BinHex"/>
 		<object name="ShouldFallback">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>

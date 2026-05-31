@@ -31,7 +31,7 @@
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
-	<object hash="F207359D">
+	<object name="locstridTargetKilledFailLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

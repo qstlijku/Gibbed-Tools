@@ -56,7 +56,7 @@
 	<field name="fileUnlockedAccessCodeNetworkTextureName" type="String"/>
 	<field name="fileUnlockedLockboxNetworkTextureName" type="String"/>
 	<field name="fileUnlockedMicroDroneNetworkTextureName" type="String"/>
-	<field hash="5FB2A94F" type="BinHex"/>
+	<field name="fileUnlockedScramblerNetworkTextureName" type="BinHex"/>
 	<field name="text_archIntersectionArchetype" type="String"/>
 	<field name="archIntersectionArchetype" type="BinHex"/>
 	<field name="fNetHackTransitionInDuration" type="Float"/>
@@ -122,7 +122,7 @@
 	<object name="locstridLockedByLocationWarningMessage">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="E680755C">
+	<object name="locstridLockedByScramblerWarningMessage">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridUnlockedAccessCodeNetworkMessage">
@@ -134,7 +134,7 @@
 	<object name="locstridUnlockedMicroDroneNetworkMessage">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="3F3DAEDD">
+	<object name="locstridUnlockedScramblerNetworkMessage">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="VisualStereotypes">

@@ -6,9 +6,9 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="F1A7621C" type="BinHex"/>
+	<field name="selHint" type="BinHex"/>
 	<field name="itemsTutorialItem" type="BinHex"/>
-	<field hash="6301134D" type="BinHex"/>
+	<field name="phonecommunicationsettingsNarrativenPhoneCommunication" type="BinHex"/>
 	<field name="selType" type="Enum"/>
 	<object name="TimerTriggerRule">
 		<field name="rulesmithidRule" type="BinHex"/>

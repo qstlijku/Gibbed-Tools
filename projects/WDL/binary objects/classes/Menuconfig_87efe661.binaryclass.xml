@@ -6,22 +6,22 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="FA79F4BF" type="BinHex"/>
+	<field name="uimenuInGameMenu" type="BinHex"/>
 	<field hash="2A84C624" type="String"/>
-	<field hash="29E44ED1" type="BinHex"/>
+	<field name="sndInGameMenuEnterSound" type="BinHex"/>
 	<field hash="8EDE91AA" type="String"/>
-	<field hash="58B46828" type="BinHex"/>
-	<field hash="B4F6C46E" type="BinHex"/>
-	<field hash="677D89A2" type="BinHex"/>
+	<field name="sndInGameMenuExitSound" type="BinHex"/>
+	<field name="sndtpInGameMenuEnterSoundType" type="BinHex"/>
+	<field name="sndtpInGameMenuExitSoundType" type="BinHex"/>
 	<field name="uimenupageCalibrationMenuPage" type="BinHex"/>
 	<field name="uimenupageCreditsMenuPage" type="BinHex"/>
 	<field name="uimenupageEpilepsyWarningMenuPage" type="BinHex"/>
 	<field name="uimenupageLoadGameSaveMenuPage" type="BinHex"/>
 	<field name="uimenupageMainMenuPage" type="BinHex"/>
-	<field hash="1EE2A09C" type="BinHex"/>
+	<field name="uimenupageCampaignMenuPage" type="BinHex"/>
 	<field name="uimenupageNewGameSaveMenuPage" type="BinHex"/>
-	<field hash="2598B0AF" type="BinHex"/>
-	<field hash="36ACD634" type="BinHex"/>
+	<field name="uimenupageCloudSavesUploadMenuPage" type="BinHex"/>
+	<field name="uimenupageCloudSavesDownloadMenuPage" type="BinHex"/>
 	<field name="uimenupagePauseMenuPage" type="BinHex"/>
 	<field name="uimenupagePremiumShopCategoriesMenuPage" type="BinHex"/>
 	<field name="uimenupagePremiumShopItemsMenuPage" type="BinHex"/>
@@ -33,7 +33,7 @@
 	<field name="uimenupageSettingsControlShemeMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsControlsMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsDisplayMenuPage" type="BinHex"/>
-	<field hash="E5128297" type="BinHex"/>
+	<field name="uimenupageSettingsScreenEdgesMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsGameplayMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsGraphicMenuPage" type="BinHex"/>
 	<field name="uimenupageSettingsHUDMenuPage" type="BinHex"/>
@@ -46,9 +46,9 @@
 	<field name="uimenupageWelcomeSettingsMenuPage" type="BinHex"/>
 	<field name="uimenupagePlayOnlineSettingsMenuPage" type="BinHex"/>
 	<field name="uimenupageAlarmClockPage" type="BinHex"/>
-	<field hash="BDF6E599" type="BinHex"/>
-	<field hash="139FABEC" type="BinHex"/>
-	<field hash="BC110CDC" type="BinHex"/>
+	<field name="uimenupageARSocialPage" type="BinHex"/>
+	<field name="uimenupageARProfileActionsPage" type="BinHex"/>
+	<field name="uimenupageOnlineLandingPage" type="BinHex"/>
 	<field name="uimenupageARMultiplayerProfilePageLocalPlayer" type="BinHex"/>
 	<field name="uimenupageARMultiplayerProfilePageConnectedPlayer" type="BinHex"/>
 	<field name="uimenupageARMultiplayerChallengesPage" type="BinHex"/>
@@ -58,7 +58,7 @@
 	<field name="uimenupageARMultiplayerDirectActionSelectorPage" type="BinHex"/>
 	<field name="uimenupageARMultiplayerDirectActionSettingsPage" type="BinHex"/>
 	<field name="uimenupageARMultiplayerDigitalTripSelectorPage" type="BinHex"/>
-	<field hash="4717DE87" type="BinHex"/>
+	<field name="uimenupageARMultiplayerDigitalTripSettingsPage" type="BinHex"/>
 	<field name="uimenupageCarOnDemandVehicleSelect" type="BinHex"/>
 	<field name="uimenupageWeaponOnDemandPage" type="BinHex"/>
 	<field name="uimenupageClothingItemsPage" type="BinHex"/>
@@ -82,14 +82,14 @@
 	<field name="uimenupageRelicsPage" type="BinHex"/>
 	<field name="uimenupageNewsAppPage" type="BinHex"/>
 	<field name="uimenupageBareKnuckle" type="BinHex"/>
-	<field hash="CA3A8774" type="BinHex"/>
+	<field name="uimenupageBareKnuckleEndScreen" type="BinHex"/>
 	<field name="uimenupageDarts" type="BinHex"/>
 	<field name="uimenupageKickUp" type="BinHex"/>
 	<field name="uimenupageSkillsTreePage" type="BinHex"/>
 	<field name="uimenupageSongSneakPage" type="BinHex"/>
 	<field name="uimenupageStreetArtGalleryPage" type="BinHex"/>
 	<field name="uimenupageTeamAppMainPage" type="BinHex"/>
-	<field hash="5F38DFC9" type="BinHex"/>
+	<field name="uimenupageTeamAppGamestartOperativeSelectionPage" type="BinHex"/>
 	<field name="uimenupageTeamAppOperativeDetailsPage" type="BinHex"/>
 	<field name="uimenupageTeamAppOperativeDetailsPageV3" type="BinHex"/>
 	<field name="uimenupageTeamAppOperativeLoadoutPage" type="BinHex"/>
@@ -109,9 +109,9 @@
 	<field name="uimenupageFullscreenTutorialPage" type="BinHex"/>
 	<field name="uimenupageMenuFullscreenTutorialPage" type="BinHex"/>
 	<field name="uimenupageMPSelectGameSavePage" type="BinHex"/>
-	<field hash="F31FF68F" type="BinHex"/>
-	<field hash="D9DA8A6F" type="BinHex"/>
-	<field hash="D1F27B64" type="BinHex"/>
+	<field name="uimenupageRewardTrackPage" type="BinHex"/>
+	<field name="uimenupageCloudSavesPage" type="BinHex"/>
+	<field name="uimenupageEndCreditsMenuPage" type="BinHex"/>
 	<field name="uimenupageUpgradesPage" type="BinHex"/>
 	<field name="uimenupageMainSwitchHomePage" type="BinHex"/>
 	<field name="uimenupageRaidFailScreenPage" type="BinHex"/>
@@ -235,20 +235,20 @@
 		<field name="text_sndMapZoomOutExitSound" type="String"/>
 		<field name="sndMapZoomOutExitSound" type="BinHex"/>
 		<field hash="84E627F7" type="String"/>
-		<field hash="CBC47C9F" type="BinHex"/>
+		<field name="sndMapCameraMovementStartSound" type="BinHex"/>
 		<field hash="DBB53328" type="String"/>
-		<field hash="261C098B" type="BinHex"/>
-		<field hash="47E7925A" type="BinHex"/>
-		<field hash="CF5AF5B0" type="BinHex"/>
-		<field hash="46CDE6C0" type="BinHex"/>
-		<field hash="473F919D" type="BinHex"/>
-		<field hash="1CE5B6D1" type="BinHex"/>
-		<field hash="C3D8A799" type="BinHex"/>
-		<field hash="4E2EE8A3" type="BinHex"/>
-		<field hash="9E942D7A" type="BinHex"/>
-		<field hash="6ABF0959" type="BinHex"/>
-		<field hash="A0A92C17" type="BinHex"/>
-		<field hash="527B1609" type="BinHex"/>
+		<field name="sndMapCameraMovementStopSound" type="BinHex"/>
+		<field name="sndtpMapEnterSoundType" type="BinHex"/>
+		<field name="sndtpMapExitSoundType" type="BinHex"/>
+		<field name="sndtpMapPlaceWaypointSoundType" type="BinHex"/>
+		<field name="sndtpMapRemoveWaypointSoundType" type="BinHex"/>
+		<field name="sndtpMapTrackMissionSoundType" type="BinHex"/>
+		<field name="sndtpMapZoomInEnterSoundType" type="BinHex"/>
+		<field name="sndtpMapZoomInExitSoundType" type="BinHex"/>
+		<field name="sndtpMapZoomOutEnterSoundType" type="BinHex"/>
+		<field name="sndtpMapZoomOutExitSoundType" type="BinHex"/>
+		<field name="sndtpMapCameraMovementStartSoundType" type="BinHex"/>
+		<field name="sndtpMapCameraMovementStopSoundType" type="BinHex"/>
 	</object>
 	<object name="TeamSpeak">
 		<field name="uisoundTeamSpeakStartSkip" type="BinHex"/>
@@ -265,6 +265,6 @@
 		<field name="uisoundCarOnDemandOrderConfirmationSound" type="BinHex"/>
 	</object>
 	<object name="RightScrollBars">
-		<field hash="CBD0AA2C" type="BinHex"/>
+		<field name="fRightScrollSpeed" type="BinHex"/>
 	</object>
 </class>

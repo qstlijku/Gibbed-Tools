@@ -536,8 +536,8 @@
 		<field name="sndLightingStrikeSound" type="BinHex"/>
 		<field name="text_sndThunderSound" type="String"/>
 		<field name="sndThunderSound" type="BinHex"/>
-		<field hash="0D8F8C11" type="BinHex"/>
-		<field hash="5C760A59" type="BinHex"/>
+		<field name="sndtpLightingStrikeSoundType" type="BinHex"/>
+		<field name="sndtpThunderSoundType" type="BinHex"/>
 		<object name="curveSkyHDRIntensity">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">

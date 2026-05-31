@@ -7,12 +7,12 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="emoteOverrideTauntEmote" type="BinHex"/>
-	<field hash="32F2E15B" type="BinHex"/>
-	<field hash="287FA58C" type="BinHex"/>
-	<field hash="884552BF" type="BinHex"/>
-	<field hash="602D69F9" type="BinHex"/>
-	<field hash="13DD4664" type="BinHex"/>
-	<field hash="61CEC113" type="BinHex"/>
+	<field name="fTauntDelay" type="BinHex"/>
+	<field name="fTauntDuration" type="BinHex"/>
+	<field name="fTauntUpdateTimer" type="BinHex"/>
+	<field name="bOverrideMeleeStyle" type="BinHex"/>
+	<field name="bRandomizeMeleeStyle" type="BinHex"/>
+	<field name="selMeleeStyleOverride" type="BinHex"/>
 	<object name="BarkInfo">
 		<object name="Barks">
 			<object name="Bark">

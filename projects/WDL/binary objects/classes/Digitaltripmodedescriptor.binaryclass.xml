@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="bIsModeAvailable" type="BinHex"/>
 	<field name="sndExitModeSound" type="BinHex"/>
-	<field hash="E9A0EBFE" type="BinHex"/>
+	<field name="sndtpExitModeSoundType" type="BinHex"/>
 	<field name="selLayerType" type="BinHex"/>
 	<field name="sLayerName" type="String"/>
 	<field name="bShouldForceTimeOfDay" type="BinHex"/>
@@ -32,19 +32,19 @@
 				<field name="bIsCameraPlayerCentric" type="BinHex"/>
 				<field name="cameracontextCameraContext" type="BinHex"/>
 				<field name="fAutoStartTime" type="BinHex"/>
-				<field hash="F7E174B7" type="BinHex"/>
+				<field name="fAutoReadyThreshold" type="BinHex"/>
 				<field name="bForcedBalancedTeams" type="BinHex"/>
-				<field hash="51E4FD9B" type="BinHex"/>
-				<field hash="B04E9243" type="BinHex"/>
-				<field hash="B95A161C" type="BinHex"/>
+				<field name="phonecommunicationsettingsFirstTimeLobbyBark" type="BinHex"/>
+				<field name="bCloakEnemies" type="BinHex"/>
+				<field name="archARCloakArchetype" type="BinHex"/>
 				<field name="psWaitingPlayerParticles" type="BinHex"/>
 				<field name="bIsFreePlay" type="Boolean"/>
 				<field name="sndGameStartSound" type="BinHex"/>
 				<field name="sndGameWonSound" type="BinHex"/>
 				<field name="sndGameLostSoundSound" type="BinHex"/>
-				<field hash="89845244" type="BinHex"/>
-				<field hash="EB43D7B5" type="BinHex"/>
-				<field hash="BD088378" type="BinHex"/>
+				<field name="sndtpGameStartSoundType" type="BinHex"/>
+				<field name="sndtpGameWonSoundType" type="BinHex"/>
+				<field name="sndtpGameLostSoundSoundType" type="BinHex"/>
 				<field name="iScoreNeeded" type="BinHex"/>
 				<field name="fGameplayTime" type="BinHex"/>
 				<field name="bTakedownDisabled" type="Boolean"/>
@@ -54,128 +54,128 @@
 				<field name="fStartRoundDelayTime" type="BinHex"/>
 				<field name="fTimeBetweenRounds" type="BinHex"/>
 				<field name="fEndRoundTextTime" type="BinHex"/>
-				<field hash="ECCF8990" type="BinHex"/>
-				<field hash="E9099A69" type="BinHex"/>
-				<field hash="66F132CF" type="BinHex"/>
-				<field hash="B63D719A" type="BinHex"/>
-				<field hash="C4913313" type="BinHex"/>
-				<field hash="93446D5F" type="BinHex"/>
+				<field name="bAwardPointsForDraw" type="BinHex"/>
+				<field name="bIsAllowedRotateCameraOnStart" type="BinHex"/>
+				<field name="phonecommunicationsettingsPreGameBark" type="BinHex"/>
+				<field name="phonecommunicationsettingsWinRoundBark" type="BinHex"/>
+				<field name="phonecommunicationsettingsLoseRoundBark" type="BinHex"/>
+				<field name="phonecommunicationsettingsCountdownStartBark" type="BinHex"/>
 				<field name="fRoundTime" type="BinHex"/>
 				<field name="iNumRoundsToWin" type="BinHex"/>
 				<field name="iRoundScoreToReach" type="BinHex"/>
 				<field name="bReplyRoundOnDraw" type="BinHex"/>
-				<field hash="92629F6C" type="BinHex"/>
-				<field hash="C883CDA3" type="BinHex"/>
-				<field hash="9A0C652D" type="BinHex"/>
-				<field hash="8836F2FA" type="BinHex"/>
-				<field hash="18DA1844" type="BinHex"/>
-				<field hash="3E9600B0" type="Vector3"/>
-				<field hash="8DD4F834" type="BinHex"/>
-				<field hash="0292F701" type="BinHex"/>
-				<field hash="EDD45728" type="BinHex"/>
-				<field hash="5C252252" type="BinHex"/>
-				<field hash="E4069F9D" type="BinHex"/>
-				<field hash="906B1296" type="BinHex"/>
-				<field hash="5C666999" type="BinHex"/>
-				<field hash="EFC6FA2F" type="BinHex"/>
-				<field hash="23CB8120" type="BinHex"/>
-				<field hash="5125EF77" type="BinHex"/>
-				<field hash="F209B965" type="BinHex"/>
-				<field hash="73835F22" type="BinHex"/>
-				<field hash="610675F3" type="BinHex"/>
-				<field hash="E9AF0935" type="BinHex"/>
-				<field hash="A406CD82" type="BinHex"/>
-				<field hash="91000A16" type="BinHex"/>
-				<field hash="BD2B693D" type="BinHex"/>
-				<field hash="6C2D8169" type="BinHex"/>
-				<field hash="07E9AFBD" type="BinHex"/>
-				<field hash="02DEB18F" type="BinHex"/>
-				<field hash="D1748515" type="BinHex"/>
-				<field hash="38B1E685" type="BinHex"/>
-				<field hash="9D895E73" type="BinHex"/>
-				<field hash="9F783A99" type="BinHex"/>
-				<field hash="A5728B1E" type="BinHex"/>
+				<field name="bOvertimeOnDraw" type="BinHex"/>
+				<field name="fCriticalRoundTime" type="BinHex"/>
+				<field name="fDiedMessageTime" type="BinHex"/>
+				<field name="fWinnerDisplayTime" type="BinHex"/>
+				<field name="fBannerDisplayTime" type="BinHex"/>
+				<field name="vectorWinnerDisplayOffset" type="Vector3"/>
+				<field name="entMissionAreaId" type="BinHex"/>
+				<field name="fInitializationDuration" type="BinHex"/>
+				<field name="fPreDownloadDuration" type="BinHex"/>
+				<field name="fGameDuration" type="BinHex"/>
+				<field name="fBigZoneMaxProgress" type="BinHex"/>
+				<field name="fMediumZoneMinProgress" type="BinHex"/>
+				<field name="fMediumZoneMaxProgress" type="BinHex"/>
+				<field name="fSmallZoneMinProgress" type="BinHex"/>
+				<field name="fSmallZoneMaxProgress" type="BinHex"/>
+				<field name="fTinyZoneMinProgress" type="BinHex"/>
+				<field name="fDownloadSize" type="BinHex"/>
+				<field name="fNoDefendersDownloadRate" type="BinHex"/>
+				<field name="fTwoAttackersDownloadRate" type="BinHex"/>
+				<field name="fDownloadProgressRevertRate" type="BinHex"/>
+				<field name="fSpawnDistance" type="BinHex"/>
+				<field name="fSpawnErrorMargin" type="BinHex"/>
+				<field name="fStunTimer" type="BinHex"/>
+				<field name="fOutOfBoundsDuration" type="BinHex"/>
+				<field name="fOutOfDownloadAreaTime" type="BinHex"/>
+				<field name="fDontKillDefendersWarningDuration" type="BinHex"/>
+				<field name="fDontKillDefendersWarningPreDownloadDuration" type="BinHex"/>
+				<field name="fPreDownloadHackerWarningDuration" type="BinHex"/>
+				<field name="fAutomaticEngagementDistance" type="BinHex"/>
+				<field name="fPreDownloadZoneVisibleDistance" type="BinHex"/>
+				<field name="bDefendersVisibleWhileOnScreen" type="BinHex"/>
 				<field name="dronebankDronesBank" type="BinHex"/>
 				<field hash="0A3A002E" type="BinHex"/>
-				<field hash="36D3BA9F" type="BinHex"/>
-				<field hash="53001DAD" type="BinHex"/>
-				<field hash="F538AA83" type="BinHex"/>
-				<field hash="B12FB1F0" type="BinHex"/>
-				<field hash="9BBF6674" type="BinHex"/>
+				<field name="archARCloakForSwapFX" type="BinHex"/>
+				<field name="bARCloakFXOnNewBody" type="BinHex"/>
+				<field name="bARCloakFXOnOldBody" type="BinHex"/>
+				<field name="fSwapCooldown" type="BinHex"/>
+				<field name="fInvisibilityToAI" type="BinHex"/>
 				<field hash="71F3E3CB" type="BinHex"/>
-				<field hash="72936B3E" type="BinHex"/>
-				<field hash="D656FC0F" type="BinHex"/>
-				<field hash="6C2371B3" type="BinHex"/>
-				<field hash="B3491FC8" type="BinHex"/>
-				<field hash="09815215" type="BinHex"/>
-				<field hash="2061FA42" type="BinHex"/>
-				<field hash="C551551D" type="BinHex"/>
-				<field hash="B489A13F" type="BinHex"/>
-				<field hash="D5600E14" type="Boolean"/>
-				<field hash="9835FB2C" type="BinHex"/>
-				<field hash="EEBD426A" type="Boolean"/>
-				<field hash="179D0195" type="BinHex"/>
-				<field hash="D6C6E149" type="Boolean"/>
-				<field hash="68715711" type="BinHex"/>
-				<field hash="1C56B255" type="BinHex"/>
-				<field hash="C8178D8A" type="BinHex"/>
-				<field hash="E9267F15" type="BinHex"/>
-				<field hash="53FF5F73" type="BinHex"/>
-				<field hash="DA68FBC2" type="BinHex"/>
-				<field hash="0E29C41D" type="BinHex"/>
-				<field hash="9290B1BA" type="BinHex"/>
+				<field name="sTransitionCinemaPostFx" type="BinHex"/>
+				<field name="sActivityNameForRewards" type="BinHex"/>
+				<field name="sVictimRewardDownloadCompleted" type="BinHex"/>
+				<field name="sVictimRewardHackerFound" type="BinHex"/>
+				<field name="sVictimRewardHackerKilled" type="BinHex"/>
+				<field name="sHackerRewardTimerExpired" type="BinHex"/>
+				<field name="sHackerRewardDownloadInitiated" type="BinHex"/>
+				<field name="sHackerRewardDownloadCompleted" type="BinHex"/>
+				<field name="sndtpZoneShrinkSoundType" type="Boolean"/>
+				<field name="sndZoneShrinkSound" type="BinHex"/>
+				<field name="sndtpHackerProfiledVictimSoundType" type="Boolean"/>
+				<field name="sndHackerProfiledVictimSound" type="BinHex"/>
+				<field name="sndtpHackerProfiledHackerSoundType" type="Boolean"/>
+				<field name="sndHackerProfiledHackerSound" type="BinHex"/>
+				<field name="phonecommunicationsettingsVictimDiscoverHackerBarkSP" type="BinHex"/>
+				<field name="phonecommunicationsettingsVictimDiscoverHackerBarkMP" type="BinHex"/>
+				<field name="phonecommunicationsettingsDownloadAlmostCompleteBark" type="BinHex"/>
+				<field name="phonecommunicationsettingsDownloadCompleteBark" type="BinHex"/>
+				<field name="phonecommunicationsettingsHackerKilledBarkSP" type="BinHex"/>
+				<field name="phonecommunicationsettingsHackerKilledBarkMP" type="BinHex"/>
+				<field name="phonecommunicationsettingsVictimDisconnectedHacker" type="BinHex"/>
 				<field name="fMinRouteDistance" type="BinHex"/>
 				<field name="fMaxRouteDistance" type="BinHex"/>
 				<field name="droneconfigVehicleConfig" type="BinHex"/>
 				<field name="fDroneSpeed" type="BinHex"/>
 				<field name="fGameTime" type="BinHex"/>
 				<field name="fCooldownTime" type="BinHex"/>
-				<field hash="90BE8AF4" type="BinHex"/>
-				<field hash="DB574E65" type="BinHex"/>
-				<field hash="2C4EA87A" type="BinHex"/>
-				<field hash="0A963425" type="BinHex"/>
+				<field name="iPropagandaLossOnDrone" type="BinHex"/>
+				<field name="iPropagandaLossOnHuman" type="BinHex"/>
+				<field name="iPropagandaLossOnBigDrone" type="BinHex"/>
+				<field name="fAcceptableCasualtiesPercentage" type="BinHex"/>
 				<field name="fDoorsSearchRadiusSpawn" type="BinHex"/>
-				<field hash="325A98A5" type="BinHex"/>
+				<field name="fDownloadRadius" type="BinHex"/>
 				<field name="clovehiclecreationsettingsVehicleCreationSettings" type="BinHex"/>
 				<field hash="85B3ACAD" type="BinHex"/>
-				<field hash="2B159BFD" type="BinHex"/>
-				<field hash="7C1BCBBE" type="BinHex"/>
-				<field hash="081DA89A" type="BinHex"/>
-				<field hash="5F13F8D9" type="BinHex"/>
-				<field hash="F4E4CAEE" type="BinHex"/>
-				<field hash="E4086723" type="BinHex"/>
-				<field hash="EC3D8CD0" type="BinHex"/>
-				<field hash="33309988" type="BinHex"/>
+				<field name="fMinTransmitterToBaseDistance" type="BinHex"/>
+				<field name="fMaxTransmitterToBaseDistance" type="BinHex"/>
+				<field name="fMinBaseToTransmitterDistance" type="BinHex"/>
+				<field name="fMaxBaseToTransmitterDistance" type="BinHex"/>
+				<field name="fFirstTransmitterSearchDistance" type="BinHex"/>
+				<field name="fNextTransmitterAllowedAngle" type="BinHex"/>
+				<field name="uConfigsNumber" type="BinHex"/>
+				<field name="fRevealTransmitterPercentage" type="BinHex"/>
 				<field name="bReplaceTransmitterCarrierInventory" type="Boolean"/>
 				<field name="itemsCarrierInventory" type="BinHex"/>
 				<field name="possyselementTransmitterMarker" type="BinHex"/>
-				<field hash="B7BA8E64" type="BinHex"/>
-				<field hash="2889C7FB" type="BinHex"/>
+				<field name="possyselementTransmitterCarrierMarker" type="BinHex"/>
+				<field name="possyselementTransmitterUploadMarker" type="BinHex"/>
 				<field name="wolfskinitemdbCarrierBagWolfSkin" type="BinHex"/>
 				<field name="text_archCarrierBagArchetype" type="BinHex"/>
 				<field name="archCarrierBagArchetype" type="BinHex"/>
 				<field hash="A9140885" type="BinHex"/>
-				<field hash="EA32C3B4" type="BinHex"/>
+				<field name="archTransmitterArCloakArchetype" type="BinHex"/>
 				<field name="reinforcementconfigChaseReinforcementConfig" type="BinHex"/>
 				<field name="ActiveTransmittersMaxAmount" type="BinHex"/>
 				<field name="bEnablePlayerVisibilityWhileCarryingTransmitter" type="BinHex"/>
 				<field name="bEnablePlayerVisibilityWhenFelony" type="BinHex"/>
 				<field name="fHitPlayerVisibilityTime" type="BinHex"/>
 				<field name="fPlayerDamageFromHumanAiPercentage" type="BinHex"/>
-				<field hash="12AAEBF4" type="BinHex"/>
-				<field hash="F13B3FB3" type="BinHex"/>
-				<field hash="BC4AEDAD" type="BinHex"/>
+				<field name="itemsTutorialTransmitterSpawned" type="BinHex"/>
+				<field name="itemsTutorialRevealDroneSpawned" type="BinHex"/>
+				<field name="itemsTutorialTransmitterPickedUp" type="BinHex"/>
 				<field name="text_sndBackgroundMusicStart" type="BinHex"/>
 				<field name="sndBackgroundMusicStart" type="BinHex"/>
 				<field name="sndBackgroundMusicEnd" type="BinHex"/>
-				<field hash="9113CBBD" type="Boolean"/>
-				<field hash="C332063F" type="Boolean"/>
+				<field name="sndtpBackgroundMusicStartType" type="Boolean"/>
+				<field name="sndtpBackgroundMusicEndType" type="Boolean"/>
 				<field name="text_archAvatarArchetype" type="BinHex"/>
 				<field name="text_psWaitingPlayerParticles" type="BinHex"/>
 				<field name="text_sndGameWonSound" type="BinHex"/>
 				<field name="text_sndGameLostSoundSound" type="BinHex"/>
-				<field hash="0781458F" type="BinHex"/>
-				<field hash="06726888" type="BinHex"/>
+				<field name="phonecommunicationsettingsLeadGainedBark" type="BinHex"/>
+				<field name="phonecommunicationsettingsLeadLostBark" type="BinHex"/>
 				<field name="text_sndBackgroundMusicEnd" type="BinHex"/>
 				<object name="PlayerSpawning">
 					<field name="text_selType" type="String"/>
@@ -258,11 +258,11 @@
 						<field name="vectorRespawnCameraOffset" type="Vector3"/>
 						<field name="fDeathCameraTime" type="BinHex"/>
 						<field name="fBlackscreenTime" type="BinHex"/>
-						<field hash="77CFF8FD" type="BinHex"/>
-						<field hash="7796DA7E" type="BinHex"/>
-						<field hash="6393CCE8" type="BinHex"/>
-						<field hash="905736ED" type="Boolean"/>
-						<object hash="349D9E46">
+						<field name="fDeathFovZoomSpeed" type="BinHex"/>
+						<field name="fDeathCameraOffset" type="BinHex"/>
+						<field name="bDisplayTrailOnLeadOnly" type="BinHex"/>
+						<field name="bHideTrailOnLocalPlayer" type="Boolean"/>
+						<object name="curveDeathFovZoomCurve">
 							<field name="hidNumKnots" type="BinHex"/>
 							<object name="Knots">
 								<object name="Knot">
@@ -272,12 +272,12 @@
 								</object>
 							</object>
 						</object>
-						<object hash="3E3E5DB4">
+						<object name="locstridPickupToastText">
 							<field name="LocalizationId" type="BinHex"/>
 						</object>
 						<object name="GameplayModifiers">
-							<field hash="31FF0259" type="BinHex"/>
-							<field hash="ABDC41FE" type="BinHex"/>
+							<field name="rcmoduledefDefaultWeapon" type="BinHex"/>
+							<field name="fMaxHealth" type="BinHex"/>
 							<field name="fOverheatMultiplier" type="BinHex"/>
 						</object>
 					</object>
@@ -287,8 +287,8 @@
 					<field name="selType" type="BinHex"/>
 					<object name="Object">
 						<field name="bKeepSpawnSlotReserved" type="BinHex"/>
-						<field hash="D59D2B24" type="BinHex"/>
-						<field hash="0E2278C3" type="BinHex"/>
+						<field name="fMinDistanceToTransmitter" type="BinHex"/>
+						<field name="fMaxDistanceToTransmitter" type="BinHex"/>
 						<object name="SpawnPoints">
 							<object name="SpawnPoint">
 								<field name="vectorPosition" type="Vector3"/>
@@ -304,19 +304,19 @@
 				<object name="locstridDrawRoundText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="0A316959">
+				<object name="locstridWinGameText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="C6CB9758">
+				<object name="locstridDrawGameText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="EFC254C5">
-					<field hash="94C14C7F" type="BinHex"/>
-					<field hash="6CA5F8CD" type="BinHex"/>
-					<field hash="CCCA8C8F" type="BinHex"/>
+					<field name="uiPointsPerPickup" type="BinHex"/>
+					<field name="uiChargeMultiplier" type="BinHex"/>
+					<field name="fSpawnCooldownMultiplier" type="BinHex"/>
 					<object name="AllowedPickups">
 						<object name="Pickup">
-							<field hash="4A9C7E00" type="BinHex"/>
+							<field name="digitaltrippickupsettingsdescriptorPickup" type="BinHex"/>
 						</object>
 					</object>
 				</object>
@@ -326,10 +326,10 @@
 				<object name="locstridKillLocalText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="5DAF0503">
+				<object name="locstridDrawOvertimeText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="14B4BD59">
+				<object name="locstridOvertimeStartTitleText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="955A0B1A">
@@ -337,22 +337,22 @@
 				</object>
 				<object name="BarkPlayerDie">
 					<field name="fCooldownTime" type="BinHex"/>
-					<field hash="F4BFF979" type="BinHex"/>
+					<field name="phonecommunicationsettingsBark" type="BinHex"/>
 				</object>
 				<object name="BarkPlayerKill">
 					<field name="fCooldownTime" type="BinHex"/>
-					<field hash="F4BFF979" type="BinHex"/>
+					<field name="phonecommunicationsettingsBark" type="BinHex"/>
 				</object>
 				<object name="BarksTimeStamp">
 					<object name="TimeStampBark">
-						<field hash="0567315B" type="BinHex"/>
-						<field hash="F4BFF979" type="BinHex"/>
+						<field name="fRemainingTime" type="BinHex"/>
+						<field name="phonecommunicationsettingsBark" type="BinHex"/>
 					</object>
 				</object>
 				<object name="BarksTimePercentage">
 					<object name="TimePercentageBark">
-						<field hash="0673298D" type="BinHex"/>
-						<field hash="F4BFF979" type="BinHex"/>
+						<field name="fRemainingPercentage" type="BinHex"/>
+						<field name="phonecommunicationsettingsBark" type="BinHex"/>
 					</object>
 				</object>
 				<object name="PlayAreaCenter">
@@ -375,109 +375,109 @@
 					</object>
 				</object>
 				<object name="LargeZoneRadius">
-					<field hash="7078CEB1" type="BinHex"/>
-					<field hash="64F05131" type="BinHex"/>
-					<field hash="01A271E5" type="BinHex"/>
+					<field name="fOneDefenderRadius" type="BinHex"/>
+					<field name="fTwoDefendersRadius" type="BinHex"/>
+					<field name="fThreeDefendersRadius" type="BinHex"/>
 				</object>
 				<object name="MediumZoneRadius">
-					<field hash="7078CEB1" type="BinHex"/>
-					<field hash="64F05131" type="BinHex"/>
-					<field hash="01A271E5" type="BinHex"/>
+					<field name="fOneDefenderRadius" type="BinHex"/>
+					<field name="fTwoDefendersRadius" type="BinHex"/>
+					<field name="fThreeDefendersRadius" type="BinHex"/>
 				</object>
 				<object name="SmallZoneRadius">
-					<field hash="7078CEB1" type="BinHex"/>
-					<field hash="64F05131" type="BinHex"/>
-					<field hash="01A271E5" type="BinHex"/>
+					<field name="fOneDefenderRadius" type="BinHex"/>
+					<field name="fTwoDefendersRadius" type="BinHex"/>
+					<field name="fThreeDefendersRadius" type="BinHex"/>
 				</object>
 				<object name="TinyZoneRadius">
-					<field hash="7078CEB1" type="BinHex"/>
-					<field hash="64F05131" type="BinHex"/>
-					<field hash="01A271E5" type="BinHex"/>
+					<field name="fOneDefenderRadius" type="BinHex"/>
+					<field name="fTwoDefendersRadius" type="BinHex"/>
+					<field name="fThreeDefendersRadius" type="BinHex"/>
 				</object>
 				<object name="VehiclesForInvaderSpawn">
 				</object>
-				<object hash="8ED58196">
+				<object name="locstridDefendersWonText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="43277F58">
+				<object name="locstridAttackersWonText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="5B0C303E">
+				<object name="locstridContestedDefendersText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="06800A35">
+				<object name="locstridContestedAttackersText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="A005E5F8">
+				<object name="locstridDefenderObjectiveGroupText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="E632719F">
+				<object name="locstridDefenderObjectiveText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="88C32E9E">
+				<object name="locstridAttackerObjectiveGroupText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="1EBA480C">
+				<object name="locstridAttackerObjectiveText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="F2B5D239">
+				<object name="locstridAttackerPreDownloadObjectiveGroupText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="D01D6A19">
+				<object name="locstridObjectiveMarkerText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="92374F5F">
+				<object name="locstridProgressBarText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="81013A37">
+				<object name="locstridProgressBarPausedText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="61E2D123">
+				<object name="locstridSwapCooldownText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="F066F1DB">
+				<object name="locstridOutOfBoundsText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="219C55B4">
+				<object name="locstridOutOfDownloadAreaText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="D6459CA6">
+				<object name="locstridDontKillDefendersText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="3FEB667A">
+				<object name="locstridDontKillDefendersPreDownloadText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="0E74BED8">
+				<object name="locstridPreDownloadWarningHackerText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="6D76EBC7">
+				<object name="locstridProfilerSwapText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="20D6E012">
+				<object name="locstridHackerOutsideZoneText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="47932029">
+				<object name="locstridAccidentalDiscoveryWarningText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="45509E9D">
+				<object name="locstridModeNameText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="B3D52543">
+				<object name="locstridTaggedText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="3B58EDB6">
+				<object name="locstridDownloadStartedText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="4044F2A9">
+				<object name="locstridAttackerFoundText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object hash="2BC69464">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="48C8DD87">
+				<object name="locstridAttackerDidntStartDownloadInTimeText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="971621C1">
+				<object name="locstridPlayerIsInvadedText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object name="DownloadDuration">
@@ -505,15 +505,15 @@
 					<object name="ReinforcementConfig">
 						<field name="text_ConfigId" type="String"/>
 						<field name="ConfigId" type="BinHex"/>
-						<field hash="808BF799" type="BinHex"/>
+						<field name="vehicleentityconfigChaseVehicle" type="BinHex"/>
 						<object name="DroneConfigs">
 							<object name="droneconfigDroneConfig">
 								<field name="droneconfigDroneConfig" type="BinHex"/>
 							</object>
 						</object>
 						<object name="PassangerConfigs">
-							<object hash="EC3D15BA">
-								<field hash="EC3D15BA" type="BinHex"/>
+							<object name="humanconfigPassangerConfig">
+								<field name="humanconfigPassangerConfig" type="BinHex"/>
 							</object>
 						</object>
 					</object>
@@ -522,32 +522,32 @@
 					<object name="ReinforcementWave">
 						<field name="text_WaveName" type="String"/>
 						<field name="WaveName" type="BinHex"/>
-						<field hash="C2C22409" type="BinHex"/>
+						<field name="fTimeToPass" type="BinHex"/>
 						<object name="Rules">
 							<object name="Rule">
 								<field hash="F002C408" type="String"/>
-								<field hash="3AC4281F" type="BinHex"/>
-								<field hash="67D45B1E" type="BinHex"/>
+								<field name="selSpawnConfig" type="BinHex"/>
+								<field name="iSpawnCount" type="BinHex"/>
 							</object>
 						</object>
 					</object>
 				</object>
-				<object hash="D87E1B04">
+				<object name="locstridWinMessage">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="2A82299D">
+				<object name="locstridLoseLocalArrestedMessage">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="74E458E5">
+				<object name="locstridLoseOtherArrestedMessage">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="DC0A1E67">
+				<object name="locstridLoseOutOfTimeMessage">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="67B6CA38">
+				<object name="locstridLoseTooManyCasualtiesMessage">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="AA134F85">
+				<object name="locstridLoseAllPlayersArrestedMessage">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object name="Transmitters">
@@ -555,8 +555,8 @@
 						<field name="text_id" type="String"/>
 						<field name="id" type="BinHex"/>
 						<field name="vectorPosition" type="Vector3"/>
-						<field hash="55F239B9" type="Vector3"/>
-						<field hash="A97B526D" type="BinHex"/>
+						<field name="vectorRevealedPosition" type="Vector3"/>
+						<field name="bReveal" type="BinHex"/>
 					</object>
 				</object>
 				<object name="Bases">
@@ -568,104 +568,104 @@
 				</object>
 				<object name="BaseCommonConfig">
 					<field name="droneconfigDroneConfig" type="BinHex"/>
-					<field hash="F481EE6B" type="BinHex"/>
+					<field name="fDroneHeight" type="BinHex"/>
 					<field name="fTransmissionRadius" type="BinHex"/>
 					<field name="fTransmissionDuration" type="BinHex"/>
 					<field name="fTransmissionCancellationDuration" type="BinHex"/>
-					<field hash="9D8287DB" type="BinHex"/>
-					<field hash="AF50A637" type="BinHex"/>
-					<field hash="297C491E" type="BinHex"/>
+					<field name="bBeamVisibleAfterInteraction" type="BinHex"/>
+					<field name="bInteractionRadiusVisibleAfterInteraction" type="BinHex"/>
+					<field name="bUploadRadiusVisibleBeforeInteration" type="BinHex"/>
 					<field name="possyselementBaseMarker" type="BinHex"/>
 					<object name="TransmissionFinishedSound">
-						<field hash="34FC1E04" type="BinHex"/>
+						<field name="sndSoundPtr" type="BinHex"/>
 						<field name="sndtpSoundType" type="Boolean"/>
 					</object>
 					<object name="BeamEntity">
 						<field name="text_archArchetype" type="BinHex"/>
 						<field name="archArchetype" type="BinHex"/>
 						<field name="vectorOffset" type="Vector3"/>
-						<field hash="D79BA938" type="Vector3"/>
+						<field name="vectorScale" type="Vector3"/>
 						<field name="angvecRotation" type="Vector3"/>
 					</object>
 					<object name="InteractionRadiusEntity">
 						<field name="text_archArchetype" type="BinHex"/>
 						<field name="archArchetype" type="BinHex"/>
 						<field name="vectorOffset" type="Vector3"/>
-						<field hash="D79BA938" type="Vector3"/>
+						<field name="vectorScale" type="Vector3"/>
 						<field name="angvecRotation" type="Vector3"/>
 					</object>
 					<object name="UploadRadiusEntity">
 						<field name="text_archArchetype" type="BinHex"/>
 						<field name="archArchetype" type="BinHex"/>
 						<field name="vectorOffset" type="Vector3"/>
-						<field hash="D79BA938" type="Vector3"/>
+						<field name="vectorScale" type="Vector3"/>
 						<field name="angvecRotation" type="Vector3"/>
 					</object>
-					<object hash="FDBB91AF">
+					<object name="locstridTextTransmissionInProgress">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
-					<object hash="25538B75">
+					<object name="locstridTextTransmissionPaused">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
-					<object hash="98258C38">
+					<object name="locstridTextPlayerTransmissionProgress">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
-					<object hash="634513B3">
+					<object name="locstridTextPlayerFinishedTransmission">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
-					<object hash="CF303728">
+					<object name="locstridTextYouFinishedTransmission">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
 				</object>
 				<object name="RevealingBaseCommonConfig">
 					<field name="droneconfigDroneConfig" type="BinHex"/>
-					<field hash="F481EE6B" type="BinHex"/>
+					<field name="fDroneHeight" type="BinHex"/>
 					<field name="fTransmissionRadius" type="BinHex"/>
 					<field name="fTransmissionDuration" type="BinHex"/>
 					<field name="fTransmissionCancellationDuration" type="BinHex"/>
-					<field hash="9D8287DB" type="BinHex"/>
-					<field hash="AF50A637" type="BinHex"/>
-					<field hash="297C491E" type="BinHex"/>
+					<field name="bBeamVisibleAfterInteraction" type="BinHex"/>
+					<field name="bInteractionRadiusVisibleAfterInteraction" type="BinHex"/>
+					<field name="bUploadRadiusVisibleBeforeInteration" type="BinHex"/>
 					<field name="possyselementBaseMarker" type="BinHex"/>
 					<object name="TransmissionFinishedSound">
 						<field hash="24BA9E57" type="BinHex"/>
-						<field hash="34FC1E04" type="BinHex"/>
+						<field name="sndSoundPtr" type="BinHex"/>
 						<field name="sndtpSoundType" type="Boolean"/>
 					</object>
 					<object name="BeamEntity">
 						<field name="text_archArchetype" type="BinHex"/>
 						<field name="archArchetype" type="BinHex"/>
 						<field name="vectorOffset" type="Vector3"/>
-						<field hash="D79BA938" type="Vector3"/>
+						<field name="vectorScale" type="Vector3"/>
 						<field name="angvecRotation" type="Vector3"/>
 					</object>
 					<object name="InteractionRadiusEntity">
 						<field name="text_archArchetype" type="BinHex"/>
 						<field name="archArchetype" type="BinHex"/>
 						<field name="vectorOffset" type="Vector3"/>
-						<field hash="D79BA938" type="Vector3"/>
+						<field name="vectorScale" type="Vector3"/>
 						<field name="angvecRotation" type="Vector3"/>
 					</object>
 					<object name="UploadRadiusEntity">
 						<field name="text_archArchetype" type="BinHex"/>
 						<field name="archArchetype" type="BinHex"/>
 						<field name="vectorOffset" type="Vector3"/>
-						<field hash="D79BA938" type="Vector3"/>
+						<field name="vectorScale" type="Vector3"/>
 						<field name="angvecRotation" type="Vector3"/>
 					</object>
-					<object hash="FDBB91AF">
+					<object name="locstridTextTransmissionInProgress">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
-					<object hash="25538B75">
+					<object name="locstridTextTransmissionPaused">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
-					<object hash="98258C38">
+					<object name="locstridTextPlayerTransmissionProgress">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
-					<object hash="634513B3">
+					<object name="locstridTextPlayerFinishedTransmission">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
-					<object hash="CF303728">
+					<object name="locstridTextYouFinishedTransmission">
 						<field name="LocalizationId" type="BinHex"/>
 					</object>
 				</object>
@@ -679,7 +679,7 @@
 					<field name="sndExplosionSound" type="BinHex"/>
 					<field name="sndtpExplosionSoundType" type="Boolean"/>
 				</object>
-				<object hash="ADD433B4">
+				<object name="locstridLeadGainedToastText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object name="KillstreakRewards">

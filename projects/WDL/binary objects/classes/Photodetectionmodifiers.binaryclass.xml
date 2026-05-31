@@ -13,14 +13,14 @@
 		<object name="Modifier">
 			<field name="text_sModifierId" type="String"/>
 			<field name="sModifierId" type="BinHex"/>
-			<field hash="41B292B5" type="BinHex"/>
+			<field name="sModifierName" type="BinHex"/>
 			<object name="locstridDisplayName">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="Modifier">
 				<field name="text_sModifierId" type="String"/>
 				<field name="sModifierId" type="BinHex"/>
-				<field hash="41B292B5" type="BinHex"/>
+				<field name="sModifierName" type="BinHex"/>
 				<object name="locstridDisplayName">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>

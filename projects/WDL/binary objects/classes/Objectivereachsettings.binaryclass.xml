@@ -8,13 +8,13 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
 	<field name="fRangeFromTargetToValidateReach" type="BinHex"/>
-	<field hash="30FFCE83" type="BinHex"/>
+	<field name="bMustBeOnSameFloor" type="BinHex"/>
 	<field name="bTargetMustBeInLineOfSight" type="BinHex"/>
 	<field name="bTempPartyReach" type="BinHex"/>
-	<field hash="9AEAF4C6" type="BinHex"/>
+	<field name="bScaleTargetGraphicWithRadius" type="BinHex"/>
 	<field name="bPlayerMustInteractWithTargetToCompleteReach" type="BinHex"/>
 	<field name="bPlayerMustLocateTargetToCompleteReach" type="BinHex"/>
-	<field hash="1B31E2CF" type="BinHex"/>
+	<field name="bMustEscape" type="BinHex"/>
 	<field name="yinteractgameplaydescriptorInteractDescriptor" type="BinHex"/>
 	<field name="bDisableNeededPlayerCountJIPRuleForRaids" type="BinHex"/>
 	<object name="locstridShortLocId">
@@ -42,7 +42,7 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

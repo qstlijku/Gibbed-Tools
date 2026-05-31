@@ -9,7 +9,7 @@
 	<field name="fBaseDownLoadDuration" type="Float"/>
 	<field name="fPauseWarningDuration" type="BinHex"/>
 	<field name="bHideObjectiveMarkersAndWireLinks" type="BinHex"/>
-	<field hash="11D247E2" type="BinHex"/>
+	<field name="bShouldDisplayMissingPlayerLocation" type="BinHex"/>
 	<field name="bShouldTestPlayersDistance" type="Boolean"/>
 	<field name="selTransferRadiusShape" type="BinHex"/>
 	<field name="fTransferRadius" type="BinHex"/>
@@ -20,7 +20,7 @@
 	<field name="bCanRCsProgressPhysicalDownloads" type="BinHex"/>
 	<field name="bExcludeCamerasFromAllowedRcEntities" type="BinHex"/>
 	<field name="bAdaptCounOfRequiredPlayersToCountOfSessionPeers" type="BinHex"/>
-	<field hash="775E9397" type="BinHex"/>
+	<field name="bStartDownloadForAllPlayers" type="BinHex"/>
 	<field name="fCylinderShapeZOffsetTop" type="BinHex"/>
 	<field name="fCylinderShapeZOffsetBottom" type="BinHex"/>
 	<field name="selProgressBarType" type="BinHex"/>

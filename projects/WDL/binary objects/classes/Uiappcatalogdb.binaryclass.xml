@@ -11,5 +11,5 @@
 	<field name="text_keyboardShortcut" type="String"/>
 	<field name="keyboardShortcut" type="BinHex"/>
 	<field name="bKeyboardShortcutIsOnlineOnly" type="BinHex"/>
-	<field hash="A4077D7D" type="BinHex"/>
+	<field name="bKeyboardShortcutIsSPOnly" type="BinHex"/>
 </class>

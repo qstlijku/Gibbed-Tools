@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="28CD52F4" type="BinHex"/>
-	<field hash="57089AE3" type="BinHex"/>
-	<field hash="4CE5E41D" type="BinHex"/>
-	<field hash="085090BF" type="BinHex"/>
-	<field hash="2ACE388C" type="BinHex"/>
-	<field hash="671C188E" type="BinHex"/>
+	<field name="bHaveManualPulling" type="BinHex"/>
+	<field name="iPullingPosition" type="BinHex"/>
+	<field name="iFirePosition" type="BinHex"/>
+	<field name="iTriggerStrength" type="BinHex"/>
+	<field name="iVibrationAmplitude" type="BinHex"/>
+	<field name="iVibrationFrequency" type="BinHex"/>
 </class>

@@ -13,7 +13,7 @@
 			<field name="waveagentcompositionconfigAgentCompositionConfig" type="BinHex"/>
 			<field name="bUseInitialSpawnDelay" type="BinHex"/>
 			<field name="fInitialSpawnDelay" type="BinHex"/>
-			<field hash="ACC5424B" type="BinHex"/>
+			<field name="fSpawnUnitCooldown" type="BinHex"/>
 			<field name="bUseTimeCondition" type="BinHex"/>
 			<field name="fTimeUntilNextWave" type="BinHex"/>
 			<field name="bUseRemainingRatioCondition" type="BinHex"/>

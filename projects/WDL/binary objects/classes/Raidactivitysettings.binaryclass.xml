@@ -11,7 +11,7 @@
 	<field name="RaidRecommendedLevel" type="BinHex"/>
 	<field name="texturedbobjectRaidMainImage" type="BinHex"/>
 	<field name="texturedbobjectRaidDisplayImage" type="BinHex"/>
-	<field hash="DEF8F21C" type="BinHex"/>
+	<field name="texturedbobjectRaidAdvertisingImage" type="BinHex"/>
 	<field name="lobbyparamspresetLoobbyParamsPresetOverride" type="BinHex"/>
 	<object name="RaidSteps">
 		<object name="raidstepsettingsStepSettings">
@@ -24,7 +24,7 @@
 	<object name="locstridRaidDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="CE7DA271">
+	<object name="locstridRaidShortDescription">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

@@ -72,9 +72,9 @@
 	<object name="InventoryConfig">
 		<field name="shopcomponentsettingsWeaponShop" type="BinHex"/>
 		<field name="shopcomponentsettingsClothingShop" type="BinHex"/>
-		<field hash="EA9412BE" type="BinHex"/>
-		<field hash="B5C21099" type="BinHex"/>
-		<field hash="0E71F616" type="BinHex"/>
+		<field name="itemlistDefaultMasks" type="BinHex"/>
+		<field name="itemsDefaultWeapon" type="BinHex"/>
+		<field name="bShouldExoticWeaponGiveProgression" type="BinHex"/>
 		<object name="DefaultUniformTag">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -170,7 +170,7 @@
 		</object>
 		<object name="TeamAbilityGlobalParams">
 			<field hash="184508FB" type="String"/>
-			<field hash="0002F0C2" type="BinHex"/>
+			<field name="progressionplayeractionAnyTeamAbilityExecutedTrackerAction" type="BinHex"/>
 			<object name="CanCheckAnyTeamAbilityThisFrame">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>
@@ -179,12 +179,12 @@
 		<object name="TeamAbilities">
 			<object name="TeamAbility">
 				<field hash="8ADB24BD" type="String"/>
-				<field hash="7D82541B" type="BinHex"/>
+				<field name="teamabilityexecutemethodExecuteMethodName" type="BinHex"/>
 				<field hash="EA679354" type="String"/>
-				<field hash="1D3EE3F2" type="BinHex"/>
+				<field name="progressionplayeractionCheckTrackerAction" type="BinHex"/>
 				<field hash="09E12483" type="String"/>
-				<field hash="A5298C6C" type="BinHex"/>
-				<field hash="433A8BF6" type="BinHex"/>
+				<field name="progressionplayeractionOnExecutedTrackerAction" type="BinHex"/>
+				<field name="selNarrativeTrigger" type="BinHex"/>
 				<object name="CanBeProvider">
 					<field name="rulesmithidRule" type="BinHex"/>
 					<field name="rulesmithconstValue" type="BinHex"/>

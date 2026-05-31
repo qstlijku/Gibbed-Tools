@@ -43,6 +43,6 @@
 		<field name="fGlobalTyreFrictionScale" type="BinHex"/>
 	</object>
 	<object name="NoPhysicsMovement">
-		<field hash="D2474DF2" type="BinHex"/>
+		<field name="fNoPhysicsMaxSpeed" type="BinHex"/>
 	</object>
 </class>

@@ -15,8 +15,8 @@
 	<field name="bCanPropagateToPositiveRelations" type="BinHex"/>
 	<field name="bCanPropagateToRivalRelations" type="BinHex"/>
 	<field name="selUiDisplayOverride" type="BinHex"/>
-	<field hash="024E29E1" type="BinHex"/>
-	<field hash="75D5BD00" type="BinHex"/>
+	<field name="bCanBeAppliedInOnline" type="BinHex"/>
+	<field name="bIsBatchApplied" type="BinHex"/>
 	<object name="AppliedTrigger">
 		<field name="rulesmithidRuleId" type="BinHex"/>
 	</object>

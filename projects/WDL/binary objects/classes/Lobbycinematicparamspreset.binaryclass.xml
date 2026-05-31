@@ -73,7 +73,7 @@
 				<field name="bRcInTightSpace" type="BinHex"/>
 				<field name="bThrowing" type="BinHex"/>
 				<field name="bActiveAccess" type="BinHex"/>
-				<field hash="229C8DC6" type="BinHex"/>
+				<field name="bGadgetAiming" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
 				<field name="bNormal" type="Boolean"/>
@@ -86,7 +86,7 @@
 				<field name="bSameRcTransition" type="BinHex"/>
 				<field name="bThrowing" type="BinHex"/>
 				<field name="bActiveAccess" type="BinHex"/>
-				<field hash="229C8DC6" type="BinHex"/>
+				<field name="bGadgetAiming" type="BinHex"/>
 			</object>
 		</object>
 		<object name="BlendOutParameters">
@@ -126,7 +126,7 @@
 				<field name="bRcInTightSpace" type="BinHex"/>
 				<field name="bThrowing" type="BinHex"/>
 				<field name="bActiveAccess" type="BinHex"/>
-				<field hash="229C8DC6" type="BinHex"/>
+				<field name="bGadgetAiming" type="BinHex"/>
 			</object>
 			<object name="ModifierType">
 				<field name="bNormal" type="Boolean"/>
@@ -139,7 +139,7 @@
 				<field name="bSameRcTransition" type="BinHex"/>
 				<field name="bThrowing" type="BinHex"/>
 				<field name="bActiveAccess" type="BinHex"/>
-				<field hash="229C8DC6" type="BinHex"/>
+				<field name="bGadgetAiming" type="BinHex"/>
 			</object>
 		</object>
 	</object>

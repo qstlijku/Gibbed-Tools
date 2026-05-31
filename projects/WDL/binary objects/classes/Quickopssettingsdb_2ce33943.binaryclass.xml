@@ -10,7 +10,7 @@
 	<object name="QuickOpsSettings">
 		<object name="QuickOpSettings">
 			<field name="opslistOpConfig" type="BinHex"/>
-			<field hash="9275492E" type="BinHex"/>
+			<field name="bIsSuitableForOnboarding" type="BinHex"/>
 			<field name="bIsEnabled" type="Boolean"/>
 			<object name="OpTexts">
 				<object name="OpText">

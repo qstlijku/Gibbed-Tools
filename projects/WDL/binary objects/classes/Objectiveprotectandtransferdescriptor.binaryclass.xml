@@ -11,8 +11,8 @@
 	<field name="yinteractgameplaydescriptorEndingInteractDescriptor" type="BinHex"/>
 	<field name="fCarrierRadius" type="BinHex"/>
 	<field name="fVirusLifetime" type="BinHex"/>
-	<field hash="A9CF5995" type="BinHex"/>
-	<field hash="D6347692" type="BinHex"/>
+	<field name="fVirusLifeDeltaDrink" type="BinHex"/>
+	<field name="fVirusDrinkStep" type="BinHex"/>
 	<object name="locstridObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
@@ -28,10 +28,10 @@
 	<object name="locstridVirusHealthBarHeader">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C394A204">
+	<object name="locstridCarrierObjectiveText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="252A4153">
+	<object name="locstridEscortingPlayersObjectiveText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

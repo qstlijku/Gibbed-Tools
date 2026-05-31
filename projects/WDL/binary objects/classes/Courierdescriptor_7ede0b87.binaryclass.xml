@@ -78,19 +78,19 @@
 	<object name="locstridMissionObjectiveTitleLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="542F204F">
+	<object name="locstridIntrigueMissionObjectiveTitleLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridJobAbandonedLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="93AE31E6">
+	<object name="locstridCompleteMissionInteractorLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="AA72E3BD">
+	<object name="locstridTimeObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridFragileObjectiveLocId">
@@ -99,10 +99,10 @@
 	<object name="locstridWaypointObjectiveLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="671AAD2A">
+	<object name="locstridMapObjectiveTitleLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="8B62A2D1">
+	<object name="locstridMapObjectiveDescriptionLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="RankReachedTrigger">

@@ -6,10 +6,10 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="054D5307" type="BinHex"/>
-	<field hash="EC304E8C" type="BinHex"/>
-	<field hash="F0680818" type="BinHex"/>
-	<field hash="CA5D6F4A" type="Boolean"/>
+	<field name="uiTagWeight" type="BinHex"/>
+	<field name="uiMaxTagItemsCount" type="BinHex"/>
+	<field name="rewardtagcategorySubTagCategory" type="BinHex"/>
+	<field name="bUsesTagWeightRule" type="Boolean"/>
 	<field name="TagDisplayName" type="String"/>
 	<object name="TagWeightRule">
 		<field name="rulesmithidRule" type="Boolean"/>

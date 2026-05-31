@@ -134,7 +134,7 @@
 			<field name="tagcategoryTagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="8D74724E">
+		<object name="tagcategoryselectionIsAlbionTag">
 			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
@@ -151,7 +151,7 @@
 		<field name="tagcategoryUniformTagCategory" type="BinHex"/>
 		<field name="tagcategoryHideMaskTagCategory" type="BinHex"/>
 		<field name="tagcategoryHighHeelsTagCategory" type="BinHex"/>
-		<field hash="5F64A9F6" type="BinHex"/>
+		<field name="tagcategoryClothingStoreImgGenderTagCategory" type="BinHex"/>
 		<field name="tagcategoryStoreClothingStyleTagCategory" type="BinHex"/>
 		<field name="tagcategoryUIClothingStyleTagCategory" type="BinHex"/>
 		<field name="tagcategoryPropTagCategory" type="BinHex"/>
@@ -161,13 +161,13 @@
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="67C8717A">
+		<object name="tagcategoryselectionClothingStoreImgGenderMaleTag">
 			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
 			<field name="tagTag" type="BinHex"/>
 		</object>
-		<object hash="1FDCEDA0">
+		<object name="tagcategoryselectionClothingStoreImgGenderFemaleTag">
 			<field name="text_UITagCategorySelectionClassID" type="String"/>
 			<field name="UITagCategorySelectionClassID" type="BinHex"/>
 			<field name="tagcategoryUITagCategory" type="BinHex"/>
@@ -459,7 +459,7 @@
 	</object>
 	<object name="DGObjective">
 		<field name="tagcategoryGameplayTagCategory" type="BinHex"/>
-		<field hash="E0D63BF1" type="BinHex"/>
+		<field name="tagcategoryGameplayCategoryTagCategory" type="BinHex"/>
 		<field name="tagcategoryPlayerCountTagCategory" type="BinHex"/>
 		<field name="tagcategoryTypeTagCategory" type="BinHex"/>
 		<object name="tagcategoryselectionTypeAnyTag">

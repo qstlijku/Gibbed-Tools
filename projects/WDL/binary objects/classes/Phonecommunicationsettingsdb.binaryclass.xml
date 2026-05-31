@@ -15,7 +15,7 @@
 			<field name="bBypassNarrativeQueue" type="Boolean"/>
 			<field name="fUIStartUpDelay" type="Float"/>
 			<field name="bPlayCommunicationIntro" type="Boolean"/>
-			<field hash="5EF7E537" type="BinHex"/>
+			<field name="selRepeatBehavior" type="BinHex"/>
 			<field name="texturedbobjectImageSource" type="BinHex"/>
 			<field name="videosVideo" type="BinHex"/>
 			<field name="conversationsettingConversation" type="BinHex"/>
@@ -24,7 +24,7 @@
 			<field name="fileCinematicSequence" type="BinHex"/>
 			<field name="plasmaPlasmaDialogTemplateId" type="BinHex"/>
 			<field name="bShowTeamSpeakUI" type="BinHex"/>
-			<field hash="6222365D" type="BinHex"/>
+			<field name="phonecommunicationteamspeaksoundsdbTeamSpeakSoundsPreset" type="BinHex"/>
 			<object name="DataDrive">
 				<field name="selDataDriveBehavior" type="BinHex"/>
 				<field name="selDataDriveCategoryOverride" type="BinHex"/>
@@ -34,7 +34,7 @@
 				<object name="locstridDescription">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="565AA9BB">
+				<object name="locstridTranscript">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>

@@ -7,23 +7,23 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="censuspredefinedactordescriptorPredefinedActorDescriptor" type="BinHex"/>
-	<field hash="B82DDB11" type="BinHex"/>
-	<field hash="4DD49886" type="BinHex"/>
-	<field hash="7C2D66C8" type="BinHex"/>
-	<field hash="DCF6DD59" type="BinHex"/>
-	<field hash="635CFC68" type="BinHex"/>
-	<field hash="5DBBC8BA" type="BinHex"/>
-	<field hash="999CDDE5" type="BinHex"/>
-	<field hash="CD783321" type="BinHex"/>
-	<field hash="FA267F8A" type="BinHex"/>
-	<field hash="BC14A8C8" type="BinHex"/>
-	<field hash="647D9BAC" type="BinHex"/>
-	<field hash="82570ADE" type="BinHex"/>
-	<field hash="9AAB4660" type="BinHex"/>
-	<field hash="167225BF" type="BinHex"/>
-	<field hash="B44BC7ED" type="BinHex"/>
-	<field hash="D9FF567A" type="BinHex"/>
-	<field hash="819351BA" type="BinHex"/>
+	<field name="phonecommunicationsettingsIntelActivatedTeamSpeak" type="BinHex"/>
+	<field name="phonecommunicationsettingsIntelDeactivatedTeamSpeakInjured" type="BinHex"/>
+	<field name="phonecommunicationsettingsIntelDeactivatedTeamSpeakInjuredPlayerCaused" type="BinHex"/>
+	<field name="phonecommunicationsettingsIntelDeactivatedTeamSpeakArrested" type="BinHex"/>
+	<field name="phonecommunicationsettingsIntelDeactivatedTeamSpeakArrestedPlayerCaused" type="BinHex"/>
+	<field name="phonecommunicationsettingsIntelDeactivatedTeamSpeakDeath" type="BinHex"/>
+	<field name="phonecommunicationsettingsIntelDeactivatedTeamSpeakDeathPlayerCaused" type="BinHex"/>
+	<field name="phonecommunicationsettingsIntelDeactivatedTeamSpeakResentment" type="BinHex"/>
+	<field name="iIntelGroupIndex" type="BinHex"/>
+	<field name="censuscontractdefinitionContractDefinitionForFullSchedule" type="BinHex"/>
+	<field name="selIntelType" type="BinHex"/>
+	<field name="itemsActivationHint" type="BinHex"/>
+	<field name="bDisableNotificationsOverride" type="BinHex"/>
+	<field name="bAllowMultiQueueOverride" type="BinHex"/>
+	<field name="bSupportsReactivation" type="BinHex"/>
+	<field name="bRequiresBeingInCLOForActivation" type="BinHex"/>
+	<field name="bRequiresUniformForActivation" type="BinHex"/>
 	<object name="ActivationRule">
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>

@@ -31,7 +31,7 @@
 			<field name="iMaxCharactersPerLineAsian" type="BinHex"/>
 			<field name="iMinCharactersPerLineAsian" type="BinHex"/>
 			<field name="fWidthPerCharacterAsian" type="BinHex"/>
-			<field hash="F948A005" type="BinHex"/>
+			<field name="fWidthPerCharacterArabic" type="BinHex"/>
 			<object name="AsianLanguagesLineWrapping">
 				<object name="AsianLanguageLineWrapping">
 					<field name="selLanguage" type="BinHex"/>

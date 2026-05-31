@@ -6,8 +6,8 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="DD9592DF" type="BinHex"/>
-	<field hash="666FFDDA" type="BinHex"/>
+	<field name="itemsNewOperativeTutorial" type="BinHex"/>
+	<field name="itemsIntelTutorial" type="BinHex"/>
 	<field name="IntelDuration" type="BinHex"/>
 	<object name="LeverageAndIntrigueConfiguration">
 		<field name="censusmetaintrigueresolutionbucketInitialIntrigueAndLeverageBucket" type="BinHex"/>
@@ -22,61 +22,61 @@
 		<field name="censusactormemorydefinitionMemoryToApplyOnLeverageFailure" type="BinHex"/>
 		<field name="fPhoneCommunicationDelay" type="BinHex"/>
 		<field name="fPostPhoneCommunicationDelay" type="BinHex"/>
-		<field hash="D10F3912" type="BinHex"/>
-		<field hash="9A85F6F5" type="BinHex"/>
+		<field name="fRecruitmentTalkerCooldown" type="BinHex"/>
+		<field name="fRecruitmentTalkerObjectiveDisableDistance" type="BinHex"/>
 		<field name="phonecommunicationsettingsContactRecruitableWithoutLeverageTS" type="BinHex"/>
-		<field hash="CC8A5D08" type="BinHex"/>
-		<field hash="C1F92DF0" type="BinHex"/>
-		<field hash="1816CD2D" type="BinHex"/>
+		<field name="phonecommunicationsettingsPositiveAffinityIntrigueCompletionTS" type="BinHex"/>
+		<field name="phonecommunicationsettingsNegativeAffinityIntrigueCompletionTS" type="BinHex"/>
+		<field name="phonecommunicationsettingsIntrigueToBarkerLeverageTS" type="BinHex"/>
 		<object name="LeverageOpCompatibilityData">
 			<object name="CompatibilityData">
 				<field name="opslistOp" type="BinHex"/>
 				<field name="conversationinteractionKickoffConversationInteractionSettings" type="BinHex"/>
 				<field name="phonecommunicationsettingsKickoffBark" type="BinHex"/>
 				<field name="bRequiresScheduledAppointment" type="BinHex"/>
-				<field hash="3A743018" type="BinHex"/>
+				<field name="bCanBeRandomlyAssigned" type="BinHex"/>
 			</object>
 		</object>
 		<object name="HvcLeverageData">
-			<field hash="2074DB1A" type="BinHex"/>
-			<field hash="73F0EDD4" type="BinHex"/>
+			<field name="tagHVCOccupation" type="BinHex"/>
+			<field name="tagOccupationGroup" type="BinHex"/>
 			<object name="LeverageWhiteList">
 				<object name="Leverages">
-					<field hash="2E960056" type="BinHex"/>
+					<field name="opslistLeverage" type="BinHex"/>
 				</object>
 			</object>
 			<object name="LeverageBlackList">
 				<object name="Leverages">
-					<field hash="2E960056" type="BinHex"/>
+					<field name="opslistLeverage" type="BinHex"/>
 				</object>
 			</object>
 			<object name="HvcLeverageData">
-				<field hash="2074DB1A" type="BinHex"/>
-				<field hash="73F0EDD4" type="BinHex"/>
+				<field name="tagHVCOccupation" type="BinHex"/>
+				<field name="tagOccupationGroup" type="BinHex"/>
 				<object name="LeverageWhiteList">
 					<object name="Leverages">
-						<field hash="2E960056" type="BinHex"/>
+						<field name="opslistLeverage" type="BinHex"/>
 					</object>
 				</object>
 				<object name="LeverageBlackList">
 					<object name="Leverages">
-						<field hash="2E960056" type="BinHex"/>
+						<field name="opslistLeverage" type="BinHex"/>
 					</object>
 				</object>
 			</object>
 		</object>
 		<object name="ImmediatelyRecruitableBarks">
-			<object hash="57C6F889">
-				<field hash="57C6F889" type="BinHex"/>
+			<object name="phonecommunicationsettingsRecruitmentBark">
+				<field name="phonecommunicationsettingsRecruitmentBark" type="BinHex"/>
 			</object>
 		</object>
-		<object hash="B6713542">
+		<object name="locstridLeverageOpStartedTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="581C767D">
+		<object name="locstridLeverageOpCompletedTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="462634CD">
+		<object name="locstridLeverageOpSubTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="DeepProfilerUnlocked">
@@ -90,8 +90,8 @@
 		<field name="censusattendancedefinitionAttendanceDefinitionForActorInjury" type="BinHex"/>
 		<field name="censuscontractdefinitionContractDefinitionForActorArrest" type="BinHex"/>
 		<field name="censusattendancedefinitionAttendanceDefinitionForActorArrest" type="BinHex"/>
-		<field hash="3A42018A" type="BinHex"/>
-		<field hash="F8F67FB2" type="BinHex"/>
+		<field name="censuscontractdefinitionContractDefinitionForActorPendingDeportation" type="BinHex"/>
+		<field name="censusattendancedefinitionAttendanceDefinitionForActorPendingDeportation" type="BinHex"/>
 		<object name="DelayTimerConfigForWalkers">
 			<field name="fMinTime" type="Float"/>
 			<field name="fMaxTime" type="Float"/>
@@ -212,7 +212,7 @@
 			<object name="locstridIsReinforcement_Criminals">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="1DC38757">
+			<object name="locstridIsActiveOperative">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -520,7 +520,7 @@
 				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="4E0D143E">
+				<object name="locstridTeamAppStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
@@ -543,7 +543,7 @@
 				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="4E0D143E">
+				<object name="locstridTeamAppStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
@@ -566,7 +566,7 @@
 				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="4E0D143E">
+				<object name="locstridTeamAppStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
@@ -589,7 +589,7 @@
 				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="4E0D143E">
+				<object name="locstridTeamAppStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
@@ -612,7 +612,7 @@
 				<object name="locstridStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="4E0D143E">
+				<object name="locstridTeamAppStatusLocId">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 				<object name="locstridNoScheduleDescription_WithRelation_NonOperative_NoStatus">
@@ -636,13 +636,13 @@
 			<object name="locstridRecruitAvailableHeader">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="46F47EB4">
+			<object name="locstridAntagonistHeader">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="69F402D8">
+			<object name="locstridSupportIncreasedHeader">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="ACAEEAAB">
+			<object name="locstridOnNemesisNeutralizedRewardLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
@@ -687,7 +687,7 @@
 			<object name="locstridFullNameLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8EB5E3DA">
+			<object name="locstridFullNameSurnamePotentiallyCutOffLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="locstridRelationFullNameRoleLocId">
@@ -716,63 +716,63 @@
 			<object name="locstridIsExDedSecsLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="7922F2DA">
+			<object name="locstridIsDeadLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8B8E98C9">
+			<object name="locstridIsInResentmentLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="5D0881CA">
+			<object name="locstridRelationRoleLocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="D7D95020">
+			<object name="locstridIsRelation_NoTitle_Top_Possessive_LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="82FA1953">
+			<object name="locstridIsRelation_NoTitle_Top_NotPossessive_LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8047CF12">
+			<object name="locstridIsRelation_HasTitle_Top_Possessive_LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="447B006C">
+			<object name="locstridIsRelation_HasTitle_Top_NotPossessive_LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="3BAE9982">
+			<object name="locstridIsRelation_NoTitle_Bottom_Possessive_LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="8C5F1829">
+			<object name="locstridIsRelation_NoTitle_Bottom_NotPossessive_LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="FD2F80BD">
+			<object name="locstridIsRelation_HasTitle_Bottom_Possessive_LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="A2D7A0EC">
+			<object name="locstridIsRelation_HasTitle_Bottom_NotPossessive_LocId">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 		</object>
 		<object name="RecruitmentData">
-			<object hash="E8B39356">
+			<object name="locstridDeepProfilerLocked">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
-			<object hash="7909D583">
+			<object name="locstridDeepProfilerUnlocked">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
 			<object name="OnlineRecruitmentCompletedCelebration">
-				<object hash="30DCA9AE">
+				<object name="locstridBigCelebrationTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="D0FF1992">
+				<object name="locstridBigCelebrationText">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="1B0BB365">
+				<object name="locstridRewardNotificationTitle">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
-				<object hash="6D28E195">
+				<object name="locstridRewardNotifiationText">
 					<field name="LocalizationId" type="UInt64"/>
 				</object>
 			</object>
 		</object>
-		<object hash="F0D2DFFB">
+		<object name="locstridTeamAppUnavailableLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
@@ -834,7 +834,7 @@
 		<field name="fChanceOfScheduledInArea" type="BinHex"/>
 		<field name="iMaxNumRelationshipContractsPerActor" type="BinHex"/>
 		<field name="iMaxNumPersonalContractsPerActor" type="BinHex"/>
-		<field hash="1AFB3C23" type="BinHex"/>
+		<field name="uiMaxNumNemeses" type="BinHex"/>
 		<object name="CryptoRewardAmountOnNemesisNeutralization">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -865,8 +865,8 @@
 	</object>
 	<object name="AuthoredNames">
 		<object name="AuthoredFieldValueDefinition">
-			<field hash="A44F95CA" type="BinHex"/>
-			<field hash="32CF8029" type="String"/>
+			<field name="uiFieldID" type="BinHex"/>
+			<field name="sFieldValue" type="String"/>
 			<object name="locstridLocalizationID">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>
@@ -874,8 +874,8 @@
 	</object>
 	<object name="AuthoredSurnames">
 		<object name="AuthoredFieldValueDefinition">
-			<field hash="A44F95CA" type="BinHex"/>
-			<field hash="32CF8029" type="BinHex"/>
+			<field name="uiFieldID" type="BinHex"/>
+			<field name="sFieldValue" type="BinHex"/>
 			<object name="locstridLocalizationID">
 				<field name="LocalizationId" type="UInt64"/>
 			</object>

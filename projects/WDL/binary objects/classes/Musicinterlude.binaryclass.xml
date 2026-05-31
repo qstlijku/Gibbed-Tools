@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="text_sndInterludeEvent" type="String"/>
 	<field name="sndInterludeEvent" type="BinHex"/>
-	<field hash="E939872B" type="BinHex"/>
+	<field name="sndtpInterludeEventType" type="BinHex"/>
 	<field name="bIsGated" type="BinHex"/>
 	<object name="UnlockRule">
 		<field name="rulesmithidRule" type="BinHex"/>

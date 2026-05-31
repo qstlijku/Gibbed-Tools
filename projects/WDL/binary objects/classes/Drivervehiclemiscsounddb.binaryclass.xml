@@ -10,9 +10,9 @@
 		<field name="sndTakedownByBollard" type="BinHex"/>
 		<field name="sndTakedownByTrafficLight" type="BinHex"/>
 		<field name="sndTakedownBySteamPipe" type="BinHex"/>
-		<field hash="194EB180" type="BinHex"/>
-		<field hash="DC5C7B47" type="BinHex"/>
-		<field hash="7182D778" type="BinHex"/>
+		<field name="sndtpTakedownByBollardType" type="BinHex"/>
+		<field name="sndtpTakedownByTrafficLightType" type="BinHex"/>
+		<field name="sndtpTakedownBySteamPipeType" type="BinHex"/>
 	</object>
 	<object name="JumpAndLanding">
 		<field name="fMinSpeedInKmhForJumpLaunchSound" type="Float"/>
@@ -25,21 +25,21 @@
 		<field name="sndLandBad" type="BinHex"/>
 		<field name="text_sndLandSmall" type="String"/>
 		<field name="sndLandSmall" type="BinHex"/>
-		<field hash="543700C4" type="BinHex"/>
-		<field hash="CAFB942F" type="BinHex"/>
-		<field hash="2D7FD8C4" type="BinHex"/>
-		<field hash="B0C90898" type="BinHex"/>
+		<field name="sndtpJumpLaunchType" type="BinHex"/>
+		<field name="sndtpLandGoodType" type="BinHex"/>
+		<field name="sndtpLandBadType" type="BinHex"/>
+		<field name="sndtpLandSmallType" type="BinHex"/>
 	</object>
 	<object name="LaunchHelper">
 		<field name="sndLaunchHelperStart" type="BinHex"/>
 		<field name="sndLaunchHelperStop" type="BinHex"/>
-		<field hash="903C76B0" type="BinHex"/>
-		<field hash="E0734673" type="BinHex"/>
+		<field name="sndtpLaunchHelperStartType" type="BinHex"/>
+		<field name="sndtpLaunchHelperStopType" type="BinHex"/>
 	</object>
 	<object name="Exhaust">
 		<field name="text_sndBackFireExhaustFireSound" type="String"/>
 		<field name="sndBackFireExhaustFireSound" type="BinHex"/>
-		<field hash="E15CC052" type="BinHex"/>
+		<field name="sndtpBackFireExhaustFireSoundType" type="BinHex"/>
 	</object>
 	<object name="Misc">
 		<field name="text_sndRemoteUnlock" type="String"/>
@@ -59,14 +59,14 @@
 		<field name="text_sndReverseOverheatSound" type="String"/>
 		<field name="sndReverseOverheatSound" type="BinHex"/>
 		<field name="sndReverseOverheatStopSound" type="BinHex"/>
-		<field hash="246FF8E9" type="BinHex"/>
-		<field hash="F67D51F7" type="BinHex"/>
-		<field hash="7F258C73" type="BinHex"/>
-		<field hash="B2112E9D" type="BinHex"/>
-		<field hash="7EFCFDCD" type="BinHex"/>
-		<field hash="D270DB37" type="BinHex"/>
-		<field hash="DE718E29" type="BinHex"/>
-		<field hash="C2E651C4" type="BinHex"/>
-		<field hash="9CAC94CE" type="BinHex"/>
+		<field name="sndtpAlarmSoundType" type="BinHex"/>
+		<field name="sndtpAirbagSoundType" type="BinHex"/>
+		<field name="sndtpLockWheelSoundType" type="BinHex"/>
+		<field name="sndtpEngineOverheatSoundType" type="BinHex"/>
+		<field name="sndtpEngineOverheatStopSoundType" type="BinHex"/>
+		<field name="sndtpLockBrakesSoundType" type="BinHex"/>
+		<field name="sndtpLockBrakesStopSoundType" type="BinHex"/>
+		<field name="sndtpReverseOverheatSoundType" type="BinHex"/>
+		<field name="sndtpReverseOverheatStopSoundType" type="BinHex"/>
 	</object>
 </class>

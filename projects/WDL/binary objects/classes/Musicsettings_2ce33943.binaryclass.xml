@@ -172,39 +172,39 @@
 		</object>
 	</object>
 	<object name="MusicLanguage">
-		<object hash="2EC9A100">
+		<object name="sndswtpMusicLanguage">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="47D87A6E">
+		<object name="sndswvlBrazilian">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="910E2F9A">
+		<object name="sndswvlEnglish">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="9FAA48AE">
+		<object name="sndswvlFrench">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="92EBC651">
+		<object name="sndswvlGerman">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="EA344455">
+		<object name="sndswvlItalian">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="1AF0B619">
+		<object name="sndswvlJapanese">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="56EBDCEF">
+		<object name="sndswvlRussian">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>
-		<object hash="8995D8AE">
+		<object name="sndswvlSpanish">
 			<field name="SoundId" type="BinHex"/>
 			<field name="SoundGuid" type="String"/>
 		</object>

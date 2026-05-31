@@ -7,29 +7,29 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="sndNarrativeItemAudioFile" type="BinHex"/>
-	<field hash="D3B35382" type="BinHex"/>
+	<field name="sndtpNarrativeItemAudioFileType" type="BinHex"/>
 	<field name="sndNarrativeItemChat" type="BinHex"/>
-	<field hash="6F76ABE1" type="BinHex"/>
+	<field name="sndtpNarrativeItemChatType" type="BinHex"/>
 	<field name="sndNarrativeItemEmail" type="BinHex"/>
-	<field hash="4767E18B" type="BinHex"/>
+	<field name="sndtpNarrativeItemEmailType" type="BinHex"/>
 	<field name="sndNarrativeItemVideoFile" type="BinHex"/>
-	<field hash="09E9B3F3" type="BinHex"/>
+	<field name="sndtpNarrativeItemVideoFileType" type="BinHex"/>
 	<field name="sndNarrativeItemVoice" type="BinHex"/>
-	<field hash="0F6B9732" type="BinHex"/>
+	<field name="sndtpNarrativeItemVoiceType" type="BinHex"/>
 	<field name="sndNKeyDataAcquireSound" type="BinHex"/>
-	<field hash="E9CABDEF" type="BinHex"/>
+	<field name="sndtpNKeyDataAcquireSoundType" type="BinHex"/>
 	<field name="sndMollowersComponentAcquireSound" type="BinHex"/>
-	<field hash="5E2480C5" type="BinHex"/>
+	<field name="sndtpMollowersComponentAcquireSoundType" type="BinHex"/>
 	<object name="AcquireRewardTypeSFX">
 		<field name="text_itemdescriptorItemDescriptor" type="String"/>
 		<field name="itemdescriptorItemDescriptor" type="BinHex"/>
 		<field name="sndAcquireRewardSFX" type="BinHex"/>
-		<field hash="B5D645EA" type="BinHex"/>
+		<field name="sndtpAcquireRewardSFXType" type="BinHex"/>
 		<object name="AcquireRewardTypeSFX">
 			<field name="text_itemdescriptorItemDescriptor" type="String"/>
 			<field name="itemdescriptorItemDescriptor" type="BinHex"/>
 			<field name="sndAcquireRewardSFX" type="BinHex"/>
-			<field hash="B5D645EA" type="BinHex"/>
+			<field name="sndtpAcquireRewardSFXType" type="BinHex"/>
 		</object>
 	</object>
 </class>

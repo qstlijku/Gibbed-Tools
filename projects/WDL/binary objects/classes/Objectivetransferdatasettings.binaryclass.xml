@@ -47,8 +47,8 @@
 		<field name="fTransferRadius" type="BinHex"/>
 		<field name="bUseOverrideRadius" type="BinHex"/>
 		<field name="bAdaptCountOfRequiredPlayersToCountOfSessionPeers" type="BinHex"/>
-		<field hash="775E9397" type="BinHex"/>
-		<field hash="11D247E2" type="BinHex"/>
+		<field name="bStartDownloadForAllPlayers" type="BinHex"/>
+		<field name="bShouldDisplayMissingPlayerLocation" type="BinHex"/>
 		<field name="selTransferRadiusShape" type="BinHex"/>
 		<field name="fCylinderShapeZOffsetTop" type="BinHex"/>
 		<field name="fCylinderShapeZOffsetBottom" type="BinHex"/>
@@ -100,7 +100,7 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
@@ -111,7 +111,7 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

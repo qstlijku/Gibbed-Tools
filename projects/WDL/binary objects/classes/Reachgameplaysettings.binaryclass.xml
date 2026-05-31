@@ -7,15 +7,15 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fRangeToReachTarget" type="BinHex"/>
-	<field hash="30FFCE83" type="BinHex"/>
+	<field name="bMustBeOnSameFloor" type="BinHex"/>
 	<field name="bIsLineOfSightMandatory" type="BinHex"/>
 	<field name="bPlayerMustInteractWithTargetToCompleteReach" type="BinHex"/>
-	<field hash="ED683422" type="BinHex"/>
-	<field hash="44D77825" type="BinHex"/>
+	<field name="bMustLocateTargetToCompleteReach" type="BinHex"/>
+	<field name="bPartyMustReachTarget" type="BinHex"/>
 	<field name="sDebugAnnotationText" type="BinHex"/>
-	<field hash="1B31E2CF" type="BinHex"/>
-	<field hash="C02E7DED" type="BinHex"/>
-	<field hash="2F0161DC" type="BinHex"/>
+	<field name="bMustEscape" type="BinHex"/>
+	<field name="fEscapePursuersWarningDuration" type="BinHex"/>
+	<field name="bIsReachLocation" type="BinHex"/>
 	<field name="iFelonyLevel" type="Int32"/>
 	<field name="bTriggerSearch" type="BinHex"/>
 	<field name="fSearchRadius" type="Float"/>
@@ -29,7 +29,7 @@
 	<object name="locstridEscapePursuersWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="7C130BF7">
+	<object name="locstridTeamEscapePursuersLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="ReachLocationActivities"/>
@@ -40,7 +40,7 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
@@ -51,7 +51,7 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

@@ -7,12 +7,12 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="HackedStates">
-		<field hash="2669ECB6" type="BinHex"/>
-		<field hash="EE53D842" type="BinHex"/>
-		<field hash="12B7A2E4" type="BinHex"/>
-		<field hash="617BDAC7" type="BinHex"/>
-		<field hash="FE392FE1" type="BinHex"/>
-		<field hash="CF8A4437" type="BinHex"/>
+		<field name="bEnabledInForbiddenZone" type="BinHex"/>
+		<field name="bEnabledInCinematics" type="BinHex"/>
+		<field name="bEnabledInFelony" type="BinHex"/>
+		<field name="bEnabledWhenNarrativeIsPlaying" type="BinHex"/>
+		<field name="bEnabledInHMA" type="BinHex"/>
+		<field name="bEnabledWhenDoingActivities" type="BinHex"/>
 		<object name="IsActivated">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
@@ -33,12 +33,12 @@
 			</object>
 		</object>
 		<object name="HackedStates">
-			<field hash="2669ECB6" type="BinHex"/>
-			<field hash="EE53D842" type="BinHex"/>
-			<field hash="12B7A2E4" type="BinHex"/>
-			<field hash="617BDAC7" type="BinHex"/>
-			<field hash="FE392FE1" type="BinHex"/>
-			<field hash="CF8A4437" type="BinHex"/>
+			<field name="bEnabledInForbiddenZone" type="BinHex"/>
+			<field name="bEnabledInCinematics" type="BinHex"/>
+			<field name="bEnabledInFelony" type="BinHex"/>
+			<field name="bEnabledWhenNarrativeIsPlaying" type="BinHex"/>
+			<field name="bEnabledInHMA" type="BinHex"/>
+			<field name="bEnabledWhenDoingActivities" type="BinHex"/>
 			<object name="IsActivated">
 				<field name="rulesmithidRule" type="BinHex"/>
 				<field name="rulesmithconstValue" type="BinHex"/>

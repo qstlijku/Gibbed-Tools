@@ -6,11 +6,11 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="564A7C7B" type="BinHex"/>
-	<field hash="585F04C8" type="BinHex"/>
-	<field hash="4CB9D285" type="BinHex"/>
-	<field hash="70B4EDDC" type="BinHex"/>
-	<field hash="B2447D7B" type="BinHex"/>
-	<field hash="9373EF0E" type="BinHex"/>
-	<field hash="EB301EA7" type="BinHex"/>
+	<field name="iInnerRadius" type="BinHex"/>
+	<field name="iOuterRadius" type="BinHex"/>
+	<field name="iTriggeringDelayMin" type="BinHex"/>
+	<field name="iTriggeringDelayMax" type="BinHex"/>
+	<field name="fStopSoundFadeOut" type="BinHex"/>
+	<field name="fMaximumPlayerSpeedKmh" type="BinHex"/>
+	<field name="fCooldownBeforeReplay" type="BinHex"/>
 </class>

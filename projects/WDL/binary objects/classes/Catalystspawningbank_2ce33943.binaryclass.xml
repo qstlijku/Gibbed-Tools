@@ -7,138 +7,138 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="ZombieConfigs">
-		<field hash="66F05089" type="BinHex"/>
-		<field hash="C40E7B3B" type="BinHex"/>
-		<field hash="81480833" type="BinHex"/>
-		<field hash="8CF7FED8" type="BinHex"/>
+		<field name="humanconfigGenericZombieConfig" type="BinHex"/>
+		<field name="humanconfigArmoredZombieConfig" type="BinHex"/>
+		<field name="humanconfigScreamerZombieConfig" type="BinHex"/>
+		<field name="humanconfigBoomerZombieConfig" type="BinHex"/>
 	</object>
 	<object name="ZombieDensityInfo">
 		<object name="ZombieSpawningDensityPaths">
 			<object name="PathEntry">
-				<field hash="8081AD7F" type="BinHex"/>
-				<field hash="D1781622" type="BinHex"/>
-				<field hash="2BEDF6D8" type="BinHex"/>
-				<field hash="C1763AE0" type="BinHex"/>
-				<field hash="32927758" type="BinHex"/>
-				<field hash="840C0BE9" type="BinHex"/>
-				<field hash="2EC3B706" type="BinHex"/>
-				<field hash="576D15AE" type="BinHex"/>
-				<field hash="8B64C8D6" type="BinHex"/>
-				<field hash="FA5E74C4" type="BinHex"/>
-				<field hash="B13DD63D" type="BinHex"/>
-				<field hash="CD30C00F" type="BinHex"/>
-				<field hash="D8BB14FD" type="BinHex"/>
-				<field hash="11635E35" type="BinHex"/>
-				<field hash="04E88AC7" type="BinHex"/>
-				<object hash="042A616B">
-					<object hash="042A616B">
-						<field hash="E743E888" type="BinHex"/>
+				<field name="minZombiesPerOBB" type="BinHex"/>
+				<field name="maxZombiesPerOBB" type="BinHex"/>
+				<field name="minClusterArea" type="BinHex"/>
+				<field name="obbSubdivideLength" type="BinHex"/>
+				<field name="clusterMinDistance" type="BinHex"/>
+				<field name="clusterMinDistanceNearEnd" type="BinHex"/>
+				<field name="nonClusterDefaultDensityMult" type="BinHex"/>
+				<field name="nonClusterStartDensityMult" type="BinHex"/>
+				<field name="clusterDefaultDensityMult" type="BinHex"/>
+				<field name="clusterStartDensityMult" type="BinHex"/>
+				<field name="startNoSpawnDistance" type="BinHex"/>
+				<field name="startMinCutoffDistance" type="BinHex"/>
+				<field name="startMaxCutoffDistance" type="BinHex"/>
+				<field name="endMinCutoffDistance" type="BinHex"/>
+				<field name="endMaxCutoffDistance" type="BinHex"/>
+				<object name="nonClusterDensity">
+					<object name="nonClusterDensity">
+						<field name="selNumPlayers" type="BinHex"/>
 						<field name="value" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="FB3D897A">
-					<object hash="FB3D897A">
-						<field hash="E743E888" type="BinHex"/>
+				<object name="clusterDensity">
+					<object name="clusterDensity">
+						<field name="selNumPlayers" type="BinHex"/>
 						<field name="value" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="2FEF1864">
-					<object hash="9AAE36E9">
-						<field hash="E743E888" type="BinHex"/>
+				<object name="nonClusterEndDensityMult">
+					<object name="nonClusterEndDensity">
+						<field name="selNumPlayers" type="BinHex"/>
 						<field name="value" type="BinHex"/>
 					</object>
 				</object>
-				<object hash="18945B92">
-					<object hash="923E0372">
-						<field hash="E743E888" type="BinHex"/>
+				<object name="clusterEndDensityMult">
+					<object name="clusterEndDensity">
+						<field name="selNumPlayers" type="BinHex"/>
 						<field name="value" type="BinHex"/>
 					</object>
 				</object>
 				<object name="ExoticCluster">
-					<object hash="2CA7A61E">
-						<field hash="1ECCC144" type="BinHex"/>
-						<object hash="068F5E31">
+					<object name="exoticClusterDensity">
+						<field name="exoticArchetypeRatio" type="BinHex"/>
+						<object name="exoticDensityInfo">
 							<field name="MinDistanceBetweenSpawnPerPath" type="BinHex"/>
 							<field name="StartNoSpawnDistancePerPath" type="BinHex"/>
 							<field name="EndNoSpawnDistancePerPath" type="BinHex"/>
 						</object>
-						<object hash="389377C9">
+						<object name="exoticArchetypeEntries">
 							<object name="ArchetypeEntry">
-								<field hash="C585E3A2" type="BinHex"/>
-								<field hash="1ECCC144" type="BinHex"/>
+								<field name="selarchetype" type="BinHex"/>
+								<field name="exoticArchetypeRatio" type="BinHex"/>
 							</object>
 						</object>
 					</object>
 				</object>
 				<object name="ZombieArchetypeDensity">
-					<object hash="C06EDBFC">
-						<field hash="7346CAD2" type="BinHex"/>
-						<object hash="129094A1">
-							<field hash="F3AB8E2D" type="BinHex"/>
-							<field hash="73F11747" type="BinHex"/>
-							<field hash="FD81429A" type="BinHex"/>
-							<field hash="CF9FFEF3" type="BinHex"/>
-							<field hash="1E2C97E7" type="BinHex"/>
-							<field hash="D221ECE8" type="BinHex"/>
-							<field hash="E8E961B5" type="BinHex"/>
-							<field hash="24E41ABA" type="BinHex"/>
+					<object name="armoredZombieDensityInfo">
+						<field name="bIsZombieLimitPerSegmentEnabled" type="BinHex"/>
+						<object name="clusterParameters">
+							<field name="defaultSpawnChance" type="BinHex"/>
+							<field name="defaultSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneSpawnMultiplier" type="BinHex"/>
+							<field name="endZoneSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneMinDistance" type="BinHex"/>
+							<field name="startZoneMaxDistance" type="BinHex"/>
+							<field name="endZoneMinDistance" type="BinHex"/>
+							<field name="endZoneMaxDistance" type="BinHex"/>
 						</object>
-						<object hash="1A00A13A">
-							<field hash="F3AB8E2D" type="BinHex"/>
-							<field hash="73F11747" type="BinHex"/>
-							<field hash="FD81429A" type="BinHex"/>
-							<field hash="CF9FFEF3" type="BinHex"/>
-							<field hash="1E2C97E7" type="BinHex"/>
-							<field hash="D221ECE8" type="BinHex"/>
-							<field hash="E8E961B5" type="BinHex"/>
-							<field hash="24E41ABA" type="BinHex"/>
-						</object>
-					</object>
-					<object hash="E3A8866D">
-						<field hash="7346CAD2" type="BinHex"/>
-						<field hash="566682F5" type="BinHex"/>
-						<object hash="129094A1">
-							<field hash="F3AB8E2D" type="BinHex"/>
-							<field hash="73F11747" type="BinHex"/>
-							<field hash="FD81429A" type="BinHex"/>
-							<field hash="CF9FFEF3" type="BinHex"/>
-							<field hash="1E2C97E7" type="BinHex"/>
-							<field hash="D221ECE8" type="BinHex"/>
-							<field hash="E8E961B5" type="BinHex"/>
-							<field hash="24E41ABA" type="BinHex"/>
-						</object>
-						<object hash="1A00A13A">
-							<field hash="F3AB8E2D" type="BinHex"/>
-							<field hash="73F11747" type="BinHex"/>
-							<field hash="FD81429A" type="BinHex"/>
-							<field hash="CF9FFEF3" type="BinHex"/>
-							<field hash="1E2C97E7" type="BinHex"/>
-							<field hash="D221ECE8" type="BinHex"/>
-							<field hash="E8E961B5" type="BinHex"/>
-							<field hash="24E41ABA" type="BinHex"/>
+						<object name="nonClusterParameters">
+							<field name="defaultSpawnChance" type="BinHex"/>
+							<field name="defaultSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneSpawnMultiplier" type="BinHex"/>
+							<field name="endZoneSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneMinDistance" type="BinHex"/>
+							<field name="startZoneMaxDistance" type="BinHex"/>
+							<field name="endZoneMinDistance" type="BinHex"/>
+							<field name="endZoneMaxDistance" type="BinHex"/>
 						</object>
 					</object>
-					<object hash="DB842025">
-						<field hash="7346CAD2" type="BinHex"/>
-						<object hash="129094A1">
-							<field hash="F3AB8E2D" type="BinHex"/>
-							<field hash="73F11747" type="BinHex"/>
-							<field hash="FD81429A" type="BinHex"/>
-							<field hash="CF9FFEF3" type="BinHex"/>
-							<field hash="1E2C97E7" type="BinHex"/>
-							<field hash="D221ECE8" type="BinHex"/>
-							<field hash="E8E961B5" type="BinHex"/>
-							<field hash="24E41ABA" type="BinHex"/>
+					<object name="screamerZombieDensityInfo">
+						<field name="bIsZombieLimitPerSegmentEnabled" type="BinHex"/>
+						<field name="zombieLimit" type="BinHex"/>
+						<object name="clusterParameters">
+							<field name="defaultSpawnChance" type="BinHex"/>
+							<field name="defaultSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneSpawnMultiplier" type="BinHex"/>
+							<field name="endZoneSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneMinDistance" type="BinHex"/>
+							<field name="startZoneMaxDistance" type="BinHex"/>
+							<field name="endZoneMinDistance" type="BinHex"/>
+							<field name="endZoneMaxDistance" type="BinHex"/>
 						</object>
-						<object hash="1A00A13A">
-							<field hash="F3AB8E2D" type="BinHex"/>
-							<field hash="73F11747" type="BinHex"/>
-							<field hash="FD81429A" type="BinHex"/>
-							<field hash="CF9FFEF3" type="BinHex"/>
-							<field hash="1E2C97E7" type="BinHex"/>
-							<field hash="D221ECE8" type="BinHex"/>
-							<field hash="E8E961B5" type="BinHex"/>
-							<field hash="24E41ABA" type="BinHex"/>
+						<object name="nonClusterParameters">
+							<field name="defaultSpawnChance" type="BinHex"/>
+							<field name="defaultSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneSpawnMultiplier" type="BinHex"/>
+							<field name="endZoneSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneMinDistance" type="BinHex"/>
+							<field name="startZoneMaxDistance" type="BinHex"/>
+							<field name="endZoneMinDistance" type="BinHex"/>
+							<field name="endZoneMaxDistance" type="BinHex"/>
+						</object>
+					</object>
+					<object name="boomerZombieDensityInfo">
+						<field name="bIsZombieLimitPerSegmentEnabled" type="BinHex"/>
+						<object name="clusterParameters">
+							<field name="defaultSpawnChance" type="BinHex"/>
+							<field name="defaultSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneSpawnMultiplier" type="BinHex"/>
+							<field name="endZoneSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneMinDistance" type="BinHex"/>
+							<field name="startZoneMaxDistance" type="BinHex"/>
+							<field name="endZoneMinDistance" type="BinHex"/>
+							<field name="endZoneMaxDistance" type="BinHex"/>
+						</object>
+						<object name="nonClusterParameters">
+							<field name="defaultSpawnChance" type="BinHex"/>
+							<field name="defaultSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneSpawnMultiplier" type="BinHex"/>
+							<field name="endZoneSpawnMultiplier" type="BinHex"/>
+							<field name="startZoneMinDistance" type="BinHex"/>
+							<field name="startZoneMaxDistance" type="BinHex"/>
+							<field name="endZoneMinDistance" type="BinHex"/>
+							<field name="endZoneMaxDistance" type="BinHex"/>
 						</object>
 					</object>
 				</object>
@@ -148,12 +148,12 @@
 	<object name="EventSpawningDensity">
 		<object name="EventSpawningDensityPaths">
 			<object name="PathEntry">
-				<object hash="E63DFB77">
+				<object name="droneDensityInfo">
 					<field name="MinDistanceBetweenSpawnPerPath" type="BinHex"/>
 					<field name="StartNoSpawnDistancePerPath" type="BinHex"/>
 					<field name="EndNoSpawnDistancePerPath" type="BinHex"/>
 				</object>
-				<object hash="2E97937A">
+				<object name="curveNumDronesProbabilityCurve">
 					<field name="hidNumKnots" type="BinHex"/>
 					<object name="Knots">
 						<object name="Knot">

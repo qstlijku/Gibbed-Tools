@@ -6,6 +6,6 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="D86B1E18" type="String"/>
-	<field hash="A3F4D539" type="BinHex"/>
+	<field name="sPS5ActivityID" type="String"/>
+	<field name="uUbiPlayerProgressionValue" type="BinHex"/>
 </class>

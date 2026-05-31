@@ -94,7 +94,7 @@
 									<object name="locstridSubText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
-									<object hash="4B95868D">
+									<object name="locstridBackUpText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
 								</object>
@@ -124,7 +124,7 @@
 									<object name="locstridSubText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
-									<object hash="4B95868D">
+									<object name="locstridBackUpText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
 								</object>
@@ -152,7 +152,7 @@
 									<object name="locstridSubText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
-									<object hash="4B95868D">
+									<object name="locstridBackUpText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
 								</object>
@@ -181,11 +181,11 @@
 								<field name="fClosingOnDestinationTriggerDistance" type="BinHex"/>
 								<field name="bDeactivateDestinationUIOnEscapePursuersPhase" type="BinHex"/>
 								<field name="bNeedsToGetOutOfVehicleToComplete" type="Boolean"/>
-								<field hash="90799916" type="BinHex"/>
+								<field name="bActivateGetBackInVehicleWhenPursuedCountdownTimer" type="BinHex"/>
 								<field name="selFailedOnDamageState" type="BinHex"/>
 								<field name="bDeliverSpecificVehicles" type="Boolean"/>
 								<field name="bForceTargetVehicleExplosionOnDestruction" type="BinHex"/>
-								<field hash="A88C7E5A" type="BinHex"/>
+								<field name="selTargetPriorityType" type="BinHex"/>
 								<field name="iNbToDeliver" type="Int32"/>
 								<field name="selVehicleTypeFlags" type="Enum"/>
 								<field name="locategameplaydescriptorDestinationLocateDescriptor" type="BinHex"/>
@@ -219,7 +219,7 @@
 									<object name="locstridSubText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
-									<object hash="4B95868D">
+									<object name="locstridBackUpText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
 								</object>
@@ -230,7 +230,7 @@
 									<object name="locstridSubText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
-									<object hash="4B95868D">
+									<object name="locstridBackUpText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
 								</object>
@@ -287,8 +287,8 @@
 									<field name="fTransferRadius" type="BinHex"/>
 									<field name="bUseOverrideRadius" type="BinHex"/>
 									<field name="bAdaptCountOfRequiredPlayersToCountOfSessionPeers" type="BinHex"/>
-									<field hash="775E9397" type="BinHex"/>
-									<field hash="11D247E2" type="BinHex"/>
+									<field name="bStartDownloadForAllPlayers" type="BinHex"/>
+									<field name="bShouldDisplayMissingPlayerLocation" type="BinHex"/>
 									<field name="selTransferRadiusShape" type="BinHex"/>
 									<field name="fCylinderShapeZOffsetTop" type="BinHex"/>
 									<field name="fCylinderShapeZOffsetBottom" type="BinHex"/>
@@ -340,7 +340,7 @@
 									<object name="locstridSubText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
-									<object hash="4B95868D">
+									<object name="locstridBackUpText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
 								</object>
@@ -351,7 +351,7 @@
 									<object name="locstridSubText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
-									<object hash="4B95868D">
+									<object name="locstridBackUpText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
 								</object>
@@ -370,8 +370,8 @@
 									<field name="fTransferRadius" type="BinHex"/>
 									<field name="bUseOverrideRadius" type="BinHex"/>
 									<field name="bAdaptCountOfRequiredPlayersToCountOfSessionPeers" type="BinHex"/>
-									<field hash="775E9397" type="BinHex"/>
-									<field hash="11D247E2" type="BinHex"/>
+									<field name="bStartDownloadForAllPlayers" type="BinHex"/>
+									<field name="bShouldDisplayMissingPlayerLocation" type="BinHex"/>
 									<field name="selTransferRadiusShape" type="BinHex"/>
 									<field name="fCylinderShapeZOffsetTop" type="BinHex"/>
 									<field name="fCylinderShapeZOffsetBottom" type="BinHex"/>
@@ -456,19 +456,19 @@
 								<object name="locstridSubText">
 									<field name="LocalizationId" type="UInt64"/>
 								</object>
-								<object hash="4B95868D">
+								<object name="locstridBackUpText">
 									<field name="LocalizationId" type="UInt64"/>
 								</object>
 							</object>
 							<object name="ObjectiveReachOverrideSettings">
 								<field name="fRangeFromTargetToValidateReach" type="BinHex"/>
-								<field hash="30FFCE83" type="BinHex"/>
+								<field name="bMustBeOnSameFloor" type="BinHex"/>
 								<field name="bTargetMustBeInLineOfSight" type="BinHex"/>
 								<field name="bTempPartyReach" type="BinHex"/>
-								<field hash="9AEAF4C6" type="BinHex"/>
+								<field name="bScaleTargetGraphicWithRadius" type="BinHex"/>
 								<field name="bPlayerMustInteractWithTargetToCompleteReach" type="BinHex"/>
 								<field name="bPlayerMustLocateTargetToCompleteReach" type="BinHex"/>
-								<field hash="1B31E2CF" type="BinHex"/>
+								<field name="bMustEscape" type="BinHex"/>
 								<field name="yinteractgameplaydescriptorInteractDescriptor" type="BinHex"/>
 								<object name="Target">
 									<field name="TargetSceneID" type="BinHex"/>
@@ -482,7 +482,7 @@
 									<object name="locstridSubText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
-									<object hash="4B95868D">
+									<object name="locstridBackUpText">
 										<field name="LocalizationId" type="UInt64"/>
 									</object>
 								</object>

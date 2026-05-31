@@ -17,28 +17,28 @@
 	</object>
 	<object name="Sound">
 		<field name="sndNotifyHeatLevelUpSound" type="BinHex"/>
-		<field hash="F4519A9D" type="BinHex"/>
+		<field name="sndtpNotifyHeatLevelUpSoundType" type="BinHex"/>
 		<field name="sndNotifyHeatLevelDownSound" type="BinHex"/>
-		<field hash="B2846773" type="BinHex"/>
+		<field name="sndtpNotifyHeatLevelDownSoundType" type="BinHex"/>
 		<field name="text_sndNotifyChaseEscapeSound" type="String"/>
 		<field name="sndNotifyChaseEscapeSound" type="BinHex"/>
-		<field hash="1FBE7FCB" type="BinHex"/>
+		<field name="sndtpNotifyChaseEscapeSoundType" type="BinHex"/>
 		<field name="sndDefaultChaseStartedSound" type="BinHex"/>
 		<field name="sndDefaultChaseStoppedSound" type="BinHex"/>
 		<field name="text_sndDefaultSearchStartedSound" type="String"/>
 		<field name="sndDefaultSearchStartedSound" type="BinHex"/>
 		<field name="sndDefaultSearchStoppedSound" type="BinHex"/>
-		<field hash="64DB5FDB" type="BinHex"/>
-		<field hash="CC1A846F" type="BinHex"/>
-		<field hash="7B578936" type="BinHex"/>
-		<field hash="D3965282" type="BinHex"/>
+		<field name="sndtpDefaultChaseStartedSoundType" type="BinHex"/>
+		<field name="sndtpDefaultChaseStoppedSoundType" type="BinHex"/>
+		<field name="sndtpDefaultSearchStartedSoundType" type="BinHex"/>
+		<field name="sndtpDefaultSearchStoppedSoundType" type="BinHex"/>
 		<object name="Player">
 			<field name="text_sndPlayerChaseStartedSound" type="String"/>
 			<field name="sndPlayerChaseStartedSound" type="BinHex"/>
 			<field name="text_sndPlayerChaseStoppedSound" type="String"/>
 			<field name="sndPlayerChaseStoppedSound" type="BinHex"/>
-			<field hash="DB033148" type="BinHex"/>
-			<field hash="73C2EAFC" type="BinHex"/>
+			<field name="sndtpPlayerChaseStartedSoundType" type="BinHex"/>
+			<field name="sndtpPlayerChaseStoppedSoundType" type="BinHex"/>
 		</object>
 	</object>
 	<object name="Timers">

@@ -8,5 +8,5 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="text_sndPersonOfInterestFoundSoundId" type="String"/>
 	<field name="sndPersonOfInterestFoundSoundId" type="BinHex"/>
-	<field hash="69B7054B" type="BinHex"/>
+	<field name="sndtpPersonOfInterestFoundSoundType" type="BinHex"/>
 </class>

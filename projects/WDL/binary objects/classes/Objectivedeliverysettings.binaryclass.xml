@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="locategameplaydescriptorTargetsLocateDescriptor" type="BinHex"/>
-	<field hash="7909A60D" type="BinHex"/>
+	<field name="selDeliveryType" type="BinHex"/>
 	<field name="bMustEscapePursuers" type="BinHex"/>
 	<field name="bUseEscapeArea" type="BinHex"/>
 	<field name="fEscapeAreaRadius" type="BinHex"/>
@@ -16,11 +16,11 @@
 	<field name="fClosingOnDestinationTriggerDistance" type="BinHex"/>
 	<field name="bDeactivateDestinationUIOnEscapePursuersPhase" type="BinHex"/>
 	<field name="bNeedsToGetOutOfVehicleToComplete" type="Boolean"/>
-	<field hash="90799916" type="BinHex"/>
+	<field name="bActivateGetBackInVehicleWhenPursuedCountdownTimer" type="BinHex"/>
 	<field name="selFailedOnDamageState" type="BinHex"/>
 	<field name="bDeliverSpecificVehicles" type="Boolean"/>
 	<field name="bForceTargetVehicleExplosionOnDestruction" type="BinHex"/>
-	<field hash="A88C7E5A" type="BinHex"/>
+	<field name="selTargetPriorityType" type="BinHex"/>
 	<field name="iNbToDeliver" type="Int32"/>
 	<field name="selVehicleTypeFlags" type="Enum"/>
 	<field name="locategameplaydescriptorDestinationLocateDescriptor" type="BinHex"/>
@@ -67,7 +67,7 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>
@@ -78,7 +78,7 @@
 		<object name="locstridSubText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4B95868D">
+		<object name="locstridBackUpText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 	</object>

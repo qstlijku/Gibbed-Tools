@@ -11,27 +11,27 @@
 	<field name="bAllowSpawningInPlayerFoV" type="BinHex"/>
 	<field name="bIsDynamicSpawningEnabled" type="BinHex"/>
 	<field name="fDesiredTimeToReachTarget" type="BinHex"/>
-	<field hash="DEFA8D11" type="BinHex"/>
+	<field name="fSpawnLocationMaxDistanceRatio" type="BinHex"/>
 	<field name="bFallbackToOnfootSpawning" type="BinHex"/>
 	<field name="bAllowAutomaticZoneLocking" type="Boolean"/>
 	<field name="bDisableDefenseZone" type="BinHex"/>
-	<field hash="4A790BFD" type="BinHex"/>
-	<field hash="8013BAB9" type="BinHex"/>
+	<field name="bShouldPlayDroneDeploymentBark" type="BinHex"/>
+	<field name="blkpDurationLoaded" type="BinHex"/>
 	<object name="CombatAndTargetPosition">
-		<field hash="715FDEEE" type="BinHex"/>
-		<field hash="743CD630" type="BinHex"/>
-		<field hash="6B9663FD" type="BinHex"/>
+		<field name="bAllPlayersAreThreats" type="BinHex"/>
+		<field name="bCheatTargetPosition" type="BinHex"/>
+		<field name="bKeepAliveTargetPosition" type="BinHex"/>
 		<object name="KeepAliveTargetPosition">
-			<field hash="D36F7537" type="BinHex"/>
-			<field hash="F54E1C5D" type="BinHex"/>
+			<field name="bKeepAliveTargetPositionInfinite" type="BinHex"/>
+			<field name="fKeepAliveTargetPositionDuration" type="BinHex"/>
 		</object>
 		<object name="CheatTargetPosition">
-			<field hash="1AB6750D" type="BinHex"/>
-			<field hash="4BCAF239" type="BinHex"/>
+			<field name="bCheatTargetPositionInfinite" type="BinHex"/>
+			<field name="fCheatTargetPositionDuration" type="BinHex"/>
 		</object>
 	</object>
 	<object name="ReinforcementGameplayBrick">
-		<field hash="62DD4DEE" type="BinHex"/>
-		<field hash="0CBA2766" type="BinHex"/>
+		<field name="bReinforcementGameplayForceCombatOnAllPlayers" type="BinHex"/>
+		<field name="fReinforcementGameplayForceCombatDuration" type="BinHex"/>
 	</object>
 </class>

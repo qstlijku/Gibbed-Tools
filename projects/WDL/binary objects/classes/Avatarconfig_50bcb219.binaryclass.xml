@@ -95,21 +95,21 @@
 		<field name="fWalkInteractionMinDist" type="Float"/>
 		<field name="fJogInteractionMinDist" type="Float"/>
 		<field name="fSprintInteractionMinDist" type="Float"/>
-		<field hash="BDDB32BA" type="BinHex"/>
-		<field hash="C6C095C8" type="BinHex"/>
-		<field hash="270D3608" type="BinHex"/>
-		<field hash="628B93DB" type="BinHex"/>
-		<field hash="E9B5E13F" type="BinHex"/>
-		<field hash="92AE464D" type="BinHex"/>
-		<field hash="97899AFE" type="BinHex"/>
-		<field hash="3BA528D5" type="BinHex"/>
+		<field name="fLadderUpIdleInteractionMinDist" type="BinHex"/>
+		<field name="fLadderUpWalkInteractionMinDist" type="BinHex"/>
+		<field name="fLadderUpJogInteractionMinDist" type="BinHex"/>
+		<field name="fLadderUpSprintInteractionMinDist" type="BinHex"/>
+		<field name="fLadderDownIdleInteractionMinDist" type="BinHex"/>
+		<field name="fLadderDownWalkInteractionMinDist" type="BinHex"/>
+		<field name="fLadderDownJogInteractionMinDist" type="BinHex"/>
+		<field name="fLadderDownSprintInteractionMinDist" type="BinHex"/>
 		<field name="fClimbDownWalkStartDist1M" type="Float"/>
 		<field name="fClimbDownWalkStartDist3M" type="Float"/>
 		<field name="fClimbDownJogStartDist1M" type="Float"/>
 		<field name="fClimbDownJogStartDist3M" type="Float"/>
 		<field name="fClimbDownSprintStartDist1M" type="Float"/>
 		<field name="fClimbDownSprintStartDist3M" type="Float"/>
-		<field hash="EEEC76F4" type="BinHex"/>
+		<field name="fClimbDownFromDynamicGround" type="BinHex"/>
 		<field name="fWallJumpStartDist" type="Float"/>
 		<field name="fStartAngleDiffMax" type="Float"/>
 		<field name="fStartAngleDiffMaxForChaining" type="Float"/>
@@ -132,7 +132,7 @@
 		<field name="fLadder6mEnterHeightLowSpeed" type="Float"/>
 		<field name="fLadder6mEnterHeightHighSpeed" type="Float"/>
 		<field name="fPipeClimbUpDistMax" type="BinHex"/>
-		<field hash="45DD6101" type="BinHex"/>
+		<field name="fPipeEnterHeight" type="BinHex"/>
 		<field name="fSlideOverMinWidth" type="Float"/>
 		<field name="fSlideOverMaxWidth" type="Float"/>
 		<field name="fSlideOverInterruptDist" type="Float"/>

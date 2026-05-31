@@ -17,5 +17,5 @@
 	<field name="uiDestroyEscalationHackNumber" type="BinHex"/>
 	<field name="uiSearchEscalationHackNumber" type="BinHex"/>
 	<field name="uiEnableEscalationHackNumber" type="BinHex"/>
-	<field hash="5CA78053" type="BinHex"/>
+	<field name="colorConnectionLineColor" type="BinHex"/>
 </class>

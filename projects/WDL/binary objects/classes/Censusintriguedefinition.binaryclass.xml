@@ -9,7 +9,7 @@
 	<field name="selIntrigueType" type="BinHex"/>
 	<field name="selResolutionModifierForTarget" type="BinHex"/>
 	<field name="selResolutionModifierForOwner" type="BinHex"/>
-	<field hash="225841E0" type="BinHex"/>
+	<field name="censusdeepprofilericondefinitionDeepProfilerIcon" type="BinHex"/>
 	<object name="SpecificData">
 		<field name="text_selType" type="String"/>
 		<field name="selType" type="Enum"/>

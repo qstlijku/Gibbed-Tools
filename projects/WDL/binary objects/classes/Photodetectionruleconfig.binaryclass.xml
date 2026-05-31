@@ -77,7 +77,7 @@
 							<field name="fileAliveBehavior" type="BinHex"/>
 						</object>
 					</object>
-					<field hash="EB90EEE5" type="BinHex"/>
+					<field name="fEntityMinScreenDrawPercentage" type="BinHex"/>
 					<field name="fEntityMinVisibilityPercentage" type="BinHex"/>
 				</object>
 			</object>

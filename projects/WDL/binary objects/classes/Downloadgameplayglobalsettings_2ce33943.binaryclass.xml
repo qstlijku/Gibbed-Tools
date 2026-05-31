@@ -19,7 +19,7 @@
 	<object name="locstridDownloadPausedDisplayString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="6ED4B2F3">
+	<object name="locstridDownloadMissingPlayerWithLocationTagString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridEraseDisplayString">
@@ -34,7 +34,7 @@
 	<object name="locstridUploadPausedDisplayString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="1E6D49C1">
+	<object name="locstridSinglePlayerOutOfRangeDisplayString">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

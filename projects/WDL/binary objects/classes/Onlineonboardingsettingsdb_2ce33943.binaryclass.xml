@@ -8,18 +8,18 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="IsEnabled" type="BinHex"/>
 	<object name="OnlineOnboardingList">
-		<object hash="342CB585">
-			<field hash="342CB585" type="BinHex"/>
+		<object name="onlineonboardingstepOnlineOnboardingStepDb">
+			<field name="onlineonboardingstepOnlineOnboardingStepDb" type="BinHex"/>
 		</object>
 	</object>
 	<object name="OnlineOnboardingHintList">
-		<object hash="B80CFA26">
-			<field hash="B80CFA26" type="BinHex"/>
+		<object name="onlineonboardinghintOnlineOnboardingHintDb">
+			<field name="onlineonboardinghintOnlineOnboardingHintDb" type="BinHex"/>
 		</object>
 	</object>
 	<object name="IntroductionCinematic">
 		<field name="UseBink" type="BinHex"/>
-		<field hash="25067F29" type="BinHex"/>
+		<field name="videosIntroVideoBink" type="BinHex"/>
 		<field name="entIntroSequenceCenterSceneEntityId" type="BinHex"/>
 		<field name="text_fileIntroSequenceResourcePath" type="String"/>
 		<field name="fileIntroSequenceResourcePath" type="BinHex"/>
@@ -28,19 +28,19 @@
 		<field name="sndMuteExternalSounds" type="BinHex"/>
 		<field name="text_sndUnmuteExternalSounds" type="String"/>
 		<field name="sndUnmuteExternalSounds" type="BinHex"/>
-		<field hash="C78075BA" type="BinHex"/>
-		<field hash="D8BB27FF" type="BinHex"/>
+		<field name="sndtpMuteExternalSoundsType" type="BinHex"/>
+		<field name="sndtpUnmuteExternalSoundsType" type="BinHex"/>
 		<field hash="3E96DF18" type="String"/>
-		<field hash="CCE499D6" type="BinHex"/>
+		<field name="sndPlayMusic" type="BinHex"/>
 		<field hash="DF75E3D6" type="String"/>
-		<field hash="2D07A518" type="BinHex"/>
+		<field name="sndStopMusic" type="BinHex"/>
 		<field hash="193EF56B" type="String"/>
-		<field hash="EB4CB3A5" type="BinHex"/>
-		<field hash="E3F73527" type="BinHex"/>
-		<field hash="E50CB7D2" type="BinHex"/>
-		<field hash="9AE4F8AA" type="BinHex"/>
+		<field name="sndSkipMusic" type="BinHex"/>
+		<field name="sndtpPlayMusicSoundsType" type="BinHex"/>
+		<field name="sndtpStopMusicSoundsType" type="BinHex"/>
+		<field name="sndtpSkipMusicSoundsType" type="BinHex"/>
 	</object>
 	<object name="ExitHackerspacePosition">
-		<field hash="324EE216" type="BinHex"/>
+		<field name="entEntityToTeleport" type="BinHex"/>
 	</object>
 </class>

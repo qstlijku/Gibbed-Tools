@@ -7,6 +7,6 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fCooldownValue" type="BinHex"/>
-	<field hash="103301ED" type="BinHex"/>
+	<field name="fDelayToStartAfterReceivingTrigger" type="BinHex"/>
 	<field name="fStartDelay" type="Float"/>
 </class>

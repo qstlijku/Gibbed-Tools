@@ -41,11 +41,11 @@
 	<field name="archetypeconfiglistElite_Rusher" type="BinHex"/>
 	<field name="archetypeconfiglistElite_Captain" type="BinHex"/>
 	<field name="archetypeconfiglistElite_Grenadier" type="BinHex"/>
-	<field hash="0764AAB2" type="BinHex"/>
-	<field hash="C8FE27AD" type="BinHex"/>
-	<field hash="D113A160" type="BinHex"/>
-	<field hash="E4C0B560" type="BinHex"/>
-	<field hash="B26EC222" type="BinHex"/>
-	<field hash="1F374AE4" type="BinHex"/>
-	<field hash="B3280635" type="BinHex"/>
+	<field name="archetypeconfiglistOCO_Elite_Captain" type="BinHex"/>
+	<field name="archetypeconfiglistOCO_Elite_Grenadier" type="BinHex"/>
+	<field name="archetypeconfiglistOCO_Elite_Grunt" type="BinHex"/>
+	<field name="archetypeconfiglistOCO_Elite_Overwatch" type="BinHex"/>
+	<field name="archetypeconfiglistOCO_Elite_Rusher" type="BinHex"/>
+	<field name="archetypeconfiglistOCO_Elite_Grenadier_RedBlade" type="BinHex"/>
+	<field name="archetypeconfiglistOCO_Elite_Overwatch_RedBlade" type="BinHex"/>
 </class>

@@ -34,14 +34,14 @@
 		<field name="bIconRevealedShowOnlyInLOS" type="BinHex"/>
 		<field name="fIconRevealedShowOnlyInLOSCheckTime" type="BinHex"/>
 		<field name="fIconForceRevealedShowRange" type="BinHex"/>
-		<field hash="5F80AA23" type="BinHex"/>
+		<field name="bSinglePlayerOnly" type="BinHex"/>
 		<field name="nethackingconfigNetHackingConfigOverride" type="BinHex"/>
 		<field name="bIsIntel" type="Boolean"/>
 		<field name="bIsOnlySaveIfCompleted" type="Boolean"/>
 		<field name="possyselementIconAcquired" type="BinHex"/>
-		<field hash="4C71A7DD" type="BinHex"/>
+		<field name="possyselementIconDisabled" type="BinHex"/>
 		<field name="sndRevealSound" type="BinHex"/>
-		<field hash="C5564D02" type="BinHex"/>
+		<field name="sndtpRevealSoundType" type="BinHex"/>
 		<object name="locstridRevealMessage">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>

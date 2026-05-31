@@ -12,14 +12,14 @@
 		<field name="sndtpSoundType" type="BinHex"/>
 	</object>
 	<object name="PlayerProximityCheckConfigForMemoryAssignment">
-		<field hash="4E0644CB" type="BinHex"/>
+		<field name="selRoleToCheck" type="BinHex"/>
 		<field name="fRadius" type="Float"/>
-		<field hash="782861D2" type="BinHex"/>
-		<field hash="C3231C04" type="BinHex"/>
-		<field hash="9C9E60FA" type="BinHex"/>
-		<field hash="4383E2C4" type="BinHex"/>
-		<field hash="2DA56190" type="BinHex"/>
+		<field name="fIgnoreLOSInnerRadius" type="BinHex"/>
+		<field name="fMaxDeltaZ" type="BinHex"/>
+		<field name="bCheckPlayerLOS" type="BinHex"/>
+		<field name="bIgnoreCamera" type="BinHex"/>
+		<field name="bCheckRCProximity" type="BinHex"/>
 		<field name="fMinScreenDrawPercent" type="Float"/>
-		<field hash="E0C6D335" type="BinHex"/>
+		<field name="fMinCharacterVisibilityPercent" type="BinHex"/>
 	</object>
 </class>

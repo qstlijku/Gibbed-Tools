@@ -12,10 +12,10 @@
 	<field name="tagcategoryTagCategoryArena" type="BinHex"/>
 	<field name="bIsTeleportInSameLayer" type="BinHex"/>
 	<field name="vectorTeleportOffset" type="BinHex"/>
-	<field hash="46DBABC9" type="BinHex"/>
+	<field name="fTeleportYawOffset" type="BinHex"/>
 	<field name="sLayerNameToLoad" type="String"/>
 	<field name="bCanTriggerCelebrationModule" type="BinHex"/>
-	<field hash="2CC1E819" type="BinHex"/>
+	<field name="bShowObjective" type="BinHex"/>
 	<object name="locstridArenaName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>

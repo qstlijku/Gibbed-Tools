@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="175C4DEB" type="BinHex"/>
+	<field name="texturedbobjectEmojiTexturePathFallBack" type="BinHex"/>
 	<object name="EmoticonsToUnicodeMappingDB">
 		<object name="EmoticonToUnicodeMapping">
 			<field name="sEmoticon" type="BinHex"/>

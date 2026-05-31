@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="BroadcastData">
 		<field name="fileBink" type="String"/>
-		<field hash="82948C4D" type="BinHex"/>
+		<field name="fileBink4K" type="BinHex"/>
 		<field name="bUsePerFrameLightData" type="BinHex"/>
 		<field name="fSubtitleDisplayTime" type="Float"/>
 		<field name="bIsBinkStreamed" type="Boolean"/>

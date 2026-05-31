@@ -10,7 +10,7 @@
 	<field name="archWireframe" type="BinHex"/>
 	<field name="archFinished" type="BinHex"/>
 	<field name="texturedbobjectRelicIcon" type="BinHex"/>
-	<field hash="0C787D3F" type="BinHex"/>
+	<field name="selDataDriveCategory" type="BinHex"/>
 	<field name="bIsOPSpecific" type="BinHex"/>
 	<object name="Pieces">
 		<object name="RelicPiece">

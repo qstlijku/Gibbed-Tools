@@ -19,7 +19,7 @@
 		<field name="vecMarkerOffset" type="BinHex"/>
 		<field name="bDeactivateOnDeath" type="BinHex"/>
 		<field name="bDeactivateOnDestroy" type="BinHex"/>
-		<field hash="8BCC7361" type="BinHex"/>
+		<field name="bIsMarkerOccludable" type="BinHex"/>
 		<object name="locstridOverrideText">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>

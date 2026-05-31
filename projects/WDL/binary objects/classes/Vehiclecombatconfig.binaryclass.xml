@@ -9,6 +9,6 @@
 	<field name="dMaxRamSlots" type="BinHex"/>
 	<field name="fRamSlotMaxTime" type="BinHex"/>
 	<field name="fRamSlotCooldown" type="BinHex"/>
-	<field hash="D46E3C77" type="BinHex"/>
-	<field hash="A6CB5094" type="BinHex"/>
+	<field name="bShouldControlRamSpeed" type="BinHex"/>
+	<field name="fRamSpeedScalar" type="BinHex"/>
 </class>

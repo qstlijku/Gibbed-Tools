@@ -15,7 +15,7 @@
 	<field name="bShouldLeaveInWanderUponDelivery" type="BinHex"/>
 	<field name="bShouldLeaveInFleeUponDelivery" type="BinHex"/>
 	<field name="bUsePGTArenaAsFleeThreat" type="BinHex"/>
-	<field hash="D4AE10FE" type="BinHex"/>
+	<field name="bIsGoingToBeTalker" type="BinHex"/>
 	<field name="fleebehaviordescriptorBuddyFleeBhvDescriptor" type="BinHex"/>
 	<field name="sBuddyDeliverBarkTriggerName" type="BinHex"/>
 	<field name="locategameplaydescriptorBuddyLocateDescriptor" type="BinHex"/>

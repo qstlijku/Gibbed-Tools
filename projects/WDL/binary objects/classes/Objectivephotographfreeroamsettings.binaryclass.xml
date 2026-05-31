@@ -23,7 +23,7 @@
 	<object name="locstridSoloDescriptionLocIdFallback">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="46446E05">
+	<object name="locstridTargetNeutralizedFailLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridTimerFailLocId">

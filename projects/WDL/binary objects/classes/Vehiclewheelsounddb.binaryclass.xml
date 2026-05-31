@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="sndPassby" type="BinHex"/>
-	<field hash="219575A5" type="BinHex"/>
+	<field name="sndtpPassbyType" type="BinHex"/>
 	<object name="Sliding">
 		<field name="text_sndWheelSlideSound_1" type="String"/>
 		<field name="sndWheelSlideSound_1" type="BinHex"/>
@@ -25,14 +25,14 @@
 		<field name="sndWheelSlideStopSound_3" type="BinHex"/>
 		<field name="text_sndWheelSlideStopSound_4" type="String"/>
 		<field name="sndWheelSlideStopSound_4" type="BinHex"/>
-		<field hash="6FAE2738" type="BinHex"/>
-		<field hash="280E5DE8" type="BinHex"/>
-		<field hash="156E7458" type="BinHex"/>
-		<field hash="A74EA848" type="BinHex"/>
-		<field hash="48B28EF2" type="BinHex"/>
-		<field hash="0F12F422" type="BinHex"/>
-		<field hash="3272DD92" type="BinHex"/>
-		<field hash="80520182" type="BinHex"/>
+		<field name="sndtpWheelSlideSound_1Type" type="BinHex"/>
+		<field name="sndtpWheelSlideSound_2Type" type="BinHex"/>
+		<field name="sndtpWheelSlideSound_3Type" type="BinHex"/>
+		<field name="sndtpWheelSlideSound_4Type" type="BinHex"/>
+		<field name="sndtpWheelSlideStopSound_1Type" type="BinHex"/>
+		<field name="sndtpWheelSlideStopSound_2Type" type="BinHex"/>
+		<field name="sndtpWheelSlideStopSound_3Type" type="BinHex"/>
+		<field name="sndtpWheelSlideStopSound_4Type" type="BinHex"/>
 		<field name="text_sndWheelRimSlideSound_1" type="String"/>
 		<field name="sndWheelRimSlideSound_1" type="BinHex"/>
 		<field name="text_sndWheelRimSlideSound_2" type="String"/>
@@ -53,16 +53,16 @@
 		<field name="sndWheelSlideNpcStart" type="BinHex"/>
 		<field name="text_sndWheelSlideNpcStop" type="String"/>
 		<field name="sndWheelSlideNpcStop" type="BinHex"/>
-		<field hash="0BB3F727" type="BinHex"/>
-		<field hash="4C138DF7" type="BinHex"/>
-		<field hash="7173A447" type="BinHex"/>
-		<field hash="C3537857" type="BinHex"/>
-		<field hash="78F23556" type="BinHex"/>
-		<field hash="3F524F86" type="BinHex"/>
-		<field hash="02326636" type="BinHex"/>
-		<field hash="B012BA26" type="BinHex"/>
-		<field hash="3B16744C" type="BinHex"/>
-		<field hash="1B4CE35C" type="BinHex"/>
+		<field name="sndtpWheelRimSlideSound_1Type" type="BinHex"/>
+		<field name="sndtpWheelRimSlideSound_2Type" type="BinHex"/>
+		<field name="sndtpWheelRimSlideSound_3Type" type="BinHex"/>
+		<field name="sndtpWheelRimSlideSound_4Type" type="BinHex"/>
+		<field name="sndtpWheelRimSlideStopSound_1Type" type="BinHex"/>
+		<field name="sndtpWheelRimSlideStopSound_2Type" type="BinHex"/>
+		<field name="sndtpWheelRimSlideStopSound_3Type" type="BinHex"/>
+		<field name="sndtpWheelRimSlideStopSound_4Type" type="BinHex"/>
+		<field name="sndtpWheelSlideNpcStartType" type="BinHex"/>
+		<field name="sndtpWheelSlideNpcStopType" type="BinHex"/>
 		<field name="fSlipMin" type="Float"/>
 		<field name="fSlipMax" type="Float"/>
 		<field name="fTrafficSlipMin" type="Float"/>
@@ -83,15 +83,15 @@
 		<field name="sndAdrenalineDeflateTyre_4" type="BinHex"/>
 		<field name="text_sndNpcTiresLoop" type="String"/>
 		<field name="sndNpcTiresLoop" type="BinHex"/>
-		<field hash="3A93143D" type="BinHex"/>
-		<field hash="7D336EED" type="BinHex"/>
-		<field hash="4053475D" type="BinHex"/>
-		<field hash="F2739B4D" type="BinHex"/>
-		<field hash="B5A77D55" type="BinHex"/>
-		<field hash="F2070785" type="BinHex"/>
-		<field hash="CF672E35" type="BinHex"/>
-		<field hash="7D47F225" type="BinHex"/>
-		<field hash="D2D5ADB6" type="BinHex"/>
+		<field name="sndtpDeflateTyre_1Type" type="BinHex"/>
+		<field name="sndtpDeflateTyre_2Type" type="BinHex"/>
+		<field name="sndtpDeflateTyre_3Type" type="BinHex"/>
+		<field name="sndtpDeflateTyre_4Type" type="BinHex"/>
+		<field name="sndtpAdrenalineDeflateTyre_1Type" type="BinHex"/>
+		<field name="sndtpAdrenalineDeflateTyre_2Type" type="BinHex"/>
+		<field name="sndtpAdrenalineDeflateTyre_3Type" type="BinHex"/>
+		<field name="sndtpAdrenalineDeflateTyre_4Type" type="BinHex"/>
+		<field name="sndtpNpcTiresLoopType" type="BinHex"/>
 	</object>
 	<object name="Roll">
 		<field name="text_sndWheelRoll_1" type="String"/>
@@ -102,10 +102,10 @@
 		<field name="sndWheelRoll_3" type="BinHex"/>
 		<field name="text_sndWheelRoll_4" type="String"/>
 		<field name="sndWheelRoll_4" type="BinHex"/>
-		<field hash="7E51CFC1" type="BinHex"/>
-		<field hash="39F1B511" type="BinHex"/>
-		<field hash="04919CA1" type="BinHex"/>
-		<field hash="B6B140B1" type="BinHex"/>
+		<field name="sndtpWheelRoll_1Type" type="BinHex"/>
+		<field name="sndtpWheelRoll_2Type" type="BinHex"/>
+		<field name="sndtpWheelRoll_3Type" type="BinHex"/>
+		<field name="sndtpWheelRoll_4Type" type="BinHex"/>
 	</object>
 	<object name="Rim">
 		<field name="text_sndRimSound_1" type="String"/>
@@ -116,21 +116,21 @@
 		<field name="sndRimSound_3" type="BinHex"/>
 		<field name="text_sndRimSound_4" type="String"/>
 		<field name="sndRimSound_4" type="BinHex"/>
-		<field hash="A6436798" type="BinHex"/>
-		<field hash="E1E31D48" type="BinHex"/>
-		<field hash="DC8334F8" type="BinHex"/>
-		<field hash="6EA3E8E8" type="BinHex"/>
+		<field name="sndtpRimSound_1Type" type="BinHex"/>
+		<field name="sndtpRimSound_2Type" type="BinHex"/>
+		<field name="sndtpRimSound_3Type" type="BinHex"/>
+		<field name="sndtpRimSound_4Type" type="BinHex"/>
 	</object>
 	<object name="VegetationSound">
 		<field name="text_sndShortVegetationSoundId" type="String"/>
 		<field name="sndShortVegetationSoundId" type="BinHex"/>
-		<field hash="D891DCE7" type="BinHex"/>
+		<field name="sndtpShortVegetationSoundIdType" type="BinHex"/>
 		<field name="text_sndMediumVegetationSoundId" type="String"/>
 		<field name="sndMediumVegetationSoundId" type="BinHex"/>
-		<field hash="7CB7728D" type="BinHex"/>
+		<field name="sndtpMediumVegetationSoundIdType" type="BinHex"/>
 		<field name="text_sndLongVegetationSoundId" type="String"/>
 		<field name="sndLongVegetationSoundId" type="BinHex"/>
-		<field hash="74E384E0" type="BinHex"/>
+		<field name="sndtpLongVegetationSoundIdType" type="BinHex"/>
 		<field name="fFadeOutDuration" type="Float"/>
 	</object>
 	<object name="Suspension">
@@ -140,17 +140,17 @@
 		<field name="sndSuspensionSoundMedium" type="BinHex"/>
 		<field name="text_sndSuspensionSoundSmall" type="String"/>
 		<field name="sndSuspensionSoundSmall" type="BinHex"/>
-		<field hash="689329AC" type="BinHex"/>
-		<field hash="BE429F43" type="BinHex"/>
-		<field hash="9FAED7BA" type="BinHex"/>
+		<field name="sndtpSuspensionSoundHeavyType" type="BinHex"/>
+		<field name="sndtpSuspensionSoundMediumType" type="BinHex"/>
+		<field name="sndtpSuspensionSoundSmallType" type="BinHex"/>
 		<field name="fSuspensionSmallSpeed" type="Float"/>
 		<field name="fSuspensionMediumSpeed" type="Float"/>
 		<field name="fSuspensionHeavySpeed" type="Float"/>
 		<object name="TensionSound">
 			<field name="sndSuspensionTensionSoundStart" type="BinHex"/>
 			<field name="sndSuspensionTensionSoundEnd" type="BinHex"/>
-			<field hash="2C3A5EC7" type="BinHex"/>
-			<field hash="C06F72B6" type="BinHex"/>
+			<field name="sndtpSuspensionTensionSoundStartType" type="BinHex"/>
+			<field name="sndtpSuspensionTensionSoundEndType" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -9,7 +9,7 @@
 	<field name="selSettingType" type="BinHex"/>
 	<field name="sUiMovieClipName" type="BinHex"/>
 	<field name="bIsEditableByPlayer" type="BinHex"/>
-	<field hash="413F7139" type="BinHex"/>
+	<field name="bIsAvailableInCinematics" type="BinHex"/>
 	<field name="cinematicmodeColorFilter" type="BinHex"/>
 	<field name="selStickerBlendType" type="BinHex"/>
 	<field name="selStickerHorizontalAlignment" type="BinHex"/>

@@ -8,10 +8,10 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="fShowFinalPaintTimerLength" type="BinHex"/>
 	<field name="fReturnToPlayerTimerLength" type="BinHex"/>
-	<field hash="CD54F52F" type="BinHex"/>
-	<field hash="9836807F" type="BinHex"/>
-	<field hash="62ED842B" type="BinHex"/>
-	<field hash="C9C2D860" type="BinHex"/>
+	<field name="fAnimatedCameraTimerLength" type="BinHex"/>
+	<field name="fMinPlayerMovementToSkip" type="BinHex"/>
+	<field name="fSkipFadeDuration" type="BinHex"/>
+	<field name="fSkipMinDuration" type="BinHex"/>
 	<field name="text_archFinalDecalArchetype" type="String"/>
 	<field name="archFinalDecalArchetype" type="BinHex"/>
 	<field name="text_archSelectedProjectionArchetype" type="String"/>
@@ -30,18 +30,18 @@
 	<field name="sndPageClosed" type="BinHex"/>
 	<field name="text_sndPageOpened" type="String"/>
 	<field name="sndPageOpened" type="BinHex"/>
-	<field hash="79182B60" type="BinHex"/>
-	<field hash="16F3767F" type="BinHex"/>
-	<field hash="FCA15DA3" type="BinHex"/>
-	<field hash="241E0157" type="BinHex"/>
-	<field hash="C9BA968F" type="BinHex"/>
-	<field hash="5905C8BC" type="BinHex"/>
-	<field hash="9E047891" type="BinHex"/>
-	<field hash="D817FB49" type="BinHex"/>
-	<field hash="A8093978" type="BinHex"/>
+	<field name="sndtpCameraTravelType" type="BinHex"/>
+	<field name="sndtpCameraStartType" type="BinHex"/>
+	<field name="sndtpCameraStopType" type="BinHex"/>
+	<field name="sndtpGraffitySequenceStartType" type="BinHex"/>
+	<field name="sndtpGraffitySequenceStopType" type="BinHex"/>
+	<field name="sndtpPageClosedType" type="BinHex"/>
+	<field name="sndtpPageOpenedType" type="BinHex"/>
+	<field name="fChallengeCelebrationModuleDisplayDuration" type="BinHex"/>
+	<field name="fLocationCelebrationModuleDisplayDuration" type="BinHex"/>
 	<field name="text_LocationReachedBarkId" type="String"/>
 	<field name="LocationReachedBarkId" type="BinHex"/>
-	<field hash="280A2BDC" type="BinHex"/>
+	<field name="fLocationReachedBarkCooldown" type="BinHex"/>
 	<field name="text_ArtworkUnlockedBarkId" type="String"/>
 	<field name="ArtworkUnlockedBarkId" type="BinHex"/>
 	<field name="text_InteractingBarkId" type="String"/>
@@ -56,16 +56,16 @@
 			<field name="streetartgraffiticonfigGraffiti" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="78187059">
+	<object name="locstridChallangeCelebrationModuleTitle">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="A610A535">
+	<object name="locstridChallangeCelebrationModuleText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="B3A183CF">
+	<object name="locstridLocationCelebrationModuleTitle">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="7E50BF85">
+	<object name="locstridLocationCelebrationModuleText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridSkipOverviewLocId">
@@ -83,8 +83,8 @@
 	</object>
 	<object name="Challenges">
 		<object name="Challenge">
-			<field hash="2D544CD9" type="BinHex"/>
-			<field hash="1CC4D505" type="BinHex"/>
+			<field name="iCryptoRequiredToComplete" type="BinHex"/>
+			<field name="iNumGraffitiToUnlock" type="BinHex"/>
 		</object>
 	</object>
 </class>

@@ -27,7 +27,7 @@
 	<field name="fCoverSideExitAngle" type="BinHex"/>
 	<field name="fCoverSideExitAngleAiming" type="BinHex"/>
 	<field name="fCoverSideSneakAngle" type="BinHex"/>
-	<field hash="6A73FCA3" type="BinHex"/>
+	<field name="fCoverExitInputDelay" type="BinHex"/>
 	<field name="fCoverExitSideDelay" type="BinHex"/>
 	<field name="fCoverExitSideDelayAiming" type="BinHex"/>
 	<field name="fCoverExitStealthNavTimeout" type="BinHex"/>
@@ -58,9 +58,9 @@
 	<field name="fCoverSlideMaxDistance" type="BinHex"/>
 	<field name="fCoverSlideMaxCoverAngleDiff" type="BinHex"/>
 	<field name="fCoverSlideMaxCoverNormalAngleDiff" type="BinHex"/>
-	<field hash="533D836F" type="BinHex"/>
-	<field hash="D3AB4E4C" type="BinHex"/>
-	<field hash="8A3EE335" type="BinHex"/>
+	<field name="fSmallCoverMaxWidth" type="BinHex"/>
+	<field name="fSmallCoverSnapInMaxCoverAngleDiff" type="BinHex"/>
+	<field name="fSmallCoverSnapInMaxCoverNormalAngleDiff" type="BinHex"/>
 	<field name="fCoverCornerSnapInMaxCoverAngleDiff" type="BinHex"/>
 	<field name="fCoverCornerSnapInMaxCoverNormalAngleDiff" type="BinHex"/>
 	<field name="fCoverCornerSnapInDetectDistance" type="BinHex"/>

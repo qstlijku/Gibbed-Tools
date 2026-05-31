@@ -11,33 +11,33 @@
 		<field name="fMinAirTimeForLongLandSound" type="Float"/>
 		<field name="text_sndJumpLaunch" type="String"/>
 		<field name="sndJumpLaunch" type="BinHex"/>
-		<field hash="CB63B6F9" type="BinHex"/>
+		<field name="sndtpJumpLaunch" type="BinHex"/>
 		<field name="text_sndLandGood" type="String"/>
 		<field name="sndLandGood" type="BinHex"/>
-		<field hash="C668FBB7" type="BinHex"/>
+		<field name="sndtpLandGood" type="BinHex"/>
 		<field name="text_sndLandBad" type="String"/>
 		<field name="sndLandBad" type="BinHex"/>
-		<field hash="64D24395" type="BinHex"/>
+		<field name="sndtpLandBad" type="BinHex"/>
 		<field name="text_sndLandSmall" type="String"/>
 		<field name="sndLandSmall" type="BinHex"/>
-		<field hash="3EEBD2E1" type="BinHex"/>
+		<field name="sndtpLandSmall" type="BinHex"/>
 		<field hash="164DE22E" type="String"/>
-		<field hash="8FE88C74" type="BinHex"/>
-		<field hash="5238D248" type="BinHex"/>
-		<field hash="FEB68BF2" type="BinHex"/>
-		<field hash="5B33A427" type="BinHex"/>
+		<field name="sndEngineOverheat" type="BinHex"/>
+		<field name="sndtpEngineOverheat" type="BinHex"/>
+		<field name="sndEngineOverheatStop" type="BinHex"/>
+		<field name="sndtpEngineOverheatStop" type="BinHex"/>
 		<field hash="8FEE5619" type="String"/>
-		<field hash="7D9C10D7" type="BinHex"/>
-		<field hash="AF7556A1" type="BinHex"/>
+		<field name="sndLockWheel" type="BinHex"/>
+		<field name="sndtpLockWheel" type="BinHex"/>
 		<field hash="529F9482" type="String"/>
-		<field hash="2EB10973" type="BinHex"/>
-		<field hash="9705343C" type="BinHex"/>
-		<field hash="4E371F43" type="BinHex"/>
-		<field hash="93E7417F" type="BinHex"/>
+		<field name="sndLockBrakes" type="BinHex"/>
+		<field name="sndtpLockBrakes" type="BinHex"/>
+		<field name="sndLockBrakesStop" type="BinHex"/>
+		<field name="sndtpLockBrakesStop" type="BinHex"/>
 		<field hash="0608C96D" type="String"/>
-		<field hash="8D2FD4E9" type="BinHex"/>
-		<field hash="A29D7830" type="BinHex"/>
-		<field hash="B986ED26" type="BinHex"/>
-		<field hash="4F9A4E52" type="BinHex"/>
+		<field name="sndReverseOverheat" type="BinHex"/>
+		<field name="sndtpReverseOverheat" type="BinHex"/>
+		<field name="sndReverseOverheatStop" type="BinHex"/>
+		<field name="sndtpReverseOverheatStop" type="BinHex"/>
 	</object>
 </class>

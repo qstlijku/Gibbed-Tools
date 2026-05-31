@@ -8,20 +8,20 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="text_sndWallaSoundStartEvent" type="String"/>
 	<field name="sndWallaSoundStartEvent" type="BinHex"/>
-	<field hash="03FE7A18" type="BinHex"/>
+	<field name="sndtpWallaSoundStartEventType" type="BinHex"/>
 	<field name="text_sndWallaSoundEndEvent" type="String"/>
 	<field name="sndWallaSoundEndEvent" type="BinHex"/>
-	<field hash="01FE4AEE" type="BinHex"/>
+	<field name="sndtpWallaSoundEndEventType" type="BinHex"/>
 	<field name="fHypeDecreasePerSecond" type="BinHex"/>
 	<field name="bHypeAdditive" type="BinHex"/>
 	<field name="iCrowdSizeMin" type="BinHex"/>
 	<field name="iCrowdSizeMax" type="BinHex"/>
 	<field name="text_sndCrowdPositiveSoundEvent" type="String"/>
 	<field name="sndCrowdPositiveSoundEvent" type="BinHex"/>
-	<field hash="CB022ED6" type="BinHex"/>
+	<field name="sndtpCrowdPositiveSoundEventType" type="BinHex"/>
 	<field name="text_sndCrowdNegativeSoundEvent" type="String"/>
 	<field name="sndCrowdNegativeSoundEvent" type="BinHex"/>
-	<field hash="CFFB4DE5" type="BinHex"/>
+	<field name="sndtpCrowdNegativeSoundEventType" type="BinHex"/>
 	<object name="sndvarWallaDensitySoundRTPC">
 		<field name="SoundId" type="BinHex"/>
 		<field name="SoundGuid" type="String"/>

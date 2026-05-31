@@ -18,7 +18,7 @@
 	<field name="humanconfigHumanConfig" type="BinHex"/>
 	<field name="wolfskinitemdbOptionalWolfSkinItemDBOverride" type="BinHex"/>
 	<field name="texturedbobjectPortraitTexture" type="BinHex"/>
-	<field hash="00C26367" type="BinHex"/>
+	<field name="bUseBagleyAnimForTeamspeaks" type="BinHex"/>
 	<object name="locstridCharacterFirstName">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>

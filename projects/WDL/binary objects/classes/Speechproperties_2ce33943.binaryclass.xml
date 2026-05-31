@@ -483,7 +483,7 @@
 		<object name="swedish">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="4F9CF8E1">
+		<object name="locJSwIndex">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object hash="D1F86D42">

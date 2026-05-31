@@ -70,8 +70,8 @@
 		<field name="fAlignmentLag" type="Float"/>
 	</object>
 	<object name="FollowOscillation">
-		<field hash="1630123D" type="BinHex"/>
-		<object hash="FF25481C">
+		<field name="bAddOscillationPitch" type="BinHex"/>
+		<object name="curveOscillationCurvePitch">
 			<field name="hidNumKnots" type="BinHex"/>
 			<object name="Knots">
 				<object name="Knot">

@@ -7,5 +7,5 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="profilingpathpresetCustomPreset" type="BinHex"/>
-	<field hash="3A43348D" type="BinHex"/>
+	<field name="profilingpathpresetCustomPresetVR" type="BinHex"/>
 </class>

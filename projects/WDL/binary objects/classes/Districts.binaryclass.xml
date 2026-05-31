@@ -9,7 +9,7 @@
 	<field name="DistrictNameId" type="BinHex"/>
 	<field name="texturedbobjectKeyLocationPanelImage" type="BinHex"/>
 	<field name="texturedbobjectBoroughPanelImage" type="BinHex"/>
-	<field hash="4B3FF7D5" type="BinHex"/>
+	<field name="texturedbobjectBoroughPanelMissionUnlock" type="BinHex"/>
 	<field name="texturedbobjectBoroughHudPanelImage" type="BinHex"/>
 	<field name="selPriority" type="Enum"/>
 	<field name="bIsHackerspace" type="BinHex"/>

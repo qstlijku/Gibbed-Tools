@@ -13,10 +13,10 @@
 	<field name="sndPingWaveStopSound" type="BinHex"/>
 	<field name="sndPingBackWaveStartSound" type="BinHex"/>
 	<field name="sndPingBackWaveStopSound" type="BinHex"/>
-	<field hash="45CBE37B" type="BinHex"/>
-	<field hash="E50A77C4" type="BinHex"/>
-	<field hash="43A2A49B" type="BinHex"/>
-	<field hash="3AF88881" type="BinHex"/>
+	<field name="sndtpPingWaveStartSoundType" type="BinHex"/>
+	<field name="sndtpPingWaveStopSoundType" type="BinHex"/>
+	<field name="sndtpPingBackWaveStartSoundType" type="BinHex"/>
+	<field name="sndtpPingBackWaveStopSoundType" type="BinHex"/>
 	<field name="fPingRange" type="BinHex"/>
 	<field name="fPingDuration" type="BinHex"/>
 	<field name="fPingCooldown" type="BinHex"/>

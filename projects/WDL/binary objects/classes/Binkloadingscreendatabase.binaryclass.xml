@@ -10,7 +10,7 @@
 		<object name="VideoProperties">
 			<field name="videosBinkVideo" type="BinHex"/>
 			<field name="sndSoundTrack" type="BinHex"/>
-			<field hash="671EB242" type="BinHex"/>
+			<field name="sndtpSoundTrackType" type="BinHex"/>
 		</object>
 		<object name="GeneralProperties">
 			<field name="bEnableSubtitles" type="Boolean"/>
@@ -22,8 +22,8 @@
 				<field name="sndIntroMusic" type="BinHex"/>
 				<field name="text_sndOutroMusic" type="String"/>
 				<field name="sndOutroMusic" type="BinHex"/>
-				<field hash="A2A874D7" type="BinHex"/>
-				<field hash="09A42618" type="BinHex"/>
+				<field name="sndtpIntroMusicType" type="BinHex"/>
+				<field name="sndtpOutroMusicType" type="BinHex"/>
 			</object>
 		</object>
 	</object>

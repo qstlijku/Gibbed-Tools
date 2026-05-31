@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="LaserWallData">
 		<field name="uRoomIndex" type="BinHex"/>
-		<field hash="6D2D52CA" type="BinHex"/>
+		<field name="bShouldForceCombat" type="BinHex"/>
 		<object name="LaserPatterns">
 			<object name="LaserPattern">
 				<field name="fPatternStartDelay" type="BinHex"/>

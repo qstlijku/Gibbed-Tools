@@ -15,11 +15,11 @@
 	<field name="tmplDialogActorOverride" type="BinHex"/>
 	<field name="bForceNoRelations" type="BinHex"/>
 	<field name="characterdeckCharacterDeckOverride" type="BinHex"/>
-	<field hash="ABA0B864" type="BinHex"/>
-	<field hash="D702AF6B" type="BinHex"/>
-	<field hash="207D8EFD" type="BinHex"/>
-	<field hash="167A8FEE" type="BinHex"/>
-	<field hash="CA740E1C" type="BinHex"/>
+	<field name="bOverrideAge" type="BinHex"/>
+	<field name="uiAge" type="BinHex"/>
+	<field name="bOverrideIncome" type="BinHex"/>
+	<field name="uiIncome" type="BinHex"/>
+	<field name="bOverrideExtendedProfilerEntries" type="BinHex"/>
 	<object name="BaseInclusionFilter">
 		<object name="tagcategoryselectionblackboardProfile">
 			<object name="TagCategorySelectionArray">
@@ -122,7 +122,7 @@
 			</object>
 		</object>
 	</object>
-	<object hash="A24CE411">
+	<object name="locstridBlurbOverride">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 </class>

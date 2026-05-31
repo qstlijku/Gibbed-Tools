@@ -19,12 +19,12 @@
 		<field name="sndStartSiren" type="BinHex"/>
 		<field name="text_sndStopSiren" type="String"/>
 		<field name="sndStopSiren" type="BinHex"/>
-		<field hash="4A682C7C" type="BinHex"/>
-		<field hash="59E0ED20" type="BinHex"/>
-		<field hash="1A439588" type="BinHex"/>
-		<field hash="4E67AF52" type="BinHex"/>
-		<field hash="B5B300D6" type="BinHex"/>
-		<field hash="D77D95C8" type="BinHex"/>
+		<field name="sndtpStartHornType" type="BinHex"/>
+		<field name="sndtpStopHornType" type="BinHex"/>
+		<field name="sndtpStartHornNpcType" type="BinHex"/>
+		<field name="sndtpStopHornNpcType" type="BinHex"/>
+		<field name="sndtpStartSirenType" type="BinHex"/>
+		<field name="sndtpStopSirenType" type="BinHex"/>
 		<field name="bUseHornToggle" type="Boolean"/>
 		<object name="TrafficHornSettings">
 			<field name="vec2ToleranceChangeSpeed" type="Vector2"/>
@@ -46,8 +46,8 @@
 			<field name="sndStartBuzzIntersection" type="BinHex"/>
 			<field name="text_sndStopBuzzIntersection" type="String"/>
 			<field name="sndStopBuzzIntersection" type="BinHex"/>
-			<field hash="25DAB558" type="BinHex"/>
-			<field hash="1C136624" type="BinHex"/>
+			<field name="sndtpStartBuzzIntersectionType" type="BinHex"/>
+			<field name="sndtpStopBuzzIntersectionType" type="BinHex"/>
 			<field name="vec2MinBuzzTime" type="Vector2"/>
 			<field name="vec2MaxBuzzTime" type="Vector2"/>
 			<field name="vec2RepeatBuzzTime" type="Vector2"/>
@@ -61,9 +61,9 @@
 		<field name="sndHandbrakeSoundStartID" type="BinHex"/>
 		<field name="text_sndHandbrakeSoundEndID" type="String"/>
 		<field name="sndHandbrakeSoundEndID" type="BinHex"/>
-		<field hash="2DDF10BB" type="BinHex"/>
-		<field hash="3BE64370" type="BinHex"/>
-		<field hash="CA2DF3F8" type="BinHex"/>
+		<field name="sndtpBrakeType" type="BinHex"/>
+		<field name="sndtpHandbrakeSoundStartIDType" type="BinHex"/>
+		<field name="sndtpHandbrakeSoundEndIDType" type="BinHex"/>
 	</object>
 	<object name="Misc">
 		<field name="text_sndTriggerPressedDestroy" type="String"/>
@@ -75,12 +75,12 @@
 		<field name="text_sndLocalPlayerGotOut" type="String"/>
 		<field name="sndLocalPlayerGotOut" type="BinHex"/>
 		<field hash="59F731C8" type="String"/>
-		<field hash="DAEE72E3" type="BinHex"/>
-		<field hash="05CE0298" type="BinHex"/>
-		<field hash="8646EFCE" type="BinHex"/>
-		<field hash="3D6F7007" type="BinHex"/>
-		<field hash="D0BFC297" type="BinHex"/>
-		<field hash="E688978B" type="BinHex"/>
+		<field name="sndSpawnVehicle" type="BinHex"/>
+		<field name="sndtpTriggerPressedDestroyType" type="BinHex"/>
+		<field name="sndtpTriggerReleasedDestroyType" type="BinHex"/>
+		<field name="sndtpLocalPlayerGotInType" type="BinHex"/>
+		<field name="sndtpLocalPlayerGotOutType" type="BinHex"/>
+		<field name="sndtpSpawnVehicleType" type="BinHex"/>
 		<object name="SoundFakeTransmission">
 			<field name="bUseRevereseSoundGear" type="Boolean"/>
 			<field name="fMaxRPM" type="Float"/>
@@ -103,8 +103,8 @@
 		</object>
 	</object>
 	<object name="AmbiantRecurringSound">
-		<field hash="21037951" type="BinHex"/>
-		<field hash="3B1F47BD" type="BinHex"/>
+		<field name="fIntervalRepeatTime" type="BinHex"/>
+		<field name="sndtpAmbiantSoundType" type="BinHex"/>
 		<object name="SoundBank">
 			<object name="sndSound">
 				<field name="text_sndSound" type="String"/>

@@ -39,17 +39,17 @@
 				<field name="sndHolster" type="BinHex"/>
 				<field name="text_sndBulletWizz" type="String"/>
 				<field name="sndBulletWizz" type="BinHex"/>
-				<field hash="CD695BF3" type="BinHex"/>
-				<field hash="EEFFDED2" type="BinHex"/>
-				<field hash="2E81A56A" type="BinHex"/>
-				<field hash="56B08C01" type="BinHex"/>
-				<field hash="B20B801F" type="BinHex"/>
-				<field hash="0565C445" type="BinHex"/>
-				<field hash="638D0034" type="BinHex"/>
-				<field hash="2D389C75" type="BinHex"/>
-				<field hash="75F7206D" type="BinHex"/>
-				<field hash="64653B1D" type="BinHex"/>
-				<field hash="4D35E7A1" type="BinHex"/>
+				<field name="sndtpFireType" type="BinHex"/>
+				<field name="sndtpDistantFireType" type="BinHex"/>
+				<field name="sndtpPreBakedReverbStartType" type="BinHex"/>
+				<field name="sndtpPreBakedReverbStopType" type="BinHex"/>
+				<field name="sndtpPressTriggerType" type="BinHex"/>
+				<field name="sndtpMovingPartType" type="BinHex"/>
+				<field name="sndtpReloadType" type="BinHex"/>
+				<field name="sndtpNoAmmoFireType" type="BinHex"/>
+				<field name="sndtpDrawType" type="BinHex"/>
+				<field name="sndtpHolsterType" type="BinHex"/>
+				<field name="sndtpBulletWizzType" type="BinHex"/>
 			</object>
 		</object>
 	</object>
@@ -76,17 +76,17 @@
 					<field name="text_sndHolster" type="String"/>
 					<field name="sndHolster" type="BinHex"/>
 					<field name="sndBulletWizz" type="BinHex"/>
-					<field hash="CD695BF3" type="BinHex"/>
-					<field hash="EEFFDED2" type="BinHex"/>
-					<field hash="2E81A56A" type="BinHex"/>
-					<field hash="56B08C01" type="BinHex"/>
-					<field hash="B20B801F" type="BinHex"/>
-					<field hash="0565C445" type="BinHex"/>
-					<field hash="638D0034" type="BinHex"/>
-					<field hash="2D389C75" type="BinHex"/>
-					<field hash="75F7206D" type="BinHex"/>
-					<field hash="64653B1D" type="BinHex"/>
-					<field hash="4D35E7A1" type="BinHex"/>
+					<field name="sndtpFireType" type="BinHex"/>
+					<field name="sndtpDistantFireType" type="BinHex"/>
+					<field name="sndtpPreBakedReverbStartType" type="BinHex"/>
+					<field name="sndtpPreBakedReverbStopType" type="BinHex"/>
+					<field name="sndtpPressTriggerType" type="BinHex"/>
+					<field name="sndtpMovingPartType" type="BinHex"/>
+					<field name="sndtpReloadType" type="BinHex"/>
+					<field name="sndtpNoAmmoFireType" type="BinHex"/>
+					<field name="sndtpDrawType" type="BinHex"/>
+					<field name="sndtpHolsterType" type="BinHex"/>
+					<field name="sndtpBulletWizzType" type="BinHex"/>
 				</object>
 			</object>
 		</object>

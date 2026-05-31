@@ -9,7 +9,7 @@
 	<field name="fMaximumDistance" type="BinHex"/>
 	<field name="fCountdownTime" type="BinHex"/>
 	<field name="reinforcementconfigReinforcementConfig" type="BinHex"/>
-	<field hash="BDC9CB8F" type="BinHex"/>
+	<field name="fRemainingEnemiesCountToConsiderReinforcementDefeated" type="BinHex"/>
 	<field name="text_CustomLightsName" type="String"/>
 	<field name="CustomLightsName" type="BinHex"/>
 </class>

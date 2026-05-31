@@ -9,51 +9,51 @@
 	<object name="Sounds">
 		<field name="text_sndCombat" type="String"/>
 		<field name="sndCombat" type="BinHex"/>
-		<field hash="F35296A0" type="BinHex"/>
+		<field name="sndtpCombatType" type="BinHex"/>
 		<field name="sndIntuitionStart" type="BinHex"/>
-		<field hash="A5A26CE9" type="BinHex"/>
+		<field name="sndtpIntuitionStartType" type="BinHex"/>
 		<field name="sndIntuitionStop" type="BinHex"/>
-		<field hash="CBC1E55B" type="BinHex"/>
+		<field name="sndtpIntuitionStopType" type="BinHex"/>
 		<field name="sndDetectionStart" type="BinHex"/>
-		<field hash="75D6F2CC" type="BinHex"/>
+		<field name="sndtpDetectionStartType" type="BinHex"/>
 		<field name="sndDetectionStop" type="BinHex"/>
-		<field hash="DF4937BE" type="BinHex"/>
+		<field name="sndtpDetectionStopType" type="BinHex"/>
 		<field name="text_sndLKPBrokenSound" type="String"/>
 		<field name="sndLKPBrokenSound" type="BinHex"/>
-		<field hash="DD995268" type="BinHex"/>
+		<field name="sndtpLKPBrokenSoundType" type="BinHex"/>
 	</object>
 	<object name="SoundStates">
 		<field name="text_sndOtherState" type="String"/>
 		<field name="sndOtherState" type="BinHex"/>
-		<field hash="E05C748F" type="BinHex"/>
+		<field name="sndtpOtherStateType" type="BinHex"/>
 		<field name="text_sndAlertSoftState" type="String"/>
 		<field name="sndAlertSoftState" type="BinHex"/>
-		<field hash="85E124C6" type="BinHex"/>
+		<field name="sndtpAlertSoftStateType" type="BinHex"/>
 		<field name="text_sndAlertHardState" type="String"/>
 		<field name="sndAlertHardState" type="BinHex"/>
-		<field hash="069FD800" type="BinHex"/>
+		<field name="sndtpAlertHardStateType" type="BinHex"/>
 		<field name="text_sndWarnState" type="String"/>
 		<field name="sndWarnState" type="BinHex"/>
-		<field hash="D1A81FA3" type="BinHex"/>
+		<field name="sndtpWarnStateType" type="BinHex"/>
 		<field name="text_sndArrestState" type="String"/>
 		<field name="sndArrestState" type="BinHex"/>
-		<field hash="BC0165F5" type="BinHex"/>
+		<field name="sndtpArrestStateType" type="BinHex"/>
 		<field name="text_sndCombatState" type="String"/>
 		<field name="sndCombatState" type="BinHex"/>
-		<field hash="D4BA7F39" type="BinHex"/>
+		<field name="sndtpCombatStateType" type="BinHex"/>
 		<field name="text_sndSearchState" type="String"/>
 		<field name="sndSearchState" type="BinHex"/>
-		<field hash="B1B3B64D" type="BinHex"/>
+		<field name="sndtpSearchStateType" type="BinHex"/>
 		<field name="text_sndAwareState" type="String"/>
 		<field name="sndAwareState" type="BinHex"/>
-		<field hash="491B3C89" type="BinHex"/>
+		<field name="sndtpAwareStateType" type="BinHex"/>
 	</object>
 	<object name="ForbiddenZones">
 		<field name="text_sndPlayerEnterForbiddenZone" type="String"/>
 		<field name="sndPlayerEnterForbiddenZone" type="BinHex"/>
-		<field hash="3EE454C9" type="BinHex"/>
+		<field name="sndtpPlayerEnterForbiddenZoneType" type="BinHex"/>
 		<field name="text_sndPlayerExitForbiddenZone" type="String"/>
 		<field name="sndPlayerExitForbiddenZone" type="BinHex"/>
-		<field hash="CDE856E1" type="BinHex"/>
+		<field name="sndtpPlayerExitForbiddenZoneType" type="BinHex"/>
 	</object>
 </class>

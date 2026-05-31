@@ -10,7 +10,7 @@
 	<field name="bUseStoryIcon" type="Boolean"/>
 	<field name="fWarningsDuration" type="Float"/>
 	<field name="iAtDamagePercentage" type="Int32"/>
-	<field hash="F1FEA1E4" type="BinHex"/>
+	<field name="fVisibilityRangeForHealthBar" type="BinHex"/>
 	<field name="fPursuedTeammatesRadiusCheck" type="BinHex"/>
 	<field name="fTimeToGetBackInVehicleWhenPursued" type="BinHex"/>
 	<field name="fAbandonmentWarningDisplayedAtDistanceFromTarget" type="BinHex"/>
@@ -34,7 +34,7 @@
 	<object name="locstridEscapePursuersLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="7F99C1C9">
+	<object name="locstridEscapePursuersWithIntegrityLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridEscapePursuersWarningLocId">
@@ -43,7 +43,7 @@
 	<object name="locstridTeamEscapePursuersWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C78AA21D">
+	<object name="locstridTeamEscapePursuersWithIntegrityWarningLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridGetBackInVehicleWhenPursuedLocId">

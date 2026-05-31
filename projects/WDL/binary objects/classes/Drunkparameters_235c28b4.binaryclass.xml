@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<field name="selInteractionReaction" type="BinHex"/>
 	<field name="fInteractionReactionLevel" type="BinHex"/>
-	<field hash="AF2AF36D" type="BinHex"/>
+	<field name="fDartsProximityDistance" type="BinHex"/>
 	<field name="fDartsNotificationTime" type="BinHex"/>
 	<field name="fDrunkLevelPerDrink" type="BinHex"/>
 	<field name="fDrunkLevelMinLimit" type="BinHex"/>
@@ -43,8 +43,8 @@
 	<field name="sndSoundStartEvent" type="BinHex"/>
 	<field name="text_sndSoundEndEvent" type="String"/>
 	<field name="sndSoundEndEvent" type="BinHex"/>
-	<field hash="2FDBDB7C" type="BinHex"/>
-	<field hash="879988B5" type="BinHex"/>
+	<field name="sndtpSoundStartEventType" type="BinHex"/>
+	<field name="sndtpSoundEndEventType" type="BinHex"/>
 	<field name="bIsFOVAffected" type="BinHex"/>
 	<field name="fCameraJumpFactorForSpike" type="BinHex"/>
 	<field name="fCameraJumpSpeedForSpike" type="BinHex"/>
@@ -56,8 +56,8 @@
 	<field name="fYInteractLockTimeWhenFallingDown" type="BinHex"/>
 	<field name="bAllowSafeCut" type="BinHex"/>
 	<field name="selAnimationReaction" type="BinHex"/>
-	<field hash="B019ECA7" type="String"/>
-	<field hash="BDFE2E84" type="BinHex"/>
+	<field name="archUpnpReservationErrorCount" type="String"/>
+	<field name="fileHungoverShortAnimation" type="BinHex"/>
 	<field name="text_fileHungoverAnimation" type="String"/>
 	<field name="fileHungoverAnimation" type="BinHex"/>
 	<field name="text_fileHungoverAnimationLoop" type="String"/>
@@ -78,13 +78,13 @@
 		<field name="rulesmithidRule" type="BinHex"/>
 		<field name="rulesmithconstValue" type="BinHex"/>
 	</object>
-	<object hash="55E567B1">
+	<object name="locstridMaleAppHungoverLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object hash="424374A8">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="C5018C86">
+	<object name="locstridOperativeRecoveredLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="Effects">

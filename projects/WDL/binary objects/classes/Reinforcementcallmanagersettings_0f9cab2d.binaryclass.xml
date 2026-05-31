@@ -16,9 +16,9 @@
 		<field name="sndAlarmCallStartSound" type="BinHex"/>
 		<field name="text_sndAlarmCallFailSound" type="String"/>
 		<field name="sndAlarmCallFailSound" type="BinHex"/>
-		<field hash="5A3603BC" type="BinHex"/>
-		<field hash="2ADDFA17" type="BinHex"/>
-		<field hash="095DB782" type="BinHex"/>
-		<field hash="F2FAF4E5" type="BinHex"/>
+		<field name="sndtpCallStartSoundType" type="BinHex"/>
+		<field name="sndtpCallFailSoundType" type="BinHex"/>
+		<field name="sndtpAlarmCallStartSoundType" type="BinHex"/>
+		<field name="sndtpAlarmCallFailSoundType" type="BinHex"/>
 	</object>
 </class>

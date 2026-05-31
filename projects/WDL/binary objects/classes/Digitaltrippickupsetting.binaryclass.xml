@@ -12,5 +12,5 @@
 	<field name="archPickupCone" type="BinHex"/>
 	<field name="text_matMaterialResource" type="String"/>
 	<field name="matMaterialResource" type="BinHex"/>
-	<field hash="534E8533" type="BinHex"/>
+	<field name="psParticlesResource" type="BinHex"/>
 </class>

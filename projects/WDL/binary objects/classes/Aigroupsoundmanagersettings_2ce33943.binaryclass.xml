@@ -10,12 +10,12 @@
 	<field name="fRandomDeltaTimeWalkieTalkie" type="Float"/>
 	<object name="WalkieTalkieSounds">
 		<field name="sndEmergency" type="BinHex"/>
-		<field hash="063B681F" type="BinHex"/>
-		<field hash="C9D35BB0" type="BinHex"/>
-		<field hash="C7A11C1D" type="BinHex"/>
-		<field hash="34E169BF" type="BinHex"/>
-		<field hash="1206409E" type="BinHex"/>
-		<field hash="FD191032" type="BinHex"/>
-		<field hash="FB56B18C" type="BinHex"/>
+		<field name="sndLawEnforcement" type="BinHex"/>
+		<field name="sndFirm" type="BinHex"/>
+		<field name="sndGangs" type="BinHex"/>
+		<field name="sndtpEmergencyType" type="BinHex"/>
+		<field name="sndtpLawEnforcementType" type="BinHex"/>
+		<field name="sndtpFirmType" type="BinHex"/>
+		<field name="sndtpGangsType" type="BinHex"/>
 	</object>
 </class>

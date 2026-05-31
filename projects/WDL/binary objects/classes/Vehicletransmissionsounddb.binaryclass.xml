@@ -15,11 +15,11 @@
 		<field name="sndClutchOutHandbrake" type="BinHex"/>
 		<field name="text_sndClutchSlipping" type="String"/>
 		<field name="sndClutchSlipping" type="BinHex"/>
-		<field hash="23ABD29F" type="BinHex"/>
-		<field hash="2E751D43" type="BinHex"/>
-		<field hash="CB0A40CD" type="BinHex"/>
-		<field hash="DDDDCCBD" type="BinHex"/>
-		<field hash="52AFC436" type="BinHex"/>
+		<field name="sndtpClutchInType" type="BinHex"/>
+		<field name="sndtpClutchOutType" type="BinHex"/>
+		<field name="sndtpClutchInHandbrakeType" type="BinHex"/>
+		<field name="sndtpClutchOutHandbrakeType" type="BinHex"/>
+		<field name="sndtpClutchSlippingType" type="BinHex"/>
 		<object name="ClutchLockUp">
 			<field name="bUseClutchLockUpFluctuation" type="Boolean"/>
 			<field name="fRpmAmplitude" type="Float"/>
@@ -62,9 +62,9 @@
 		<field name="sndGearShift" type="BinHex"/>
 		<field name="sndNpcGearShiftUp" type="BinHex"/>
 		<field name="sndNpcGearShiftDown" type="BinHex"/>
-		<field hash="674A360B" type="BinHex"/>
-		<field hash="E371E97A" type="BinHex"/>
-		<field hash="172B55EA" type="BinHex"/>
+		<field name="sndtpGearShiftType" type="BinHex"/>
+		<field name="sndtpNpcGearShiftUpType" type="BinHex"/>
+		<field name="sndtpNpcGearShiftDownType" type="BinHex"/>
 		<object name="NpcGears">
 			<object name="m_npcSoundGears">
 				<field name="fDownshiftRPMFactor" type="BinHex"/>

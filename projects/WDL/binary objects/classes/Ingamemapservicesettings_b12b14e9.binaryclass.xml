@@ -25,7 +25,7 @@
 	<field name="mapicondescNorthSymbolMinimapTraditionalChinese" type="BinHex"/>
 	<field name="uizonesettingsBuildingSetting" type="BinHex"/>
 	<field name="uizonesettingsWorldMapRedZoneSetting" type="BinHex"/>
-	<field hash="752A4A8B" type="BinHex"/>
+	<field name="uizonesettingsKeyLocationSetting" type="BinHex"/>
 	<field name="fIconFramingMaxOffsetX" type="BinHex"/>
 	<field name="fIconFramingMaxOffsetY" type="BinHex"/>
 	<field name="fIconFramingMinZoomDistance" type="BinHex"/>
@@ -54,10 +54,10 @@
 	<object name="BoroughBorders">
 		<field name="colorOppressedColor" type="BinHex"/>
 		<field name="colorDefiantColor" type="BinHex"/>
-		<field hash="56701DC5" type="BinHex"/>
+		<field name="colorPulseColor" type="BinHex"/>
 		<object name="FullZoomIn">
 			<field name="bAllowBoroughPanel" type="BinHex"/>
-			<field hash="C81EA09A" type="BinHex"/>
+			<field name="bDisplayBoroughBorders" type="BinHex"/>
 			<field name="bDisplayFocusedBoroughOnly" type="BinHex"/>
 			<object name="Focused">
 				<field name="fBorderSizeX" type="BinHex"/>
@@ -70,7 +70,7 @@
 		</object>
 		<object name="MidZoomIn">
 			<field name="bAllowBoroughPanel" type="BinHex"/>
-			<field hash="C81EA09A" type="BinHex"/>
+			<field name="bDisplayBoroughBorders" type="BinHex"/>
 			<field name="bDisplayFocusedBoroughOnly" type="BinHex"/>
 			<object name="Focused">
 				<field name="fBorderSizeX" type="BinHex"/>
@@ -83,7 +83,7 @@
 		</object>
 		<object name="MidZoomOut">
 			<field name="bAllowBoroughPanel" type="BinHex"/>
-			<field hash="C81EA09A" type="BinHex"/>
+			<field name="bDisplayBoroughBorders" type="BinHex"/>
 			<field name="bDisplayFocusedBoroughOnly" type="BinHex"/>
 			<object name="Focused">
 				<field name="fBorderSizeX" type="BinHex"/>
@@ -96,7 +96,7 @@
 		</object>
 		<object name="FullZoomOut">
 			<field name="bAllowBoroughPanel" type="BinHex"/>
-			<field hash="C81EA09A" type="BinHex"/>
+			<field name="bDisplayBoroughBorders" type="BinHex"/>
 			<field name="bDisplayFocusedBoroughOnly" type="BinHex"/>
 			<object name="Focused">
 				<field name="fBorderSizeX" type="BinHex"/>
@@ -109,17 +109,17 @@
 		</object>
 	</object>
 	<object name="BoroughLiberation">
-		<field hash="7208902D" type="BinHex"/>
-		<field hash="708FEC03" type="BinHex"/>
-		<field hash="644FCD94" type="BinHex"/>
-		<field hash="5AB2D94F" type="BinHex"/>
-		<field hash="02AD2373" type="BinHex"/>
+		<field name="uitweensettingBoroughLiberationHoverTweenSettings" type="BinHex"/>
+		<field name="uitweensettingBoroughLiberationZoomOutTweenSettings" type="BinHex"/>
+		<field name="fBoroughLiberationStartDistance" type="BinHex"/>
+		<field name="fBoroughLiberationMidDistance" type="BinHex"/>
+		<field name="fBoroughLiberationEndDistance" type="BinHex"/>
 	</object>
 	<object name="OnlineActivity">
 		<object hash="019454DA">
 			<object hash="55B82FB1">
 				<field hash="8032EE01" type="BinHex"/>
-				<field hash="B1C509F1" type="BinHex"/>
+				<field name="vectorIconPosition" type="BinHex"/>
 				<field name="mapicondescMapIconDescription" type="BinHex"/>
 				<object name="VisibilityRule">
 					<field name="rulesmithidRule" type="BinHex"/>

@@ -115,7 +115,7 @@
 		</object>
 	</object>
 	<object name="UselessInformationVector">
-		<object hash="37A71640">
+		<object name="locstridUselessInformation">
 			<field name="LocalizationId" type="BinHex"/>
 		</object>
 	</object>

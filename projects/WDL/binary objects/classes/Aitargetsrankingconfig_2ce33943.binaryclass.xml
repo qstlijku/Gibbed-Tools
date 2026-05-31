@@ -6,18 +6,18 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="9B8C8463" type="BinHex"/>
-	<field hash="96D4AC06" type="BinHex"/>
-	<field hash="26599579" type="BinHex"/>
-	<field hash="E298CE9C" type="BinHex"/>
-	<field hash="7FB2AFB2" type="BinHex"/>
-	<field hash="A2897E1D" type="BinHex"/>
-	<field hash="8A4AF46C" type="BinHex"/>
-	<field hash="E6FADD94" type="BinHex"/>
-	<field hash="688A9F31" type="BinHex"/>
-	<field hash="7BC3FFD8" type="BinHex"/>
-	<field hash="9A4E48BF" type="BinHex"/>
-	<field hash="0F8D93C9" type="BinHex"/>
+	<field name="fTargetVerticalSeperationWeight" type="BinHex"/>
+	<field name="fCurrentTargetWeight" type="BinHex"/>
+	<field name="fTargetVisibleWeight" type="BinHex"/>
+	<field name="fTargetPlayerWeight" type="BinHex"/>
+	<field name="fTargetSpiderWeight" type="BinHex"/>
+	<field name="fTargetRCWeight" type="BinHex"/>
+	<field name="fTargetForcedPositionWeight" type="BinHex"/>
+	<field name="fTargetVisiblePositionWeight" type="BinHex"/>
+	<field name="fTargetPredictedPositionWeight" type="BinHex"/>
+	<field name="fTargetNearbyPositionWeight" type="BinHex"/>
+	<field name="fTargetAttackingWeight" type="BinHex"/>
+	<field name="fTargetAttackingHoldTime" type="BinHex"/>
 	<object name="curveDistanceWeightCurve">
 		<field name="hidNumKnots" type="BinHex"/>
 		<object name="Knots">

@@ -11,8 +11,8 @@
 		<object name="Group">
 			<field name="bAffiliationOverride" type="BinHex"/>
 			<field name="selAffiliation" type="Enum"/>
-			<field hash="E1FCBFF2" type="BinHex"/>
-			<field hash="CA822405" type="BinHex"/>
+			<field name="aispawningdbOverrideAiSpawningDb" type="BinHex"/>
+			<field name="bEnableFelonyVehicleSelection" type="BinHex"/>
 			<object name="AISpawningTypes">
 				<object name="AISpawningType">
 					<field name="selArchetype" type="BinHex"/>

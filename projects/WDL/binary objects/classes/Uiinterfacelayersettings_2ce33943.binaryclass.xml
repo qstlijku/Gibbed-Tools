@@ -12,7 +12,7 @@
 		<field name="MainAccesorName" type="String"/>
 		<field name="fLayerRenderingOrder" type="Float"/>
 		<field name="InterfaceLayerDescription" type="String"/>
-		<field hash="28A22F1F" type="BinHex"/>
+		<field name="bIsThreaded" type="BinHex"/>
 	</object>
 	<object name="interfaceHudOneLayer">
 		<field name="text_InterfacePathID" type="String"/>
@@ -20,7 +20,7 @@
 		<field name="MainAccesorName" type="String"/>
 		<field name="fLayerRenderingOrder" type="Float"/>
 		<field name="InterfaceLayerDescription" type="String"/>
-		<field hash="28A22F1F" type="BinHex"/>
+		<field name="bIsThreaded" type="BinHex"/>
 	</object>
 	<object name="interfaceHudTwoLayer">
 		<field name="text_InterfacePathID" type="String"/>
@@ -28,7 +28,7 @@
 		<field name="MainAccesorName" type="String"/>
 		<field name="fLayerRenderingOrder" type="Float"/>
 		<field name="InterfaceLayerDescription" type="String"/>
-		<field hash="28A22F1F" type="BinHex"/>
+		<field name="bIsThreaded" type="BinHex"/>
 	</object>
 	<object name="interfaceHudThreeLayer">
 		<field name="text_InterfacePathID" type="String"/>
@@ -36,7 +36,7 @@
 		<field name="MainAccesorName" type="String"/>
 		<field name="fLayerRenderingOrder" type="Float"/>
 		<field name="InterfaceLayerDescription" type="String"/>
-		<field hash="28A22F1F" type="BinHex"/>
+		<field name="bIsThreaded" type="BinHex"/>
 	</object>
 	<object name="interfaceDebugLayer">
 		<field name="text_InterfacePathID" type="String"/>
@@ -44,7 +44,7 @@
 		<field name="MainAccesorName" type="String"/>
 		<field name="fLayerRenderingOrder" type="Float"/>
 		<field name="InterfaceLayerDescription" type="String"/>
-		<field hash="28A22F1F" type="BinHex"/>
+		<field name="bIsThreaded" type="BinHex"/>
 	</object>
 	<object name="interfaceIngameMapComponents">
 		<field name="text_InterfacePathID" type="String"/>
@@ -52,13 +52,13 @@
 		<field name="MainAccesorName" type="String"/>
 		<field name="fLayerRenderingOrder" type="Float"/>
 		<field name="InterfaceLayerDescription" type="String"/>
-		<field hash="28A22F1F" type="BinHex"/>
+		<field name="bIsThreaded" type="BinHex"/>
 	</object>
-	<object hash="A703FD2E">
+	<object name="interfaceSystem">
 		<field name="InterfacePathID" type="BinHex"/>
 		<field name="MainAccesorName" type="BinHex"/>
 		<field name="fLayerRenderingOrder" type="Float"/>
 		<field name="InterfaceLayerDescription" type="BinHex"/>
-		<field hash="28A22F1F" type="BinHex"/>
+		<field name="bIsThreaded" type="BinHex"/>
 	</object>
 </class>

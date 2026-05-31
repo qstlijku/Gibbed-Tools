@@ -44,7 +44,7 @@
 		<field name="raidwipedronesettingsRaidWipeDroneSettings" type="BinHex"/>
 		<field name="raidbossblumedronesettingsRaidBossBlumeDroneSettings" type="BinHex"/>
 		<field name="turretsettingsTurretSettings" type="BinHex"/>
-		<field hash="27627E2B" type="BinHex"/>
+		<field name="newsdronesettingsNewsDroneSettings" type="BinHex"/>
 		<field name="dronechasesettingsChaseDroneSettings" type="BinHex"/>
 		<field name="dronedogfightsettingsDroneDogfightSettings" type="BinHex"/>
 		<field name="kamikazedronesettingsKamikazeDroneSettings" type="BinHex"/>
@@ -73,8 +73,8 @@
 			<field name="bIsElite" type="BinHex"/>
 			<field name="bIsBoss" type="BinHex"/>
 			<field name="bIsUnique" type="BinHex"/>
-			<field hash="9E66B082" type="BinHex"/>
-			<field hash="806E5806" type="BinHex"/>
+			<field name="bIsOCO" type="BinHex"/>
+			<field name="bShowHackReminder" type="BinHex"/>
 			<field name="text_sBossID" type="String"/>
 			<field name="sBossID" type="BinHex"/>
 			<object name="TagInfo">
@@ -124,8 +124,8 @@
 			<field name="sndFallbackToShutdownStartSound" type="BinHex"/>
 			<field name="text_sndFallbackToShutdownStopSound" type="String"/>
 			<field name="sndFallbackToShutdownStopSound" type="BinHex"/>
-			<field hash="A9B95BF2" type="BinHex"/>
-			<field hash="F440D805" type="BinHex"/>
+			<field name="sndtpFallbackToShutdownStartSoundType" type="BinHex"/>
+			<field name="sndtpFallbackToShutdownStopSoundType" type="BinHex"/>
 		</object>
 		<object name="DroneThreatenedStrafeSettings">
 			<field name="dronestrafesettingsBulletMiss" type="BinHex"/>
@@ -133,7 +133,7 @@
 			<field name="dronestrafesettingsLockOn" type="BinHex"/>
 		</object>
 		<object name="GenericCombatDroneSettings">
-			<field hash="49DE7811" type="BinHex"/>
+			<field name="fCombatDefaultDestinationMaxRandomBonus" type="BinHex"/>
 		</object>
 	</object>
 </class>

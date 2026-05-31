@@ -10,7 +10,7 @@
 	<field name="fCombatSpeed" type="BinHex"/>
 	<field name="fCombatRange" type="Float"/>
 	<field name="fShootRange" type="BinHex"/>
-	<field hash="77047AE4" type="BinHex"/>
+	<field name="fShootRangeIfUnreachableTarget" type="BinHex"/>
 	<field name="fShootTimeBeforeFiring" type="BinHex"/>
 	<field name="fMeleeHeight" type="BinHex"/>
 	<field name="fCombatHeight" type="BinHex"/>
@@ -27,7 +27,7 @@
 	<field name="fLookAtValidLKPDelayMax" type="BinHex"/>
 	<field name="bCanFireRockets" type="BinHex"/>
 	<field name="bCanThrowGrenades" type="BinHex"/>
-	<field hash="68B01FEA" type="BinHex"/>
+	<field name="selMoveAndShootType" type="BinHex"/>
 	<field name="bCanSupress" type="BinHex"/>
 	<field name="fSupressDistance" type="BinHex"/>
 	<field name="fSupressDelay" type="BinHex"/>
@@ -64,7 +64,7 @@
 		<field name="fPreShootDelay" type="BinHex"/>
 		<field name="text_sndPreShootSound" type="String"/>
 		<field name="sndPreShootSound" type="BinHex"/>
-		<field hash="56ACCAAB" type="BinHex"/>
+		<field name="sndtpPreShootSoundType" type="BinHex"/>
 		<field name="bIsValid" type="Boolean"/>
 	</object>
 	<object name="Grenade">
@@ -117,7 +117,7 @@
 		<field name="fPreShootDelay" type="BinHex"/>
 		<field name="text_sndPreShootSound" type="String"/>
 		<field name="sndPreShootSound" type="BinHex"/>
-		<field hash="56ACCAAB" type="BinHex"/>
+		<field name="sndtpPreShootSoundType" type="BinHex"/>
 		<field name="bIsValid" type="Boolean"/>
 	</object>
 	<object name="LowHealthModifiers">

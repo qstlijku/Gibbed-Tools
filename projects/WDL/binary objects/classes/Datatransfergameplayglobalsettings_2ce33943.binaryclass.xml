@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="EA6F0DDE" type="BinHex"/>
+	<field name="locstridWarningOnCensusStateDuration" type="BinHex"/>
 	<field name="fResetInactiveDownloadAfterTimer" type="BinHex"/>
 	<object name="locstridEraseDefaultHackWheelText">
 		<field name="LocalizationId" type="UInt64"/>
@@ -20,7 +20,7 @@
 	<object name="locstridBoostTransferHackWheelText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="81FFFDF0">
+	<object name="locstridWarningOnCensusStateText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="ObjOutcomesForCensusStates">

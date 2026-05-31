@@ -11,7 +11,7 @@
 	<object name="Settings">
 		<field name="text_sndPlaySoundOnEntity" type="String"/>
 		<field name="sndPlaySoundOnEntity" type="BinHex"/>
-		<field hash="ED7FBDA3" type="BinHex"/>
+		<field name="sndtpPlaySoundType" type="BinHex"/>
 		<field name="selReactionType" type="Enum"/>
 		<field name="bUseKneeBonesInsteadOfFeet" type="BinHex"/>
 		<field name="fBoneDisplacementTolerance" type="BinHex"/>

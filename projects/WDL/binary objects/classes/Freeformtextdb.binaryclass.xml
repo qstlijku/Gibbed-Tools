@@ -12,8 +12,8 @@
 	<field name="fDisplayTime" type="Float"/>
 	<field name="fXPositionRatio" type="Float"/>
 	<field name="fYPositionRatio" type="Float"/>
-	<field hash="D52EE75C" type="BinHex"/>
-	<field hash="AB066769" type="BinHex"/>
+	<field name="uitweensettingOpenTweenSetting" type="BinHex"/>
+	<field name="uitweensettingCloseTweenSetting" type="BinHex"/>
 	<object name="locstridTextToDisplay1">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>

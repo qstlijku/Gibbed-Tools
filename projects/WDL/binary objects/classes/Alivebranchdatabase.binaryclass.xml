@@ -26,7 +26,7 @@
 				<field name="selBlockingEventMode" type="BinHex"/>
 				<field name="selMinimumIntensity" type="BinHex"/>
 				<field name="selIncidentType" type="BinHex"/>
-				<field hash="4E86673F" type="BinHex"/>
+				<field name="sStimDetail" type="BinHex"/>
 				<field hash="5EC0E76C" type="String"/>
 				<object name="BlockingEvents">
 				</object>
@@ -49,7 +49,7 @@
 							<field name="iReferenceValue" type="BinHex"/>
 							<field name="selOperator" type="BinHex"/>
 							<field name="selRole" type="BinHex"/>
-							<field hash="C44926F4" type="BinHex"/>
+							<field name="selEntityToCheck" type="BinHex"/>
 							<field name="uiShouldEqual" type="Boolean"/>
 							<object name="IsValid">
 								<field name="rulesmithidRule" type="BinHex"/>

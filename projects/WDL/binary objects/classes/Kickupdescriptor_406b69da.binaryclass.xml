@@ -52,8 +52,8 @@
 	<field name="sndEndSound" type="BinHex"/>
 	<field name="sndtpEndSoundType" type="BinHex"/>
 	<field hash="7DF02AA7" type="String"/>
-	<field hash="41199016" type="BinHex"/>
-	<field hash="3ADA2806" type="BinHex"/>
+	<field name="sndGoalCompleteSound" type="BinHex"/>
+	<field name="sndtpGoalCompleteSoundType" type="BinHex"/>
 	<field name="text_sndFailSound" type="String"/>
 	<field name="sndFailSound" type="BinHex"/>
 	<field name="sndtpFailSoundType" type="BinHex"/>
@@ -86,27 +86,27 @@
 	<field name="fTrickBarMinPercentage" type="BinHex"/>
 	<field name="iTrickBarDecreaseSteps" type="BinHex"/>
 	<field name="fVisionImpairedOverlayAlpha" type="BinHex"/>
-	<field hash="B9606AA3" type="BinHex"/>
-	<field hash="56E274D9" type="BinHex"/>
-	<field hash="13D28B6B" type="BinHex"/>
-	<field hash="9D43BBD1" type="BinHex"/>
-	<field hash="1F206D6B" type="BinHex"/>
-	<field hash="AF1F7757" type="BinHex"/>
-	<field hash="34ADAE0F" type="BinHex"/>
-	<field hash="798C3B0B" type="BinHex"/>
+	<field name="fMinBarOffsetWhenDrunkLevelLow" type="BinHex"/>
+	<field name="fMaxBarOffsetWhenDrunkLevelLow" type="BinHex"/>
+	<field name="fMinBarOffsetWhenDrunkLevelMedium" type="BinHex"/>
+	<field name="fMaxBarOffsetWhenDrunkLevelMedium" type="BinHex"/>
+	<field name="fMinBarOffsetWhenDrunkLevelHigh" type="BinHex"/>
+	<field name="fMaxBarOffsetWhenDrunkLevelHigh" type="BinHex"/>
+	<field name="vectorMaxCameraShakeTranslation" type="BinHex"/>
+	<field name="vectorMaxCameraShakeRotation" type="BinHex"/>
 	<field name="fPlayerJoinedSessionLogDuration" type="BinHex"/>
 	<field name="iOnlineChallengeReadyTime1" type="BinHex"/>
 	<field name="iOnlineChallengeReadyTime2" type="BinHex"/>
 	<field name="iOnlineChallengeReadyTime3" type="BinHex"/>
 	<field name="iOnlineChallengeDuration" type="BinHex"/>
-	<field hash="16F7FEDC" type="BinHex"/>
+	<field name="fOnlineChallengeCriticalTime" type="BinHex"/>
 	<field name="iNumberOfHitsForStreakBark" type="BinHex"/>
 	<field name="text_StreakBarkId" type="String"/>
 	<field name="StreakBarkId" type="BinHex"/>
 	<field name="phonecommunicationsettingsFirstIntro" type="BinHex"/>
 	<field name="fGenericAttentionRequestTime" type="BinHex"/>
-	<field hash="32C6593B" type="BinHex"/>
-	<field hash="EF3878DE" type="BinHex"/>
+	<field name="selAchievementGoalLevel" type="BinHex"/>
+	<field name="iAchievementGoalIndex" type="BinHex"/>
 	<object name="StartingAnimations">
 		<field name="text_StanceName" type="String"/>
 		<field name="StanceName" type="BinHex"/>
@@ -573,10 +573,10 @@
 	<object name="locstridPlayerJoinedSessionLogText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="861344E9">
+	<object name="locstridPlayerLeftSessionLogHeader">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="D5CA3C2E">
+	<object name="locstridPlayerLeftSessionLogText">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="GenericIntroPhoneComms">
@@ -604,7 +604,7 @@
 			<field name="text_selType" type="String"/>
 			<field name="selType" type="Enum"/>
 			<object name="Object">
-				<field hash="46C93851" type="BinHex"/>
+				<field name="itemsRewardItem" type="BinHex"/>
 				<field name="iScore" type="BinHex"/>
 				<object name="locstridGoalTitle">
 					<field name="LocalizationId" type="UInt64"/>
@@ -632,7 +632,7 @@
 			<field name="text_selType" type="String"/>
 			<field name="selType" type="Enum"/>
 			<object name="Object">
-				<field hash="46C93851" type="BinHex"/>
+				<field name="itemsRewardItem" type="BinHex"/>
 				<field name="iTargetTime" type="BinHex"/>
 				<object name="locstridGoalTitle">
 					<field name="LocalizationId" type="UInt64"/>
@@ -655,7 +655,7 @@
 			<field name="text_selType" type="String"/>
 			<field name="selType" type="Enum"/>
 			<object name="Object">
-				<field hash="46C93851" type="BinHex"/>
+				<field name="itemsRewardItem" type="BinHex"/>
 				<field name="iTargetTime" type="BinHex"/>
 				<object name="locstridGoalTitle">
 					<field name="LocalizationId" type="UInt64"/>

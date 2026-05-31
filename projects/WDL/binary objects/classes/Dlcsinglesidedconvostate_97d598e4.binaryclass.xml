@@ -8,7 +8,7 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="DLC1AllowedState">
 		<object name="State">
-			<field hash="D1215A9B" type="BinHex"/>
+			<field name="singlesidedconvostateDLC1AllowedState" type="BinHex"/>
 		</object>
 	</object>
 </class>

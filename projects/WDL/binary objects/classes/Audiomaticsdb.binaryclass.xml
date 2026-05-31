@@ -7,8 +7,8 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<object name="AudioMaticsThemes">
-		<object hash="6E604E5E">
-			<field hash="6E604E5E" type="BinHex"/>
+		<object name="audiomaticsthemedbAudioMaticsThemeDb">
+			<field name="audiomaticsthemedbAudioMaticsThemeDb" type="BinHex"/>
 		</object>
 	</object>
 </class>

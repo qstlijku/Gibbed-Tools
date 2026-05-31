@@ -19,7 +19,7 @@
 				<field name="text_MaterialSlotId" type="String"/>
 				<field name="MaterialSlotId" type="BinHex"/>
 				<field name="texturedbobjectThumbnailIcon" type="BinHex"/>
-				<field hash="7F0A68CE" type="BinHex"/>
+				<field name="texturedbobjectModelTexture2D" type="BinHex"/>
 				<object name="Atoms">
 					<object name="Atom">
 						<field name="text_progressionatomAtomId" type="String"/>

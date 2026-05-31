@@ -18,8 +18,8 @@
 	<field name="fCamXOffset" type="BinHex"/>
 	<field name="sSceneToTextureObjectName" type="BinHex"/>
 	<field name="selViewportWireframeMode" type="BinHex"/>
-	<field hash="FD914198" type="BinHex"/>
-	<field hash="87B7E81A" type="BinHex"/>
+	<field name="cinemacolorgradingColorGrading" type="BinHex"/>
+	<field name="bUsePlayerLighting" type="BinHex"/>
 	<field name="CustomEnvironmentMapIndex" type="BinHex"/>
 	<field name="text_archExtraObject" type="String"/>
 	<field name="archExtraObject" type="BinHex"/>

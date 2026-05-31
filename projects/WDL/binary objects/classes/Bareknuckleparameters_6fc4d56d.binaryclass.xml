@@ -6,12 +6,12 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="ED538582" type="BinHex"/>
+	<field name="iDistanceRecruitAvalability" type="BinHex"/>
 	<field name="bareknucklefightFightIntrigueMale" type="BinHex"/>
 	<field name="bareknucklefightFightIntrigueFemale" type="BinHex"/>
-	<field hash="556CDF83" type="BinHex"/>
-	<field hash="49841DE3" type="BinHex"/>
-	<field hash="B3E28F8C" type="BinHex"/>
+	<field name="bareknucklechallengesChallenges" type="BinHex"/>
+	<field name="iMaxNumberOfChallenges" type="BinHex"/>
+	<field name="fChallengeChanceRatio" type="BinHex"/>
 	<field name="humanconfigDebugFemale" type="BinHex"/>
 	<field name="humanconfigDebugMale" type="BinHex"/>
 	<field name="tagcategoryTagCategoryFirst" type="BinHex"/>
@@ -41,8 +41,8 @@
 	<field name="sndtpSkipSoundType" type="BinHex"/>
 	<field name="bLmaInteriorEnabled" type="BinHex"/>
 	<field name="iCrowdAnimateMaxRandom" type="BinHex"/>
-	<field hash="ECA5D037" type="BinHex"/>
-	<field hash="62102A5A" type="BinHex"/>
+	<field name="fFirstTimeEnterIntroTimerValue" type="BinHex"/>
+	<field name="fFirstTimeEnterIntroExitTimerValue" type="BinHex"/>
 	<object name="LeagueElementsVector">
 		<object name="LeagueElement">
 			<field name="sMapName" type="String"/>
@@ -64,7 +64,7 @@
 		<field name="SceneTemplate" type="BinHex"/>
 		<field name="iDialogTemplate" type="BinHex"/>
 	</object>
-	<object hash="8D234DA8">
+	<object name="locstridOpponentOccupationLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridArenaCompletedLocId">
@@ -103,7 +103,7 @@
 	</object>
 	<object name="CharacterAbilities">
 		<object name="Ability">
-			<field hash="5FF686ED" type="BinHex"/>
+			<field name="itemsAbility" type="BinHex"/>
 		</object>
 	</object>
 </class>

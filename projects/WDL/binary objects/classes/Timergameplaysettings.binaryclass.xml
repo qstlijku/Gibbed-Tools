@@ -7,7 +7,7 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="fLifeTime" type="Float"/>
-	<field hash="A4407A2C" type="BinHex"/>
+	<field name="bPauseTimerWhenAllPlayersDown" type="BinHex"/>
 	<field name="selTimerDisplayPosition" type="BinHex"/>
 	<field name="fPulseWhenRemainingTime" type="BinHex"/>
 	<object name="locstridTimerHeaderLocId">

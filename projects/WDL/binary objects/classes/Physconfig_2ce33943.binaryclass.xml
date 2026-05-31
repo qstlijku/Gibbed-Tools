@@ -21,7 +21,7 @@
 	<object name="VehicleToVehicleCollision">
 		<field name="fVehicleVehicleRestitution" type="Float"/>
 		<field name="fVehicleVehicleFriction" type="Float"/>
-		<field hash="2CE78098" type="BinHex"/>
+		<field name="fVehicleVehicleFrictionSlowSpeed" type="BinHex"/>
 		<field name="vectorDisplaceFactorHuman" type="BinHex"/>
 		<field name="vectorDisplaceFactorOther" type="BinHex"/>
 		<field name="fVehicleVehicleSideRestitutionFactor" type="Float"/>
@@ -166,8 +166,8 @@
 		<field name="fVehiclePartBulletDamageChanceScaleMax" type="Float"/>
 	</object>
 	<object name="SecondaryMotionParameters">
-		<field hash="7B6B3700" type="BinHex"/>
-		<field hash="71CFBDD5" type="BinHex"/>
+		<field name="fClothVelocityDampingValue" type="BinHex"/>
+		<field name="fClothWindDampingValue" type="BinHex"/>
 	</object>
 	<object name="curveNormalizedDeformVsDamageVelocity">
 		<field name="hidNumKnots" type="BinHex"/>

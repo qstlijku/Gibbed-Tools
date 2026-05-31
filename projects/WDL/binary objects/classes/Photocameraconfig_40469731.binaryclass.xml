@@ -159,7 +159,7 @@
 	</object>
 	<object name="SelfieConfigs">
 		<field name="fEmoteDuration" type="Float"/>
-		<field hash="672B297D" type="BinHex"/>
+		<field name="vectorPhoneCameraOffset" type="BinHex"/>
 		<object name="EmotesCountByArchetype">
 			<field name="iMaleGeneric" type="BinHex"/>
 			<field name="iMaleStreet" type="BinHex"/>

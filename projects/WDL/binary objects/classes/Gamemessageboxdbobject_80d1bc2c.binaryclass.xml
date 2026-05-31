@@ -20,11 +20,11 @@
 	<field name="sndHoldCancelSound" type="BinHex"/>
 	<field name="text_sndDisplaySound" type="String"/>
 	<field name="sndDisplaySound" type="BinHex"/>
-	<field hash="3620AB8D" type="BinHex"/>
-	<field hash="69A19450" type="BinHex"/>
-	<field hash="0FCBDFF5" type="BinHex"/>
-	<field hash="294C44C3" type="BinHex"/>
-	<field hash="82C0DFE5" type="BinHex"/>
-	<field hash="278139CB" type="BinHex"/>
-	<field hash="FBBCF078" type="BinHex"/>
+	<field name="sndtpConfirmNegativeSoundType" type="BinHex"/>
+	<field name="sndtpConfirmPositiveSoundType" type="BinHex"/>
+	<field name="sndtpNavigationSoundType" type="BinHex"/>
+	<field name="sndtpHoldStartSoundType" type="BinHex"/>
+	<field name="sndtpHoldFinishSoundType" type="BinHex"/>
+	<field name="sndtpHoldCancelSoundType" type="BinHex"/>
+	<field name="sndtpDisplaySoundType" type="BinHex"/>
 </class>

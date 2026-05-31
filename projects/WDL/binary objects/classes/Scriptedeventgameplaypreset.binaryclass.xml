@@ -10,12 +10,12 @@
 	<field name="bOverrideMaskState" type="BinHex"/>
 	<field name="bDisablePlayerInput" type="BinHex"/>
 	<field name="bDisconnectRCOnStart" type="BinHex"/>
-	<field hash="26D344B6" type="BinHex"/>
-	<field hash="5A252480" type="BinHex"/>
-	<field hash="759326C0" type="BinHex"/>
-	<field hash="2B4E7884" type="BinHex"/>
+	<field name="sndOnStart" type="BinHex"/>
+	<field name="sndOnStartAlt" type="BinHex"/>
+	<field name="sndOnStop" type="BinHex"/>
+	<field name="sndOnStopAlt" type="BinHex"/>
 	<field name="sndtpSoundType" type="BinHex"/>
-	<field hash="DF3B2FBF" type="BinHex"/>
+	<field name="sndtpSoundTypeAlt" type="BinHex"/>
 	<object name="StateSequence">
 		<object name="StateData">
 			<field name="selStateType" type="BinHex"/>
@@ -24,7 +24,7 @@
 			<field name="colorFadeColor" type="BinHex"/>
 			<field name="text_sFadePostFx" type="String"/>
 			<field name="sFadePostFx" type="BinHex"/>
-			<field hash="9DE148E0" type="BinHex"/>
+			<field name="bWaitForFadeDuration" type="BinHex"/>
 			<field name="fadeDuration" type="BinHex"/>
 			<field name="bShouldShuffleTeleport" type="BinHex"/>
 			<field name="sRespawnLayerName" type="BinHex"/>
@@ -32,7 +32,7 @@
 			<field name="fileCinemaResourcePath" type="BinHex"/>
 			<field name="cinemaResource" type="BinHex"/>
 			<field name="cinemaScenePivotId" type="BinHex"/>
-			<field hash="28968300" type="BinHex"/>
+			<field name="bFadeOutWhenStarted" type="BinHex"/>
 			<field name="bStopAnimWhenBrickStops" type="BinHex"/>
 			<field name="fShakeStrength" type="Float"/>
 			<field name="fShakeAttenuationPower" type="Float"/>
@@ -43,10 +43,10 @@
 			<field name="sRumbleId" type="BinHex"/>
 			<field name="fWaitDuration" type="BinHex"/>
 			<field name="fDuration" type="Float"/>
-			<field hash="F0038D14" type="BinHex"/>
+			<field name="bRemoveWorldPropertyOverrideOnExit" type="BinHex"/>
 			<field hash="56A47084" type="String"/>
-			<field hash="9C629C93" type="BinHex"/>
-			<field hash="25147DB2" type="BinHex"/>
+			<field name="psVFxParticles" type="BinHex"/>
+			<field name="entAnchorEntity" type="BinHex"/>
 			<object name="TeleportEntitiesData">
 				<object name="TeleportEntity">
 					<field name="entTeleportEntity" type="BinHex"/>

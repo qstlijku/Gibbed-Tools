@@ -11,7 +11,7 @@
 		<field name="texturedbobjectDataDriveVideoTexture" type="BinHex"/>
 		<field name="texturedbobjectDataDriveTextTexture" type="BinHex"/>
 		<field name="texturedbobjectDataDriveImageTexture" type="BinHex"/>
-		<field hash="A29BC0C2" type="BinHex"/>
+		<field name="texturedbobjectTechPointTexture" type="BinHex"/>
 		<object name="locstridDSITokensGainedTitle">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
@@ -57,14 +57,14 @@
 		<object name="locstridRewardAdditionalTeamSlotGainedDescriptionLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
-		<object hash="73737E96">
+		<object name="locstridRewardTechPointAcquiredTitleLocId">
 			<field name="LocalizationId" type="UInt64"/>
 		</object>
 		<object name="isRaidsUnlockeByProgression">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="C115869B">
+		<object name="isOnlineOnboardingForceCompleted">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>

@@ -10,7 +10,7 @@
 	<object name="AppStateOverrides">
 		<object name="AppStateOverride">
 			<field name="selAppState" type="Enum"/>
-			<field hash="39867EE6" type="BinHex"/>
+			<field name="uimenupageSmartphoneApp" type="BinHex"/>
 		</object>
 	</object>
 </class>

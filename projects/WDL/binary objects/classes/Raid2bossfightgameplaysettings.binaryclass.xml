@@ -142,14 +142,14 @@
 			<field name="text_sndBatteryCharged" type="String"/>
 			<field name="sndBatteryCharged" type="BinHex"/>
 			<field hash="E8C27DBF" type="String"/>
-			<field hash="44FD9DBC" type="BinHex"/>
+			<field name="sndSuperMindjack" type="BinHex"/>
 			<field name="sndtpWipeChargeType" type="BinHex"/>
 			<field name="sndtpWipeChargeStopType" type="BinHex"/>
 			<field name="sndtpWipeAttackType" type="BinHex"/>
 			<field name="sndtpBatteryStartChargingType" type="BinHex"/>
 			<field name="sndtpBatteryStopChargingType" type="BinHex"/>
 			<field name="sndtpBatteryChargedType" type="BinHex"/>
-			<field hash="D1BA86C8" type="BinHex"/>
+			<field name="sndtpSuperMindjackType" type="BinHex"/>
 			<object name="StepTransitionBarks">
 				<object name="StepTransitionBarksData">
 					<field name="text_Bark" type="String"/>
@@ -163,21 +163,21 @@
 			<field name="text_psWipeAttack" type="String"/>
 			<field name="psWipeAttack" type="BinHex"/>
 			<field hash="48985698" type="String"/>
-			<field hash="E4A7B69B" type="BinHex"/>
+			<field name="psIntroCinematic" type="BinHex"/>
 			<field hash="2477F0A0" type="BinHex"/>
 			<field hash="7F85FD51" type="String"/>
-			<field hash="D3BA1D52" type="BinHex"/>
-			<field hash="690A1AA0" type="BinHex"/>
+			<field name="psBatteryChargfe" type="BinHex"/>
+			<field name="vectorVFXLinkOffset" type="BinHex"/>
 			<object name="LinksBattery">
 				<object name="LinkBatteryData">
 					<field hash="F005A4F6" type="String"/>
-					<field hash="8C2B3907" type="BinHex"/>
+					<field name="psLinkBattery" type="BinHex"/>
 				</object>
 			</object>
 			<object name="LinksHologram">
 				<object name="LinkHologramData">
 					<field hash="A477B1C7" type="String"/>
-					<field hash="6EB15DD0" type="BinHex"/>
+					<field name="psLinkHologram" type="BinHex"/>
 				</object>
 			</object>
 		</object>
