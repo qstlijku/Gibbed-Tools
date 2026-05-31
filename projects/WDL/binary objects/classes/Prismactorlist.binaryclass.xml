@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <class name="PrismactorlistParameters">
-	<object hash="72DE4948">
-		<field name="disNomadObjectId" type="BinHex"/>
-		<field name="hidSingleObject" type="Boolean"/>
-		<field name="hidKey" type="BinHex"/>
-		<field name="hidValidationFailed" type="Boolean"/>
-		<field name="text_hidName" type="String"/>
-		<field name="hidName" type="BinHex"/>
-		<field name="selLanguage" type="BinHex"/>
-		<field name="text_PlasmaPersona" type="String"/>
-		<field name="PlasmaPersona" type="BinHex"/>
-		<field name="fPitchScaling" type="BinHex"/>
-		<field name="fVolumeScaling" type="BinHex"/>
-		<field name="fFFScale" type="BinHex"/>
-		<field name="fFormantScale" type="BinHex"/>
-		<field name="fFormantShift" type="BinHex"/>
-		<field name="fFormantOneShift" type="BinHex"/>
-		<field name="fFormantTwoShift" type="BinHex"/>
-		<field name="fFormantThreeShift" type="BinHex"/>
-		<field name="fFrequencyOne" type="BinHex"/>
-		<field name="fGainOne" type="BinHex"/>
-		<field name="fQOne" type="BinHex"/>
-		<field name="u32FilterTypeOne" type="BinHex"/>
-		<field name="fFrequencyTwo" type="BinHex"/>
-		<field name="fGainTwo" type="BinHex"/>
-		<field name="fQTwo" type="BinHex"/>
-		<field name="u32FilterTypeTwo" type="BinHex"/>
-		<object name="tagcategoryselectionFashionTag">
-			<field name="text_UITagCategorySelectionClassID" type="String"/>
-			<field name="UITagCategorySelectionClassID" type="BinHex"/>
-			<field name="tagcategoryUITagCategory" type="BinHex"/>
-			<object name="Tags"/>
-		</object>
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<field name="selLanguage" type="BinHex"/>
+	<field name="text_PlasmaPersona" type="String"/>
+	<field name="PlasmaPersona" type="BinHex"/>
+	<field name="fPitchScaling" type="BinHex"/>
+	<field name="fVolumeScaling" type="BinHex"/>
+	<field name="fFFScale" type="BinHex"/>
+	<field name="fFormantScale" type="BinHex"/>
+	<field name="fFormantShift" type="BinHex"/>
+	<field name="fFormantOneShift" type="BinHex"/>
+	<field name="fFormantTwoShift" type="BinHex"/>
+	<field name="fFormantThreeShift" type="BinHex"/>
+	<field name="fFrequencyOne" type="BinHex"/>
+	<field name="fGainOne" type="BinHex"/>
+	<field name="fQOne" type="BinHex"/>
+	<field name="u32FilterTypeOne" type="BinHex"/>
+	<field name="fFrequencyTwo" type="BinHex"/>
+	<field name="fGainTwo" type="BinHex"/>
+	<field name="fQTwo" type="BinHex"/>
+	<field name="u32FilterTypeTwo" type="BinHex"/>
+	<object name="tagcategoryselectionFashionTag">
+		<field name="text_UITagCategorySelectionClassID" type="String"/>
+		<field name="UITagCategorySelectionClassID" type="BinHex"/>
+		<field name="tagcategoryUITagCategory" type="BinHex"/>
+		<object name="Tags"/>
 	</object>
 </class>
