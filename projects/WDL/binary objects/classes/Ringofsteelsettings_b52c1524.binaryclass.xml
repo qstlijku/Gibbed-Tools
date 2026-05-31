@@ -37,11 +37,11 @@
 	</object>
 	<object name="StateChangeSound">
 		<field name="sndtpCheckpointStateSoundType" type="BinHex"/>
-		<field hash="BF3F1DD0" type="String"/>
+		<field name="text_sndCheckpointStateInactiveSound" type="String"/>
 		<field name="sndCheckpointStateInactiveSound" type="BinHex"/>
-		<field hash="8D4C64BE" type="String"/>
+		<field name="text_sndCheckpointStateWarningSound" type="String"/>
 		<field name="sndCheckpointStateWarningSound" type="BinHex"/>
-		<field hash="D1CAB116" type="String"/>
+		<field name="text_sndCheckpointStateAggressiveSound" type="String"/>
 		<field name="sndCheckpointStateAggressiveSound" type="BinHex"/>
 	</object>
 	<object name="Propaganda">

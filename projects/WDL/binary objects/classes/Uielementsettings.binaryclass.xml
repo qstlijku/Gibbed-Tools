@@ -158,7 +158,7 @@
 		<field name="uisoundOnExpireDefaultSound" type="BinHex"/>
 		<field name="uisoundOnPushCriticalSound" type="BinHex"/>
 		<field name="uisoundOnExpireCriticalSound" type="BinHex"/>
-		<field hash="7FBEBC0E" type="BinHex"/>
+		<field name="uisoundOnPushMatchmakingSound" type="BinHex"/>
 		<field name="uisoundOnExpireMatchmakingSound" type="BinHex"/>
 		<field name="uisoundOnShow" type="BinHex"/>
 		<field name="uisoundOnEnterRestrictedAreaSound" type="BinHex"/>

@@ -29,7 +29,7 @@
 		<field name="itemsTutorialItem" type="BinHex"/>
 		<field name="bHasShortcutToMenus" type="BinHex"/>
 		<field name="uimenupageMenuShortcut" type="BinHex"/>
-		<field hash="393D18D2" type="String"/>
+		<field name="text_hintmanagermenuparamscallbackMenuParamsCallback" type="String"/>
 		<field name="hintmanagermenuparamscallbackMenuParamsCallback" type="BinHex"/>
 		<field name="bIsFlyingDrone" type="Boolean"/>
 		<field name="selAttackingAttachedBone" type="BinHex"/>
@@ -65,7 +65,7 @@
 		<field name="scenetotexturestudioobjectDetailsViewStudioObject" type="BinHex"/>
 		<field name="bHasUniquePaintJob" type="Boolean"/>
 		<field name="bCanCustomizePaintJob" type="BinHex"/>
-		<field hash="6E60D4BB" type="String"/>
+		<field name="text_predefrewardoperativedescwithemptyRewardOperative" type="String"/>
 		<field name="predefrewardoperativedescwithemptyRewardOperative" type="BinHex"/>
 		<field name="musiclibraryRewardSpecificSong" type="BinHex"/>
 		<field name="itemsItemInBox" type="BinHex"/>

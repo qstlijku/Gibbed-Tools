@@ -21,20 +21,20 @@
 		<field name="text_sndLandSmall" type="String"/>
 		<field name="sndLandSmall" type="BinHex"/>
 		<field name="sndtpLandSmall" type="BinHex"/>
-		<field hash="164DE22E" type="String"/>
+		<field name="text_sndEngineOverheat" type="String"/>
 		<field name="sndEngineOverheat" type="BinHex"/>
 		<field name="sndtpEngineOverheat" type="BinHex"/>
 		<field name="sndEngineOverheatStop" type="BinHex"/>
 		<field name="sndtpEngineOverheatStop" type="BinHex"/>
-		<field hash="8FEE5619" type="String"/>
+		<field name="text_sndLockWheel" type="String"/>
 		<field name="sndLockWheel" type="BinHex"/>
 		<field name="sndtpLockWheel" type="BinHex"/>
-		<field hash="529F9482" type="String"/>
+		<field name="text_sndLockBrakes" type="String"/>
 		<field name="sndLockBrakes" type="BinHex"/>
 		<field name="sndtpLockBrakes" type="BinHex"/>
 		<field name="sndLockBrakesStop" type="BinHex"/>
 		<field name="sndtpLockBrakesStop" type="BinHex"/>
-		<field hash="0608C96D" type="String"/>
+		<field name="text_sndReverseOverheat" type="String"/>
 		<field name="sndReverseOverheat" type="BinHex"/>
 		<field name="sndtpReverseOverheat" type="BinHex"/>
 		<field name="sndReverseOverheatStop" type="BinHex"/>

@@ -88,7 +88,7 @@
 		<field name="selSeasonTitleTileId" type="BinHex"/>
 		<field name="selOnlineProgressionTileId" type="BinHex"/>
 		<field name="selContactListPreviewTileId" type="BinHex"/>
-		<field hash="E85B16FF" type="BinHex"/>
+		<field name="selOnlineBackgroundTileId" type="BinHex"/>
 		<field name="selTopGridTileId" type="BinHex"/>
 		<field name="selHostViewTileId" type="BinHex"/>
 		<field name="uimenutileStartPvpTileTemplate" type="BinHex"/>
@@ -273,7 +273,7 @@
 		<field name="uisoundCreditsMusic" type="BinHex"/>
 		<field name="uisoundCloseCreditsMusic" type="BinHex"/>
 		<field name="videosBackgroundVideo" type="BinHex"/>
-		<field hash="16A31DEA" type="String"/>
+		<field name="text_fileCinematicSequencePath" type="String"/>
 		<field name="fileCinematicSequencePath" type="BinHex"/>
 		<field name="uimenutileFooterPC" type="BinHex"/>
 		<field name="isEndGameCreditsPage" type="BinHex"/>

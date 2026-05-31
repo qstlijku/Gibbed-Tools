@@ -44,7 +44,7 @@
 			<field name="fWaitDuration" type="BinHex"/>
 			<field name="fDuration" type="Float"/>
 			<field name="bRemoveWorldPropertyOverrideOnExit" type="BinHex"/>
-			<field hash="56A47084" type="String"/>
+			<field name="text_psVFxParticles" type="String"/>
 			<field name="psVFxParticles" type="BinHex"/>
 			<field name="entAnchorEntity" type="BinHex"/>
 			<object name="TeleportEntitiesData">

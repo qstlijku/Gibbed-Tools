@@ -81,7 +81,7 @@
 	<object name="locstridMaleAppHungoverLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
-	<object hash="424374A8">
+	<object name="locstridFemaleAppHungoverLocId">
 		<field name="LocalizationId" type="UInt64"/>
 	</object>
 	<object name="locstridOperativeRecoveredLocId">

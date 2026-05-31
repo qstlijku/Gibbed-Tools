@@ -30,11 +30,11 @@
 		<field name="sndUnmuteExternalSounds" type="BinHex"/>
 		<field name="sndtpMuteExternalSoundsType" type="BinHex"/>
 		<field name="sndtpUnmuteExternalSoundsType" type="BinHex"/>
-		<field hash="3E96DF18" type="String"/>
+		<field name="text_sndPlayMusic" type="String"/>
 		<field name="sndPlayMusic" type="BinHex"/>
-		<field hash="DF75E3D6" type="String"/>
+		<field name="text_sndStopMusic" type="String"/>
 		<field name="sndStopMusic" type="BinHex"/>
-		<field hash="193EF56B" type="String"/>
+		<field name="text_sndSkipMusic" type="String"/>
 		<field name="sndSkipMusic" type="BinHex"/>
 		<field name="sndtpPlayMusicSoundsType" type="BinHex"/>
 		<field name="sndtpStopMusicSoundsType" type="BinHex"/>

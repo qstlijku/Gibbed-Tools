@@ -15,9 +15,9 @@
 		<field name="selType" type="Enum"/>
 		<field name="fDroneSpeed" type="BinHex"/>
 		<field name="fTriggerRadius" type="Float"/>
-		<field hash="9FC3F06C" type="String"/>
+		<field name="text_psThemisVFX" type="String"/>
 		<field name="psThemisVFX" type="BinHex"/>
-		<field hash="8E897F8B" type="String"/>
+		<field name="text_sndTargetingSound" type="String"/>
 		<field name="sndTargetingSound" type="BinHex"/>
 		<field name="sndtpTargetingSoundType" type="BinHex"/>
 		<field name="vectorVFXMinAngle" type="BinHex"/>

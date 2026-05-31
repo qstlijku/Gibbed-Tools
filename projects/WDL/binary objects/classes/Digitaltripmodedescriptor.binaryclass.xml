@@ -96,13 +96,13 @@
 				<field name="fPreDownloadZoneVisibleDistance" type="BinHex"/>
 				<field name="bDefendersVisibleWhileOnScreen" type="BinHex"/>
 				<field name="dronebankDronesBank" type="BinHex"/>
-				<field hash="0A3A002E" type="BinHex"/>
+				<field name="text_archARCloakForSwapFX" type="BinHex"/>
 				<field name="archARCloakForSwapFX" type="BinHex"/>
 				<field name="bARCloakFXOnNewBody" type="BinHex"/>
 				<field name="bARCloakFXOnOldBody" type="BinHex"/>
 				<field name="fSwapCooldown" type="BinHex"/>
 				<field name="fInvisibilityToAI" type="BinHex"/>
-				<field hash="71F3E3CB" type="BinHex"/>
+				<field name="text_sTransitionCinemaPostFx" type="BinHex"/>
 				<field name="sTransitionCinemaPostFx" type="BinHex"/>
 				<field name="sActivityNameForRewards" type="BinHex"/>
 				<field name="sVictimRewardDownloadCompleted" type="BinHex"/>
@@ -137,7 +137,7 @@
 				<field name="fDoorsSearchRadiusSpawn" type="BinHex"/>
 				<field name="fDownloadRadius" type="BinHex"/>
 				<field name="clovehiclecreationsettingsVehicleCreationSettings" type="BinHex"/>
-				<field hash="85B3ACAD" type="BinHex"/>
+				<field name="text_archARCloakArchetype" type="BinHex"/>
 				<field name="fMinTransmitterToBaseDistance" type="BinHex"/>
 				<field name="fMaxTransmitterToBaseDistance" type="BinHex"/>
 				<field name="fMinBaseToTransmitterDistance" type="BinHex"/>
@@ -154,7 +154,7 @@
 				<field name="wolfskinitemdbCarrierBagWolfSkin" type="BinHex"/>
 				<field name="text_archCarrierBagArchetype" type="BinHex"/>
 				<field name="archCarrierBagArchetype" type="BinHex"/>
-				<field hash="A9140885" type="BinHex"/>
+				<field name="text_archTransmitterArCloakArchetype" type="BinHex"/>
 				<field name="archTransmitterArCloakArchetype" type="BinHex"/>
 				<field name="reinforcementconfigChaseReinforcementConfig" type="BinHex"/>
 				<field name="ActiveTransmittersMaxAmount" type="BinHex"/>
@@ -332,7 +332,7 @@
 				<object name="locstridOvertimeStartTitleText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
-				<object hash="955A0B1A">
+				<object name="locstridOvertimeStartSubtitleText">
 					<field name="LocalizationId" type="BinHex"/>
 				</object>
 				<object name="BarkPlayerDie">
@@ -525,7 +525,7 @@
 						<field name="fTimeToPass" type="BinHex"/>
 						<object name="Rules">
 							<object name="Rule">
-								<field hash="F002C408" type="String"/>
+								<field name="text_selSpawnConfig" type="String"/>
 								<field name="selSpawnConfig" type="BinHex"/>
 								<field name="iSpawnCount" type="BinHex"/>
 							</object>
@@ -628,7 +628,7 @@
 					<field name="bUploadRadiusVisibleBeforeInteration" type="BinHex"/>
 					<field name="possyselementBaseMarker" type="BinHex"/>
 					<object name="TransmissionFinishedSound">
-						<field hash="24BA9E57" type="BinHex"/>
+						<field name="text_sndSoundPtr" type="BinHex"/>
 						<field name="sndSoundPtr" type="BinHex"/>
 						<field name="sndtpSoundType" type="Boolean"/>
 					</object>

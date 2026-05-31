@@ -74,7 +74,7 @@
 		<field name="sndLocalPlayerGotIn" type="BinHex"/>
 		<field name="text_sndLocalPlayerGotOut" type="String"/>
 		<field name="sndLocalPlayerGotOut" type="BinHex"/>
-		<field hash="59F731C8" type="String"/>
+		<field name="text_sndSpawnVehicle" type="String"/>
 		<field name="sndSpawnVehicle" type="BinHex"/>
 		<field name="sndtpTriggerPressedDestroyType" type="BinHex"/>
 		<field name="sndtpTriggerReleasedDestroyType" type="BinHex"/>

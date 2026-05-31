@@ -169,7 +169,7 @@
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object name="TeamAbilityGlobalParams">
-			<field hash="184508FB" type="String"/>
+			<field name="text_progressionplayeractionAnyTeamAbilityExecutedTrackerAction" type="String"/>
 			<field name="progressionplayeractionAnyTeamAbilityExecutedTrackerAction" type="BinHex"/>
 			<object name="CanCheckAnyTeamAbilityThisFrame">
 				<field name="rulesmithidRule" type="BinHex"/>
@@ -178,11 +178,11 @@
 		</object>
 		<object name="TeamAbilities">
 			<object name="TeamAbility">
-				<field hash="8ADB24BD" type="String"/>
+				<field name="text_teamabilityexecutemethodExecuteMethodName" type="String"/>
 				<field name="teamabilityexecutemethodExecuteMethodName" type="BinHex"/>
-				<field hash="EA679354" type="String"/>
+				<field name="text_progressionplayeractionCheckTrackerAction" type="String"/>
 				<field name="progressionplayeractionCheckTrackerAction" type="BinHex"/>
-				<field hash="09E12483" type="String"/>
+				<field name="text_progressionplayeractionOnExecutedTrackerAction" type="String"/>
 				<field name="progressionplayeractionOnExecutedTrackerAction" type="BinHex"/>
 				<field name="selNarrativeTrigger" type="BinHex"/>
 				<object name="CanBeProvider">

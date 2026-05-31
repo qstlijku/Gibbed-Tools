@@ -38,9 +38,9 @@
 		<field name="sndMuteExternalSounds" type="BinHex"/>
 		<field name="text_sndUnmuteExternalSounds" type="String"/>
 		<field name="sndUnmuteExternalSounds" type="BinHex"/>
-		<field hash="CE3502BF" type="String"/>
+		<field name="text_sndStartAlarmSound" type="String"/>
 		<field name="sndStartAlarmSound" type="BinHex"/>
-		<field hash="D4B87072" type="String"/>
+		<field name="text_sndStopAlarmSound" type="String"/>
 		<field name="sndStopAlarmSound" type="BinHex"/>
 		<field name="sndtpMuteExternalSoundsType" type="BinHex"/>
 		<field name="sndtpUnmuteExternalSoundsType" type="BinHex"/>

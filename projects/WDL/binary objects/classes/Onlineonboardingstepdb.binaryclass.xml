@@ -10,7 +10,7 @@
 	<field name="selState" type="Enum"/>
 	<field name="phonecommunicationsettingsNarrativenPhoneCommunication" type="BinHex"/>
 	<field name="districtDistrict" type="BinHex"/>
-	<field hash="D6C380EE" type="String"/>
+	<field name="text_sActivityName" type="String"/>
 	<field name="sActivityName" type="BinHex"/>
 	<field name="needsRequest" type="BinHex"/>
 	<object name="StepMissions">

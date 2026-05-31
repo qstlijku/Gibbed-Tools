@@ -51,7 +51,7 @@
 	<field name="text_sndEndSound" type="String"/>
 	<field name="sndEndSound" type="BinHex"/>
 	<field name="sndtpEndSoundType" type="BinHex"/>
-	<field hash="7DF02AA7" type="String"/>
+	<field name="text_sndGoalCompleteSound" type="String"/>
 	<field name="sndGoalCompleteSound" type="BinHex"/>
 	<field name="sndtpGoalCompleteSoundType" type="BinHex"/>
 	<field name="text_sndFailSound" type="String"/>

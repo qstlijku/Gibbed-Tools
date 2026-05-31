@@ -7,9 +7,9 @@
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
 	<field name="uimenuInGameMenu" type="BinHex"/>
-	<field hash="2A84C624" type="String"/>
+	<field name="text_sndInGameMenuEnterSound" type="String"/>
 	<field name="sndInGameMenuEnterSound" type="BinHex"/>
-	<field hash="8EDE91AA" type="String"/>
+	<field name="text_sndInGameMenuExitSound" type="String"/>
 	<field name="sndInGameMenuExitSound" type="BinHex"/>
 	<field name="sndtpInGameMenuEnterSoundType" type="BinHex"/>
 	<field name="sndtpInGameMenuExitSoundType" type="BinHex"/>
@@ -234,9 +234,9 @@
 		<field name="sndMapZoomOutEnterSound" type="BinHex"/>
 		<field name="text_sndMapZoomOutExitSound" type="String"/>
 		<field name="sndMapZoomOutExitSound" type="BinHex"/>
-		<field hash="84E627F7" type="String"/>
+		<field name="text_sndMapCameraMovementStartSound" type="String"/>
 		<field name="sndMapCameraMovementStartSound" type="BinHex"/>
-		<field hash="DBB53328" type="String"/>
+		<field name="text_sndMapCameraMovementStopSound" type="String"/>
 		<field name="sndMapCameraMovementStopSound" type="BinHex"/>
 		<field name="sndtpMapEnterSoundType" type="BinHex"/>
 		<field name="sndtpMapExitSoundType" type="BinHex"/>

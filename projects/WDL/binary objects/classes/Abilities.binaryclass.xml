@@ -14,7 +14,7 @@
 	<object name="Parameters">
 		<field name="selTriggerType" type="Enum"/>
 		<field name="bEnableAutoEquip" type="BinHex"/>
-		<field hash="5653F8B5" type="String"/>
+		<field name="text_archARCloak" type="String"/>
 		<field name="archARCloak" type="BinHex"/>
 		<field name="text_archWeapon" type="String"/>
 		<field name="archWeapon" type="BinHex"/>
@@ -36,11 +36,11 @@
 		<field name="sndtpPropagationSoundType" type="BinHex"/>
 		<field name="fAnimationLength" type="BinHex"/>
 		<field name="fEffectDelay" type="BinHex"/>
-		<field hash="57214160" type="String"/>
+		<field name="text_psPlayerVFX" type="String"/>
 		<field name="psPlayerVFX" type="BinHex"/>
 		<field name="text_PlayerVFXBone" type="String"/>
 		<field name="PlayerVFXBone" type="BinHex"/>
-		<field hash="7EED4111" type="String"/>
+		<field name="text_psEnemyVFX" type="String"/>
 		<field name="psEnemyVFX" type="BinHex"/>
 		<field name="text_EnemyVFXBone" type="String"/>
 		<field name="EnemyVFXBone" type="BinHex"/>
@@ -51,21 +51,21 @@
 		<field name="fConnectionCatchUpDelay" type="BinHex"/>
 		<field name="fConnectionCatchUpSpeed" type="BinHex"/>
 		<field name="fConnectionFlowSpeed" type="BinHex"/>
-		<field hash="AF328419" type="String"/>
+		<field name="text_sndBetrayTargetingStartedSound" type="String"/>
 		<field name="sndBetrayTargetingStartedSound" type="BinHex"/>
 		<field name="sndtpBetrayTargetingStartedSoundType" type="BinHex"/>
-		<field hash="AE5C4E4E" type="String"/>
+		<field name="text_sndBetrayTargetingCancelledSound" type="String"/>
 		<field name="sndBetrayTargetingCancelledSound" type="BinHex"/>
 		<field name="sndtpBetrayTargetingCancelledSoundType" type="BinHex"/>
-		<field hash="D94D6B64" type="String"/>
+		<field name="text_sndBetrayTargetAquiredSound" type="String"/>
 		<field name="sndBetrayTargetAquiredSound" type="BinHex"/>
 		<field name="sndtpBetrayTargetAquiredSoundType" type="BinHex"/>
-		<field hash="5BB661AE" type="String"/>
+		<field name="text_sndBetrayLaunchSound" type="String"/>
 		<field name="sndBetrayLaunchSound" type="BinHex"/>
 		<field name="sndtpBetrayLaunchSoundType" type="BinHex"/>
-		<field hash="1FEF0824" type="String"/>
+		<field name="text_psImpactVFX" type="String"/>
 		<field name="psImpactVFX" type="BinHex"/>
-		<field hash="C0F8D72F" type="String"/>
+		<field name="text_psEffectLoopVFX" type="String"/>
 		<field name="psEffectLoopVFX" type="BinHex"/>
 		<field name="text_VFXBoneName" type="String"/>
 		<field name="VFXBoneName" type="BinHex"/>
@@ -108,7 +108,7 @@
 		<field name="selEscapeTimerMultiplier" type="BinHex"/>
 		<field name="iDonationAmount" type="BinHex"/>
 		<field name="uiDonationAmount" type="BinHex"/>
-		<field hash="0786FDD3" type="String"/>
+		<field name="text_progressionplayeractionHintTriggerAction" type="String"/>
 		<field name="progressionplayeractionHintTriggerAction" type="BinHex"/>
 		<object name="Cooldown">
 			<field name="rulesmithidRule" type="BinHex"/>
@@ -175,9 +175,9 @@
 			<field name="text_DirectionalBone" type="String"/>
 			<field name="DirectionalBone" type="BinHex"/>
 			<object name="RampUp">
-				<field hash="CF050DDE" type="String"/>
+				<field name="text_psRampUpParticles" type="String"/>
 				<field name="psRampUpParticles" type="BinHex"/>
-				<field hash="C81BAE53" type="String"/>
+				<field name="text_sndRampUpSound" type="String"/>
 				<field name="sndRampUpSound" type="BinHex"/>
 				<field name="sndtpRampUpSoundType" type="BinHex"/>
 				<field name="fRampUpFxDelay" type="BinHex"/>
@@ -185,17 +185,17 @@
 				<field name="bRampUpInterruptOnHit" type="BinHex"/>
 			</object>
 			<object name="Hit">
-				<field hash="BCD5D5F9" type="String"/>
+				<field name="text_psHitParticles" type="String"/>
 				<field name="psHitParticles" type="BinHex"/>
-				<field hash="59286502" type="String"/>
+				<field name="text_sndHitSound" type="String"/>
 				<field name="sndHitSound" type="BinHex"/>
 				<field name="sndtpHitSoundType" type="BinHex"/>
 			</object>
 		</object>
 		<object name="ImplosionFX">
-			<field hash="103D1A52" type="String"/>
+			<field name="text_psImplosionParticles" type="String"/>
 			<field name="psImplosionParticles" type="BinHex"/>
-			<field hash="F85A34E0" type="String"/>
+			<field name="text_sndImplosionSound" type="String"/>
 			<field name="sndImplosionSound" type="BinHex"/>
 			<field name="sndtpImplosionSoundType" type="BinHex"/>
 		</object>
@@ -310,7 +310,7 @@
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
-		<object hash="3B801D12">
+		<object name="CanRecall">
 			<field name="rulesmithidRule" type="BinHex"/>
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
@@ -325,19 +325,19 @@
 			</object>
 		</object>
 		<object name="MaskHologram">
-			<field hash="316298A0" type="String"/>
+			<field name="text_sFullMaksHologramMaterialName" type="String"/>
 			<field name="sFullMaksHologramMaterialName" type="BinHex"/>
-			<field hash="58F69813" type="String"/>
+			<field name="text_sShortMaksHologramMaterialName" type="String"/>
 			<field name="sShortMaksHologramMaterialName" type="BinHex"/>
-			<field hash="861E64C8" type="String"/>
+			<field name="text_sColorParameterName" type="String"/>
 			<field name="sColorParameterName" type="BinHex"/>
-			<field hash="EF1117B0" type="String"/>
+			<field name="text_sIntensityParameterName" type="String"/>
 			<field name="sIntensityParameterName" type="BinHex"/>
 			<field name="colorMaksHologramCriticalHealthColor" type="BinHex"/>
 			<field name="fCriticalHealthThresholdRatio" type="BinHex"/>
 			<field name="dynamiclightprefabDynamicLightPrefab" type="BinHex"/>
 			<field name="vectorHologramLightSourceOffset" type="BinHex"/>
-			<field hash="54D14697" type="String"/>
+			<field name="text_sHologramLightSourceAttachedBoneId" type="String"/>
 			<field name="sHologramLightSourceAttachedBoneId" type="BinHex"/>
 			<object name="curveIntensityIncreaseOverTime">
 				<field name="hidNumKnots" type="BinHex"/>
@@ -360,10 +360,10 @@
 				</object>
 			</object>
 			<object name="Sounds">
-				<field hash="F0436232" type="String"/>
+				<field name="text_sndActivateSound" type="String"/>
 				<field name="sndActivateSound" type="BinHex"/>
 				<field name="sndtpActivateSoundType" type="BinHex"/>
-				<field hash="97B1D2FF" type="String"/>
+				<field name="text_sndDeactivateSound" type="String"/>
 				<field name="sndDeactivateSound" type="BinHex"/>
 				<field name="sndtpDeactivateSoundType" type="BinHex"/>
 			</object>
@@ -405,22 +405,22 @@
 			<field name="rulesmithconstValue" type="BinHex"/>
 		</object>
 		<object hash="67C93126">
-			<field hash="24BA9E57" type="String"/>
+			<field name="text_sndSoundPtr" type="String"/>
 			<field name="sndSoundPtr" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="0EEE75C8">
-			<field hash="24BA9E57" type="String"/>
+			<field name="text_sndSoundPtr" type="String"/>
 			<field name="sndSoundPtr" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="9D970667">
-			<field hash="24BA9E57" type="String"/>
+			<field name="text_sndSoundPtr" type="String"/>
 			<field name="sndSoundPtr" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
 		<object hash="C7B91397">
-			<field hash="24BA9E57" type="String"/>
+			<field name="text_sndSoundPtr" type="String"/>
 			<field name="sndSoundPtr" type="BinHex"/>
 			<field name="sndtpSoundType" type="BinHex"/>
 		</object>
@@ -469,7 +469,7 @@
 		</object>
 		<object name="ShockExplosion">
 			<field name="fShockExplosionDamage" type="BinHex"/>
-			<field hash="E0741223" type="String"/>
+			<field name="text_psShockExplosionParticles" type="String"/>
 			<field name="psShockExplosionParticles" type="BinHex"/>
 			<field name="bIsInstantKillForShockExplosionEnabled" type="BinHex"/>
 		</object>
@@ -479,34 +479,34 @@
 		<object name="SwarmSounds">
 			<field name="sndActivateSound" type="BinHex"/>
 			<field name="sndtpActivateSoundType" type="BinHex"/>
-			<field hash="101BC3DA" type="String"/>
+			<field name="text_sndTravelSound" type="String"/>
 			<field name="sndTravelSound" type="BinHex"/>
 			<field name="sndtpTravelSoundType" type="BinHex"/>
 			<field name="fTravelSoundFadeTime" type="BinHex"/>
 			<field name="text_sndImpactSound" type="String"/>
 			<field name="sndImpactSound" type="BinHex"/>
 			<field name="sndtpImpactSoundType" type="BinHex"/>
-			<field hash="01F7382F" type="String"/>
+			<field name="text_sndAttackLoopSound" type="String"/>
 			<field name="sndAttackLoopSound" type="BinHex"/>
 			<field name="sndtpAttackLoopSoundType" type="BinHex"/>
 			<field name="fAttackLoopFadeTime" type="BinHex"/>
-			<field hash="CD0F7269" type="String"/>
+			<field name="text_sndIdleSound" type="String"/>
 			<field name="sndIdleSound" type="BinHex"/>
 			<field name="sndtpIdleSoundType" type="BinHex"/>
 			<field name="fIdleSoundFadeTime" type="BinHex"/>
-			<field hash="97B1D2FF" type="String"/>
+			<field name="text_sndDeactivateSound" type="String"/>
 			<field name="sndDeactivateSound" type="BinHex"/>
 			<field name="sndtpDeactivateSoundType" type="BinHex"/>
-			<field hash="D25A594E" type="String"/>
+			<field name="text_sndAttackDeactivateSound" type="String"/>
 			<field name="sndAttackDeactivateSound" type="BinHex"/>
 			<field name="sndtpAttackDeactivateSoundType" type="BinHex"/>
-			<field hash="84D20966" type="String"/>
+			<field name="text_sndShockExplosionSound" type="String"/>
 			<field name="sndShockExplosionSound" type="BinHex"/>
 			<field name="sndtpShockExplosionSoundType" type="BinHex"/>
-			<field hash="A520B54F" type="String"/>
+			<field name="text_sndTargetSelectedSound" type="String"/>
 			<field name="sndTargetSelectedSound" type="BinHex"/>
 			<field name="sndtpTargetSelectedSoundType" type="BinHex"/>
-			<field hash="6E1EE158" type="String"/>
+			<field name="text_sndTargetDeselectedSound" type="String"/>
 			<field name="sndTargetDeselectedSound" type="BinHex"/>
 			<field name="sndtpTargetDeselectedSoundType" type="BinHex"/>
 		</object>

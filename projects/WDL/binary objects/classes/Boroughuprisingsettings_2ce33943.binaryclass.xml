@@ -31,7 +31,7 @@
 			<object name="DistrictsDiscoveryStateTriggeredByUprisingSettings">
 				<object name="DiscoveryTriggeredByUprisingSettings">
 					<field name="districtDistrictDB" type="BinHex"/>
-					<field hash="FEA4A0D2" type="String"/>
+					<field name="text_progressioncollectablescategoriesfilterCategory" type="String"/>
 					<field name="progressioncollectablescategoriesfilterCategory" type="BinHex"/>
 				</object>
 			</object>

@@ -344,7 +344,7 @@
 	<object name="MissionSoftQuit">
 		<field name="missionsoftquitmanagerparametersMissionSoftQuitManagerDefaultData" type="BinHex"/>
 	</object>
-	<object hash="9C806D63">
+	<object name="IOP">
 		<field name="fIOPBinkLength" type="BinHex"/>
 	</object>
 	<object name="OperativeSwapTalkerSceneConversation">

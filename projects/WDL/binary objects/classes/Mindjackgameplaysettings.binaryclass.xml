@@ -18,7 +18,7 @@
 		<field name="text_psCriticalVisionLossFX" type="String"/>
 		<field name="psCriticalVisionLossFX" type="BinHex"/>
 		<field name="psPlayerVisionLossFX" type="BinHex"/>
-		<field hash="C634AB0C" type="String"/>
+		<field name="text_psLostVisionFX" type="String"/>
 		<field name="psLostVisionFX" type="BinHex"/>
 		<field name="fVisionLossStartAlpha" type="BinHex"/>
 		<field name="fVisionLossEndAlpha" type="BinHex"/>
@@ -35,10 +35,10 @@
 		<field name="text_sndAmbientSoundStop" type="String"/>
 		<field name="sndAmbientSoundStop" type="BinHex"/>
 		<field name="sndtpAmbientSoundStopType" type="BinHex"/>
-		<field hash="12B79C25" type="String"/>
+		<field name="text_sndLocalPlayerDeathSoundStart" type="String"/>
 		<field name="sndLocalPlayerDeathSoundStart" type="BinHex"/>
 		<field name="sndtpLocalPlayerDeathSoundStartType" type="BinHex"/>
-		<field hash="7F9249A9" type="String"/>
+		<field name="text_sndLocalPlayerDeathSoundStop" type="String"/>
 		<field name="sndLocalPlayerDeathSoundStop" type="BinHex"/>
 		<field name="sndtpLocalPlayerDeathSoundStopType" type="BinHex"/>
 		<field name="fBoundingWall3DSoundGroundOffset" type="BinHex"/>

@@ -353,9 +353,9 @@
 			<field name="sndSirenSoundStop" type="BinHex"/>
 			<field name="sndtpSirenSoundStartType" type="BinHex"/>
 			<field name="sndtpSirenSoundStopType" type="BinHex"/>
-			<field hash="9F03DD78" type="String"/>
+			<field name="text_sndSirenVehicleChaseSoundStart" type="String"/>
 			<field name="sndSirenVehicleChaseSoundStart" type="BinHex"/>
-			<field hash="C3DEE1B6" type="String"/>
+			<field name="text_sndSirenVehicleChaseSoundStop" type="String"/>
 			<field name="sndSirenVehicleChaseSoundStop" type="BinHex"/>
 			<field name="sndtpSirenVehicleChaseStartSoundType" type="BinHex"/>
 			<field name="sndtpSirenVehicleChaseStopSoundType" type="BinHex"/>
@@ -4834,7 +4834,7 @@
 			<field name="sCameraPostFX" type="BinHex"/>
 			<field name="text_sFlashRumbleId" type="String"/>
 			<field name="sFlashRumbleId" type="BinHex"/>
-			<field hash="A6F268FB" type="String"/>
+			<field name="text_sndFlashSound" type="String"/>
 			<field name="sndFlashSound" type="BinHex"/>
 			<field name="sndtpFlashSoundType" type="BinHex"/>
 			<field name="fCallFelonyProgressBarDuration" type="BinHex"/>
@@ -4984,7 +4984,7 @@
 			<field name="sndtpCooldownStopType" type="BinHex"/>
 			<field name="sndtpHitValidTargetType" type="BinHex"/>
 			<field name="sndtpHitInvalidTargetType" type="BinHex"/>
-			<field hash="5E5BA712" type="String"/>
+			<field name="text_archLaserAimingArchetype" type="String"/>
 			<field name="archLaserAimingArchetype" type="BinHex"/>
 			<field name="fAttackAimingTime" type="BinHex"/>
 			<field hash="B1B0C3B7" type="String"/>
@@ -4997,7 +4997,7 @@
 			<field name="HumanAITargetBoneName" type="BinHex"/>
 			<field name="text_DroneAITargetBoneName" type="String"/>
 			<field name="DroneAITargetBoneName" type="BinHex"/>
-			<field hash="12D2D336" type="String"/>
+			<field name="text_archBarrageProjectileArchetype" type="String"/>
 			<field name="archBarrageProjectileArchetype" type="BinHex"/>
 			<field name="fBarrageProjectilesQuantity" type="BinHex"/>
 			<field name="fBarrageDelay" type="BinHex"/>
@@ -5082,9 +5082,9 @@
 			<field name="sndtpCooldownStopSoundType" type="BinHex"/>
 			<field name="sndtpMaximumHeatReachedSoundType" type="BinHex"/>
 			<field name="bStopBeamWhenOverheating" type="BinHex"/>
-			<field hash="6F88F4D0" type="String"/>
+			<field name="text_sndTurretOverheatStartSound" type="String"/>
 			<field name="sndTurretOverheatStartSound" type="BinHex"/>
-			<field hash="237583F7" type="String"/>
+			<field name="text_sndTurretOverheatEndSound" type="String"/>
 			<field name="sndTurretOverheatEndSound" type="BinHex"/>
 			<field name="sndtpTurretOverheatStartSoundType" type="BinHex"/>
 			<field name="sndtpTurretOverheatEndSoundType" type="BinHex"/>
@@ -5112,7 +5112,7 @@
 			<field name="fBeamScale" type="BinHex"/>
 			<field name="text_archArCloakArchetype" type="String"/>
 			<field name="archArCloakArchetype" type="BinHex"/>
-			<field hash="AF19DB8C" type="String"/>
+			<field name="text_archArCloakWeaponArchetype" type="String"/>
 			<field name="archArCloakWeaponArchetype" type="BinHex"/>
 			<object name="CanTrigger">
 				<field name="rulesmithidRule" type="BinHex"/>

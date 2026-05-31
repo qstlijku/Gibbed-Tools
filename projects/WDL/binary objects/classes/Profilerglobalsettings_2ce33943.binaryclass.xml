@@ -204,7 +204,7 @@
 	<field name="sndtpHackingDroneBroadcastSoundType" type="BinHex"/>
 	<field name="sndHackingDroneDropCargoSelectedSound" type="BinHex"/>
 	<field name="sndtpHackingDroneDropCargoSelectedSoundType" type="BinHex"/>
-	<field hash="043E600C" type="String"/>
+	<field name="text_sndHackingRCDeactivationTakedownSelectedSound" type="String"/>
 	<field name="sndHackingRCDeactivationTakedownSelectedSound" type="BinHex"/>
 	<field name="sndtpHackingRCDeactivationTakedownSelectedSoundType" type="BinHex"/>
 	<field name="text_sndHackingLeverageSoundId" type="String"/>
