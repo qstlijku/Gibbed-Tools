@@ -1,0 +1,4 @@
+generated\databases\generic\mk2bossdb_2ce33943.obj
+generated\databases\generic\entityconcealsettings_2ce33943.obj
+generated\databases\generic\zombiegameplaydata_2ce33943.obj
+generated\databases\generic\catalystspawningbank_2ce33943.obj

@@ -1,0 +1,15 @@
+ui\fire\sources\textures\04_menu_apps\apps_seesay\img_tile_bloom.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\img_1pxline.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\img_glass_small.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\img_tile_decoration.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\img_tile_glare.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\dedsec_graphic2.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\icon_reward.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\img_tile_outline.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\logo.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\icon_distance.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\img_darken_small.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\img_tile_outline_small.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\dedsec_graphic.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\titlebg.xbt
+ui\fire\sources\textures\04_menu_apps\apps_seesay\commentavatar_default.xbt

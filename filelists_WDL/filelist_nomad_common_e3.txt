@@ -1,0 +1,8 @@
+generated\databases\generic\bagleyhackeddb_2ce33943.obj
+generated\databases\generic\censusquirkdatabase_06b04e44.obj
+generated\databases\generic\cfxmanagerconfig_2ce33943.obj
+generated\databases\generic\closedcaptions.lib
+generated\databases\generic\roamingbossessettingsdb_2ce33943.obj
+generated\databases\generic\shootingrangelaneconfig.lib
+generated\databases\generic\uitraitsdb.lib
+generated\databases\generic\unitconfigpool.lib

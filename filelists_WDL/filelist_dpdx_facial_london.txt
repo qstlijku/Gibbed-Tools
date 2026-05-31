@@ -1,0 +1,3 @@
+graphics\characters\wd3\body_parts\facial\casted\female\facial_casted_f_00016.dpdx
+graphics\characters\wd3\body_parts\facial\casted\female\facial_casted_f_00019.dpdx
+graphics\characters\wd3\body_parts\facial\casted\male\facial_casted_m_00025.dpdx

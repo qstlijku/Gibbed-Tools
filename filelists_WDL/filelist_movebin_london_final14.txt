@@ -1,0 +1,14 @@
+move\decisiontrees\player-ai\abilityaiming\drvrlyr_locomotion_ability.move.bin
+move\decisiontrees\player-ai\abilityaiming\drvrlyr_locomotion_abilityaiming.move.bin
+move\decisiontrees\player-ai\abilityaiming\drvrlyr_locomotion_abilityaiming_cancelaim.move.bin
+move\decisiontrees\player-ai\abilityaiming\drvrlyr_locomotion_abilityaiming_release.move.bin
+move\decisiontrees\player-ai\abilityaiming\drvrlyr_locomotion_abilityaiming_tranin.move.bin
+move\decisiontrees\player-ai\abilityaiming\drvrlyr_locomotion_abilityaiming_useability.move.bin
+move\decisiontrees\player-ai\mk2_boss\mk2_boss_aoe_burst.move.bin
+move\decisiontrees\player-ai\mk2_boss\mk2_boss_fire_rockets.move.bin
+move\decisiontrees\player-ai\mk2_boss\mk2_boss_fullbody.move.bin
+move\decisiontrees\player-ai\mk2_boss\mk2_boss_phase_transitions.move.bin
+move\decisiontrees\player-ai\mk2_boss\mk2_boss_summon.move.bin
+move\decisiontrees\player-ai\pawn_invalid_animation.move.bin
+move\transitions\civilians\enticers\npc_sit-to-mindcontrol.move.bin
+move\transitions\civilians\enticers\npc_sitground-to-mindcontrol.move.bin

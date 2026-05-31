@@ -65,6 +65,7 @@ generated\missions\static_op_data\oco_051.opdata.rml
 generated\missions\static_op_data\oco_13_nf.opdata.rml
 generated\missions\static_op_data\oco_13nf.opdata.rml
 generated\missions\static_op_data\oco_35.opdata.rml
+generated\missions\static_op_data\opl_114.opdata.rml
 generated\missions\static_op_data\opl_601.opdata.rml
 generated\missions\static_op_data\opl_602.opdata.rml
 generated\missions\static_op_data\opl_603.opdata.rml

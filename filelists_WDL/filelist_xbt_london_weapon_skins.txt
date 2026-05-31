@@ -1,0 +1,11 @@
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_white_01_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_blue_01_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_gold_01_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_gold_02_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_red_01_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_red_02_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_rose_01_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_sand_01_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_tan_01_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_teal_01_albedo.xbt
+graphics\_texture\weapon\weapon_generic\skins\patterns\skin_yellow_01_albedo.xbt

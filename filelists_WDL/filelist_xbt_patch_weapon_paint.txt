@@ -1,0 +1,11 @@
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_deathsec.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_deathsec_mini.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_geometric_01_mini.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_geometric_03_mini.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_gold_01.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_gold_01_mini.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_gold_02.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_gold_02_mini.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_racing_01_mini.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_uniquereward_deathsec_02.xbt
+ui\fire\sources\textures\ingame\shops\menu_weapons\weapon_paintjobs\paint_uniquereward_deathsec_02_mini.xbt

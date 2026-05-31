@@ -1,0 +1,5 @@
+ui\fire\sources\textures\ingame\shops\menu_clothingthumbnails\thriftshop\ears_candycane00_base_a.xbt
+ui\fire\sources\textures\ingame\shops\menu_clothingthumbnails\thriftshop\ears_candycane00_greenwhite_01_a.xbt
+ui\fire\sources\textures\ingame\shops\menu_clothingthumbnails\thriftshop\ears_candycane00_redwhite_01_a.xbt
+ui\fire\sources\textures\ingame\shops\menu_clothingthumbnails\thriftshop\ucl_lay1_blouse00_ls_spring_01_d.xbt
+ui\fire\sources\textures\ingame\shops\menu_clothingthumbnails\thriftshop\ucl_legs_skirt00_s_spring_01_a.xbt

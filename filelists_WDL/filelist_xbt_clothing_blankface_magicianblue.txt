@@ -1,0 +1,2 @@
+graphics\characters\wd3\clothing\masks\maskblankface00\texture\ulc_mask_blankface00_magician_blue_01_a_c.xbt
+graphics\characters\wd3\clothing\masks\maskblankface00\texture\ulc_mask_blankface00_magician_blue_01_a_m.xbt

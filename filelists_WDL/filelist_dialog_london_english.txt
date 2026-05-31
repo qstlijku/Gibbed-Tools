@@ -1,0 +1,2 @@
+dialog\kamikaze_drone\kamikaze_drone.stimuli.dsc.pack.loc
+dialog\zcas_connierobinson_connie\zcas_connierobinson_connie.stimuli.dsc.pack.loc

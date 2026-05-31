@@ -1,0 +1,9 @@
+graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_collar_mina_00.skeleton
+graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_hood_up_ac_sim_00.skeleton
+graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_lay2_ac_smu_00.skeleton
+graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_mina_gloves_00_smu.skeleton
+graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_mina_poncho_sleeve_smu_00.skeleton
+graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_mina_poncho_smu_00.skeleton
+graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_straps_arms_ac_smu_00.skeleton
+graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_straps_legs_ac_smu_00.skeleton
+graphics\characters\wd3\skeletons\clothes\male\rfxrig_m_mina_gloves_00_smu.skeleton
