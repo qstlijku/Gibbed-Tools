@@ -1,1 +1,0 @@
-ui\fire\sources\textures\ingame\shops\menu_clothingthumbnails\thriftshop\ulc_shirtlynx00_01.xbt

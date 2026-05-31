@@ -1,3 +1,0 @@
-ui\fire\sources\textures\ingame\shops\menu_clothingthumbnails\thriftshop\ulc_maskkingarthur00_dark_01_a.xbt
-ui\fire\sources\textures\ingame\shops\menu_clothingthumbnails\thriftshop\ulc_maskkingarthur00_gold_01_a.xbt
-ui\fire\sources\textures\ingame\shops\menu_clothingthumbnails\thriftshop\ulc_shirtlynx00_01.xbt

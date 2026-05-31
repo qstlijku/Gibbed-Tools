@@ -6,4 +6,5 @@ graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_mina_poncho_sleeve_smu
 graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_mina_poncho_smu_00.skeleton
 graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_straps_arms_ac_smu_00.skeleton
 graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_straps_legs_ac_smu_00.skeleton
+graphics\characters\wd3\skeletons\clothes\female\rfxrig_f_susp_legs_ac_00.skeleton
 graphics\characters\wd3\skeletons\clothes\male\rfxrig_m_mina_gloves_00_smu.skeleton
