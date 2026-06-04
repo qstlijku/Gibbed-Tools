@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class name="UnknownDbA4879FE0Parameters">
+<class name="PhasestrategiesprofileParameters">
 	<field name="disNomadObjectId" type="BinHex"/>
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<object hash="8A3455DA">
-		<object hash="ED3027BB">
-			<field hash="040564EA" type="BinHex"/>
+	<object name="PhaseStrategies">
+		<object name="Strategy">
+			<field name="phasestrategysetStrategy" type="BinHex"/>
 		</object>
 	</object>
-	<object hash="9EBE83DF">
-		<object hash="498B0BB3">
-			<field hash="0E5BAA70" type="BinHex"/>
+	<object name="PhaseStrategiesSettings">
+		<object name="StrategySettings">
+			<field name="phasestrategysettingssetStrateySettings" type="BinHex"/>
 		</object>
 	</object>
 </class>

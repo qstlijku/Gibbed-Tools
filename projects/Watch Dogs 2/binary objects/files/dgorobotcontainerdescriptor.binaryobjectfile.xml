@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<file name="0xA4879FE0799B97B9">
+<file name="dgorobotcontainerdescriptor">
 	<object name="lib">
 		<object hash="72DE4948">
-			<inherit name="UnknownDbA4879FE0Parameters"/>
+			<inherit name="DgorobotcontainerdescriptorParameters"/>
 		</object>
 	</object>
 </file>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class name="UnknownDbBEBF04C3Parameters">
+<class name="RobotbossgameplaybrickParameters">
 	<field name="disNomadObjectId" type="BinHex"/>
 	<field name="hidSingleObject" type="Boolean"/>
 	<field name="hidKey" type="BinHex"/>
@@ -47,7 +47,7 @@
 	<field name="selHowToReactToEvent" type="BinHex"/>
 	<field name="itemlistsProgressionReward" type="BinHex"/>
 	<field name="vehiclebhvsetupVehicleWanderBhvSetup" type="BinHex"/>
-	<field hash="DEDFD9A3" type="BinHex"/>
+	<field name="clorobotcreationsettingsRobotCreationSettings" type="BinHex"/>
 	<field name="fMaxDistWithHacker" type="BinHex"/>
 	<field name="fDistFromEventToSwicthMode" type="BinHex"/>
 	<field name="fMinRadiusRatioFromEventPos" type="BinHex"/>
@@ -67,7 +67,7 @@
 	<object name="locstridEventFailedLocId">
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
-	<object hash="516DE3E9">
+	<object name="locstridEventFailedReasonPlayersEliminatedLocId">
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
 	<object name="locstridEventAbortedByAnotherPlayerLocId">
@@ -76,7 +76,7 @@
 	<object name="locstridWarningMessageHeaderWhenQuitSearchAreaLocId">
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
-	<object hash="6CABCF20">
+	<object name="locstridObjectiveLootRobotLocId">
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
 	<object name="locstridEventPropositionInputActionLocId">
@@ -91,10 +91,10 @@
 	<object name="locstridEventPropositionTitleLocId">
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
-	<object hash="9C9CF219">
+	<object name="locstridEventFailedReasonLootDestroyedLocId">
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
-	<object hash="BA12FD95">
+	<object name="locstridObjectiveDisableRobotLocId">
 		<field name="LocalizationId" type="BinHex"/>
 	</object>
 	<object name="locstridTutorialUseNetHackMessageWhenInCarLocId">

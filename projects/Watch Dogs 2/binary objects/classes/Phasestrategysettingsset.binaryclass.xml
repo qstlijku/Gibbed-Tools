@@ -6,7 +6,7 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="7E097FD4" type="BinHex"/>
-	<field hash="BB518E83" type="BinHex"/>
-	<field hash="CEB386D9" type="BinHex"/>
+	<field name="uPhaseNumer" type="BinHex"/>
+	<field name="phasestrategysettingsCombatPhaseStrategies" type="BinHex"/>
+	<field name="phasestrategysettingsDamagePhaseStrategies" type="BinHex"/>
 </class>

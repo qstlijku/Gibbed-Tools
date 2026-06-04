@@ -6,6 +6,6 @@
 	<field name="hidValidationFailed" type="Boolean"/>
 	<field name="text_hidName" type="String"/>
 	<field name="hidName" type="BinHex"/>
-	<field hash="3C369F5B" type="BinHex"/>
-	<field hash="49D49701" type="BinHex"/>
+	<field name="phasestrategydefDamagePhaseStrategies" type="BinHex"/>
+	<field name="phasestrategydefCombatPhaseStrategies" type="BinHex"/>
 </class>

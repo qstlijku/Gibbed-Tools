@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<file name="0xB8F179B5561A5393">
+<file name="robotbossgameplaybrick">
 	<object name="lib">
 		<object hash="72DE4948">
-			<inherit name="UnknownDbB8F179B5Parameters"/>
+			<inherit name="RobotbossgameplaybrickParameters"/>
 		</object>
 	</object>
 </file>
