@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PhasestrategydecoratorParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="5CCB1246">
+		<field name="selType" type="BinHex"/>
+		<field name="text_selType" type="BinHex"/>
+		<object name="Object">
+			<field hash="2B974135" type="BinHex"/>
+			<field hash="2ED6C065" type="BinHex"/>
+			<field hash="3163A0DE" type="BinHex"/>
+			<field hash="42EA7F29" type="BinHex"/>
+			<field hash="598FF2CA" type="BinHex"/>
+			<field hash="5B7B9E0E" type="BinHex"/>
+			<field hash="63D90119" type="BinHex"/>
+			<field hash="65B6376C" type="BinHex"/>
+			<field hash="7E41FBB6" type="BinHex"/>
+			<field hash="82539CC1" type="BinHex"/>
+			<field hash="8CBC56D5" type="BinHex"/>
+			<field hash="AE75EE76" type="BinHex"/>
+			<field hash="BF43458A" type="BinHex"/>
+			<field hash="CDE1730F" type="BinHex"/>
+			<field hash="F2B13D5B" type="BinHex"/>
+			<object hash="D691297D">
+				<object hash="4BBAAF45">
+					<object hash="B1117270">
+						<object name="Logic">
+							<field hash="2F9DD955" type="BinHex"/>
+							<field hash="34A5D1B0" type="BinHex"/>
+							<field hash="46FE87ED" type="BinHex"/>
+							<field hash="AB75BC57" type="BinHex"/>
+							<field name="bEnable" type="BinHex"/>
+						</object>
+						<object hash="53C51F10">
+							<field name="selButtonType" type="BinHex"/>
+							<field hash="8D803214" type="BinHex"/>
+							<field hash="BB6BAF07" type="BinHex"/>
+							<object name="locstridInteractionText">
+								<field name="LocalizationId" type="BinHex"/>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>

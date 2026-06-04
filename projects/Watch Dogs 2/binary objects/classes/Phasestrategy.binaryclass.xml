@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="PhasestrategyParameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="3A62205F">
+		<field name="selType" type="BinHex"/>
+		<field name="text_selType" type="BinHex"/>
+		<object name="Object">
+			<field hash="0D2CDBA3" type="BinHex"/>
+			<field name="sndActivationSound" type="BinHex"/>
+			<field hash="369288A2" type="BinHex"/>
+			<field hash="48EA9B0F" type="BinHex"/>
+			<field hash="4E9248A0" type="BinHex"/>
+			<field hash="545BDB24" type="BinHex"/>
+			<field hash="552AE295" type="BinHex"/>
+			<field hash="66ACED36" type="BinHex"/>
+			<field hash="8AA1E90A" type="BinHex"/>
+			<field hash="9BAD6B78" type="BinHex"/>
+			<field hash="9E9D3733" type="BinHex"/>
+			<field name="text_sndActivationSound" type="BinHex"/>
+			<field hash="A744D1C9" type="BinHex"/>
+			<field hash="AC6A0121" type="BinHex"/>
+			<field hash="BA98DDC1" type="BinHex"/>
+			<field hash="E2ADA8A3" type="BinHex"/>
+			<field hash="F68362AE" type="BinHex"/>
+			<field hash="FB46EEB9" type="BinHex"/>
+		</object>
+	</object>
+	<object hash="84EDE0BC">
+		<object hash="5CCB1246">
+			<field hash="4327123D" type="BinHex"/>
+		</object>
+	</object>
+</class>
