@@ -8,8 +8,8 @@
 	<field name="hidName" type="BinHex"/>
 	<object name="RewardOverrideInfos">
 		<object name="RewardOverrideInfo">
-			<field hash="D1287212" type="String"/>
-			<field hash="C2925E16" type="BinHex"/>
+			<field name="text_sId" type="String"/>
+			<field name="sId" type="BinHex"/>
 			<field name="texturedbobjectSmallImage" type="BinHex"/>
 			<field name="texturedbobjectBigImage" type="BinHex"/>
 			<object name="locstridName">

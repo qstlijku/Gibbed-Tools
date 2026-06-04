@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<file name="0xBEB64AA33D257388">
-	<object name="lib">
-		<object name="libobj">
-			<inherit name="ElementloftdbParameters"/>
-		</object>
-	</object>
-</file>
