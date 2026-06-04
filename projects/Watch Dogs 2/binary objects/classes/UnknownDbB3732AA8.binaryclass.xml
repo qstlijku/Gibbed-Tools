@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class name="UnknownDbB3732AA8Parameters">
+	<field name="disNomadObjectId" type="BinHex"/>
+	<field name="hidSingleObject" type="Boolean"/>
+	<field name="hidKey" type="BinHex"/>
+	<field name="hidValidationFailed" type="Boolean"/>
+	<field name="text_hidName" type="String"/>
+	<field name="hidName" type="BinHex"/>
+	<object hash="C99259EA">
+		<object hash="ECC84EA2">
+			<field hash="6FB41668" type="BinHex"/>
+			<field hash="C38BF66B" type="BinHex"/>
+			<object hash="772BAC1D">
+				<object hash="4064F2CC">
+					<field name="uielementsettingsUIElementSetting" type="BinHex"/>
+					<field name="uitweensettingTobiiCleanUITweenSetting" type="BinHex"/>
+					<field hash="D5006140" type="BinHex"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</class>
