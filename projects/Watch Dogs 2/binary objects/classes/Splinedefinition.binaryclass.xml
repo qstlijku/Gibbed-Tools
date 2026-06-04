@@ -62,6 +62,19 @@
 					<field name="folder" type="BinHex"/>
 					<field name="fSearchRadius" type="Float"/>
 				</object>
+				<object hash="ABBC1DE2">
+					<object hash="80102429">
+						<field name="fMaxDistanceToConnect" type="BinHex"/>
+					</object>
+					<object hash="1D04FC65">
+						<field hash="6197E32A" type="BinHex"/>
+						<field name="fMaxDistanceToConnect" type="BinHex"/>
+					</object>
+					<object hash="A426E9D2">
+						<field hash="237F1E0B" type="BinHex"/>
+						<field name="fMaxDistanceToConnect" type="BinHex"/>
+					</object>
+				</object>
 			</object>
 		</object>
 	</object>
@@ -135,6 +148,14 @@
 			<field name="hidValidationFailed" type="Boolean"/>
 			<field name="hidName" type="BinHex"/>
 			<field name="selSpeedLimit" type="BinHex"/>
+		</object>
+		<object hash="C494D80B">
+			<field hash="0DCABA56" type="BinHex"/>
+			<field hash="4FEAC15F" type="BinHex"/>
+			<field hash="D6D6AD34" type="BinHex"/>
+			<field name="selRailwayLineId" type="BinHex"/>
+			<field name="selVehicleType" type="BinHex"/>
+			<field hash="8946A538" type="BinHex"/>
 		</object>
 	</object>
 </class>
